@@ -1,5 +1,5 @@
 capital = 1852
-primary_culture = amhara
+primary_culture = zulu
 religion = coptic
 government = absolute_monarchy
 plurality = 0.0

@@ -852,4 +852,33 @@ push_col_pops = {
 		}
 	}
 
+prestige_to_afr = {
+		potential = {
+                        OR = { 
+                        tag = GAF
+                        tag = AAF
+                        tag = FAF
+                        tag = EAF
+                        tag = IAF
+                        tag = RAF
+                        tag = TAF
+                        tag = UAF
+                        tag = JAF
+                        tag = BAF
+                        tag = NAF
+                        tag = PAF 
+                        tag = MAF 
+                        tag = SCF
+                        tag = SPF
+                        }
+		}
+		allow = {
+                        is_greater_power = no
+		        is_secondary_power = no	          
+		}
+		effect = {
+                        prestige = 2
+		}
+	}
+
 }

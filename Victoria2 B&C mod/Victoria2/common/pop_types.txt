@@ -900,16 +900,20 @@ assimilation_chance =
 
 	modifier = {
     	factor = 1
-		has_culture_core = yes
-                
+		has_culture_core = yes                
 	}
+        modifier = {
+        factor = -100      
+                culture = zulu
+        }
+        factor = -100      
+                culture = afro_american
+        }
+        factor = -100      
+                culture = afro_brazilian
+        }
 	modifier = {
-        factor = 20
-               
-
-                  
-                   
-                
+        factor = 20      
                 culture = polish
         }
 

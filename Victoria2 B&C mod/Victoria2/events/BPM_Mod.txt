@@ -9,7 +9,7 @@ country_event = {
 		year = 1844
 	}
 	mean_time_to_happen = {
-		days = 720
+		days = 1
 	}
 	option = {
 		name = "1"
@@ -19,7 +19,7 @@ country_event = {
 			}
 			add_province_modifier = {
 					name = ire_disaster
-					duration = 1440
+					duration = 1805
 			}
 		}
 	}
