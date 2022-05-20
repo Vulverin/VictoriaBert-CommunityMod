@@ -1,0 +1,6 @@
+owner = BUN
+controller = BUN
+add_core = HND
+add_core = BUN
+trade_goods = grain
+life_rating = 35

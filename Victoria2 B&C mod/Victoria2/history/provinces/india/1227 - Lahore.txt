@@ -1,0 +1,12 @@
+owner = PAN
+controller = PAN
+add_core = PAN
+#add_core = HND
+trade_goods = cotton
+life_rating = 35
+terrain = city_958
+1861.1.1 = {
+	owner = HND
+	controller = HND
+	#colonial = 2
+}

@@ -1,0 +1,44 @@
+political_decisions = {
+conscription_back_1year = {
+	alert = no 
+	potential = {
+		AI = no
+		conscription = no_draft
+	}
+	allow = {
+		war = yes
+	}
+	effect = {
+		political_reform = 1_years_draft
+		militancy = 0.55
+	}
+}
+conscription_back_4years = {
+	alert = no 
+	potential = {
+		AI = no
+		conscription = 1_years_draft
+	}
+	allow = {
+		war = yes
+	}
+	effect = {
+		political_reform = 4_years_draft
+		militancy = 0.55
+	}
+}
+conscription_back_7years = {
+	alert = no 
+	potential = {
+		AI = no
+		conscription = 4_years_draft
+	}
+	allow = {
+		war = yes
+	}
+	effect = {
+		political_reform = 7_years_draft
+		militancy = 0.55
+	}
+}
+}

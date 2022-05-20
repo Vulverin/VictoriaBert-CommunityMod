@@ -1,0 +1,329 @@
+political_decisions = {
+ind_comps_des_on = { 
+	alert = no 
+        potential = {
+             OR = {
+                    BOC = {
+                          vassal_of = THIS
+                    }
+                    FOC = {
+                          vassal_of = THIS
+                    }
+             } 
+             not = { 
+                   has_country_flag = ind_comps_des_window
+                   has_country_modifier = ind_clique
+                   exists = HND
+             } 
+			
+        } 
+	allow = { ai = no } 
+	effect = { set_country_flag = ind_comps_des_window } 
+	}
+        ind_comps_des_off = {
+	alert = no 
+        potential = { has_country_flag = ind_comps_des_window } 
+	allow = { ai = no } 
+	effect = { clr_country_flag = ind_comps_des_window }
+	}
+        mugulistan_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = MUG
+                        MUG = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = MUG
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+        orissa_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = ORI
+                        ORI = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = ORI
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+        awadh_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = AWA
+                        ORI = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = AWA
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+        jaipur_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = JAI
+                        ORI = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = JAI
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+        beroda_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = BER
+                        ORI = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = BER
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+        nagpur_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = NAG
+                        ORI = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = NAG
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+        mewar_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = MEW
+                        ORI = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = MEW
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+        hydebarad_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = HYD
+                        ORI = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = HYD
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+        mysur_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = MYS
+                        ORI = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = MYS
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+        bundelkand_clique = {
+              potential = {
+                        has_country_flag = ind_comps_des_window
+                        NOT = {
+                              has_country_modifier = ind_clique
+                        }
+                        exists = BUN
+                        ORI = {
+                            is_vassal = no
+                        }
+              }
+              allow = {
+              }
+              effect = {
+                        add_country_modifier = {
+                                  name = ind_clique
+                                  duration = 1825
+                        }
+                  war = {
+			target = BUN
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		  }
+              }
+        }
+}

@@ -1,0 +1,275 @@
+political_decisions = {
+	restore_mexican_empire = {
+		potential = {
+			tag = MEX
+			government = democracy
+			liberal = 20
+			NOT = {
+				has_country_flag = we_have_tried_this_once
+			}
+		}
+		allow = {
+			OR = {
+				ruling_party_ideology = conservative
+				ruling_party_ideology = reactionary
+			}
+			conservative = 40
+			average_militancy = 4
+		}
+		effect = {
+			government = hms_government
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 8
+				}
+			}
+			set_country_flag = we_have_tried_this_once
+		}
+	}
+
+        mexican_republic_government = {
+		 potential = {
+			tag = MEX
+			NOT = {
+				has_country_flag = mex_rep_reform
+			}
+		}
+		allow = {
+			year = 1845
+                        ruling_party_ideology = liberal
+		}
+		effect = {
+			add_country_modifier = {
+				name = global_liberal_agitation
+				duration = 730
+			}
+                        country_event = { id=60050 days=0 }
+                        political_reform = free_press
+                        political_reform = universal_weighted_voting
+			set_country_flag = mex_rep_reform
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = no
+			}
+		}
+	}
+
+        mex_pops = {
+                 potential = {
+                        tag = MEX
+                        NOT = {
+                               has_country_flag = mex_core33
+                        }
+                 }
+                 allow = {
+                          year = 1840
+                          money = 500000
+                 }
+                 effect = {
+                         add_country_modifier = {
+                               name = mexican_pops_growth
+                               duration = 14600
+                         }
+                         money = -500000
+                         set_country_flag = mex_core33
+                 }
+        }
+
+        to_the_future = { 
+		potential = {
+			tag = MEX
+                        ai = no
+			NOT = {
+				has_country_flag = we_have_tried_this_once2
+			}
+		
+		owns = 84
+		owns = 85
+		owns = 86
+		owns = 87
+		owns = 88
+		owns = 89
+		owns = 90
+		owns = 94
+		owns = 95
+		owns = 96
+		owns = 97
+		owns = 98
+		owns = 99
+		owns = 100
+		owns = 101
+		owns = 102
+		owns = 103
+		owns = 104
+		owns = 105
+		owns = 136
+		owns = 138
+		}
+		allow = {
+                         year = 1840
+                } 
+		effect = {
+			prestige = 50
+			badboy = -10
+			84 = { 
+				remove_core = MEX
+				add_core = USA
+				secede_province = USA
+		        }
+			85 = { 	remove_core = MEX
+				add_core = USA
+				secede_province = USA
+		        }
+			86 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			87 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			88 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			89 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			90 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			94 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			95 = {  remove_core = MEX
+				add_core = USA
+ 				secede_province = USA
+			}
+			96 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			97 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			98 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			99 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			100 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			101 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			102 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			103 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			104 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			105 = {  remove_core = MEX
+				add_core = USA
+				secede_province = USA
+			}
+			133 = {
+                               remove_core = MEX
+			       add_core = USA
+			       secede_province = USA
+                        }
+			134 = {
+                               remove_core = MEX
+			       add_core = USA
+			       secede_province = USA
+                        }
+			135 = {
+                               remove_core = MEX
+			       add_core = USA
+			       secede_province = USA
+                        } 
+			137 = {
+                               remove_core = MEX
+			       add_core = USA
+			       secede_province = USA
+                        }
+			136 = { 
+                               remove_core = MEX
+			       add_core = USA
+			       secede_province = USA
+		        }
+			138 = { 
+                               remove_core = MEX
+			       add_core = USA
+			       secede_province = USA
+			}
+			set_country_flag = we_have_tried_this_once2
+		}
+	}
+
+        mex_tex = {
+                 potential = {
+                        tag = MEX
+                        NOT = {
+                               has_country_flag = mex_core2
+                        }
+                 }
+                 allow = {
+                          year = 1838
+                 }
+                 effect = {
+                         TEX = {
+                                   all_core = {
+				          add_core = MEX
+			           }
+                         }
+                         set_country_flag = mex_core2
+                 }
+        }
+        
+        mexican_army_power = {
+		 potential = {
+			tag = MEX
+			NOT = {
+				has_country_flag = mex_arm_pwr
+			}
+		}
+		allow = {
+			year = 1840
+		}
+		effect = {
+			add_country_modifier = {
+				name = mexican_general_staff
+				duration = 14600
+			}
+			prestige = 5
+			set_country_flag = mex_arm_pwr
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = no
+			}
+		}
+	}
+}

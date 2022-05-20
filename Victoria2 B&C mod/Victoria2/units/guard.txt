@@ -1,0 +1,45 @@
+guard = {
+	icon = 18
+	
+	type = land
+	sprite = Guard
+	active = no
+	unit_type = infantry
+	primary_culture = yes
+	floating_flag = no
+	fort = {
+	defence = 0.5
+	}
+
+	#Core Abilities
+	priority = 18
+	max_strength = 3
+	default_organisation = 40
+	maximum_speed = 4.00
+	weighted_value = 9.0
+
+
+	#Building Costs
+	build_time = 160
+	build_cost = {
+		regular_clothes = 50
+		small_arms = 50
+		canned_food = 40
+	}
+	
+	supply_consumption = 1.1
+	supply_cost = {
+		small_arms = 0.01
+		canned_food = 0.15
+		ammunition = 0.1
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 10
+	defence = 11
+	discipline = 1.0
+	support = 0.0
+	maneuver = 2
+}

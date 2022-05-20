@@ -1,0 +1,26 @@
+army = {
+	name = "Армия Гаити"
+	location = 2213
+	regiment = {
+		name= "1. Бригада"
+		type = infantry
+		home = 2213
+	}
+
+	regiment = {
+		name= "2. Бригада"
+		type = infantry
+		home = 2215
+	}
+}
+
+navy = {
+	name = "Флот Гаити"
+	location = 2213
+	ship = {
+		name= "Гаити"
+		type = frigate
+	}
+
+}
+

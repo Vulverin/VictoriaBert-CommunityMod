@@ -1,0 +1,17 @@
+army = {
+	name = "Армия Черногории"
+	location = 2583
+	regiment = {
+		name= "1-я бригада"
+		type = infantry
+		home = 2583
+	}
+
+	regiment = {
+		name= "2-я бригада"
+		type = infantry
+		home = 2583
+	}
+
+}
+

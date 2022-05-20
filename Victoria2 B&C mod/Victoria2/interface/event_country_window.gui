@@ -1,0 +1,91 @@
+guiTypes = {
+	windowType = {
+		name = "Event_Country_Window"
+		backGround="Background"
+		position = { x=-282 y=-310 }	
+		size = { x=704 y=620 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		Orientation = "CENTER"
+		
+		guiButtonType = {
+			name = "Background"	
+			quadTextureSprite ="GFX_event_country_bg"
+		}
+		
+		iconType =
+		{
+			name ="event_images"
+			spriteType = "GFX_event_no_image"
+			position = { x= 29 y = 178 }
+			Orientation = "UPPER_LEFT"
+		}	
+		
+		instantTextBoxType = {
+				name = "Title"
+				position = { x = 20 y = 45 }
+				textureFile = ""
+				font = "vic_headline"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 520
+				maxHeight = 220
+
+				format = centre
+			}
+			
+		instantTextBoxType = {
+			name = "Date"
+			position = { x = 0 y = 80 }
+			textureFile = ""
+			font = "vic_headline"
+			borderSize = {x = 0 y = 0}
+			text = "26th of March, 1836"	
+			maxWidth = 550
+			maxHeight = 120
+
+			format = right
+		}
+		
+		instantTextBoxType = {
+				name = "Description"
+				position = { x = -2229 y = -2300 }
+				textureFile = ""
+				font = "vic_18_headline"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 534
+				maxHeight = 120
+
+				Orientation = "UPPER_LEFT"
+			}
+		
+		
+		
+	}
+	guiButtonType = {
+		name = "Event_Country_OptionButton"
+		position = { x=447 y =30}
+		quadTextureSprite ="GFX_event_country_button"
+		tooltip = ""
+		tooltipText =""
+		delayedTooltipText = ""
+		buttonText = "I Do."
+		buttonFont = "vic_headline"
+	}
+	
+	positionType = {
+		name = "event_country_option_start"
+		position = { x = 31 y = 483 }
+	}
+
+	positionType = {
+		name = "event_country_option_offset"
+		position = { x = 0 y = 30 }
+	}
+	
+
+}

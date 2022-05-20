@@ -1,0 +1,666 @@
+#massive_march
+mobilisation_tech_1 = {
+	area = massive_march
+	year = 1830
+	cost = 4000
+	unciv_military = yes
+	mobilisation_size = 0.01
+}	
+	
+mobilisation_tech_2 = {
+	area = massive_march
+	year = 1840
+	cost = 5000
+	unciv_military = yes
+	mobilisation_size = 0.02
+        
+}
+	
+mobilisation_tech_3 = {
+	area = massive_march
+	year = 1846
+	cost = 6000
+	unciv_military = yes
+	mobilisation_size = 0.02
+}
+	
+mobilisation_tech_4 = {
+	area = massive_march
+	year = 1851
+	cost = 7000
+	unciv_military = yes
+	mobilisation_size = 0.02
+}	
+
+mobilisation_tech_5 = {
+	area = massive_march
+	year = 1856
+	cost = 8000
+	unciv_military = yes
+	mobilisation_size = 0.02
+}	
+
+mobilisation_tech_6 = {
+	area = massive_march
+	year = 1861
+	cost = 8000
+	unciv_military = yes
+        mobilisation_size = 0.02
+}	
+
+mobilisation_tech_7 = {
+	area = massive_march
+	year = 1866
+	cost = 10000
+	unciv_military = yes
+	mobilisation_size = 0.02
+}	
+
+mobilisation_tech_8 = {
+	area = massive_march
+	year = 1871
+	cost = 11000
+	unciv_military = yes
+	mobilisation_size = 0.01
+}	
+
+mobilisation_tech_9 = {
+	area = massive_march
+	year = 1876
+	cost = 13000
+	unciv_military = yes
+	mobilisation_size = 0.01
+}	
+
+mobilisation_tech_10 = {
+	area = massive_march
+	year = 1881
+	cost = 15000
+	unciv_military = yes
+	mobilisation_size = 0.01
+}
+	
+mobilisation_tech_11 = {
+	area = massive_march
+	year = 1886
+	cost = 17000
+	unciv_military = yes
+	mobilisation_size = 0.02
+}	
+
+#defensive_march
+medicine_tech_1 = {
+	area = defensive_march
+	year = 1830
+	cost = 4000
+	unciv_military = yes
+    
+        pop_growth = 0.0002
+
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+        
+		
+	
+        
+}
+
+medicine_tech_2 = {
+	area = defensive_march
+	year = 1840
+	cost = 5000
+	unciv_military = yes
+		
+	pop_growth = 0.0002
+
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+        
+}
+
+medicine_tech_3 = {
+	area = defensive_march
+	year = 1846
+	cost = 6000
+	unciv_military = yes
+		
+	pop_growth = 0.0001
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+}
+
+medicine_tech_4 = {
+	area = defensive_march
+	year = 1851
+	cost = 7000
+	unciv_military = yes
+		
+	pop_growth = 0.0001
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+}
+
+medicine_tech_5 = {
+	area = defensive_march
+	year = 1856
+	cost = 9000
+	unciv_military = yes
+		
+	pop_growth = 0.0001
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+}
+
+medicine_tech_6 = {
+	area = defensive_march
+	year = 1861
+	cost = 10000
+	unciv_military = yes
+		
+        pop_growth = 0.0001
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+}
+
+medicine_tech_7 = {
+	area = defensive_march
+	year = 1868
+	cost = 11000
+	unciv_military = yes
+		
+	pop_growth = 0.0002
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+}
+medicine_tech_8 = {
+	area = defensive_march
+	year = 1874
+	cost = 12000
+	unciv_military = yes
+		
+	pop_growth = 0.0001
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+}
+
+medicine_tech_9 = {
+	area = defensive_march
+	year = 1880
+	cost = 13000
+	unciv_military = yes
+		
+	pop_growth = 0.0001
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+}
+
+medicine_tech_10 = {
+	area = defensive_march
+	year = 1886
+	cost = 15000
+	unciv_military = yes
+	
+	pop_growth = 0.0001
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+}
+
+medicine_tech_11 = {
+	area = defensive_march
+	year = 1892
+	cost = 17000
+	unciv_military = yes
+		
+	pop_growth = 0.0001
+        ai_chance = {
+		factor = 20
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }  
+}
+
+#blitzmarch
+military_tech_1 = {
+	area = blitzmarch
+	year = 1830
+	cost = 3000
+	unciv_military = yes
+        activate_building = fort
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_2 = {
+	area = blitzmarch
+	year = 1840
+	cost = 6000
+	unciv_military = yes
+        max_fort = 1
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_3 = {
+	area = blitzmarch
+	year = 1850
+	cost = 9000
+	unciv_military = yes
+        max_fort = 1
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_4 = {
+	area = blitzmarch
+	year = 1860
+	cost = 11000
+	unciv_military = yes
+        max_fort = 1
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_5 = {
+	area = blitzmarch
+	year = 1870
+	cost = 15000
+	unciv_military = yes
+        max_fort = 1
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_6 = {
+	area = blitzmarch
+	year = 1880
+	cost = 18000
+	unciv_military = yes
+        max_fort = 1
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_7 = {
+	area = blitzmarch
+	year = 1890
+	cost = 21000
+	unciv_military = yes
+        
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_8 = {
+	area = blitzmarch
+	year = 1900
+	cost = 24000
+	unciv_military = yes
+        
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_9 = {
+	area = blitzmarch
+	year = 1910
+	cost = 26000
+	unciv_military = yes
+        
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_10 = {
+	area = blitzmarch
+	year = 1920
+	cost = 29000
+	unciv_military = yes
+        
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+military_tech_11 = {
+	area = blitzmarch
+	year = 1930
+	cost = 31000
+	unciv_military = yes
+        
+		
+	army_base = {
+		supply_consumption = -0.20
+	}
+        
+}
+
+#naval_march
+naval_tech_1 = {
+       area = naval_march
+       year = 1830
+       cost = 3000
+
+       activate_building = naval_base
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+naval_tech_2 = {
+       area = naval_march
+       year = 1840
+       cost = 6000
+
+       max_naval_base = 1
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+naval_tech_3 = {
+       area = naval_march
+       year = 1850
+       cost = 9000
+
+       max_naval_base = 1
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+naval_tech_4 = {
+       area = naval_march
+       year = 1860
+       cost = 12000
+
+       max_naval_base = 1
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+naval_tech_5 = {
+       area = naval_march
+       year = 1870
+       cost = 15000
+
+       max_naval_base = 1
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+naval_tech_6 = {
+       area = naval_march
+       year = 1880
+       cost = 18000
+
+       max_naval_base = 1
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+naval_tech_7 = {
+       area = naval_march
+       year = 1890
+       cost = 21000
+
+       max_naval_base = 1
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+naval_tech_8 = {
+       area = naval_march
+       year = 1900
+       cost = 23000
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+naval_tech_9 = {
+       area = naval_march
+       year = 1910
+       cost = 24000
+
+       navy_base = {
+		supply_consumption = -0.2
+	}
+}
+naval_tech_10 = {
+       area = naval_march
+       year = 1920
+       cost = 27000
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+naval_tech_11 = {
+       area = naval_march
+       year = 1930
+       cost = 30000
+
+       navy_base = {
+		supply_consumption = -0.25
+	}
+}
+
+#focus_idea
+focus_idea_tech_1 = {
+       area = focus_idea
+       year = 1830
+       cost = 4000
+       max_national_focus = 4
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }   
+}
+focus_idea_tech_2 = {
+       area = focus_idea
+       year = 1840
+       cost = 6000
+       max_national_focus = 4
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }    
+}
+focus_idea_tech_3 = {
+       area = focus_idea
+       year = 1850
+       cost = 8000
+       max_national_focus = 4 
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }   
+}
+focus_idea_tech_4 = {
+       area = focus_idea
+       year = 1860
+       cost = 12000
+       max_national_focus = 4
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }    
+}
+focus_idea_tech_5 = {
+       area = focus_idea
+       year = 1870
+       cost = 15000
+       max_national_focus = 4
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }    
+}
+focus_idea_tech_6 = {
+       area = focus_idea
+       year = 1880
+       cost = 18000
+       max_national_focus = 4 
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }   
+}
+focus_idea_tech_7 = {
+       area = focus_idea
+       year = 1890
+       cost = 20000
+       max_national_focus = 4
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }    
+}
+focus_idea_tech_8 = {
+       area = focus_idea
+       year = 1900
+       cost = 22000
+       max_national_focus = 2
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }    
+}
+focus_idea_tech_9 = {
+       area = focus_idea
+       year = 1910
+       cost = 24000
+       max_national_focus = 2
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }    
+}
+focus_idea_tech_10 = {
+       area = focus_idea
+       year = 1920
+       cost = 26000
+       max_national_focus = 2
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }    
+}
+focus_idea_tech_11 = {
+       area = focus_idea
+       year = 1930
+       cost = 28000
+       max_national_focus = 2
+       ai_chance = {
+		factor = 10
+                modifier = {
+                           factor = 1.5
+                           civilized = yes
+               }
+        }    
+}

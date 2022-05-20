@@ -1,0 +1,755 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+
+
+#########################################
+
+trinket_health_care_fully_funded = {
+    trigger = {
+        exists = yes
+        health_care = trinket_health_care
+        administration_spending = 0.7
+    }
+    global_population_growth = 0.001
+    icon = 19
+}
+
+low_health_care_fully_funded = {
+    trigger = {
+        exists = yes
+        health_care = low_health_care
+        OR = {
+            AND = {
+                ai = yes
+                administration_spending = 0.25
+            }
+            AND = {
+                ai = no
+                administration_spending = 0.8
+            }
+        }
+    }
+    global_population_growth = 0.002
+    icon = 19
+}
+
+acceptable_health_care_fully_funded = {
+    trigger = {
+        exists = yes
+        health_care = acceptable_health_care
+        OR = {
+            AND = {
+                ai = yes
+                administration_spending = 0.3
+            }
+            AND = {
+                ai = no
+                administration_spending = 0.9
+            }
+        }
+    }
+    global_population_growth = 0.003
+    icon = 19
+}
+
+good_health_care_fully_funded = {
+    trigger = {
+        exists = yes
+        health_care = good_health_care
+        OR = {
+            AND = {
+                ai = yes
+                administration_spending = 0.3
+            }
+            AND = {
+                ai = no
+                administration_spending = 0.99
+            }
+        }
+    }
+    global_population_growth = 0.004
+    icon = 19
+}
+
+low_schools_fully_funded = {
+    trigger = {
+        exists = yes
+        school_reforms = low_schools
+        education_spending = 0.80
+    }
+    education_efficiency_modifier = 0.1
+    icon = 19
+}
+
+acceptable_schools_fully_funded = {
+    trigger = {
+        exists = yes
+        school_reforms = acceptable_schools
+        education_spending = 0.90
+    }
+    education_efficiency_modifier = 0.15
+    icon = 19
+}
+
+good_schools_fully_funded = {
+    trigger = {
+        exists = yes
+        school_reforms = good_schools
+        education_spending = 0.99
+    }
+    education_efficiency_modifier = 0.25
+    icon = 19
+}
+
+small_but_efficient = {
+    trigger = {
+        exists = yes
+	ai = no
+        civilized = yes
+        NOT = { number_of_states = 4 }
+        NOT = { num_of_cities = 8 }
+        NOT = { total_pops = 1000000 }
+    }
+
+    icon = 9
+    tax_efficiency = 0.5
+    education_efficiency_modifier = 0.2
+    RGO_output = 0.4
+    factory_output = 0.4
+    administrative_efficiency_modifier = 0.4
+    tariff_efficiency_modifier = 0.4
+    supply_consumption = -0.95
+}
+arising_prussia = {
+	trigger = {
+                exists = yes
+                capital = 549
+		NOT = {
+                        year = 1870
+			owns = 599
+                        owns = 589
+                        owns = 586
+		}
+	}
+        mobilisation_size = 0.03
+	land_organisation = 0.1
+	mobilization_economy_impact = -0.5
+	war_exhaustion = -0.05
+	supply_consumption = -0.35
+	tax_efficiency = 0.1
+        tariff_efficiency_modifier = 0.1
+        RGO_output = 0.2
+        factory_output = 0.2
+        global_population_growth = 0.003
+}
+tpg_boost = {
+        trigger = {
+		exists = yes
+                tag = TPG
+	}
+        research_points_modifier = 0.5
+        tax_eff = 0.3
+	land_organisation = 0.4
+        org_regain = 0.5
+	naval_organisation = 0.4
+	leadership_modifier = 0.7
+	global_pop_militancy_modifier = -0.02
+	factory_output = 0.3
+	mobilisation_size = 0.05
+        mobilisation_economy_impact = -1.0
+        supply_consumption = -0.9
+        war_exhaustion = -0.2
+}
+boc_boost = {
+        trigger = {
+                ai = yes
+		exists = yes
+                capital = 1251
+	}
+        research_points_modifier = 0.5
+        tax_eff = 0.3
+	land_organisation = 0.4
+        org_regain = 0.5
+	naval_organisation = 0.4
+	leadership_modifier = 0.7
+	global_pop_militancy_modifier = -0.02
+	factory_output = 0.2
+	mobilisation_size = 0.05
+        mobilisation_economy_impact = -1.0
+        supply_consumption = -0.9
+        war_exhaustion = -0.2
+}
+sic_boost = {
+        trigger = {
+		exists = yes
+                ai = yes
+		capital = 754
+	}
+        research_points_modifier = 0.5
+        tax_eff = 0.3
+	land_organisation = 0.4
+        org_regain = 0.5
+	naval_organisation = 0.4
+	leadership_modifier = 0.7
+	global_pop_militancy_modifier = -0.02
+	factory_output = 0.3
+        mobilisation_economy_impact = -1.0
+        supply_consumption = -0.9
+        war_exhaustion = -0.2
+}
+foc_boost = {
+        trigger = {
+		exists = yes
+		capital = 1312
+	}
+        research_points_modifier = 0.5
+        tax_eff = 0.3
+	land_organisation = 0.4
+        org_regain = 0.5
+	naval_organisation = 0.4
+	leadership_modifier = 0.7
+	global_pop_militancy_modifier = -0.02
+	factory_output = 0.3
+	mobilisation_size = 0.05
+        mobilisation_economy_impact = -1.0
+        supply_consumption = -0.9
+        war_exhaustion = -0.2
+}
+
+csa_boost = {
+	trigger = {
+		exists = yes
+		capital = 211
+		NOT = {
+			year = 1865
+		}
+	}
+        research_points_modifier = 0.5
+        tax_eff = 0.3
+	land_organisation = 0.4
+        org_regain = 0.5
+	naval_organisation = 0.4
+	leadership_modifier = 0.7
+	global_pop_militancy_modifier = -0.02
+	factory_output = 0.3
+	mobilisation_size = 0.2
+        mobilisation_economy_impact = -1.0
+        supply_consumption = -0.95
+        war_exhaustion = -0.2
+}
+
+brazil_boost = {
+	trigger = {
+		exists = yes
+		capital = 2447
+	}
+	tax_eff = 0.2
+        factory_output = 0.20
+}
+
+china_boost = {
+	trigger = {
+		exists = yes
+		capital = 1612
+                civilized = no
+	}
+	tax_eff = 0.05
+	land_organisation = 0.25
+	supply_consumption = -0.25
+	global_pop_militancy_modifier = -0.02
+}
+is_vassal_state = {
+	trigger = {
+		exists = yes
+		is_vassal = yes
+	}
+	prestige = -0.2
+}
+
+AI_boost = {
+	trigger = {
+		AI = yes
+	}
+	badboy = -0.1
+	land_organisation = 0.25
+	naval_organisation = 0.25
+	leadership_modifier = 0.5
+	global_pop_militancy_modifier = -0.02
+	factory_output = 0.20
+}
+Iran_boost = {
+	trigger = {
+		exists = yes
+		capital = 1121
+	}
+	research_points_modifier = 1
+	land_organisation = 0.1
+	supply_consumption = -0.3
+	leadership_modifier = 0.5
+	war_exhaustion = -0.1
+}
+
+######Gvrnmts
+government_proletarian_dictatorship = {
+	trigger = {
+		exists = yes
+		government = proletarian_dictatorship
+	}
+        culture_tech_research_bonus = 0.1
+	factory_output = 0.1
+	mobilisation_size = 0.02
+	global_assimilation_rate = 0.2
+	war_exhaustion = -0.02
+        industry_tech_research_bonus = 0.1
+        import_cost = 0.15
+        mobilisation_size = 0.02
+}
+government_presidential_dictatorship = {
+	trigger = {
+		exists = yes
+		government = presidential_dictatorship
+	}
+        mobilization_economy_impact = -0.5
+	land_organisation = 0.05
+	global_pop_militancy_modifier = -0.02
+        industry_tech_research_bonus = 0.1
+	commerce_tech_research_bonus = 0.1
+        mobilisation_size = 0.02
+}
+government_bourgeois_dictatorship = {
+	trigger = {
+		exists = yes
+		government = bourgeois_dictatorship
+	}
+	factory_output = 0.15
+	factory_input = -0.1
+	import_cost = -0.15
+	industry_tech_research_bonus = 0.1
+	commerce_tech_research_bonus = 0.1
+        mobilisation_size = 0.02
+}
+government_fascist_dictatorship = {
+	trigger = {
+		exists = yes
+		government = fascist_dictatorship
+	}
+	mobilization_economy_impact = -0.5
+	land_organisation = 0.1
+	factory_input = -0.1
+	core_pop_militancy_modifier = -0.02
+	army_tech_research_bonus = 0.1
+	doctrine_tech_research_bonus = 0.1
+	badboy = -0.2
+	war_exhaustion = -0.02
+        global_assimilation_rate = -0.5
+        mobilisation_size = 0.02
+}
+government_absolute_monarchy = {
+	trigger = {
+		exists = yes
+		government = absolute_monarchy
+	}
+        army_tech_research_bonus = 0.1
+        doctrine_tech_research_bonus = 0.1
+	land_organisation = 0.1
+	org_regain = 0.05
+	badboy = -0.1
+	RGO_output = 0.05
+        mobilisation_size = 0.02
+}
+government_prussian_constitutionalism = {
+	trigger = {
+		exists = yes
+		government = prussian_constitutionalism
+	}
+        army_tech_research_bonus = 0.1
+        doctrine_tech_research_bonus = 0.1
+	land_organisation = 0.1
+	org_regain = 0.05
+	RGO_output = 0.05
+        badboy = -0.05
+        mobilisation_size = 0.02
+}
+government_hms_government = {
+	trigger = {
+		exists = yes
+		government = hms_government
+	}
+        commerce_tech_research_bonus = 0.15
+	culture_tech_research_bonus = 0.15
+	land_organisation = -0.1
+	import_cost = -0.15
+	factory_output = 0.1
+	issue_change_speed = 0.2
+	leadership_modifier = 0.1
+	ruling_party_support = -0.1
+        prestige = 0.01
+        mobilisation_size = 0.02
+}
+government_democracy = {
+	trigger = {
+		exists = yes
+		government = democracy
+	}
+	commerce_tech_research_bonus = 0.2
+	culture_tech_research_bonus = 0.1
+	land_organisation = -0.1
+	import_cost = -0.1
+	factory_output = 0.2
+	issue_change_speed = 0.2
+	leadership_modifier = 0.1
+	ruling_party_support = -0.1
+        prestige = 0.02
+        mobilisation_size = 0.02
+}
+
+industrial_society = {
+        trigger = {
+               
+                has_country_flag = agr_soccs3
+        }
+        icon = 18
+        research_points_modifier = 0.5
+        factory_output = 0.20
+        RGO_output = 0.20
+        mine_rgo_eff = 0.3
+	farm_rgo_eff = -0.2
+        factory_owner_cost = -0.3
+        icon = 13        
+}
+
+post_agricultural_society = {
+        trigger = {
+             has_country_flag = agr_soccs2
+        }
+        icon = 18
+        factory_input = 0.05
+        factory_output = -0.15
+        RGO_output = -0.15
+        mine_rgo_eff = -0.15
+	farm_rgo_eff = 0.10
+        factory_owner_cost = 0.15
+        icon = 13        
+}
+
+agricultural_society = {
+        trigger = {
+                NOT = {
+                      has_country_flag = agr_soccs2
+                      has_country_flag = agr_soccs3
+                }
+        }
+        icon = 18
+        factory_input = 0.1
+        factory_output = -0.30
+        RGO_output = -0.30
+        mine_rgo_eff = -0.3
+	farm_rgo_eff = 0.20
+        factory_owner_cost = 0.3
+        icon = 13        
+}
+
+grand_navy5 = {
+	trigger = {
+             total_amount_of_ships = 400
+        }
+        import_cost = -0.1
+	prestige = 0.15
+	icon = 9
+}
+
+grand_navy4 = {
+	trigger = {
+           total_amount_of_ships = 300
+           NOT = {
+	      total_amount_of_ships = 400
+	   }
+        }
+        import_cost = -0.1
+	prestige = 0.1
+	icon = 9
+}
+
+grand_navy3 = {
+	trigger = {
+          total_amount_of_ships = 200
+	  NOT = {
+	   total_amount_of_ships = 300
+	  }
+        }
+        import_cost = -0.1
+	prestige = 0.08
+	icon = 9
+}
+
+grand_navy2 = {
+	trigger = {
+        total_amount_of_ships = 100
+	NOT = {
+	    total_amount_of_ships = 200
+	    }
+        }
+	prestige = 0.05
+	icon = 9
+}
+
+grand_navy1 = {
+	trigger = {
+          total_amount_of_ships = 50
+          NOT = {
+	    total_amount_of_ships = 100
+	  }
+        }
+	icon = 9
+	prestige = 0.02
+}
+
+grand_navy0 = {
+	trigger = {
+            NOT = {
+	      total_amount_of_ships = 50
+            }
+        }
+	icon = 9
+	prestige = -0.02
+}
+
+education_troubles1 = {
+        trigger = {
+                NOT = {
+                      literacy = 0.6
+                }
+                literacy = 0.5
+                
+        }
+        education_efficiency_modifier = -0.55
+        icon = 9
+}
+education_troubles2 = {
+        trigger = {
+              NOT = {
+                      literacy = 0.7
+                }
+              literacy = 0.6
+        }
+        education_efficiency_modifier = -0.7
+        icon = 9
+}
+education_troubles3 = {
+        trigger = {
+              NOT = {
+                      literacy = 0.8
+                }
+              literacy = 0.7
+        }
+        education_efficiency_modifier = -0.80
+        icon = 9
+}
+education_troubles4 = {
+        trigger = {
+              NOT = {
+                      literacy = 0.9
+                }
+              literacy = 0.8
+        }
+        education_efficiency_modifier = -1.0
+        icon = 9
+}
+education_troubles5 = {
+        trigger = {
+              NOT = {
+                      literacy = 1.0
+                }
+              literacy = 0.9
+        }
+        education_efficiency_modifier = -2.0
+        icon = 9
+}
+education_troubles6 = {
+        trigger = {
+              literacy = 1.0
+        }
+        education_efficiency_modifier = -3.0
+        icon = 9
+}
+war_support0 = {
+	trigger = {
+        year = 1880
+        war = yes
+          NOT = {
+	    war_exhaustion = 0.1
+	  }
+        }
+	icon = 9
+	land_organisation = 0.5
+        org_regain = 0.5
+	naval_organisation = 0.5
+	leadership_modifier = 0.35
+        mobilisation_economy_impact = -0.5
+        supply_consumption = -0.5
+        war_exhaustion = -0.5
+}
+war_support10 = {
+	trigger = {
+        year = 1880
+        war = yes
+          war_exhaustion = 0.1
+          NOT = {
+	    war_exhaustion = 0.2
+	  }
+        }
+	icon = 9
+	land_organisation = 0.4
+        org_regain = 0.4
+	naval_organisation = 0.4
+	leadership_modifier = 0.3
+        mobilisation_economy_impact = -0.4
+        supply_consumption = -0.4
+        war_exhaustion = -0.4
+}
+war_support20 = {
+	trigger = {
+        year = 1880
+        war = yes
+          war_exhaustion = 0.2
+          NOT = {
+	    war_exhaustion = 0.3
+	  }
+        }
+	icon = 9
+	land_organisation = 0.3
+        org_regain = 0.3
+	naval_organisation = 0.3
+	leadership_modifier = 0.25
+        mobilisation_economy_impact = -0.3
+        supply_consumption = -0.3
+        war_exhaustion = -0.3
+}
+war_support30 = {
+	trigger = {
+        year = 1880
+        war = yes
+          war_exhaustion = 0.3
+          NOT = {
+	    war_exhaustion = 0.4
+	  }
+        }
+	icon = 9
+	land_organisation = 0.25
+        org_regain = 0.25
+	naval_organisation = 0.25
+	leadership_modifier = 0.2
+        mobilisation_economy_impact = -0.25
+        supply_consumption = -0.2
+        war_exhaustion = -0.2
+}
+war_support40 = {
+	trigger = {
+        year = 1880
+        war = yes
+          war_exhaustion = 0.4
+          NOT = {
+	    war_exhaustion = 0.5
+	  }
+        }
+	icon = 9
+	land_organisation = 0.15
+        org_regain = 0.15
+	naval_organisation = 0.15
+	leadership_modifier = 0.15
+        mobilisation_economy_impact = -0.2
+        supply_consumption = -0.15
+        war_exhaustion = -0.1
+}
+
+#####CanalsssssM#####
+own_suez_canal = {
+	trigger = {	
+		exists = yes
+		owns = 1755
+		civilized = yes
+		is_canal_enabled = 2
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.25
+	import_cost = -0.1
+	prestige = 0.02
+}
+
+own_panama_canal = {
+	trigger = {
+		exists = yes
+		owns = 1723
+		civilized = yes
+		is_canal_enabled = 3
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.25
+	import_cost = -0.15
+	prestige = 0.01
+}
+
+own_bosfor_canal = {
+	trigger = {
+		owns = 860
+		civilized = yes
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.2
+	import_cost = -0.1
+	prestige = 0.01
+}
+
+own_kiel_canal = {
+        trigger = {
+                exists = yes
+		owns = 369
+		civilized = yes
+                is_canal_enabled = 3
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.15
+	import_cost = -0.1
+	prestige = 0.01
+}
+
+own_gibraltar_canal = {
+	trigger = {
+		owns = 517
+		civilized = yes
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.1
+	import_cost = -0.1
+	prestige = 0.01
+}
+
+own_singa_canal = {
+        trigger = {
+		owns = 1384
+		civilized = yes
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.1
+	import_cost = -0.1
+	prestige = 0.02
+}
+
+social_reformed_nation = {
+		trigger = {
+			exists = yes
+			wage_reform = good_minimum_wage
+			work_hours = eight_hours
+			safety_regulations = good_safety
+			unemployment_subsidies = good_subsidies
+			pensions = good_pensions
+			health_care = good_health_care
+			school_reforms = good_schools
+		}
+		
+	social_reform_desire = -0.5
+	icon = 13
+}

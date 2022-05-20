@@ -1,0 +1,16 @@
+owner = ENG
+
+controller = ENG
+
+add_core = ENG
+
+trade_goods = coal
+
+life_rating = 35
+
+
+fort = 1
+ #Chatham1861.1.1 = { 
+	railroad = 3 
+#	naval_base = 3 #Chatham
+}

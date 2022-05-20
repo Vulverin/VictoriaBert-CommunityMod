@@ -1,0 +1,2014 @@
+political_decisions = {
+	liberty_enlightening_the_world = {
+		potential = {
+			NOT = {
+				has_global_flag = statue_of_liberty_has_been_built
+			}
+			tag = FRA
+			exists = FRA
+			exists = USA
+			USA = {
+				government = democracy
+				owns = 232
+			}
+			FRA = {
+				OR = {
+					government = hms_government
+					government = democracy
+				}
+			}	
+			year = 1850
+		}
+	
+		allow = {
+			cheap_steel = 1
+		}
+	
+		effect = {
+			set_global_flag = statue_of_liberty_has_been_built
+			any_pop = {
+				militancy = -0.5
+			}
+			USA = {
+				country_event = { id=19300 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					relation = {
+						who = USA
+						value = 50
+					}
+				}
+			}
+		}
+	}
+
+        fra_opium_war = {
+                potential = {
+                              tag = FRA
+                              NOT = {
+                                     has_country_flag = opiumfrl
+                              }
+                }
+                allow = {
+                          OR = {
+                               owns = 1538
+                               owns = 1606
+                               owns = 1496
+                               owns = 1498
+                               owns = 1609
+                               owns = 1569
+                               owns = 1608
+                               owns = 1566
+                         }
+                }
+                effect = {
+                          set_country_flag = opiumfrl
+                          CHI = {
+                                 country_event = { id=99911 days=0 }
+                          }
+                }
+        }
+        fra_opium_war2 = {
+                potential = {
+                              tag = ENG
+                              has_country_modifier = china_refused
+                              NOT = {
+                                     has_country_flag = opiumfr2
+                              }
+                }
+                allow = {
+                          1612 = {
+                                 controlled_by = THIS
+                          }
+                }
+                effect = {
+                          set_country_flag = opiumfr2
+                          remove_country_modifier = china_refused
+                       CHI = {
+                            add_country_modifier = {
+                               name = opium_infl_fr
+                               duration = 3650
+                            }
+                       }
+                                
+                          
+                }
+        }
+
+        reunite_ostind_comp = {
+                 potential = {
+                                    tag = FRA
+                                    owns = 1312
+                                    NOT = {
+                                          exists = FOC
+                                    }
+                        }
+                        allow = {
+                                money = 200000
+                        }
+                        effect = {
+                                money = -200000
+                                prestige = 25
+                                release_vassal = FOC
+                                create_vassal = FOC
+                                FOC = {
+                                      government = colonial_company
+                                }
+                                diplomatic_influence = {
+                                                who = FOC
+                                                value = 500
+                                }
+			}
+        }
+     
+
+        scientists_des_on = {
+                        alert = no
+                        potential = {
+                        tag = FRA
+                        not = { has_country_flag = scientists_des_window }
+                        }
+                        allow = { ai = no }
+                        effect = { set_country_flag = scientists_des_window }
+                        }
+         scientists_des_off = {
+                        alert = no
+                        potential = { has_country_flag = scientists_des_window }
+                        
+                                      tag = FRA
+
+                        allow = { ai = no }
+                        effect = { clr_country_flag = scientists_des_window }                         
+                        }
+            scientists_rus = {
+		potential = {
+                        has_country_flag = scientists_des_window
+			
+                         tag = FRA
+                       
+                       
+			
+			RUS = {
+                               NOT = {
+                                      has_country_modifier = french_scientists
+                               }
+                        }
+		}
+
+		allow = {
+                             relation = {
+                                  who = RUS
+                                  value = 150
+                                  
+                          }
+		}
+
+		effect = {
+                        
+			RUS = {
+                               add_country_modifier = {
+                                  name = french_scientists
+                                  duration = 3650
+                               }
+                        }
+		}
+	}
+    
+        scientists_ish = {
+		potential = {
+                        has_country_flag = scientists_des_window
+			
+                         tag = FRA
+                         exists = ISH
+                       
+                       
+			
+			ISH = {
+                               NOT = {
+                                      has_country_modifier = french_scientists
+                               }
+                        }
+		}
+
+		allow = {
+                             relation = {
+                                  who = ISH
+                                  value = 150
+                                  
+                          }
+		}
+
+		effect = {
+                        
+			ISH = {
+                               add_country_modifier = {
+                                  name = french_scientists
+                                  duration = 3650
+                               }
+                        }
+		}
+	}
+                        
+	scientists_tur = {
+		potential = {
+                        has_country_flag = scientists_des_window
+			
+                         tag = FRA
+                       
+                       
+			
+			TUR = {
+                               NOT = {
+                                      has_country_modifier = french_scientists
+                               }
+                        }
+		}
+
+		allow = {
+                             relation = {
+                                  who = TUR
+                                  value = 150
+                                  
+                          }
+		}
+
+		effect = {
+                        
+			TUR = {
+                               add_country_modifier = {
+                                  name = french_scientists
+                                  duration = 3650
+                               }
+                        }
+		}
+	}
+       
+        scientists_spa = {
+		potential = {
+                        has_country_flag = scientists_des_window
+			
+                         tag = FRA
+                       
+                       
+			
+			SPA = {
+                               NOT = {
+                                      has_country_modifier = french_scientists
+                               }
+                        }
+		}
+
+		allow = {
+                             relation = {
+                                  who = SPA
+                                  value = 150
+                                  
+                          }
+		}
+
+		effect = {
+                        
+			SPA = {
+                               add_country_modifier = {
+                                  name = french_scientists
+                                  duration = 3650
+                               }
+                        }
+		}
+	}
+
+        scientists_ita = {
+		potential = {
+                        has_country_flag = scientists_des_window
+			
+                         tag = FRA
+                         exists = ITA
+                       
+                       
+			
+			ITA = {
+                               NOT = {
+                                      has_country_modifier = french_scientists
+                               }
+                        }
+		}
+
+		allow = {
+                             relation = {
+                                  who = ITA
+                                  value = 150
+                                  
+                          }
+		}
+
+		effect = {
+                        
+			ITA = {
+                               add_country_modifier = {
+                                  name = french_scientists
+                                  duration = 3650
+                               }
+                        }
+		}
+	}
+
+        scientists_aus = {
+		potential = {
+                        has_country_flag = scientists_des_window
+			
+                         tag = FRA
+                         exists = AUS
+                       
+			
+			AUS = {
+                               NOT = {
+                                      has_country_modifier = french_scientists
+                               }
+                        }
+		}
+
+		allow = {
+                             relation = {
+                                  who = AUS
+                                  value = 150
+                                  
+                          }
+		}
+
+		effect = {
+                        
+			AUS = {
+                               add_country_modifier = {
+                                  name = french_scientists
+                                  duration = 3650
+                               }
+                        }
+		}
+	}
+ 
+        scientists_kuk = {
+		potential = {
+                        has_country_flag = scientists_des_window
+			
+                         tag = FRA
+                         exists = KUK
+                       
+                       
+			
+			KUK = {
+                               NOT = {
+                                      has_country_modifier = french_scientists
+                               }
+                        }
+		}
+
+		allow = {
+                             relation = {
+                                  who = KUK
+                                  value = 150
+                                  
+                          }
+		}
+
+		effect = {
+                        
+			KUK = {
+                               add_country_modifier = {
+                                  name = french_scientists
+                                  duration = 3650
+                               }
+                        }
+		}
+	}
+ 
+        scientists_dnf = {
+		potential = {
+                        has_country_flag = scientists_des_window
+			
+                         tag = FRA
+                         exists = DNF
+                       
+			
+			DNF = {
+                               NOT = {
+                                      has_country_modifier = french_scientists
+                               }
+                        }
+		}
+
+		allow = {
+                             relation = {
+                                  who = DNF
+                                  value = 150
+                                  
+                          }
+		}
+
+		effect = {
+                        
+			DNF = {
+                               add_country_modifier = {
+                                  name = french_scientists
+                                  duration = 3650
+                               }
+                        }
+		}
+	}
+
+        scientists_jap = {
+		potential = {
+                        has_country_flag = scientists_des_window
+			
+                         tag = FRA
+                         exists = JPE
+                       
+                       
+			
+			JPE = {
+                               NOT = {
+                                      has_country_modifier = french_scientists
+                               }
+                        }
+		}
+
+		allow = {
+                             relation = {
+                                  who = JPE
+                                  value = 150
+                                  
+                          }
+		}
+
+		effect = {
+                        
+			JPE = {
+                               add_country_modifier = {
+                                  name = french_scientists
+                                  duration = 3650
+                               }
+                        }
+		}
+	}
+
+       fra_algr = {
+            potential = {
+                        tag = FRA
+                         NOT = {
+                               has_country_flag = frenchalgrrrrsr
+                         }
+            }
+		allow = {
+                            owns = 1701
+                            owns = 1715
+                            owns = 1708
+		}
+
+		effect = {
+                        any_owned = {
+				limit = {
+					is_core = ALD
+				}
+				add_province_modifier = {
+					name = aldj_assimilation
+					duration = -1
+				}
+			}
+                               set_country_flag = frenchalgrrrrsr
+                }
+        }
+            
+
+       fran_asmltn = {
+            potential = {
+                        tag = FRA
+                         NOT = {
+                               has_country_modifier = frenchalgrrrrsr
+                         }
+            }
+		allow = {
+                            money = 2000000
+                            government = democracy
+		}
+
+		effect = {
+                                money = -2000000
+				add_country_modifier = {
+					name = frenchasmltn
+					duration = -1
+                                }
+                }
+        }
+
+       fra_egypt = {
+            potential = {
+                      tag = FRA
+
+                      NOT = {
+                      has_country_flag = egyptfra_1
+                      }
+                      
+            }
+            
+            allow = {
+                     NOT = {
+                            owns = 409
+                            owns = 410
+                            owns = 412
+                     } 
+                     owns = 1708
+                     owns = 1702
+            }
+            
+            effect = {
+                        1746 = {
+                                add_core = FRA
+                        }
+                        1748 = {
+                                add_core = FRA
+                        }
+                        1749 = {
+                                add_core = FRA
+                        }
+                        1755 = {
+                                add_core = FRA
+                        }
+                        1756 = {
+                                add_core = FRA
+                        }
+                        1757 = {
+                                add_core = FRA
+                        }
+                        1747 = {
+                                add_core = FRA
+                        }
+                        1751 = {
+                                add_core = FRA
+                        }
+                        1750 = {
+                                add_core = FRA
+                        }
+                        1745 = {
+                                add_core = FRA
+                        }
+                        set_country_flag = egyptfra_1
+            }
+       }
+
+       destroy_gb = {
+            potential = {
+                          tag = FRA 
+                          NOT = {
+                                  has_global_flag = french_fleetdas
+                          } 
+            }
+            allow = {
+                     NOT = {
+                            owns = 409
+                            owns = 410
+                            owns = 412
+                     }
+            }
+            effect = {
+                       
+                       set_global_flag = french_fleetdas
+                       402 = {
+                                add_province_modifier = {
+                                        name = french_fleet
+                                        duration = -1
+                                }
+                       }
+                       418 = {
+                                add_province_modifier = {
+                                        name = french_fleet
+                                        duration = -1
+                                }
+                       }
+                       420 = {
+                                add_province_modifier = {
+                                        name = french_fleet
+                                        duration = -1
+                                }
+                       }
+                       437 = {
+                                add_province_modifier = {
+                                        name = french_fleet
+                                        duration = -1
+                                }
+                       }
+                       442 = {
+                                add_province_modifier = {
+                                        name = french_fleet
+                                        duration = -1
+                                }
+                       }
+                       458 = {
+                                add_province_modifier = {
+                                        name = french_fleet
+                                        duration = -1
+                                }
+                       }
+                       461 = {
+                                add_province_modifier = {
+                                        name = french_fleet
+                                        duration = -1
+                                }
+                       }
+                       467 = {
+                                add_province_modifier = {
+                                        name = french_fleet
+                                        duration = -1
+                                }
+                       }
+                       470 = {
+                                add_province_modifier = {
+                                        name = french_fleet
+                                        duration = -1
+                                }
+                       }
+                       
+            }
+       }
+
+       suez_is_lockedfra = {
+                alert = no
+                potential = {
+			tag = FRA
+			ENG = {
+                               NOT = {
+                                      has_country_modifier = suez_is_locked
+                               }
+                        }
+		}
+		allow = {
+			has_global_flag = suez_canal_built
+                        owns = 1755
+		}
+		effect = {
+			
+			ENG = {
+                               add_country_modifier = {
+                                  name = suez_is_locked
+                                  duration = -1
+                               }
+                        }
+		}
+	}
+
+        suez_is_lockedfra1 = {
+                alert = no
+                potential = {
+			tag = FRA
+			ENG = {
+                                      has_country_modifier = suez_is_locked
+                        }
+		}
+		allow = {
+			has_global_flag = suez_canal_built
+                        owns = 1755
+		}
+		effect = {
+			
+			ENG = {
+                               remove_country_modifier = suez_is_locked
+                        }
+		}
+	}
+
+	support_french_foreign_legion = {
+		potential = {
+			tag = FRA
+			owns = 1700
+			NOT = {
+				has_country_flag = french_foreign_legion_supported
+			}
+		}
+		allow = {
+			army_professionalism = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = the_french_foreign_legion
+				duration = -1
+			}
+			set_country_flag = french_foreign_legion_supported
+		}
+	}
+	
+	french_military_mission_to_japan = {
+		potential = {
+			tag = FRA
+			exists = JAP
+			JAP = {
+				civilized = no
+			}
+			NOT = {
+				has_country_flag = military_mission_in_japan
+			}
+		}
+		
+		allow = {
+			relation = {
+				who = JAP
+				value = 120
+			}
+		}
+		
+		effect = {
+			relation = {
+				who = JAP
+				value = 40
+			}
+			JAP = {
+				years_of_research = 1.0
+			}
+			prestige = 20
+			set_country_flag = military_mission_in_japan
+		}
+	}
+	
+	palais_garnier = {
+		potential = {
+			NOT = {
+				has_country_flag = palais_garnier_built
+			}
+			tag = FRA
+			owns = 425
+		}
+		
+		allow = {
+			expressionism = 1
+		}
+		
+		effect = {
+			prestige = 20
+			set_country_flag = palais_garnier_built
+		}
+	}
+	
+	the_lambert_charter = {
+		potential = {
+			NOT = {
+				has_country_flag = lambert_has_been_chartered
+			}
+			tag = FRA
+			exists = MAD
+		}
+		
+		allow = {
+			is_greater_power = yes
+			ideological_thought = 1
+			MAD = {
+				civilized = no
+				OR = {
+					in_sphere = FRA
+					NOT = { part_of_sphere = yes }
+				}
+			}
+		}
+		
+		effect = {
+			diplomatic_influence = {
+				who = MAD
+				value = 150
+			}
+			set_country_flag = lambert_has_been_chartered
+		}
+	}
+	
+	end_the_merina_monarchy = {
+		potential = {
+			OR = {
+				has_country_flag = lambert_has_been_chartered
+				MAD = {
+					in_sphere = FRA
+					civilized = no
+			}
+				}
+			NOT = {
+				has_country_flag = merina_monarchy_is_over
+			}
+			exists = MAD
+			MAD = {AI = yes}
+			tag = FRA
+		}
+		
+		allow = {
+			MAD = {
+				in_sphere = FRA
+				civilized = no
+				war = no
+			}
+			invention = mission_to_civilize
+			invention = expansionism
+			war = no
+		}
+		
+		effect = {
+			inherit = MAD
+			set_country_flag = merina_monarchy_is_over
+		}
+	}
+	
+	brazzas_expedition = {
+		potential = {
+			tag = FRA
+			owns = 1977
+			NOT = {
+				has_global_flag = brazzaville_formed
+			}
+		}
+		
+		allow = {
+			invention = mission_to_civilize
+		}
+		
+		effect = {
+			1977 = {
+				change_province_name = "Браззавиль"
+			}
+			prestige = 5
+			set_global_flag = brazzaville_formed
+		}
+	}
+	
+	the_rhine_crisis = {
+		potential = {
+			tag = FRA
+			exists = PRU
+			PRU = {
+				owns = 572
+				owns = 575
+			}
+			NOT = {
+				has_country_flag = crisis_on_the_rhine
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = north_german
+						primary_culture = south_german
+					}
+				}
+				relation = {
+					who = THIS
+					value = -100
+				}
+			}
+			casus_belli = {
+				target = PRU
+				type = acquire_state
+				months = 1
+			}
+			prestige = 10
+			badboy = 4
+			set_country_flag = crisis_on_the_rhine
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					badboy = 0.5
+				}
+			}
+		}
+	}
+	
+	build_the_eiffel_tower = {
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = the_eiffel_tower_was_built
+			}
+			
+		}
+		
+		allow = {
+			cheap_steel = 1
+                        money = 500000
+		}
+		
+		effect = {
+			425 = {
+                                set_province_flag = eiffeltower
+				add_province_modifier = {
+					name = the_eiffel_tower
+					duration = -1
+				}
+			}
+                        money = -500000
+			prestige = 20
+			set_country_flag = the_eiffel_tower_was_built
+		}
+	}
+	
+	haussmanns_renovations = {
+		potential = {
+			tag = FRA
+			owns = 425
+			NOT = {
+				has_country_flag = extreme_home_makeover
+			}
+			OR = {
+				realism = 1
+				early_railroad = 1
+			}
+		}
+		
+		allow = {
+			impressionism = 1
+			iron_railroad = 1
+			business_banks = 1
+		}
+		
+		effect = {
+			425 = {
+				life_rating = 5
+			}
+			prestige = 10
+			set_country_flag = extreme_home_makeover
+		}
+	}
+
+
+        annex_luxemburg = {
+		potential = {
+			NOT = {
+				has_country_flag = luxemburg_has_been_annexed
+			}
+			tag = FRA
+			owns = 425
+		}
+		
+		allow = {
+			is_sphere_leader_of = LUX
+                               war = no
+                               year = 1850
+                               owns = 410
+			       owns = 409
+			       owns = 412
+                        NOT = {
+                               exists = GER
+                        }       
+		}
+		
+		effect = {
+			LUX_397 = {
+				add_core = FRA
+			}
+			badboy = 6
+			inherit = LUX
+			set_country_flag = luxemburg_has_been_annexed
+		}
+       }
+
+    transfer_alsace = {
+          alert = no
+          ai = no
+          potential = {
+			tag = FRA
+			owns = 412
+                        owns = 409
+                        owns = 410
+			NOT = {
+				has_country_flag = alcase_transfer
+			}
+			
+		}
+		
+		allow = {
+			NOT = {
+				war_with = NGF
+                                war_with = PRU
+                                exists = GER
+			}
+                      exists = NGF 
+		}
+		
+		effect = {
+			409 = {
+				secede_province = NGF
+			}
+                        410 = {
+				secede_province = NGF
+			}
+                        412 = {
+				secede_province = NGF
+			}
+			prestige = -15
+			set_country_flag = alcase_transfer
+			409 = {				
+				remove_core = FRA
+			}
+			410 = {				
+				remove_core = FRA
+			}
+                        412 = {
+                                remove_core = FRA
+                        }
+                                 
+            any_pop = {
+				      limit = {
+			              culture = french
+				}
+				militancy = 1
+                                
+                     }
+             }
+  }
+  
+ 
+  occupation_of_the_rhineland = {
+                            potential = {
+                                     tag = FRA
+                                     owns = 575
+                                     NOT = {
+                                         has_country_flag = demilitarization_of_the_rhineland
+                                   }
+                            }
+                            allow = {
+                                     exists = GER
+                            }
+                            effect = {
+                                     add_country_modifier = {
+                                         name = the_rhineland_is_our
+                                         duration = 3650
+                                     }
+                                     
+                                     set_country_flag = demilitarization_of_the_rhineland
+                            }
+                                    
+           }
+
+           majino = {
+                            potential = {
+                                     tag = FRA
+                                     owns = 412
+                                     owns = 409
+                                     owns = 410
+                                     NOT = {
+                                         has_country_flag = majino_has_been_built
+                                   }
+                            }
+                            allow = {
+                                     exists = GER
+                                     money = 3000000
+                                     army_doctrine_3 = 1 
+                            }
+                            effect = {
+                                     money = -2000000
+                                     money = -1000000
+                                     412 = {
+                                           fort = 5
+                                     }
+                                     409 = {
+                                           fort = 6
+                                     }
+                                     410 = {
+                                           fort = 6
+                                     }
+                                     set_country_flag = majino_has_been_built
+                            }
+                                    
+           }
+           
+           france_african_way = {
+                        potential = {
+			NOT = {
+				has_country_flag = france_african_way_has_been_chosen
+                                has_country_flag = france_european_way_has_been_chosen
+			}
+			tag = FRA
+		}
+		
+		allow = {
+                               war = no
+                               year = 1845  
+                               owns = 1700
+                               owns = 1701
+                               owns = 1702
+                               owns = 1703
+                               owns = 1704
+                               owns = 1705
+                               owns = 1706
+                               owns = 1707
+                               owns = 1708
+                               owns = 1709
+                               owns = 1715
+		}
+		
+		effect = {
+                        1700 = {
+                               add_province_modifier = {
+                                       name = fra_assim_rate
+                                       duration = 3650
+                               }
+                        }
+                        1705 = {
+                               add_province_modifier = {
+                                       name = fra_assim_rate
+                                       duration = 3650
+                               }
+                        }
+                        1700 = {
+                                add_core = FRA
+                        }
+                        1701 = {
+                                add_core = FRA
+                        }
+                        1702 = {
+                                add_core = FRA
+                        }
+                        1703 = {
+                                add_core = FRA
+                        }
+                        1704 = {
+                                add_core = FRA
+                        }
+                        1705 = {
+                                add_core = FRA
+                        }
+                        1706 = {
+                                add_core = FRA
+                        }
+                        1707 = {
+                                add_core = FRA
+                        }
+                        1708 = {
+                                add_core = FRA
+                        }
+                        1709 = {
+                                add_core = FRA
+                        }
+                        1715 = {
+                                add_core = FRA
+                        }
+                         
+                        set_country_flag = france_african_way_has_been_chosen
+		}
+       }
+
+           france_african_way2 = {
+                        potential = {
+			NOT = {
+                                has_country_flag = france_african_way_has_been_chosen2
+			}
+			tag = FRA
+                        has_country_flag = france_african_way_has_been_chosen
+		}
+		
+		allow = {
+                               war = no
+                               year = 1855
+                               owns = 1725
+                               owns = 1680
+		}
+		
+		effect = {
+                        1700 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1701 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1702 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1703 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1704 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1705 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1706 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }                
+                         }
+                        1707 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1708 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1709 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1710 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1715 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+
+                        1710 = {
+                                add_core = FRA
+                        }
+                        1711 = {
+                                add_core = FRA
+                        }
+                        1712 = {
+                                add_core = FRA
+                        }
+                        1713 = {
+                                add_core = FRA
+                        }
+                        1714 = {
+                                add_core = FRA
+                        }
+                        1716 = {
+                                add_core = FRA
+                        }
+                        1717 = {
+                                add_core = FRA
+                        }
+                        1718 = {
+                                add_core = FRA
+                        }
+                        1719 = {
+                                add_core = FRA
+                        }
+                        1720 = {
+                                add_core = FRA
+                        }
+                        1721 = {
+                                add_core = FRA
+                        }
+                        1722 = {
+                                add_core = FRA
+                        }
+                        1724 = {
+                                add_core = FRA
+                        }
+			set_country_flag = france_african_way_has_been_chosen2
+		}
+       }
+           
+           
+           france_african_way3 = {
+                        potential = {
+                        NOT = {
+                                has_country_flag = france_african_way_has_been_chosen3
+			}
+
+                        has_country_flag = france_african_way_has_been_chosen2
+
+			tag = FRA
+		}
+		
+		allow = {
+                               war = no
+                               year = 1865
+		}
+		
+		effect = {
+                         set_country_flag = france_african_way_has_been_chosen3
+                         TUN = {
+                                   all_core = {
+				          add_core = FRA
+			           }
+                           }
+                         MOR = {
+                                   all_core = {
+				          add_core = FRA
+			           }
+                         }
+                        1725 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                                }
+                         }
+                        1680 = {
+                                add_province_modifier = {
+                                        name = fra_pops_growth
+                                        duration = 3650
+                               }
+                         }
+                        1725 = {
+                               add_province_modifier = {
+                                       name = fra_assim_rate
+                                       duration = 3650
+                               }
+                        }
+                        1680 = {
+                               add_province_modifier = {
+                                       name = fra_assim_rate
+                                       duration = 3650
+                               }
+                        }
+		}
+       }
+
+           france_european_way = {
+                        potential = {
+			NOT = {
+                                has_country_flag = france_african_way_has_been_chosen
+				has_country_flag = france_european_way_has_been_chosen
+			}
+			tag = FRA
+		}
+		
+		allow = {
+                               war = no
+                               money = 1000000
+                               year = 1845
+                               OR = { 
+                               exists = GER
+                               exists = NGF
+                               } 
+		}
+		
+		effect = {
+                        money = -1000000
+                        399 = {
+                        life_rating = 1
+                        }
+                        400 = {
+                        life_rating = 1
+                        }
+                        401 = {
+                        life_rating = 1
+                        }
+                        402 = {
+                        life_rating = 1
+                        }
+                        403 = {
+                        life_rating = 1
+                        }
+                        404 = {
+                        life_rating = 1
+                        }
+                        405 = {
+                        life_rating = 1
+                        }
+                        406 = {
+                        life_rating = 1
+                        }
+                        407 = {
+                        life_rating = 1
+                        }
+                        408 = {
+                        life_rating = 1
+                        }
+                        409 = {
+                        life_rating = 1
+                        }
+                        410 = {
+                        life_rating = 1
+                        }
+                        411 = {
+                        life_rating = 1
+                        }
+                        412 = {
+                        life_rating = 1
+                        }
+                        413 = {
+                        life_rating = 1
+                        }
+                        414 = {
+                        life_rating = 1
+                        }
+                        415 = {
+                        life_rating = 1
+                        }
+                        416 = {
+                        life_rating = 1
+                        }
+                        417 = {
+                        life_rating = 1
+                        }
+                        418 = {
+                        life_rating = 1
+                        }
+                        420 = {
+                        life_rating = 1
+                        }
+                        421 = {
+                        life_rating = 1
+                        }
+                        422 = {
+                        life_rating = 1
+                        }
+                        423 = {
+                        life_rating = 1
+                        }
+                        426 = {
+                        life_rating = 1
+                        }
+                        427 = {
+                        life_rating = 1
+                        }
+                        429 = {
+                        life_rating = 1
+                        }
+                        430 = {
+                        life_rating = 1
+                        }
+                        431 = {
+                        life_rating = 1
+                        }
+                        432 = {
+                        life_rating = 1
+                        }
+                        434 = {
+                        life_rating = 1
+                        }
+                        435 = {
+                        life_rating = 1
+                        }
+                        436 = {
+                        life_rating = 1
+                        }
+                        437 = {
+                        life_rating = 1
+                        }
+                        438 = {
+                        life_rating = 1
+                        }
+                        439 = {
+                        life_rating = 1
+                        }
+                        440 = {
+                        life_rating = 1
+                        }
+                        441 = {
+                        life_rating = 1
+                        }
+                        442 = {
+                        life_rating = 1
+                        }
+                        443 = {
+                        life_rating = 1
+                        }
+                        444 = {
+                        life_rating = 1
+                        }
+                        445 = {
+                        life_rating = 1
+                        }
+                        446 = {
+                        life_rating = 1
+                        }
+                        447 = {
+                        life_rating = 1
+                        }
+                        448 = {
+                        life_rating = 1
+                        }
+                        449 = {
+                        life_rating = 1
+                        }
+                        450 = {
+                        life_rating = 1
+                        }
+                        451 = {
+                        life_rating = 1
+                        }
+                        452 = {
+                        life_rating = 1
+                        }
+                        453 = {
+                        life_rating = 1
+                        }
+                        454 = {
+                        life_rating = 1
+                        }
+                        455 = {
+                        life_rating = 1
+                        }
+                        456 = {
+                        life_rating = 1
+                        }
+                        457 = {
+                        life_rating = 1
+                        }
+                        458 = {
+                        life_rating = 1
+                        }
+                        459 = {
+                        life_rating = 1
+                        }
+                        460 = {
+                        life_rating = 1
+                        }
+                        461 = {
+                        life_rating = 1
+                        }
+                        462 = {
+                        life_rating = 1
+                        }
+                        463 = {
+                        life_rating = 1
+                        }
+                        464 = {
+                        life_rating = 1
+                        }
+                        467 = {
+                        life_rating = 1
+                        }
+                        468 = {
+                        life_rating = 1
+                        }
+                        469 = {
+                        life_rating = 1
+                        }
+                        470 = {
+                        life_rating = 1
+                        }
+                        471 = {
+                        life_rating = 1
+                        }
+			set_country_flag = france_european_way_has_been_chosen
+		}
+       }
+                france_european_way2 = {
+                        potential = {
+			NOT = {
+                                has_country_flag = france_european_way_has_been_chosen2
+			}
+			tag = FRA
+                        has_country_flag = france_european_way_has_been_chosen
+		}
+		
+		allow = {
+                               war = no
+                               year = 1860
+                               exists = ITA
+                               money = 2000000 
+		}
+		
+		effect = {
+                        money = -2000000
+                        399 = {
+                        life_rating = 1
+                        }
+                        400 = {
+                        life_rating = 1
+                        }
+                        401 = {
+                        life_rating = 1
+                        }
+                        402 = {
+                        life_rating = 1
+                        }
+                        403 = {
+                        life_rating = 1
+                        }
+                        404 = {
+                        life_rating = 1
+                        }
+                        405 = {
+                        life_rating = 1
+                        }
+                        406 = {
+                        life_rating = 1
+                        }
+                        407 = {
+                        life_rating = 1
+                        }
+                        408 = {
+                        life_rating = 1
+                        }
+                        409 = {
+                        life_rating = 1
+                        }
+                        410 = {
+                        life_rating = 1
+                        }
+                        411 = {
+                        life_rating = 1
+                        }
+                        412 = {
+                        life_rating = 1
+                        }
+                        413 = {
+                        life_rating = 1
+                        }
+                        414 = {
+                        life_rating = 1
+                        }
+                        415 = {
+                        life_rating = 1
+                        }
+                        416 = {
+                        life_rating = 1
+                        }
+                        417 = {
+                        life_rating = 1
+                        }
+                        418 = {
+                        life_rating = 1
+                        }
+                        420 = {
+                        life_rating = 1
+                        }
+                        421 = {
+                        life_rating = 1
+                        }
+                        422 = {
+                        life_rating = 1
+                        }
+                        423 = {
+                        life_rating = 1
+                        }
+                        426 = {
+                        life_rating = 1
+                        }
+                        427 = {
+                        life_rating = 1
+                        }
+                        429 = {
+                        life_rating = 1
+                        }
+                        430 = {
+                        life_rating = 1
+                        }
+                        431 = {
+                        life_rating = 1
+                        }
+                        432 = {
+                        life_rating = 1
+                        }
+                        434 = {
+                        life_rating = 1
+                        }
+                        435 = {
+                        life_rating = 1
+                        }
+                        436 = {
+                        life_rating = 1
+                        }
+                        437 = {
+                        life_rating = 1
+                        }
+                        438 = {
+                        life_rating = 1
+                        }
+                        439 = {
+                        life_rating = 1
+                        }
+                        440 = {
+                        life_rating = 1
+                        }
+                        441 = {
+                        life_rating = 1
+                        }
+                        442 = {
+                        life_rating = 1
+                        }
+                        443 = {
+                        life_rating = 1
+                        }
+                        444 = {
+                        life_rating = 1
+                        }
+                        445 = {
+                        life_rating = 1
+                        }
+                        446 = {
+                        life_rating = 1
+                        }
+                        447 = {
+                        life_rating = 1
+                        }
+                        448 = {
+                        life_rating = 1
+                        }
+                        449 = {
+                        life_rating = 1
+                        }
+                        450 = {
+                        life_rating = 1
+                        }
+                        451 = {
+                        life_rating = 1
+                        }
+                        452 = {
+                        life_rating = 1
+                        }
+                        453 = {
+                        life_rating = 1
+                        }
+                        454 = {
+                        life_rating = 1
+                        }
+                        455 = {
+                        life_rating = 1
+                        }
+                        456 = {
+                        life_rating = 1
+                        }
+                        457 = {
+                        life_rating = 1
+                        }
+                        458 = {
+                        life_rating = 1
+                        }
+                        459 = {
+                        life_rating = 1
+                        }
+                        460 = {
+                        life_rating = 1
+                        }
+                        461 = {
+                        life_rating = 1
+                        }
+                        462 = {
+                        life_rating = 1
+                        }
+                        463 = {
+                        life_rating = 1
+                        }
+                        464 = {
+                        life_rating = 1
+                        }
+                        467 = {
+                        life_rating = 1
+                        }
+                        468 = {
+                        life_rating = 1
+                        }
+                        469 = {
+                        life_rating = 1
+                        }
+                        470 = {
+                        life_rating = 1
+                        }
+                        471 = {
+                        life_rating = 1
+                        }
+			set_country_flag = france_european_way_has_been_chosen2
+		}
+       }
+                france_european_way3 = {
+                        potential = {
+			NOT = {
+                                has_country_flag = france_european_way_has_been_chosen3
+			}
+			tag = FRA
+                        has_country_flag = france_european_way_has_been_chosen2
+		}
+		
+		allow = {
+                               war = no
+                               year = 1870
+                               money = 2000000
+                               money = 1000000
+                               exists = GER
+		}
+		
+		effect = {
+                        money = -1000000
+                        money = -2000000
+                        399 = {
+                        life_rating = 1
+                        }
+                        400 = {
+                        life_rating = 1
+                        }
+                        401 = {
+                        life_rating = 1
+                        }
+                        402 = {
+                        life_rating = 1
+                        }
+                        403 = {
+                        life_rating = 1
+                        }
+                        404 = {
+                        life_rating = 1
+                        }
+                        405 = {
+                        life_rating = 1
+                        }
+                        406 = {
+                        life_rating = 1
+                        }
+                        407 = {
+                        life_rating = 1
+                        }
+                        408 = {
+                        life_rating = 1
+                        }
+                        409 = {
+                        life_rating = 1
+                        }
+                        410 = {
+                        life_rating = 1
+                        }
+                        411 = {
+                        life_rating = 1
+                        }
+                        412 = {
+                        life_rating = 1
+                        }
+                        413 = {
+                        life_rating = 1
+                        }
+                        414 = {
+                        life_rating = 1
+                        }
+                        415 = {
+                        life_rating = 1
+                        }
+                        416 = {
+                        life_rating = 1
+                        }
+                        417 = {
+                        life_rating = 1
+                        }
+                        418 = {
+                        life_rating = 1
+                        }
+                        420 = {
+                        life_rating = 1
+                        }
+                        421 = {
+                        life_rating = 1
+                        }
+                        422 = {
+                        life_rating = 1
+                        }
+                        423 = {
+                        life_rating = 1
+                        }
+                        426 = {
+                        life_rating = 1
+                        }
+                        427 = {
+                        life_rating = 1
+                        }
+                        429 = {
+                        life_rating = 1
+                        }
+                        430 = {
+                        life_rating = 1
+                        }
+                        431 = {
+                        life_rating = 1
+                        }
+                        432 = {
+                        life_rating = 1
+                        }
+                        434 = {
+                        life_rating = 1
+                        }
+                        435 = {
+                        life_rating = 1
+                        }
+                        436 = {
+                        life_rating = 1
+                        }
+                        437 = {
+                        life_rating = 1
+                        }
+                        438 = {
+                        life_rating = 1
+                        }
+                        439 = {
+                        life_rating = 1
+                        }
+                        440 = {
+                        life_rating = 1
+                        }
+                        441 = {
+                        life_rating = 1
+                        }
+                        442 = {
+                        life_rating = 1
+                        }
+                        443 = {
+                        life_rating = 1
+                        }
+                        444 = {
+                        life_rating = 1
+                        }
+                        445 = {
+                        life_rating = 1
+                        }
+                        446 = {
+                        life_rating = 1
+                        }
+                        447 = {
+                        life_rating = 1
+                        }
+                        448 = {
+                        life_rating = 1
+                        }
+                        449 = {
+                        life_rating = 1
+                        }
+                        450 = {
+                        life_rating = 1
+                        }
+                        451 = {
+                        life_rating = 1
+                        }
+                        452 = {
+                        life_rating = 1
+                        }
+                        453 = {
+                        life_rating = 1
+                        }
+                        454 = {
+                        life_rating = 1
+                        }
+                        455 = {
+                        life_rating = 1
+                        }
+                        456 = {
+                        life_rating = 1
+                        }
+                        457 = {
+                        life_rating = 1
+                        }
+                        458 = {
+                        life_rating = 1
+                        }
+                        459 = {
+                        life_rating = 1
+                        }
+                        460 = {
+                        life_rating = 1
+                        }
+                        461 = {
+                        life_rating = 1
+                        }
+                        462 = {
+                        life_rating = 1
+                        }
+                        463 = {
+                        life_rating = 1
+                        }
+                        464 = {
+                        life_rating = 1
+                        }
+                        467 = {
+                        life_rating = 1
+                        }
+                        468 = {
+                        life_rating = 1
+                        }
+                        469 = {
+                        life_rating = 1
+                        }
+                        470 = {
+                        life_rating = 1
+                        }
+                        471 = {
+                        life_rating = 1
+                        }
+			set_country_flag = france_european_way_has_been_chosen3
+		}
+       }
+}

@@ -1,0 +1,328 @@
+political_decisions = {
+	enact_dual_monarchy = {
+		potential = {
+			tag = AUS
+			war = no
+			OR = {
+				government = absolute_monarchy
+				government = hms_government
+				government = prussian_constitutionalism
+			}
+			any_owned_province = {
+				is_core = HUN
+			}
+			NOT = {
+				has_country_flag = dual_monarchy_done
+			}
+		}
+	
+		allow = {
+			year = 1850
+		}
+	
+		effect = {
+			all_core = {
+				add_core = KUK
+			}
+			all_core = {
+				limit = {
+					NOT = {
+						culture = south_german
+					}
+				}
+				remove_core = AUS
+			}
+			any_pop = {
+				limit = {
+					culture = hungarian
+				}
+				militancy = -2
+			}
+			nationalvalue = nv_eastciv			
+			add_accepted_culture = hungarian
+			change_tag = KUK
+			set_country_flag = dual_monarchy_done
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+        aus_north_italt = {
+                potential = {
+			tag = AUS
+                        exists = ITA
+			NOT = {
+				has_country_flag = aus_italy_pact_signed
+			}
+			
+		}
+		
+		allow = {
+                        year = 1835
+			NOT = {
+				war_with = ITA
+			}
+		}
+		
+		effect = {
+			726 = {
+				secede_province = ITA
+			}
+                        727 = {
+				secede_province = ITA
+			}
+                        728 = {
+				secede_province = ITA
+			}
+                        730 = {
+				secede_province = ITA
+			}
+                        731 = {
+				secede_province = ITA
+			}
+                        729 = {
+				secede_province = ITA
+			}
+                        732 = {
+				secede_province = ITA
+			}
+                        733 = {
+				secede_province = ITA
+			}
+                        
+			badboy = -5
+			prestige = 20
+			set_country_flag = aus_italy_pact_signed
+		}
+        }
+        aus_prommfd = {
+                potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+			}
+			NOT = {
+				has_country_flag = aus_prommfd_done
+			}
+		}
+		allow = {
+			iron_railroad = 1
+			cheap_iron = 1
+		}
+		effect = {
+			add_country_modifier = {
+                                 name = aus_prm
+                                 duration = 10950
+                        }
+			set_country_flag = aus_prommfd_done
+		}
+	}
+
+        asu_armyy = {
+                potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+			}
+			NOT = {
+				has_country_flag = aus_arm231d_done
+			}
+		}
+		allow = {
+			army_decision_making = 1
+		}
+		effect = {
+			add_country_modifier = {
+                                 name = aus_arm23124
+                                 duration = 18250
+                        }
+			set_country_flag = aus_arm231d_done
+		}
+	}     
+
+	the_grunderzeit = {
+		potential = {
+			OR = {
+				tag = AUS
+				tag = KUK
+                                tag = HRE
+			}
+			owns = 619
+			NOT = {
+				has_country_flag = grunderzeit_we_have_done
+			}
+		}
+		allow = {
+			iron_railroad = 1
+			cheap_iron = 1
+		}
+		effect = {
+			619 = {
+				any_pop = {
+					ideology = {
+						value = liberal
+						factor = 0.2
+					}
+				}
+				life_rating = 5
+			}
+			prestige = 10
+			set_country_flag = grunderzeit_we_have_done
+		}
+	}
+        
+        enact_danube_federation = {
+		potential = {
+			tag = KUK
+			war = no
+			OR = {
+				government = absolute_monarchy
+				government = hms_government
+				government = prussian_constitutionalism
+			}
+			any_owned_province = {
+				is_core = HUN
+                                
+                                
+			}
+			NOT = {
+				has_country_flag = danube_federation_done
+			}
+		}
+	
+		allow = {
+                         literacy = 0.7
+		}
+	
+		effect = {
+			all_core = {
+				add_core = DNF
+			}
+			all_core = {
+				limit = {
+					NOT = {
+						culture = south_german
+					}
+				}
+				remove_core = KUK
+			}
+			any_pop = {
+				limit = {
+					culture = croat
+                                        culture = slovene
+                                        culture = slovak
+                                        culture = romanian
+				}
+				militancy = -3
+			}
+			any_pop = {
+				limit = {
+					NOT = {
+						OR = {
+							culture = south_german
+						}
+					}
+				}
+				militancy = 1
+			}
+						
+			add_accepted_culture = croat
+                        add_accepted_culture = serb
+                        add_accepted_culture = slovene
+                        add_accepted_culture = slovak
+                        add_accepted_culture = romanian
+                        add_accepted_culture = czech
+			change_tag = DNF
+			set_country_flag = danube_federation_done
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+        end_of_the_monarchy = {
+                potential = {
+                         tag = DNF
+                         NOT = {
+                            has_country_flag = reforms_done
+                         }
+                }
+                allow = {
+                      government = absolute_monarchy
+                }
+                
+                effect = {
+                       any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = -2
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 1
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 1
+				}
+                        }
+                      political_reform = universal_weighted_voting
+                      
+                      set_country_flag = reforms_done
+                      }
+                
+        }
+
+        metternich_age = {
+                potential = {
+                       tag = AUS
+                       NOT = {
+                               has_country_flag = metternich_1
+                       }
+                }
+
+                allow = {
+                           ideological_thought = 1
+                }
+
+                effect = {
+                           add_country_modifier = {
+                                   name = metternich_things
+                                   duration = 7300
+                           }
+                           set_country_flag = metternich_1
+                }
+        }                   
+
+        annex_south_german = {
+                potential = {
+                       tag = KUK
+                       exists = SGF
+                       NOT = {
+                             has_country_flag = inlf_aus_moddddcd
+                       }
+                       NOT = {
+                             has_country_modifier = inlf_aus_mod
+                      }
+                }
+                
+                allow = {
+                        year = 1855
+                        is_sphere_leader_of = SGF
+                        war = no
+                        money = 500000
+                        
+                }
+                
+                effect = {
+                     SGF = {
+                          annex_to = THIS
+                     }
+                     money = -500000
+                     badboy = 5
+                     set_country_flag = inlf_aus_moddddcd
+                }
+       }
+}
+                

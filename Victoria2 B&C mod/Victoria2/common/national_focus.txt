@@ -1,0 +1,330 @@
+rail_focus =
+{
+	colonial_immigration = {
+        immigrant_attract = 2.0
+        pop_militancy_modifier = 0.02
+        icon = 2
+        limit = {
+            is_colonial = yes
+        }
+    }
+
+    encourage_agriculture = {
+        farm_rgo_eff = 0.35
+        pop_militancy_modifier = 0.01
+        icon = 3
+        limit = {
+            is_colonial = yes
+            is_overseas = yes
+        }
+    }
+
+    encourage_mining = {
+        mine_rgo_eff = 0.35
+        pop_militancy_modifier = 0.01
+        icon = 4
+        limit = {
+            is_colonial = yes
+            is_overseas = yes
+        }
+    }
+
+    encourage_business = {
+        local_RGO_throughput = 0.5
+        immigrant_attract = 0.25
+        icon = 5
+        limit = {
+            is_colonial = yes
+            is_overseas = yes
+            OR = {
+                province_id = 1755
+                province_id = 1723
+            }
+            OR = {
+                NOT = { any_neighbor_province = { owned_by = THIS } }
+            }
+        }
+    }
+
+    militancy_appeasement = {
+        pop_militancy_modifier = -0.05
+        icon = 6
+        limit = {
+            is_colonial = yes
+            is_overseas = yes
+        }
+    }
+
+    consciousness_appeasement = {
+        pop_consciousness_modifier = -0.05
+        icon = 7
+        limit = {
+            is_colonial = yes
+            is_overseas = yes
+        }
+    }
+}
+
+immigration_focus = 
+{
+	immigration1 =
+	{
+		immigrant_push = 10
+		icon = 8
+		limit = {
+			NOT = { 
+				state_scope = { 
+					any_owned_province = { 
+						NOT = { 
+							controlled_by = THIS 
+						} 
+					} 
+				} 
+			}
+		}
+	}
+	
+	immigration =
+	{
+		immigrant_attract = 1
+		immigrant_push = -0.5
+		icon = 9
+	}
+}
+
+promotion_focus =
+{
+    consciousness_appeasement_core = {
+        pop_consciousness_modifier = -0.05
+        pop_militancy_modifier = -0.05
+        assimilation_rate = 0.5
+        life_rating = -0.1
+        icon = 10
+        limit = {
+            is_overseas = no
+            NOT = {
+                 is_core = THIS
+            }
+        }
+    }
+    
+    supply_war_limt = {
+        supply_limit = -5
+        local_RGO_output = -0.5
+        local_RGO_throughput = -0.5
+        local_factory_input = 0.35
+        local_factory_throughput = -0.5
+        local_factory_output = -0.5
+        icon = 31
+        limit = {
+               NOT = {
+                     year = 1870
+               }
+               is_core = THIS
+               is_colonial = no
+        }
+    }
+
+    supply_war_limt2 = {
+        supply_limit = -10
+        local_RGO_output = -0.5
+        local_RGO_throughput = -0.5
+        local_factory_input = 0.35
+        local_factory_throughput = -0.5
+        local_factory_output = -0.5
+        icon = 31
+        limit = {
+               year = 1870
+               is_core = THIS
+               is_colonial = no
+        }
+    }
+
+    fed_reg_rs = {
+        pop_militancy_modifier = -0.01
+        assimilation_rate = 0.25
+        immigrant_attract = 0.25
+        local_factory_input = -0.1
+        local_factory_output = 0.25
+        icon = 22
+        limit = {
+               literacy = 0.4
+               is_colonial = no
+               has_building = city
+               state_scope = {
+			has_factories = yes
+	       }
+        }
+    }
+ 
+    fed_reg_rs_big_city = {
+        pop_militancy_modifier = -0.01
+        assimilation_rate = 0.5
+        immigrant_attract = 0.65
+        local_factory_input = -0.25
+        local_factory_output = 0.35
+        icon = 22
+        limit = {
+               is_colonial = no
+               OR = {
+                       has_country_flag = agr_soccs2
+                       has_country_flag = agr_soccs3
+               }
+               has_building = city
+               state_scope = {
+			has_factories = yes
+	       }
+               OR = {
+                province_id = 619 
+province_id = 641
+province_id = 633
+province_id = 625
+province_id = 487
+province_id = 503
+province_id = 509
+province_id = 498
+province_id = 521
+province_id = 399
+province_id = 425
+province_id = 451
+province_id = 455
+province_id = 300
+province_id = 283
+province_id = 277
+province_id = 278
+province_id = 271
+province_id = 387
+province_id = 375
+province_id = 549
+province_id = 558
+province_id = 575
+province_id = 599
+province_id = 372
+province_id = 334
+province_id = 313
+province_id = 322
+province_id = 726
+province_id = 720
+province_id = 744
+province_id = 749
+province_id = 994
+province_id = 1008
+province_id = 968
+province_id = 958
+province_id = 706
+province_id = 860
+province_id = 876
+province_id = 809
+province_id = 834
+province_id = 1745
+province_id = 1751
+province_id = 1657
+province_id = 1649
+province_id = 1655
+province_id = 1669
+province_id = 232
+province_id = 223
+province_id = 243
+province_id = 163
+province_id = 178
+province_id = 2172
+province_id = 2447
+province_id = 2348
+province_id = 2324
+province_id = 2450
+province_id = 1251
+province_id = 1297
+province_id = 1612
+province_id = 2221
+                
+               }
+              
+        }
+    }
+}
+
+production_focus =
+{
+	basic_industry_focus =
+	{
+		local_factory_input = -0.1
+                local_factory_output = 0.1
+		limit = {
+			state_scope = {
+				has_factories = yes
+			}
+		}
+		icon = 4
+	}
+        
+        factory_throughput_focus =
+	{
+		local_factory_throughput = 0.1
+                local_factory_input = -0.1
+		icon = 4
+		limit = {
+			state_scope = {
+				has_factories = yes
+			}
+		}
+	}
+
+        RGO_output_focus =
+	{
+		local_RGO_output = 0.1
+                local_RGO_throughput = 0.1
+		icon = 4
+	}
+}
+
+party_loyalty_focus =
+{
+	fascist_focus =
+	{
+		ideology = fascist
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 32
+	}
+	
+	reactionary_focus =
+	{
+		ideology = reactionary
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 33
+	}
+	
+	conservative_focus =
+	{
+		ideology = conservative
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 34
+	}
+	
+	socialist_focus =
+	{
+		ideology = socialist
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 35
+	}
+	
+	communist_focus =
+	{
+		ideology = communist
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 36
+	}
+	
+	liberal_focus =
+	{
+		ideology = liberal
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 37
+	}
+	
+	anarcho_liberal_focus =
+	{
+		ideology = anarcho_liberal
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 38
+	}
+}

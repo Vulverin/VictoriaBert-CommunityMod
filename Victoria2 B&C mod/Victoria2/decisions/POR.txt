@@ -1,0 +1,175 @@
+political_decisions = {
+port_brz = {
+                potential = {
+                          tag = POR
+                          NOT = {
+                                 has_country_flag = por_mor_13
+                          }
+                }
+                allow = {
+                         year = 1835
+                }
+                effect = {
+                         add_accepted_culture = brazilian
+                         BRZ = {
+                                  all_core = {
+                                         add_core = POR
+                                  }
+                         }
+                         set_country_flag = por_mor_13
+                }
+        }
+
+  porgt_navy = {
+            potential = {
+                          tag = POR 
+                          NOT = {
+                                  has_country_flag = portg_navy_hbb
+                          } 
+            }
+            allow = {
+                      naval_tech_2 = 1
+            }
+            effect = {
+                       
+                       set_country_flag = portg_navy_hbb
+                       518 = {
+                                add_province_modifier = {
+                                        name = portg_fleet
+                                        duration = -1
+                                }
+                       }
+                       521 = {
+                                add_province_modifier = {
+                                        name = portg_fleet
+                                        duration = -1
+                                }
+                       }
+                       526 = {
+                                add_province_modifier = {
+                                        name = portg_fleet
+                                        duration = -1
+                                }
+                       }
+                       
+            }
+   }
+
+   port_econ = {
+                potential = {
+                          tag = POR
+                          NOT = {
+                                 has_country_flag = por_eco_13
+                          }
+                }
+                allow = {
+                         market_structure = 1
+                }
+                effect = {
+                         add_country_modifier = {
+                                  name = portg_econ_a
+                                  duration = -1
+                         }
+                         set_country_flag = por_eco_13
+                }
+        }
+
+     port_sp_spa = {
+                potential = {
+                          ai = no
+                          tag = POR
+                          SPA = {
+                                NOT = {
+                                      has_country_modifier = portgl_spspa2
+                                }
+                          }
+                }
+                allow = {
+                         war = no
+                }
+                effect = {
+                         SPA = {
+                              add_country_modifier = {
+                                  name = portgl_spspa2
+                                  duration = -1
+                              }
+                         }
+                }
+        }
+
+       port_sp_spa_2 = {
+                potential = {
+                          ai = no
+                          tag = POR
+                          SPA = {
+                                 has_country_modifier = portgl_spspa2
+                          }
+                }
+                allow = {
+                         war = no
+                }
+                effect = {
+                         SPA = {
+                              remove_country_modifier = portgl_spspa2
+                         }
+                }
+        }
+
+        port_sp_spa3 = {
+                potential = {
+                          tag = SPA
+                          POR = {
+                                NOT = {
+                                      has_country_modifier = spa_spspa2
+                                }
+                          }
+                }
+                allow = {
+                         war = no
+                }
+                effect = {
+                         POR = {
+                              add_country_modifier = {
+                                  name = spa_spspa2
+                                  duration = -1
+                              }
+                         }
+                }
+        }
+
+        port_sp_spa_4 = {
+                potential = {
+                          tag = SPA
+                          POR = {
+                                 has_country_modifier = spa_spspa2
+                          }
+                }
+                allow = {
+                         war = no
+                }
+                effect = {
+                         POR = {
+                              remove_country_modifier = spa_spspa2
+                         }
+                }
+        }
+
+         port_colon = {
+                potential = {
+                          tag = POR
+                          NOT = {
+                                 has_country_flag = por_col_13
+                          }
+                }
+                allow = {
+                         rank = 16
+                }
+                effect = {
+                         add_country_modifier = {
+                                  name = portg_coln45
+                                  duration = -1
+                         }
+                         set_country_flag = por_col_13
+                }
+        }
+}   

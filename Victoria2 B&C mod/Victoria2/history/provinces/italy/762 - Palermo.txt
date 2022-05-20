@@ -1,0 +1,13 @@
+owner = SIC
+controller = SIC
+add_core = SIC
+add_core = ITA
+trade_goods = fish
+terrain = city_958
+life_rating = 37
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	add_core = ITA
+	naval_base = 1
+}

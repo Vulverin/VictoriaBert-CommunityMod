@@ -1,0 +1,552 @@
+political_decisions = {
+	cavours_diplomacy = {
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = cavour_has_done_his
+			}
+			owns = 465
+			owns = 466
+			owns = 472
+			FRA = {
+				exists = yes
+				is_greater_power = yes
+			}
+		}
+		allow = {
+			relation = {
+				who = FRA
+				value = 150
+			}
+			FRA = {
+				alliance_with = THIS
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -10
+			relation = {
+				who = FRA
+				value = 50
+			}
+			726 = {
+				add_core = SAR
+			}
+			727 = {
+				add_core = SAR
+			}
+			728 = {
+				add_core = SAR
+			}
+			729 = {
+				add_core = ITA
+			}
+			730 = {
+				add_core = ITA
+			}
+			731 = {
+				add_core = ITA
+			}
+			732 = {
+				add_core = ITA
+			}
+			733 = {
+				add_core = ITA
+			}
+			465 = {
+				remove_core = ITA
+				remove_core = SAR
+				add_core = FRA
+				secede_province = FRA
+			}
+			466 = {
+				remove_core = ITA
+				remove_core = SAR
+				add_core = FRA
+				secede_province = FRA
+			}
+			472 = {
+				remove_core = ITA
+				remove_core = SAR
+				add_core = FRA
+				secede_province = FRA
+			}
+			set_country_flag = cavour_has_done_his
+		}
+	}
+
+       sard_ita = { 
+           potential = {
+                          tag = SAR
+                          NOT = {
+                                 has_country_flag = sar_morit_12
+                          }
+                }
+                allow = {
+                }
+                effect = {
+                         TUS = {
+                                  all_core = {
+                                         add_core = SAR
+                                  }
+                         }
+                         LUC = {
+                                  all_core = {
+                                         add_core = SAR
+                                  }
+                         }
+                         MOD = {
+                                  all_core = {
+                                         add_core = SAR
+                                  }
+                         }
+                         PAR = {
+                                  all_core = {
+                                         add_core = SAR
+                                  }
+                         }
+                         PAP = {
+                                  all_core = {
+                                         add_core = SAR
+                                  }
+                         }
+                         SIC = {
+                                  all_core = {
+                                         add_core = SAR
+                                  }
+                         }
+                         set_country_flag = sar_morit_12
+                }
+        }        
+
+        ita_ephorip = {
+                potential = {
+			
+			NOT = {
+				has_global_flag = italy_assim_ehy1
+			}
+			tag = ITA
+			
+		}
+		
+		allow = {
+                        IAF = {
+			owns = 1852
+                        owns = 1859
+                        owns = 1863
+                        }
+		}
+		
+		effect = {
+			set_global_flag = italy_assim_ehy1
+			
+                        1875 = {
+				add_province_modifier = {
+					name = italian_assim_eh 
+					duration = -1
+				}
+			}
+                        1851 = {
+				add_province_modifier = {
+					name = italian_assim_eh 
+					duration = -1
+				}
+			}
+		}
+	}
+
+        ita_malta_bonus = {
+                potential = {
+                        tag = ITA
+                        not = { has_country_flag = malta_buff_3 }
+                                
+                }
+                allow = {
+                         owns = 854
+                         
+               }
+
+               effect = {
+                         
+                         add_country_modifier = {
+                                  name = mltitalybonus
+                                  duration = -1
+                         }
+                         set_country_flag = malta_buff_3
+               }
+        }
+
+
+        new_rome = {
+                potential = {
+                        tag = ITA
+                        not = { has_country_flag = rome_empire_123 }
+                                
+                }
+                allow = {
+                         year = 1865
+                         is_greater_power = yes
+                         war = no
+                         owns = 1852
+                         owns = 1859
+                         owns = 1863
+                         owns = 1725
+                         
+                         
+               }
+
+               effect = {
+                         
+                         change_tag = ITE
+                         all_core = {
+                                      remove_core = ITA
+                         }
+                         nationalvalue = nv_italian_empire
+                         tech_school = italianempire_tech_school
+                         749 = {
+                                 change_province_name = "Новый Рим"
+                         }
+                         add_accepted_culture = greek
+                         add_accepted_culture = maghrebi
+                         set_country_flag = rome_empire_123
+               }
+        }
+
+        tunis_shit = {
+                potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = tunis_awarded
+			}
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			TUN = {
+                                   all_core = {
+                                           add_core = ITA
+                                   }
+                        }
+			set_country_flag = tunis_awarded
+		}
+	}
+
+        tunis_comeback = {
+                 potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = tunis_awarded_21
+			}
+		}
+		
+		allow = {
+                         owns = 1725
+		}
+		
+		effect = {
+			1725 = {
+				change_province_name = "Новый Карфаген"
+			}
+                        1725 = {
+                                life_rating = 15
+                        }
+                        1725 = {
+                                fort = 1
+                        }
+                        prestige = 20
+                        years_of_research = 1.0
+			set_country_flag = tunis_awarded_21
+		}
+	}                         
+
+	award_order_of_st_francis = {
+		potential = {
+			tag = ITA
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = order_awarded
+			}
+		}
+		
+		allow = {
+			prestige = 25
+                        year = 1832
+		}
+		
+		effect = {
+			years_of_research = 0.5
+			prestige = 10
+			set_country_flag = order_awarded
+		}
+	}
+
+        italian_fleet = {
+                potential = {
+                        tag = ITA
+                        NOT = {
+                                has_global_flag = italian_fleet_hbb
+                        } 
+                }
+                allow = {
+                        iron_streamers = 1
+                }
+                effect = {
+                         set_global_flag = italian_fleet_hbb
+                        724 = {
+				add_province_modifier = {
+					name = italian_fleet 
+					duration = -1
+				}
+			}
+                        746 = {
+				add_province_modifier = {
+					name = italian_fleet 
+					duration = -1
+				}
+			}
+                        748 = {
+				add_province_modifier = {
+					name = italian_fleet 
+					duration = -1
+				}
+			}
+                        749 = {
+				add_province_modifier = {
+					name = italian_fleet
+					duration = -1
+				}
+			}
+                        754 = {
+				add_province_modifier = {
+					name = italian_fleet 
+					duration = -1
+				}
+			}
+                        758 = {
+				add_province_modifier = {
+					name = italian_fleet 
+					duration = -1
+				}
+			}
+                        763 = {
+				add_province_modifier = {
+					name = italian_fleet 
+					duration = -1
+				}
+			}
+               }
+        }                
+        
+        holy_throne = {
+                potential = {
+                        tag = ITA
+                        NOT = {
+                                has_country_flag = holythrone1
+                        }
+                }
+                allow = {
+                        year = 1836
+                        war = no
+                }
+                effect = {
+                        add_country_modifier = {
+                                name = vatikan
+                                duration = -1
+                        }
+                        set_country_flag = holythrone1
+                }
+        }
+	
+	statuto_albertino = {
+		potential = {
+			tag = ITA
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = get_your_statuto_albertino_here
+			}
+		}
+		
+		allow = {
+			average_militancy = 3
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = -2
+			}
+			prestige = 5
+			set_country_flag = get_your_statuto_albertino_here
+		}
+	}
+	build_vittoriano = {
+		potential = {
+			tag = ITA
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = vittoriano_built
+			}
+		}
+		
+		allow = {
+			realism = 1
+		}
+		
+		effect = {
+			prestige = 5
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = vittoriano_built
+		}
+	}
+	the_case_of_edgardo_mortara = {
+		potential = {
+			tag = ITA
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = edgardo_mortara
+			}
+			year = 1858
+			owns = 741
+		}
+		allow = {
+			idealism = 1
+		}
+		effect = {
+			prestige = 15
+			badboy = 1
+			any_greater_power = {
+				relation = {
+					value = -20
+					who = THIS
+				}
+			}
+			set_country_flag = edgardo_mortara
+		}
+	}
+	
+	the_first_vatican_council = {
+		potential = {
+			tag = ITA
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = first_vatican_council_held
+			}
+		}
+		
+		allow = {
+			empiricism = 1
+		}
+		
+		effect = {
+			prestige = 10
+			badboy = 1
+			any_country = {
+				limit = {
+					religion = catholic
+				}
+				relation = {
+					who = THIS
+					value = 10
+				}
+			}
+			set_country_flag = first_vatican_council_held
+		}
+	}
+	
+	law_of_guarantees = {
+		potential = {
+			tag = ITA
+			NOT = {
+				capital = 749
+			}
+		}
+		
+		allow = {
+			owns = 749
+		}
+		
+		effect = {
+			capital = 749
+			prestige = 5
+			badboy = -2
+		}
+	}
+	
+	italia_irredenta = {
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = italia_ulterior
+			}
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			set_country_flag = italia_ulterior
+                        727 = {
+                               add_core = ITA
+                        }
+                        728 = {
+                               add_core = ITA
+                        }
+                        726 = {
+                               add_core = ITA
+                        }
+			729 = {
+				add_core = ITA
+			}
+			730 = {
+				add_core = ITA
+			}
+			731 = {
+				add_core = ITA
+			}
+			732 = {
+				add_core = ITA
+			}
+			733 = {
+				add_core = ITA
+			}
+			734 = {
+				add_core = ITA
+			}
+			735 = {
+				add_core = ITA
+			}
+			736 = {
+				add_core = ITA
+			}
+			737 = {
+				add_core = ITA
+			}
+			769 = {
+				add_core = ITA
+			}
+			770 = {
+				add_core = ITA
+			}
+			778 = {
+				add_core = ITA
+			}
+			780 = {
+				add_core = ITA
+			}
+			781 = {
+				add_core = ITA
+			}
+			782 = {
+				add_core = ITA
+			}
+			2582 = {
+				add_core = ITA
+			}
+		}
+	}
+}

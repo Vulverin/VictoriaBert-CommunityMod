@@ -1,0 +1,258 @@
+political_decisions = {
+        holland_navy = {
+            potential = {
+                          tag = NET
+                          NOT = {
+                                  has_country_flag = armtechnet
+                          } 
+                          NOT = {
+                                  has_global_flag = holland_navy_has_been_built
+                          } 
+            }
+            allow = {
+                      year = 1840
+            }
+            effect = {
+                       add_country_modifier = {
+				name = holland_netfleet
+				duration = -1
+		       }
+                       set_global_flag = holland_navy_has_been_built
+                       378 = {
+                                add_province_modifier = {
+                                        name = holland_fleet
+                                        duration = -1
+                                }
+                       }
+                       385 = {
+                                add_province_modifier = {
+                                        name = holland_fleet
+                                        duration = -1
+                                }
+                       }
+                       376 = {
+                                add_province_modifier = {
+                                        name = holland_fleet
+                                        duration = -1
+                                }
+                       }
+            }
+        }
+
+        net_luxemburg = {
+                 potential = {
+			tag = NET
+			NOT = {
+				has_country_flag = luxholland
+			}
+		}
+		allow = {
+			owns = 390
+                        owns = 387
+                        owns = 391
+                        owns = 389
+                        LUX = {
+                               vassal_of = THIS
+                        }
+		}
+		effect = {
+			inherit = LUX
+			set_country_flag = luxholland
+		}
+        }
+
+	sign_treaty_of_london = {
+		potential = {
+			tag = NET
+			exists = BEL
+			NOT = {
+				has_country_flag = signed_treay_of_london
+			}
+		}
+		allow = {
+			OR = { 
+				relation = {
+					who = ENG
+					value = 100
+				}
+				ENG = { 
+					diplomatic_influence = {
+						who = THIS
+						value = 50
+					}
+				}
+				ideological_thought = 1
+			}		
+		}
+		effect = {
+			remove_core = 387
+			remove_core = 388
+			remove_core = 389
+			remove_core = 390
+			remove_core = 391
+			remove_core = 392
+			remove_core = 393
+			remove_core = 394
+			remove_core = 395
+			remove_core = 396
+			remove_core = 398
+			prestige = 20
+			any_greater_power = {
+				limit = { 
+					NOT = { 
+						OR = {
+							tag = FRA
+							tag = ENG
+						}
+					}
+				}	
+				relation = {
+					who = THIS
+					value = 20
+				}
+			}
+			ENG = {
+				relation = {
+					who = THIS
+					value = 150
+				}
+			}
+			FRA = {
+				relation = {
+					who = THIS
+					value = 150
+				}
+			}
+			BEL = {
+				relation = {
+					who = THIS
+					value = 25
+				}
+			}
+			set_country_flag = signed_treay_of_london
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					year = 1850
+				}
+			}
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					owns = 387
+					owns = 388
+					owns = 389
+					owns = 390
+					owns = 391
+					owns = 392
+					owns = 393
+					owns = 394
+					owns = 395
+					owns = 396
+					owns = 398
+				}
+			}
+		}
+	}
+             
+                net_colonial_sumatra = {
+                 potential = {
+			tag = NET
+			NOT = {
+				has_country_flag = net_indonesia1 
+			}
+		}
+		allow = {
+			owns = 1405
+                        owns = 1403
+                        year = 1845
+		}
+		effect = {
+			add_country_modifier = {
+                                                name = net_colonial_power1
+                                                duration = 10950
+                                                }
+			set_country_flag = net_indonesia1
+                }
+         }
+                net_colonial_yava = {
+                 potential = {
+			tag = NET
+			NOT = {
+				has_country_flag = net_indonesia2 
+			}
+		}
+		allow = {
+			owns = 1413
+                        year = 1845
+		}
+		effect = {
+			add_country_modifier = {
+                                                name = net_colonial_power2
+                                                duration = 10950
+                                                }
+			set_country_flag = net_indonesia2
+                }
+         }
+                net_south_africa = {
+                 potential = {
+			tag = NET
+			NOT = {
+				has_country_flag = net_saf
+			}
+		}
+		allow = {
+                        political_thought_1 = 1
+		}
+		effect = {
+			SAF = {
+                                   all_core = {
+				          add_core = NET
+			           }
+                         }
+			set_country_flag = net_saf
+		}
+        }
+                net_integration_north_south = {
+                 potential = {
+			tag = NET
+			NOT = {
+				has_country_flag = int_north_south
+			}
+		}
+		allow = {
+                        owns = 387
+                        owns = 390
+                        owns = 395
+                        owns = 375
+                        year = 1880
+		}
+		effect = {
+			add_country_modifier = {
+                            name = net_mobilization_bust
+                            duration = -1
+                        }
+                        375 = {
+                                add_province_modifier = {
+                                        name = net_north_south
+                                        duration = 10950
+                                }
+                         }
+                        387 = {
+                                add_province_modifier = {
+                                        name = net_north_south
+                                        duration = 10950
+                                }
+                         }
+			set_country_flag = int_north_south
+		}
+        }
+
+}

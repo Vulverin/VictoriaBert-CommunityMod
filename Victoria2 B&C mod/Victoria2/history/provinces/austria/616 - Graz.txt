@@ -1,0 +1,7 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+trade_goods = iron
+terrain = city_958
+life_rating = 35
+1861.1.1 = { railroad = 3 }

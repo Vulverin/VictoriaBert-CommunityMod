@@ -1,0 +1,8 @@
+owner =  FRA # FRA
+controller =  FRA # FRA
+add_core = HND
+add_core = FOC
+trade_goods = grain
+life_rating = 35
+colonial = 2
+naval_base = 1

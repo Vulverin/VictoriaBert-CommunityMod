@@ -1,0 +1,466 @@
+#100100-100200 IDs
+
+###start
+country_event = {
+	id = 100100
+	title = "EVTNAME100100"
+	desc = "EVTDESC100100"
+	is_triggered_only = yes 
+	immediate = {
+	}
+	option = {
+		name = "EVTOPTA100100"
+		country_event = {
+			id = 100102
+		}
+	}
+	option = {
+		name = "EVTOPTB100100"
+		country_event = {
+			id = 100105
+		}
+	}
+	option = {
+		name = "EVTOPTC100100"
+		country_event = {
+			id = 100108
+		}
+	}
+}
+country_event = {
+	id = 100101
+	title = "EVTNAME100101"
+	desc = "EVTDESC100101"
+	is_triggered_only = yes 
+	immediate = {
+	}
+	option = {
+		name = "EVTOPTA100101"
+		country_event = {
+			id = 100111
+		}
+	}
+	option = {
+		name = "EVTOPTB100101"
+		country_event = {
+			id = 100114
+		}
+	}
+	option = {
+		name = "EVTOPTC100101"
+		country_event = {
+			id = 100117
+		}
+	}
+}
+###issue1
+country_event = {
+	id = 100102
+	title = "EVTNAME100102"
+	desc = "EVTDESC100102"
+	is_triggered_only = yes 
+	immediate = {
+		add_tax_relative_income = 8
+		add_country_modifier = {
+			name = issue_little_stage1
+			duration = 360
+		}
+		country_event = {
+			id = 100103
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100103
+	title = "EVTNAME100103"
+	desc = "EVTDESC100103"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = 12
+		add_country_modifier = {
+			name = issue_little_stage2
+			duration = 216
+		}
+		country_event = {
+			id = 100104
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100104
+	title = "EVTNAME100104"
+	desc = "EVTDESC100104"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = 16
+		add_country_modifier = {
+			name = issue_little_stage3
+			duration = 72
+		}
+	}
+	option = {
+		name = "Ok"
+		country_event = {
+			id = 100120
+			days = 288
+		}
+	}
+}
+###issue2
+country_event = {
+	id = 100105
+	title = "EVTNAME100105"
+	desc = "EVTDESC100105"
+	is_triggered_only = yes 
+	immediate = {
+		add_tax_relative_income = 20
+		add_country_modifier = {
+			name = issue_average_stage1
+			duration = 360
+		}
+		country_event = {
+			id = 100106
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100106
+	title = "EVTNAME100106"
+	desc = "EVTDESC100106"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = 25
+		add_country_modifier = {
+			name = issue_average_stage2
+			duration = 216
+		}
+		country_event = {
+			id = 100107
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100107
+	title = "EVTNAME100107"
+	desc = "EVTDESC100107"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = 35
+		add_country_modifier = {
+			name = issue_average_stage3
+			duration = 72
+		}
+		add_country_modifier = {
+			name = issue_average_stage4
+			duration = 468
+		}
+	}
+	option = {
+		name = "Ok"
+		country_event = {
+			id = 100120
+			days = 468
+		}
+	}
+}
+###issue3
+country_event = {
+	id = 100108
+	title = "EVTNAME100108"
+	desc = "EVTDESC100108"
+	is_triggered_only = yes 
+	immediate = {
+		add_tax_relative_income = 40
+		add_country_modifier = {
+			name = issue_large_stage1
+			duration = 360
+		}
+		country_event = {
+			id = 100109
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100109
+	title = "EVTNAME100109"
+	desc = "EVTDESC100109"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = 60
+		add_country_modifier = {
+			name = issue_large_stage2
+			duration = 216
+		}
+		country_event = {
+			id = 100110
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100110
+	title = "EVTNAME100110"
+	desc = "EVTDESC100110"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = 80
+		add_country_modifier = {
+			name = issue_large_stage3
+			duration = 72
+		}
+		add_country_modifier = {
+			name = issue_large_stage4
+			duration = 648
+		}
+	}
+	option = {
+		name = "Ok"
+		country_event = {
+			id = 100120
+			days = 648
+		}
+	}
+}
+###dev1
+country_event = {
+	id = 100111
+	title = "EVTNAME100111"
+	desc = "EVTDESC100111"
+	is_triggered_only = yes 
+	immediate = {
+		add_tax_relative_income = -8
+		add_country_modifier = {
+			name = devaluation_little_stage1
+			duration = 360
+		}
+		country_event = {
+			id = 100112
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100112
+	title = "EVTNAME100112"
+	desc = "EVTDESC100112"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = -12
+		add_country_modifier = {
+			name = devaluation_little_stage2
+			duration = 216
+		}
+		country_event = {
+			id = 100113
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100113
+	title = "EVTNAME100113"
+	desc = "EVTDESC100113"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = -16
+		add_country_modifier = {
+			name = devaluation_little_stage3
+			duration = 72
+		}
+	}
+	option = {
+		name = "Ok"
+		country_event = {
+			id = 100120
+			days = 288
+		}
+	}
+}
+###dev2
+country_event = {
+	id = 100114
+	title = "EVTNAME100114"
+	desc = "EVTDESC100114"
+	is_triggered_only = yes 
+	immediate = {
+		add_tax_relative_income = -20
+		add_country_modifier = {
+			name = devaluation_average_stage1
+			duration = 360
+		}
+		country_event = {
+			id = 100115
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100115
+	title = "EVTNAME100115"
+	desc = "EVTDESC100115"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = -25
+		add_country_modifier = {
+			name = devaluation_average_stage2
+			duration = 216
+		}
+		country_event = {
+			id = 100116
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100116
+	title = "EVTNAME100116"
+	desc = "EVTDESC100116"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = -35
+		add_country_modifier = {
+			name = devaluation_average_stage3
+			duration = 72
+		}
+		add_country_modifier = {
+			name = devaluation_average_stage4
+			duration = 468
+		}
+	}
+	option = {
+		name = "Ok"
+		country_event = {
+			id = 100120
+			days = 468
+		}
+	}
+}
+###dev3
+country_event = {
+	id = 100117
+	title = "EVTNAME100117"
+	desc = "EVTDESC100117"
+	is_triggered_only = yes 
+	immediate = {
+		add_tax_relative_income = -40
+		add_country_modifier = {
+			name = devaluation_large_stage1
+			duration = 360
+		}
+		country_event = {
+			id = 100118
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100118
+	title = "EVTNAME100118"
+	desc = "EVTDESC100118"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = -60
+		add_country_modifier = {
+			name = devaluation_large_stage2
+			duration = 216
+		}
+		country_event = {
+			id = 100119
+			days = 72
+		}
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100119
+	title = "EVTNAME100119"
+	desc = "EVTDESC100119"
+	is_triggered_only = yes
+	immediate = {
+		add_tax_relative_income = -80
+		add_country_modifier = {
+			name = devaluation_large_stage3
+			duration = 72
+		}
+		add_country_modifier = {
+			name = devaluation_large_stage4
+			duration = 648
+		}
+	}
+	option = {
+		name = "Ok"
+		country_event = {
+			id = 100120
+			days = 648
+		}
+	}
+}
+###end
+country_event = {
+	id = 100120
+	title = "EVTNAME100120"
+	desc = "EVTDESC100120"
+	is_triggered_only = yes
+	immediate = {
+		clr_country_flag = currency_reforming
+	}
+	option = {
+		name = "Ok"
+	}
+}
+country_event = {
+	id = 100121
+	title = "EVTNAME100120"
+	desc = "EVTDESC100120"
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+		name = "Ok"
+		add_tax_relative_income = 360
+	}
+	option = {
+		name = "Ok"
+		add_tax_relative_income = -360
+	}
+}

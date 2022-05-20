@@ -1,0 +1,96 @@
+#100200-100300 IDs
+
+#democracy
+country_event = {
+	id = 100200
+	title = "EVTNAME100200" 
+	desc = "EVTDESC100200"
+	picture = "unite"
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA100200"
+		government = democracy
+		ruling_party_ideology = liberal
+		political_reform = universal_weighted_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = 1_years_draft
+		political_reform = same_rules
+		political_reform = bankruptcy
+		political_reform = all_strata_migration
+		random_country = {
+			limit = {
+				truce_with = THIS
+				OR = {
+					government = democracy
+					government = hms_government
+				}
+			}
+			relation = { who = THIS value = 400 }
+			diplomatic_influence = { who = THIS value = 100 }
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = communist
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = fascist
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = -5
+			}
+		}
+	}
+}
+country_event = {
+	id = 100201
+	title = "EVTNAME100201"
+	desc = "EVTDESC100201"
+	picture = "unite"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA100201"
+		government = fascist_dictatorship
+		ruling_party_ideology = fascist
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+		political_reform = 10_years_draft
+		political_reform = apartheid
+		political_reform = bankruptcy
+		political_reform = all_strata_migration
+		random_country = {
+			limit = {
+				truce_with = THIS
+				government = fascist_dictatorship
+			}
+			relation = { who = THIS value = 400 }
+			diplomatic_influence = { who = THIS value = 100 }
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = communist
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 5
+			}
+			scaled_militancy = {
+				ideology = fascist
+				factor = -5
+			}
+		}
+	}
+}

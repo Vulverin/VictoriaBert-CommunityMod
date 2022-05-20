@@ -1,0 +1,1036 @@
+political_decisions = {
+        annex_china_substates = {
+		alert = yes
+		potential = {
+			tag = CHI
+			civilized = yes
+			NOT = {
+				has_country_flag = annexed_china_substates
+			}
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = annexed_china_substates
+			any_country = {
+				limit = {
+					OR = {
+						tag = XBI
+						tag = GXI
+						tag = YNN
+					}
+				}
+				annex_to = THIS
+			}
+		}
+	}
+
+        china_tr_des_on = { 
+	alert = no 
+        potential = {
+             year = 1850 
+             not = { 
+                     has_country_flag = china_tr_des_window
+                     has_country_flag = chi_prt_pk
+                     tag = CHI                             
+             } 
+			
+        } 
+	allow = { ai = no } 
+	effect = { set_country_flag = china_tr_des_window } 
+	}
+        china_tr_des_off = {
+	alert = no 
+        potential = { has_country_flag = china_tr_des_window } 
+	allow = { ai = no } 
+	effect = { clr_country_flag = china_tr_des_window }
+	}
+        kongn1 = {
+              potential = {
+                        has_country_flag = china_tr_des_window
+                        CHI = {
+                              owns = 1496
+                        }
+                        NOT = {
+                                has_country_flag = chi_prt_pk
+                        }
+              }
+              allow = {
+                       money = 1000000
+                       total_amount_of_ships = 30
+              }
+              effect = {
+                        money = -1000000
+                        CHI = {
+				country_event = { id=99979 days=0 }
+			}
+                        1496 = {
+                                 secede_province = THIS
+                        }
+                        set_country_flag = chi_prt_pk
+              }
+        }
+       
+        makaon1 = {
+              potential = {
+                        has_country_flag = china_tr_des_window
+                        CHI = {
+                              owns = 1498
+                        }
+                        NOT = {
+                                has_country_flag = chi_prt_pk
+                        }
+              }
+              allow = {
+                       money = 1000000
+                       total_amount_of_ships = 30
+              }
+              effect = {
+                        CHI = {
+				country_event = { id=99979 days=0 }
+			}
+                        money = -1000000
+                        1498 = {
+                                 secede_province = THIS
+                        }
+                        set_country_flag = chi_prt_pk
+              }
+        }
+
+        shaosin1 = {
+              potential = {
+                        has_country_flag = china_tr_des_window
+                        CHI = {
+                              owns = 1609
+                        }
+                        NOT = {
+                                has_country_flag = chi_prt_pk
+                        }
+              }
+              allow = {
+                       money = 1000000
+                       total_amount_of_ships = 30
+              }
+              effect = {
+                        money = -1000000
+                        CHI = {
+				country_event = { id=99979 days=0 }
+			}
+                        1609 = {
+                                 secede_province = THIS
+                        }
+                        set_country_flag = chi_prt_pk
+              }
+        }
+
+        jiaxing1 = {
+              potential = {
+                        has_country_flag = china_tr_des_window
+                        CHI = {
+                              owns = 1606
+                        }
+                        NOT = {
+                                has_country_flag = chi_prt_pk
+                        }
+              }
+              allow = {
+                       money = 1000000
+                       total_amount_of_ships = 30
+              }
+              effect = {
+                        money = -1000000
+                        CHI = {
+				country_event = { id=99979 days=0 }
+			}
+                        1606 = {
+                                 secede_province = THIS
+                        }
+                        set_country_flag = chi_prt_pk
+              }
+        }
+
+        shanghai1 = {
+              potential = {
+                        has_country_flag = china_tr_des_window
+                        CHI = {
+                              owns = 1538
+                        }
+                        NOT = {
+                                has_country_flag = chi_prt_pk
+                        }
+              }
+              allow = {
+                       money = 1000000
+                       total_amount_of_ships = 30
+              }
+              effect = {
+                        money = -1000000
+                        CHI = {
+				country_event = { id=99979 days=0 }
+			}
+                        1538 = {
+                                 secede_province = THIS
+                        }
+                        set_country_flag = chi_prt_pk
+              }
+        }
+
+        cindao1 = {
+              potential = {
+                        has_country_flag = china_tr_des_window
+                        CHI = {
+                              owns = 1566
+                        }
+                        NOT = {
+                                has_country_flag = chi_prt_pk
+                        }
+              }
+              allow = {
+                       money = 1000000
+                       total_amount_of_ships = 30
+              }
+              effect = {
+                        money = -1000000
+                        CHI = {
+				country_event = { id=99979 days=0 }
+			}
+                        1566 = {
+                                 secede_province = THIS
+                        }
+                        set_country_flag = chi_prt_pk
+              }
+        }
+
+        way1 = {
+              potential = {
+                        has_country_flag = china_tr_des_window
+                        CHI = {
+                              owns = 1569
+                        }
+                        NOT = {
+                                has_country_flag = chi_prt_pk
+                        }
+              }
+              allow = {
+                       money = 1000000
+                       total_amount_of_ships = 30
+              }
+              effect = {
+                        money = -1000000
+                        CHI = {
+				country_event = { id=99979 days=0 }
+			}
+                        1569 = {
+                                 secede_province = THIS
+                        }
+                        set_country_flag = chi_prt_pk
+              }
+        }
+
+        ninbo123 = {
+              potential = {
+                        has_country_flag = china_tr_des_window
+                        CHI = {
+                              owns = 1608
+                        }
+                        NOT = {
+                                has_country_flag = chi_prt_pk
+                        }
+              }
+              allow = {
+                       money = 1000000
+                       total_amount_of_ships = 30
+              }
+              effect = {
+                        money = -1000000
+                        CHI = {
+				country_event = { id=99979 days=0 }
+			}
+                        1608 = {
+                                 secede_province = THIS
+                        }
+                        set_country_flag = chi_prt_pk
+              }
+        }
+
+        eng_getting_company = {
+		potential = {
+			tag = ENG
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = ENC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = ENC }
+                                        is_independant = yes
+					in_sphere = ENG
+					war = no
+				}
+				annex_to = ENC
+			}
+			set_country_flag = has_trade_company
+			ENC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        fra_getting_company = {
+		potential = {
+			tag = FRC
+                        OR = {
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = FRC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = FRC }
+                                        is_independant = yes
+					in_sphere = FRA
+					war = no
+				}
+				annex_to = FRC
+			}
+			set_country_flag = has_trade_company
+			FRC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        ger_getting_company = {
+		potential = {
+			tag = GER
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = GSC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = GSC }
+                                        is_independant = yes
+					in_sphere = GER
+					war = no
+				}
+				annex_to = GSC
+			}
+			set_country_flag = has_trade_company
+			GSC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        mex_getting_company = {
+		potential = {
+			tag = ENG
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = MXC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = MXC }
+                                        is_independant = yes
+					in_sphere = MEX
+					war = no
+				}
+				annex_to = MXC
+			}
+			set_country_flag = has_trade_company
+			MXC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        brz_getting_company = {
+		potential = {
+			tag = LAF
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = BRC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = BRC }
+                                        is_independant = yes
+					in_sphere = LAF
+					war = no
+				}
+				annex_to = BRC
+			}
+			set_country_flag = has_trade_company
+			BRC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        usa_getting_company = {
+		potential = {
+			tag = USA
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = USC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = USC }
+                                        is_independant = yes
+					in_sphere = USA
+					war = no
+				}
+				annex_to = USC
+			}
+			set_country_flag = has_trade_company
+			USC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        jap_getting_company = {
+		potential = {
+                        tag = JPE
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = JPC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = JPC }
+                                        is_independant = yes
+					in_sphere = JPE
+					war = no
+				}
+				annex_to = JPC
+			}
+			set_country_flag = has_trade_company
+			JPC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        net_getting_company = {
+		potential = {
+			tag = NET
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = NEC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = NEC }
+                                        is_independant = yes
+					in_sphere = NET
+					war = no
+				}
+				annex_to = NEC
+			}
+			set_country_flag = has_trade_company
+			NEC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        tur_getting_company = {
+		potential = {
+			tag = TUR
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = TCH }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = TCH }
+                                        is_independant = yes
+					in_sphere = TUR
+					war = no
+				}
+				annex_to = TCH
+			}
+			set_country_flag = has_trade_company
+			TCH = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        sca_getting_company = {
+		potential = {
+			tag = SCA
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = SCC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = SCC }
+                                        is_independant = yes
+					in_sphere = SCA
+					war = no
+				}
+				annex_to = SCC
+			}
+			set_country_flag = has_trade_company
+			SCC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        rus_getting_company = {
+		potential = {
+			tag = RUS
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = RUC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = RUC }
+                                        is_independant = yes
+					in_sphere = RUS
+					war = no
+				}
+				annex_to = RUC
+			}
+			set_country_flag = has_trade_company
+			RUC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        por_getting_company = {
+		potential = {
+			tag = POR
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = PRC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = PRC }
+                                        is_independant = yes
+					in_sphere = POR
+					war = no
+				}
+				annex_to = PRC
+			}
+			set_country_flag = has_trade_company
+			PRC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        spa_getting_company = {
+		potential = {
+			tag = SPA
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = SPC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = SPC }
+                                        is_independant = yes
+					in_sphere = SPA
+					war = no
+				}
+				annex_to = SPC
+			}
+			set_country_flag = has_trade_company
+			SPC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        ita_getting_company = {
+		potential = {
+			tag = ITA
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ASC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = ITC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = ITC }
+                                        is_independant = yes
+					in_sphere = ITA
+					war = no
+				}
+				annex_to = ITC
+			}
+			set_country_flag = has_trade_company
+			ITC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+        aus_getting_company = {
+		potential = {
+			tag = DNF
+                        OR = {
+                             is_sphere_leader_of = FRC
+                             is_sphere_leader_of = GSC
+                             is_sphere_leader_of = MXC
+                             is_sphere_leader_of = BRC
+                             is_sphere_leader_of = USC
+                             is_sphere_leader_of = JPC
+                             is_sphere_leader_of = NEC
+                             is_sphere_leader_of = TCH
+                             is_sphere_leader_of = SCC
+                             is_sphere_leader_of = RUC
+                             is_sphere_leader_of = PRC
+                             is_sphere_leader_of = SPC
+                             is_sphere_leader_of = ITC
+                             is_sphere_leader_of = ENC
+                        }
+		}
+		allow = {
+			money = 1000000
+			prestige = 100
+			war = no
+				controller = { 
+					NOT = { tag = ASC }
+					war = no
+	                        }
+		}
+		effect = {
+			money = -1000000
+			random_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+                                                     is_core = CHI
+                                                     is_core = YNN
+                                                     is_core = GXI
+                                                     is_core = XBI
+                                               }
+					}
+					NOT = { tag = ASC }
+                                        is_independant = yes
+					in_sphere = DNF
+					war = no
+				}
+				annex_to = ASC
+			}
+			set_country_flag = has_trade_company
+			ASC = { clr_country_flag = destroyed_trade_company }
+		}
+	}
+}

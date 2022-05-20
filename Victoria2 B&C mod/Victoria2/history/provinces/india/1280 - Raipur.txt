@@ -1,0 +1,11 @@
+owner = HYD
+controller = HYD
+add_core = HYD
+add_core = HND
+trade_goods = dye
+life_rating = 35
+1861.1.1 = {
+	owner =  HND # HND
+	controller =  HND # HND
+	#colonial = 2
+}

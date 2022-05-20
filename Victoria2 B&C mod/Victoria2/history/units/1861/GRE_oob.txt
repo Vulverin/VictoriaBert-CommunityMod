@@ -1,0 +1,92 @@
+army = {
+	name = "1-й Корпус "
+	location = 836
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 834
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 834
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 834
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 835
+	}
+
+	regiment = {
+		name= "5-я дивизия"
+		type = infantry
+		home = 836
+	}
+
+	regiment = {
+		name= "6-я дивизия"
+		type = cuirassier
+		home = 837
+	}
+}
+
+army = {
+	name = "2-й Корпус "
+	location = 834
+	regiment = {
+		name= "7-я дивизия"
+		type = infantry
+		home = 838
+	}
+
+	regiment = {
+		name= "8-я дивизия"
+		type = infantry
+		home = 839
+	}
+
+	regiment = {
+		name= "9-я дивизия"
+		type = infantry
+		home = 841
+	}
+
+}
+
+army = {
+	name = "Ополчение"
+	location = 837
+	regiment = {
+		name= "1-е ополчение"
+		type = irregular
+		home = 837
+	}
+
+	regiment = {
+		name= "2-е ополчение"
+		type = irregular
+		home = 840
+	}
+
+	regiment = {
+		name= "3-е ополчение"
+		type = irregular
+		home = 842
+	}
+
+	regiment = {
+		name= "4-е ополчение"
+		type = irregular
+		home = 845
+	}
+
+}
+

@@ -1,0 +1,6 @@
+owner = FRA
+controller = FRA naval_base = 2 
+add_core = FRA terrain = port_city 
+trade_goods = fish
+life_rating = 32 
+1861.1.1 = { railroad = 3 }

@@ -1,0 +1,28 @@
+alliance=
+	{
+		first="BOL"
+		second="PEU"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+alliance=
+	{
+		first="BRZ"
+		second="ARG"
+		end_date="1838.1.1"
+		start_date="1870.1.1"
+	}
+alliance=
+	{
+		first="BRZ"
+		second="URU"
+		end_date="1838.1.1"
+		start_date="1870.1.1"
+	}
+alliance=
+	{
+		first="BRZ"
+		second="PRG"
+		end_date="1838.1.1"
+		start_date="1870.1.1"
+	}

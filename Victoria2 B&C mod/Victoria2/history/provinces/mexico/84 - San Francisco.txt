@@ -1,0 +1,12 @@
+owner = MEX
+controller = MEX
+add_core = MEX
+add_core = CAL
+trade_goods = fruit
+naval_base = 1
+terrain = san_franc_city
+life_rating = 35 1861.1.1 = {owner = USAcontroller = USAadd_core = USA}
+1861.1.1 = {
+	naval_base = 1
+	fort = 1
+}

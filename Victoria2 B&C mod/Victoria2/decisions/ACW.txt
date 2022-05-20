@@ -1,0 +1,1420 @@
+political_decisions = {
+# North-American Minors
+	apply_for_USA_statehood = {
+		potential = {	
+			exists = USA
+			OR = {
+				tag = TEX
+				tag = DES
+				tag = CAL
+			}
+		}
+		allow = {
+			war = no
+			USA = {
+				war = no
+			}
+		NOT = {
+				has_country_flag = usstatehood_we_have_applied
+			}
+			relation = {
+				who = USA
+				value = 175
+			}
+			OR = {
+				AND = {
+					USA = {
+						slavery = yes_slavery
+					}
+					slavery = yes_slavery
+				}
+				AND = {
+					USA = {
+						slavery = no_slavery
+					}
+					slavery = no_slavery
+				}
+			}
+		}
+		effect = {
+		set_country_flag = usstatehood_we_have_applied
+			USA = {
+				country_event = { id=16400 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# CSA
+	king_cotton = {
+		potential = {
+			tag = USA
+			war_with = ENG
+			not = {
+				has_country_flag = haskingcotton
+			}
+		}
+		
+		allow = {
+			war_exhaustion = 1
+		}
+		
+		effect = {
+			set_country_flag = haskingcotton
+			prestige = 5
+                        ENG = {
+                            cotton = -800
+                            add_country_modifier = { 
+                               name = king_cott
+                               duration = 1825
+                            }
+                        
+          
+			
+			
+				
+			}
+		}
+	}
+        congress_tr_des_on = { 
+	alert = no 
+        potential = { 
+             tag = USA
+             not = { has_country_flag = congress_tr_des_window }		
+        } 
+	allow = { ai = no } 
+	effect = { set_country_flag = congress_tr_des_window } 
+	}
+        congress_tr_des_off = {
+	alert = no 
+        potential = {
+          tag = USA 
+          has_country_flag = congress_tr_des_window } 
+	allow = { ai = no } 
+	effect = { clr_country_flag = congress_tr_des_window }
+	}
+
+        american_banks = {
+		potential = {
+			tag = USA
+                               has_country_flag = congress_tr_des_window
+                               NOT = {
+                                      has_country_modifier = americanbanks
+                               }
+		}
+
+		allow = {
+		}
+
+		effect = {
+                        money = 1000000
+
+                               add_country_modifier = {
+                                  name = americanbanks
+                                  duration = 1825
+                               }
+		}
+	}
+
+        usa_army_congress = {
+                potential = {
+                             
+                              tag = USA
+                              has_country_flag = congress_tr_des_window
+                              NOT = {
+                                    year = 1860
+                              }
+                              USA = {
+                                    has_country_flag = usa_army_limit
+                                   NOT = {
+                                     has_country_modifier = us_congress_army
+                                   }
+                              }
+                            
+                }
+                allow = {
+                          money = 1000000
+                }
+                effect = {
+                          money = -1000000
+                          clr_country_flag = usa_army_limit
+                          add_country_modifier = {
+                                       name = us_congress_army
+                                       duration = 1825
+                          }
+                }
+        }
+        usa_army_congress_1860 = {
+                potential = {
+                             
+                              tag = USA
+                              has_country_flag = congress_tr_des_window
+                              year = 1860
+                              USA = {
+                                    has_country_flag = usa_army_limit
+                                   NOT = {
+                                     has_country_modifier = us_congress_army
+                                   }
+                              }
+                            
+                }
+                allow = {
+                          money = 2000000
+                }
+                effect = {
+                          money = -2000000
+                          clr_country_flag = usa_army_limit
+                          add_country_modifier = {
+                                       name = us_congress_army
+                                       duration = 1825
+                          }
+                }
+        }
+
+        usa_opium_war = {
+                potential = {
+                              tag = USA
+                              NOT = {
+                                     has_country_flag = opiumusa
+                              }
+                }
+                allow = {
+                          OR = {
+                               owns = 1538
+                               owns = 1606
+                               owns = 1496
+                               owns = 1498
+                               owns = 1609
+                               owns = 1569
+                               owns = 1608
+                               owns = 1566
+                         }
+                }
+                effect = {
+                          set_country_flag = opiumusa
+                          CHI = {
+                                 country_event = { id=99912 days=0 }
+                          }
+                }
+        }
+        usa_opium_war2 = {
+                potential = {
+                              tag = USA
+                              has_country_modifier = china_refused
+                              NOT = {
+                                     has_country_flag = opiumus2
+                              }
+                }
+                allow = {
+                          1612 = {
+                                 controlled_by = THIS
+                          }
+                }
+                effect = {
+                          set_country_flag = opiumus2
+                          remove_country_modifier = china_refused
+                       CHI = {
+                            add_country_modifier = {
+                               name = opium_infl_usa
+                               duration = 3650
+                            }
+                       }
+                                
+                          
+                }
+        }
+	
+	trail_of_tears = {
+		potential = {
+			tag = USA
+			NOT = {
+				has_global_flag = marching_on_the_trail_of_tears
+			}
+		}
+		
+		allow = {
+			owns = 129
+			owns = 130
+			owns = 131
+			average_consciousness = 3
+		}
+		
+		effect = {
+			any_pop = {
+				limit = {
+					has_pop_culture = cherokee
+					NOT = {
+						location = {
+							OR = {
+								province_id = 130
+								province_id = 131
+								province_id = 129
+							}
+						}
+					}
+				}
+				reduce_pop = 0.80
+				consciousness = 2
+				militancy = -1
+				move_pop = 130
+			}
+			130 = {
+				add_core = CHE
+			}
+			131 = {
+				add_core = CHE
+			}
+			129 = {
+				add_core = CHE
+			}
+			145 = {
+				remove_core = CHE
+			}
+			143 = {
+				remove_core = CHE
+			}
+			add_accepted_culture = cherokee
+			set_global_flag = marching_on_the_trail_of_tears
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+        annex_texas = {
+                potential = {
+                        tag = USA
+                        NOT = {
+                                has_country_flag = annex_tex_done
+                        }
+                }
+                allow = {
+                         ideological_thought = 1
+                         relation = {
+                                  who = TEX
+                                  value = 200
+                                  
+                          }
+                }
+                effect = {
+                          inherit = TEX
+                }
+        }
+
+        annex_liberia = {
+                potential = {
+                        tag = USA
+                        NOT = {
+                                has_country_flag = usa_libr1
+                        }
+                }
+
+                allow = {
+                          muzzle_loaded_rifles = 1
+                          state_n_government = 1
+                }
+
+                effect = {
+                           inherit = LIB
+                           set_country_flag = usa_libr1
+                }
+        }
+
+        american_imperialism1 = {
+                potential = {
+                        tag = USA
+                        NOT = {
+                                has_country_flag = usa_imperialism1
+                        }
+                }
+
+                allow = {
+                          military_score = 300
+                }
+
+                effect = {
+                           add_country_modifier = {
+                                    name = amrc_imprls
+                                    duration = -1
+                           }
+                           set_country_flag = usa_imperialism1
+                }
+        }
+
+        annex_cuba = {
+                potential = {
+                        tag = USA
+                        year = 1850
+                        NOT = {
+                                has_country_flag = usa_cuba1
+                        }
+                }
+
+                allow = {
+                }
+
+                effect = {
+                           CUB = {
+                                   all_core = {
+				          add_core = USA
+			           }
+                           }
+                           set_country_flag = usa_cuba1
+                }
+        }
+
+        american_navy = {
+                potential = {
+                          tag = USA 
+                          NOT = {
+                                  has_global_flag = american_has_been_built
+                          } 
+                }
+                allow = {
+                          year = 1870
+                }
+                effect = {
+                       
+                       set_global_flag = american_has_been_built
+                       139 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       194 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       197 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       200 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       205 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       210 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       214 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       220 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       219 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       231 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       233 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       243 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }
+                       248 = {
+                                add_province_modifier = {
+                                        name = american_fleet
+                                        duration = -1
+                                }
+                       }  
+               }
+        }
+	
+	custers_expedition = {
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = custers_expedition_sent
+			}
+			owns = 122
+			year = 1874
+		}
+		
+		allow = {
+			122 = {
+				units_in_province = 1
+			}
+		}
+		
+		effect = {
+			prestige = 1
+			set_country_flag = custers_expedition_sent
+		}
+	}
+	
+	enact_the_homestead_act = {
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_modifier = the_homestead_act
+			}
+			year = 1860
+		}
+		
+		allow = {
+			prestige = 40
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = the_homestead_act
+				duration = -1
+			}
+		}
+	}
+			
+	bixby_letter = {
+		potential = {
+			tag = USA
+			not = {
+				has_country_flag = bixby_letter_sent
+			}
+			war_with = CSA
+		}
+		
+		allow = {
+			war_exhaustion = 6
+		}
+		
+		effect = {
+			set_country_flag = bixby_letter_sent
+			war_exhaustion = -2
+		}
+	}
+
+	enact_anaconda_plan = {
+		potential = {
+			tag = USA
+			war_with = CSA
+			NOT = {
+				has_global_flag = anaconda_plan_active
+			}
+		}
+		
+		allow = {
+			CSA = {
+				blockade = 0.8
+			}
+		}
+		
+		effect = {
+			CSA = {
+				add_country_modifier = {
+					name = anaconda_plan
+					duration = -1
+				}
+			}
+			set_global_flag = anaconda_plan_active
+		}
+	}
+
+        west_coast = {
+                potential = {
+                        tag = USA
+                        NOT = {
+                               has_country_flag = wst_cst_dn
+                        }
+                }
+                allow = {
+                         owns = 84
+		         owns = 85
+		         owns = 86
+		         owns = 87
+		         owns = 88
+		         owns = 89
+		         owns = 90
+		         owns = 94
+		         owns = 95
+		         owns = 96
+		         owns = 97
+		         owns = 98
+		         owns = 99
+		         owns = 100
+		         owns = 101
+		         owns = 102
+		         owns = 103
+		         owns = 104
+		         owns = 105
+		         owns = 136
+		         owns = 138
+               }
+               effect = {
+                         84 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         85 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         86 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         87 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         88 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         89 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         90 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         94 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         95 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         96 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         97 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         98 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         99 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         100 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         101 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         102 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         103 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         104 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         105 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         136 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         138 = {
+                                add_province_modifier = {
+                                        name = american_west1
+                                        duration = 3650
+                                }
+                         }
+                         set_country_flag = wst_cst_dn
+                 }
+        }
+	
+	shermans_march_to_the_sea = {
+		potential = {
+			tag = USA
+			war_with = CSA
+			NOT = {
+				has_country_flag = sherman_marched_to_the_sea
+			}
+		}		
+		allow = {
+			controls = 201
+			controls = 2555
+			controls = 204
+		}
+		
+		effect = {
+			set_country_flag = sherman_marched_to_the_sea
+			201 = {
+				any_pop = {
+					reduce_pop = 0.70
+				}
+			}
+			2555 = {
+				any_pop = {
+					reduce_pop = 0.90
+				}
+			}
+			204 = {
+				any_pop = {
+					reduce_pop = 0.90
+				}
+			}
+			CSA = {
+				war_exhaustion = 4
+			}
+		}
+	}
+
+        
+
+	emancipation_proclamation = {
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = emancipation
+			}
+			OR = {
+				war_with = CSA
+				AND = {
+					NOT = {
+						exists = CSA
+					}
+					has_global_flag = american_civil_war_has_happened
+				}
+			}
+		}
+		allow = {
+			OR = {
+				CSA = {
+					national_provinces_occupied = 0.40
+				}
+				NOT = {
+					exists = CSA
+				}
+			}
+			prestige = 35
+		}
+		effect = {
+			set_country_flag = emancipation
+			prestige = 5
+			add_accepted_culture = afro_american
+			political_reform = no_slavery
+			any_pop = {
+				limit = {
+					has_pop_culture = yankee
+				}
+				consciousness = -5
+				militancy = -5
+			}
+			any_greater_power = {
+				relation = {
+					who = USA
+					value = 30
+				}
+			}
+		}
+	}
+
+        usa_economic_boost = {
+                potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = usaeconbst
+			}
+		}
+		allow = {
+			year = 1870
+                        industrial_score = 600
+		}
+		effect = {
+			
+			set_country_flag = usaeconbst
+			add_country_modifier = {
+                                                name = american_capitalism
+                                                duration = -1
+                        }
+               }
+        }
+               	
+	manifest_destiny = {
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = hasmanifestdestiny
+			}
+                        MEX = {
+                              NOT = {
+                                has_country_flag = we_have_tried_this_once2
+                              }
+                        }
+		}
+		allow = {
+			year = 1835
+		}
+		effect = {
+			set_country_flag = hasmanifestdestiny
+			TEX = {
+                                   all_core = {
+				          add_core = USA
+			           }
+                        }
+			84 = { 
+				add_core = USA
+				
+		        }
+			85 = { 	
+				add_core = USA
+				
+		        }
+			86 = {  
+				add_core = USA
+				
+			}
+			87 = {  
+				add_core = USA
+				
+			}
+			88 = { 
+				add_core = USA
+				
+			}
+			89 = {  
+				add_core = USA
+				
+			}
+			90 = {  
+				add_core = USA
+				
+			}
+			94 = {  
+				add_core = USA
+				
+			}
+			95 = {  
+				add_core = USA
+ 				
+			}
+			96 = {  
+				add_core = USA
+				
+			}
+			97 = {  
+				add_core = USA
+				
+			}
+			98 = {  
+				add_core = USA
+				
+			}
+			99 = {  
+				add_core = USA
+				
+			}
+			100 = {  
+				add_core = USA
+				
+			}
+			101 = {  
+				add_core = USA
+				
+			}
+			102 = {  
+				add_core = USA
+				
+			}
+			103 = {  
+				add_core = USA
+				
+			}
+			104 = {  
+				add_core = USA
+				
+			}
+			105 = { 
+				add_core = USA
+				
+			}
+			133 = {
+                              
+			       add_core = USA
+			       
+                        }
+			134 = {
+                               
+			       add_core = USA
+			       
+                        }
+			135 = {
+                               
+			       add_core = USA
+			       
+                        } 
+			137 = {
+                               
+			       add_core = USA
+			       
+                        }
+			136 = { 
+                               
+			       add_core = USA
+			       
+		        }
+			138 = { 
+                              
+			       add_core = USA
+			       
+			}
+	
+		}
+	}
+
+	gag_rule = {
+		potential = {
+			tag = USA
+			average_consciousness = 1
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = house_gag_rule_enacted
+				has_global_flag = american_civil_war_has_happened
+			}
+		}
+		
+		allow = {
+			average_consciousness = 3
+		}
+		
+		effect = {
+			any_pop = {
+				consciousness = -1
+			}
+			set_country_flag = house_gag_rule_enacted
+		}
+	}
+
+	clay_and_douglas_draft = {
+		
+		potential = {
+			tag = USA
+			average_consciousness = 3
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = clay_and_douglas_draft_enacted
+				has_global_flag = american_civil_war_has_happened
+			}
+		}
+		
+		allow = {
+			average_consciousness = 4
+		}
+		
+		effect = {
+			any_pop = {
+				consciousness = -2
+			}
+			set_country_flag = clay_and_douglas_draft_enacted
+		}
+	}
+	
+	corwin_amendment = {
+		
+		potential = {
+			tag = USA
+			average_consciousness = 4
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = corwin_amendment_enacted
+				has_global_flag = american_civil_war_has_happened
+			}
+		}
+		
+		allow = {
+			average_consciousness = 7
+		}
+		
+		effect = {
+			any_pop = {
+				consciousness = -2
+			}
+			set_country_flag = corwin_amendment_enacted
+		}
+	}
+	
+	fugitive_slave_act = {
+		potential = {
+			tag = USA
+			average_consciousness = 4
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = fugitive_slave_act_enacted
+				has_global_flag = american_civil_war_has_happened
+			}
+		}
+		
+		allow = {
+			average_consciousness = 5
+		}
+		
+		effect = {
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				any_pop = {
+					consciousness = -2
+				}
+			}
+			set_country_flag = fugitive_slave_act_enacted
+		}
+	}
+	
+	nashville_convention = {
+		potential = {
+			tag = USA
+			average_consciousness = 5
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = nashville_convention_held
+				has_global_flag = american_civil_war_has_happened
+			}
+		}
+		
+		allow = {
+			average_consciousness = 6
+		}
+		
+		effect = {
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				any_pop = {
+					consciousness = -3
+				}
+			}
+			set_country_flag = nashville_convention_held
+		}
+	}
+	
+	ostend_manifesto = {
+		potential = {
+			tag = USA
+			average_consciousness = 4
+			slavery = yes_slavery
+			SPA_2209 = {
+				is_slave = yes
+			}
+			NOT = {
+				has_country_flag = ostend_manifesto_published
+				has_global_flag = american_civil_war_has_happened
+			}
+		}
+		
+		allow = {
+			average_consciousness = 5
+		}
+		
+		effect = {
+			prestige = -30
+			badboy = 6
+			any_greater_power = {
+				relation = {
+					who = USA
+					value = -150
+				}
+			}
+			SPA_2209 = {
+				add_core = USA
+			}
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				any_pop = {
+					consciousness = -1
+				}
+			}
+			set_country_flag = ostend_manifesto_published
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				prestige = 25
+			}
+		}
+	}
+	
+	kansas_nebraska_act = {
+		potential = {
+			tag = USA
+			average_consciousness = 1
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = kansas_nebraska_act_acting
+				has_global_flag = american_civil_war_has_happened
+			}
+		}
+		
+		allow = {
+			average_consciousness = 3
+		}
+		
+		effect = {
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				any_pop = { consciousness = -2 }
+			}
+			any_state = {
+				limit = {
+					is_slave = no
+				}
+				any_pop = { consciousness = 1 }
+			}
+			set_country_flag = kansas_nebraska_act_acting
+		}
+	}
+	
+	wilmot_proviso = {
+		potential = {
+			tag = USA
+			average_consciousness = 1
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = wilmot_proviso_providing
+				has_global_flag = american_civil_war_has_happened
+			}
+		}
+		
+		allow = {
+			average_consciousness = 4
+			owns = 103
+			owns = 104
+			owns = 105
+			owns = 108
+			owns = 107
+			owns = 84
+			owns = 87
+			owns  = 89
+		}
+		
+		effect = {
+			any_state = {
+				limit = {
+					is_slave = no
+				}
+				any_pop = {
+					consciousness = -2
+				}
+			}
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				any_pop = {
+					consciousness = 1
+				}
+			}
+			set_country_flag = wilmot_proviso_providing
+		}
+	}
+	
+	form_kellys_irish_brigade = {
+		potential = {
+			tag = CSA
+			war_with = USA
+			NOT = {
+				has_country_flag = kellys_irish_brigade
+			}
+		}
+		
+		allow = {
+			war_exhaustion = 4
+		}
+		
+		effect = {
+			random_pop = {
+				limit = {
+					pop_type = farmers
+					has_pop_culture = dixie
+				}
+				pop_type = soldiers
+			}
+			war_exhaustion = -1
+			set_country_flag = kellys_irish_brigade
+		}
+	}
+	
+	raise_the_bonnie_blue_flag = {
+		potential = {
+			tag = CSA
+			NOT = {
+				OR = {
+					has_country_flag = bonnie_blue_flag
+					has_country_flag = 1861CSAstart
+					}
+			}
+		}
+		
+		allow = {
+			war_with = USA
+		}
+		
+		effect = {
+
+			define_general = {
+				name = "Robert E.Lee"
+				personality = audacious
+				background = war_college
+			}
+
+			define_general = {
+				name = "Thomas Jackson"
+				personality = coolminded
+				background = school_of_defense
+			}
+			
+			add_country_modifier = {
+				name = the_bonnie_blue_flag
+				duration = 365
+			}
+			
+			set_country_flag = bonnie_blue_flag
+		}
+	}
+
+	enact_radical_reconstruction = {
+		potential = {
+			tag = USA
+			war = no
+			has_global_flag = american_civil_war_has_happened
+			owns = 211
+			owns = 195
+			owns = 139
+			NOT = {
+				exists = CSA
+				has_country_flag = has_used_radical_reconstruction
+			}
+		}
+		
+		allow = {
+			NOT = {
+				average_militancy = 4
+			}
+		}
+		effect = {
+			war_exhaustion = -3
+			any_pop = {
+				limit = {
+					has_pop_culture = dixie
+				}
+				consciousness = -5
+				militancy = -5
+			}
+			set_country_flag = has_used_radical_reconstruction
+		}
+	}
+
+        
+	
+	annex_hawaii = {
+		potential = {
+			NOT = {
+				has_country_flag = hawaii_annexed
+			}
+			exists = HAW
+			tag = USA
+			is_sphere_leader_of = HAW
+			HAW = { ai = yes }
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+			is_sphere_leader_of = HAW
+		}
+		
+		effect = {
+			HAW_658 = {
+				add_core = USA
+			}
+			prestige = -15
+			inherit = HAW
+			set_country_flag = hawaii_annexed
+		}
+	}
+	
+	alaskan_purchase = {
+		potential = {
+			war = no
+			OR = {
+				has_global_flag = american_civil_war_has_happened
+				year = 1870
+			}
+			NOT = {
+				has_country_flag = you_did_try
+			}
+			tag = USA
+			RUS = {
+				OR = {
+					owns = 1
+					owns = 2
+					owns = 3 
+					owns = 4 
+					owns = 5 
+					owns = 2599 
+					owns = 2630 
+					owns = 2631
+				}
+			}
+		}
+		
+		allow = {
+			prestige = 1
+			nationalism_n_imperialism = 1
+			money = 72000
+		}
+		
+		effect = {
+			USA_1 = {
+				add_core = USA
+			}
+			RUS = {
+				country_event = { id=32509 days=0 }
+			}
+			set_country_flag = you_did_try
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	webster_ashburton_treaty = {
+		potential = {
+			tag = ENG
+			owns = 250
+			NOT = {
+				has_country_flag = webster_ashburton_signed
+			}
+			
+		}
+		
+		allow = {
+			NOT = {
+				war_with = USA
+			}
+		}
+		
+		effect = {
+			relation = {
+				who = USA
+				value = 100
+			}
+			250 = {
+				secede_province = USA
+			}
+                        
+			badboy = -2
+			prestige = 20
+			set_country_flag = webster_ashburton_signed
+			250 = {				#Caribou
+				remove_core = CAN
+			}
+			249 = {				#Bangor
+				remove_core = CAN
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					badboy = 0.2
+				}
+			}
+		}
+	
+	}
+}

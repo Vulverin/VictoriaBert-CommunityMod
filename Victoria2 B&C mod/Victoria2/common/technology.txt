@@ -1,0 +1,418 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+folders = {
+	army_tech = 
+	{
+		army_doctrine
+		light_armament
+		heavy_armament
+		military_science
+		army_leadership
+	}
+
+        doctrine_tech = {
+                massive_march
+                naval_march
+                focus_idea
+                blitzmarch
+                defensive_march
+        }
+
+        commerce_tech = {
+		financial_institutions
+		monetary_system
+		economic_thought_and_critique
+		market_functionality
+		tech_organization
+	}
+	
+	culture_tech = {
+		aesthetics
+		philosophy
+		social_thought
+		political_thought
+		psychology
+	}
+
+        industry_tech = {
+		tech_power
+		mechanization
+		metallurgy
+		tech_infrastructure
+		chemistry_and_electricity
+	}
+
+}
+
+
+
+
+
+
+
+
+
+schools ={
+        traditional_academic = 
+	{
+		army_tech_research_bonus = 0.35
+		commerce_tech_research_bonus = 0.35
+		culture_tech_research_bonus = 0.35
+		industry_tech_research_bonus = 0.35
+		
+	}
+	
+	army_tech_school = 
+	{
+		army_tech_research_bonus = 0.15
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = -0.1
+		industry_tech_research_bonus = 0.1
+		unciv_economic_modifier = -0.05
+		unciv_military_modifier = -0.15
+	}
+
+        ukrain_tech_school =
+        {
+                army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+                doctrine_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        poland_tech_school =
+        {
+                army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+                doctrine_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        han_tech_school = 
+        {
+                army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+                doctrine_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        holy_roman_tech_school = 
+        {
+                army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+                doctrine_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        soviet_tech_school = 
+        {
+                army_tech_research_bonus = 0.05
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 0.05
+		industry_tech_research_bonus = 0.1
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        colonial_school = {
+
+                army_tech_research_bonus = 0.35
+		commerce_tech_research_bonus = 0.35
+		culture_tech_research_bonus = 0.35
+		industry_tech_research_bonus = 0.35
+                doctrine_tech_research_bonus = 0.35
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}      
+	
+        german_tech_school = 
+	{
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+
+        vietnam_tech_school = 
+        {
+                army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        maj_tech_school = {
+                army_tech_research_bonus = 0.5
+		commerce_tech_research_bonus = 0.5
+		culture_tech_research_bonus = 0.5
+		industry_tech_research_bonus = 0.5
+                doctrine_tech_research_bonus = 0.5
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        austrian_tech_school = 
+	{
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+
+        italian_tech_school = 
+	{
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+
+	naval_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+
+        british_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+	
+	industrial_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+	}
+
+        mexican_tech_school = {
+                army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+	}
+	
+        spanish_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+	}
+
+	culture_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		navy_tech_research_bonus = 0
+		unciv_military_modifier = 0
+	}
+        
+        turkey_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+	
+        france_tech_school = {
+		army_tech_research_bonus = 0
+                commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+
+        russian_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+
+	commerce_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+ 
+        american_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+	
+	prussian_tech_school = {
+		army_tech_research_bonus = 0.05
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0.05
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+	
+	japanese_tech_school = {
+		army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+
+        swedish_tech_school = {
+                army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        australian_tech_school = {
+                army_tech_research_bonus = 0.7
+		commerce_tech_research_bonus = 0.7
+		culture_tech_research_bonus = 0.7
+		industry_tech_research_bonus = 0.7
+                doctrine_tech_research_bonus = 0.7
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        holland_tech_school = {
+                army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+        
+        canadian_tech_school = {
+                army_tech_research_bonus = 0.7
+		commerce_tech_research_bonus = 0.7
+		culture_tech_research_bonus = 0.7
+		industry_tech_research_bonus = 0.7
+                doctrine_tech_research_bonus = 0.7
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+       
+        indian_tech_school = {
+                army_tech_research_bonus = 0.35
+		commerce_tech_research_bonus = 0.35
+		culture_tech_research_bonus = 0.35
+		industry_tech_research_bonus = 0.35
+                doctrine_tech_research_bonus = 0.35
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+ 
+        belgium_tech_school = {
+                army_tech_research_bonus = 0.35
+		commerce_tech_research_bonus = 0.35
+		culture_tech_research_bonus = 0.35
+		industry_tech_research_bonus = 0.35
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        persian_tech_school = {
+                army_tech_research_bonus = 0.05
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 0.05
+		industry_tech_research_bonus = 0.05
+                doctrine_tech_research_bonus = 0.05
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        brazilian_tech_school = {
+                army_tech_research_bonus = 0
+		commerce_tech_research_bonus = 0
+		culture_tech_research_bonus = 0
+		industry_tech_research_bonus = 0
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        serbian_tech_school = {
+                army_tech_research_bonus = 0.06
+		commerce_tech_research_bonus = 0.06
+		culture_tech_research_bonus = 0.06
+		industry_tech_research_bonus = 0.06
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        switzerland_tech_school = {
+                army_tech_research_bonus = 0.6
+		commerce_tech_research_bonus = 0.6
+		culture_tech_research_bonus = 0.6
+		industry_tech_research_bonus = 0.6
+                doctrine_tech_research_bonus = 0.06
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+
+        egypt_tech_school = {
+                army_tech_research_bonus = 0.05
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 0.05
+		industry_tech_research_bonus = 0.05
+                doctrine_tech_research_bonus = 0.05
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+        }
+ 
+        italianempire_tech_school = {
+		army_tech_research_bonus = 0.05
+		commerce_tech_research_bonus = 0.05
+		culture_tech_research_bonus = 0.05
+		industry_tech_research_bonus = 0.05
+		unciv_economic_modifier = 0
+		unciv_military_modifier = 0
+	}
+}

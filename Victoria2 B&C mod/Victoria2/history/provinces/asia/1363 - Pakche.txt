@@ -1,0 +1,5 @@
+owner = LUA
+controller = LUA
+add_core = SIA
+trade_goods = grain
+life_rating = 35

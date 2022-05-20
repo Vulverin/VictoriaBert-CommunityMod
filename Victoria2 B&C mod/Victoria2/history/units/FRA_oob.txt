@@ -1,0 +1,731 @@
+#Sphere of Influence PAP = { value = 125 level = 5 influence_value = 25} SAR = { value = 125 level = 4 influence_value = 25 } SIC = { value = 125 level = 3 influence_value = 25 } 
+BEL = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+LUX = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+NET = {
+	value = -100
+		#relation
+
+	level = 3
+		#3=cordial, 4 = friendly, 5 sphere
+
+}
+PAP = {
+	value = 25		#relation
+	level = 1		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+SIC = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+SWI = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+SAR = {
+	value = 125		#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+GRE = {
+	value = 75	#relation
+	level = 4		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 10
+}
+ENG = {
+	value = 0
+}
+RUS = {
+	value = -75
+}
+AUS = {
+	value = 0
+}
+USA = {
+	value = 50
+}
+PRU = {
+	value = -25
+}
+TUR = {
+	value = 0
+}
+SPA = {
+	value = 55
+}
+
+army = {
+	name = "Garde Royale"
+	location = 425
+	regiment = {
+		name= "1.Garde Royale"
+		type = guard
+		home = 425
+	}
+
+	regiment = {
+		name= "2.Garde Royale"
+		type = guard
+		home = 426
+	}
+
+	regiment = {
+		name= "3.Garde Royale"
+		type = guard
+		home = 427
+	}
+
+	regiment = {
+		name= "4.Garde Royale"
+		type = guard
+		home = 440
+	}
+}
+army = {
+	name = "1ère Armée"
+	location = 438
+	regiment = {
+		name= "1.1ère Division d'Infanterie"
+		type = colinfantry
+		home = 438
+	}
+
+	regiment = {
+		name= "2.1ère Division d'Infanterie"
+		type = colinfantry
+		home = 400
+	}
+
+	regiment = {
+		name= "3.1ère Division d'Infanterie"
+		type = colinfantry		home = 401
+	}
+
+	regiment = {
+		name= "1.2ème Division d'Infanterie"
+		type = colinfantry
+		home = 441
+	}
+
+	regiment = {
+		name= "2.2ème Division d'Infanterie"
+		type = colinfantry
+		home = 2570
+	}
+
+	regiment = {
+		name= "3.2ème Division d'Infanterie"
+		type = colinfantry
+		home = 404
+	}
+
+	regiment = {
+		name= "1.3ème Division d'Infanterie"
+		type = colinfantry
+		home = 402
+	}
+
+	regiment = {
+		name= "2.3ème Division d'Infanterie"
+		type = colinfantry
+		home = 403
+	}
+
+	regiment = {
+		name= "3.3ème Division d'Infanterie"
+		type = artillery
+		home = 399
+	}
+}
+	
+army = {
+	name = "Cavalerie de la Garde"
+	location = 468
+
+
+	regiment = {
+		name= "1.Cavalerie de la Garde"
+		type = colinfantry
+		home = 458
+	}
+
+	regiment = {
+		name= "2.Cavalerie de la Garde"
+		type = colinfantry
+		home = 420
+	}
+
+	regiment = {
+		name= "3.Cavalerie de la Garde"
+		type = cuirassier
+		home = 418
+	}
+
+	regiment = {
+		name= "4.Cavalerie de la Garde"
+		type = cuirassier
+		home = 406
+	}
+
+}
+
+army = {
+	name = "Armée d'Algerie"
+	location = 1700
+	regiment = {
+		name= "1.4ème Division d'Infanterie"
+		type = colinfantry
+		home = 425
+	}
+
+	regiment = {
+		name= "2.4ème Division d'Infanterie"
+		type = colinfantry		home = 423
+	}
+
+	regiment = {
+		name= "3.4ème Division d'Infanterie"
+		type = colinfantry
+		home = 432
+	}
+
+	regiment = {
+		name= "1.5ème Division d'Infanterie"
+		type = colinfantry
+		home = 439
+	}
+
+	regiment = {
+		name= "2.5ème Division d'Infanterie"
+		type = colinfantry
+		home = 433
+	}
+
+	regiment = {
+		name= "3.5ème Division d'Infanterie"
+		type = colinfantry
+		home = 431
+	}
+
+	regiment = {
+		name= "1.6ème Division d'Infanterie"
+		type = colinfantry
+		home = 429
+	}
+
+	regiment = {
+		name= "2.6ème Division d'Infanterie"
+		type = colinfantry
+		home = 442
+	}
+
+	regiment = {
+		name= "3.6ème Division d'Infanterie"
+		type = colinfantry
+		home = 459
+	}
+}
+army = {
+	name = "7ème Division d'Infanterie"
+	location = 1701
+	regiment = {
+		name= "1.7ème Division d'Infanterie"
+		type = colinfantry
+		home = 415
+	}
+
+	regiment = {
+		name= "2.7ème Division d'Infanterie"
+		type = colinfantry
+		home = 416
+	}
+
+	regiment = {
+		name= "3.7ème Division d'Infanterie"
+		type = colinfantry
+		home = 417
+	}
+}
+
+army = {
+	name = "1ère Division de cavalerie"
+	location = 1704
+	regiment = {
+		name= "1.1ère Division de cavalerie"
+		type = dragoon
+		home = 422
+	}
+
+	regiment = {
+		name= "2.1ère Division de cavalerie"
+		type = dragoon
+		home = 436
+	}
+
+	regiment = {
+		name= "3.1ère Division de cavalerie"
+		type = dragoon
+		home = 421
+	}
+
+}
+
+army = {
+	name = "Force d'intervention Espagnole"
+	location = 458
+	regiment = {
+		name= "1.8ème Division d'Infanterie"
+		type = colinfantry
+		home = 455
+	}
+
+	regiment = {
+		name= "2.8ème Division d'Infanterie"
+		type = colinfantry
+		home = 457
+	}
+
+	regiment = {
+		name= "3.8ème Division d'Infanterie"
+		type = colinfantry
+		home = 473
+	}
+
+	regiment = {
+		name= "1.9ème Division d'Infanterie"
+		type = colinfantry
+		home = 456
+	}
+
+	regiment = {
+		name= "2.9ème Division d'Infanterie"
+		type = artillery
+		home = 470
+	}
+
+	regiment = {
+		name= "3.9ème Division d'Infanterie"
+		type = colinfantry
+		home = 434
+	}
+
+	regiment = {
+		name= "1.2ème Division de cavalerie"
+		type = cuirassier
+		home = 462
+	}
+
+	regiment = {
+		name= "2.2ème Division de cavalerie"
+		type = cuirassier
+		home = 463
+	}
+
+	regiment = {
+		name= "3.2ème Division de cavalerie"
+		type = cuirassier
+		home = 460
+	}
+
+}
+
+army = {
+	name = "Garnison du Sénégal"
+	location = 1784
+	regiment = {
+		name= "1.10ème Division d'Infanterie"
+		type = colinfantry
+		home = 411
+	}
+
+	regiment = {
+		name= "2.10ème Division d'Infanterie"
+		type = colinfantry
+		home = 407
+	}
+
+	regiment = {
+		name= "3.10ème Division d'Infanterie"
+		type = colinfantry
+		home = 444
+	}
+
+}
+
+army = {
+	name = "Garnison de Côte d'Ivoire"
+	location = 1894
+	regiment = {
+		name= "1.11ème Division d'Infanterie"
+		type = colinfantry
+		home = 467
+	}
+
+	regiment = {
+		name= "2.11ème Division d'Infanterie"
+		type = colinfantry
+		home = 454
+	}
+
+	regiment = {
+		name= "3.11ème Division d'Infanterie"
+		type = colinfantry
+		home = 428
+	}
+
+}
+
+navy = {
+	name = "Escadre du Nord"
+	location = 420
+	ship = {
+		name= "Couronne"
+		type = manowar
+	}
+
+	ship = {
+		name= "Superbe"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jean Bart"
+		type = manowar
+	}
+
+	ship = {
+		name= "Dix-huit Fructidor"
+		type = manowar
+	}
+
+	ship = {
+		name= "Wagram"
+		type = manowar
+	}
+
+	ship = {
+		name= "Trocadero "
+		type = manowar
+	}
+
+	ship = {
+		name= "Zélandais"
+		type = manowar
+	}
+
+	ship = {
+		name= "Superbe"
+		type = manowar
+	}
+
+	ship = {
+		name= "Austerlitz"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Magnifique"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "République Française"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Conquérant"
+		type = manowar
+	}
+
+	ship = {
+		name= "Neptune"
+		type = manowar
+	}
+
+	ship = {
+		name= "Algerisas"
+		type = manowar
+	}
+
+	ship = {
+		name= "Nestor"
+		type = manowar
+	}
+
+	ship = {
+		name= "Duchesse de Berry"
+		type = manowar	}
+
+	ship = {
+		name= "Thétis"
+		type = manowar
+	}
+
+	ship = {
+		name= "Astrée"
+		type = manowar
+	}
+
+	ship = {
+		name= "Amazone"
+		type = manowar
+	}
+
+	ship = {
+		name= "Clorinde"
+		type = manowar
+	}
+
+	ship = {
+		name= "Maure"
+		type = manowar
+	}
+
+	ship = {
+		name= "Vestale"
+		type = manowar
+	}
+
+	ship = {
+		name= "Magicienne"
+		type = manowar
+	}
+
+	ship = {
+		name= "Marie Thérese"
+		type = manowar
+	}
+
+	ship = {
+		name= "Venus"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sirène"
+		type = manowar	}
+
+	ship = {
+		name= "Atalante"
+		type = manowar	}
+
+	ship = {
+		name= "Surveillante"
+		type = manowar	}
+
+	ship = {
+		name= "Iphigénie"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Sultane"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "1ère Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Escadre de Méditerranée"
+	location = 470
+	ship = {
+		name= "Triton"
+		type = manowar
+	}
+
+	ship = {
+		name= "Etats de Bourgogne"
+		type = manowar
+	}
+
+	ship = {
+		name= "Souverain"
+		type = manowar
+	}
+
+	ship = {
+		name= "Marengo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ville de Marseilles"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hercule"
+		type = manowar
+	}
+
+	ship = {
+		name= "Montebello "
+		type = manowar
+	}
+
+	ship = {
+		name= "Centaure"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jupiter"
+		type = manowar
+	}
+
+	ship = {
+		name= "Duc d’Angouleme"
+		type = manowar
+	}
+
+	ship = {
+		name= "Hercules"
+		type = manowar
+	}
+
+	ship = {
+		name= "Généreux"
+		type = manowar
+	}
+
+	ship = {
+		name= "Diadème"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Couronne"
+		type = manowar
+	}
+
+	ship = {
+		name= "Suffren"
+		type = manowar
+	}
+
+	ship = {
+		name= "Trident"
+		type = manowar
+	}
+
+	ship = {
+		name= "Royal Louis "
+		type = manowar
+	}
+
+	ship = {
+		name= "Commerces de Paris"
+		type = manowar
+	}
+
+	ship = {
+		name= "Terpsichore"
+		type = manowar
+	}
+
+	ship = {
+		name= "Arthémise"
+		type = manowar
+	}
+
+	ship = {
+		name= "Belle Gabrielle"
+		type = manowar	}
+
+	ship = {
+		name= "Didon"
+		type = manowar	}
+
+	ship = {
+		name= "Caroline"
+		type = manowar
+	}
+
+	ship = {
+		name= "Herminie"
+		type = manowar	}
+
+	ship = {
+		name= "Melpomène"
+		type = manowar
+	}
+
+	ship = {
+		name= "Uranie"
+		type = manowar
+	}
+
+	ship = {
+		name= "Andromède"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jeanne d’Arc"
+		type = manowar
+	}
+
+	ship = {
+		name= "Belle Poule"
+		type = manowar
+	}
+
+	ship = {
+		name= "Erigone"
+		type = manowar	}
+
+	ship = {
+		name= "Nereide"
+		type = manowar	}
+
+	ship = {
+		name= "Gloire"
+		type = manowar	}
+
+	ship = {
+		name= "Reine Blanche"
+		type = clipper_transport	}
+
+	ship = {
+		name= "4ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+}
+

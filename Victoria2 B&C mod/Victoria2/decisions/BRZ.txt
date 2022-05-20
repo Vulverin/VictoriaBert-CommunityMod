@@ -1,0 +1,29 @@
+political_decisions = {
+       the_brazilian_rise = {
+		potential = {
+			tag = BRZ
+			NOT = { 
+                                has_country_flag = brazilian_rise 
+                        }
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			casus_belli = {
+                                  target = CLM 
+                                  type = make_puppet
+                                  months = 420
+                                  
+                        }
+                        
+                        casus_belli = {
+                                  target = VNZ
+                                  type = make_puppet
+                                  months = 420
+                        }
+
+			set_country_flag = brazilian_rise
+		}
+       }
+}

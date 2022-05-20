@@ -1,0 +1,341 @@
+political_decisions = {
+         japanese_navy = {
+            potential = {
+                          tag = JPE 
+                          NOT = {
+                                  has_global_flag = japanese_navy_has_been_built
+                          } 
+            }
+            allow = {
+                      money = 2000000
+            }
+            effect = {
+                       
+                       set_global_flag = japanese_navy_has_been_built
+                       money = -2000000
+                       
+                       1642 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1669 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1649 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1646 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1653 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1676 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1657 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1638 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1667 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1655 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       1661 = {
+                                add_province_modifier = {
+                                        name = japanese_fleet
+                                        duration = -1
+                                }
+                       }
+                       
+            }
+       }
+
+       japanese_tai = {
+                potential = {
+                       tag = JPE
+                       NOT = {
+                             has_country_flag = jpnse_taii
+                       }
+                }
+                allow = {
+                        money = 500000
+                }
+                effect = {
+                        money = -500000
+                        1485 = {
+                                 secede_province = THIS
+                        }
+                        2562 = {
+                                 secede_province = THIS
+                        }
+                        set_country_flag = jpnse_taii
+                }
+        }
+
+       jpnsempr_asia = {
+                potential = {
+                       tag = JPE
+                       NOT = {
+                             has_country_flag = jpgfdasi
+                       }
+                }
+                allow = {
+                }
+                effect = {
+                        1456 = {
+                                add_core = JPE
+                        }
+                        1455 = {
+                                add_core = JPE
+                        }
+                        1458 = {
+                                add_core = JPE
+                        }
+                        1457 = {
+                                add_core = JPE
+                        }
+                        1460 = {
+                                add_core = JPE
+                        }
+                        1461 = {
+                                add_core = JPE
+                        }
+                        1462 = {
+                                add_core = JPE
+                        }
+                        1463 = {
+                                add_core = JPE
+                        }
+                        1459 = {
+                                add_core = JPE
+                        }
+                        1394 = {
+                                add_core = JPE
+                        }
+                        1395 = {
+                                add_core = JPE
+                        }
+                        1393 = {
+                                add_core = JPE
+                        }
+                        1396 = {
+                                add_core = JPE
+                        }
+                        1397 = {
+                                add_core = JPE
+                        }
+                           
+                           JAV = {
+                                   all_core = {
+				          add_core = JPE
+			           }
+                           }
+                           set_country_flag = jpgfdasi
+                }
+        }
+        
+       asia_number_one = {
+                potential = {
+                       tag = JPE
+                       NOT = {
+                             has_country_flag = jpns_nmbron
+                      }
+                }
+                
+                allow = {
+                        year = 1880
+                        owns = 1485
+                        owns = 1461
+                        owns = 1462
+                        owns = 1393
+                        owns = 1415
+                        owns = 1365
+                        owns = 1334
+                        owns = 1385
+                        owns = 1346
+                        
+                }
+                effect = {
+                          set_country_flag = jpns_nmbron
+                          ATJ = {
+                                   all_core = {
+				          add_core = JPE
+			           }
+                          }
+                          JOH = {
+                                   all_core = {
+				          add_core = JPE
+			           }
+                          }
+                          DAI = {
+                                   all_core = {
+				          add_core = JPE
+			           }
+                          }
+                          LUA = {
+                                   all_core = {
+				          add_core = JPE
+			           }
+                          }
+                          CAM = {
+                                   all_core = {
+				          add_core = JPE
+			           }
+                          }
+                          SIA = {
+                                   all_core = {
+				          add_core = JPE
+			           }
+                          }
+                          BUR = {
+                                   all_core = {
+				          add_core = JPE
+			           }
+                          }
+                          add_country_modifier = {
+                                   name = panasiatism
+                                   duration = -1
+                          }
+                 }
+        }
+
+       japanese_usa = {
+                potential = {
+                       tag = JPE
+                       NOT = {
+                             has_country_flag = jpns_amrc
+                      }
+                }
+                
+                allow = {
+                        year = 1880
+                }
+                
+                effect = {
+                        78 = {
+                                add_core = JPE
+                        }
+                        79 = {
+                                add_core = JPE
+                        }
+                        80 = {
+                                add_core = JPE
+                        }
+                        81 = {
+                                add_core = JPE
+                        }
+                        82 = {
+                                add_core = JPE
+                        }
+                        83 = {
+                                add_core = JPE
+                        }
+                        84 = {
+                                add_core = JPE
+                        }
+                        85 = {
+                                add_core = JPE
+                        }
+                        86 = {
+                                add_core = JPE
+                        }
+                        87 = {
+                                add_core = JPE
+                        }
+                        88 = {
+                                add_core = JPE
+                        }
+                        89 = {
+                                add_core = JPE
+                        }
+                        90 = {
+                                add_core = JPE
+                        }
+                        set_country_flag = jpns_amrc
+                }
+        }
+
+       annex_manj = {
+               potential = {
+                       tag = JPE
+                       NOT = {
+				has_country_flag = annex_manj_done
+			}
+               }
+               allow = {
+                     MCK = {
+                            vassal_of = JPE
+                     }
+
+               }
+               effect = {
+                        MCK = {
+                              change_tag = MAJ
+                        }
+                        MAJ = {
+                               add_country_modifier = {
+                                         name = jap_maj_done
+                                         duration = -1
+                               }
+                               tech_school = maj_tech_school
+                        }
+                        set_country_flag = annex_manj_done
+               }
+        }
+
+        annex_manj2 = {
+               potential = {
+                       tag = JPE
+                       NOT = {
+				has_country_flag = annex_manj_done2
+			}
+               }
+               allow = {
+                     MAJ = {
+                            vassal_of = JPE
+                     }
+                     year = 1880
+
+               }
+               effect = {
+                        JPE = {
+                              inherit = MAJ
+                        }
+                        set_country_flag = annex_manj_done2
+               }
+        }
+}

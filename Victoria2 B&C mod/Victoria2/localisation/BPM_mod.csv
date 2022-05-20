@@ -1,0 +1,3045 @@
+givemoney_on_title;Открыть список транзакций;X
+givemoney_on_desc; ;X
+givemoney_off_title;Закрыть список транзакций;X
+givemoney_off_desc; ;X
+givemoney_BOC_title;Перевести деньги в Индию;X
+givemoney_CHI_title;Перевести деньги в Китай;X
+givemoney_ENG_title;Перевести деньги в Великобританию;X
+givemoney_RUS_title;Перевести деньги в Россию;X
+givemoney_MEX_title;Перевести деньги в Мексику;X
+givemoney_FRA_title;Перевести деньги во Францию;X
+givemoney_DNF_title;Перевести деньги в Австрию;X
+givemoney_JPE_title;Перевести деньги в Японию;X
+givemoney_ISH_title;Перевести деньги в Исламский Халифат;X
+givemoney_PRU_title;Перевести деньги в Пруссию;X
+givemoney_GER_title;Перевести деньги в Германию;X
+givemoney_AUS_title;Перевести деньги в Австрию;X
+givemoney_KUK_title;Перевести деньги в Австро-Венгрию;X
+givemoney_SGF_title;Перевести деньги в Южную Германию;X
+givemoney_USA_title;Перевести деньги в США;X
+givemoney_CSA_title;Перевести деньги в КША;X
+givemoney_JAP_title;Перевести деньги в Японию;X
+givemoney_ITA_title;Перевести деньги в Италию;X
+givemoney_SWE_title;Перевести деньги в Швецию;X
+givemoney_SCA_title;Перевести деньги в Скандинавию;X
+givemoney_BRZ_title;Перевести деньги в Бразилию;X
+givemoney_BEL_title; ;X
+givemoney_NET_title;Перевести деньги в Нидерланды;X
+givemoney_SPA_title;Перевести деньги в Испанию;X
+givemoney_SIC_title; ;X
+givemoney_TUR_title;Перевести деньги в Турцию;X
+givemoney_CAN_title; ;X
+givemoney_COL_title; ;X
+givemoney_QUE_title; Квебек;X
+givemoney_CLM_title; ;X
+givemoney_ANU_title; ;X
+givemoney_LAF_title;Перевести деньги в Южную Америку;X
+givemoney_AST_title; ;X
+givemoney_NZL_title; ;X
+givemoney_GCO_title; ;X
+givemoney_NGF_title;Перевести деньги в Германию;X
+givemoney_SAR_title;Перевести деньги в Сардинию;X
+givemoney_POR_title; ;X
+givemoney_POR_desc;Отправить деньги;X
+givemoney_SER_title; ;X
+givemoney_SER_desc;Отправить деньги;X
+givemoney_GRE_title; ;X
+givemoney_GRE_desc;Отправить деньги;X
+givemoney_ROM_title; ;X
+givemoney_ROM_desc;Отправить деньги;X
+givemoney_PER_title;Перевести деньги в Иран;X
+givemoney_PER_desc;Отправить деньги;X
+givemoney_CHI_desc;Отправить деньги;X
+givemoney_EGY_title;Перевести деньги в Египет;X
+givemoney_EGY_desc;Отправить деньги;X
+givemoney_BOC_desc;Отправить деньги;X
+givemoney_INC_title;Отправить в Индокитай;X
+givemoney_DAI_title;Отправить в Дайнам;X
+givemoney_VIE_title;Отправить во Вьетнам;X
+givemoney_VIE_desc; Отправить деньги;X
+givemoney_DAI_desc; Отправить деньги;X
+givemoney_INC_desc; Отправить деньги;X
+givemoney_SAR_desc; Отправить деньги;X
+givemoney_RUS_desc; Отправить деньги;X
+givemoney_FRA_desc; Отправить деньги;X
+givemoney_PRU_desc; Отправить деньги;X
+givemoney_NGF_desc; Отправить деньги;X
+givemoney_GER_desc; Отправить деньги;X
+givemoney_AUS_desc; Отправить деньги;X
+givemoney_KUK_desc; Отправить деньги;X
+givemoney_SGF_desc; Отправить деньги;X
+givemoney_USA_desc; Отправить деньги;X
+givemoney_CSA_desc; Отправить деньги;X
+givemoney_JAP_desc; Отправить деньги;X
+givemoney_ITA_desc; Отправить деньги;X
+givemoney_SWE_desc; Отправить деньги;X
+givemoney_SCA_desc; Отправить деньги;X
+givemoney_BEL_desc; Отправить деньги;X
+givemoney_NET_desc; Отправить деньги;X
+givemoney_SPA_desc; Отправить деньги;X
+givemoney_SIC_desc; Отправить деньги;X
+givemoney_TUR_desc; Отправить деньги;X
+givemoney_CAN_desc; Отправить деньги;X
+givemoney_COL_desc; Отправить деньги;X
+givemoney_QUE_desc; Отправить деньги;X
+givemoney_ISH_desc: Отправить деньги;X
+givemoney_JPE_desc: Отправить деньги;X
+givemoney_CLM_desc; Отправить деньги;X
+givemoney_DNF_desc: Отправить деньги;X
+givemoney_ANU_desc; Отправить деньги;X
+givemoney_LAF_desc; Отправить деньги;X
+givemoney_AST_desc; Отправить деньги;X
+givemoney_NZL_desc; Отправить деньги;X
+givemoney_GCO_desc; Отправить деньги;X
+givemoney_ENG_desc; Отправить деньги;X
+iron_ore;Железная руда;X
+cooper_ore;Медная руда;X
+tin_ore;Оловянная руда;X
+plumbum_ore;Свинцовая руда;X
+nitrogen_ore;Нитраты;X
+tin;Олово;X
+cooper;Медь;X
+lead;Железо;X
+engine;Двигатели;X
+list;Прокат;X
+rubbers;Резина;X
+rail;Рельсы;X
+pipe;Трубы;X
+cast_iron;Чугун;X
+bronze;Тяжелая артиллерия;X
+uniform;Военная форма;X
+iron_iron_factory;Железный обогатитель;X
+cooper_cooper_factory;Медный обогатитель;X
+lead_lead_factory;Свинцовый обогатитель;X
+tin_tin_factory;Оловянный обогатитель;X
+bronze_factory;Завод тяжелой артиллерии;X
+cast_iron_factory;Чугунолитейный завод;X
+pipe_factory;Трубный завод;X
+list_factory;Литейно-прокатный завод;X
+rail_factory;Рельсовый завод;X
+engine_factory;Моторный завод;X
+uniform_factory;Фабрика по производству униформы;X
+rubbers_factory;Цех вулканизации резины;X
+bronze_list_factory;Бронз. литейно-прокатный завод;Х
+bronze_pipe_factory;Бронз. трубный завод;Х
+canned_fish_factory;Завод рыбных консервов;Х
+canned_cattle_factory;Завод мясных консервов;Х
+nitrogen_ore_RGO_SIZE;Размер нитратовых шахт;X
+tin_ore_RGO_SIZE;Размер оловодобывающих шахт;X
+cooper_ore_RGO_SIZE;Размер меднодобывающих шахт;X
+plumbum_ore_RGO_SIZE;Размер свинцоводобывающих шахт;X
+iron_ore_RGO_SIZE;Размер железодобывающих шахт;X
+iron_cooper_factory;Жел. Руда в медь;X
+iron_lead_factory;Жел. Руда в свинец;X
+iron_nitrogen_factory;Жел. Руда в нитраты;X
+cooper_iron_factory;Мед. Руда в железо;X
+cooper_sulphur_factory;Мед. Руда в серу;X
+cooper_nitrogen_factory;Мед. Руда в нитраты;X
+lead_iron_factory;Св. руда в железо;X
+lead_tin_factory;Св. руда в олово;X
+lead_nitrogen_factory;Св. руда в нитраты;X
+tin_iron_factory;Ол. Руда в железо;X
+tin_nitrogen_factory;Ол. Руда в нитраты;X
+popgrowth; Строительство жилья ;Х
+education_global; Строительство школ ;Х
+annex_capital;Присоединить метрополию;X
+concede_elsass_title;Отказ от Эльзаса;Х
+concede_elsass_desc;В нашем положении мы не можем позволить себе прямое столкновение с Францией, которое, скорее всего, приведет нас на край пропасти, но у нас есть возможность избежать этого конфликта, отказавшись от своих претензий на Эльзас-Лотарингия. Да, это больно признавать, но это единственный вариант, который способен обеспечить нам мирное и стабильно развитие. ;Х
+EVTNAME91001;Нас взяли в морскую блокаду;X
+EVTDESC91001;Стоимость импортных товаров увеличилась в 5 раз;X
+EVTOPTA91001;Ужас!;X
+EVTNAME91002;Морская блокада снята;X
+EVTDESC91002; ;X
+EVTOPTA91002;Превосходно!;X
+EVTNAME91003;Противник взят в морскую блокаду;X
+EVTDESC91003;Стоимость импорта для него увеличилась в 5 раз;X
+EVTOPTA91003;Превосходно!;X
+EVTNAME91004;Противник прорвал морскую блокаду;X
+EVTDESC91004; ;X
+EVTOPTA91004;Ужас!;X
+new_world_gates;Ворота на Запад;X
+Claim_AdminTools_title;Получить права админа;X
+Claim_AdminTools_desc;Доступно только для организатора;X
+FRA_19300;Северный Бенин;Х
+JAP_10880;Куру-миси;Х
+russia_rename_sakhalin_title;Переименовать Сахалин;Х
+russia_rename_sakhalin_desc; ;Х
+japan_rename_sakhalin_title;Переименовать Сахалин;Х
+japan_rename_sakhalin_desc; ;Х
+russia_rename_kuriles_title;Переименовать Курилы;Х
+russia_rename_kuriles_desc; ;Х
+japan_rename_kuriles_title;Переименовать Курилы;Х
+japan_rename_kuriles_desc; ;Х
+admintools_rp_CHI_title;Китай;X
+admintools_rp_CHI_desc;100 дней ОИ;X
+admintools_bonus_CHI_title;Китай;X
+admintools_bonus_CHI_desc;100 дней ОИ;X
+admintools_penalty_CHI_title;Китай;X
+admintools_penalty_CHI_desc;100 дней ОИ;X
+givemoney_CHI_title;Китай;X
+givemoney_CHI_desc;Отправить деньги;X
+MEC_5440;Шлезвиг(6);Х
+CHI_1481;Порт-Артур(2);X
+CHI_1606;Порт Цзясин(2);X
+CHI_1538;Порт Шанхай(2);X
+CHI_1566;Порт Циндао(2);X
+CHI_1569;Порт Вэй-хай-вэй(2);X
+colinfantry;Линейная пехота;X
+EVTNAME96666;Эпоха колониализма;X
+EVTDESC96666;Техническое, военное, и культурное превосходство западной цивилизации над остальным миром достигло небывалого отрыва. Теперь никто не в праве мешать нам нести просвещение и технологию в отсталые страны. Цивилизаторская миссия началась. ;X
+EVTOPTA96666;Пришло время расширяться!;X
+badboy_off;Эпоха колониализма;X
+LAF_conservative; Прогрессистская партия;X
+LAF_liberal;Прогрессивно-республиканская партия;X
+LAF_reactionary;Партия национальной мобилизации;X
+LAF_anarcho_liberal;Либертарианская партия;X
+LAF_socialist;Демократическая рабочая партия;X
+LAF_communist;Партия социализма и свободы;X
+LAF_fascist;Интегралисты;X
+LAF;Южноамериканская Федерация;X
+LAF_presidential_dictatorship;Южноамериканская Федерация;X
+LAF_bourgeois_dictatorship;Южноамериканская Федерация;X
+LAF_fascist_dictatorship;Южноамериканский Союз;X
+LAF_democracy;Южноамериканская Федерация;X
+LAF_absolute_monarchy;Южноамериканская Империя;X
+LAF_hms_government;Южноамериканская Империя;X
+LAF_proletarian_dictatorship;Южноамериканская Республика;X
+LAF_ADJ;Латинск.;X
+ANU;Андский Союз;X
+ANU_ADJ;Латинск.;X
+united_andes_title;Провозгласить Андский Союз;X
+united_south_america_title;Провозгласить ЮАФ;X
+united_south_america_desc;Начнётся война за объединение;X
+laf_cores_title;Претензии на Гайану и Фолкленды;X
+united_andes_desc; ;X
+united_south_america_desc; ;X
+laf_cores_desc; ;X
+PRU_5462;Восточная Померания;X
+JAP_16552;Вакаяма(24М);X
+JAP_16402;Сикоку(24М);X
+JAP_16492;Канто(24М);X
+JAP_16752;Токай(24М);X
+move_capital_to_tokyo_title;Указ о реставрации Императорского правления;X
+move_capital_to_tokyo_desc; ;X
+japan_rename_korea_title;Создать генерал-губернаторство Чосэн;X
+japan_rename_korea_desc; ;X
+korean_assimilation;Ассимиляция Кореи;Х
+HAM_5280;Гельголанд;Х
+AUS_6330;Карпаты(12М);X
+AUS_6250;Судеты(18м);X
+ENG_19560;Камерун(2);X
+FRA_19310;Кросс(2);X
+FRA_18080;Северный Хаусаленд(2);X
+EVTNAME100003;Мобилизация!;X
+EVTDESC100003;Для победы в гражданской войне на Южноамериканском континенте нам требуются все доступные силы.;X
+EVTOPTA100003;Ура!;X
+EVTNAME99999;Война;X
+EVTDESC99999;Бразилия не собирается присоединяться к нашей державе!;X
+EVTOPTA99999;Остаётся только один выход;X
+trade_reboot_title;Перезагрузить торговлю;X
+trade_reboot_desc;Для всех стран будут откачены торговые переменные, все сделки будут обнулены;X
+army_training;Обучение солдат ;X
+no_traning;Нет подготовки ;X
+little_traning;Минимаьная подготовка ;X
+medium_traning;Начальная подготовка ;X
+advanced_traning;Продвинутая подготовка ;X
+officers_training;Обучение офицеров ;X
+minimal_officers_training;Минимальная подготовка ;X
+average_officers_training;Начальная подготовка ;X
+medium_officers_training;Продвинутая подготовка ;X
+advanced_officers_traning;Комплексная подготовка ;X
+army_doctrines;Доктрина ;X
+org_power;Ставка на решающее сражение ;X
+neutrality_power;Сбалансированная ;X
+reg_power;Ставка на истощение ;X
+state_power;Устройство ;X
+hehemony_power;Гегемония ;X
+empire_power;Империя ;X
+unitary_power;Унитарное государство ;X
+federation_power;Федерация ;X
+army_doctrine_1;Эластичная оборона;X
+army_doctrine_2;Контратака;X
+light_armament_1;Нарезные стволы ;X
+light_armament_2;Универсализация винтовок ;X
+heavy_armament_1;Стальные гаубицы ;X
+heavy_armament_2;Сверхтяжёлые орудия ;X
+military_science_1;Учет военнопленных ;X
+military_science_2;Военные игры ;X
+army_leadership_1;Карьера в армии ;X
+army_leadership_2;Военные госпитали ;X
+naval_doctrine_1;Ставка на малые корабли ;X
+naval_doctrine_2;Ставка на крупные корабли ;X
+ship_construction_1;Винтовая турбина ;X
+ship_construction_2;Концепция дредноута ;X
+naval_engineering_1;Стальная обшивка ;X
+naval_engineering_2;Орудийные башни ;X
+naval_science_1;Использование телеграфа ;X
+naval_science_2;Мобильные госпитали ;X
+naval_leadership_1;Карьера во флоте ;X
+naval_leadership_2;Морские учения ;X
+financial_institutions_1;Структуризация налогооблажения ;X
+financial_institutions_2;Оффшорная политика ;X
+monetary_system_1;Валютные биржи ;X
+monetary_system_2;Плавающий курс ;X
+economic_thought_and_critique_1;Модель равновесной динамики ;X
+economic_thought_and_critique_2;Общество потребления ;X
+market_functionality_1;Акционерное общество ;X
+market_functionality_2;Международная торговля ;X
+tech_organization_1;Трастовые фонды ;X
+tech_organization_2;Теория производства ;X
+aesthetics_1;Пуантилизм;X
+aesthetics_2;Модерн;X
+philosophy_1;Дуализм;X
+philosophy_2;Релятивизм;X
+social_thought_1;Марксизм;X
+social_thought_2;Моральный релятивизм;X
+political_thought_1;Колониализм;X
+political_thought_2;Империализм;X
+psychology_1;Интроспекция;X
+psychology_2;Метапсихология;X
+FRA_absolute_monarchy;Французская Империя;X
+FRA_hms_government;Франция;X
+FRA_proletarian_dictatorship;Французская Коммуна;X
+FRA_presidential_dictatorship;Франция;X
+FRA_bourgeois_dictatorship;Франция;X
+FRA_fascist_dictatorship;Вишистская Франция;X
+FRA_democracy;Франция;X
+TUR_fascist_dictatorship;Турецкая Империя;X
+TUR_proletarian_dictatorship;Османская Республика;X
+JAP_absolute_monarchy;Япония;X
+JAP_hms_government;Япония;X
+JAP_proletarian_dictatorship;Японский Союз;X
+JAP_presidential_dictatorship;Япония;X
+JAP_bourgeois_dictatorship;Япония;X
+JAP_fascist_dictatorship;Японская Империя;X
+JAP_democracy;Японcкая республика;X
+GER_fascist_dictatorship;Третий Рейх;X
+WEL;Уэльс;X
+KAZ;Казахское ханство;X
+boreal_forest;Заснеженный лес;X
+semi_desert;Полупустыня;X
+hilly_grassland;Холмистая степь;X
+scottish;Шотландцы;X
+welsh;Валлийцы;X
+PRU_6822;Верхняя Силезия(8М);X
+ENG_0263;Коннахт;X
+liberal_rebels_title;Либералы;X
+liberal_rebels_name;Либералы;X
+JAP;Японская империя;X
+USA;Соединённые Штаты Америки;X
+CSA;Конфедеративные Штаты Америки;X
+ENG_fascist_dictatorship;Британская Республика;X
+absolute_monarchy_ruler;Император;X
+prussian_constitutionalism_ruler;Император;X
+artisans;Ремесленники;X
+clergymen;Учителя;X
+craftsmen;Пролетарии;X
+PROV313;Осло;X
+PROV1086;Маока;X
+PROV1087;Томари-Анива;X
+PROV1088;Пара-мосири;X
+PROV1089;Этороп;X
+PROV1469;Тува;X
+PROV2617;Уссури;X
+USA_81;Айдахо-Орегон(6);X
+USA_116;Монтана-Вайоминг(6);X
+USA_118;Дакота(6);X
+USA_126;Канзас-Небраска(6);X
+USA_144;Арканзас-Оклахома(6);X
+USA_158;Миннесота-Айова(6);X
+USA_162;Висконсин-Мичиган(6);X
+ENG_22;Внутренняя Канада(4);X
+FRA_1919;Котону(6);X
+AUS_612;Южная Австрия(24М);X
+AUS_771;Словения-Хорватия(12М);X
+MEX_100;Аризона-Мексико(6);X
+ENG_263;Ленстер(18М);X
+AUS_768;Карловац(18М);X
+PRU_546;Западная Померания(12М);X
+ENG_43;Северные территории(4);X
+RUS_1069;Сибирь(6);x;
+RUS_2590;Дальний Восток(4);x;
+MEC_544;Гольштейн(6М);X
+immigration1;Эмиграция;X
+currency_issue_start_title;Объявить эмиссию валюты;X
+currency_devaluation_start_title;Объявить девальвацию валюты;X
+currency_issue_start_desc; ;X
+currency_devaluation_start_desc; ;X
+EVTNAME100100;Эмиссия;X
+EVTDESC100100;Выберите объем;X
+EVTOPTA100100;10% ВВП;X
+EVTOPTB100100;25% ВВП;X
+EVTOPTC100100;50% ВВП;X
+EVTNAME100101;Девальвация;X
+EVTDESC100101;Выберите объем;X
+EVTOPTA100101;10% ВВП;X
+EVTOPTB100101;25% ВВП;X
+EVTOPTC100101;50% ВВП;X
+EVTNAME100102;Небольшая эмиссия;X
+EVTDESC100102;Первая стадия;X
+EVTNAME100103;Небольшая эмиссия;X
+EVTDESC100103;Вторая стадия;X
+EVTNAME100104;Небольшая эмиссия;X
+EVTDESC100104;Третья стадия;X
+EVTNAME100105;Средняя эмиссия;X
+EVTDESC100105;Первая стадия;X
+EVTNAME100106;Средняя эмиссия;X
+EVTDESC100106;Вторая стадия;X
+EVTNAME100107;Средняя эмиссия;X
+EVTDESC100107;Третья стадия;X
+EVTNAME100108;Крупная эмиссия;X
+EVTDESC100108;Первая стадия;X
+EVTNAME100109;Крупная эмиссия;X
+EVTDESC100109;Вторая стадия;X
+EVTNAME100110;Крупная эмиссия;X
+EVTDESC100110;Третья стадия;X
+EVTNAME100111;Небольшая девальвация;X
+EVTDESC100111;Первая стадия;X
+EVTNAME100112;Небольшая девальвация;X
+EVTDESC100112;Вторая стадия;X
+EVTNAME100113;Небольшая девальвация;X
+EVTDESC100113;Третья стадия;X
+EVTNAME100114;Средняя девальвация;X
+EVTDESC100114;Первая стадия;X
+EVTNAME100115;Средняя девальвация;X
+EVTDESC100115;Вторая стадия;X
+EVTNAME100116;Средняя девальвация;X
+EVTDESC100116;Третья стадия;X
+EVTNAME100117;Крупная девальвация;X
+EVTDESC100117;Первая стадия;X
+EVTNAME100118;Крупная девальвация;X
+EVTDESC100118;Вторая стадия;X
+EVTNAME100119;Крупная девальвация;X
+EVTDESC100119;Третья стадия;X
+EVTNAME100120;Денежная реформа завершена;X
+EVTDESC100120; ;X
+is_vassal_state;Сателлит ;X
+extremely_low_cost_of_production;Крайне низкая себестоимость производства;X
+lowest_cost_of_production;Очень низкая себестоимость производства;X
+lower_cost_of_production;Довольно низкая себестоимость производства;X
+low_cost_of_production;Низкая себестоимость производства;X
+medium_cost_of_production;Средняя себестоимость производства;X
+high_cost_of_production;Высокая себестоимость производства;X
+higher_cost_of_production;Довольно высокая себестоимость производства;X
+veryhigh_cost_of_production;Очень высокая себестоимость производства;X
+highest_cost_of_production;Крайне высокая себестоимость производства;X
+extremely_high_cost_of_production;Высочайшая себестоимость производства;X
+reform_cutoff;Нерф медреформ;X
+reform_trinket_cutoff_10;Нерф медреформ - 10;X
+reform_trinket_cutoff_15;Нерф медреформ - 15;X
+reform_trinket_cutoff_20;Нерф медреформ - 20;X
+reform_trinket_cutoff_25;Нерф медреформ - 25;X
+reform_trinket_cutoff_30;Нерф медреформ - 30;X
+reform_trinket_cutoff_32;Нерф медреформ - 32;X
+reform_trinket_cutoff_35;Нерф медреформ - 35;X
+reform_low_cutoff_10;Нерф медреформ - 10;X
+reform_low_cutoff_15;Нерф медреформ - 15;X
+reform_low_cutoff_20;Нерф медреформ - 20;X
+reform_low_cutoff_25;Нерф медреформ - 25;X
+reform_low_cutoff_30;Нерф медреформ - 30;X
+reform_low_cutoff_32;Нерф медреформ - 32;X
+reform_low_cutoff_35;Нерф медреформ - 35;X
+reform_acceptable_cutoff_10;Нерф медреформ - 10;X
+reform_acceptable_cutoff_15;Нерф медреформ - 15;X
+reform_acceptable_cutoff_20;Нерф медреформ - 20;X
+reform_acceptable_cutoff_25;Нерф медреформ - 25;X
+reform_acceptable_cutoff_30;Нерф медреформ - 30;X
+reform_acceptable_cutoff_32;Нерф медреформ - 32;X
+reform_acceptable_cutoff_35;Нерф медреформ - 35;X
+reform_good_cutoff_10;Нерф медреформ - 10;X
+reform_good_cutoff_15;Нерф медреформ - 15;X
+reform_good_cutoff_20;Нерф медреформ - 20;X
+reform_good_cutoff_25;Нерф медреформ - 25;X
+reform_good_cutoff_30;Нерф медреформ - 30;X
+reform_good_cutoff_32;Нерф медреформ - 32;X
+reform_good_cutoff_35;Нерф медреформ - 35;X
+laf_mobilization;Мобилизация;X
+patriots;Восстание националистов;X
+ire_disaster;Картофельный голод;X
+extremely_low_immigration;Крайне низкая иммиграция;X
+lower_immigration;Очень низкая иммиграция;X
+low_immigration;Низкая иммиграция;X
+medium_immigration;Средняя иммиграция;X
+high_immigration;Высокая иммиграция;X
+higher_immigration;Очень высокая иммиграция;X
+extremely_high_immigration;Крайне высокая иммиграция;X
+highest_immigration;Высочайшая иммиграция;X
+issue_little_stage1;Эмиссия - 1 стадия;X
+issue_little_stage2;Эмиссия - 2 стадия;X
+issue_little_stage3;Эмиссия - 3 стадия;X
+issue_average_stage1;Эмиссия - 1 стадия;X
+issue_average_stage2;Эмиссия - 2 стадия;X
+issue_average_stage3;Эмиссия - 3 стадия;X
+issue_average_stage4;Эмиссия - 4 стадия;X
+issue_large_stage1;Эмиссия - 1 стадия;X
+issue_large_stage2;Эмиссия - 2 стадия;X
+issue_large_stage3;Эмиссия - 3 стадия;X
+issue_large_stage4;Эмиссия - 4 стадия;X
+devaluation_little_stage1;Девальвация - 1 стадия;X
+devaluation_little_stage2;Девальвация - 2 стадия;X
+devaluation_little_stage3;Девальвация - 3 стадия;X
+devaluation_average_stage1;Девальвация - 1 стадия;X
+devaluation_average_stage2;Девальвация - 2 стадия;X
+devaluation_average_stage3;Девальвация - 3 стадия;X
+devaluation_average_stage4;Девальвация - 4 стадия;X
+devaluation_large_stage1;Девальвация - 1 стадия;X
+devaluation_large_stage2;Девальвация - 2 стадия;X
+devaluation_large_stage3;Девальвация - 3 стадия;X
+devaluation_large_stage4;Девальвация - 4 стадия;X
+social_reformed_nation;Социалистическое государство;X
+own_panama_canal;Панамский канал ;X
+own_suez_canal;Суэцкий канал ;X
+conscription;Воинская повинность ;X
+conscription_desc;;X
+recruiting;Рекрутская повинность;X
+10_years_draft;Призыв на 10 лет;X
+7_years_draft;Призыв на 7 лет;X
+4_years_draft;Призыв на 4 года;X
+1_years_draft;Призыв на 1 год;X
+no_draft;Контрактная армия;X
+minorities;Меньшинства;X
+minorities_desc;Отношение к непризнанным культурам;X
+apartheid;Апартеид;X
+apartheid_desc;Меньшинства относятся к людям второго сорта;X
+reservations;Резервации;X
+reservations_desc;Негражданам запрещено жить рядом с гражданами;X
+same_rules;Равноправие;X
+same_rules_desc;Представители всех национальностей имеют равные права;X
+protected;Защита меньшинств;X
+protected_desc;Толерантность к чужим культурным особенностям;X
+debt_law;Долговые обязательства;X
+debt_law_desc;Отношение к должникам в стране;X
+serfdom;Пожизненная обязанность;X
+serfdom_desc;Не имея возможности выплатить долг, гражданин становится крепостным по отношению к кредитору;X
+peonage;Кабала;X
+peonage_desc;Не имея возможности выплатить долг, гражданин обязан служить кредитору вплоть до его смерти;X
+debtors_prisons;Долговые тюрьмы;X
+debtors_prisons_desc;Должники преследуются уголовно;X
+bankruptcy;Банкротство;X
+bankruptcy_desc;Должники защищены на законодательном уровне;X
+migration_law;Внутренняя миграция;X
+migration_law_desc;Миграционная политика по отношению к населению;X
+only_high_strata_migration;Только элита;X
+only_high_strata_migration_desc;Только высшие слои населения имеют право свободно изменять место жительства;X
+mid_and_high_strata_migration;Обеспеченные классы;X
+mid_and_high_strata_migration_desc;Только обеспеченные слои населения имеют право свободно изменять место жительства;X
+all_strata_migration;Все население имеет право свободно изменять место жительства;X
+all_strata_migration_desc;Все население;X
+annex_one_state_short;Присоединить державу $RECIPIENT$;X
+annex_one_state_setup;Присоединение державы $RECIPIENT$;X
+annex_capital_short;Присоединение региона $STATE$;X
+free_peoples_player_short;;Передача региона $STATE$ державе $THIRD$;X
+annex_south_china_region_short;Присоединить регион $STATE$;X
+annex_north_china_region_short;Присоединить регион $STATE$;X
+acquire_core_state_ai_short;Присоединение региона $STATE$;X
+annex_capital_player_short;Присоединение региона $STATE$;X
+annex_core_country_ai;Присоединение державы $RECIPIENT$;X
+annex_capital_setup;Захватить регион $STATE$ у державы $RECIPIENT$.;X
+human_state_short;Присоединение региона $STATE$;X
+human_state_setup;Захватить регион $STATE$ у державы $RECIPIENT$.;X
+human_colony_short;Присоединение региона $STATE$;X
+human_colony_setup;Захватить регион $STATE$ у державы $RECIPIENT$.;X
+annex_krakov_short;Присоединить державу $RECIPIENT$;X
+annex_krakov_setup;Присоединение державы $RECIPIENT$;X
+annex_montenegro_short;Присоединить державу $RECIPIENT$;X
+annex_montenegro_setup;Присоединение державы $RECIPIENT$;X
+reparations_short;Репарации от державы $RECIPIENT$;X
+reparations_setup;Заставить выплатить репарации державу $RECIPIENT$;X
+acquire_state_short;Присоединение региона $STATE$;X
+acquire_state_setup;Захватить регион $STATE$ у державы $RECIPIENT$.;X
+conscription_back_1year_title;Увеличить срок военной службы ;X
+conscription_back_4years_title;Увеличить срок военной службы ;X
+conscription_back_7years_title;Увеличить срок военной службы ;X
+conscription_back_10years_title;Увеличить срок военной службы ;X
+conscription_back_1year_desc; ;X
+conscription_back_4years_desc; ;X
+conscription_back_7years_desc; ;X
+conscription_back_10years_desc; ;X
+acquire_port_china;Захватить китайский порт;X
+acquire_port_china_short;Присоединение региона $STATE$;X
+acquire_port_china_setup;Захватить регион $STATE$ у державы $RECIPIENT$;X
+acquire_state_china;Захватить китайский регион;X
+acquire_state_china_short;Присоединение региона $STATE$;X
+acquire_state_china_setup;Захватить регион $STATE$ у державы $RECIPIENT$;X
+colony_100k; Захват колонии(<100k pops);X
+colony_100k_short;Присоединение региона $STATE$;X
+colony_100k_setup;Захватить регион $STATE$ у державы $RECIPIENT$;X
+state_100k; Захват региона(<100k pops);X
+state_100k_short;Присоединение региона $STATE$;X
+state_100k_setup;Захватить регион $STATE$ у державы $RECIPIENT$;X
+install_fascism_gov_cb;Экспорт фашизма;X
+install_fascism_gov_cb_short;Экспорт фашизма;X
+install_fascism_gov_cb_setup;Провозгласить демократическое правительство;X
+install_democracy_gov_cb;Экспорт демократии;X
+install_democracy_gov_cb_short;Экспорт демократии;X
+install_democracy_gov_cb_setup;Провозгласить фашистское правительство;X
+switch_to_japanese_tech_title;Японская тех. школа;X
+switch_to_japanese_tech_desc; ;X
+switch_to_german_tech_title;Немецкая тех. школа;X
+switch_to_german_tech_desc; ;X
+industrial_boom_title;Начальная стадия развития промышленности;X
+industrial_boom_desc; ;X
+industrial_boom_2_title;Вторая стадия развития промышленности;X
+industrial_boom_2_desc; ;X
+industrial_boom_3_title;Третья стадия развития промышленности;X
+industrial_boom_3_desc; ;X
+industrial_boom_4_title;Четвертая стадия развития промышленности;X
+industrial_boom_4_desc; ;X
+industrial_boom_5_title;Пятая стадия развития промышленности;X
+industrial_boom_5_desc; ;X
+politics_des_on_title;Открыть окно развития промышленности;X
+politics_des_on_desc; ;X
+politics_des_off_title;Закрыть окно развития промышленности;X
+politics_des_off_desc; ;X
+research_projects_title;Начальный уровень поддержки науки;X
+research_projects_desc; ;X
+research_projects_2_title;Второй уровень поддержки науки;X
+research_projects_2_desc; ;X
+research_projects_3_title;Третий уровень поддержки науки;X
+research_projects_3_desc; ;X
+research_projects_4_title;Четвертый уровень поддержки науки;X
+research_projects_4_desc; ;X
+research_projects_5_title;Пятый уровень поддержки науки;X
+research_projects_5_desc; ;X
+projects_des_on_title;Открыть окно поддержки науки;X
+projects_des_on_desc; ;X
+projects_des_off_title;Закрыть окно;X
+projects_des_off_desc; ;X
+annex_luxemburg_title;Аннексия Люксембурга;X
+annex_luxemburg_desc;В Люксембурге половину населения составляют французы, а это значит, что мы можем использовать это в качестве предлога для проведения мирной аннексии этого карлика, ведь никто даже и не вспомнит об этой стране, верно?;X
+zemstvo_reform_title;Земская реформа;X
+zemstvo_reform_desc;Проект земской реформы разрабатывался с 1859 года комиссией при министерстве внутренних дел (председатель Н. А. Милютин, с 1861 года — П. А. Валуев). Реформаторы стремились заменить систему бюрократического управления в областных учреждениях, при которой областная жизнь управлялась директивами из центра, что вело к ошибочным и запоздалым решениям. Главным аргументом в поддержку реформы было убеждение, что местные условия хорошо знают только постоянные жители региона, а посылаемые чиновники точно осуществляют программу, полученную в центре, без учёта местной специфики. «Положение» 1864 года отразило различные интересы дворянских группировок.;X
+move_capital_to_moscow_title;Перенесение столицы в Москву;X
+move_capital_to_moscow_desc;Петр I допустил невероятную стратегическую ошибку, перенеся столицу такой огромной страны прямо на побережье. Любая война с Западными странами ставит под удар безопасность нашей столицы, что просто непозволительно. Мы обязаны исправить ошибку наших предков дабы обеспечить безопасность Отечества!;X
+rename_st_petersburg_title;Переименование Санкт-Петербурга;X
+rename_st_petersburg_desc;Наша столица носит безусловно красивое, но в то же время немецкое название. У нашей родины есть своя культура, которая ничем не уступает нашему западному соседу! Пришло время сменить название города, которое будет близко русскому духу.;X
+nv_british_stoicism;Владычица морей;X
+nv_patriotism;Православие, Царь, Отечество!;X
+nv_american_neutrality;Колыбель демократии;X
+nv_prussia;Прусские традиции;X
+nv_austria;Наследие Габсбургов;X
+nv_italy;Новый Рим;X
+nv_spain;Дальше предела;X
+nv_turkey;Умирающая Порта;X
+nv_france;Родина революции;X
+zemstva;Земская реформа;X
+serfdom_abolished;Крепостное право было отменено;X
+puantilism;Пуантилизм;X
+modern;Модерн;X
+nv_swedish_neutrality;Шведский нейтралитет;X
+tanzimat;Танзимат;X
+annex_wallachia_title;Присоединение Валлахии;X
+annex_wallachia_desc;Пора что-то решать с нашими границами на Севере. Чтобы усилить наше влияние на Балканах, мы можем насильно заставить румын войти в состав нашей империи. Безусловно, сейчас в нашей стране и так не все спокойно, но мы обязаны отрезать Балканские страны от влияния России и Австрии. Такое действие очень плохо отразится на стабильности в регионе, но мы готовы на это пойти, если понадобится, мы утопим румын в их же собственной крови!;X
+annex_portugal_title;Решение вопроса с Португалией;X
+annex_portugal_desc;Когда-то наша страна сияла ярче всех, но уже давно над ней не светило солнце. Если мы хотим, чтобы о нас вновь заговорил мир, то стоит сперва решить вопрос о нашем главенстве на Иберийском полуострове. Здесь должна остаться лишь одна держава ибо для двоих тут слишком тесно.;X 
+spain_on_fire;Испания сделала выбор;X
+integration_has_happened;Интеграция Португалии;X
+integration_title;Интеграция Португалии;X
+integration_desc;После победы над Португалией у встал вопрос о ее окончательном включении в состав нашего государства. Проблема в том, что португальцев довольно много, а права у них сейчас абсолютно отсутствуют. Мы можем принять закон, благодаря которому португальцы станут полноценными гражданами Испании, но самим испанцам это точно не понравится.;X
+integration_has_happened;Интеграция прошла успешно;X
+nv_brazil;Новая надежда свободы;X
+the_brazilian_rise_title;Возрождение Южной Америки;X
+the_brazilian_rise_desc;Мы являемся главной силой Латинской Америки, а это значит, что на нас лежит ответственность за будущее всего материка. Мы можем взять на себя роль собирателя земель и объединить южно-американские страны под нашим началом, что позволит нам создать единую Южную Америку!;X
+brazilian_rise;Подъем Бразилии;X
+volunteers;Усиленная подготовка добровольцев;X
+transfer_alsace_title;Отказ от Эльзаса;X
+transfer_alsace_desc;Кто бы мог подумать, что из столь разрозненной нации сможет вырасти такое сильное государство. К Востоку от нашей границы набирает силу новая Германия, но для полного объединения всех земель ей нужны наши территории, если мы их отдадим, то навсегда потеряем Эльзас-Лотарингию, если нет - война неизбежна, но сможем ли вы выстоять в этой битве?;X
+alcase_transfer;Мы подписали отказ от земли Эльзас-Лотарингия;X
+weakness_of_western;Западное влияние;X
+indian_future_title;Будущее Индии;X
+indian_future_desc;Мы можем принять закон о новом образовании по европейским стандартам, но увеличение числа образованных людей снизит темпы производства;X
+we_made_a_choice;Мы сделали выбор;X
+the_indian_rise_title;Возрождение Индии;X
+the_indian_rise_desc;Мы являемся сильнейшей страной на территории Инидии, а это значит, что нам предстоит взять на себя ответственность за будущее нашей нации. Мы силой объединим земли в одну могущественную страну!
+india_rise;Мы встали на тропу войны;X
+indian_power_title;Индийская мощь;X
+indian_power_desc;Мы набрали достаточно военного потенциала, чтобы предъявить свои претензии на соседние территории, никто не посмеет нас остановить!;X
+health_chemistry;Новое поколение лекарств;X
+army_doctrine_3;Военная доктрина;X
+modern_army_doctrine_new;Новая армейская доктрина;X
+modern_army_doctrine_new_1;Переходная доктрина;X
+light_armament_3;Легкое вооружение;X
+modern_divisional_structure_new;Современная дивизионная структура(новая);X
+modern_divisional_structure_new_1;Переходная бригадная структура;X
+heavy_armament_3;Тяжелые орудия;X
+heavy_armament_dunno_1;Новое тяжелое вооружение;X
+heavy_armament_dunno_2;Легкая артиллерия;X
+military_science_3;Военные учения;X
+aeronautics_new;Улучшенная авиация;X
+aeronautics_new_1;Новая военная теория;X
+army_risk_management_new;Стратегическое планирование;X
+great_war_experience_new;Использование опыта первой мировой войны;X
+great_war_experience_new_2;Опыт последних войн;X
+battleship_column_doctrine_new;Доктрина старых кораблей;X
+modern_naval_doctrine_1;Новая морская доктрина;X
+modern_naval_doctrine_2;Улучшенная морская доктрина;X
+iron_steamers_1;Новые железные пароходы;X
+oil_driven_ships_1;Улучшенные дредноуты;X
+oil_driven_ships_2;Новые технологии кораблестроения;X
+modern_naval_design_1;Современная концепция кораблей;X
+modern_naval_design_2;Улучшенная концепция кораблей;X
+modern_naval_design_3;Логистика на море;X
+naval_science_3;Военно-морские учения;X
+naval_integration_1;Военно-морское сообщение;X
+naval_integration_2;Улучшенное военно-морское сообщение;X
+naval_leadership_3;Подготовка адмиралов;X
+modern_naval_training_1;Новый метод обучения;X
+modern_naval_training_2;Усовершенствованный метод обучения;X
+financial_institutions_3;Новые финансовые институты;X
+bank_inspection_board_1;Усиленный банковский надзор;X
+mutual_funds_1;Образование фондов;X
+monetary_system_3;Денежная система;X
+market_determined_exchange_rates_1;Обмен валюты;X
+market_determined_exchange_rates_2;Расширенное распространение валюты;X
+keynesian_economics_1;Кейнсианская модель экономики(1);X
+keynesian_economics_2;Кейнсианская модель экономики(2);X
+keynesian_economics_3;Экономические стандарты;X
+market_functionality_3;Система международной торговли;X
+government_interventionism_1;Контроль государства;X
+government_interventionism_2;Усиленный контроль государства;X
+tech_organization_3;Организация производства;X
+organizational_development_1;Организация трудящихся;X
+organizational_development_2;Усиленный контроль эффективности труда;X
+mass_culture_n_the_avant_garde_1;Массовая культура и авангардизм(1);X
+mass_culture_n_the_avant_garde_2;Массовая культура и авангардизм(2);X
+mass_culture_n_the_avant_garde_3;Поздний романтизм;X
+anti__rationalism_1;Антирационализм(1);X
+anti__rationalism_2;Антирационализм(2);X
+anti__rationalism_3;Развитие теории;X
+social_thought_3;Социальная теория;X
+social_alienation_1;Соц. отчуждение(1);X
+social_alienation_2;Соц. отчуждение(2);X
+political_thought_3;Политическое отчуждение;X
+mass_politics_1;Участие всех классов в политике;X
+mass_politics_2;Участие всех граждан в политике;X
+psychology_3;Новые открытия в психологии;X
+behaviorism_1;Бихевиоризм(1);X
+behaviorism_2;Бихевиоризм(2);X
+tech_power_1;Техническая эффективность;X
+tech_power_2;Улучшенная эффективность;X
+electrical_power_generation_1;Выработка электроэнергии(1);X
+electrical_power_generation_2;Выработка электроэнергии(2);X
+electrical_power_generation_3;Выработка электроэнергии(3);X
+mechanization_1;Механизация производства;X
+mechanization_2;Полная механизация производства;X
+mechanization_3;Установка нового оборудования;X
+shift_work_1;Эффективное распределение смен;X
+shift_work_2;Улучшение условий труда;X
+metallurgy_1;Развитие металлургии;X
+metallurgy_2;Расширение металлургических цехов;X
+metallurgy_3;Новый метод выплавки стали;X
+electric_furnace_1;Новые электропечи;X
+electric_furnace_2;Современное оборудование;X
+tech_infrastructure_1;Ранняя железная дорога;X
+tech_infrastructure_2;Новая железная дорога;X
+integral_rail_system_1;Усовершенствовання национальная дорога;X
+limited_access_roads_1;Железная дорога 20 века;X
+limited_access_roads_2;Железная дорога;X
+chemistry_and_electricity_1;Развитие химии;X
+chemistry_and_electricity_2;Химия и электричество;X
+synthetic_polymers_1;Синтетические полимеры(1);X
+synthetic_polymers_2;Синтетические полимеры(2);X
+synthetic_polymers_3;Развитие медицины;X
+enact_danube_federation_title;Создание Дунайской Федерации;X
+enact_danube_federation_desc;Во всем мире наша страна прославилась под неприятным прозвищем "Тюрьма народов", но пришло время все исправить. Около 30 лет назад мы уже сделали шаг на пути к переформированию нашего государства, но нам предстоит еще многое сделать. Мы можем издать указ, который бы даровал всем славянским народам, населяющих нашу страну, статус полноправной нации, но это приведет к тому, что австрийские традиции и наследие перемешаются с иными народами, а немцы больше не будут чувствовать себя так же комфортно, как и раньше. Это вынужденные меры, мы обязаны сплоить наше государство любыми методами!;X
+danube_federation_done;Дунайская федерация была создана;X
+end_of_the_monarchy_title;Конец Габсбургской монархии;X
+end_of_the_monarchy_desc;Монархия Габсбургов на протяжении столетий занимала главенствующую роль не только в самой Австрии, но и в Европе. К сожалению, эти времена прошли, а монархия, как институт, слишком устарела. Наше реакционное правительство долгое время не шло на уступки в основном из-за правящей элиты, большую часть которой составляют немцы. Но теперь, когда немец ничем не отличается от серба, мы можем сбросить оковы прогнившей системы, но это приведет к росту недовольства среди монархистов.;X
+reforms_done;Реформы были проведены;X
+form_islamic_halifat_title;Компромисс с балканскими народами;X
+form_islamic_halifat_desc;Когда-то нас боялись в Европе, как конца света, но былые времена прошли и теперь над нашей страной лишь насмехаются. Пришло время напомнить европейцам о том самом давнем страхе, который когда-то заставлял их с опасением смотреть на Балканы, но который они успели позабыть. Сейчас мы не в силах удержать славянские народы под нашим контролем, но это ненадолго, мы должны усыпить бдительность европейских государств, пойдя им на уступки. Тем временем мы должны развернуться на Восток, где можем набраться достаточно сил, чтобы вернуть Балканы под свой контроль!;X 
+islamic_halifat_done;Компромиссное соглашеие было подписано;X
+recognition_of_the_poles_title;Германизация поляков;X
+recognition_of_the_poles_desc;Польские земли уже долгое время находятся под нашей властью, а это значит, что пора заняться польским населением. Мы можем начать насильственно распространять немецкую культуру в наших Восточных землях. Пора германизировать их!;X 
+occupation_of_the_rhineland_title;Оккупация Рейнской области;X
+occupation_of_the_rhineland_desc;Сейчас мы контролируем всю Рейнскую область, когда-то она уже принадлежала нам и теперь мы вновь доказали наше право владеть ею. Здесь находятся богатые железные рудники, которые могут сильно продвинуть нашу металлургическую промышленность, мы обязаны использовать ресурсы этой богатой области на благо нашей страны.Первые 10 лет мы будем использовать все человеческие ресурсы местного немецкого населения, заставив их работать на фабриках и шахтах, но потом нам придется ослабить хватку, дабы не вызвать сильных волнений.;X
+the_rhineland_is_our;Рейн - наша земля!;X
+emperial_things_title;Забытые имперские амбиции;X
+emperial_things_desc;В былые времена Швеция занимала одну из лидирующих позиций в Европе: нашу страну уважали и боялись. Но после поражения в Северной войне, а затем и потери Финляндии, наша страна встала на курс нейтралитета, который оказывал положительное воздействие на нас, хотя бы потому что он был вынужденным. Но теперь, когда мы вернули себе Финляндию, мы смело можем напомнить России о наших давних разногласиях. Мы выдвигаем претензии на наши территории, которые когда-то были утеряны.;X
+imperial_ambitions;Имперские амбиции;X
+revival_of_military_power_title;Возрождение военной мощи;X
+revival_of_military_power_desc;Время нейтралитета окончено, время забвения подошло к концу, пришло время напомнить южанам о наших былых военных победах! На протяжении целого века мы занимались внутренней политикой и практически были изолированы, но теперь мы выходим на мировую арену, но, для того чтобы противостоять европейским гигантам, нам необходимо возродить нашу военную машину, которая когда-то была лучшей в Европе. Мы бросим все средства для достижения этой цели в кратчайшие сроки!;X
+north_lion;Северный лев;X
+change_tech_school_title;Изменение технологической школы;X
+change_tech_school_desc;Наша промышленность растет, армия по качеству не уступает ни одной другой, наращивается флот и новые амбиции, но для поддержания стабильного усиления военных способностей нашей державы нам необходимо изменить курс. Мы можем поставить страну на военные рельсы. Государство для армии!;X
+swedish_tech_school;Шведская военно-промышленная школа;X
+EVTNAME99981;Акт о Британской Северной Америке;X
+EVTDESC99981;Конституционный акт 1867 года закрепил основы государственного устройства Канады. Согласно Акту, вся система органов управления действовала в соответствии с принципом разделения властей и федерализма. Статья 9 закрепила за королевой функции главы государства, а статья 17 установила "единый парламент Канады в составе Королевы, верхней палаты, именуемой Сенатом, и Палаты Общин". Генерал-губернатор, назначаемый британским монархом, осуществлял полномочия короны. Он обладал правом созыва и роспуска парламента, назначения и отставки лейтенант-губернаторов в провинциях, членов Сената, членов Тайного совета в том числе членов правительства, судей всех уровней.;X
+EVTOPTA99981;Подписываем;X
+EVTOPTB99981;Канаде никогда не бывать свободной!;X
+EVTNAME99991;Создание Австралийского Содружества;X
+EVTDESC99991;Уже давно в Австралии гуляет лозунг "Один континент - одна нация". Благодаря этому акту мы можем создать Австралийский союз, который дарует этому континенту автономность, но продолжит оставаться в составе Британской империи в качестве доминиона. Если мы откажемся от этих мер, то местное население может развязать войну за независимость, ведь сейчас там как никогда раньше популярны националистические идеи. Пожалуй, это единственный мирный способ сохранить наше влияние на этом континенте.;X
+EVTOPTA99991;Подписываем;X
+EVTOPTB99991;Этот вопрос можно решить и по-другому;X
+EVTNAME99992;Восстание сипаев;X
+EVTDESC99992; восстание индийских солдат против жестокой колониальной политики англичан в 1857—1859 годах. Восстание началось на севере от Бенгалии до Пенджаба и в центральной Индии. Основная инициатива была предпринята со стороны армии и незадолго до этого отстранённых от власти махарадж, но в некоторых областях его поддержали крестьяне, и оно превратилось в общее восстание. Дели был захвачен повстанцами, однако позже был окружён и взят англичанами. Восстание вызвало бурную волну самых разнообразных откликов, как в английских прессе и литературе, так и за её пределами, где определённые круги высказывались за союз с Российской империей с целью вытеснения Великобритании из Азии.;X
+EVTOPTA99992;Сами виноваты!;X
+EVTNAME99993;Великий голод;X
+EVTDESC99993;Самый опустошительный и тяжелый в Индии голод длился в течение двух лет с 1876 г. по 1877 г. На территории округа Мадрас и в районах Бомбея и Пуны смерть унесла 6 миллионов человек, половина которых погибла от холеры.Великий голод начался двумя годами раньше, когда не выпали традиционные муссонные дожди. Ситуация еще больше усугубилась, когда не было дождей и в период между муссонами. В течение двух лет прошли две кратковременные грозы, которые породили в людях надежду, но ей не суждено было сбыться.;X
+EVTOPTA99993;Ужасные события;X
+great_famine;Великий голод;X
+industrialisation_in_ussr_title;Индустриализация в СССР;X
+industrialisation_in_ussr_desc;Начало социалистической индустриализации как составной части «триединой задачи по коренному переустройству общества» (индустриализация, коллективизация сельского хозяйства и культурная революция) было положено первым пятилетним планом развития народного хозяйства (1928—1932). Одновременно были ликвидированы частнотоварные и капиталистические формы хозяйства, таким образом была уничтожена конкуренция, что вело к снижению уровня выпускаемых благ.В советское время индустриализация считалась великим подвигом. Стремительный рост производственных мощностей и объёмов производства тяжёлой промышленности (в 4 раза) имел огромное значение для обеспечения экономической независимости от капиталистических стран и укрепления обороноспособности страны. В это время СССР совершил переход от аграрной страны к индустриальной.;X
+industrialization_has_happened;Индустриализация была начата;X
+soviet_industry;Индустриализация идет полным ходом;X
+form_nkvd_title;Учреждение НКВД;X
+form_nkvd_desc;В период своего существования НКВД РСФСР выполнял государственные функции, связанные с охраной правопорядка и государственной безопасности, а также в сфере коммунального хозяйства и экономики молодого советского государства.Наркомат внутренних дел РСФСР входил в число первых наркоматов, образованных в соответствии с декретом «Об учреждении Совета Народных Комиссаров», принятым 2-м Всероссийским съездом Советов 26 октября (8 ноября) 1917 года. Наркомом внутренних дел был назначен А. И. Рыков.;X
+nkvd_formed;НКВД был создан;X
+nkvd;НКВД;X
+form_rkka_title;Создание Красной Армии;X
+form_rkka_desc;Красная армия — официальное наименование видов вооружённых сил: сухопутных войск и военно-воздушного флота, которые вместе с МС РККА, войсками НКВД СССР (пограничными Войсками, Войсками внутренней охраны республики и Государственной конвойной стражей) составляли Вооружённые Силы РСФСР / СССР с 10 февраля 1918 года по 25 февраля 1946 года. Днём создания РККА принято считать 23 февраля 1918 года. Именно в этот день началась массовая запись добровольцев в отряды РККА, создаваемые согласно декрету СНК РСФСР «О Рабоче-крестьянской Красной армии», подписанному 15 января 1918 года.;X
+rkka_formed;РККА была создана;X
+rkka;РККА;X
+rename_provinces_title;Переименование имперских городов;X
+rename_provinces_desc;Наступила эпоха Советской России и нам ни к чему хранить память об имперском прошлом;X
+rename_provinces_done;Города были переименованы;X
+rename_kenig_title;Переименование Кенигсберга;X
+rename_kenig_desc;Изменим название немецкого города на наше родное, чтобы совесткий дух распространился по всей Восточной Пруссии.;X
+rename_kenig_done;Кенигсберг переименован;X
+form_ss_title;Создание Черного Ордена;X
+form_ss_desc;Первоначально СС предназначались для личной охраны фюрера НСДАП А. Гитлера и входили в состав штурмовых отрядов (СА). С 1934 года СС были выделены из штурмовых отрядов как отдельная структура НСДАП и подчинялись лично Гитлеру и рейхсфюреру СС Г. Гиммлеру. В декабре 1939 г. численность СС составляла 243,6 тыс. человек, в том числе 223,6 тыс. в общих СС. С декабря 1934 г. началось создание частей усиления СС, которые в июне 1940 г. получили наименование Ваффен-СС. К марту 1945 г. численность личного состава войск СС составляла 1 млн человек.;X
+ss_formed;Отряды СС были сформированы;X
+ss;Ваффен СС;X
+form_gestapo_title;Создание Гестапо;X
+form_gestapo_desc;Гестапо вело преследование инакомыслящих, недовольных и противников власти Адольфа Гитлера, входило в состав Министерства внутренних дел Германии. Обладая широкими полномочиями, являлось важнейшим инструментом проведения карательной политики как в самой Германии, так и на оккупированных территориях. Гестапо занималось расследованиями деятельности всех враждебных режиму сил, при этом деятельность гестапо была выведена из-под надзора административных судов, в которых обычно обжаловались действия государственных органов. В то же время гестапо обладало правом превентивного ареста — заключения в тюрьму или концентрационный лагерь без судебного решения.;X
+gestapo_formed;Гестапо создано;X
+gestapo;Гестапо;X
+annex_south_german_title;Аннексия Южно-Германского союза.;X
+annex_south_german_desc;Заняв доминирующее положение в Германии, а в частности и в Южной ее части, мы можем сплотить всех южных немцев в единое и мощное государство!;X
+doctrine_tech;Государство;X
+massive_march;Воинская повинность;X
+naval_march;Снабжение флота;X
+defensive_march;Медицина;X
+blitzmarch;Снабжение армии;X
+focus_idea;Нац.приоритеты;X
+mobilisation_tech_1;Первый уровень мобилизации;X
+mobilisation_tech_2;Второй уровень мобилизации;X
+mobilisation_tech_3;Третий уровень мобилизации;X
+mobilisation_tech_4;Четвертый уровень мобилизации;X
+mobilisation_tech_5;Пятый уровень мобилизации;X
+mobilisation_tech_6;Шестой уровень мобилизации;X
+mobilisation_tech_7;Седьмой уровень мобилизации;X
+mobilisation_tech_8;Восьмой уровень мобилизации;X
+mobilisation_tech_9;Девятый уровень мобилизации;X
+mobilisation_tech_10;Десятый уровень мобилизации;X
+mobilisation_tech_11;Одиннадцатый уровень мобилизации;X
+medicine_tech_1;Первый уровень медицины;X
+medicine_tech_2;Второй уровень медицины;X
+medicine_tech_3;Третий уровень медицины;X
+medicine_tech_4;Четвертый уровень медицины;X
+medicine_tech_5;Пятый уровень медицины;X
+medicine_tech_6;Шестой уровень медицины;X
+medicine_tech_7;Седьмой уровень медицины;X
+medicine_tech_8;Восьмой уровень медицины;X
+medicine_tech_9;Девятый уровень медицины;X
+medicine_tech_10;Десятый уровень медицины;X
+medicine_tech_11;Одиннадцатый уровень медицины;X
+military_tech_1;Первый уровень снабжения армии;X
+military_tech_2;Второй уровень снабжения армии;X
+military_tech_3;Третий уровень снабжения армии;X
+military_tech_4;Четвертый уровень снабжения армии;X
+military_tech_5;Пятый уровень снабжения армии;X
+military_tech_6;Шестой уровень снабжения армии;X
+military_tech_7;Седьмой уровень снабжения армии;X
+military_tech_8;Восьмой уровень снабжения армии;X
+military_tech_9;Девятый уровень снабжения армии;X
+military_tech_10;Десятый уровень снабжения армии;X
+military_tech_11;Одиннадцатый уровень снабжения армии;X
+naval_tech_1;Первый уровень срабжения флота;X
+naval_tech_2;Второй уровень срабжения флота;X
+naval_tech_3;Третий уровень срабжения флота;X
+naval_tech_4;Четвертый уровень срабжения флота;X
+naval_tech_5;Пятый уровень срабжения флота;X
+naval_tech_6;Шестой уровень срабжения флота;X
+naval_tech_7;Седьмой уровень срабжения флота;X
+naval_tech_8;Восьмой уровень срабжения флота;X
+naval_tech_9;Девятый уровень срабжения флота;X
+naval_tech_10;Десятый уровень срабжения флота;X
+naval_tech_11;Одиннадцатый уровень срабжения флота;X
+focus_idea_tech_1;Первый нац.приоритет;X
+focus_idea_tech_2;Второй нац.приоритет;X
+focus_idea_tech_3;Третий нац.приоритет;X
+focus_idea_tech_4;Четвертый нац.приоритет;X
+focus_idea_tech_5;Пятый нац.приоритет;X
+focus_idea_tech_6;Шестой нац.приоритет;X
+focus_idea_tech_7;Седьмой нац.приоритет;X
+focus_idea_tech_8;Восьмой нац.приоритет;X
+focus_idea_tech_9;Девятый нац.приоритет;X
+focus_idea_tech_10;Десятый нац.приоритет;X
+focus_idea_tech_11;Одиннадцатый нац.приоритет;X
+annex_saxony_title;Вторжение в Саксонию;X
+annex_saxony_desc;Мы утвердили свое влияние во всей Северной Германии, но осталось еще одно братское государство, которое австрийцы стравливают с нами. Австрия не желает видеть в нас врага, а поэтому она всеми силами пытается удержать Саксонию у своих ног, но пришло время проявить решительность и сделать первый шаг. Мы возьмем всю ответственность за агрессию на себя, но силой возьмем то, что должно принадлежать нам по праву сильного!;X
+invasion_to_saxony;Захват Саксонии;X
+construct_german_fleet_title;Развитие Кайзерлихмарине;X
+construct_german_fleet_desc;Военно-морские силы Германии, созданные после объединения германских государств в составе Германской империи на основе военно-морских сил Королевства Пруссия, основной задачей которых являлась береговая оборона. Они существовали с 1871 по 1919 год.;X
+german_fleet;Кайзерлихмарине;X
+integration_of_belgium_title;Интеграция Бельгии;X
+integration_of_belgium_desc;Французы уже обладают статусом полноправных граждан в Бельгии, а что нам мешает сделать то же самое только с бельгийскими народами.;X
+majino_title;Линия Мажино;X
+majino_desc;Линия Мажино — это оборонительная линия построенная в период между Первой и Второй мировой войной и названа в честь военного министра того времени Андре Мажино. Часто ее рассматривают как линию для защиты франко-немецкой границы, она простирается от севера Франции до Средиземного моря.;X
+embargo_aus_des_on_title;Открыть окно санкций;X
+embargo_aus_des_on_desc; ;X
+embargo_aus_des_off_title;Закрыть окно санкций;X
+embargo_aus_des_off_desc; ;X
+embargo_aus_title;Санкции против России;X
+embargo_aus_desc; ;X
+embargo_aus_2_title;Санкции против Франции;X
+embargo_aus_2_desc; ;X
+embargo_aus_3_title;Санкции против Германии;X
+embargo_aus_3_desc; ;X
+embargo_aus_4_title;Санкции против Великобритании;X
+embargo_aus_4_desc; ;X
+embargo_aus_5_title;Санкции против Италии;X
+embargo_aus_5_desc; ;X
+embargo_aus_6_title;Санкции против США;X
+embargo_aus_6_desc; ;X
+embargo_aus_7_title;Санкции против Испании;X
+embargo_aus_7_desc; ;X
+embargo_aus_8_title;Санкции против Турции;X
+embargo_aus_8_desc; ;X
+embargo_aus_9_title;Санкции против Скандинавии;X
+embargo_aus_9_desc; ;X
+embargo_aus_10_title;Санкции против СГС;X
+embargo_aus_10_desc; ;X
+embargo_aus_13_title;Санкции против Пруссии;X
+embargo_aus_13_desc; ;X
+embargo_aus;Австрийские санкции;X
+embargo_kuk_des_on_title;Открыть окно санкций;X
+embargo_kuk_des_on_desc; ;X
+embargo_kuk_des_off_title;Закрыть окно санкций;X
+embargo_kuk_des_off_desc; ;X
+embargo_kuk_title;Санкции против России;X
+embargo_kuk_desc; ;X
+embargo_kuk_2_title;Санкции против Франции;X
+embargo_kuk_2_desc; ;X
+embargo_kuk_3_title;Санкции против Германии;X
+embargo_kuk_3_desc; ;X
+embargo_kuk_4_title;Санкции против Великобритании;X
+embargo_kuk_4_desc; ;X
+embargo_kuk_5_title;Санкции против Италии;X
+embargo_kuk_5_desc; ;X
+embargo_kuk_6_title;Санкции против США;X
+embargo_kuk_6_desc; ;X
+embargo_kuk_7_title;Санкции против Испании;X
+embargo_kuk_7_desc; ;X
+embargo_kuk_8_title;Санкции против Турции;X
+embargo_kuk_8_desc; ;X
+embargo_kuk_9_title;Санкции против Скандинавии;X
+embargo_kuk_9_desc; ;X
+embargo_kuk_10_title;Санкции против СГС;X
+embargo_kuk_10_desc; ;X
+embargo_kuk_13_title;Санкции против Пруссии;X
+embargo_kuk_13_desc; ;X
+embargo_dnf_des_on_title;Открыть окно санкций;X
+embargo_dnf_des_on_desc; ;X
+embargo_dnf_des_off_title;Закрыть окно санкций;X
+embargo_dnf_des_off_desc; ;X
+embargo_dnf_title;Санкции против России;X
+embargo_dnf_desc; ;X
+embargo_dnf_2_title;Санкции против Франции;X
+embargo_dnf_2_desc; ;X
+embargo_dnf_3_title;Санкции против Германии;X
+embargo_dnf_3_desc; ;X
+embargo_dnf_4_title;Санкции против Великобритании;X
+embargo_dnf_4_desc; ;X
+embargo_dnf_5_title;Санкции против Италии;X
+embargo_dnf_5_desc; ;X
+embargo_dnf_6_title;Санкции против США;X
+embargo_dnf_6_desc; ;X
+embargo_dnf_7_title;Санкции против Испании;X
+embargo_dnf_7_desc; ;X
+embargo_dnf_8_title;Санкции против Турции;X
+embargo_dnf_8_desc; ;X
+embargo_dnf_9_title;Санкции против Скандинавии;X
+embargo_dnf_9_desc; ;X
+embargo_dnf_10_title;Санкции против СГС;X
+embargo_dnf_10_desc; ;X
+embargo_dnf_13_title;Санкции против Пруссии;X
+embargo_dnf_13_desc; ;X
+embargo_des_on_title;Открыть окно санкций;X
+embargo_des_on_desc; ;X
+embargo_des_off_title;Закрыть окно санкций;X
+embargo_des_off_desc; ;X
+embargo_eng_title;Санкции против России;X
+embargo_eng_desc; ;X
+embargo_eng_2_title;Санкции против Франции;X
+embargo_eng_2_desc; ;X
+embargo_eng_3_title;Санкции против Германии;X
+embargo_eng_3_desc; ;X
+embargo_eng_4_title;Санкции против Австрии;X
+embargo_eng_4_desc; ;X
+embargo_eng_5_title;Санкции против Италии;X
+embargo_eng_5_desc; ;X
+embargo_eng_6_title;Санкции против США;X
+embargo_eng_6_desc; ;X
+embargo_eng_7_title;Санкции против Испании;X
+embargo_eng_7_desc; ;X
+embargo_eng_8_title;Санкции против Турции;X
+embargo_eng_8_desc; ;X
+embargo_eng_9_title;Санкции против Скандинавии;X
+embargo_eng_9_desc; ;X
+embargo_eng_10_title;Санкции против СГС;X
+embargo_eng_10_desc; ;X
+embargo_eng_11_title;Санкции против Австро-Венгрии;X
+embargo_eng_11_desc; ;X
+embargo_eng_12_title;Санкции против Дунайской Федерации;X
+embargo_eng_12_desc; ;X
+embargo_eng_13_title;Санкции против Пруссии;X
+embargo_eng_13_desc; ;X
+embargo_eng;Английские санкции;X
+embargo_fra_des_on_title;Открыть окно санкций;X
+embargo_fra_des_on_desc; ;X
+embargo_fra_des_off_title;Закрыть окно санкций;X
+embargo_fra_des_off_desc; ;X
+embargo_fra_title;Санкции против России;X
+embargo_fra_desc; ;X
+embargo_fra_2_title;Санкции против Великобритании;X
+embargo_fra_2_desc; ;X
+embargo_fra_3_title;Санкции против Германии;X
+embargo_fra_3_desc; ;X
+embargo_fra_4_title;Санкции против Австрии;X
+embargo_fra_4_desc; ;X
+embargo_fra_5_title;Санкции против Италии;X
+embargo_fra_5_desc; ;X
+embargo_fra_6_title;Санкции против США;X
+embargo_fra_6_desc; ;X
+embargo_fra_7_title;Санкции против Испании;X
+embargo_fra_7_desc; ;X
+embargo_fra_8_title;Санкции против Турции;X
+embargo_fra_8_desc; ;X
+embargo_fra_9_title;Санкции против Скандинавии;X
+embargo_fra_9_desc; ;X
+embargo_fra_10_title;Санкции против СГС;X
+embargo_fra_10_desc; ;X
+embargo_fra_11_title;Санкции против Австро-Венгрии;X
+embargo_fra_11_desc; ;X
+embargo_fra_12_title;Санкции против Дунайской Федерации;X
+embargo_fra_12_desc; ;X
+embargo_fra_13_title;Санкции против Пруссии;X
+embargo_fra_13_desc; ;X
+embargo_fra;Французские санкции;X
+embargo_pru_des_on_title;Открыть окно санкций;X
+embargo_pru_des_on_desc; ;X
+embargo_pru_des_off_title;Закрыть окно санкций;X
+embargo_pru_des_off_desc; ;X
+embargo_pru_title;Санкции против России;X
+embargo_pru_desc; ;X
+embargo_pru_2_title;Санкции против Франции;X
+embargo_pru_2_desc; ;X
+embargo_pru_3_title;Санкции против Австрии;X
+embargo_pru_3_desc; ;X
+embargo_pru_4_title;Санкции против Великобритании;X
+embargo_pru_4_desc; ;X
+embargo_pru_5_title;Санкции против Италии;X
+embargo_pru_5_desc; ;X
+embargo_pru_6_title;Санкции против США;X
+embargo_pru_6_desc; ;X
+embargo_pru_7_title;Санкции против Испании;X
+embargo_pru_7_desc; ;X
+embargo_pru_8_title;Санкции против Турции;X
+embargo_pru_8_desc; ;X
+embargo_pru_9_title;Санкции против Скандинавии;X
+embargo_pru_9_desc; ;X
+embargo_pru_10_title;Санкции против Австро-Венгрии;X
+embargo_pru_10_desc; ;X
+embargo_pru_13_title;Санкции против Дунайской Федерации;X
+embargo_pru_13_desc; ;X
+embargo_pru;Немецкие санкции;X
+embargo_ngf_des_on_title;Открыть окно санкций;X
+embargo_ngf_des_on_desc; ;X
+embargo_ngf_des_off_title;Закрыть окно санкций;X
+embargo_ngf_des_off_desc; ;X
+embargo_ngf_title;Санкции против России;X
+embargo_ngf_desc; ;X
+embargo_ngf_2_title;Санкции против Франции;X
+embargo_ngf_2_desc; ;X
+embargo_ngf_3_title;Санкции против Австрии;X
+embargo_ngf_3_desc; ;X
+embargo_ngf_4_title;Санкции против Великобритании;X
+embargo_ngf_4_desc; ;X
+embargo_ngf_5_title;Санкции против Италии;X
+embargo_ngf_5_desc; ;X
+embargo_ngf_6_title;Санкции против США;X
+embargo_ngf_6_desc; ;X
+embargo_ngf_7_title;Санкции против Испании;X
+embargo_ngf_7_desc; ;X
+embargo_ngf_8_title;Санкции против Турции;X
+embargo_ngf_8_desc; ;X
+embargo_ngf_9_title;Санкции против Скандинавии;X
+embargo_ngf_9_desc; ;X
+embargo_ngf_10_title;Санкции против Австро-Венгрии;X
+embargo_ngf_10_desc; ;X
+embargo_ngf_13_title;Санкции против Дунайской Федерации;X
+embargo_ngf_13_desc; ;X
+embargo_ger_des_on_title;Открыть окно санкций;X
+embargo_ger_des_on_desc; ;X
+embargo_ger_des_off_title;Закрыть окно санкций;X
+embargo_ger_des_off_desc; ;X
+embargo_ger_title;Санкции против России;X
+embargo_ger_desc; ;X
+embargo_ger_2_title;Санкции против Франции;X
+embargo_ger_2_desc; ;X
+embargo_ger_3_title;Санкции против Австрии;X
+embargo_ger_3_desc; ;X
+embargo_ger_4_title;Санкции против Великобритании;X
+embargo_ger_4_desc; ;X
+embargo_ger_5_title;Санкции против Италии;X
+embargo_ger_5_desc; ;X
+embargo_ger_6_title;Санкции против США;X
+embargo_ger_6_desc; ;X
+embargo_ger_7_title;Санкции против Испании;X
+embargo_ger_7_desc; ;X
+embargo_ger_8_title;Санкции против Турции;X
+embargo_ger_8_desc; ;X
+embargo_ger_9_title;Санкции против Скандинавии;X
+embargo_ger_9_desc; ;X
+embargo_ger_10_title;Санкции против Австро-Венгрии;X
+embargo_ger_10_desc; ;X
+embargo_ger_13_title;Санкции против Дунайской Федерации;X
+embargo_ger_13_desc; ;X
+embargo_ita_des_on_title;Открыть окно санкций;X
+embargo_ita_des_on_desc; ;X
+embargo_ita_des_off_title;Закрыть окно санкций;X
+embargo_ita_des_off_desc; ;X
+embargo_ita_title;Санкции против России;X
+embargo_ita_desc; ;X
+embargo_ita_2_title;Санкции против Великобритании;X
+embargo_ita_2_desc; ;X
+embargo_ita_3_title;Санкции против Германии;X
+embargo_ita_3_desc; ;X
+embargo_ita_4_title;Санкции против Австрии;X
+embargo_ita_4_desc; ;X
+embargo_ita_5_title;Санкции против Франции;X
+embargo_ita_5_desc; ;X
+embargo_ita_6_title;Санкции против США;X
+embargo_ita_6_desc; ;X
+embargo_ita_7_title;Санкции против Испании;X
+embargo_ita_7_desc; ;X
+embargo_ita_8_title;Санкции против Турции;X
+embargo_ita_8_desc; ;X
+embargo_ita_9_title;Санкции против Скандинавии;X
+embargo_ita_9_desc; ;X
+embargo_ita_10_title;Санкции против СГС;X
+embargo_ita_10_desc; ;X
+embargo_ita_11_title;Санкции против Австро-Венгрии;X
+embargo_ita_11_desc; ;X
+embargo_ita_12_title;Санкции против Дунайской Федерации;X
+embargo_ita_12_desc; ;X
+embargo_ita_13_title;Санкции против Пруссии;X
+embargo_ita_13_desc; ;X
+embargo_ita;Итальянские санкции;X
+embargo_rus_des_on_title;Открыть окно санкций;X
+embargo_rus_des_on_desc; ;X
+embargo_rus_des_off_title;Закрыть окно санкций;X
+embargo_rus_des_off_desc; ;X
+embargo_rus_2_title;Санкции против Великобритании;X
+embargo_rus_2_desc; ;X
+embargo_rus_3_title;Санкции против Германии;X
+embargo_rus_3_desc; ;X
+embargo_rus_4_title;Санкции против Австрии;X
+embargo_rus_4_desc; ;X
+embargo_rus_5_title;Санкции против Франции;X
+embargo_rus_5_desc; ;X
+embargo_rus_6_title;Санкции против США;X
+embargo_rus_6_desc; ;X
+embargo_rus_7_title;Санкции против Испании;X
+embargo_rus_7_desc; ;X
+embargo_rus_8_title;Санкции против Турции;X
+embargo_rus_8_desc; ;X
+embargo_rus_9_title;Санкции против Скандинавии;X
+embargo_rus_9_desc; ;X
+embargo_rus_10_title;Санкции против СГС;X
+embargo_rus_10_desc; ;X
+embargo_rus_11_title;Санкции против Австро-Венгрии;X
+embargo_rus_11_desc; ;X
+embargo_rus_12_title;Санкции против Дунайской Федерации;X
+embargo_rus_12_desc; ;X
+embargo_rus_13_title;Санкции против Пруссии;X
+embargo_rus_13_desc; ;X
+embargo_rus;Российские санкции;X
+embargo_usa_des_on_title;Открыть окно санкций;X
+embargo_usa_des_on_desc; ;X
+embargo_usa_des_off_title;Закрыть окно санкций;X
+embargo_usa_des_off_desc; ;X
+embargo_usa_title;Санкции против России;X
+embargo_usa_desc; ;X
+embargo_usa_2_title;Санкции против Великобритании;X
+embargo_usa_2_desc; ;X
+embargo_usa_3_title;Санкции против Германии;X
+embargo_usa_3_desc; ;X
+embargo_usa_4_title;Санкции против Австрии;X
+embargo_usa_4_desc; ;X
+embargo_usa_5_title;Санкции против Франции;X
+embargo_usa_5_desc; ;X
+embargo_usa_7_title;Санкции против Испании;X
+embargo_usa_7_desc; ;X
+embargo_usa_8_title;Санкции против Турции;X
+embargo_usa_8_desc; ;X
+embargo_usa_9_title;Санкции против Скандинавии;X
+embargo_usa_9_desc; ;X
+embargo_usa_10_title;Санкции против СГС;X
+embargo_usa_10_desc; ;X
+embargo_usa_11_title;Санкции против Австро-Венгрии;X
+embargo_usa_11_desc; ;X
+embargo_usa_12_title;Санкции против Дунайской Федерации;X
+embargo_usa_12_desc; ;X
+embargo_usa_13_title;Санкции против Пруссии;X
+embargo_usa_13_desc; ;X
+embargo_usa;Американские санкции;X
+holy_throne_title;Святой Престол;X
+holy_throne_desc;Мы можем подписать три документа, которые составят наше соглашение со Святым Престолом. Италия признает суверенитет Папского престола над Ватиканом  — восстановленным Церковным государством площадью в полтора квадратных километра. Ватикан и Италия взаимно обмениваются послами. Конкордат в 44 статьях также будет регламентировать отношения между государством и Церковью в Италии: обеспечивать полную свободу Церкви и объявит католическую религию государственной религией. Святой престол будет иметь право устанавливать отношения с духовенством и со всем католическим миром. Представители церкви освободятся от военной службы. Назначение епископов — прерогатива Святого престола (при отсутствии со стороны государства политических возражений).Церковное имущество освободится от налогов.;X
+vatikan;Ватикан;X
+recognition_of_the_slavs_title;Реформирование империи;X
+recognition_of_the_slavs_desc;Наша империя находится на грани распада, а былое величие уже давно осталось лишь в книгах по истории. Мы можем реформировать систему нашей империи, даровав права полпоправных граждан многочисленным народам балканских славян, которые составляют основной очаг нарастающего брожения внутри государства.;X
+king_cott;Хлопковый голод;X
+integration_of_kazakhstan_title;Интеграция Казахстана;X
+integration_of_kazakhstan_desc;Чтобы обезопасить нашу южнуюу границу, мы можем приравнять казахов к одной из титульной нации. Это даст нам надежный форпост в Средней Азии, а уже оттуда мы сможем продолжить наше расширение на Юг прямо в Индию.;X
+military_advisers_des_on_title;Предоставление военных советников дружественным странам;X
+military_advisers_des_on_desc; ;X
+military_advisers_des_off_title;Закрыть окно;X
+military_advisers_des_off_desc; ;X
+advisers_sca_title;Направить военного советника в Скандинавию;X
+advisers_sca_desc; ;X
+advisers_tur_title;Направить военного советника в Турцию;X
+advisers_tur_desc; ;X
+advisers_spa_title;Направить военного советника в Испанию;X
+advisers_spa_desc; ;X
+advisers_ita_title;Направить военного советника в Италию;X
+advisers_ita_desc; ;X
+advisers_aus_title;Направить военного советника в Австрию;X
+advisers_aus_desc; ;X
+advisers_kuk_title;Направить военного советника в Австро-Венгрию;X
+advisers_kuk_desc; ;X
+advisers_dnf_title;Направить военного советника в Австро-Венгрию;X
+advisers_dnf_desc; ;X
+advisers_jap_title;Направить военного советника в Японию;X
+advisers_jap_desc; ;X
+german_advisers;Немецкие военные советники;X
+EVTNAME100020;Франкфуртский парламент;X
+EVTDESC100020;В ходе длительных дебатов Собрание разработало проект так называемой Конституции Паульскирхе, построенной на принципах парламентской демократии, и приняло его 18 марта 1849 года. Конституция отвечала основным требованиям, выдвигавшимся либеральными и националистическими общественными силами в домартовский период, которые с 1815 года находились в оппозиции к системе реставрации, отстаиваемой Меттернихом. В частности она предусматривала целый перечень основных конституционных прав и свобод, а также учреждение конституционной монархии во главе с наследным кайзером. Национальное собрание во Франкфурте и разработанная им конституция потерпели провал, столкнувшись с отказом короля Пруссии Фридриха Вильгельма IV от предложенного ему титула кайзера. Неуспех революции уничтожил всякое практическое значение Франкфуртского парламента и его дела, но он остался на многие годы в народной памяти, как наиболее яркое выражение желаний народа, поддерживавшее веру в возможность демократического объединения.;X
+EVTOPTA100020;Я не приму корону из рук революционеров!;X
+EVTOPTB100020;Создадим Малую Германию!;X
+japanese_tech_school;Японская императорская школа;X
+japanese_navy_title;Японский императорский флот;X
+japanese_navy_desc;Чтобы обеспечить надежную защиту нашей стране, а также нашим будущим завоеваниям в азии, нам необходим сильный флот, который смог бы составить конкуренцию британскому. Мы отправим любого европейца на дно, кто осмелится сунуться в Азию!;X
+japanese_fleet;Японский флот;X
+japanese_factory_title;Дзайбацу;X
+japanese_factory_desc;Дзайбацу - крупные финансовые семьи, которые контролируют банковские и индустриальные объединения. Четыре главных Дзайбацу начали свою историю еще в эпоху Эдо. Эти монополисты под руководством государства непременно повысят промышленные мощности Японской империи.;X
+japanese_boom;Дзайбацу;X
+jpns_empire_title;Провозглашение Японской империи;X
+jpns_empire_desc;После завоевания Кореи в высших кругах управления страны зародилась идея создания колониальной империи, которая бы соответствовала статусу государства в дальнейшем. Провозгласив империю, нам непременно придется наращивать военный и экономический потенциалы страны, и нам не обойтись без активных завоевательных войн.;X
+japanese_powerr_title;Император Азии;X
+japanese_powerr_desc;Японцы - исключительная нация, нам предначертано судьбой править Азией. Никому из наших соседей эта роль не под силу, но только мы можем ее исполнить!;X
+japanese_power;Страна Восходящего Солнца;X
+japan_rename_artur_title;Переименовать Порт-Артур;X
+japan_rename_artur_desc; ;X
+italian_fleet_title;Возрождение итальянского флота;X
+italian_fleet_desc;Наша страна - это один большой полуостров, а поэтому мы просто обязаны иметь сильный флот. Иначе мы не имеем право чувствовать свою страну защищенной.;X
+italian_fleet;Итальянский флот;X
+nv_scandinav;Северный лев;X
+EVTNAME100033;Британский Раджа;X
+EVTDESC100033; ;X
+EVTOPTA100033;Ееее боййй;X
+ind_boost;Буст Индии;X
+annex_texas_title;Аннексия Техаса;X
+annex_texas_desc; ;X
+restore_empire_title;Возвращение в Южную Америку;X
+restore_empire_desc;Еще совсем недавно у нас были обширные колониальные владения на американском континенте, но их удержание оказалось нам не по силам, и империя развалилась. Но теперь, когда мы более менее встали на ноги, можем снова попытать наши силы, чтобы восстановить испанское влияние на этом континенте.;X
+restore_empire_2_title;Возрождение Испанской империи;X
+restore_empire_2_desc;Мы подчинили себе бывшие иперские колонии, настало время возродить нашу силу!;X
+recognition_of_the_rus_poles_title;Интеграция поляков;X
+recognition_of_the_rus_poles_desc;Польское население занимает немалую долю среди населения нашей империи. Чтобы укрепить и обезопасить наши Западные границы, мы может интегрировать поляков в наше общество, даровав им полные правы. Надеемся, что союз с этим народом принесет нам в дальнейшем хорошую пользу.;X
+recognition_of_the_czech_title;Генерал-губернаторство Богемия-Моравия;X
+recognition_of_the_czech_desc;Чехия - богатый регион, но не только своими природными ресурсами. Местное население обладает качествами, которые несомненно принесут пользу нашему государству. После долгих лет угнетений от австрийцев чехи смогут вздохнуть свободно. Вместе наши народы достигнут небывалых успехов!;X
+german_empire1_title;Забытая обида;X
+german_empire1_desc;Немцы сильны и едины как никогда раньше, а это значит, что пришло время напомнить французам о нашем существовании. Они долгое время чувствовали себя хозяевами Западной Европы, но это время пришло. Мы должны вернуть некогда утраченные земли.;X
+recognition_holland_title;Рейхскомиссариат Нидерланды;X
+recognition_holland_desc; ;X
+integration_irish_title;Примирение с ирландцами;X
+integration_irish_desc;Мы уже долгое время сосуществуем с ирландцами в рамках одного государства, но все эти годы между нами сохранялись напряженные отношения. Мы нанесли им сильное оскорбление, поставив в границы прав второсортных людей. Пожалуй, пришло время даровать им равные права. Сделаем первый шаг к примирению.;X
+bosfor_rus_title;Открытие Босфорского пролива;X
+bosfor_rus_desc;Наконец-то мы захватили Босфор. Турки многие годы закрывали проход нашим торговым судам, что негативно сказывалось на нашей торговле. Но теперь, когда порт Стамбула находится в наших руках, наши корабли смогут спокойно проплывать через него.;X
+bosfor_econ_title;Закрытие Босфора;X
+bosfor_econ_desc;Россия уже давно положила глаз на Босфорский пролив. Россия - один из главных наших врагов, и нам стоит использовать свое преимущество в виде пролива. Мы можем запретить проход русским судам через Босфор, что нанесет удар по их торговле.;X
+bosfor_econ1_title;Открытие Босфора;X
+bosfor_econ1_desc; ;X
+bosfor_is_locked;Босфор закрыт;X
+gibraltar_spa_title;Закрытие Гибралтара;X
+gibraltar_spa_desc;Мы можем запретить британским торговым судам проплывать через наш пролив.;X
+gibraltar_is_locked;Гибралтар закрыт;X
+gibraltar_spa1_title;Открытие Гибралтара;X
+gibraltar_spa1_desc; ;X
+gibraltar_eng_title;Восстановить контроль над Гибралтаром;X
+gibraltar_eng_desc;Испанцы наложили запрет на наши торговые корабли, но теперь, когда пролив в наших руках, мы можем возобновить торговлю.;X
+international_2_title;Второй Интернационал;X
+international_2_desc;Мы можем отправить представителей от нашей страны, чтобы посетить следующий конгресс.;X
+bolsheviks_title;Создание большевистской партии;X
+bolsheviks_desc;Большевизм - революционное марксистское течение политической мысли и политическое движение, связанное с формированием жёстко централизованной, сплочённой и дисциплинированной партии социальной революции, ориентированной на свержение существующего государственного строя, захват власти и установление диктатуры пролетариата.;X
+say_no_to_racism_title;Интеграция черных;X
+say_no_to_racism_desc; ;X
+annex_mexico_title;Подчинение Мексики;X
+annex_mexico_desc; ;X
+american_navy_title;Доктрина военно-морского господства;X
+american_navy_desc;Идеи Мэхэна указывали на важность военно-морского флота в мировой истории, как на основное орудие в борьбе за мировое господство. Учитывая наше географическое положение, мы просто обязаны создать сильнейший флот, который не пропустит ни единого вражеского солдата к нашим берегам. С сильным флотом мы сможем диктовать свои условия европейским державам.;X
+american_fleet;Доктрина Мэхэна;X
+move_capital_to_ankara_title;Перенос столицы;X
+move_capital_to_ankara_desc;Стамбул - великий город, но он очень уязвим. В любой войне мы рискуем потерять его при первой же вражеской высадке. Необходимо перенести столицу вглубь страны, устранив тем самым наше слабое место.;X
+advisers_ish_title;Отправить советников в Халифат;X
+advisers_ish_desc; ;X
+scientists_des_on_title;Отправить ученых специалистов в зарубежные страны;X
+scientists_des_on_desc; ;X
+scientists_des_off_title;Закрыть окно;X
+scientists_des_off_desc; ;X
+scientists_rus_title;Отправить в Россию;X
+scientists_rus_desc; ;X
+scientists_ish_title;Отправить в Халифат;X
+scientists_ish_desc; ;X
+scientists_tur_title;Отправить в Турцию;X
+scientists_tur_desc; ;X
+scientists_spa_title;Отправить в Испанию;X
+scientists_spa_desc; ;X
+scientists_ita_title;Отправить в Италию;X
+scientists_ita_desc; ;X
+scientists_aus_title;Отправить в Австрию;X
+scientists_aus_desc; ;X
+scientists_kuk_title;Отправить в Австро-Венгрию;X
+scientists_kuk_desc; ;X
+scientists_dnf_title;Отправить в Дунайскую Федерацию;X
+scientists_dnf_desc; ;X
+scientists_jap_title;Отправить в Японию;X
+scientists_jap_desc; ;X
+scientists_jpe_title;Отправить в Японию;X
+scientists_jpe_desc; ;X
+french_scientists;Французские ученые;X
+build_the_bigben_title;Строительство Биг-Бена;X
+build_the_bigben_desc; ;X 
+the_bigben;Биг-Бен;X
+recognition_of_the_ger_poles_title;Интеграция польского населения;X
+recognition_of_the_ger_poles_desc; ;X
+annex_korea_title;Вторжение в Корею;X
+annex_korea_desc;Корея станет нашим плацдармом для будущих завоеваний в Азии!;X
+port_arthur_lease_title;Приобретение Порт-Артура;X
+port_arthur_lease_desc; ;X
+restore_empire_2_title;Выдвинуть претензии на Южную Америку;X
+restore_empire_2_desc;Северная часть Южной Америки должна принадлежать нам!;X
+metternich_age_title;Эпоха Меттерниха;X
+metternich_age_desc;Австрийский дипломат из рода Меттернихов, министр иностранных дел в 1809—1848 годах, главный организатор Венского конгресса 1815 года. Руководил политическим переустройством Европы после Наполеоновских войн. Известен своими крайне консервативными взглядами. Носил титулы имперского князя (фюрста) и герцога Порталла.;X
+metternich_things;Эпоха Меттерниха;X
+balkans_123_title;Возвращение на Балканы;X
+balkans_123_desc; Балканы - наш первый шаг на пути к восстановлению былого могущества нашего народа.;X
+australian_tech_school;Британский доминион;X
+canadian_tech_school;Британский доминион;X
+indian_tech_school;Британский Радж;X
+belgium_tech_school;Школа нейтралитета;X
+serbian_tech_school;Сербская школа;X
+tunis_shit_title;Возвращение Туниса;X
+tunis_shit_desc; ;X
+tunis_comeback_title;Развитие Туниса;X
+tunis_comeback_desc;Мы вернули регион, где когда-то стоял один из величайших древних городов. Мы можем приложить усилия, что бы вернуть этому региону хотя бы часть того блеска, которым он обладал.;X
+rio_de_fuck_title;Статуя Христа Спасителя;X
+rio_de_fuck_desc; ;X
+jesus;Статуя Христа Спасителя;X
+italianempire_tech_school;Римская школа;X
+ITE;Итальянская империя;X
+ITE_ADJ;Итальянск.;X
+nv_italian_empire;Новый Рим;X
+new_rome_title;Новый Рим;X
+new_rome_desc;Пришло время вернуться к нашим корням, наполнив сосуды нашей страны силой предков.;X
+stambul_fdr_title;Османизация Константинополя;X
+stambul_fdr_desc; ;X
+usa_economic_boost_title;Американский капитализм;X
+usa_economic_boost_desc; ;X
+american_capitalism;Американский капитализм;X
+american_banks_title;Убедить конгресс в необходимости экономической поддержки;X
+american_banks_desc;Наша банковская система - артерия американского капитализма, которая вполне может поддержать государственные нужды своими инвестициями.;X
+americanbanks;Государственная экономическая поддержка;X
+annex_manj_title;Префектура Маньчжурия;X
+annex_manj_desc; ;X
+annex_manj_rus_title;Желтороссия;X
+annex_manj_rus_desc; ;X
+annex_cuba_title;Вторжение в Кубу;X
+annex_cuba_desc; ;X
+annex_canada_title;Предъявить претензии на Канаду;X
+annex_canada_desc;Военный потенциал нашей страны растет и близится час, когда мы сможем окончательно прогнать англичан из Северной Америки. А сейчас нам нужно заявить всему миру, что именно мы единолично должны управлять этим регионом!;X
+annex_liberia_title;Плацдарм в Африке;X
+annex_liberia_desc;По замыслу энтузиастов Либерия должна была стать местом, куда мы могли бы ссылать негров, которых стало довольно много в нашей стране, но теперь этот регион можно использовать более полезным образом. Либерия может стать нашим плацдармом для дальнейшей колонизации Африки, если мы возьмем на себя смелость бросить вызов европейским державам.;X
+american_imperialism1_title;Американский империализм;X
+american_imperialism1_desc;Пока Европа уничтожает свой потенциал собственными руками, мы, находясь далеко за океаном, превращаемся в одну из сильнейших держав мира. Мы должны наращивать свой военный потенциал как можно скорее, если хотим успеть урвать свой кусок.;X
+amrc_imprls;Американский империализм;X
+napoleon_fra1_title;Имперское наследие;X
+napoleon_fra1_desc;В лучшие времена Северная Италия принадлежала французам. Теперь, потеряв контроль над Эльзасом и отказавшись от борьбы с немцами, мы можем напомнить итальянцам о былых временах, восстановив контроль над Италией.;X
+destroy_gb_title;Бросить вызов Великобритании;X
+destroy_gb_desc;Величие Британии держится на ее кораблях, если мы построим флот, который сможет оспорить их господство, то у нас будет возможность положить конец доминированию англичан на море, а это значит что ее колонии останутся без защиты.;X
+french_fleet;Французский флот;X
+fra_egypt_title;Снова в Египет!;X
+fra_egypt_desc;Синай - ключ к британской Индии. Это стратегически важный регион для Британии, контролируя который она может не беспокоиться за свои колонии в Азии, но если мы его подчиним нашему контролю, то ее богатейшие владения окажутся под угрозой. Нам необходим этот плацдарм, если мы хотим поставить нашего давнего врага на колени.;X
+suez_is_lockedfra_title;Закрыть Суэцкий канал для британских торговых судов;X
+suez_is_lockedfra_desc; ;X
+suez_is_lockedfra1_title;Открыть Суэцкий канал;X
+suez_is_lockedfra1_desc; ;X
+suez_canal_built;Суэцкий канал построен;X
+suez_is_locked;Суэцкий канал закрыт;X
+suez_eng_title;Открыть Суэц;X
+suez_eng_desc; ;X
+aus_swiz_title;Установить контроль над Швейцарией;X
+aus_swiz_desc;В Швейцарии довольно много людей, входящих в нашу языковую группу, это можно использовать как повод для вторжения.;X
+persian_tech_school;Персидская школа;X
+russian_asia_title;Русская Азия;X
+russian_asia_desc;Установив контроль над Средней Азией, мы можем создать отличный плацдарм для вторжения в Индию, а также получить прибыльный рынок для нашей торговли.;X
+nv_ruspersianval;Российская государственность;X
+russian_integration_title;Интеграция российской государственности в Средней Азии;X
+russian_integration_desc;Мы установили контроль над двумя важнейшими государствами в Средней Азии и теперь пришло время перенять им нашу культуру.;X
+english_embargo_asia_title;Запретить ввоз английских товаров на территорию Ирана;X
+english_embargo_asia_desc;Подчинив себе Иран с Афганистаном, мы установили за собой статус торгового монополиста в этом регионе, но английские конкуренты постоянно сбивают цены на наши товары своей конкуренцией, однако теперь в наших силах запретить ввоз английской продукции на территорию Средней Азии.;X
+russian_mdasia;Русские закрыли для нас рынок в Средней Азии!;X
+english_embargo_asia1_title;Разрешить ввоз английских товаров;X
+english_embargo_asia1_desc; ;X
+indian_war_title;Индийская мечта;X
+indian_war_desc;Захватив плацдарм в виде Средней Азии, мы обеспечили себе надежный тыл для начала индийской кампании. Пора снять с Британии ее корону!;X
+russian_invt;Русская интервенция;X
+russian_iran_title;Включить Иран в Российскую империю;X
+russian_iran_desc; ;X
+british_asia_title;Британская Азия;X
+british_asia_desc;Победив в борьбе за Иран и Афганистан, мы можем позволить себе установить марионеточный режим в этих странах, что ударит по влиянию России в регионе.;X
+british_integration_title;Британская государственность;X
+british_integration_desc;Мы можем насильственно внедрить в Средней Азии европейскую культуру, что значительно увеличит шансы наших марионеток на выживание и в итоге принесет нам не мало пользы.;X
+nv_engpersianval;Британская государственность;X
+eng_invt;Британская интервенция;X
+russian_embargo_asia_title;Запретить ввоз российских товаров на территорию Средней Азии;X
+russian_embargo_asia_desc;Установив полный контроль на важнейшими регионами, мы можем перекрыть торговую артерию России, став при этом монополистом в Азии, но это может значительно ухудшить наши отношения, стоит ли нам это делать?;X
+eng_mdasia;Англичане закрыли для нас рынок в Средней Азии!;X
+russian_embargo_asia1_title;Снять запрет на ввоз российских товаров;X
+russian_embargo_asia1; ;X
+factory_boom;I уровень промышленного подъема;X
+factory_boom_2;II уровень промышленного подъема;X
+factory_boom_3;III уровень промышленного подъема;X
+factory_boom_4;IV уровень промышленного подъема;X
+factory_boom_5;V уровень промышленного подъема;X
+factory_boom_6;VI уровень промышленного подъема;X
+promotion_of_science;Поддержка науки I уровень;X
+promotion_of_science_2;Поддержка науки II уровень;X
+promotion_of_science_3;Поддержка науки III уровень;X
+promotion_of_science_4;Поддержка науки IV уровень;X
+promotion_of_science_5;Поддержка науки V уровень;X
+child_labour;Детский труд;X
+labour_yes;Разрешен;X
+labour_no;Запрещен;X
+labour_yes_desc;Дети работают на фабриках и шахтах.;X
+labour_no_desc;Запретить тяжелый труд для детей.;X
+golden_law_title;Золотой закон;X
+golden_law_desc;«Золотой закон» от 13 мая 1888 года или «Золотая булла» окончательно отменил рабство в Бразилии. «День мулата», 13 мая — памятный день бразильского календаря. Закон содержит всего два пункта: Рабство в Бразилии отменяется.Любые положения права, противоречащие первому пункту, отменяются.;X
+brz_education;Закон 1420;X
+immigrta_laww;Закон об иммиграции;X
+immirg_law_title;Закон об иммиграции;X
+immirg_law_desc;Нам сильно не хватает рабочих рук, которые смогли бы успешно провести индустриализацию и помочь нам занять свое место в гонке среди других держав. Нам необходимо принять закон, который откроет двери в нашу страну для будущего процветания.;X
+brazilian_tech_school;Бразильская технологическая школа;X
+centrl_amr_is_our_title;Подчинение Центральной Америки;X
+centrl_amr_is_our_desc;Центральная Америка выступает буфером между нами и нашим Северным соседом, но также она представляется собой отличный щит для нашего канала, что значительно затруднит продвижение американских войск в случае войны. Пора забрать этот регион, пока янки нас не опередили.;X
+spanish_america_title;Испанская Северная Америка;X
+spanish_america_desc;Пришло время напомнить янки о том, что Флорида была когда-то нашей колонией.;X
+british_new_eng_title;Британская Новая Англия;X
+british_new_eng_desc;Всех американских колоний нам уже не вернуть, но мы можем попытаться забрать пограничные земли, дабы напомнить Штатам, где их место.;X
+japanese_usa_title;Японские Штаты;X
+japanese_usa_desc;Японская империя находится в постоянном поиске ресурсов и жизненного пространства. Западное побережье в Северной Америке отлично подходит для достижения этой цели.;X
+rus_serbia_title;Братская защита;X
+rus_serbia_desc;Сербский народ нуждается в нашей помощи против австрийского хищника, который давно желает захватить контроль над всеми славянскими народами на балканах. Мы не можем позволить пасть последнему оплоту нашего влияния в этом регионе!;X
+russian_serb;Российская поддержка;X
+nv_serbian_liberty;Сербская свобода;X
+switzerland_tech_school;Швейцарская школа;X
+egypt_tech_school;Британский доминион;X
+eng_egyp;Британское влияние в Египте;X
+eng_egypt_title;Покорение Египта;X
+eng_egypt_desc;Египет представляет для нас важное стратегическое значение. В целях безопасности наших владений в Африке и Азии мы можем установить в этом регионе марионеточный режим, чтобы создать крепкий заслон для наших врагов.;X
+china_tr_des_on_title;Приобретение китайского порта;X
+china_tr_des_on_desc;Пришло время открыть китайский рынок для наших товаров!;X
+china_tr_des_off_title;Закрыть окно;X
+china_tr_des_off_desc; ;X
+kongn1_title;Покупка Гонконга;X
+kongn1_desc; ;X
+makaon1_title;Покупка Макао;X
+makaon1_desc; ;X
+shaosin1_title;Покупка Шаосина;X
+shaosin1_desc; ;X
+jiaxing1_title;Покупка Цзясина;X
+jiaxing1_desc; ;X
+shanghai1_title;Покупка Шанхая;X
+shanghai1_desc; ;X
+cindao1_title;Покупка Циндао;X
+cindao1_desc; ;X
+way1_title;Покупка Вэй;X
+way1_desc; ;X
+south_chi_des_on_title;Южный регион Китая;X
+south_chi_des_on_desc; ;X
+south_chi_des_off_title;Закрыть окно;X
+south_chi_des_off_desc; ;X
+guandun_title;Приобретение Гуандуна;X
+guandun_desc; ;X
+guancy_title;Приобретение Гуанси;X
+guancy_desc; ;X
+chajou_title;Приобретение Чажоу;X
+chajou_desc; ;X
+guanchjou_title;Приобретение Гуанчжоу;X
+guanchjou_desc; ;X
+cxincy_title;Приобретение Цзянси;X
+cxincy_desc; ;X
+hunan_title;Приобретение Хунань;X
+hunan_desc; ;X
+fuzan_title;Приобретение Фуцзан;X
+fuzan_desc; ;X
+north_fuzan_title;Приобретение Северного Фуцзан;X
+north_fuzan_desc; ;X
+north_cxincy_title;Приобретение Северного Цзянси;X
+north_cxincy_desc; ;X
+unnanj_title;Приобретение Юннань;X
+unnanj_desc; ;X
+puer_title;Приобретение Пуэр;X
+puer_desc; ;X
+sychuan_title;Приобретение Сычуань;X
+sychuan_desc; ;X
+middle_chi_des_on_title;Центральный Китай;X
+middle_chi_des_on_desc; ;X
+middle_chi_des_off_title;Закрыть окно;X
+middle_chi_des_off_desc; ;X
+ninbo_title;Приобретение Нинбо;X
+ninbo_desc; ;X
+chjezyn_title;Приобретение Чжецин;X
+chjezyn_desc; ;X
+suchjou_title;Приобретение Сучжоу;X
+suchjou_desc; ;X
+tunchjou_title;Приобретение Тунчжоу;X
+tunchjou_desc; ;X
+nankin_title;Приобретение Нанкин;X
+nankin_desc; ;X
+czyansu_title;Приобретение Цзянсу;X
+czyansu_desc; ;X
+north_anjhoy_title;Приобретение Северный Аньхой;X
+north_anjhoy_desc; ;X
+east_hubei_title;Приобретение Восточный Хубэй;X
+east_hubei_desc; ;X
+henan_title;Приобретение Хэнань;X
+henan_desc; ;X
+west_hubei_title;Приобретение Западный Хубэй;X
+west_hubei_desc; ;X
+chuncyn_title;Приобретение Чунсин;X
+chuncyn_desc; ;X
+north_chi_des_on_title;Северный Китай;X
+north_chi_des_on_desc; ;X
+north_chi_des_off_title;Закрыть окно;X
+north_chi_des_off_desc; ;X
+shandun_title;Приобретение Шандун;X
+shandun_desc; ;X
+south_chjily_title;Приобретение Южный Чжили;X
+south_chjily_desc; ;X
+czinyan13_title;Приобретение Цзинян;X
+czinyan13_desc; ;X
+wayhuay_title;Приобретение Вэй-Ху-Эй;X
+wayhuay_desc; ;X
+nyncya_title;Приобретение Нинся;X
+nyncya_desc; ;X
+shancy_title;Приобретение Шаньси;X
+shancy_desc; ;X
+pekin_title;Приобретение Пекина;X
+pekin_desc; ;X
+chjundin_title;Приобретение Чжундина;X
+chjundin_desc; ;X
+north_chjily_title;Приобретение Северного Чжили;X
+north_chjily_desc; ;X
+mongoly_title;Приобретение Внутренней Монголии;X
+mongoly_desc; ;X
+gunchan_title;Приобретение Гунчан;X
+gunchan_desc; ;X
+the_law_of_liberty_title;Закон о равноправии;X
+the_law_of_liberty_desc;Подтвердим на государственном уровне наши намерения о будущем федерации, в которой все народы будут равны.;X
+laf_law;Закон о равноправии;X
+holland_tech_school;Голландская тех.школа;X
+holland_navy_title;Улучшение кораблестроения;X
+holland_navy_desc;Если на суше нам ничто не угрожает, то мы можем бросить все силы на усиление военно-морского флота. Защитим и расширим наши заморские владения!;X
+holland_netfleet;Расширенное спонсирование военно-морских сил;X
+net_luxemburg_title;Аннексия Люксембурга;X
+net_luxemburg_desc; ;X
+holland_fleet;Модифицированные верфи;X
+mexican_tech_school;Мексиканская тех.школа;X
+mexican_general_staff;Мексиканский военный штаб;X
+mexican_army_power_title;Создать генеральный штаб;X
+mexican_army_power_desc;Чтобы противостоять нарастающей угрозе, исходящей от США, мы должны бросить все силы на усиление нашей армии, если не хотим лишиться большей части страны.;X
+to_the_future_title;Уступить Северные земли;X
+to_the_future_desc;Мы можем пойти на уступки, сдав США наши Северные земли, если у нас не хватает сил, чтобы отстоять свою независимость. Надеемся, что США примут наш поступок за жест доброй воли.;X
+mex_tex_title;Возвращение Техаса;X
+mex_tex_desc;Необходимо вернуть Техас в состав нашей страны. Мы возьмем реванш!;X
+nv_mexico;Мексиканская свобода;X
+west_coast_title;Заселение Западного побережья;X
+west_coast_desc;После получения полного контроля над Западом нашего континента нам нужно подумать и о его развитии. Сейчас большая часть населения сконцентрирована на Востоке, а нашей задачей является уравновесить распределение людей по стране, ведь мы получили не только землю, но и полезные природные ископаемые на Западе.;X
+american_west1;Привлечение людей;X
+mex_growth_boost_title;Демографические реформы;X
+mex_growth_boost_desc;Проиграв противостояние с более перспективными США, мы наконец-то можем забыть о войнах на нашем континенте, сконцентрировав все свои усилия на внутреннем развитии страны.;X
+mexican_pops_growth;Демографический взрыв;X
+american_west1;Привлечение населения;X
+indian_impr_title;Императрица Индии;X
+indian_impr_desc;Индия - богатейшая колония нашей империи, настал момент, когда именно она станет опорой будущего процветания страны. Пора окончательно ликвидировать ее автономию!;X
+vietnam_tech_school;Вьетнамская технологическая школа;X
+great_veitnam_title;Великий Вьетнам;X
+great_veitnam_desc;Пришло время установить контроль над Индокитаем! Мы должны объединить земли прежде, чем иноземные империалисты заберут у нас независимость.;X
+1std_exp_title;Первая стадия реформации;X
+1std_exp_desc;Настало время реформировать нашу страну, сократить отставание от европейских держав, чтобы защитить свои земли!;X
+1stdvietnam;Первый этап реформации;X
+2std_exp_title;Вторая стадия реформации;X
+2std_exp_desc; ;X
+2stdvietnam;Второй этап реформации;X
+3std_exp_title;Третья стадия реформации;X
+3std_exp_desc; ;X
+3stdvietnam;Финальный этап реформации;X
+4std_exp_title;Выкупить Хайнань;X
+4std_exp_desc; ;X
+5std_exp_title;Претензии на Бенгалию;X
+5std_exp_desc; ;X
+4std_exp_desc;Наша империя растет, а это значит что нам нужны новые ресурсы. Индия - богатый регион, но находится под защитой Британской короны. Сможем ли мы бросить ей вызов?;X
+great_indochine_title;Объединение Индокитая;X
+great_indochine_desc;Мы захватили достаточное количество земель, чтобы провозгласить единый Индокитай!;X
+nv_indochine;Азиатский тигр;X
+japanese_tai_title;Выкупить Формозу;X
+japanese_tai_desc; ;X
+jpnsempr_asia_title;Японская Азия;X
+jpnsempr_asia_desc;Необходимо расширить влияние в нашем регионе, если мы хотим занять место под солнцем.;X
+asia_number_one_title;Азиатская сфера процветания;X
+asia_number_one_desc;Европейские колонисты все больше расширяют свое влияние в азиатском регионе. Мы должны объединить усилия азиатских государств, чтобы противостоять надвигающейся угрозе. Прогоним империалистов!;X
+panasiatism;Паназиатизм;X
+integrbalkans_title;Первый шаг к Панславянскому государству;X
+integrbalkans_desc;Необходимо объединить славян в одну большую семью, но для этого нам придется выбить турок с Балкан.;X
+EVTNAME99980;Англия предлагает военный заказ!;X
+EVTDESC99980; ;X
+EVTOPTA99980;Принять заказ;X
+EVTOPTB99980;Отклонить заказ;X
+eng_us_boost;Английский заказ;X
+american_trade_eng;Американские военные товары;X
+eng_usa_boost_title;Отправить США военный заказ;X
+eng_usa_boost_desc; ;X
+EVTNAME99982;Франция предлагает военный заказ!;X
+EVTDESC99982; ;X
+EVTOPTA99982;Принять заказ;X
+EVTOPTB99982;Отклонить заказ;X
+fra_us_boost;Французский заказ;X
+american_trade_fra;Американские военные товары;X
+fra_usa_boost_title;Отправить США военный заказ;X
+fra_usa_boost_desc; ;X
+EVTNAME99983;Германия предлагает военный заказ!;X
+EVTDESC99983; ;X
+EVTOPTA99983;Принять заказ;X
+EVTOPTB99983;Отклонить заказ;X
+ger_us_boost;Германский заказ;X
+american_trade_ger;Американские военные товары;X
+ger_usa_boost_title;Отправить США военный заказ;X
+ger_usa_boost_desc; ;X
+EVTNAME99984;Италия предлагает военный заказ!;X
+EVTDESC99984; ;X
+EVTOPTA99984;Принять заказ;X
+EVTOPTB99984;Отклонить заказ;X
+ita_us_boost;Итальянский заказ;X
+american_trade_ita;Американские военные товары;X
+ita_usa_boost_title;Отправить США военный заказ;X
+ita_usa_boost_desc; ;X
+EVTNAME99985;Италия предлагает военный заказ!;X
+EVTDESC99985; ;X
+EVTOPTA99985;Принять заказ;X
+EVTOPTB99985;Отклонить заказ;X
+ite_us_boost;Итальянский заказ;X
+american_trade_ite;Американские военные товары;X
+ite_usa_boost_title;Отправить США военный заказ;X
+ite_usa_boost_desc; ;X
+EVTNAME99986;Австрия предлагает военный заказ!;X
+EVTDESC99986; ;X
+EVTOPTA99986;Принять заказ;X
+EVTOPTB99986;Отклонить заказ;X
+kuk_us_boost;Австрийский заказ;X
+american_trade_kuk;Американские военные товары;X
+kuk_usa_boost_title;Отправить США военный заказ;X
+kuk_usa_boost_desc; ;X
+EVTNAME99987;Австрия предлагает военный заказ!;X
+EVTDESC99987; ;X
+EVTOPTA99987;Принять заказ;X
+EVTOPTB99987;Отклонить заказ;X
+dnf_us_boost;Австрийский заказ;X
+american_trade_dnf;Американские военные товары;X
+dnf_usa_boost_title;Отправить США военный заказ;X
+dnf_usa_boost_desc; ;X
+EVTNAME99988;Испания предлагает военный заказ!;X
+EVTDESC99988; ;X
+EVTOPTA99988;Принять заказ;X
+EVTOPTB99988;Отклонить заказ;X
+spa_us_boost;Испанский заказ;X
+american_trade_spa;Американские военные товары;X
+spa_usa_boost_title;Отправить США военный заказ;X
+spa_usa_boost_desc; ;X
+EVTNAME99989;Россия предлагает военный заказ!;X
+EVTDESC99989; ;X
+EVTOPTA99989;Принять заказ;X
+EVTOPTB99989;Отклонить заказ;X
+rus_us_boost;Российский заказ;X
+american_trade_rus;Американские военные товары;X
+rus_usa_boost_title;Отправить США военный заказ;X
+rus_usa_boost_desc; ;X
+EVTNAME99990;Турция предлагает военный заказ!;X
+EVTDESC99990; ;X
+EVTOPTA99990;Принять заказ;X
+EVTOPTB99990;Отклонить заказ;X
+tur_us_boost;Турецкий заказ;X
+american_trade_tur;Американские военные товары;X
+tur_usa_boost_title;Отправить США военный заказ;X
+tur_usa_boost_desc; ;X
+EVTNAME99994;Халифат предлагает военный заказ!;X
+EVTDESC99994; ;X
+EVTOPTA99994;Принять заказ;X
+EVTOPTB99994;Отклонить заказ;X
+ish_us_boost;Турецкий заказ;X
+american_trade_ish;Американские военные товары;X
+ish_usa_boost_title;Отправить США военный заказ;X
+ish_usa_boost_desc; ;X
+EVTNAME99995;Япония предлагает военный заказ!;X
+EVTDESC99995; ;X
+EVTOPTA99995;Принять заказ;X
+EVTOPTB99995;Отклонить заказ;X
+jpe_us_boost;Японский заказ;X
+american_trade_jpe;Американские военные товары;X
+jpe_usa_boost_title;Отправить США военный заказ;X
+jpe_usa_boost_desc; ;X
+russian_glory_title;Русская доблесть;X
+russian_glory_desc;Враг пришел на нашу землю, выжигая все на своем пути. Если мы не сможем его победить и отбросить - значит мы утащим его в могилу с собой. Мобилизовать все резервы страны!;X
+rusgloryboi;Русский дух;X
+spain_econ1_title;Долгосрочный план экономического развития;X
+spain_econ1_desc;Сегодняшний век - век технологий, а мы в этом направлении очень сильно отстаем. Нужно приложить все усилия, что бы догнать ведущие страны мира по экономическим показателям.;X
+economicspain1;Промышленный переворот;X
+osmanism_tur_title;Османизм;X
+osmanism_tur_desc;Идейно-политическая доктрина Новых османов и младотурок в Турции, выдвинутая в конце 19 века. Провозглашала равенство и единство всех народов, в том числе нетурецких, населявших турецкую державу, с целью сохранения её целостности.;X
+osmanismm;Османизм;X
+panislamism_ish_title;Панисламизм;X
+panislamism_ish_desc;Религиозно-политическая идеология, в основе которой лежат представления о единстве мусульман всего мира и необходимости их политического сплочения как на международном уровне, так и внутри самих мусульманских государств.;X
+islamismm;Панисламизм;X
+european_tech_army_tur_title;Перенять европейский военный опыт;X
+european_tech_army_tur_desc; ;X
+euro_army_tech1;Европейская армия;X
+european_tech_culture_tur_title;Перенять европейскую систему образования;X
+european_tech_culture_tur_desc; ;X
+euro_culture_tech1;Европейская школа;X
+european_tech_prom_tur_title;Перенять европейский опыт индустриализации;X
+european_tech_prom_tur_desc; ;X
+euro_prom_tech1;Европейские инвестиции;X
+doctrine_tech_research_bonus;Исследования в государстве;X
+change_sov_tech_schoolll_title;Ликвидация царской системы;X
+change_sov_tech_schoolll_desc; ;X
+soviet_tech_school;Советская школа;X
+rekon_alx_sl_title;Перенесение Царскосельского лицея в Санкт-Петербург;X
+rekon_alx_sl_desc;С переездом были связаны многие преобразования, коснувшиеся всех сторон лицейской жизни, в том числе и преподавания. Новый Устав лицея, принятый в 1848 году, отражал изменения в содержании и назначении лицейского образования. Приём и выпуск воспитанников стал ежегодным (в Царскосельском лицее он происходил раз в 3 года). Были введены новые учебные дисциплины и открыты новые кафедры, соответствующие требованиям времени: сельского хозяйства, гражданской архитектуры. Позже эти кафедры были закрыты, а учебные программы лицея всё больше приближались к курсу юридического факультета Санкт-Петербургского университета. Но лицейская программа по-прежнему оставалась более обширной и разнообразной, прежде всего за счёт дисциплин гуманитарного цикла: истории, истории литератур, логики, психологии, римских древностей и так далее.;X
+alex_selo;Александровский лицей;X
+holy_fucking_roman_empire_title;Возрождение Священной Римской империи;X
+holy_fucking_roman_empire_desc;Последствия Наполеоновских войн сильно пошатнули австрийское господство в Германии, но у нас все еще есть шанс вернуть было величие, хоть и в меньших масштабах. Мы можем отказаться от наших Восточных земель, которые только обременяют нашу империю, и развернуться на Запад, объединив усилия с другими немецкими государствами ради сохранения нашей идентичности.;X
+EVTNAME99996;Выборы Императора;X
+EVTDESC99996;Сегодня курфюрстам предстоит избрать одного из кандидатов на пост императора нашей империи!;X
+EVTOPTA99996;Государство - это армия;X
+EVTOPTB99996;Государство - это деньги;X
+EVTOPTC99996;Государство - это я;X
+voen_prav;Военный руководитель;X
+prom_prav;Промышленник;X
+cult_prav;Администратор;X
+holy_roman_tech_school;Германская школа;X
+nv_holy_roman;Вечность империи;X
+holy_roman_admins_title;Первая стадия имперских реформ;X
+holy_roman_admins_desc; ;X
+hre_protect;Протекторат;X
+holy_fucking_roman_empire3_title;Восстановление имперской мощи;X
+holy_fucking_roman_empire3_desc;Если мы достаточно сильно закрепимся в Центральной Европе, то сможем подчинить себе Италию и Южную Германию, что значительно усилит наши позиции на европейской арене.;X
+hromanempr;Имперские традиции;X
+holy_fucking_roman_empire2_title;Подготовительный этап на пути к возрождению Империи;X
+holy_fucking_roman_empire2_desc;Если мы собираемся восстановить СРИ, то для начала нам нужно избавиться от славянских народов, которые не позволят нам достичь поставленной цели.;X
+serfdom_abolishedd;Крестьянская реформа;X
+ukr_techschool_title;Украинская государственность;X
+ukr_techschool_desc;Мы провели слишком много времени в составе Российской империи, но теперь, когда мы добились автономии, мы смело можем отречься от царских устоев и пойти по собственному пути.;X
+nv_ukrain;Новые амбиции;X
+ukr_reform_title;Провести первые реформы;X
+ukr_reform_desc;Ни для кого не секрет, что Россия отстает от Западной Европы и мы, как ее часть на протяжении стольких лет, тоже подверглись подобному эффекту. Но теперь в наших силах сократить отставание от европейских государств.;X
+ukrgreatfuture;Реформы;X
+ukr_cossacks_title;Украинское казачество;X
+ukr_cossacks_desc;Золотая эпоха казаков прошла, но они все еще могут сослужить хорошую службу нашей стране. Не стоит их недооценивать.;X
+ukrarmycossacks;Казаки;X
+ukr_prom_title;Индустриализация страны;X
+ukr_prom_desc;Наша страна до сих пор входит в число аграрных государств. Если мы хотим конкурировать в будущем на мировом рынке, то мы обязаны в короткие сроки устранить это отставание.;X
+ukrainpromfct;Индустриализация;X
+ukrain_tech_school;Украинская школа;X
+han_tech_school;Ганноверская школа;X
+nv_hannover;Торговля и колониальная экспансия;X
+han_form_republic_title;Объединить Северную Германию;X
+han_form_republic_desc;Прусское влияние растет с большой скоростью в немецких землях, но мы, призвав германские княжества к единству, можем предотвратить победу прусского милитаризма.;X
+har_ambitions_title;Новые амбиции;X
+har_ambitions_desc; ;X
+construct_har_fleet_title;Модернизация морских портов;X
+construct_har_fleet_desc;Чтобы завоевать и удержать наши будущие колонии, нам необходим сильный флот, но для строительства современных верфей придется выделить крупную сумму.;X
+har_fleet;Модернизация верфей;X
+construct_har_werft_title;Верфь Ганновер;X
+construct_har_werft_desc;Мы контролируем пролив Зунд, что обеспечивает нашему Северному побережью прекрасную защиту, но если мы хотим сделать наши берега недосягаемыми для врага, то стоит построить здесь морскую базу по типу кильской.;X
+har_werft;Верфь Ганновер;X
+EVTNAME91006;Демографический кризис;X
+EVTDESC91006;Революция, войны, различные законы - все это отрицательно сказалось на демографии страны. Нам потребуются годы, чтобы исправить наше положение.;X
+EVTOPTA91006;Наступили трудные времена;X
+frapplgrowth;Демографический кризис;X
+coal_coal_factory;Завод переработки угля;X
+tobacco_tob_factory;Табачная фабрика;X
+fish_canned_food_factory;Завод рыбных консерв;X
+grain_canned_food_factory;Завод зерновых консерв;X
+EVTNAME14234;Государственная доктрина;X
+EVTDESC14234; ;X
+EVTOPTA14234;Доктрина военного превосходства;X
+EVTOPTB14234;Доктрина морского превосходства;X
+EVTOPTC14234;Доктрина невмешательства;X
+EVTOPTD14234;Доктрина привлечения мигрантов;X
+EVTOPTE14234;Доктрина экономического превосходства;X
+poland_dnfs_title;Фортификационная система;X
+poland_dnfs_desc;Наша страна не обладает обширными землями, которые могли бы обеспечить природную защиту для наших границ, но в то же время мы находимся между тремя гигантами, каждый из которых не против откусить польский кусок. Поэтому единственный для нас выход - создание укреплений в столичном регионе.;X
+poland_dmorgf_title;Решение демографических проблем;X
+poland_dmorgf_desc; ;X
+poland_mdfrgd;Демографические реформы;X
+poland_krakow_title;Реставрация двух столиц;X
+poland_krakow_desc; ;X
+poland_danzig_title;Порт Гданьск;X
+poland_danzig_desc; ;X
+poldnz;Выход в Балтийское море;X
+poland_indsrt_title;Начало индустриализации;X
+poland_indsrt_desc; ;X
+poland_mdfrgfdde2;Индустриализация;X
+pol_nationalism_title;Польский национализм;X
+pol_nationalism_desc; ;X
+poland_mddcf3g;Национализм;X
+pol_ukrt_title;Интеграция украинского населения;X
+pol_ukrt_desc; ;X
+annex_poland_title;Ликвидация польской автономии;X
+annex_poland_desc; ;X
+poland_tech_school;Польская тех.школа;X
+national_army_doctrine;Доктрина военного превосходства;X
+national_navy_doctrine;Доктрина морского превосходства;X
+national_isol_doctrine;Доктрина невмешательства;X
+national_migr_doctrine;Доктрина привлечения мигрантов;X
+national_econ_doctrine;Доктрина экономического превосходства;X
+army_70_spend;Расходы на военные нужды - 70 процентов;X
+army_80_spend;Расходы на военные нужды - 80 процентов;X
+army_90_spend;Расходы на военные нужды - 90 процентов;X
+army_100_spend;Расходы на военные нужды - 100 процентов;X
+military_tr_des_on_title;Открыть окно военных расходов;X
+military_tr_des_on_desc; ;X
+military_tr_des_off;Закрыть окно военных расходов;X
+military_tr_des_off_desc; ;X
+army_70_title;Умеренный военный бюджет;X
+army_70_desc; ;X
+army_80_title;Крупный военный бюджет;X
+army_80_desc; ;X
+army_90_title;Огромный военный бюджет;X
+army_90_desc; ;X
+army_100_title;Военный бюджет для тотальной войны;X
+army_100_desc; ;X
+american_democracy;Американская демократия;X
+EVTNAME99998;Заседание парламента;X
+EVTDESC99998;На очередном заседании нам необходимо выбрать дальнейший курс развития Великобритании на ближайшие 7 лет;X
+EVTOPTA99998;Поддержка военных сил;X
+EVTOPTB99998;Поддержка экономики страны;X
+EVTOPTC99998;Поддержка империализма;X
+EVTOPTD99998;Поддержка науки и технологий;X
+army_support;Поддержка военных сил;X
+econom_support;Поддержка экономики страны;X
+national_support;Поддержка империализма;X
+culture_support;Поддержка науки и технологий;X
+gbr_hnd_title;Развитие Индии;X
+gbr_hnd_desc;Индия не зря считается жемчужиной британской короны. Это земли богатые ресурсами и огромной рабочей силой. Если мы поможем местному населению быстрее освоить дары Западной цивилизации, то в дальнейшем это принесет нам существенные плоды.;X
+engscientist;Развитие Индии;X
+british_imperialism_title;Британский империализм;X
+british_imperialism_desc;Великобритания величайшее государство, которому суждено править миром. Мы обязаны сохранить и преумножить наши богатства. И главный ключ к этой цели - захват новых колоний.;X
+britishimperialism;Колониальная империя;X
+aus_prommfd_title;Австрийская индустриализация;X
+aus_prommfd_desc; ;X
+aus_prm;Индустриализация;X
+aus_arm23124;Реформы в сухопутной армии;X
+asu_armyy_title;Реформирование австрийских военных сил;X
+asu_armyy_desc; ;X
+ger_science_center_title;Созвать бундесрат;X
+ger_science_center_desc; ;X
+germsciencepoints;В этому году уже проводилось заседание;X
+aus_north_italt_title;Решение итальянского кризиса;X
+aus_north_italt_desc; ;X
+helholand_ger_eng_title;Передача Гельголанда;X
+helholand_ger_eng_desc; ;X
+malta_ita_eng_title;Передача Мальты;X
+malta_ita_eng_desc; ;X
+ita_ephorip_title;Ассимиляция Эфиопии;X
+ita_ephorip_desc; ;X
+italian_assim_eh;Ассимиляция местного населения;X
+ita_malta_bonus_title;Установить контроль над Мальтой;X
+ita_malta_bonus_desc; ;X
+mltitalybonus;Контроль Мальты;X
+spain_marc_title;Вторжение в Марокко;X
+spain_marc_desc;Подчинение Марокко станет первым шагом на пути к восстановлению былого испанского величия.;X
+city_of_london_title;Лондонский Сити;X
+city_of_london_desc;В центральной части Лондона между королевским замком Тауэр и  Королевским судом Лондона, в котором рассматриваются гражданские дела, расположена некоронованная столица  мировой финансовой империи — лондонский Сити. Когда-то Британия была окраинной провинцией  Римской империи. После  убийства  в 41 году императора Калигулы на трон в Риме взошел его дядя Клавдий, который для укрепления своего авторитета предпринял поход в Британию. После высадки на Острове римляне основали на Темзе крепость Лондиниум. В последствие от римского правления осталась  Лондонская стена, огораживающая  территорию в одну милю. В этой «квадратной мили» обосновался современный финансовый лондонский Сити.;X
+londondcity;Лондонский Сити;X
+eng_egyinherit_title;Включение египетского доминиона в состав империи;X
+eng_egyinherit_desc; ;X
+city_958;Город;X
+stock_city;Стокгольм;X
+paris_city;Париж;X
+rio_city;Рио-де-Жанейро;X
+washington_city;Вашингтон;X
+tokyo_city;Токио;X
+petersburg_city;Санкт-Петербург;X
+consta_city;Константинополь;X
+vien_city;Вена;X
+rome_city;Рим;X
+berlin_city;Берлин;X
+london_city;Лондон;X
+madrid_city;Мадрид;X
+port_city;Портовый город;X
+NCH;Чжилийская клика;X
+NCH_ADJ;Чжилийск.;X
+ACH;Аньхойская клика;X
+ACH_ADJ;Аньхойск.;X
+school;Университет;X
+british_doms_title;Британское содружество;X
+british_doms_desc;Наша империя владеет огромными территориями, которые нуждаются в качественном административном управлении. Мы не в силах распределять наши ресурсы в равной степени по всем колониям и именно поэтому нужно предоставить Австралии и Канаде больше свободы, чтобы мы могли сконцентрироваться на своей метрополии, а при нашей поддержке они достигнут определенных успехов.;X
+british_ast;Доминион Австралия;X
+british_can;Доминион Канада;X
+british_hnd;Доминион Индия;X
+EVTNAME88877;Огромные масштабы коррупции;X
+EVTDESC88877;Коррупция - один из бичей, который сковывает развитие нашей страны во всех сферах. Нам придется приложить много усилий для устранения этой проблемы, если мы ее не решим, то останемся на затворках Европы.;X
+EVTOPTA88877;Коррупция? Впервые слышу.;X
+ruscorrupt;Огромные масштабы коррупции;X
+corrupt_rus1_title;Снижение уровня коррупции;X
+corrupt_rus1_desc; ;X
+rus_corrupt1;Коррупция больших масштабов;X
+corrupt_rus2_title;Коррупция локальных масштабов;X
+corrupt_rus2_desc; ;X
+rus_corrupt2;Коррупция локальных масштабов;X
+corrupt_rus3_title;Финальная стадия борьбы с коррупцией;X
+corrupt_rus3_desc; ;X
+gubrrus_tr_des_on_title;Развитие губерний;X
+gubrrus_tr_des_on_desc; ;X
+military_tr_des_off_title;Закрыть окно;X
+military_tr_des_off_desc; ;X
+rus_gubr1_title;Развитие Санкт-Петербургской губернии;X
+rus_gubr1_desc; ;X
+rus_gubr2_title;Развитие Московской губернии;X
+rus_gubr2_desc; ;X
+rus_gubr3_title;Развитие Полтавской губернии;X
+rus_gubr3_desc; ;X
+rus_gubr4_title;Развитие Киевской губернии;X
+rus_gubr4_desc; ;X
+rus_gubr5_title;Развитие Казанской губернии;X
+rus_gubr5_desc; ;X
+rus_gubr6_title;Развитие Новгородской губернии;X
+rus_gubr6_desc; ;X
+rus_gubr7_title;Развитие Тамбовской губернии;X
+rus_gubr7_desc; ;X
+rus_gubr8_title;Развитие Псковской губернии;X
+rus_gubr8_desc; ;X
+rus_gubr9_title;Развитие Смоленской губернии;X
+rus_gubr9_desc; ;X
+rus_gubr10_title;Развитие Тверской губернии;X
+rus_gubr10_desc; ;X
+rusgubrmodifier1;Развитие Санкт-Петербургской губернии;X
+rusgubrmodifier2;Развитие Московской губернии;X
+rusgubrmodifier3;Развитие Полтавской губернии;X
+rusgubrmodifier4;Развитие Киевской губернии;X
+rusgubrmodifier5;Развитие Казанской губернии;X
+rusgubrmodifier6;Развитие Новгородской губернии;X
+rusgubrmodifier7;Развитие Тамбовской губернии;X
+rusgubrmodifier8;Развитие Псковской губернии;X
+rusgubrmodifier9;Развитие Смоленской губернии;X
+rusgubrmodifier10;Развитие Тверской губернии;X
+EVTNAME88888;Современное общество;X
+EVTDESC88888;Активная индустриализация и общий рост уровня жизни населения кардинально изменили многовековой принцип существования человека. Экономические и социальные отношения современного общества диктуют свои новые условия жизнедеятельности. Обширная урбанизация населения свела на нет еще вчерашний, казалось бы, незыблемый уклад процветания семей малого и среднего достатков. Если раньше действовал принцип, чем больше детей - тем эффективнее будет процветать хозяйство семьи, то теперь, когда большая часть населения страны проживает в городах, обширная семья стала непомерным баластом, который сковывает финансовые возможности человека на его пути к получению материальных благ. К сожалению, а может и к счастью, это реалии современной системы социальных отношений, с которыми придется считаться правительству любого развитого государства.;X
+EVTOPTA88888;Мы входим в новую эпоху!;X
+MCH;Клика Ма;X
+MCH_ADJ;Китайск.;X
+FCH;Фэнтяньская клика;X
+FCH_ADJ;Фэнтяньск.;X
+HCH;Хубэйская клика;X
+HCH_ADJ;Хубэйск.;X
+FZC;Фуцзяньская клика;X
+FZC_ADJ;Фуцзяньск.;X
+GCH;Гуандунская клика;X
+GCH_ADJ;Гуандунск.;X
+SYH;Сычуаньская клика;X
+SYH_ADJ;Сычуаньск.;X
+GUH;Гуйчжоуская клика;X
+GUH_ADJ;Гуйчжоуск.;X
+NYH;Ниньсяйская клика;X
+NYH_ADJ;Китайск.;X
+ninbo123_title;Покупка Нинбо;X
+ninbo123_desc; ;X
+EVTOPTE99998;Правительство не готово выделить такие средства;X
+no_money;Провальное парламентское заседание;X
+guandun_clique_title;Подчинение Гуйчжоуйской клики;X
+guandun_clique_desc; ;X
+chinese_clique;Интервенция в Китай;X
+gch_clique_title;Подчинение Гуандунской клики;X
+gch_clique_desc; ;X
+fzc_clique_title;Подчинение Фуцзяньской клики;X
+fzc_clique_desc; ;X
+syh_clique_title;Подчинение Сычуаньской клики;X
+syh_clique_desc; ;X
+ach_clique_title;Подчинение Аньхойской клики;X
+ach_clique_desc; ;X
+hch_clique_title;Подчинение Хубэйской клики;X
+hch_clique_desc; ;X
+nyh_clique_title;Подчинение Ниньсяйской клики;X
+nyh_clique_desc; ;X
+fch_clique_title;Подчинение Фэнтяньской клики;X
+fch_clique_desc; ;X
+mch_clique_title;Подчинение клики Ма;X
+mch_clique_desc; ;X
+nch_clique_title;Подчинение Чжилийской клики;X
+nch_clique_desc; ;X
+AGRESSION_WAR_PUPPET_NAME;Интервенция;X
+MAJ;Маньчжоу-го;X
+MAJ_ADJ;Маньчжурск.;X
+jap_maj_done;Марионеточное правительство;X
+maj_tech_school;Марионеточное правительство;X
+sard_ita_title;Подчинение Италии;X
+sard_ita_desc; ;X
+EVTOPTC16000;Чтобы избежать войны, придется пойти на уступки!;X
+usa_civil_war_dbf;Компромисс с Югом;X
+giza_city;Гиза;X
+munich_city;Мюнхен;X
+brussels_city;Брюссель;X
+naples_city;Неаполь;X
+glasgow_city;Глазго;X
+copenhagen_city;Копенгаген;X
+christiana_city;Осло;X
+mexico_city;Мехико;X
+san_franc_city;Сан-Франциско;X
+los_angeles_city;Лос-Анджелес;X
+budapest_city;Будапешт;X
+amsterdam_city;Амстердам;X
+new_york_city;Нью-Йорк;X
+reval_city;Таллин;X
+vilnus_city;Вильнюс;X
+baku_city;Баку;X
+odessa_city;Одесса;X
+riga_city;Рига;X
+warsaw_city;Варшава;X
+kharkov_city;Харьков;X
+kiev_city;Киев;X
+moscow_city;Москва;X
+fran_asmltn_title;Демографический кризис;X
+fran_asmltn_desc; ;X
+frenchasmltn;Открытая миграционная политика;X
+fra_algr_title;Ассимиляция Алжира;X
+fra_algr_desc; ;X
+aldj_assimilation;Ассимиляция;X
+EVTNAME67777;Прусская гегемония в Германии;X
+EVTDESC67777; ;X
+EVTOPTA67777;Наше господство в германских землях потеряно!;X
+german_ggmn;Прусская гегемония;X
+modern_socsss;Современное общество;X
+EVTNAME88881;Заседание парламента;X
+EVTDESC88881; ;X
+EVTOPTA88881;Поддержка военных сил;X
+EVTOPTB88881;Поддержка экономики;X
+EVTOPTC88881;Социальная поддержка населения;X
+EVTOPTD88881;Поддержка научных исследований;X
+por_army_support;Поддержка военных сил;X
+por_econom_support;Поддержка экономики;X
+por_national_support;Социальная поддержка населения;X
+por_culture_support;Поддержка научных исследований;X
+port_brz_title;Возвращение Бразилии;X
+port_brz_desc;Еще совсем недавно Бразилия была крупнейшей колонией португальской империи, а сегодня она уже независима и развивается куда быстрее, чем мы. Очевидно, что своих ресурсов у нас недостаточно, если мы хотим иметь свое место под солнцем, нам придется вернуть эти земли. Колонии - наш единственный способ удержаться на плаву. У Великобритании жемчужиной является Индия, а у нас Бразилия!;X
+porgt_navy_title;Восстановление португальского флота;X
+porgt_navy_desc;Если мы не хотим потерять наши колонии, то сильный флот нам необходим. Помимо защиты нам жизненно важно связать наши отдаленные владения единой морской сетью.;X
+portg_fleet;Современные верфи;X
+port_econ_title;Индустриализация страны;X
+port_econ_desc;Экономически наша страна слишком отстала от передовых держав. В таких странах как Великобритания и Франция уже полным ходом идет индустриализация, а мы до сих пор полагаемся на сельское хозяйство. Если хотим быть конкурентноспособными на мировом рынке, то нам придется подтолкнуть наше общество в новую эпоху любыми методами.;X
+portg_econ_a;Привлечение иностранного капитала;X
+port_sp_spa_title;Экономическое сотрудничество с Испанией;X
+port_sp_spa_desc;Испания - наш ближайший сосед не только географически, но и в культурном плане. Если мы начнем бороться с Испанией, то, скорее всего, потерпем поражение, а поэтому единственный верный для нас выход это полное сотрудничество с нашим соседом. Нас связывает многолетняя история и нам не составит труда решить наши разногласия ради будущего процветания обеих стран.;X
+portgl_spspa2;Иберийское содружество;X
+port_sp_spa_2_title;Прекратить сотрудничество с Испанией;X
+port_sp_spa_2_desc; ;X
+port_sp_spa3_title;Экономическое сотрудничество с Португалией;X
+port_sp_spa3_desc; ;X
+spa_spspa2;Иберийское содружество;X
+port_sp_spa_4_title;Прекратить сотрудничество с Португалией;X
+port_sp_spa_4_desc; ;X
+port_colon_title;Приоритет на колониальное расширение;X
+port_colon_desc; ;X
+portg_coln45;Колониальная империя;X
+form_yugoslavia_title;Создание Югославии;X
+form_yugoslavia_desc; ;X
+serb_econ_title;Развитие сербской экономики;X
+serb_econ_desc; ;X
+serbdg_econ_a;Инвестиции в экономику;X
+serb_popl_title;Минимальная поддержка семей;X
+serb_popl_desc; ;X
+serbdg_ppl_a;Стимулирование рождаемости;X
+serb_arm_title;Имперские амбиции;X
+serb_arm_desc;Пришло время вернуть наши родные земли, но для этого придется нанести поражение нашим соседям, которые препятствуют расширению наших интересов. Несмотря на возможности нашей страны, мы бросим вызов любому врагу!;X
+serbdg_arm_a;Непримиримая борьба;X
+government_proletarian_dictatorship;Пролетарская диктатура;X
+government_presidential_dictatorship;Президентская диктатура;X
+government_bourgeois_dictatorship;Буржуазная диктатура;X
+government_fascist_dictatorship;Фашистская диктатура;X
+government_absolute_monarchy;Абсолютная монархия;X
+government_prussian_constitutionalism;Конституционная монархия;X
+government_hms_government;Парламентская монархия;X
+government_democracy;Республика;X
+undisciplined_mob;Недисцинлинированная армия;X
+poorly_drilled;Плохо обученная армия;X
+drilled;Обученная армия;X
+well_drilled;Отлично обученная армия;X
+gre_econ_title;Поддержка экономики;X
+gre_econ_desc; ;X
+gredg_econ_a;Поддержка экономики;X
+gre_popl_title;Поддержка населения;X
+gre_popl_desc; ;X
+gerdg_ppl_a;Поддержка населения;X
+gre_arm_title;Имперские амбиции;X
+gre_arm_desc; ;X
+gredg_arm_a;Армейские реформы;X
+nv_greece;Возрождение Греции;X
+eng_greece_title;Поддержать амбиций Греции;X
+eng_greece_desc; ;X
+eng_gre3;Британская поддержка;X
+rom_econ_title;Поддержка экономики;X
+rom_econ_desc; ;X
+romdg_econ_a;Поддержка экономики;X
+rom_popl_title;Поддержка населения;X
+rom_popl_desc; ;X
+romdg_ppl_a;Поддержка семей;X
+rom_arm_title;Возрождение Румынии;X
+rom_arm_desc; ;X
+romdg_arm_a;Военные реформы;X
+form_romania_title;Объединение Румынии;X
+form_romania_desc; ;X
+nv_rom_liberty;Румынская борьба;X
+panislamism_egypt_title;Подчинение Аравии;X
+panislamism_egypt_desc; ;X
+egypt_reforms_title;Реформы Мухаммеда Али;X
+egypt_reforms_desc;Под руководством Мухаммеда Египет сильно развился. Он окружил себя европейскими советниками и, убедившись в превосходстве европейской организации армии над турецкой и успев также несколько ознакомиться с французскими обычаями и порядками, решился реорганизовать армию, правительство и самый строй египетской жизни в европейском духе. Он приступил к реформам в Египте почти одновременно с султаном-реформатором Махмудом II, но достиг в своих начинаниях значительно больших успехов.;X
+muh_ali_ref;Реформы Мухаммеда Али;X
+turpplgrwth46;Балканский компромисс;X
+rus_wal_title;Оказать поддержку южным славянам;X
+rus_wal_desc; ;X
+russian_romn;Поддержка румынских амбиций;X
+nv_egy_fdf;Великое наследие;X
+grand_navy1;Береговой флот;X
+grand_navy2;Малочисленный флот;X
+grand_navy3;Военно-морской флот;X
+grand_navy4;Крупный флот;X
+grand_navy5;Мощный океанский флот;X
+grand_navy0;Отсутствие флота;X
+fortif_area;Укрепленный район;X
+armacadem;Военный склад;X
+industrial_society;Индустриальное общество;X
+post_agricultural_society;Переходной этап общества;X
+agricultural_society;Аграрное общество;X
+spices;Пищевые продукты;X
+spices_factory;Пищевая фабрика;X
+boots;Кондитерские изделия;X
+boot_factory;Кондитерская фабрика;X
+electric_gear_factory;Электрическая станция;X
+fish_cannery;Фабрика рыбных консервов;X
+bank;Банк;X
+Cigar_factory;Фабрика сигар;X
+Cigarette_factory;Табачная фабрика;X
+shoe_factory;Фабрика обуви;X
+pharmaceutical_plant;Фармацевтическая фабрика;X
+gunpowder_factory;Завод пороха;X
+gunpowder;Порох;X
+fruit_cannery;Фруктовые консервы;X
+sugar_beet_refinery;Сахарная фабрика;X
+newspaper;Печатная фабрика;X
+synthetic_silk_factory;Синтетический шелк;X
+shares_factory;Угольный обогатитель;X
+lead_factory;Железный обогатитель;X
+copper_factory;Медный обогатитель;X
+reforms_tr_des_on_title;Открыть окно реформ;X
+reforms_tr_des_on_desc; ;X
+reforms_tr_des_off_title;Закрыть окно реформ;X
+reforms_tr_des_off_desc; ;X
+landed_voting1_title;Право голоса только у землевладельцев;X
+landed_voting1_desc; ;X
+wealth_weighted_voting1_title;Право голоса только у богатых;X
+wealth_weighted_voting1_desc; ;X
+wealth_voting1_title;Право голоса только у обеспеченных классов;X
+wealth_voting1_desc; ;X
+universal_weighted_voting1_title;Голосовать могут все, но голоса богатых весят больше;X
+universal_weighted_voting1_desc; ;X
+universal_voting1_title;Всеобщие права голосования;X
+universal_voting1_desc; ;X
+appointed1_title;Назначаемая верхняя палата;X
+appointed1_desc; ;X
+state_equal_weight1_title;По два от области;X
+state_equal_weight1_desc; ;X
+population_equal_weight1_title;На базе населения;X
+population_equal_weight1_desc; ;X
+jefferson_method1_title;Метод Джефферсона;X
+jefferson_method1_desc; ;X
+proportional_representation1_title;Пропорциональное представительство;X
+proportional_representation1_desc; ;X
+yes_meeting1_title;Разрешены митинги и общественные собрания;X
+yes_meeting1_desc; ;X
+censored_press1_title;Цензура прессы;X
+censored_press1_desc; ;X
+free_press1_title;Свобода прессы;X
+free_press1_desc; ;X
+state_controlled1_title;Контролируемые профсоюзы;X
+state_controlled1_desc; ;X
+non_socialist1_title;Несоциалистические профсоюзы;X
+non_socialist1_desc; ;X
+all_trade_unions1_title;Разрешены все профсоюзы;X
+all_trade_unions1_desc; ;X
+harassment1_title;Притеснения правящей партией;X
+harassment1_desc; ;X
+gerrymandering1_title;Джерримэндеринг;X
+gerrymandering1_desc; ;X
+non_secret_ballots1_title;Открытое голосование;X
+non_secret_ballots1_desc; ;X
+secret_ballots1_title;Тайное голосование;X
+secret_ballots1_desc; ;X
+10_years_draft1_title;Призыв на 10 лет;X
+10_years_draft1_desc; ;X
+7_years_draft1_title;Призыв на 7 лет;X
+7_years_draft1_desc; ;X
+4_years_draft1_title;Призыв на 4 года;X
+4_years_draft1_desc; ;X
+1_years_draft1_title;Призыв на 1 год;X
+1_years_draft1_desc; ;X
+no_draft1_title;Добровольная армия;X
+no_draft1_desc; ;X
+reservations1_title;Резервация меньшинств;X
+reservations1_desc; ;X
+same_rules1_title;Общие права;X
+same_rules1_desc; ;X
+protected1_title;Защита меньшинств;X
+protected1_desc; ;X
+peonage1_title;Кабала;X
+peonage1_desc; ;X
+debtors_prisons1_title;Тюрьмы для должников;X
+debtors_prisons1_desc; ;X
+bankruptcy1_title;Банкротство;X
+bankruptcy1_desc; ;X
+mid_and_high_strata_migration1_title;Миграция только среди среднего и богатого классов;X
+mid_and_high_strata_migration1_desc; ;X
+all_strata_migration1_title;Всeобщая миграция;X
+all_strata_migration1_desc; ;X
+polt_refs_inc;Волнения в обществе;X
+nv_westciv;Западная Цивилизация;X
+nv_eastciv;Восточная Цивилизация;X
+nv_eastasianciv;Восточно-Азиатская Цивилизация;X
+nv_transciv;Цивилизация в переходном периоде;X
+change_national_value_to_westciv_title;Путь национальной вестернизации;X
+change_national_value_to_westciv_desc;Целенаправленное государственное вмешательство ради изменения наших институтов на западные должны дать свои плоды. Ценности, созданные на Западе являются по истину величайшим двигателем прогресса.;X
+change_national_value_to_eastciv_title;Путь восточного традиционализма;X
+change_national_value_to_eastciv_desc;Целенаправленное сплочения народа вокруг личности и нации, восстановления традиций наших предков дадут свои плоды. Нации которые не ценят свою культуру, вымрут навеки, мы же, станем сильнее. Каждый мужчина готов положить всё ради своей страны и это истинный показатель силы!;X
+new_nv1_title;Полный переход на Восточную Модель;X
+new_nv1_desc;Мы окончательно изменились, пришло время показать всему миру силу единства!;X
+new_nv2_title;Полный переход на Западную Модель;X
+new_nv2_desc;Мы окончательно изменились, пришло время показать всему миру силу свободы!;X
+gotowestciv;Интеграция западных ценностей;X
+gotoeastciv;Интеграция восточных ценностей;X
+nv_latinoamericanciv;Латиноамериканская цивилизация;X
+austrian_german;Австрийцы;X
+prussian_german;Немцы;X
+bavarian_german;Баварцы;X
+open_borders1_title;Открыть границы для мигрантов;X
+open_borders1_desc; ;X
+close_borders1_title;Закрыть границы для мигрантов;X
+close_borders1_desc; ;X
+education_troubles1;50 процентов населения имеет образование;X
+education_troubles2;60 процентов населения имеет образование;X
+education_troubles3;70 процентов населения имеет образование;X
+education_troubles4;80 процентов населения имеет образование;X
+education_troubles5;90 процентов населения имеет образование;X
+education_troubles5;100 процентов населения имеет образование;X
+ASC;Австрийская концессия;X
+GSC;Германская концессия;X
+FRC;Французская концессия;X
+ENC;Британская концессия;X
+SPC;Испанская концессия;X
+ITC;Итальянская концессия;X
+RUC;Русская концессия;X
+USC;Американская концессия;X
+PRC;Португальская концессия;X
+NEC;Голландская концессия;X
+BRC;Бразильская концессия;X
+SCC;Шведская концессия;X
+JPC;Японская концессия;X
+TCH;Турецкая концессия;X
+MXC;Мексиканская концессия;X
+GAF;Германская колония;X
+GAF_ADJ;Германская;X
+AAF;Австрийская колония;X
+AAF_ADJ;Австрийская;X
+FAF;Французская колония;X
+FAF_ADJ;Французская;X
+EAF;Британская колония;X
+EAF_ADJ;Британская;X
+IAF;Итальянская колония;X
+IAF_ADJ;Итальянская;X
+RAF;Русская колония;X
+RAF_ADJ;Русская;X
+TAF;Турецкая колония;X
+TAF_ADJ;Турецкая;X
+UAF;Американская колония;X
+UAF_ADJ;Американская;X
+JAF;Японская колония;X
+JAF_ADJ;Японская;X
+BAF;Бразильская колония;X
+BAF_ADJ;Бразильская;X
+NAF;Голландская колония;X
+NAF_ADJ;Голландская;X
+PAF;Португальская колония;X
+PAF_ADJ;Португальская;X
+MAF;Мексиканская колония;X
+MAF_ADJ;Мексиканская;X
+SPF;Испанская колония;X
+SPF_ADJ;Испанская;X
+SCF;Шведская колония;X
+SCF_ADJ;Шведская;X
+colonial_company;Колониальное правительство;X
+african_company;Колониальное правительство;X
+colonial_school;Торговая компания;X
+china_aus_comp;Австрийская концессия работает;X
+china_ger_comp;Германская концессия работает;X
+china_fra_comp;Французская концессия работает;X
+china_eng_comp;Британская концессия работает;X
+china_spa_comp;Испанская концессия работает;X
+china_ita_comp;Итальянская концессия работает;X
+china_rus_comp;Русская концессия работает;X
+china_usa_comp;Американская концессия работает;X
+china_por_comp;Португальская концессия работает;X
+china_net_comp;Голландская концессия работает;X
+china_brz_comp;Бразильская концессия работает;X
+china_sca_comp;Шведская концессия работает;X
+china_jap_comp;Японская концессия работает;X
+china_tur_comp;Турецкая концессия работает;X
+china_mex_comp;Мексиканская концессия работает;X
+child_labor;Детский труд;X
+child_labor_legal;Разрешен;X
+child_labor_restricted;Ограничен;X
+child_labor_illegal;Запрещен;X
+citizens_rights;Гражданские права;X
+reservations;Резервации;X
+same_rules;Равноправие;X
+protected;Защита меньшинств;X
+border_policy;Пограничная политика;X
+quota_immigration;Миграционные квоты;X
+closed_borders;Закрытые границы;X
+open_borders;Открытые границы;X
+HOLD_ELECTION_BUTTON;Провести выборы;X
+POLITICS_MATTERS_OF_STATE;Государственная политика;X
+trinket_health_care_fully_funded;Минимальный фонд здравоохранения;X
+low_health_care_fully_funded;Средний фонд здравоохранения;X
+acceptable_health_care_fully_funded;Хороший фонд здравоохранения;X
+good_health_care_fully_funded;Развитый фонд здравоохранения;X
+low_schools_fully_funded;Минимальная образовательная система;X
+acceptable_schools_fully_funded;Развитая образовательная система;X
+good_schools_fully_funded;Всеобщее образование;X
+small_but_efficient;Маленький, но гордый!;X
+penal_system;Пенитенциарная система;X
+capital_punishment;Смертная казнь;X
+colonial_transportation;Отправка в колонии;X
+incarceration;Лишение свободы;X
+rehabilitation;Реабилитация;X
+france_african_way_title;Французская Африка;X
+france_african_way_desc;Алжир может стать ядром нашей колониальной Африки. Падения рождаемости нужно как то возместить, и новые подданные как раз наш путь!;X
+france_african_way2_title;Расширение колониальной Африки;X
+france_african_way2_desc;Алжир доказал свою преданность и численность населения растёт. Наша Африка должна расширяться как это требует наша нынешняя доктрина;X
+france_african_way3_title;Африка, как второй дом;X
+france_african_way3_desc;Мы доказали что французы могут достигать поставленных целей. Африка стала нашим вторым домом, и без сомнения, мы не собираемся останавливаться на этом!;X
+france_european_way_title;Националистическая Франция;X
+france_european_way_desc;Великая Французская Революция имела последствия для рождаемости в стране. Нам нужно восстановить рождаемость. Правительство должно начать политику экономических стимулов.;X
+france_european_way2_title;Националистическое рвение и пропаганда;X
+france_european_way2_desc;Нужно признать, что пропаганда может стать отличным средством увеличения рождаемости. Новые национальные государства должны побудить наших граждан к действиям!;X
+france_european_way3_title;Внутреннее доверие;X
+france_european_way3_desc;Создав чувство справедливости у граждан, мы сделаем ставку на взаимное доверия население к правительству. Семья - ячейка общества, которое правительство будет защищать.;X
+fra_assim_rate;Политика ассимиляции;X
+fra_pops_growth;Взрыв рождаемости;X
+annex_capital_player;Захват столицы игрока;X
+free_peoples_player;освобождение народа игрока;X
+age_of_imperialism;Эпоха империализма;X
+imprlsm_on;Эпоха империализма;X
+BOC;Британская Ост-Индская компания;X
+reunite_ostind_comp_title;Восстановить Ост-Индскую компанию;X
+reunite_ostind_comp_desc; ;X
+FOC;Французская Ост-Индская компания;X
+FOC_ADJ;Французск.;X
+BOC_ADJ;Британск.;X
+ind_comps_des_on_title;Колонизация Индии;X
+ind_comps_des_on_desc; ;X
+ind_comps_des_off_title;Закрыть раздел;X
+ind_comps_des_off_desc; ;X
+ind_clique;Подготовка новой экспедиции;X
+mugulistan_clique_title;Колонизация Могулистана;X
+mugulistan_clique_desc; ;X
+orissa_clique_title;Колонизация Ориссы;X
+orissa_clique_desc; ;X
+awadh_clique_title;Колонизация Авадха;X
+awadh_clique_desc; ;X
+jaipur_clique_title;Колонизация Джайпура;X
+jaipur_clique_desc; ;X
+beroda_clique_title;Колонизация Бороды;X
+beroda_clique_desc; ;X
+nagpur_clique_title;Колонизация Нагпура;X
+nagpur_clique_desc; ;X
+mewar_clique_title;Колонизация Мевара;X
+mewar_clique_desc; ;X
+hydebarad_clique_title;Колонизация Хайдебарада;X
+hydebarad_clique_desc; ;X
+mysur_clique_title;Колонизация Майсура;X
+mysur_clique_desc; ;X
+bundelkand_clique_title;Колонизация Бандельканда;X
+bundelkand_clique_desc; ;X
+ind_eng_ostind_comp;Прибыль Ост-Индской компании;X
+ind_fra_ostind_comp;Прибыль Ост-Индской компании;X
+FRI;Французский Радж;X
+full_ind_fra_ostind_comp;Доминион Индия;X
+full_ind_eng_ostind_comp;Доминион Индия;X
+boc_boost;Буст;X
+sic_boost;Буст;X
+foc_boost;Буст;X
+colonial_immigration;Колониальная иммиграция;X
+encourage_agriculture;Поддержка сельского хозяйства;X
+encourage_mining;Модернизация шахт;X
+encourage_business;Поддержка предпринимательства;X
+militancy_appeasement;Борьба с сепаратизмом;X
+consciousness_appeasement;Борьба с сепаратизмом;X
+consciousness_appeasement_core;Борьба с национализмом;X
+basic_industry_focus;Стимулирование производства;X
+factory_throughput_focus;Стимулирование производства;X
+RGO_output_focus;Механизация шахт;X
+supply_war_limt;Диверсия инфраструктуры;X
+fed_reg_rs;Индустриализация региона;X
+cigars;Сигары;X
+sugar;Сахар;X
+wool_mill;Шерстяная фабрика;X
+cigarettes;Табачные изделия;X
+financial_services;Финансовые услуги;X
+print;Газета;X
+pharmaceuticals;Лекарства;X
+bronze_activation;Проектирование тяжелой артиллерии;X
+comm_reg_pr;Устранение оппозиции;X
+fasc_reg_pr;Устранение оппозиции;X
+EVTNAME44804;Земли для заселения;X
+EVTDESC44804;Север страны является прекрасным местом для привлечения колонизаторов со всего мира. Отличные пустующие земли смогут простимулировать рост рождаемости;X
+EVTOPTA44804;Нужно удержать север;X
+EVTNAME44805;Потеря жизненно необходимых земель;X
+EVTDESC44805;С потерей части земель на Севере, мы теряем свои возможности гегемонии. Нам нужно немедленно восстановить контроль над потерянными провинциями и диктовать условия всей Америке;X
+EVTOPTA44805;Необходимо вернуть территории;X
+eng_nethre_title;Компромисс с Нидерландами;X
+eng_nethre_desc; ;X
+netengjavsd;Торговое соглашение с Великобританией;X
+populism_1;Популизм;X
+rum_distillery;Ликероводочный завод;X
+cigar_factories;Сигарные фабрики;X
+SIG;Гогенцоллерн-Зигмаринген;X
+SIG_ADJ;Прусск.;X
+shoes;Обувь;X
+acquire_core_state_ai;Вернуть нац.регион(ИИ);X
+annex_core_country_ai;Восстановить порядок(ИИ);X
+leadddd_cfe;Обогащение руды;X
+shares_cfe;Обогащение угля;X
+horses;Лошади;X
+stables;Конный завод;X
+agr_soccs3;Индустриальное общество;X
+agr_soccs2;Переходной этап;X
+agr_soccs;Аграрное общество;X
+supply_war_limt2;Обширная диверсия инфраструктуры;X
+Coal-fired_powerplant;Электростанция;X
+electric_power;Электричество;X
+annex_north_china_region;Интервенция в Северный Китай;X
+annex_south_china_region;Интервенция в Южный Китай;X
+eng_getting_company_title;Поглотить концессию другой державы;X
+eng_getting_company_desc; ;X
+fra_getting_company_title;Поглотить концессию другой державы;X
+fra_getting_company_desc; ;X
+ger_getting_company_title;Поглотить концессию другой державы;X
+ger_getting_company_desc; ;X
+mex_getting_company_title;Поглотить концессию другой державы;X
+mex_getting_company_desc; ;X
+brz_getting_company_title;Поглотить концессию другой державы;X
+brz_getting_company_desc; ;X
+usa_getting_company_title;Поглотить концессию другой державы;X
+usa_getting_company_desc; ;X
+jap_getting_company_title;Поглотить концессию другой державы;X
+jap_getting_company_desc; ;X
+net_getting_company_title;Поглотить концессию другой державы;X
+net_getting_company_desc; ;X
+tur_getting_company_title;Поглотить концессию другой державы;X
+tur_getting_company_desc; ;X
+sca_getting_company_title;Поглотить концессию другой державы;X
+sca_getting_company_desc; ;X
+rus_getting_company_title;Поглотить концессию другой державы;X
+rus_getting_company_desc; ;X
+por_getting_company_title;Поглотить концессию другой державы;X
+por_getting_company_desc; ;X
+spa_getting_company_title;Поглотить концессию другой державы;X
+spa_getting_company_desc; ;X
+ita_getting_company_title;Поглотить концессию другой державы;X
+ita_getting_company_desc; ;X
+aus_getting_company_title;Поглотить концессию другой державы;X
+aus_getting_company_desc; ;X
+trinket_wage1_title;Минимальная зарплата;X
+trinket_wage1_desc; ;X
+low_minimum_wage1_title;Низкая зарплата;X
+low_minimum_wage1_desc; ;X
+acceptable_minimum_wage1_title;Приемлемая зарплата;X
+acceptable_minimum_wage1_desc; ;X
+good_minimum_wage1_title;Хорошая зарплата;X
+good_minimum_wage1_desc; ;X
+fourteen_hours1_title;14ч рабочий день;X
+fourteen_hours1_desc; ;X
+twelve_hours1_title;12ч рабочий день;X
+twelve_hours1_desc; ;X
+ten_hours1_title;10ч рабочий день;X
+ten_hours1_desc; ;X
+eight_hours1_title;8ч рабочий день;X
+eight_hours1_desc; ;X
+trinket_safety1_title;Минимум обеспечения;X
+trinket_safety1_desc; ;X
+low_safety1_title;Низкое обеспечения;X
+low_safety1_desc; ;X
+acceptable_safety1_title;Приемлемое обеспечения;X
+acceptable_safety1_desc; ;X
+good_safety1_title;Отличное обеспечения;X
+good_safety1_desc; ;X
+trinket_subsidies1_title;Минимум субсидии;X
+trinket_subsidies1_desc; ;X
+low_subsidies1_title;Низкие субсидии;X
+low_subsidies1_desc; ;X
+acceptable_subsidies1_title;Приемлемые субсидии;X
+acceptable_subsidies1_desc; ;X
+good_subsidies1_title;Щедрые субсидии;X
+good_subsidies1_desc; ;X
+trinket_pensions1_title;Минимальный фонд;X
+trinket_pensions1_desc; ;X
+low_pensions1_title;Низкий фонд;X
+low_pensions1_desc; ;X
+acceptable_pensions1_title;Приемлемый фонд;X
+acceptable_pensions1_desc; ;X
+good_pensions1_title;Хороший фонд;
+good_pensions1_desc; ;X
+trinket_health_care1_title;Минимальный уровень;X
+trinket_health_care1_desc; ;X
+low_health_care1_title;Низкий уровень;X
+low_health_care1_desc; ;X
+acceptable_health_care1_title;Приемлемый уровень;X
+acceptable_health_care1_desc; ;X
+good_health_care1_title;Хороший уровень;X
+good_health_care1_desc; ;X
+low_schools1_title;Начальная школьная система;X
+low_schools1_desc; ;X
+acceptable_schools1_title;Приемлемая школьная система;X
+acceptable_schools1_desc; ;X
+good_schools1_title;Хорошая школьная система;X
+good_schools1_desc; ;X
+provoloka;Колючая проволока;X
+SM_WINDOW;Экран;X
+SM_BORDERLESS;Оконный режим в рамке;X
+SM_WINDOWED;Оконный режим;X
+SM_FULLSCREEN;Полноэкранный режим;X
+SPLITINHALF;Разделить армию надвое;X
+SPLITINHALF_DRO;Мы разделим армию на две равные части;X
+IGNORE_DECISION_OFF;Отключить оповещение;X
+IGNORE_DECISION_ON;Включить оповещение;X
+KRA_703;Краков(2);X
+synthetic_fabric_factory;Завод синтетической ткани;X
+synthetic_rubber_factory;Завод синтетического каучука;X
+tropical_lumber_mill;Завод тропических пиломатериалов;X
+petrolium-based_powerplant;Нефтяная электростанция;X
+research_reform;Реформа исследований;X
+no_research_reform;Отсталая система;X
+yes_research_reform;Иностранная система;X
+monetary_reform;Монетарная реформа;X
+no_monetary_reform;Отсталая монетарная политика;X
+yes_monetary_reform;Переходная система;X
+monetary_reform_two;Иностранная система;X
+firearms_production;Производство стрелкового оружия;X
+no_firearms_production;Местное производство;X
+yes_firearms_production;Современное производство;X
+foreign_artillery;Иностранная артиллерия;X
+no_foreign_artillery;Местная артиллерия;X
+yes_foreign_artillery;Импортируемая артиллерия;X
+western_shipyards;Западное кораблестроение;X
+no_western_shipyards;Местное кораблестроение;X
+yes_western_shipyards;Современное кораблестроение;X
+net_sumatra_title;Расширения Суматры;X
+net_sumatra_desc;Ачех, остался последним оплотом мусульман на Острове Суматра. Нам нужно усмирить этих отсталых варваров и стабилизировать ситуацию в регионе!;X
+net_colonial_sumatra_title;Колониальная Суматра;X
+net_colonial_sumatra_desc;Удержания Суматры жизненно важно для нас с экономической точки зрения. Её ресурсы позволят нам ускорить индустриализацию в метрополии;X
+net_colonial_yava_title;Колониальная Ява;X
+net_colonial_yava_desc;Удержания Явы жизненно важно для нас с экономической точки зрения. Её ресурсы позволят нам ускорить индустриализацию в метрополии;X
+net_south_africa_title;Потерянная колония;X
+net_south_africa_desc;Несмотря на то что Южная Африка была для нас потеряна, все, как и мы акцентировали своё внимания на более богатую Азию. Однако теперь все вновь переключились на Азию и часть правительства вспомнила о своих обидах. Южная Африка должна вернуться к хозяину!;X
+net_integration_north_south_title;Интеграция Севера и Юга;X
+net_integration_north_south_desc;Прошли десятилетия с момента аннексии Бельгии. Сепаратизм нам больше не угрожает и можно без страха говорить, что Север и Юг вновь Едино!;X
+net_colonial_power1;Доход колониальной Суматры;X
+net_colonial_power2;Доход колониальной Явы;X
+net_mobilization_bust;Сила сплочённой нации;X
+net_north_south;Промышленная интеграция;X
+own_bosfor_canal;Босфорский пролив;X
+own_gibraltar_canal;Гибралтарский пролив;X
+own_singa_canal;Сингапурский пролив;X
+gibra_city;Гибралтар;X
+suez_city;Суэц;X
+singapore_city;Сингапур;X
+mex_pops_title;Демографические реформы:X
+mex_pops_desc; ;X
+prussian_influence_des_on_title;Распространение влияния в Северной Германии;X
+prussian_influence_des_on_desc;Если мы хотим объединить Германию под нашим руководством, то нам необходимо заручиться поддержкой в соседних немецких государствах. Мы должны сделать это максимально мирным путем, а иначе какая может идти речь о создании единой державы, если свой же народ будет видеть в нас завоевателя. А в худшем случае они и вовсе выступят против.;X
+prussian_influence_des_off_title;Закрыть окно;X
+prussian_influence_des_off_desc; ;X
+infl_meclenburg_title;Отправить дипломатов в Мекленбург;X
+infl_meclenburg_desc; ;X
+infl_holstein_title;Отправить дипломатов в Гольштейн;X
+infl_holstein_desc; ;X
+infl_hamburg_title;Отправить дипломатов в Гамбург;X
+infl_hamburg_desc; ;X
+infl_hannover_title;Отправить дипломатов в Ганновер;X
+infl_hannover_desc; ;X
+infl_saxony_title;Отправить дипломатов в Саксонию;X
+infl_saxony_desc; ;X
+infl_hessen_title;Отправить дипломатов в Гессен;X
+infl_hessen_desc; ;X
+infl_braun_title;Отправить дипломатов в Брауншвейг;X
+infl_braun_desc; ;X
+infl_hessen_darm_title;Отправить дипломатов в Дармштадт;X
+infl_hessen_darm_desc; ;X
+infl_weimar_title;Отправить дипломатов в Веймар;X
+infl_weimar_desc; ;X
+infl_frankfurt_title;Отправить дипломатов во Франкфурт;X
+infl_frankfurt_desc; ;X
+inlf_mod;Прусское влияние;X
+inlf_pru_mod;Подготовка дипломатической миссии;X
+ngf_influence_des_on_title;Распространение влияния в Южной Германии;X
+ngf_influence_des_on_desc;Пора приступить к финальной стадии объединения германских земель, но влияние Габсбургов и недоброжелательность Виттельсбахов в этом регионе по-прежнему имеют существенный политический вес. Надеемся, что австрийцы не встанут у нас на пути, а уж вторые в одиночку не доставят особых проблем.;X
+ngf_influence_des_off_title;Закрыть раздел;X
+ngf_influence_des_off_desc; ;X
+infl_baden_title;Отправить дипломатов в Баден;X
+infl_baden_desc; ;X
+infl_wurtemberg_title;Отправить дипломатов в Вюртембург;X
+infl_wurtemberg_desc; ;X
+infl_bavaria_title;Отправить дипломатов в Баварию;X
+infl_bavaria_desc; ;X
+infl_sgf_title;Отправить дипломатов в Южногерманский союз;X
+infl_sgf_desc; ;X
+inlf_aus_mod;Подготовка дипломатической миссии;X
+mexican_republic_government_title;Мексиканская Республика;X
+mexican_republic_government_desc;Либеральное правительство всё активнее диктует свои условия государству. Их нынешняя цель - бескровный переворот. Свергнем же Императора и создадим Великую Республику!;X
+gerarmy_support;Поддержка военных сил;X
+gereconom_support;Поддержка экономики;X
+gernational_support;Поддержка научных исследований;X
+gerculture_support;Поддержка системы образования;X
+gernavy_support;Поддержка морских сил;X
+gerpopgrowth;Демографический взрыв;X
+arising_prussia;Воcхождение Пруссии;X
+annex_manj2_title;Ликвидация автономии Манчжу-Го;X
+annex_manj2_desc;Ликвидировав автономию, мы создадим новую префектуру, которая поможет нам подтвердить наши амбиции в азиатском регионе;X
+EVTNAME99979;Аренда порта иностранной державой;X
+EVTDESC99979; ;X
+EVTOPTA99979;Будто у нас был выбор;X
+EVTNAME99978;Влияние Запада;X
+EVTDESC99978; ;X
+EVTOPTA99978;Грядут перемены!;X
+west_infl;Западное влияние;X
+eng_opium_war_title;Распространение торгового влияния в Китае;X
+eng_opium_war_desc;Мы можем получить отличный источник дохода, торгуя в Китае, но для этого нам нужно избавиться от императорского декрета на продажу опиума. Этот товар - золотая жила, и если император не пойдет нам на встречу - придется применить пушки.;X
+eng_opium_war2_title;Интервенция в Китай;X
+eng_opium_war2_desc;Если ввести войска в Пекин, то китайский император сразу пойдет на контакт.;X
+opium_infl;Британская торговля опиумом;X
+EVTNAME99977;Британцы требуют открытия портов для торговли!;X
+EVTDESC99977; ;X
+EVTOPTA99977;У нас нет выбора;X
+EVTOPTB99977;Если так хотят - пускай придут и возьмут!;X
+china_refused;Китай отказал нам;X
+opiumplus;Торговля опиумом;X
+arising_japan;Реформация Японии;X
+civilized_china;Цивилизованный Китай;X
+opium_infl_fr;Французская торговля опиумом;X
+fra_opium_war_title;Распространение торгового влияния в Китае;X
+fra_opium_war_desc;Мы можем получить отличный источник дохода, торгуя в Китае, но для этого нам нужно избавиться от императорского декрета на продажу опиума. Этот товар - золотая жила, и если император не пойдет нам на встречу - придется применить пушки.;X
+fra_opium_war2_title;Интервенция в Китай;X
+fra_opium_war2_desc;Если ввести войска в Пекин, то китайский император сразу пойдет на контакт.;X
+usa_opium_war_title;Распространение торгового влияния в Китае;X
+usa_opium_war_desc;Мы можем получить отличный источник дохода, торгуя в Китае, но для этого нам нужно избавиться от императорского декрета на продажу опиума. Этот товар - золотая жила, и если император не пойдет нам на встречу - придется применить пушки.;X
+usa_opium_war2_title;Интервенция в Китай;X
+usa_opium_war2_desc;Если ввести войска в Пекин, то китайский император сразу пойдет на контакт.;X
+opium_infl_usa;Американская торговля опиумом;X
+chinese_debuff;Реформация страны;X
+japanese_debuff;Реформация страны;X
+indian_debuff;Реформация страны;X
+usa_army_limit;Политика невмешательства;X
+us_congress_army;Расширение вооруженных сил;X
+usa_army_congress_title;Убедить конгресс в необходимости расширения вооруженных сил;X
+usa_army_congress_desc; ;X
+eng_army_limit;Гарнизонная армия;X
+usa_army_congress_1860_title;Убедить конгресс в необходимости расширения вооруженных сил;X
+usa_army_congress_1860_desc; ;X
+congress_tr_des_on_title;Конгресс США;X
+congress_tr_des_on_desc; ;X
+congress_tr_des_off_title;Закрыть раздел;X
+congress_tr_des_off_desc; ;X
+fed_reg_rs_big_city;Урбанизация города;X
+colonial_company_ruler;Губернатор;X
+lend_lease_canned_food_on_title;Раздел ленд-лиза военных консерв;X
+lend_lease_canned_food_on_desc; ;X
+lend_lease_canned_food_off_title;Закрыть раздел;X
+lend_lease_canned_food_on_desc; ;X
+lend_lease_artillery_on_title;Раздел ленд-лиза артиллерии;X
+lend_lease_artillery_on_desc; ;X
+lend_lease_artillery_off_title;Закрыть раздел;X
+lend_lease_artillery_on_desc; ;X
+lend_lease_ammunition_on_title;Раздел ленд-лиза боеприпасов;X
+lend_lease_ammunition_on_desc; ;X
+lend_lease_ammunition_off_title;Закрыть раздел;X
+lend_lease_ammunition_off_desc; ;X
+lend_lease_small_arms_on_title;Раздел ленд-лиза стрелкового оружия;X
+lend_lease_small_arms_on_desc; ;X
+lend_lease_small_arms_off_title;Закрыть раздел;X
+lend_lease_small_arms_on_desc; ;X
+lend_lease_steamer_convoy_on_title;Раздел ленд-лиза пароходов;X
+lend_lease_steamer_convoy_on_desc; ;X
+lend_lease_steamer_convoy_off_title;Закрыть раздел;X
+lend_lease_steamer_convoy_off_desc; ;X
+lend_lease_general_on_title;Ленд-лиз военных товаров;X
+lend_lease_general_on_desc; ;X
+lend_lease_general_off_title;Закрыть основной раздел;X
+lend_lease_general_on_desc; ;X
+lend_lease_steamer_convoy_ENG_title;Отправить пароходы в Великобританию;X
+lend_lease_steamer_convoy_ENG_desc; ;X
+lend_lease_steamer_convoy_FRA_title;Отправить пароходы во Францию;X
+lend_lease_steamer_convoy_FRA_desc; ;X
+lend_lease_steamer_convoy_RUS_title;Отправить пароходы в Россию;X
+lend_lease_steamer_convoy_RUS_desc; ;X
+lend_lease_steamer_convoy_PRU_title;Отправить пароходы в Пруссию;X
+lend_lease_steamer_convoy_PRU_desc; ;X
+lend_lease_steamer_convoy_NGF_title;Отправить пароходы в Северогерманскую федерацию;X
+lend_lease_steamer_convoy_NGF_desc; ;X
+lend_lease_steamer_convoy_GER_title;Отправить пароходы в Германию;X
+lend_lease_steamer_convoy_GER_desc; ;X
+lend_lease_steamer_convoy_AUS_title;Отправить пароходы в Австрию;X
+lend_lease_steamer_convoy_AUS_desc; ;X
+lend_lease_steamer_convoy_KUK_title;Отправить пароходы в Австро-Венгрию;X
+lend_lease_steamer_convoy_KUK_desc; ;X
+lend_lease_steamer_convoy_USA_title;Отправить пароходы в США;X
+lend_lease_steamer_convoy_USA_desc; ;X
+lend_lease_steamer_convoy_JAP_title;Отправить пароходы в Японию;X
+lend_lease_steamer_convoy_JAP_desc; ;X
+lend_lease_steamer_convoy_ITA_title;Отправить пароходы в Италию;X
+lend_lease_steamer_convoy_ITA_desc; ;X
+lend_lease_steamer_convoy_SWE_title;Отправить пароходы в Швецию;X
+lend_lease_steamer_convoy_SWE_desc; ;X
+lend_lease_steamer_convoy_SCA_title;Отправить пароходы в Скандинавию;X
+lend_lease_steamer_convoy_SCA_desc; ;X
+lend_lease_steamer_convoy_NET_title;Отправить пароходы в Нидерланды;X
+lend_lease_steamer_convoy_NET_desc; ;X
+lend_lease_steamer_convoy_SPA_title;Отправить пароходы в Испанию;X
+lend_lease_steamer_convoy_SPA_desc; ;X
+lend_lease_steamer_convoy_TUR_title;Отправить пароходы в Турцию;X
+lend_lease_steamer_convoy_TUR_desc; ;X
+lend_lease_steamer_convoy_LAF_title;Отправить пароходы в ЮАФ;X
+lend_lease_steamer_convoy_LAF_desc; ;X
+lend_lease_steamer_convoy_SAR_title;Отправить пароходы в Сардинию;X
+lend_lease_steamer_convoy_SAR_desc; ;X
+lend_lease_steamer_convoy_DNF_title;Отправить пароходы в Дунайскую Федерацию;X
+lend_lease_steamer_convoy_DNF_desc; ;X
+lend_lease_steamer_convoy_ISH_title;Отправить пароходы в Исламский Халифат;X
+lend_lease_steamer_convoy_ISH_desc; ;X
+lend_lease_steamer_convoy_JPE_title;Отправить пароходы в Японскую империю;X
+lend_lease_steamer_convoy_JPE_desc; ;X
+lend_lease_steamer_convoy_HND_title;Отправить пароходы в Индию;X
+lend_lease_steamer_convoy_HND_desc; ;X
+lend_lease_steamer_convoy_ITE_title;Отправить пароходы в Итальянскую империю;X
+lend_lease_steamer_convoy_ITE_desc; ;X
+lend_lease_steamer_convoy_MEX_title;Отправить пароходы в Мексику;X
+lend_lease_steamer_convoy_MEX_desc; ;X
+lend_lease_steamer_convoy_PER_title;Отправить пароходы в Иран;X
+lend_lease_steamer_convoy_PER_desc; ;X
+lend_lease_steamer_convoy_EGY_title;Отправить пароходы в Египет;X
+lend_lease_steamer_convoy_EGY_desc; ;X
+lend_lease_steamer_convoy_ARA_title;Отправить пароходы в Арабский халифат;X
+lend_lease_steamer_convoy_ARA_desc; ;X
+lend_lease_steamer_convoy_BRZ_title;Отправить пароходы в Бразилию;X
+lend_lease_steamer_convoy_BRZ_desc; ;X
+lend_lease_steamer_convoy_CHI_title;Отправить пароходы в Китай;X
+lend_lease_steamer_convoy_CHI_desc; ;X
+lend_lease_steamer_convoy_BOC_title;Отправить пароходы в Ост-Индскую компанию;X
+lend_lease_steamer_convoy_BOC_desc; ;X
+lend_lease_ammunition_ENG_title;Отправить боеприпасы в Великобританию;X
+lend_lease_ammunition_ENG_desc; ;X
+lend_lease_ammunition_FRA_title;Отправить боеприпасы во Францию;X
+lend_lease_ammunition_FRA_desc; ;X
+lend_lease_ammunition_RUS_title;Отправить боеприпасы в Россию;X
+lend_lease_ammunition_RUS_desc; ;X
+lend_lease_ammunition_PRU_title;Отправить боеприпасы в Пруссию;X
+lend_lease_ammunition_PRU_desc; ;X
+lend_lease_ammunition_NGF_title;Отправить боеприпасы в Северогерманскую федерацию;X
+lend_lease_ammunition_NGF_desc; ;X
+lend_lease_ammunition_GER_title;Отправить боеприпасы в Германию;X
+lend_lease_ammunition_GER_desc; ;X
+lend_lease_ammunition_AUS_title;Отправить боеприпасы в Австрию;X
+lend_lease_ammunition_AUS_desc; ;X
+lend_lease_ammunition_KUK_title;Отправить боеприпасы в Австро-Венгрию;X
+lend_lease_ammunition_KUK_desc; ;X
+lend_lease_ammunition_USA_title;Отправить боеприпасы в США;X
+lend_lease_ammunition_USA_desc; ;X
+lend_lease_ammunition_JAP_title;Отправить боеприпасы в Японию;X
+lend_lease_ammunition_JAP_desc; ;X
+lend_lease_ammunition_ITA_title;Отправить боеприпасы в Италию;X
+lend_lease_ammunition_ITA_desc; ;X
+lend_lease_ammunition_SWE_title;Отправить боеприпасы в Швецию;X
+lend_lease_ammunition_SWE_desc; ;X
+lend_lease_ammunition_SCA_title;Отправить боеприпасы в Скандинавию;X
+lend_lease_ammunition_SCA_desc; ;X
+lend_lease_ammunition_NET_title;Отправить боеприпасы в Нидерланды;X
+lend_lease_ammunition_NET_desc; ;X
+lend_lease_ammunition_SPA_title;Отправить боеприпасы в Испанию;X
+lend_lease_ammunition_SPA_desc; ;X
+lend_lease_ammunition_TUR_title;Отправить боеприпасы в Турцию;X
+lend_lease_ammunition_TUR_desc; ;X
+lend_lease_ammunition_LAF_title;Отправить боеприпасы в ЮАФ;X
+lend_lease_ammunition_LAF_desc; ;X
+lend_lease_ammunition_SAR_title;Отправить боеприпасы в Сардинию;X
+lend_lease_ammunition_SAR_desc; ;X
+lend_lease_ammunition_DNF_title;Отправить боеприпасы в Дунайскую Федерацию;X
+lend_lease_ammunition_DNF_desc; ;X
+lend_lease_ammunition_ISH_title;Отправить боеприпасы в Исламский Халифат;X
+lend_lease_ammunition_ISH_desc; ;X
+lend_lease_ammunition_JPE_title;Отправить боеприпасы в Японскую империю;X
+lend_lease_ammunition_JPE_desc; ;X
+lend_lease_ammunition_HND_title;Отправить боеприпасы в Индию;X
+lend_lease_ammunition_HND_desc; ;X
+lend_lease_ammunition_ITE_title;Отправить боеприпасы в Итальянскую империю;X
+lend_lease_ammunition_ITE_desc; ;X
+lend_lease_ammunition_MEX_title;Отправить боеприпасы в Мексику;X
+lend_lease_ammunition_MEX_desc; ;X
+lend_lease_ammunition_PER_title;Отправить боеприпасы в Иран;X
+lend_lease_ammunition_PER_desc; ;X
+lend_lease_ammunition_EGY_title;Отправить боеприпасы в Египет;X
+lend_lease_ammunition_EGY_desc; ;X
+lend_lease_ammunition_ARA_title;Отправить боеприпасы в Арабский халифат;X
+lend_lease_ammunition_ARA_desc; ;X
+lend_lease_ammunition_BRZ_title;Отправить боеприпасы в Бразилию;X
+lend_lease_ammunition_BRZ_desc; ;X
+lend_lease_ammunition_CHI_title;Отправить боеприпасы в Китай;X
+lend_lease_ammunition_CHI_desc; ;X
+lend_lease_ammunition_BOC_title;Отправить боеприпасы в Ост-Индскую компанию;X
+lend_lease_ammunition_BOC_desc; ;X
+lend_lease_small_arms_ENG_title;Отправить стрелковое оружие в Великобританию;X
+lend_lease_small_arms_ENG_desc; ;X
+lend_lease_small_arms_FRA_title;Отправить стрелковое оружие во Францию;X
+lend_lease_small_arms_FRA_desc; ;X
+lend_lease_small_arms_RUS_title;Отправить стрелковое оружие в Россию;X
+lend_lease_small_arms_RUS_desc; ;X
+lend_lease_small_arms_PRU_title;Отправить стрелковое оружие в Пруссию;X
+lend_lease_small_arms_PRU_desc; ;X
+lend_lease_small_arms_NGF_title;Отправить стрелковое оружие в Северогерманскую федерацию;X
+lend_lease_small_arms_NGF_desc; ;X
+lend_lease_small_arms_GER_title;Отправить стрелковое оружие в Германию;X
+lend_lease_small_arms_GER_desc; ;X
+lend_lease_small_arms_AUS_title;Отправить стрелковое оружие в Австрию;X
+lend_lease_small_arms_AUS_desc; ;X
+lend_lease_small_arms_KUK_title;Отправить стрелковое оружие в Австро-Венгрию;X
+lend_lease_small_arms_KUK_desc; ;X
+lend_lease_small_arms_USA_title;Отправить стрелковое оружие в США;X
+lend_lease_small_arms_USA_desc; ;X
+lend_lease_small_arms_JAP_title;Отправить стрелковое оружие в Японию;X
+lend_lease_small_arms_JAP_desc; ;X
+lend_lease_small_arms_ITA_title;Отправить стрелковое оружие в Италию;X
+lend_lease_small_arms_ITA_desc; ;X
+lend_lease_small_arms_SWE_title;Отправить стрелковое оружие в Швецию;X
+lend_lease_small_arms_SWE_desc; ;X
+lend_lease_small_arms_SCA_title;Отправить стрелковое оружие в Скандинавию;X
+lend_lease_small_arms_SCA_desc; ;X
+lend_lease_small_arms_NET_title;Отправить стрелковое оружие в Нидерланды;X
+lend_lease_small_arms_NET_desc; ;X
+lend_lease_small_arms_SPA_title;Отправить стрелковое оружие в Испанию;X
+lend_lease_small_arms_SPA_desc; ;X
+lend_lease_small_arms_TUR_title;Отправить стрелковое оружие в Турцию;X
+lend_lease_small_arms_TUR_desc; ;X
+lend_lease_small_arms_LAF_title;Отправить стрелковое оружие в ЮАФ;X
+lend_lease_small_arms_LAF_desc; ;X
+lend_lease_small_arms_SAR_title;Отправить стрелковое оружие в Сардинию;X
+lend_lease_small_arms_SAR_desc; ;X
+lend_lease_small_arms_DNF_title;Отправить стрелковое оружие в Дунайскую Федерацию;X
+lend_lease_small_arms_DNF_desc; ;X
+lend_lease_small_arms_ISH_title;Отправить стрелковое оружие в Исламский Халифат;X
+lend_lease_small_arms_ISH_desc; ;X
+lend_lease_small_arms_JPE_title;Отправить стрелковое оружие в Японскую империю;X
+lend_lease_small_arms_JPE_desc; ;X
+lend_lease_small_arms_HND_title;Отправить стрелковое оружие в Индию;X
+lend_lease_small_arms_HND_desc; ;X
+lend_lease_small_arms_ITE_title;Отправить стрелковое оружие в Итальянскую империю;X
+lend_lease_small_arms_ITE_desc; ;X
+lend_lease_small_arms_MEX_title;Отправить стрелковое оружие в Мексику;X
+lend_lease_small_arms_MEX_desc; ;X
+lend_lease_small_arms_PER_title;Отправить стрелковое оружие в Иран;X
+lend_lease_small_arms_PER_desc; ;X
+lend_lease_small_arms_EGY_title;Отправить стрелковое оружие в Египет;X
+lend_lease_small_arms_EGY_desc; ;X
+lend_lease_small_arms_ARA_title;Отправить стрелковое оружие в Арабский халифат;X
+lend_lease_small_arms_ARA_desc; ;X
+lend_lease_small_arms_BRZ_title;Отправить стрелковое оружие в Бразилию;X
+lend_lease_small_arms_BRZ_desc; ;X
+lend_lease_small_arms_CHI_title;Отправить стрелковое оружие в Китай;X
+lend_lease_small_arms_CHI_desc; ;X
+lend_lease_small_arms_BOC_title;Отправить стрелковое оружие в Ост-Индскую компанию;X
+lend_lease_small_arms_BOC_desc; ;X
+lend_lease_artillery_ENG_title;Отправить артиллерию в Великобританию;X
+lend_lease_artillery_ENG_desc; ;X
+lend_lease_artillery_FRA_title;Отправить артиллерию во Францию;X
+lend_lease_artillery_FRA_desc; ;X
+lend_lease_artillery_RUS_title;Отправить артиллерию в Россию;X
+lend_lease_artillery_RUS_desc; ;X
+lend_lease_artillery_PRU_title;Отправить артиллерию в Пруссию;X
+lend_lease_artillery_PRU_desc; ;X
+lend_lease_artillery_NGF_title;Отправить артиллерию в Северогерманскую федерацию;X
+lend_lease_artillery_NGF_desc; ;X
+lend_lease_artillery_GER_title;Отправить артиллерию в Германию;X
+lend_lease_artillery_GER_desc; ;X
+lend_lease_artillery_AUS_title;Отправить артиллерию в Австрию;X
+lend_lease_artillery_AUS_desc; ;X
+lend_lease_artillery_KUK_title;Отправить артиллерию в Австро-Венгрию;X
+lend_lease_artillery_KUK_desc; ;X
+lend_lease_artillery_USA_title;Отправить артиллерию в США;X
+lend_lease_artillery_USA_desc; ;X
+lend_lease_artillery_JAP_title;Отправить артиллерию в Японию;X
+lend_lease_artillery_JAP_desc; ;X
+lend_lease_artillery_ITA_title;Отправить артиллерию в Италию;X
+lend_lease_artillery_ITA_desc; ;X
+lend_lease_artillery_SWE_title;Отправить артиллерию в Швецию;X
+lend_lease_artillery_SWE_desc; ;X
+lend_lease_artillery_SCA_title;Отправить артиллерию в Скандинавию;X
+lend_lease_artillery_SCA_desc; ;X
+lend_lease_artillery_NET_title;Отправить артиллерию в Нидерланды;X
+lend_lease_artillery_NET_desc; ;X
+lend_lease_artillery_SPA_title;Отправить артиллерию в Испанию;X
+lend_lease_artillery_SPA_desc; ;X
+lend_lease_artillery_TUR_title;Отправить артиллерию в Турцию;X
+lend_lease_artillery_TUR_desc; ;X
+lend_lease_artillery_LAF_title;Отправить артиллерию в ЮАФ;X
+lend_lease_artillery_LAF_desc; ;X
+lend_lease_artillery_SAR_title;Отправить артиллерию в Сардинию;X
+lend_lease_artillery_SAR_desc; ;X
+lend_lease_artillery_DNF_title;Отправить артиллерию в Дунайскую Федерацию;X
+lend_lease_artillery_DNF_desc; ;X
+lend_lease_artillery_ISH_title;Отправить артиллерию в Исламский Халифат;X
+lend_lease_artillery_ISH_desc; ;X
+lend_lease_artillery_JPE_title;Отправить артиллерию в Японскую империю;X
+lend_lease_artillery_JPE_desc; ;X
+lend_lease_artillery_HND_title;Отправить артиллерию в Индию;X
+lend_lease_artillery_HND_desc; ;X
+lend_lease_artillery_ITE_title;Отправить артиллерию в Итальянскую империю;X
+lend_lease_artillery_ITE_desc; ;X
+lend_lease_artillery_MEX_title;Отправить артиллерию в Мексику;X
+lend_lease_artillery_MEX_desc; ;X
+lend_lease_artillery_PER_title;Отправить артиллерию в Иран;X
+lend_lease_artillery_PER_desc; ;X
+lend_lease_artillery_EGY_title;Отправить артиллерию в Египет;X
+lend_lease_artillery_EGY_desc; ;X
+lend_lease_artillery_ARA_title;Отправить артиллерию в Арабский халифат;X
+lend_lease_artillery_ARA_desc; ;X
+lend_lease_artillery_BRZ_title;Отправить артиллерию в Бразилию;X
+lend_lease_artillery_BRZ_desc; ;X
+lend_lease_artillery_CHI_title;Отправить артиллерию в Китай;X
+lend_lease_artillery_CHI_desc; ;X
+lend_lease_artillery_BOC_title;Отправить артиллерию в Ост-Индскую компанию;X
+lend_lease_artillery_BOC_desc; ;X
+lend_lease_canned_food_ENG_title;Отправить консервы в Великобританию;X
+lend_lease_canned_food_ENG_desc; ;X
+lend_lease_canned_food_FRA_title;Отправить консервы во Францию;X
+lend_lease_canned_food_FRA_desc; ;X
+lend_lease_canned_food_RUS_title;Отправить консервы в Россию;X
+lend_lease_canned_food_RUS_desc; ;X
+lend_lease_canned_food_PRU_title;Отправить консервы в Пруссию;X
+lend_lease_canned_food_PRU_desc; ;X
+lend_lease_canned_food_NGF_title;Отправить консервы в Северогерманскую федерацию;X
+lend_lease_canned_food_NGF_desc; ;X
+lend_lease_canned_food_GER_title;Отправить консервы в Германию;X
+lend_lease_canned_food_GER_desc; ;X
+lend_lease_canned_food_AUS_title;Отправить консервы в Австрию;X
+lend_lease_canned_food_AUS_desc; ;X
+lend_lease_canned_food_KUK_title;Отправить консервы в Австро-Венгрию;X
+lend_lease_canned_food_KUK_desc; ;X
+lend_lease_canned_food_USA_title;Отправить консервы в США;X
+lend_lease_canned_food_USA_desc; ;X
+lend_lease_canned_food_JAP_title;Отправить консервы в Японию;X
+lend_lease_canned_food_JAP_desc; ;X
+lend_lease_canned_food_ITA_title;Отправить консервы в Италию;X
+lend_lease_canned_food_ITA_desc; ;X
+lend_lease_canned_food_SWE_title;Отправить консервы в Швецию;X
+lend_lease_canned_food_SWE_desc; ;X
+lend_lease_canned_food_SCA_title;Отправить консервы в Скандинавию;X
+lend_lease_canned_food_SCA_desc; ;X
+lend_lease_canned_food_NET_title;Отправить консервы в Нидерланды;X
+lend_lease_canned_food_NET_desc; ;X
+lend_lease_canned_food_SPA_title;Отправить консервы в Испанию;X
+lend_lease_canned_food_SPA_desc; ;X
+lend_lease_canned_food_TUR_title;Отправить консервы в Турцию;X
+lend_lease_canned_food_TUR_desc; ;X
+lend_lease_canned_food_LAF_title;Отправить консервы в ЮАФ;X
+lend_lease_canned_food_LAF_desc; ;X
+lend_lease_canned_food_SAR_title;Отправить консервы в Сардинию;X
+lend_lease_canned_food_SAR_desc; ;X
+lend_lease_canned_food_DNF_title;Отправить консервы в Дунайскую Федерацию;X
+lend_lease_canned_food_DNF_desc; ;X
+lend_lease_canned_food_ISH_title;Отправить консервы в Исламский Халифат;X
+lend_lease_canned_food_ISH_desc; ;X
+lend_lease_canned_food_JPE_title;Отправить консервы в Японскую империю;X
+lend_lease_canned_food_JPE_desc; ;X
+lend_lease_canned_food_HND_title;Отправить консервы в Индию;X
+lend_lease_canned_food_HND_desc; ;X
+lend_lease_canned_food_ITE_title;Отправить консервы в Итальянскую империю;X
+lend_lease_canned_food_ITE_desc; ;X
+lend_lease_canned_food_MEX_title;Отправить консервы в Мексику;X
+lend_lease_canned_food_MEX_desc; ;X
+lend_lease_canned_food_PER_title;Отправить консервы в Иран;X
+lend_lease_canned_food_PER_desc; ;X
+lend_lease_canned_food_EGY_title;Отправить консервы в Египет;X
+lend_lease_canned_food_EGY_desc; ;X
+lend_lease_canned_food_ARA_title;Отправить консервы в Арабский халифат;X
+lend_lease_canned_food_ARA_desc; ;X
+lend_lease_canned_food_BRZ_title;Отправить консервы в Бразилию;X
+lend_lease_canned_food_BRZ_desc; ;X
+lend_lease_canned_food_CHI_title;Отправить консервы в Китай;X
+lend_lease_canned_food_CHI_desc; ;X
+lend_lease_canned_food_BOC_title;Отправить консервы в Ост-Индскую компанию;X
+lend_lease_canned_food_BOC_desc; ;X
+freedom_of_womb;Свободное рождение;X
+machine_guns_researched;Армия оснащена пулеметным вооружением;X
+machine_guns_des_on_title;Пулеметное вооружение;X
+machine_guns_des_on_desc; ;X
+machine_guns_des_off_title;Закрыть раздел;X
+machine_guns_des_off_desc; ;X
+machineguns_1_title;Разработка пулемета;X
+machineguns_1_desc; ;X
+machineguns_2_title;Испытание рабочих моделей;X
+machineguns_2_desc; ;X
+machineguns_3_title;Организация и обучение пулеметных расчетов;X
+machineguns_3_desc; ;X
+machine_guns_research_1;Разработка пулемета;X
+machine_guns_research_2;Испытание рабочих моделей;X
+machine_guns_research_3;Организация и обучение пулеметных расчетов;X
+ger_army_limit;Прусский милитаризм;X
+asia_reduced_convrt;Социальная катастрофа;X
+army_limit_nerf_title;Расширение сухопутных вооруженных сил;X
+army_limit_nerf_desc; ;X
+eng_royal_fleet;Британские верфи;X
+eng_naval_bases;Расширение военных верфей;X
+eng_army_limit_debuff;Дефицит кадровых офицеров;X
+war_support0;Поддержка войны 100%;X
+war_support10;Поддержка войны 90%;X
+war_support20;Поддержка войны 80%;X
+war_support30;Поддержка войны 70%;X
+war_support40;Поддержка войны 60%;X
+annex_denmark;Установление контроля над регионом;X
+AFR;Африка;X
+AFR_ADJ;Африканск.;X
+push_col_pops_title;Поддержать колониальную миграцию;X
+colonial_push_cooldown;Восстановление пула добровольцев в колонии;X
+colonial_push_cooldown2;+1% миграции;X
+Push_to_Africa;Миграция в колонии;X
+Push_go_go;Колониальная миграция;X
+Push_to_Africa2;Миграция в колонии2;X
+Push_go_go2;Добровольцы закончились;X

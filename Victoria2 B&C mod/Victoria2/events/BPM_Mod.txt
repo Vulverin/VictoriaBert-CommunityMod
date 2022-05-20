@@ -1,0 +1,2254 @@
+country_event = {
+	id = 76545
+	title = "Ирландский картофельный голод"
+	desc = "Проклятые ирландцы "
+	picture = "greatpowers"
+	fire_only_once = yes
+	trigger = {
+		tag = ENG
+		year = 1844
+	}
+	mean_time_to_happen = {
+		days = 720
+	}
+	option = {
+		name = "1"
+		any_owned = {
+			limit = {
+				is_core = IRE
+			}
+			add_province_modifier = {
+					name = ire_disaster
+					duration = 1440
+			}
+		}
+	}
+}
+country_event = {
+	id = 999202
+	title = "Доступно боевое применение пулеметов"
+	desc = " "
+	picture = "machine_gun2"
+	trigger = {
+               NOT = { 
+                     has_country_modifier = machine_guns_research_3
+                     has_country_flag = machineguns_flagg_4
+               }
+               has_country_flag = machineguns_flagg_3
+	}
+	option = {
+		name = "Отлично"
+                set_country_flag = machine_guns_researched
+                set_country_flag = machineguns_flagg_4
+	}
+}
+country_event = {
+	id = 18889
+	title = "Переходной этап индустриализации"
+	desc = " "
+	picture = "modernsccct"
+	trigger = {
+                ai = no
+		NOT = {
+                      craftsmen = 0.2
+                     
+                      has_country_flag = agr_soccs2
+                }
+                 
+                     craftsmen = 0.1
+                     
+                
+	}
+	option = {
+		name = "Общество пока не готово"
+                set_country_flag = agr_soccs2
+	}
+}
+
+country_event = {
+	id = 18890
+	title = "Индустриальное общество"
+	desc = " "
+	picture = "modernsccct"
+	trigger = {
+                ai = no
+                NOT = {
+                       has_country_flag = agr_soccs3
+                }
+                craftsmen = 0.2
+                
+               
+	}
+	option = {
+		name = "Мы добились потрясающих результатов!"
+                clr_country_flag = agr_soccs2
+                set_country_flag = agr_soccs3
+	}
+}
+
+country_event = {
+
+	id = 88881
+        title = "EVTNAME88881"
+	desc = "EVTDESC88881"
+        picture = "engpalrnm" 
+
+	trigger = {
+                tag = POR
+                year = 1831
+                OR = {
+                      government = hms_government
+                      government = democracy
+                }
+                   NOT = {
+                       has_country_modifier = por_army_support
+                   }
+                   NOT = {
+                       has_country_modifier = por_econom_support
+                   }
+                   NOT = {
+                       has_country_modifier = por_national_support
+                   }
+                   NOT = {
+                       has_country_modifier = por_culture_support
+                   }
+        }
+	option = {
+		name = "EVTOPTA88881"
+                add_country_modifier = {
+                               name = por_army_support
+                               duration = 2555
+                }
+        }
+        option = {
+                name = "EVTOPTB88881"
+                add_country_modifier = {
+                               name = por_econom_support
+                               duration = 2555
+                }
+        }
+        option = {
+                name = "EVTOPTC88881"
+                add_country_modifier = {
+                               name = por_national_support
+                               duration = 2555
+                }
+        }
+        option = {
+                name = "EVTOPTD88881"
+                add_country_modifier = {
+                               name = por_culture_support
+                               duration = 2555
+                }
+        }
+}
+
+country_event = {
+	id = 14234
+	title = "EVTNAME14234"
+	desc = "EVTDESC14234"
+	picture = "dasdas"
+	trigger = {
+                AI = no
+                NOT = {
+                       has_country_modifier = national_army_doctrine
+                }
+                NOT = {
+                       has_country_modifier = national_navy_doctrine
+                }
+                NOT = {
+                       has_country_modifier = national_isol_doctrine
+                }
+                NOT = {
+                       has_country_modifier = national_migr_doctrine
+                }
+                NOT = {
+                       has_country_modifier = national_econ_doctrine
+                }
+        }
+	option = {
+		name = "EVTOPTA14234"
+                add_country_modifier = {
+                               name = national_army_doctrine
+                               duration = 10950
+                }
+        }
+        option = {
+                name = "EVTOPTB14234"
+                add_country_modifier = {
+                               name = national_navy_doctrine
+                               duration = 10950
+                }
+        }
+        option = {
+                name = "EVTOPTC14234"
+                add_country_modifier = {
+                               name = national_isol_doctrine
+                               duration = 10950
+                }
+        }
+        option = {
+                name = "EVTOPTD14234"
+                add_country_modifier = {
+                               name = national_migr_doctrine
+                               duration = 10950
+                }
+        }
+        option = {
+                name = "EVTOPTE14234"
+                add_country_modifier = {
+                               name = national_econ_doctrine
+                               duration = 10950
+                }
+        }
+}
+
+country_event = {
+	id = 88888
+	title = "EVTNAME88888"
+	desc = "EVTDESC88888"
+	picture = "modernsccct"
+	trigger = {
+                civilized = yes
+                year = 1900
+                literacy = 0.5
+                AI = no
+                NOT = {
+                       has_country_modifier = modern_socsss
+                }
+        }
+
+	option = {
+		name = "EVTOPTA88888"
+                add_country_modifier = {
+                          name = modern_socsss
+                          duration = -1
+                }
+	}
+}
+country_event = {
+	id = 99979
+	title = "EVTNAME99979"
+	desc = "EVTDESC99979"
+	picture = "asian_ruler"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99979"
+		CHI = {
+                        money = 500000
+                        research_points = 5000
+                }   
+	}
+}
+country_event = {
+	id = 99918
+	title = "Указ конгресса о расширении вооруженных сил выполнен"
+	desc = " "
+	picture = "danishgovernment"
+        trigger = {
+                  tag = USA
+                  USA = {
+                        NOT = {
+                               has_country_flag = usa_army_limit
+                               has_country_modifier = us_congress_army
+                        }
+                  }
+        }
+	
+	option = {
+		name = "А достаточно ли?"
+                set_country_flag = usa_army_limit   
+	}
+}
+country_event = {
+	id = 99917
+	title = "Катастрофическая отсталость страны"
+	desc = " "
+	picture = "starving"
+        trigger = {
+                  tag = BOC
+                  BOC = {
+                        NOT = {
+                               has_country_modifier = indian_debuff
+                        }
+                        civilized = yes
+                        ai = no
+                  }
+        }
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "Необходимо интегрировать опыт западных стран"
+                add_country_modifier = {
+                               name = indian_debuff
+                               duration = -1
+                }        
+	}
+}
+country_event = {
+	id = 99916
+	title = "Катастрофическая отсталость страны"
+	desc = " "
+	picture = "asian_ruler"
+        trigger = {
+                  tag = CHI
+                  CHI = {
+                        NOT = {
+                               has_country_modifier = chinese_debuff
+                        }
+                        civilized = yes
+                        ai = no
+                  }
+        }
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "Необходимо интегрировать опыт западных стран"
+                add_country_modifier = {
+                               name = chinese_debuff
+                               duration = -1
+                }        
+	}
+}
+country_event = {
+	id = 99915
+	title = "Страна достигла уровня западных держав!"
+	desc = " "
+	picture = "japanese_power"
+	trigger = {
+                  tag = JPE
+                  literacy = 0.5
+                  year = 1860
+        }
+	fire_only_once = yes
+	
+	option = {
+		name = "Превосходно!"
+                remove_country_modifier = japanese_debuff
+                clr_country_flag = asia_reduced_convrt
+	}
+}
+country_event = {
+	id = 99914
+	title = "Отсталость страны"
+	desc = " "
+	picture = "japanese_power"
+        trigger = {
+                  tag = JAP
+                  JAP = {
+                       NOT = {
+                          has_country_modifier = japanese_debuff
+                       }
+                   }
+        }
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "Необходимо интегрировать опыт западных стран"
+                set_country_flag = asia_reduced_convrt
+                add_country_modifier = {
+                               name = japanese_debuff
+                               duration = -1
+                }        
+	}
+}
+country_event = {
+	id = 99912
+	title = "США требуют открыть порты для торговли!"
+	desc = " "
+	picture = "asian_ruler"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "У нас нет выбора"
+                add_country_modifier = {
+                               name = opium_infl_usa
+                               duration = 3650
+                }
+                ai_chance = {
+                          factor = 50
+                }
+                
+	}
+        option = {
+               name = "Прогнать их!"
+               USA = {
+                      add_country_modifier = {
+                               name = china_refused
+                               duration = 3650
+                      }
+               }
+               ai_chance = {
+                          factor = 50
+               }
+               
+        }
+}
+country_event = {
+	id = 99913
+	title = "Торговля опиумом в Китае принесла прибыль"
+	desc = " "
+	picture = "asian_ruler"
+        trigger = {
+                  tag = USA
+                  USA = {
+                      NOT = {
+                        has_country_modifier = opiumplus
+                      }
+                  }
+                  CHI = {
+                        has_country_modifier = opium_infl_usa
+                  }
+        }
+	
+	option = {
+		name = "Отлично"
+		USA = {
+                        money = 500000
+                        add_country_modifier = {
+                                              name = opiumplus
+                                              duration = 365
+                        }
+                }   
+	}
+}
+country_event = {
+	id = 99911
+	title = "Франция требует открыть порты для торговли!"
+	desc = " "
+	picture = "asian_ruler"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "У нас нет выбора"
+                add_country_modifier = {
+                               name = opium_infl_fr
+                               duration = 3650
+                }
+                ai_chance = {
+                          factor = 50
+                }
+                
+	}
+        option = {
+               name = "Прогнать их!"
+               FRA = {
+                      add_country_modifier = {
+                               name = china_refused
+                               duration = 3650
+                      }
+               }
+               ai_chance = {
+                          factor = 50
+               }
+               
+        }
+}
+country_event = {
+	id = 99910
+	title = "Торговля опиумом в Китае принесла прибыль"
+	desc = " "
+	picture = "asian_ruler"
+        trigger = {
+                  tag = FRA
+                  FRA = {
+                      NOT = {
+                        has_country_modifier = opiumplus
+                      }
+                  }
+                  CHI = {
+                        has_country_modifier = opium_infl_fr
+                  }
+        }
+	
+	option = {
+		name = "Отлично"
+		FRA = {
+                        money = 500000
+                        add_country_modifier = {
+                                              name = opiumplus
+                                              duration = 365
+                        }
+                }   
+	}
+}
+country_event = {
+	id = 99976
+	title = "Торговля опиумом в Китае принесла прибыль"
+	desc = " "
+	picture = "asian_ruler"
+        trigger = {
+                  tag = ENG
+                  ENG = {
+                      NOT = {
+                        has_country_modifier = opiumplus
+                      }
+                  }
+                  CHI = {
+                        has_country_modifier = opium_infl
+                  }
+        }
+	
+	option = {
+		name = "Отлично"
+		ENG = {
+                        money = 500000
+                        add_country_modifier = {
+                                              name = opiumplus
+                                              duration = 365
+                        }
+                }   
+	}
+}
+country_event = {
+	id = 99977
+	title = "EVTNAME99977"
+	desc = "EVTDESC99977"
+	picture = "asian_ruler"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99977"
+                add_country_modifier = {
+                               name = opium_infl
+                               duration = 3650
+                }
+                ai_chance = {
+                          factor = 50
+                }
+                
+	}
+        option = {
+               name = "EVTOPTB99977"
+               ENG = {
+                      add_country_modifier = {
+                               name = china_refused
+                               duration = 3650
+                      }
+               }
+               ai_chance = {
+                          factor = 50
+               }
+               
+        }
+}
+
+country_event = {
+	id = 99978
+	title = "EVTNAME99978"
+	desc = "EVTDESC99978"
+	picture = "asian_ruler"
+	trigger = {
+                  tag = CHI
+                  CHI = {
+                         NOT = {
+                               owns = 1496
+                               owns = 1498
+                               owns = 1609
+                               owns = 1569
+                               owns = 1608
+                        }
+                 }
+        }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPTA99978"
+		CHI = {
+                       add_country_modifier = {
+                               name = west_infl
+                               duration = 14600
+                       }
+                }   
+	}
+}
+
+# eng_us_prod
+country_event = {
+	id = 99980
+	title = "EVTNAME99980"
+	desc = "EVTDESC99980"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99980"
+		USA = {
+                       add_country_modifier = {
+                               name = eng_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                ENG = {
+                       add_country_modifier = {
+                               name = american_trade_eng
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99980"
+	}
+}
+
+# fra_us_prod
+country_event = {
+	id = 99982
+	title = "EVTNAME99982"
+	desc = "EVTDESC99982"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99982"
+		USA = {
+                       add_country_modifier = {
+                               name = fra_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                ENG = {
+                       add_country_modifier = {
+                               name = american_trade_fra
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99982"
+	}
+}
+
+# ger_us_prod
+country_event = {
+	id = 99983
+	title = "EVTNAME99983"
+	desc = "EVTDESC99983"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99983"
+		USA = {
+                       add_country_modifier = {
+                               name = ger_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                GER = {
+                       add_country_modifier = {
+                               name = american_trade_ger
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99983"
+	}
+}
+
+# ita_us_prod
+country_event = {
+	id = 99984
+	title = "EVTNAME99984"
+	desc = "EVTDESC99984"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99984"
+		USA = {
+                       add_country_modifier = {
+                               name = ita_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                ITA = {
+                       add_country_modifier = {
+                               name = american_trade_ita
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99984"
+	}
+}
+
+# ite_us_prod
+country_event = {
+	id = 99985
+	title = "EVTNAME99985"
+	desc = "EVTDESC99985"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99985"
+		USA = {
+                       add_country_modifier = {
+                               name = ite_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                ITE = {
+                       add_country_modifier = {
+                               name = american_trade_ite
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99985"
+	}
+}
+
+# kuk_us_prod
+country_event = {
+	id = 99986
+	title = "EVTNAME99986"
+	desc = "EVTDESC99986"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99986"
+		USA = {
+                       add_country_modifier = {
+                               name = kuk_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                KUK = {
+                       add_country_modifier = {
+                               name = american_trade_kuk
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99986"
+	}
+}
+
+# dnf_us_prod
+country_event = {
+	id = 99987
+	title = "EVTNAME99987"
+	desc = "EVTDESC99987"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99987"
+		USA = {
+                       add_country_modifier = {
+                               name = dnf_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                DNF = {
+                       add_country_modifier = {
+                               name = american_trade_dnf
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99987"
+	}
+}
+
+# spa_us_prod
+country_event = {
+	id = 99988
+	title = "EVTNAME99988"
+	desc = "EVTDESC99988"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99988"
+		USA = {
+                       add_country_modifier = {
+                               name = spa_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                SPA = {
+                       add_country_modifier = {
+                               name = american_trade_spa
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99988"
+	}
+}
+
+# rus_us_prod
+country_event = {
+	id = 99989
+	title = "EVTNAME99989"
+	desc = "EVTDESC99989"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99989"
+		USA = {
+                       add_country_modifier = {
+                               name = rus_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                RUS = {
+                       add_country_modifier = {
+                               name = american_trade_rus
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99989"
+	}
+}
+
+# tur_us_prod
+country_event = {
+	id = 99990
+	title = "EVTNAME99990"
+	desc = "EVTDESC99990"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99990"
+		USA = {
+                       add_country_modifier = {
+                               name = tur_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                TUR = {
+                       add_country_modifier = {
+                               name = american_trade_tur
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99990"
+	}
+}
+
+# ish_us_prod
+country_event = {
+	id = 99994
+	title = "EVTNAME99994"
+	desc = "EVTDESC99994"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99994"
+		USA = {
+                       add_country_modifier = {
+                               name = ish_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                ISH = {
+                       add_country_modifier = {
+                               name = american_trade_ish
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99994"
+	}
+}
+
+# jpe_us_prod
+country_event = {
+	id = 99995
+	title = "EVTNAME99995"
+	desc = "EVTDESC99995"
+	picture = "Artillery"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA99995"
+		USA = {
+                       add_country_modifier = {
+                               name = jpe_us_boost
+                               duration = 1460
+                       }
+                       money = 1000000
+                }
+                JPE = {
+                       add_country_modifier = {
+                               name = american_trade_jpe
+                               duration = 1460
+                       }
+                }
+	}
+	
+	option = {
+		name = "EVTOPTB99995"
+	}
+}
+
+country_event = {
+	id = 96665 #$COUNTRY_ADJ$ Patriots (Annexation Event)
+	title = "EVTNAME100011"
+	desc = "EVTDESC100011"
+	picture = "rebellion"
+
+	trigger = {
+		any_neighbor_country = {
+			any_owned_province = {
+				has_province_modifier = patriots
+				controlled_by = REB
+				province_control_days = 60
+				is_core = THIS
+				OR = {
+					AND = {
+						is_coastal = yes
+						province_control_days = 90
+					}
+					any_neighbor_province = {
+						owned_by = THIS
+					}
+				}
+				state_scope = {
+					NOT = {
+						any_owned_province = {
+							is_core = THIS
+							NOT = { controlled_by = REB }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA100011"
+		random_country = {
+			limit = {
+				neighbour = THIS
+				any_owned_province = {
+					has_province_modifier = patriots
+					controlled_by = REB
+					province_control_days = 60
+					is_core = THIS
+					OR = {
+						AND = {
+							is_coastal = yes
+							province_control_days = 90
+						}
+						any_neighbor_province = {
+							owned_by = THIS
+						}
+					}
+					state_scope = {
+						NOT = {
+							any_owned_province = {
+								is_core = THIS
+								NOT = { controlled_by = REB }
+							}
+						}
+					}
+				}
+			}
+			relation = {
+				who = THIS
+				value = -50
+			}
+			casus_belli = {
+				target = THIS
+				type = humiliate
+				months = 12
+			}
+		}	
+		any_neighbor_country = {
+			any_state = {
+				limit = {
+					any_owned_province = {
+						has_province_modifier = patriots
+						controlled_by = REB
+						province_control_days = 60
+						is_core = THIS
+						OR = {
+							AND = {
+								is_coastal = yes
+								province_control_days = 90
+							}
+							any_neighbor_province = {
+								owned_by = THIS
+							}
+						}
+					}
+					NOT = {
+						any_owned_province = {
+							is_core = THIS
+							NOT = { controlled_by = REB }
+						}
+					}
+				}
+				any_owned = {
+					limit = { is_core = THIS }
+					remove_province_modifier = patriots
+					any_pop = {
+						militancy = -10
+					}
+					secede_province = THIS
+					change_controller = THIS
+				}
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVTOPTB100011"
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = 3
+		}
+		random_country = {
+			limit = {
+				neighbour = THIS
+				any_owned_province = {
+					has_province_modifier = patriots
+					controlled_by = REB
+					province_control_days = 60
+					is_core = THIS
+					OR = {
+						AND = {
+							is_coastal = yes
+							province_control_days = 90
+						}
+						any_neighbor_province = {
+							owned_by = THIS
+						}
+					}
+					state_scope = {
+						NOT = {
+							any_owned_province = {
+								is_core = THIS
+								NOT = { controlled_by = REB }
+							}
+						}
+					}
+				}
+			}
+			relation = {
+				who = THIS
+				value = 20
+			}
+		}
+		any_neighbor_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = patriots
+					controlled_by = REB
+					province_control_days = 60
+					is_core = THIS
+					OR = {
+						AND = {
+							is_coastal = yes
+							province_control_days = 90
+						}
+						any_neighbor_province = {
+							owned_by = THIS
+						}
+					}
+					state_scope = {
+						NOT = {
+							any_owned_province = {
+								is_core = THIS
+								NOT = { controlled_by = REB }
+							}
+						}
+					}
+				}
+				remove_province_modifier = patriots
+				any_pop = {
+					militancy = -10
+				}
+			}
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+# badboy off
+country_event = {
+	id = 96666
+	title = "EVTNAME96666"
+	desc = "EVTDESC96666"
+	picture = "age_of_colonialism"
+
+	trigger = {
+                NOT = {
+                      has_country_flag = badboy_offfff
+                }
+		ideological_thought = 1
+		civilized = yes
+                nationalvalue = nv_westciv
+	}
+
+	option = {
+		name = "EVTOPTA96666"
+                set_country_flag = badboy_offfff
+		add_country_modifier = {
+			name = badboy_off
+			duration = 21900
+		}
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 10025
+	title = "Эпоха империализма"
+	desc = " "
+	picture = "age_of_imperialism"
+
+	trigger = {
+		year = 1880
+		civilized = yes
+                NOT = {
+                      has_country_modifier = imprlsm_on
+                }
+                number_of_states = 25
+	}
+
+	option = {
+		name = "Отлично!"
+		add_country_modifier = {
+			name = imprlsm_on
+			duration = -1
+		}
+                remove_country_modifier = badboy_off
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 91001
+	title = "EVTNAME91001"
+	desc = "EVTDESC91001"
+	picture = "prisonworkers"
+	trigger = {
+                ai = no
+                is_colonial = no
+                blockade = 1
+		not = {
+			has_country_flag = full_blockaded
+		}
+	}
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	option = {
+		name = "EVTOPTA91001"
+		set_country_flag = full_blockaded
+		any_country = {
+			limit = {
+				war_with = THIS
+				AI = no
+			}
+			country_event = {
+			id = 91003
+			days = 0
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 91002
+	title = "EVTNAME91002"
+	desc = "EVTDESC91002"
+	picture = "prisonworkers"
+	trigger = {
+		ai = no
+		not = {
+			blockade = 1
+		}
+		has_country_flag = full_blockaded
+	}
+	mean_time_to_happen = {
+		months = 0.1
+	}
+	option = {
+		name = "EVTOPTA91002"
+		clr_country_flag = full_blockaded
+		any_country = {
+			limit = {
+				war_with = THIS
+				AI = no
+			}
+			country_event = {
+			id = 91004
+			days = 0
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 91003
+	title = "EVTNAME91003"
+	desc = "EVTDESC91003"
+	picture = "prisonworkers"
+	trigger = {
+	 NOT = {
+		has_country_flag = full_blockade
+	 }
+	}
+	is_triggered_only = yes
+	mean_time_to_happen = {
+	}
+	option = {
+		name = "EVTOPTA91003"
+		set_country_flag = full_blockade
+	}
+}
+
+country_event = {
+	id = 91004
+	title = "EVTNAME91004"
+	desc = "EVTDESC91004"
+	picture = "prisonworkers"
+	trigger = {
+		has_country_flag = full_blockade
+	}
+	is_triggered_only = yes
+	mean_time_to_happen = {
+	}
+	option = {
+		name = "EVTOPTA91004"
+		clr_country_flag = full_blockade
+	}
+}
+country_event = {
+        id = 99001
+        title = "Стимуляция рождаемости"
+        desc = " "
+	picture = "greatpowers"
+        trigger = {
+                ai = no
+                has_country_flag = factory_boom
+                }
+                is_triggered_only = yes
+	mean_time_to_happen = {
+	}
+	option = {
+		name = "Отлично"
+		clr_country_flag = factory_boom
+	}
+}
+
+country_event = {
+	id = 100003
+	title = "EVTNAME100003"
+	desc = "EVTDESC100003"
+	picture = "greatpowers"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "EVTOPTA100003"
+		money = 10000
+		add_country_modifier = {
+			name = laf_mobilization
+			duration = 360
+		}
+		relation = {
+			who = ARG
+			value = 400
+		}
+		relation = {
+			who = URU
+			value = 400
+		}
+		relation = {
+			who = PRG
+			value = 400
+		}
+		relation = {
+			who = BRZ
+			value = 400
+		}
+		LAF = {
+			release_vassal = BRZ
+			release_vassal = URU
+			release_vassal = PRG
+			release_vassal = ARG
+		}
+	}
+}
+country_event = {
+	id = 10030
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                ORI = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = ORI      
+	        }
+        }
+}
+country_event = {
+	id = 10031
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                AWA = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = AWA      
+	        }
+        }
+}
+country_event = {
+	id = 10032
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                JAI = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = JAI      
+	        }
+        }
+}
+country_event = {
+	id = 10033
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                BER = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = BER      
+	        }
+        }
+}
+country_event = {
+	id = 10034
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                NAG = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = NAG      
+	        }
+        }
+}
+country_event = {
+	id = 10035
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                MEW = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = MEW      
+	        }
+        }
+}
+country_event = {
+	id = 10036
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                HYD = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = HYD      
+	        }
+        }
+}
+country_event = {
+	id = 10037
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                MYS = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = MYS      
+	        }
+        }
+}
+country_event = {
+	id = 10038
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                BUN = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = BUN      
+	        }
+        }
+}
+country_event = {
+	id = 10039
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                ORI = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = ORI      
+	        }
+        }
+}
+country_event = {
+	id = 10040
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                AWA = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = AWA      
+	        }
+        }
+}
+country_event = {
+	id = 10041
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                JAI = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = JAI      
+	        }
+        }
+}
+country_event = {
+	id = 10042
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                BER = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = BER      
+	        }
+        }
+}
+country_event = {
+	id = 10043
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                NAG = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = NAG      
+	        }
+        }
+}
+country_event = {
+	id = 10044
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                MEW = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = MEW      
+	        }
+        }
+}
+country_event = {
+	id = 10045
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                HYD = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = HYD      
+	        }
+        }
+}
+country_event = {
+	id = 10046
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                MYS = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = MYS      
+	        }
+        }
+}
+country_event = {
+	id = 10047
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                BUN = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = BUN      
+	        }
+        }
+}
+country_event = {
+	id = 10048
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                FOC = {
+                       vassal_of = THIS
+                }
+                MUG = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = MUG      
+	        }
+        }
+}
+country_event = {
+	id = 10026
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                MUG = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = MUG      
+	        }
+        }
+}
+country_event = {
+	id = 10027
+	title = "Поглощение французской торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = ENG
+                BOC = {
+                       vassal_of = THIS
+                }
+                FOC = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                BOC = {  
+                      inherit = FOC      
+	        }
+        }
+}
+country_event = {
+	id = 10028
+	title = "Поглощение британской торговой компании!"
+	desc = " "
+	picture = "indcoloncomp"
+	trigger = {
+                tag = FRA
+                BOC = {
+                       vassal_of = THIS
+                }
+                FOC = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Превосходно"
+                prestige = 25
+                FOC = {  
+                      inherit = BOC      
+	        }
+        }
+}
+country_event = {
+	id = 10063
+	title = "Индийский доминион"
+	desc = " "
+	picture = "indincomefrmcol"
+	trigger = {
+                tag = ENG
+                NOT = {
+                       has_country_modifier = full_ind_eng_ostind_comp
+                }
+                HND = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Продолжайте в том же духе"
+                money = 1000000
+                add_country_modifier = {
+                               name = full_ind_eng_ostind_comp
+                               duration = 1825
+                }
+        }
+}
+country_event = {
+	id = 10064
+	title = "Индийский доминион"
+	desc = " "
+	picture = "indincomefrmcol"
+	trigger = {
+                tag = FRA
+                NOT = {
+                       has_country_modifier = full_ind_fra_ostind_comp
+                }
+                FRI = {
+                       vassal_of = THIS
+                }
+        }
+	option = {
+		name = "Продолжайте в том же духе"
+                money = 1000000
+                add_country_modifier = {
+                               name = full_ind_fra_ostind_comp
+                               duration = 1825
+                }
+        }
+}
+country_event = {
+	id = 10061
+	title = "Императрица Индии"
+	desc = " "
+	picture = "qunfindemp"
+	trigger = {
+                tag = ENG
+                NOT = {
+                      exists = HND
+                      exists = FOC
+                }
+                BOC = {
+                       vassal_of = ENG
+                       owns = 1304
+                       owns = 1317
+                       owns = 1313
+                       owns = 1306
+                       owns = 1308
+                       owns = 1283
+                       owns = 1297
+                       owns = 1280
+                       owns = 1261
+                       owns = 1251
+                       owns = 1255
+                       owns = 1259
+                       owns = 1248
+                       owns = 1244
+                       owns = 1270
+                       owns = 1295
+                       owns = 1268
+                       owns = 1236 
+                }
+        }
+	option = {
+		name = "Жемчужина империи"
+                prestige = 100
+                BOC = {
+                       change_tag = HND
+                }
+                diplomatic_influence = {
+                              who = HND
+                              value = 500
+                }
+        }
+}
+country_event = {
+	id = 10062
+	title = "Император Индии"
+	desc = " "
+	picture = "friindia"
+	trigger = {
+                tag = FRA
+                NOT = {
+                      exists = FRI
+                      exists = BOC
+                }
+                FOC = {
+                       vassal_of = FRA
+                       owns = 1304
+                       owns = 1317
+                       owns = 1313
+                       owns = 1306
+                       owns = 1308
+                       owns = 1283
+                       owns = 1297
+                       owns = 1280
+                       owns = 1261
+                       owns = 1251
+                       owns = 1255
+                       owns = 1259
+                       owns = 1248
+                       owns = 1244
+                       owns = 1270
+                       owns = 1295
+                       owns = 1268
+                       owns = 1236 
+                }
+        }
+	option = {
+		name = "Жемчужина империи"
+                prestige = 100
+                FOC = {
+                       change_tag = FRI
+                }
+                diplomatic_influence = {
+                              who = FRI
+                              value = 500
+                }
+        }
+}
+country_event = {
+	id = 10080
+	title = "Великобритания предлагает компромисс"
+	desc = "Если мы согласимся на их условия, то Великобритания дарует нам торговые привилегии в ее колониях."
+	picture = "dasdas"
+	trigger = {
+                tag = NET
+                ENG = {
+                      has_country_flag = netngl
+                }
+                NOT = {
+                      has_country_flag = netcdgb5
+                }
+        }
+	option = {
+		name = "Звучит довольно выгодно"
+                money = 2000000
+                set_country_flag = netcdgb5
+                NET_1413 = {
+                           secede_province = ENG
+                }
+                add_country_modifier = {
+                               name = netengjavsd
+                               duration = 7300
+                }
+        }
+        option = {
+		name = "Пускай подотрутся своим предложением!"
+        }
+}
+country_event = {
+	id = 10066
+	title = "Открытие канала"
+	desc = " "
+	picture = "canals_pic"
+	trigger = {
+                tag = SWI
+                NOT = {         
+                                has_global_flag = canal1_gibraltar
+				has_global_flag = canal1_bosfor
+                                has_global_flag = canal1_copenhagen
+                                has_global_flag = canal1_singapore
+			}
+        }
+        
+	option = {
+		name = "Отлично"
+                set_global_flag = canal1_bosfor
+		enable_canal = 4
+                set_global_flag = canal1_copenhagen
+	        enable_canal = 5
+                set_global_flag = canal1_gibraltar
+		enable_canal = 6
+                set_global_flag = canal1_singapore
+		enable_canal = 7
+        }
+}
+
+country_event = {
+	id = 10070
+	title = "Дипломатическая миссия"
+	desc = " "
+	picture = "prussian_diplomacy"
+	
+        is_triggered_only = yes
+	option = {
+		name = "1"
+                add_country_modifier = {
+                                name = inlf_mod
+                                duration = -1
+                }
+                PRU = {
+                      country_event = { id=10071 days=0 }
+                }
+                ai_chance = {
+                        factor = 50
+                        modifier = {
+                                 factor = 100
+                                 PRU = {
+                                       is_sphere_leader_of = THIS
+                                 }
+                        }
+                }
+         }
+         option = {
+		name = "2"
+                PRU = {
+                      country_event = { id=10072 days=0 }
+                }
+                ai_chance = {
+                        factor = 50
+                } 
+                        
+        }
+}
+country_event = {
+	id = 10071
+	title = "Наши требования были приняты"
+	desc = " "
+	picture = "prussian_diplomacy"
+	
+        is_triggered_only = yes
+	option = {
+		name = "Отличная новость!"
+                prestige = 5   
+        }
+}
+country_event = {
+	id = 10072
+	title = "Наших дипломатов выслали"
+	desc = " "
+	picture = "prussian_diplomacy"
+	
+        is_triggered_only = yes
+	option = {
+		name = "Возмутительно!"
+                prestige = -5   
+        }
+}
+country_event = {
+	id = 10073
+	title = "Дипломатическая миссия"
+	desc = " "
+	picture = "prussian_diplomacy"
+	
+        is_triggered_only = yes
+	option = {
+		name = "1"
+                add_country_modifier = {
+                                name = inlf_mod
+                                duration = -1
+                }
+                NGF = {
+                      country_event = { id=10071 days=0 }
+                }
+                ai_chance = {
+                        factor = 1
+                        modifier = {
+                                 factor = 80
+                                 NOT = {
+                                       KUK = {
+                                              is_sphere_leader_of = THIS
+                                       }
+                                 }
+                        }
+                }
+         }
+         option = {
+		name = "2"
+                NGF = {
+                      country_event = { id=10072 days=0 }
+                }
+                ai_chance = {
+                        factor = 50
+                } 
+                        
+        }
+}
+country_event = {
+	id = 10074
+	title = "Дипломатическая миссия"
+	desc = " "
+	picture = "prussian_diplomacy"
+	
+        is_triggered_only = yes
+	option = {
+		name = "1"
+                KUK = {
+                      inherit = SGF
+                }
+                KUK = {
+                      country_event = { id=10071 days=0 }
+                }
+                ai_chance = {
+                        factor = 1
+                        modifier = {
+                                 factor = 60
+                                 KUK = {
+                                       is_sphere_leader_of = THIS
+                                 }
+                        }
+                }
+         }
+         option = {
+		name = "2"
+                KUK = {
+                      country_event = { id=10072 days=0 }
+                }
+                ai_chance = {
+                        factor = 50
+                } 
+                        
+        }
+}
+country_event = {
+
+	id = 10075
+        title = "Заседание Бундесрата"
+	desc = " "
+        picture = "gerbundesrat" 
+        is_triggered_only = yes
+	option = {
+		name = "Выделить средства на поддержку вооруженных сил"
+                money = -2000000
+                add_country_modifier = {
+                               name = gerarmy_support
+                               duration = 3650
+                }
+        }
+        option = {
+                name = "Выделить средства для стимулирования экономического роста"
+                money = -2000000
+                add_country_modifier = {
+                               name = gereconom_support
+                               duration = 3650
+                }
+        }
+        option = {
+                name = "Выделить средства на развитие научных исследований"
+                money = -2000000
+                add_country_modifier = {
+                               name = gernational_support
+                               duration = 3650
+                }
+        }
+        option = {
+                name = "Выделить средства на развитие системы образования"
+                money = -2000000
+                add_country_modifier = {
+                               name = gerculture_support
+                               duration = 3650
+                }
+        }
+        option = {
+                name = "Выделить средства на поддержку военно-морских сил"
+                money = -1000000
+                add_country_modifier = {
+                               name = gernavy_support
+                               duration = 3650
+                }
+        }
+}
+country_event = {
+	id = 10079
+	title = "Префектура Манчжурия"
+	desc = " "
+	picture = "japanese_power"
+        fire_only_once = yes
+        trigger = {
+               tag = JPE
+               year = 1880
+               MAJ = {
+                     vassal_of = JPE
+               }
+        }
+	option = {
+		name = "Прекрасно!"
+                MAJ = {
+                      annex_to = THIS
+                }
+         }
+}
+country_event = {
+	id = 10076
+	title = "Демографический взрыв"
+	desc = " "
+	picture = "prussian_diplomacy"
+	trigger = {
+                  tag = GER
+        }
+        fire_only_once = yes
+	option = {
+		name = "Германия расцветает!"
+                add_country_modifier = {
+                          name = gerpopgrowth
+                          duration = 14600
+                }
+         }
+}

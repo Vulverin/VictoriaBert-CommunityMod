@@ -1,0 +1,1292 @@
+political_decisions = {
+	abolish_serfdom = {
+		potential = {
+			tag = RUS
+                        has_country_flag = serfdom_not_abolished
+		}
+		allow = {
+			literacy = 0.3
+                        
+		}
+		effect = {
+			farmers = {
+				militancy = -2
+				consciousness = 1
+			}
+			labourers = {
+				militancy = -2
+				consciousness = 1
+			}
+                        add_country_modifier = {
+				name = serfdom_abolishedd
+				duration = 10950
+			}
+                        clr_country_flag = serfdom_not_abolished
+		}
+	}
+
+        rus_wal = {
+                potential = {
+                              tag = RUS
+                              NOT = {
+                                     has_country_flag = walaarus
+                              }
+                }
+                allow = {
+                          exists = ROM
+                          year = 1840
+                          is_sphere_leader_of = ROM
+                }
+                effect = {
+                          set_country_flag = walaarus
+                          ROM = {
+                                 add_country_modifier = {
+                                        name = russian_romn
+                                        duration = 10950
+                                 }
+                          }
+                }
+        }
+
+        rekon_alx_sl = {
+                 potential = {
+                            tag = RUS
+                            NOT = {
+                                    has_country_flag = rknalxsl
+                            }
+                       }
+                       allow = {
+                                year = 1844
+                                money = 200000
+                       }
+            
+                       effect = {
+                              set_country_flag = rknalxsl
+                              money = -200000
+                              add_country_modifier = {
+                                    name = alex_selo
+                                    duration = 18250
+                              }
+                       }
+        }
+
+        change_sov_tech_schoolll = {
+                       potential = {
+                            tag = RUS
+                            NOT = {
+                                    tech_school = soviet_tech_school
+                            }
+                            government = proletarian_dictatorship
+                       }
+                       allow = {
+                               
+                       }
+            
+                       effect = {
+                              tech_school = soviet_tech_school
+                       }
+        }
+
+        corrupt_rus1 = {
+                 potential = {
+                              tag = RUS
+                              literacy = 0.3
+                              has_country_modifier = ruscorrupt
+                 }
+                 allow = {
+                         money = 1000000
+                 }
+                 effect = {
+                            remove_country_modifier = ruscorrupt
+                            money = -1000000
+                            add_country_modifier = {
+                                    name = rus_corrupt1
+                                    duration = -1
+                            }
+                 }
+        }
+
+        corrupt_rus2 = {
+                 potential = {
+                              tag = RUS
+                              literacy = 0.4
+                              has_country_modifier = rus_corrupt1
+                 }
+                 allow = {
+                         money = 2000000
+                 }
+                 effect = {
+                            remove_country_modifier = rus_corrupt1
+                            money = -2000000
+                            add_country_modifier = {
+                                    name = rus_corrupt2
+                                    duration = -1
+                            }
+                 }
+        }
+
+        corrupt_rus3 = {
+                 potential = {
+                              tag = RUS
+                              literacy = 0.5
+                              has_country_modifier = rus_corrupt2
+                 }
+                 allow = {
+                         money = 4000000
+                 }
+                 effect = {
+                            remove_country_modifier = rus_corrupt2
+                            money = -2000000
+                            money = -2000000
+                 }
+        }
+
+        gubrrus_tr_des_on = { 
+	alert = no 
+        potential = {
+             tag = RUS 
+             not = { has_country_flag = gubrrus_tr_des_window } 
+			
+        } 
+	allow = { ai = no } 
+	effect = { set_country_flag = gubrrus_tr_des_window } 
+	}
+        military_tr_des_off = {
+	alert = no 
+        potential = { has_country_flag = gubrrus_tr_des_window } 
+	allow = { ai = no } 
+	effect = { clr_country_flag = gubrrus_tr_des_window }
+	}
+
+        rus_gubr1 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag1
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag1
+                          RUS_994 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier1
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        
+        rus_gubr2 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag2
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag2
+                          RUS_1008 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier2
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        
+        rus_gubr3 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag3
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag3
+                         RUS_9582 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier3
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        
+        rus_gubr4 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag4
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag4
+                         RUS_958 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier4
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        
+        rus_gubr5 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag5
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag5
+                         RUS_1020 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier5
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        
+        rus_gubr6 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag6
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag6
+                         RUS_1003 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier6
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        
+        rus_gubr7 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag7
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag7
+                          RUS_1037 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier7
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        
+        rus_gubr8 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag8
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag8
+                          RUS_994 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier8
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        
+        rus_gubr9 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag9
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag9
+                         RUS_943 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier9
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        
+        rus_gubr10 = {
+                  potential = {
+                              tag = RUS
+                              has_country_flag = gubrrus_tr_des_window
+                              NOT = {
+                                     has_country_flag = rusgubrflag10
+                              }
+                 }
+                 allow = {
+                         money = 500000
+                 }
+                 effect = {
+                            money = -500000
+                            set_country_flag = rusgubrflag10
+                         RUS_998 = {
+                            add_province_modifier = {
+                                    name = rusgubrmodifier10
+                                    duration = 10950
+                            }
+                          }
+                 }
+        }
+
+        bosfor_rus = {
+                 potential = {
+                              tag = RUS
+                              owns = 860
+                              has_country_modifier = bosfor_is_locked
+                 }
+                 allow = {
+                 }
+                 effect = {
+                            remove_country_modifier = bosfor_is_locked
+                 }
+        }
+
+        
+
+        rus_serbia = {
+                potential = {
+                              tag = RUS
+                              NOT = {
+                                     has_country_flag = serbiaarus
+                              }
+                }
+                allow = {
+                          year = 1835
+                          is_sphere_leader_of = SER
+                }
+                effect = {
+                          set_country_flag = serbiaarus
+                          SER = {
+                                 add_country_modifier = {
+                                        name = russian_serb
+                                        duration = 10950
+                                 }
+                          }
+                }
+        }
+
+        russian_asia = {
+                potential = {
+                              tag = RUS
+                              NOT = {
+                                     has_country_flag = persiarus
+                              }
+                }
+                allow = {
+                          year = 1840
+                          is_sphere_leader_of = PER
+                          OR = {
+                                is_sphere_leader_of = AFG
+                                NOT = {
+                                       exists = AFG
+                                }
+                          }
+                }
+                effect = {
+                          set_country_flag = persiarus
+                          PER = {
+                                 inherit = AFG
+                                 add_accepted_culture = pashtun
+                                 add_accepted_culture = tajik
+                          }
+                }
+        }
+
+        russian_iran = {
+                potential = {
+                              tag = RUS
+                              NOT = {
+                                     has_country_flag = russiairan
+                              }
+                              PER = {
+                                  vassal_of = RUS
+                              } 
+                }
+                allow = {
+                          ai = yes
+                          year = 1860
+                }
+                effect = {
+                          set_country_flag = russiairan
+                          inherit = PER
+                }
+        }
+
+        russian_integration = {
+                potential = {
+                              tag = RUS
+                              NOT = {
+                                     has_country_flag = russipers
+                              }
+                              ENG = {
+                                     NOT = {
+                                            has_country_flag = englpers
+                                     }
+                              }
+                }
+                allow = {
+                          is_sphere_leader_of = PER
+                          OR = {
+                                 PER = {
+                                         owns = 1209
+                                         owns = 1214
+                                 }
+                                 RUS = {
+                                         owns = 1209
+                                         owns = 1214
+                                 }
+                          }
+                }
+                effect = {
+                          set_country_flag = russipers
+                          PER = {
+                                 nationalvalue = nv_ruspersianval
+                                 add_country_modifier = {
+                                        name = russian_invt
+                                        duration = -1
+                                 }
+                          }
+                }
+        }
+
+        english_embargo_asia = {
+                potential = {
+                              tag = RUS
+                              ENG = {
+                                     NOT = {
+                                             has_country_modifier = russian_mdasia
+                                     }
+                              }
+                              PER = {
+                                  vassal_of = RUS
+                              } 
+                }
+                allow = {
+                           OR = {
+                                 PER = {
+                                         owns = 1209
+                                         owns = 1214
+                                 }
+                                 RUS = {
+                                         owns = 1209
+                                         owns = 1214
+                                 }
+                          }
+                }
+                effect = {
+                          
+                          ENG = {
+                                 add_country_modifier = {
+                                        name = russian_mdasia
+                                        duration = 3650
+                                 }
+                          }
+                }
+        }
+        
+        english_embargo_asia1 = {
+                potential = {
+                              tag = RUS
+                              ENG = {
+                                       has_country_modifier = russian_mdasia
+                              }
+                              PER = {
+                                  vassal_of = RUS
+                              } 
+                }
+                allow = {
+                }
+                effect = {
+                          
+                          ENG = {
+                                 remove_country_modifier = russian_mdasia
+                          }
+                }
+        }
+
+        indian_war = {
+                potential = {
+                        tag = RUS
+                        NOT = {
+                                has_country_flag = indwar
+                        }
+                        PER = {
+                                  vassal_of = RUS
+                              } 
+                }
+
+                allow = {
+                            OR = {
+                                 PER = {
+                                         owns = 1209
+                                         owns = 1214
+                                 }
+                                 RUS = {
+                                         owns = 1209
+                                         owns = 1214
+                                 }
+                          }
+                }
+
+                effect = {
+                           KAL = {
+                                   all_core = {
+				          add_core = RUS
+			           }
+                           }
+                           SIN = {
+                                   all_core = {
+				          add_core = RUS
+			           }
+                           }
+                           MUG = {
+                                   all_core = {
+				          add_core = RUS
+			           }
+                           }
+                           1265 = {
+                                   add_core = RUS
+                           }
+                           1266 = {
+                                   add_core = RUS
+                           }
+                           1264 = {
+                                   add_core = RUS
+                           }
+                           1267 = {
+                                   add_core = RUS
+                           }
+                           1268 = {
+                                   add_core = RUS
+                           }
+                           1269 = {
+                                   add_core = RUS
+                           }
+                           1218 = {
+                                   add_core = RUS
+                           }
+                           1224 = {
+                                   add_core = RUS
+                           }
+                           1225 = {
+                                   add_core = RUS
+                           }
+                           1226 = {
+                                   add_core = RUS
+                           }
+                           1230 = {
+                                   add_core = RUS
+                           }
+                           1232 = {
+                                   add_core = RUS
+                           }
+                           1228 = {
+                                   add_core = RUS
+                           }
+                           1231 = {
+                                   add_core = RUS
+                           }
+                           1227 = {
+                                   add_core = RUS
+                           }
+                           1229 = {
+                                   add_core = RUS
+                           }
+                           1233 = {
+                                   add_core = RUS
+                           }
+                           1234 = {
+                                   add_core = RUS
+                           }
+                           1235 = {
+                                   add_core = RUS
+                           }
+                           set_country_flag = indwar
+                }
+        }                                     
+
+        bolsheviks = {
+                potential = {
+                              tag = RUS
+                              year = 1893
+                              NOT = {
+                                      has_global_flag = lenin_is_coming_up
+                              }
+                }
+                allow = {
+                          
+                }
+                effect = {
+                      any_pop = {
+                            scaled_militancy = {
+					ideology = communist
+					factor = 6
+			    }
+                        
+			    scaled_consciousness = {
+					ideology = communist
+					factor = 6
+		            }
+
+                            ideology = {
+				value = communist
+				factor = 0.5
+			    }
+                      }
+                       set_global_flag = lenin_is_coming_up
+		 }
+        }
+
+        annex_manj_rus = {
+               potential = {
+                       tag = RUS
+                       NOT = {
+				has_country_flag = annex_manj_done
+		       }
+                       NOT = {
+                             exists = MAJ
+                       }
+               }
+               allow = {
+                     MCK = {
+                            vassal_of = RUS
+                     }
+                     year = 1850
+
+               }
+               effect = {
+                        MCK = {
+                              change_tag = MAJ
+                        }
+                        MAJ = {
+                               add_country_modifier = {
+                                         name = jap_maj_done
+                                         duration = -1
+                               }
+                               tech_school = maj_tech_school
+                        }
+                        set_country_flag = annex_manj_done
+               }
+        }
+
+        international_2 = {
+                potential = {
+                              tag = RUS
+                              year = 1890
+                              NOT = {
+                                      has_global_flag = we_visited_it
+                              }
+                }
+                allow = {
+                          
+                }
+                effect = {
+                      any_pop = {
+                            scaled_militancy = {
+					ideology = communist
+					factor = 2
+			    }
+                        
+			    scaled_consciousness = {
+					ideology = communist
+					factor = 3
+		            }
+
+                            ideology = {
+				value = communist
+				factor = 0.1
+			    }
+                      }
+                       set_global_flag = we_visited_it
+		 }
+        }
+
+        annex_poland = {
+                 potential = {
+                            tag = RUS
+                            NOT = {
+                                    has_country_flag = anxpolska
+                            }
+                 }
+                       allow = {
+                                year = 1835
+                                POL = {
+                                       vassal_of = RUS
+                                }
+                                POL = {
+                                       ai = yes
+                                }
+                       }
+            
+                       effect = {
+                              set_country_flag = anxpolska
+                              release_vassal = POL
+                          war = {
+                               target = POL
+                               attacker_goal = {
+                                 casus_belli = conquest
+                               }
+          
+                            defender_goal = {
+                                casus_belli = status_quo
+                            }
+                          }
+                       }
+        }
+
+        integrbalkans = {
+                potential = {
+			
+			NOT = {
+				has_global_flag = recognition_of_the_rus_poles1
+			}
+                        NOT = {
+				has_country_flag = annex_manj_rus_done
+			}
+                        NOT = {
+                                has_country_flag = balkansfsdfdas
+                        }
+			tag = RUS
+			
+		}
+		
+		allow = {
+			owns = 818
+                        owns = 813
+                        owns = 816
+                        owns = 799
+                        year = 1865
+		}
+                effect = {
+                          add_accepted_culture = serb
+                          add_accepted_culture = romanian
+                          add_accepted_culture = bulgarian
+                          set_country_flag = balkansfsdfdas
+                }
+        }
+                              
+        recognition_of_the_rus_poles = {
+                potential = {
+			
+			NOT = {
+				has_global_flag = recognition_of_the_rus_poles1
+			}
+                        NOT = {
+                                has_country_flag = balkansfsdfdas
+                        }
+			OR = {
+				
+				tag = RUS
+				
+			}
+			
+		}
+		
+		allow = {
+			owns = 706
+                        owns = 715
+                        year = 1870
+		}
+                effect = {
+                          add_accepted_culture = polish
+                          set_global_flag = recognition_of_the_rus_poles1
+                }
+        }
+
+
+	establish_the_sovnarkom = {
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = big_brother_is_watching
+			}
+			government = proletarian_dictatorship
+		}
+		allow = {
+			mass_politics = 1
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+			prestige = 5
+			set_country_flag = big_brother_is_watching
+		}
+	}
+	
+	manifesto_on_unshakable_autocracy = {
+		potential = {
+			tag = RUS
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = the_manifesto
+			}
+			nationalism_n_imperialism = 1
+		}
+		
+		allow = {
+			revolution_n_counterrevolution = 1
+		}
+		
+		effect = {
+			prestige = 5
+			badboy = 3
+			any_pop = {
+				consciousness = -2
+				militancy = -2
+			}
+			set_country_flag = the_manifesto
+		}
+	}
+	
+	promulgate_the_ems_ukaz = {
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = ems_ukaz_dispatched
+			}
+			government = absolute_monarchy
+			owns = 958
+			phenomenalism = 1
+			exists = GER
+			GER = {
+				owns = 570
+			}
+		}
+		
+		allow = {
+			biologism = 1
+		}
+		
+		effect = {
+			any_pop = {
+				limit = {
+					has_pop_culture = ukrainian
+				}
+				militancy = 3
+				consciousness = -2
+			}
+			set_country_flag = ems_ukaz_dispatched
+		}
+	}
+
+	protect_eastern_christians = {
+		potential = {
+			tag = RUS
+			is_greater_power = yes
+			government = absolute_monarchy
+			NOT = {
+				has_country_flag = eastern_christians_up_in_here_yall
+			}
+			exists = TUR
+			TUR = {
+				government = absolute_monarchy
+				is_greater_power = no
+			}
+		}
+		
+		allow = {
+			NOT = {
+				relation = {
+					who = TUR
+					value = 0
+				}
+			}
+			TUR = {
+				average_militancy = 3
+			}
+		}
+		
+		effect = {
+			set_country_flag = eastern_christians_up_in_here_yall
+			add_country_modifier = {
+				name = protector_of_eastern_christendom
+				duration = -1
+			}
+			any_greater_power = {
+				limit = {
+					NOT = {
+						tag = TUR
+					}
+					capital_scope = {
+						continent = europe
+					}
+				}
+				country_event = { id=19030 days=0 }
+			}
+		}
+	}
+	
+	peking_convention = {
+		potential = {
+			tag = RUS
+			MCK = {
+					owns = 1082 }
+			NOT = {
+				has_country_flag = peking_convention
+				war_with = MCK
+			}
+			OR = {
+				is_sphere_leader_of = MCK
+				has_global_flag = summer_palace_torched
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+		}
+		
+		effect = {
+			CHI_1082 = {
+				add_core = RUS
+				remove_core = CHI
+				remove_core = MCK
+			}
+			set_country_flag = peking_convention			
+			MCK = {
+				country_event = { id=80000 days=0 }
+			}
+			prestige = 2
+		}
+	}
+
+	russian_vladivostok = {
+		potential = {
+		tag = RUS
+		owns = 1085
+		owns = 1084
+		owns = 2617
+		owns = 1083
+                owns = 1082
+		NOT = {
+				has_global_flag = russian_vladivostok
+			}
+		}
+		
+		allow = {
+			prestige = 10
+		}
+		
+		effect = {
+			1085 = {
+				change_province_name = "Благовещенск"
+			}
+			1084 = {
+				change_province_name = "Николаевск-на-Амуре"
+			}
+			1083 = {
+				change_province_name = "Хабаровск"
+			}
+			2617 = {
+				change_province_name = "Пашково"
+			}
+			1082 = {
+				change_province_name = "Владивосток"
+				state_scope = {
+					change_region_name = "Приморье"
+				}
+			}
+			prestige = 5
+			set_global_flag = russian_vladivostok
+		}
+	}
+	
+	move_capital_to_moscow = {
+		potential = {
+                        government = proletarian_dictatorship
+			tag = RUS
+			owns = 1008 # Moscow
+			capital = 994
+                        
+		}
+		
+		allow = {
+			owns = 1008 # Moscow
+		}
+		
+		effect = {
+			capital = 1008
+			prestige = 5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+        zemstvo_reform = {
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = zemstvo_reform_ok
+			}
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+		allow = {
+			year = 1860
+		}
+		effect = {
+			add_country_modifier = {
+					name = zemstva
+					duration = -1
+			}
+			set_country_flag = zemstvo_reform_ok
+		}
+	}
+
+         
+         industrialisation_in_ussr = {
+		potential = {
+                        tag = RUS
+                        NOT = {
+				has_global_flag = industrialization_has_happened
+			}
+			
+		         government = proletarian_dictatorship
+			
+			
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = soviet_industry
+				duration = 3650
+			}
+			set_global_flag = industrialization_has_happened
+		}
+	}
+
+        form_nkvd = {
+		potential = {
+			tag = RUS
+                        NOT = {
+				has_country_flag = nkvd_formed
+			}
+			government = proletarian_dictatorship
+		}
+		allow = {
+			mass_politics = 1
+                     
+		}
+		
+		effect = {
+                        add_country_modifier = {
+                                name = nkvd
+                                duration = 7275
+                        }
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+			prestige = 5
+			set_country_flag = nkvd_formed
+		}
+	}
+
+        port_arthur_lease = {
+		potential = {
+			tag = RUS
+			is_greater_power = yes
+			1481 = {
+				owner = {
+					civilized = no
+					NOT = {
+						tag = JAP
+					}
+				}
+			}
+			NOT = {
+				has_country_flag = port_arthur_leased
+			}
+			
+		}
+		allow = {
+			year = 1875
+			money = 250000
+			1481 = {
+				owner = {
+					relation = {
+						who = RUS
+						value = 0
+					}
+				}
+			}
+		}
+		effect = {
+			money = -250000
+			1481 = {
+				owner = {
+					money = 250000
+				}
+			}
+			1481 = {
+				secede_province = RUS
+			}
+			
+			set_country_flag = port_arthur_leased
+		}
+	}
+	
+        form_rkka = {
+		potential = {
+			tag = RUS
+                        NOT = {
+				has_country_flag = rkka_formed
+			}
+			government = proletarian_dictatorship
+		}
+		allow = {
+                        army_nco_training = 1
+			
+		}
+		
+		effect = {
+                       add_country_modifier = {
+                                name = rkka
+                                duration = 7350
+                       }
+			prestige = 5
+			set_country_flag = rkka_formed
+		}
+	}
+     
+      rename_provinces = {
+               potential = {
+                       tag = RUS
+                       NOT = {
+				has_country_flag = rename_provinces_done
+			}
+			government = proletarian_dictatorship
+               }
+               allow = {
+                       year = 1900
+               }
+ 
+               effect = {
+                        994 = {
+				change_province_name = "Ленинград"
+			}
+			1058 = {
+				change_province_name = "Свердловск"
+			}
+                        prestige = 5
+			set_country_flag = rename_provinces_done
+               }
+        }
+   
+        integration_of_kazakhstan = {
+               potential = {
+                        tag = RUS
+                        NOT = {
+                                has_country_flag = integration_of_kazakhstan_is_done
+                        }
+                        owns = 1183
+                        owns = 1194
+                        owns = 2606
+                        owns = 1185
+               }
+               allow = {
+                        year = 1836
+               }
+               effect = {
+                        add_accepted_culture = kazak
+                        set_country_flag = integration_of_kazakhstan_is_done
+               }
+        }
+ 
+        rename_kenig = {
+               potential = {
+                       tag = RUS
+                       NOT = {
+				has_country_flag = rename_kenig_done
+			}
+			government = proletarian_dictatorship
+               }
+               allow = {
+                     owns = 695
+
+               }
+               effect = {
+                        695 = {
+                               change_province_name = "Калининград"
+                        }
+                        set_country_flag = rename_kenig_done
+               }
+        }
+}

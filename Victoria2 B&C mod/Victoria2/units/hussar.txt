@@ -1,0 +1,50 @@
+hussar = {
+	icon = 15
+	
+	type = land
+	sprite = Artillery
+	active = no
+	unit_type = support
+	floating_flag = no
+
+	fort = {
+	attack = 0.35
+	}
+        fort = {
+	defence = 0.55
+	}
+	
+	#Core Abilities
+	priority = 40
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 3.00
+	weighted_value = 10.0
+
+
+	#Building Costs
+	build_time = 160
+	build_cost = {
+		ammunition = 42
+		artillery = 45
+		canned_food = 25
+		liquor = 10
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = { 
+		ammunition = 0.13
+		canned_food = 0.09
+                artillery = 0.1
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 1
+	attack = 2.75
+	defence = 2
+	discipline = 1.0
+	support = 2
+	maneuver = 1
+	
+}

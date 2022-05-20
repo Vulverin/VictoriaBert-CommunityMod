@@ -1,0 +1,1380 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new buildings, make sure they are uniquely named.
+#
+# Order in here matters for selection priority if icons are overlapping,
+# so leave bases on top
+
+# 
+# cost = 0 # x #==> cost in ic to build (subject to other modifiers)
+# time = x #==> number of days to build.
+#
+
+############# MODERN FACTORIES
+
+aeroplane_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	cost = 0 # 5000
+	goods_cost = 
+	{
+		
+		cement = 700
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = aeroplane_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+barrel_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 700
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = barrel_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+automobile_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 700
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = automobile_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+radio_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 750
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = radio_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+telephone_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 750
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = telephone_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+############# MASSIVE INDUSTRY
+
+electric_gear_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 750
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = electric_gear_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+machine_parts_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 400
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = machine_parts_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+synthetic_oil_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 700
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = synthetic_oil_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+fuel_refinery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 700
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = fuel_refinery
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+steamer_shipyard = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 10000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 700
+	}
+	time = 320
+	visibility = yes
+	onmap = no
+
+	production_type = steamer_shipyard
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+clipper_shipyard = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 10000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 700
+	}
+	time = 320
+	visibility = yes
+	onmap = no
+
+	production_type = clipper_shipyard
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+steel_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 700
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+	
+	production_type = steel_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+############# MILITARY INDUSTRIAL COMPLEX
+
+artillery_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 2000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 700
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = artillery_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+bronze_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+           
+		cement = 700
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+	
+	production_type = bronze_factory
+	pop_build_factory = yes
+        strategic_factory = yes
+}
+
+small_arms_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 2000
+	max_level = 99
+	goods_cost = 
+	{
+	
+		cement = 650
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = small_arms_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+explosives_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 2000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 650
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = explosives_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+ammunition_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 2000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 650
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = ammunition_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+fish_cannery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = fish_cannery
+	pop_build_factory = yes
+}
+
+stables = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 500
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = stables
+	pop_build_factory = yes
+}
+
+canned_food_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = canned_food_factory
+	pop_build_factory = yes
+}
+
+############# LIGHT INDUSTRY
+
+paper_mill = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 625
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+	
+	production_type = paper_mill
+	pop_build_factory = yes
+}
+
+dye_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 625
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = dye_factory
+	pop_build_factory = yes
+}
+
+lumber_mill = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = lumber_mill
+	pop_build_factory = yes
+}
+
+fabric_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = fabric_factory
+	pop_build_factory = yes
+}
+
+cement_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 99
+	goods_cost = 
+	{
+		iron = 600
+		timber = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = cement_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+glass_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 99
+	goods_cost = 
+	{
+                cement = 630
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+	
+	default_enabled = yes	
+	production_type = glass_factory
+	pop_build_factory = yes
+}
+
+fertilizer_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 500
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = fertilizer_factory
+	pop_build_factory = yes
+}
+
+############# CONSUMER INDUSTRY
+
+luxury_clothes_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = luxury_clothes_factory
+	pop_build_factory = yes
+}
+
+luxury_furniture_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = luxury_furniture_factory
+	pop_build_factory = yes
+}
+
+furniture_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 650
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = furniture_factory
+	pop_build_factory = yes
+}
+
+regular_clothes_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = regular_clothes_factory
+	pop_build_factory = yes
+}
+
+liquor_distillery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+	
+	default_enabled = yes	
+	production_type = liquor_distillery
+	pop_build_factory = yes
+}
+
+winery = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	default_enabled = yes	
+	production_type = winery
+	pop_build_factory = yes
+}
+
+bank = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 50
+	cost = 0 # 1000
+	goods_cost = 
+	{
+		
+		cement = 700
+		
+	}
+	time = 230
+	visibility = yes
+	onmap = no
+
+	production_type = bank
+	pop_build_factory = yes
+}
+
+Petrolium-based_powerplant = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 1000
+	}
+	time = 245
+	visibility = yes
+	onmap = no
+
+	production_type = oil_plant
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+############### NON FACTORIES##############################################################################	
+
+Coal-fired_powerplant = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 165
+	visibility = yes
+	onmap = no
+
+
+	production_type = coal_plant
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+Cigar_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+	
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+
+	production_type = Cigar_factory
+	pop_build_factory = yes
+}
+
+Cigarette_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 650
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+
+	production_type = Cigarette_factory
+	pop_build_factory = yes
+}
+
+spices_factory = {
+        type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 650
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+
+	production_type = spices_factory
+	pop_build_factory = yes
+}
+
+shoe_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 650
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+
+	production_type = shoe_factory
+	pop_build_factory = yes
+}
+
+boot_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+
+	production_type = boot_factory
+	pop_build_factory = yes
+}
+
+wool_mill = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type =  wool_mill
+	pop_build_factory = yes
+}
+
+stables = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = stables
+	pop_build_factory = yes
+}
+
+pharmaceutical_plant = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+
+	production_type = pharmaceutical_plant
+	pop_build_factory = yes
+}
+
+rum_distillery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+	
+	default_enabled = yes	
+	production_type = rum_distillery
+	pop_build_factory = yes
+}
+
+gunpowder_factory = {
+
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+	
+	default_enabled = yes
+	production_type = gunpowder_factory
+	pop_build_factory = yes
+}
+
+fruit_cannery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 650
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = fruit_cannery
+	pop_build_factory = yes
+}
+	
+early_small_arms_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 640
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = early_small_arms_factory
+	pop_build_factory = yes
+}
+
+late_small_arms_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = late_small_arms_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+advanced_machine_parts_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = advanced_machine_parts_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+synthetic_rubber_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = synthetic_rubber_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+
+tropical_lumber_mill = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = tropical_lumber_mill
+	pop_build_factory = yes
+}
+
+rubber_boot_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+
+	production_type = rubber_boot_factory
+	pop_build_factory = yes
+}
+
+advanced_luxury_clothes_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = advanced_luxury_clothes_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+advanced_luxury_furniture_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = advanced_luxury_furniture_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+synthetic_fabric_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = synthetic_fabric_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+sugar_beet_refinery = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 650
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = sugar_beet_refinery 
+	pop_build_factory = yes
+}
+
+newspaper = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = newspaper
+	pop_build_factory = yes
+}
+
+synthetic_silk_factory  = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 1000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 600
+	}
+	time = 120
+	visibility = yes
+	onmap = no
+
+	production_type = synthetic_silk_factory
+	pop_build_factory = yes
+	advanced_factory = yes
+}
+
+shares_factory = {
+        type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		iron = 600
+		timber = 600
+	}
+	time = 150
+	visibility = yes
+	onmap = no
+	
+	production_type = shares_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+lead_factory = {
+        type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		iron = 600
+		timber = 600
+	}
+	time = 150
+	visibility = yes
+	onmap = no
+	
+	production_type = lead_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+copper_factory = {
+        type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		cement = 600
+	}
+	time = 150
+	visibility = yes
+	onmap = no
+	
+	production_type = copper_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+iron_machine_parts_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 600
+	}
+	time = 240
+	visibility = yes
+	onmap = no
+
+	production_type = iron_machine_parts_factory
+	pop_build_factory = yes
+}
+
+steel_machine_parts_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	cost = 0 # 5000
+	max_level = 99
+	goods_cost = 
+	{
+		
+		cement = 500
+	}
+	time = 240
+	visibility = yes
+	onmap = no
+
+	production_type = steel_machine_parts_factory
+	pop_build_factory = yes
+}
+
+fort = {      
+	type = fort
+	cost = 15000
+	goods_cost =
+	{
+		
+		cement = 850
+		
+	}
+	time = 720
+	visibility = yes
+	onmap = yes
+	max_level = 6
+	province = yes
+	fort_level = 1
+	one_per_state = yes
+}
+
+naval_base = {    
+	type = naval_base
+	cost = 15000
+	goods_cost =
+	{
+
+		cement = 720
+
+	}
+	time = 720
+	naval_capacity = 0
+	capital = yes
+	onmap = yes
+	port = yes
+	visibility = yes
+	max_level = 6
+	colonial_points = { 0 0 0 0 0 0 }
+	province = yes
+	one_per_state = yes
+	colonial_range = 100
+	local_ship_build = -0.10
+}
+
+railroad = {   
+	type = infrastructure
+	cost = 5000
+	goods_cost =
+	{
+
+		cement = 720
+
+	}
+	time = 720
+	visibility = yes
+	onmap = yes
+	max_level = 14
+	province = yes
+	
+	infrastructure = 0.1
+	movement_cost = -0.03
+	
+	pop_build_factory = yes
+	spawn_railway_track = yes
+}
+
+city = { 
+type = city
+cost = 50000
+goods_cost = 
+{
+cement = 900
+} 
+time = 720 
+visibility = yes
+onmap = yes
+max_level = 6
+province = yes 
+	life_rating = 0.04
+}
+
+school = {   
+	type = school
+	cost = 75000
+	goods_cost =
+	{
+		cement = 720
+	}
+	time = 360
+	visibility = yes
+	onmap = no
+	max_level = 6
+	province = yes
+
+        education_efficiency_modifier = 0.02
+}

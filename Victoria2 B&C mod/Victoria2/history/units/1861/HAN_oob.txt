@@ -1,0 +1,41 @@
+army = {
+	name = "Армия Ганновера"
+	location = 534
+	regiment = {
+		name= "1-я дивизия"
+		type = infantry
+		home = 534
+	}
+
+	regiment = {
+		name= "2-я дивизия"
+		type = infantry
+		home = 535
+	}
+
+	regiment = {
+		name= "3-я дивизия"
+		type = infantry
+		home = 538
+	}
+
+	regiment = {
+		name= "4-я дивизия"
+		type = infantry
+		home = 531
+	}
+
+	regiment = {
+		name= "1-я кав. дивизия"
+		type = dragoon
+		home = 532
+	}
+
+	regiment = {
+		name= "1-я арт. дивизия"
+		type = artillery
+		home = 534
+	}
+
+}
+

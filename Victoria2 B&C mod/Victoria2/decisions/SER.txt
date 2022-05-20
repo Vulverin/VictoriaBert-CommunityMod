@@ -1,0 +1,57 @@
+political_decisions = {
+         serb_econ = {
+                potential = {
+                          tag = SER
+                          NOT = {
+                                 has_country_flag = ser_eco_13
+                          }
+                }
+                allow = {
+                         market_structure = 1
+                }
+                effect = {
+                         add_country_modifier = {
+                                  name = serbdg_econ_a
+                                  duration = 10950
+                         }
+                         set_country_flag = ser_eco_13
+                }
+        }
+
+        serb_popl = {
+                potential = {
+                          tag = SER
+                          NOT = {
+                                 has_country_flag = ser_ppl_13
+                          }
+                }
+                allow = {
+                         medicine_tech_1 = 1
+                }
+                effect = {
+                         add_country_modifier = {
+                                  name = serbdg_ppl_a
+                                  duration = 18250
+                         }
+                         set_country_flag = ser_ppl_13
+                }
+        }
+
+        serb_arm = {
+                potential = {
+                          tag = YUG
+                          NOT = {
+                                 has_country_flag = ser_arm_13
+                          }
+                }
+                allow = {
+                }
+                effect = {
+                         add_country_modifier = {
+                                  name = serbdg_arm_a
+                                  duration = 18250
+                         }
+                         set_country_flag = ser_arm_13
+                }
+        }
+}

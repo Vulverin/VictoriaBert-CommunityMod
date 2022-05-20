@@ -1,0 +1,77 @@
+political_decisions = {
+         rom_econ = {
+                potential = {
+                          tag = WAL
+                          NOT = {
+                                 has_country_flag = rom_eco_13
+                          }
+                }
+                allow = {
+                         market_structure = 1
+                }
+                effect = {
+                         add_country_modifier = {
+                                  name = romdg_econ_a
+                                  duration = 10950
+                         }
+                         set_country_flag = rom_eco_13
+                }
+        }
+
+        form_romania = {
+		potential = {
+                        tag = WAL
+			NOT = { exists = ROM }
+			NOT = { has_global_flag = rom_formed }
+		}
+
+		allow = {
+			year = 1835
+                }
+
+		effect = {
+			set_global_flag = rom_formed
+			prestige = 30
+                        inherit = MOL
+			change_tag = ROM
+	        }
+        }
+
+        rom_popl = {
+                potential = {
+                          tag = WAL
+                          NOT = {
+                                 has_country_flag = rom_ppl_13
+                          }
+                }
+                allow = {
+                         medicine_tech_1 = 1
+                }
+                effect = {
+                         add_country_modifier = {
+                                  name = romdg_ppl_a
+                                  duration = 18250
+                         }
+                         set_country_flag = rom_ppl_13
+                }
+        }
+
+        rom_arm = {
+                potential = {
+                          tag = ROM
+                          NOT = {
+                                 has_country_flag = rom_arm_13
+                          }
+                }
+                allow = {
+                         year = 1850
+                }
+                effect = {
+                         add_country_modifier = {
+                                  name = romdg_arm_a
+                                  duration = 18250
+                         }
+                         set_country_flag = rom_arm_13
+                }
+        }
+}

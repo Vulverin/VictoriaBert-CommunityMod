@@ -1,0 +1,105 @@
+political_decisions = {
+	declare_republic_of_neuchatel = {
+		potential = {
+			tag = SWI
+			owns = 608
+			608 = {
+				is_core = PRU
+			}
+		}
+		allow = {
+			prestige = 1
+			romanticism = 1
+		}
+		effect = {
+			prestige = 5
+			608 = {
+				remove_core = PRU
+				remove_core = NGF
+				remove_core = GER
+			}
+			relation = {
+				who = PRU
+				value = 20
+			}
+		}
+	}
+        start_money = {
+		potential = {
+			tag = SWI
+			NOT = { has_global_flag = the_game_has_started }
+		}
+		allow = {
+		}
+		effect = {
+			set_global_flag = the_game_has_started
+			any_country = { any_pop = { money = 1000 }}
+			any_country = {
+			    limit = {
+				NOT = {
+				    OR = {
+					tag = BRZ tag = SWE tag = FRA
+					tag = NET tag = TUR tag = AUS
+					tag = RUS tag = USA tag = PRU
+					tag = SPA tag = JAP tag = SAR
+					tag = CHI tag = EGY
+				    }
+				}
+			    }
+			    money = 50000
+			}
+			any_country = {
+			    limit = {
+				exists = yes
+				NOT = { tag = USA }
+				capital_scope = {
+				    OR = {
+					continent = north_america
+					continent = south_america
+				    }
+				}
+			    }
+			    set_country_flag = is_exists
+			}
+			SAR = { money = 200000 }
+			JAP = { money = 100000 }
+			EGY = { money = 200000 }
+			SPA = { money = 200000 }
+			SWE = { money = 200000 }
+			BRZ = { money = 200000 }
+			NET = { money = 500000 }
+			ENG = { money = 2000000 }
+			TUR = { money = 200000 }
+			AUS = { money = 500000 }
+			RUS = { money = 1000000 }
+			USA = { money = 500000 }
+			PRU = { money = 500000 }
+			FRA = { money = 1000000 }
+			CHI = { money = 500000 }
+                        BOC = { money = 500000 }
+		}
+	        ai_will_do = { factor = 1 }
+	}
+	
+	build_gotthard_tunnel = {
+		potential = {
+			tag = SWI
+			owns = 606
+			NOT = {
+				has_country_flag = gotthard_tunnel_built
+			}
+		}
+		
+		allow = {
+			invention = machine_tools
+		}
+		
+		effect = {
+			606 = {
+				infrastructure = 4
+			}
+			prestige = 5
+			set_country_flag = gotthard_tunnel_built
+		}
+	}
+}

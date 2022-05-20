@@ -1,0 +1,396 @@
+POR = {
+	value = 125		#relation
+}
+
+army = {
+	name = "Армия Запретных Знамен"
+	location = 1612
+	regiment = {
+		name= "1-я бригада Желтого Знамени"
+		type = infantry
+		home = 1612
+	}
+}
+
+army = {
+	name = "Армия Желтого с каймой Знамени"
+	location = 1552
+	
+	regiment = {
+		name= "1-я бригада Желтого с каймой Знамени"
+		type = infantry
+		home = 1612
+	}
+}
+
+army = {
+	name = "Армия Красного Знамени"
+	location = 1479
+
+	regiment = {
+		name= "1-я бригада Красного Знамени"
+		type = infantry
+		home = 1612
+	}
+}
+
+army = {
+	name = "Армия Синего Знамени"
+	location = 1612
+
+	regiment = {
+		name= "1-я бригада Синего Знамени"
+		type = infantry
+		home = 1612
+	}
+}
+
+army = {
+	name = "1-я армия Зеленого Знамени"
+	location = 1575
+	regiment = {
+		name= "1-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1470
+	}
+
+	regiment = {
+		name= "2-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1510
+	}
+	
+	regiment = {
+		name= "4-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1471
+	}
+
+	regiment = {
+		name= "5-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1511
+	}
+
+		regiment = {
+		name= "7-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1472
+	}
+
+	regiment = {
+		name= "8-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1512
+	}
+
+}
+
+army = {
+	name = "2-я армия Зеленого Знамени"
+	location = 1583
+	
+	regiment = {
+		name= "10-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1473
+	}
+
+	regiment = {
+		name= "11-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1513
+	}
+	
+	regiment = {
+		name= "13-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1474
+	}
+
+	regiment = {
+		name= "14-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1514
+	}
+	
+	regiment = {
+		name= "16-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1475
+	}
+
+	regiment = {
+		name= "17-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1515
+	}
+
+}
+
+army = {
+	name = "3-я армия Зеленого Знамени"
+	location = 1525
+
+	regiment = {
+		name= "19-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1476
+	}
+
+	regiment = {
+		name= "20-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1516
+	}
+	
+	regiment = {
+		name= "22-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1477
+	}
+
+	regiment = {
+		name= "23-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1517
+	}
+
+	regiment = {
+		name= "25-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1478
+	}
+
+	regiment = {
+		name= "26-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1518
+	}
+
+}
+
+army = {
+	name = "4-я армия Зеленого Знамени"
+	location = 1576
+
+	regiment = {
+		name= "30-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1563
+	}
+
+	regiment = {
+		name= "33-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1564
+	}
+
+	regiment = {
+		name= "36-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1565
+	}	
+}
+
+army = {
+	name = "5-я армия Зеленого Знамени"
+	location = 1602
+
+	regiment = {
+		name= "38-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1522
+	}
+
+	regiment = {
+		name= "39-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1567
+	}
+
+	regiment = {
+		name= "42-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1568
+	}
+
+	regiment = {
+		name= "45-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1570
+	}
+
+}
+
+army = {
+	name = "6-я армия Зеленого Знамени"
+	location = 1502
+
+	regiment = {
+		name= "48-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1571
+	}
+
+	regiment = {
+		name= "51-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1572
+	}
+
+	regiment = {
+		name= "54-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1573
+	}
+
+}
+
+army = {
+	name = "7-я армия Зеленого Знамени"
+	location = 1487
+
+	regiment = {
+		name= "57-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1574
+	}
+
+	regiment = {
+		name= "58-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1614
+	}
+
+	regiment = {
+		name= "60-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1575
+	}
+
+}
+
+army = {
+	name = "8-я армия Зеленого Знамени"
+	location = 1482
+
+	regiment = {
+		name= "65-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1536
+	}
+
+	regiment = {
+		name= "67-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1615
+	}
+
+	regiment = {
+		name= "68-я бригада Зеленого Знамени"
+		type = irregular
+		home = 2221
+	}
+
+	regiment = {
+		name= "71-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1537
+	}
+}
+
+army = {
+	name = "9-я армия Зеленого Знамени"
+	location = 1536
+
+	regiment = {
+		name= "73-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1616
+	}
+
+	regiment = {
+		name= "74-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1539
+	}
+
+	regiment = {
+		name= "76-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1617
+	}
+
+	regiment = {
+		name= "77-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1540
+	}
+
+	regiment = {
+		name= "79-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1618
+	}
+
+	regiment = {
+		name= "80-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1541
+	}
+}
+
+army = {
+	name = "10-я армия Зеленого Знамени"
+	location = 1613
+
+	regiment = {
+		name= "83-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1542
+	}
+
+	regiment = {
+		name= "86-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1543
+	}
+
+	regiment = {
+		name= "89-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1544
+	}
+
+}
+
+army = {
+	name = "11-я армия Зеленого Знамени"
+	location = 1082
+
+	regiment = {
+		name= "91-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1508
+	}
+
+	regiment = {
+		name= "93-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1612
+	}
+
+	regiment = {
+		name= "94-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1509
+	}
+
+	regiment = {
+		name= "96-я бригада Зеленого Знамени"
+		type = irregular
+		home = 1613
+	}
+
+}

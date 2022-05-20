@@ -1,0 +1,162 @@
+political_decisions = {
+          han_form_republic = {
+                     potential = {
+                                  ai = no
+                                  tag = HAN
+                                  NOT = {
+                                         exists = HAR
+                                  }
+                     }
+                     allow = {
+                              year = 1838
+                     }
+                     effect = {
+                               any_country = {
+                               limit = {
+                                        primary_culture = north_german
+                               }
+                               annex_to = THIS
+                               }
+                               any_owned = {
+                                            limit = {
+                                                     is_core = GER
+                                            }
+                                            add_core = HAR
+                               }
+                               change_tag = HAR
+                     }
+           }
+
+           
+        har_ambitions = {
+                potential = {
+                        tag = HAR
+			NOT = {
+				has_country_flag = harambitions
+			}
+			
+		}
+		
+		allow = {
+			year = 1842
+                        
+		}
+                effect = {
+                          add_accepted_culture = dutch
+                          add_accepted_culture = flemish
+                          add_accepted_culture = danish
+                          add_accepted_culture = south_german
+                          BAD = {
+                                   all_core = {
+				          add_core = HAR
+			           }
+                          }
+                          WUR = {
+                                   all_core = {
+				          add_core = HAR
+			           }
+                          }
+                          BAV = {
+                                   all_core = {
+				          add_core = HAR
+			           }
+                          }
+                          DEN = {
+                                   all_core = {
+				          add_core = HAR
+			           }
+                          }
+                          set_country_flag = harambitions
+                }
+        }
+
+        construct_har_werft = {
+		potential = {
+			
+			NOT = {
+				has_country_flag = har_werft_has_been_built
+			}
+			tag = HAR
+		}
+		
+		allow = {
+			iron_steamers = 1
+                        money = 500000
+                        owns = 372
+		}
+		
+		effect = {
+			set_global_flag = har_werft_has_been_built
+			money = -500000
+			372 = {
+				add_province_modifier = {
+					name = har_werft
+					duration = -1
+				}
+			}
+		}
+	}
+                               
+        construct_har_fleet = {
+                potential = {
+			
+			NOT = {
+				has_global_flag = har_fleet_has_been_built
+			}
+			tag = HAR
+		}
+		
+		allow = {
+			ship_construction_1 = 1
+                        money = 1000000
+		}
+		
+		effect = {
+			set_global_flag = har_fleet_has_been_built
+                        money = -1000000
+			
+			539 = {
+				add_province_modifier = {
+					name = har_fleet 
+					duration = -1
+				}
+			}
+                        546 = {
+				add_province_modifier = {
+					name = har_fleet 
+					duration = -1
+				}
+			}
+                        690 = {
+				add_province_modifier = {
+					name = har_fleet 
+					duration = -1
+				}
+			}
+                        695 = {
+				add_province_modifier = {
+					name = har_fleet 
+					duration = -1
+				}
+			}
+                        691 = {
+				add_province_modifier = {
+					name = har_fleet 
+					duration = -1
+				}
+			}
+                        540 = {
+				add_province_modifier = {
+					name = har_fleet 
+					duration = -1
+				}
+			}
+                        548 = {
+				add_province_modifier = {
+					name = har_fleet 
+					duration = -1
+				}
+			}
+		}
+	}
+}                       

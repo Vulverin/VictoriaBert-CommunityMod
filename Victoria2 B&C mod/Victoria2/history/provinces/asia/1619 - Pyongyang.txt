@@ -1,0 +1,7 @@
+owner = KOR
+controller = KOR
+add_core = KOR
+trade_goods = coal
+life_rating = 35
+terrain = port_city
+naval_base = 1

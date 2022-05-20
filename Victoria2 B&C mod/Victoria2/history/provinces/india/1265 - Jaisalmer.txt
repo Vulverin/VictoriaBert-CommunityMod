@@ -1,0 +1,6 @@
+owner = JAI
+controller = JAI
+add_core = JAS
+add_core = HND
+trade_goods = iron
+life_rating = 35

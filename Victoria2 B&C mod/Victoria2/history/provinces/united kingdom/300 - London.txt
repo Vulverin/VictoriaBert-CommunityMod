@@ -1,0 +1,64 @@
+owner = ENG
+controller = ENG terrain = london_city 
+add_core = ENG
+trade_goods = grain
+life_rating = 35
+city = 1
+#party_loyalty = {
+#	ideology = liberal
+#	loyalty_value = 10.5 # loyalty test
+#}
+state_building = {
+	level = 4
+	building = clipper_shipyard
+	upgrade = yes
+}
+state_building = {
+	level = 3
+	building = luxury_clothes_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = furniture_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 3
+	building = regular_clothes_factory
+	upgrade = yes
+}
+state_building = {
+	level = 3
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = small_arms_factory
+	upgrade = yes
+}
+state_building = {
+	level = 3
+	building = machine_parts_factory
+	upgrade = yes
+}
+
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = luxury_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = luxury_furniture_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }

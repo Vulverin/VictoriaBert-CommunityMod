@@ -1,0 +1,915 @@
+country_event = {
+	id = 100400
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = ENG
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = ENC
+			exists = ENC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = ENC
+			change_owner = ENC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = ENC
+                       value = 500
+                }
+                create_vassal = ENC
+                ENC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100401
+	title = "Расширение торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		OR = {
+			is_our_vassal = ENC
+			is_our_vassal = ASC
+			is_our_vassal = GSC
+			is_our_vassal = FRC
+			is_our_vassal = SPC
+			is_our_vassal = ITC
+			is_our_vassal = RUC
+			is_our_vassal = TCH
+			is_our_vassal = USC
+			is_our_vassal = JPC
+			is_our_vassal = SCC
+			is_our_vassal = BRC
+                        is_our_vassal = NEC
+			is_our_vassal = PRC
+			is_our_vassal = MXC
+		}
+	}
+	immediate = {
+		any_country = {
+			limit = {
+				government = colonial_company
+				vassal_of = THIS
+                                NOT = {
+                                      tag = BOC
+                                      tag = FOC
+                                }
+			}
+			country_event = 100402
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+	}
+}
+country_event = {
+	id = 100402
+	title = "Расширение торговой компании! "
+	desc = " "
+	picture = "chinese_concession"
+	is_triggered_only = yes
+	immediate = {
+		FROM = {
+		    any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = THIS
+			change_owner = THIS
+                   }
+		}
+	}
+	option = {
+		name = "Отлично"
+	}
+}
+country_event = {
+	id = 100403
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = KUK
+                     tag = DNF
+                }
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = ASC
+			exists = ASC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = ASC
+			change_owner = ASC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = ASC
+                       value = 500
+                }
+                create_vassal = ASC
+                ASC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100404
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = GER
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = GSC
+			exists = GSC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = GSC
+			change_owner = GSC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                GER = {
+                       create_vassal = GSC
+                    diplomatic_influence = {
+                       who = GSC
+                       value = 500
+                    }
+                }
+                GSC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100405
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = FRA
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = FRC
+			exists = FRC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = FRC
+			change_owner = FRC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = FRC
+                       value = 500
+                }
+                create_vassal = FRC
+                FRC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100406
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = SPA
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = SPC
+			exists = SPC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = SPC
+			change_owner = SPC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = SPC
+                       value = 500
+                }
+                create_vassal = SPC
+                SPC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100407
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = ITA
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = ITC
+			exists = ITC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = ITC
+			change_owner = ITC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = ITC
+                       value = 500
+                }
+                create_vassal = ITC
+                ITC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100408
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = RUS
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = RUC
+			exists = RUC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = RUC
+			change_owner = RUC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = RUC
+                       value = 500
+                }
+                create_vassal = RUC
+                RUC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100409
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = TUR
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = TCH
+			exists = TCH
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = TCH
+			change_owner = TCH
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = TCH
+                       value = 500
+                }
+                create_vassal = TCH
+                TCH = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100410
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = USA
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = USC
+			exists = USC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = USC
+			change_owner = USC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = USC
+                       value = 500
+                }
+                create_vassal = USC
+                USC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100411
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = JAP
+                     tag = JPE
+                }
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = JPC
+			exists = JPC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = JPC
+			change_owner = JPC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = JPC
+                       value = 500
+                }
+                create_vassal = JPC
+                JPC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100412
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = SCA
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = SCC
+			exists = SCC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = SCC
+			change_owner = SCC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = SCC
+                       value = 500
+                }
+                create_vassal = SCC
+                SCC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100413
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = LAF
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = BRC
+			exists = BRC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = BRC
+			change_owner = BRC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = BRC
+                       value = 500
+                }
+                create_vassal = BRC
+                BRC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100414
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = NET
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = NEC
+			exists = NEC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = NEC
+			change_owner = NEC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = NEC
+                       value = 500
+                }
+                create_vassal = NEC
+                NEC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100415
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = POR
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = PRC
+			exists = PRC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = PRC
+			change_owner = PRC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = PRC
+                       value = 500
+                }
+                create_vassal = PRC
+                PRC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100416
+	title = "Основание торговой компании!"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = MEX
+                OR = {
+		     any_owned_province = {
+			  is_core = CHI
+		     }
+                     any_owned_province = {
+			  is_core = YNN
+		     }
+                     any_owned_province = {
+			  is_core = GXI
+		     }
+                     any_owned_province = {
+			  is_core = XBI
+		     }
+                }
+		NOT = {
+			is_our_vassal = MXC
+			exists = MXC
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = CHI
+                                     is_core = YNN
+                                     is_core = GXI
+                                     is_core = XBI
+                                }
+			}
+			secede_province = MXC
+			change_owner = MXC
+		}
+		set_country_flag = has_trade_company
+	}
+	option = {
+		name = "Отлично"
+                prestige = 100
+                diplomatic_influence = {
+                       who = MXC
+                       value = 500
+                }
+                create_vassal = MXC
+                MXC = {
+                      government = colonial_company
+                      tech_school = colonial_school
+                }
+	}
+}

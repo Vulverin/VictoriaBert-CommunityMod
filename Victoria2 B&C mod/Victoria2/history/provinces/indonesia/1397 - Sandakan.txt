@@ -1,0 +1,5 @@
+trade_goods = grain
+owner = BRU
+controller = BRU
+life_rating = 30
+

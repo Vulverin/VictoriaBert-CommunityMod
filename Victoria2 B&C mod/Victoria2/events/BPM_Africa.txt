@@ -1,0 +1,1325 @@
+country_event = {
+	id = 100417
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = ENG
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = EAF
+			exists = EAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = EAF
+			change_owner = EAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = EAF
+                       value = 500
+                }
+                create_vassal = EAF
+                EAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100418
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		OR = {
+			is_our_vassal = EAF
+			is_our_vassal = AAF
+			is_our_vassal = GAF
+			is_our_vassal = FAF
+			is_our_vassal = SPF
+			is_our_vassal = IAF
+			is_our_vassal = RAF
+			is_our_vassal = TAF
+			is_our_vassal = UAF
+			is_our_vassal = JAF
+			is_our_vassal = SCF
+			is_our_vassal = BAF
+                        is_our_vassal = NAF
+			is_our_vassal = PAF
+			is_our_vassal = MAF
+		}
+	}
+	immediate = {
+		any_country = {
+			limit = {
+				government = african_company
+				vassal_of = THIS
+			}
+			country_event = 100419
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+	}
+}
+country_event = {
+	id = 100419
+	title = "Africa "
+	desc = " "
+	picture = "chinese_concession"
+	is_triggered_only = yes
+	immediate = {
+		FROM = {
+		    any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = THIS
+			change_owner = THIS
+                   }
+		}
+	}
+	option = {
+		name = "Nice"
+	}
+}
+country_event = {
+	id = 100420
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = KUK
+                     tag = DNF
+                }
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = AAF
+			exists = AAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = AAF
+			change_owner = AAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = AAF
+                       value = 500
+                }
+                create_vassal = AAF
+                AAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100421
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = PRU
+                     tag = NGF
+                     tag = GER
+                }
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = GAF
+			exists = GAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = GAF
+			change_owner = GAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                GER = {
+                       create_vassal = GAF
+                    diplomatic_influence = {
+                       who = GAF
+                       value = 500
+                    }
+                }
+                GAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100422
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = FRA
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = FAF
+			exists = FAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = FAF
+			change_owner = FAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = FAF
+                       value = 500
+                }
+                create_vassal = FAF
+                FAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100423
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = SPA
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = SPF
+			exists = SPF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = SPF
+			change_owner = SPF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = SPF
+                       value = 500
+                }
+                create_vassal = SPF
+                SPF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100424
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = ITA
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = IAF
+			exists = IAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = IAF
+			change_owner = IAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = IAF
+                       value = 500
+                }
+                create_vassal = IAF
+                IAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100425
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = RUS
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = RAF
+			exists = RAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = RAF
+			change_owner = RAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = RAF
+                       value = 500
+                }
+                create_vassal = RAF
+                RAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100426
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = TUR
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = TAF
+			exists = TAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = TAF
+			change_owner = TAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = TAF
+                       value = 500
+                }
+                create_vassal = TAF
+                TAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100427
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = USA
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = UAF
+			exists = UAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = UAF
+			change_owner = UAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = UAF
+                       value = 500
+                }
+                create_vassal = UAF
+                UAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100428
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = JAP
+                     tag = JPE
+                }
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = JAF
+			exists = JAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = JAF
+			change_owner = JAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = JAF
+                       value = 500
+                }
+                create_vassal = JAF
+                JAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100429
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = SWE
+                     tag = SCA
+                }
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = SCF
+			exists = SCF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = SCF
+			change_owner = SCF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = SCF
+                       value = 500
+                }
+                create_vassal = SCF
+                SCF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100430
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = LAF
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = BAF
+			exists = BAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = BAF
+			change_owner = BAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = BAF
+                       value = 500
+                }
+                create_vassal = BAF
+                BAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100431
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = NET
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = NAF
+			exists = NAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = NAF
+			change_owner = NAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = NAF
+                       value = 500
+                }
+                create_vassal = NAF
+                NAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100432
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = POR
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = PAF
+			exists = PAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = PAF
+			change_owner = PAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = PAF
+                       value = 500
+                }
+                create_vassal = PAF
+                PAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+country_event = {
+	id = 100433
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = MEX
+                OR = {
+		     any_owned_province = {
+			  is_core = AFR
+		     }
+                }
+		NOT = {
+			is_our_vassal = MAF
+			exists = MAF
+		}
+	}
+	immediate = {
+		any_owned = {
+			limit = {
+				OR = {
+                                     is_core = AFR
+                                }
+			}
+			secede_province = MAF
+			change_owner = MAF
+		}
+		set_country_flag = has_african_company
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = MAF
+                       value = 500
+                }
+                create_vassal = MAF
+                MAF = {
+                      government = african_company
+                      tech_school = colonial_school
+                }
+	}
+}
+
+country_event = {
+	id = 100434
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = ENG
+                exists = EAF
+		NOT = {
+			is_our_vassal = EAF
+		}
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = EAF
+                       value = 500
+                }
+                create_vassal = EAF
+        }
+}
+
+country_event = {
+	id = 100435
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = KUK
+                     tag = DNF
+                }
+                exists = AAF
+		NOT = {
+			is_our_vassal = AAF
+		}
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = AAF
+                       value = 500
+                }
+                create_vassal = AAF
+        }
+}
+
+country_event = {
+	id = 100436
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = { 
+                        tag = GER
+                        tag = PRU
+                        tag = NGF
+                }
+                exists = GAF
+		NOT = {
+			is_our_vassal = GAF
+		}
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = GAF
+                       value = 500
+                }
+                create_vassal = GAF
+        }
+}
+
+country_event = {
+	id = 100437
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = FRA
+		NOT = {
+			is_our_vassal = FAF
+		}
+                exists = FAF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = FAF
+                       value = 500
+                }
+                create_vassal = FAF
+        }
+}
+
+country_event = {
+	id = 100438
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = SPA
+		NOT = {
+			is_our_vassal = SPF
+		}
+                exists = SPF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = SPF
+                       value = 500
+                }
+                create_vassal = SPF
+        }
+}
+
+country_event = {
+	id = 100439
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = ITA
+		NOT = {
+			is_our_vassal = IAF
+		}
+                exists = IAF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = IAF
+                       value = 500
+                }
+                create_vassal = IAF
+        }
+}
+
+country_event = {
+	id = 100440
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = RUS
+		NOT = {
+			is_our_vassal = RAF
+		}
+                exists = RAF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = RAF
+                       value = 500
+                }
+                create_vassal = RAF
+        }
+}
+
+country_event = {
+	id = 100441
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = TUR
+		NOT = {
+			is_our_vassal = TAF
+		}
+                exists = TAF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = TAF
+                       value = 500
+                }
+                create_vassal = TAF
+        }
+}
+
+country_event = {
+	id = 100442
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		tag = USA
+		NOT = {
+			is_our_vassal = UAF
+		}
+                exists = UAF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = UAF
+                       value = 500
+                }
+                create_vassal = UAF
+        }
+}
+
+country_event = {
+	id = 100443
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = JAP
+                     tag = JPE
+                }
+		NOT = {
+			is_our_vassal = JAF
+		}
+                exists = JAF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = JAF
+                       value = 500
+                }
+                create_vassal = JAF
+        }
+}
+
+country_event = {
+	id = 100444
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = SWE
+                     tag = SCA
+                }
+                exists = SCF
+		NOT = {
+			is_our_vassal = SCF
+		}
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = SCF
+                       value = 500
+                }
+                create_vassal = SCF
+        }
+}
+
+country_event = {
+	id = 100445
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = BRZ
+                     tag = LAF
+                }
+		NOT = {
+			is_our_vassal = BAF
+		}
+                exists = BAF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = BAF
+                       value = 500
+                }
+                create_vassal = BAF
+        }
+}
+
+country_event = {
+	id = 100446
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = NET
+                }
+		NOT = {
+			is_our_vassal = NAF
+		}
+                exists = NAF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = NAF
+                       value = 500
+                }
+                create_vassal = NAF
+        }
+}
+
+country_event = {
+	id = 100447
+	title = "Africa"
+	desc = " "
+	picture = "chinese_concession"
+	trigger = {
+		OR = {
+                     tag = POR
+                }
+		NOT = {
+			is_our_vassal = PAF
+		}
+                exists = PAF
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                diplomatic_influence = {
+                       who = PAF
+                       value = 500
+                }
+                create_vassal = PAF
+        }
+}
+
+country_event = {
+	id = 100448
+	title = "Push to Africa"
+	desc = " "
+	picture = "modernsccct"
+	trigger = {
+                ai = no
+		has_country_modifier = colonial_push_cooldown2  
+                NOT = {
+                has_country_flag = colonial_push
+                }   
+	}
+	option = {
+		name = "Push go go"
+                set_country_flag = colonial_push
+	}
+}
+country_event = {
+	id = 100449
+	title = "Push to Africa2"
+	desc = " "
+	picture = "modernsccct"
+	trigger = {
+                ai = no
+		NOT = { 
+                has_country_modifier = colonial_push_cooldown2
+                }
+                has_country_flag = colonial_push
+                has_country_modifier = colonial_push_cooldown    
+	}
+	option = {
+		name = "Push go go2"
+                clr_country_flag = colonial_push
+	}
+}
+
+country_event = {
+	id = 100450
+	title = "Push to Africa2"
+	desc = " "
+	picture = "modernsccct"
+	trigger = {
+                NOT = {
+                has_country_modifier = african_benefits
+                }
+                OR = {
+		        AND = { 
+                          is_our_vassal = EAF 
+                          EAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = AAF 
+                          AAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = FAF 
+                          FAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = GAF 
+                          GAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = IAF 
+                          IAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = RAF 
+                          RAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = TAF 
+                          TAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = UAF 
+                          UAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = JAF 
+                          JAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = BAF 
+                          BAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = NAF 
+                          NAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = PAF 
+                          PAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = MAF 
+                          MAF {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = SPC
+                          SPC {
+                          total_pops = 2000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = SPF
+                          SPF {
+                          total_pops = 2000000 
+                          }
+                        }
+		}
+	}
+	option = {
+		name = "african_benefits"
+                add_country_modifier = {
+                               name = african_benefits
+                               duration = 3650
+                }
+	}
+}
+country_event = {
+	id = 100451
+	title = "Push to Africa2"
+	desc = " "
+	picture = "modernsccct"
+	trigger = {
+                NOT = {
+                has_country_modifier = african_benefits2
+                }
+                OR = {
+		        AND = { 
+                          is_our_vassal = EAF 
+                          EAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = AAF 
+                          AAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = FAF 
+                          FAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = GAF 
+                          GAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = IAF 
+                          IAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = RAF 
+                          RAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = TAF 
+                          TAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = UAF 
+                          UAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = JAF 
+                          JAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = BAF 
+                          BAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = NAF 
+                          NAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = PAF 
+                          PAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = MAF 
+                          MAF {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = SPC
+                          SPC {
+                          total_pops = 7000000 
+                          }
+                        }
+                        AND = { 
+                          is_our_vassal = SPF
+                          SPF {
+                          total_pops = 7000000 
+                          }
+                        }
+		}
+	}
+	option = {
+		name = "african_benefits2"
+                add_country_modifier = {
+                               name = african_benefits2
+                               duration = 1825
+                }
+	}
+}

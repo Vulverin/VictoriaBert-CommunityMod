@@ -1,0 +1,38 @@
+primary_culture = north_italian
+culture = zulu
+government = african_company
+religion = catholic
+nationalvalue = nv_westciv
+civilized = yes
+
+ruling_party = ITA_conservative
+upper_house = {
+	fascist = 0
+	liberal = 50
+	conservative = 20
+	reactionary = 5
+	anarcho_liberal = 10
+	socialist = 15
+	communist = 0
+}
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = state_equal_weight
+vote_franschise = universal_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = all_trade_unions
+voting_system = first_past_the_post
+political_parties = gerrymandering
+minorities = same_rules
+debt_law = peonage
+
+# Social Reforms
+wage_reform = trinket_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools

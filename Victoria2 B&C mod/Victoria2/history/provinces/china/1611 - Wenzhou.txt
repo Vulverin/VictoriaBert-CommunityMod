@@ -1,0 +1,5 @@
+owner = CHI
+controller = CHI
+add_core = GXI
+trade_goods = tea
+life_rating = 32

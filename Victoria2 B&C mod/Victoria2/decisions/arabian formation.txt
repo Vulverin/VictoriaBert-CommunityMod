@@ -1,0 +1,135 @@
+political_decisions = {
+
+	form_arabia = {
+
+		potential = {
+			ARA = { exists = no }
+			tag = EGY
+		}
+		
+		allow = {
+                        EGY = { 
+				all_core = { 
+					owned_by = THIS 
+				} 
+			}
+                        ABU = { 
+				all_core = { 
+					owned_by = THIS 
+				} 
+			}
+                        OMA = { 
+				all_core = { 
+					owned_by = THIS 
+				} 
+			}
+                        YEM = { 
+				all_core = { 
+					owned_by = THIS 
+				} 
+			}
+                        NEJ = { 
+				all_core = { 
+					owned_by = THIS 
+				} 
+			}
+	                HDJ = { 
+				all_core = { 
+					owned_by = THIS 
+				} 
+			}
+		}
+		effect = {
+			prestige = 40
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS 
+				add_core = ARA
+			}
+			change_tag = ARA
+			add_accepted_culture = union
+			any_country = {
+				limit = {
+					is_culture_group = THIS
+				}
+				all_core = {
+					add_core = ARA
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+        egypt_reforms = {
+		potential = {
+			tag = EGY
+			NOT = {
+				has_country_flag = egypt_reforms_enacted
+			}
+			government = absolute_monarchy
+		}
+		
+		allow = {
+			year = 1835
+		}
+		
+		effect = {
+			
+			militancy = -1
+			consciousness = 1
+                        add_country_modifier = {
+	                name = muh_ali_ref
+			duration = 14600
+			}
+			set_country_flag = egypt_reforms_enacted
+		}
+	}
+
+        panislamism_egypt = {
+                potential = {
+                        tag = EGY
+                        NOT = {
+				has_country_flag = islegy
+			}
+		}
+		
+		allow = {
+                         year = 1840
+		}
+		
+		effect = {
+                        ABU = {
+                                   all_core = {
+				          add_core = EGY
+			           }
+                        }
+                        YEM = {
+                                   all_core = {
+				          add_core = EGY
+			           }
+                        }
+                        OMA = {
+                                   all_core = {
+				          add_core = EGY
+			           }
+                        }
+                        NEJ = {
+                                   all_core = {
+				          add_core = EGY
+			           }
+                        }
+                        HDJ = {
+                                   all_core = {
+				          add_core = EGY
+			           }
+                        }
+                        set_country_flag = islegy
+			
+		}
+	}	
+}

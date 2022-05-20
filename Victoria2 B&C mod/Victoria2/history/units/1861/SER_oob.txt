@@ -1,0 +1,53 @@
+army = {
+	name = "—ербска€ арми€"
+	location = 794
+	regiment = {
+		name= "1-€ дивизи€"
+		type = infantry
+		home = 794
+	}
+
+	regiment = {
+		name= "2-€ дивизи€"
+		type = infantry
+		home = 794
+	}
+
+	regiment = {
+		name= "3-€ дивизи€"
+		type = infantry
+		home = 795
+	}
+
+	regiment = {
+		name= "4-€ дивизи€"
+		type = cuirassier
+		home = 794
+	}
+
+	regiment = {
+		name= "5-€ дивизи€"
+		type = infantry
+		home = 795
+	}
+
+	regiment = {
+		name= "6-€ дивизи€"
+		type = infantry
+		home = 796
+	}
+
+	regiment = {
+		name= "7-€ дивизи€"
+		type = infantry
+		home = 796
+	}
+
+	regiment = {
+		name= "8-€ дивизи€"
+		type = engineer
+		home = 797
+	}
+
+}
+

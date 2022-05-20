@@ -1,0 +1,395 @@
+#Sphere of Influence
+MEX = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+ECU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PEU = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BOL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+CHL = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PRG = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+UCA = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+CLM = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+BRZ = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+URU = {
+	value = 75		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+POR = {
+	value = 100		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+
+FRA = {
+	value = 55
+}
+
+
+#Army
+army = {
+	name = "Ejército Cristino del Centro"
+	location = 487
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = colinfantry
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = colinfantry
+		home = 489
+	}
+
+	regiment = {
+		name= "3. Guardia Real"
+		type = guard
+		home = 481
+	}
+
+	regiment = {
+		name= "1. Brigada de Infantería 'El Ramillete'"
+		type = colinfantry
+		home = 503
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = colinfantry
+		home = 509
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = colinfantry
+		home = 513
+	}
+
+	regiment = {
+		name= "1. Brigada de Ingenieros"
+		type = engineer
+		home = 495
+	}
+
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = cuirassier
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = cuirassier
+		home = 489
+	}
+
+	regiment = {
+		name= "3. Granaderos del Rey"
+		type = cuirassier
+		home = 488
+	}
+}
+
+army = {
+	name = "Ejército del Norte"
+	location = 498
+	
+	regiment = {
+		name= "4. Brigada de Infantería 'San Jorge'"
+		type = colinfantry
+		home = 498
+	}
+
+	regiment = {
+		name= "1. Brigada de Artillería"
+		type = artillery
+		home = 476
+	}
+	
+	regiment = {
+		name= "5. Brigada de Infantería"
+		type = colinfantry
+		home = 482
+	}
+	
+	regiment = {
+		name= "6. Brigada de Infantería 'La Granja'"
+		type = colinfantry
+		home = 483
+	}
+
+	regiment = {
+		name= "7. Brigada de Infantería"
+		type = colinfantry
+		home = 497
+	}
+}
+
+army = {
+	name = "Ejército del Sur"
+	location = 512
+
+	regiment = {
+		name= "8. Brigada de Infantería"
+		type = colinfantry
+		home = 512
+	}
+
+	regiment = {
+		name= "9. Brigada de Infantería"
+		type = colinfantry
+		home = 514
+	}
+
+	regiment = {
+		name= "10. Brigada de Infantería"
+		type = colinfantry
+		home = 510
+	}
+
+	regiment = {
+		name= "11. Brigada de Infantería"
+		type = colinfantry
+		home = 516
+	}
+	
+	regiment = {
+		name= "12. Brigada de Infantería"
+		type = colinfantry
+		home = 515
+	}
+}
+
+army = {
+	name = "Ejército de Cuba"
+	location = 2209
+	
+	regiment = {
+		name = "1. Brigada Colonial"
+		type = colinfantry
+		home = 474
+	}
+	
+	regiment = {
+		name = "2. Brigada Colonial"
+		type = colinfantry
+		home = 2209
+	}
+}
+
+army = {
+	name = "Ejército de Puerto Rico"
+	location = 2222
+	
+	regiment = {
+		name = "3. Brigada Colonial"
+		type = colinfantry
+		home = 475
+	}
+}
+
+army = {
+	name = "Ejército de Filipinas"
+	location = 1455
+	
+	regiment = {
+		name = "4. Brigada Colonial"
+		type = colinfantry
+		home = 1455
+	}
+}
+
+army = {
+	name = "Ejército de Mindanao"
+	location = 1463
+	
+	regiment = {
+		name = "5. Brigada Colonial"
+		type = colinfantry
+		home = 1463
+	}
+}
+
+navy = {
+	name = "Armada de Cuba"
+	location = 2212
+	
+	ship = {
+		name = "Santiago"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Hespérides"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Centinela"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Isla de Cuba"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Cristóbal Colón"
+		type = manowar
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Armada de Filipinas"
+	location = 1455
+	
+	ship = {
+		name = "Alerta"
+		type = manowar
+	}
+	
+	ship = {
+		name = "San Fernando"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Legazpi"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Victoria"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Nuestra Señora del Patrocinio"
+		type = manowar
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Armada Real Española"
+	location = 506
+	ship = {
+		name= "San Raimundo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Héroe"
+		type = manowar
+	}
+
+	ship = {
+		name= "San Pablo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ceres"
+		type = manowar
+	}
+
+	ship = {
+		name= "Gloria"
+		type = manowar
+	}
+
+	ship = {
+		name= "Nuestra Señora de Asunción"
+		type = manowar
+	}
+
+	ship = {
+		name= "Nuestra Señora de Atocha"
+		type = manowar
+	}
+
+	ship = {
+		name= "Santa Sabina"
+		type = manowar
+	}
+
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}

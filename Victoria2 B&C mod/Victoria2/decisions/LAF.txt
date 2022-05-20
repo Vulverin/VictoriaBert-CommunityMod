@@ -1,0 +1,203 @@
+political_decisions = {
+	united_south_america = {
+		potential = {
+			tag = BRZ
+		}
+		allow = {
+                         year = 1845
+                         CLM = {
+                               vassal_of = THIS
+                         }
+                         VNZ = {
+                               vassal_of = THIS
+                         }
+                         ECU = {
+                               vassal_of = THIS
+                         }
+                         PEU = {
+                               vassal_of = THIS
+                         }
+                         CHL = {
+                               vassal_of = THIS
+                         }
+                         ARG = {
+                               vassal_of = THIS
+                         }
+		}
+		effect = {
+                        inherit = CLM
+                        inherit = VNZ
+                        inherit = ECU
+                        inherit = PEU
+                        inherit = CHL
+                        inherit = ARG
+			prestige = 20
+			change_tag = LAF
+			add_accepted_culture = platinean
+			add_accepted_culture = brazilian
+                        add_accepted_culture = south_andean
+                        add_accepted_culture = afro_brazilian
+                        add_accepted_culture = north_andean
+			any_country = {
+				limit = {
+					capital_scope = {
+						continent = south_america
+					}
+				}
+				any_owned = {
+					add_core = LAF
+				}
+                        }
+		}
+	}
+
+        golden_law = {
+                potential = {
+                        tag = BRZ
+                        NOT = {
+                                has_country_flag = slavecocatb
+                        }
+                }
+                allow = {
+                          state_n_government = 1
+                          year = 1840
+                }
+                effect = {
+                          political_reform = no_slavery
+                          set_country_flag = slavecocatb
+                }
+        }
+
+        immirg_law = {
+                potential = {
+                        tag = BRZ
+                        NOT = {
+                                has_country_flag = igfmdg2
+                        }
+                }
+                allow = {
+                          year = 1842
+                }
+                effect = {
+                          add_country_modifier = {
+                                   name = immigrta_laww
+                                   duration = -1
+                          }
+                          set_country_flag = igfmdg2
+                }
+        }
+
+        centrl_amr_is_our = {
+                  potential = {
+                        tag = LAF
+                        NOT = {
+                                has_country_flag = dsad2vtr
+                        }
+                  }
+	          allow = {
+                  }
+                  effect = {
+                             UCA = {
+                                   all_core = {
+				          add_core = LAF
+			           }
+                             }
+                             set_country_flag = dsad2vtr
+                  }
+        }
+         
+	rio_de_fuck = {
+                potential = {
+			tag = LAF
+                        owns = 2447
+			NOT = {
+				has_country_flag = stat_build
+			}
+		}
+
+		allow = {
+                        money = 250000
+		}
+
+		effect = {
+			LAF = {
+                                money = -250000
+                        }
+			add_country_modifier = {
+                                   name = jesus
+                                   duration = -1
+                        }
+                        2447 = {
+                                 life_rating = 5
+                        }
+			set_country_flag = stat_build
+		}
+	}
+
+        the_law_of_liberty = {
+                potential = {
+			tag = LAF
+			NOT = {
+				has_country_flag = lwlivrt
+			}
+		}
+
+		allow = {
+		}
+
+		effect = {
+			add_country_modifier = {
+                                   name = laf_law
+                                   duration = -1
+                        }
+			set_country_flag = lwlivrt
+		}
+	} 
+	
+	laf_cores = {
+		potential = {
+			tag = LAF
+			NOT = {
+				has_country_flag = laf_cores
+			}
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = laf_cores
+			1979 = {
+				add_core = LAF
+			}
+			2131 = {
+				add_core = LAF
+			}
+			2239 = {
+				add_core = LAF
+			}
+			1979 = {
+				add_core = LAF
+			}
+			2240 = {
+				add_core = LAF
+			}
+			2241 = {
+				add_core = LAF
+			}
+			2242 = {
+				add_core = LAF
+			}
+			2243 = {
+				add_core = LAF
+			}
+			2245 = {
+				add_core = LAF
+			}
+			2246 = {
+				add_core = LAF
+			}
+		}
+	}
+}

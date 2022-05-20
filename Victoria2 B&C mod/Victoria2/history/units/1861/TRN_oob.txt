@@ -1,0 +1,29 @@
+army = {
+	name = "Добровольческая армия"
+	location = 2105
+	regiment = {
+		name= "Преторийский полк"
+		type = dragoon
+		home = 2105
+	}
+
+	regiment = {
+		name= "Йоханнесбургский полк"
+		type = dragoon
+		home = 2106
+	}
+
+	regiment = {
+		name= "Клерксдорпский полк"
+		type = dragoon
+		home = 2107
+	}
+
+	regiment = {
+		name= "Лиденбургский полк"
+		type = dragoon
+		home = 2109
+	}
+
+}
+
