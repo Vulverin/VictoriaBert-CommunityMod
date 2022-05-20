@@ -607,25 +607,25 @@
 	}
 
 	clergymen = {
-		culture = ukrainian
+		culture = russian
 		religion = orthodox
 		size = 75  
 	}
 
 	artisans = {
-		culture = ukrainian
+		culture = russian
 		religion = orthodox
 		size = 400
 	}
 
 	soldiers = {
-		culture = ukrainian
+		culture = russian
 		religion = orthodox
 		size = 75  
 	}
 
 	farmers = {
-		culture = ukrainian
+		culture = russian
 		religion = orthodox
 		size = 8450
 	}
