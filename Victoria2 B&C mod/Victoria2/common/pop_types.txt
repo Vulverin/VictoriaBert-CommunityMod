@@ -906,9 +906,11 @@ assimilation_chance =
         factor = -100      
                 culture = zulu
         }
+        modifier = {
         factor = -100      
                 culture = afro_american
         }
+        modifier = {
         factor = -100      
                 culture = afro_brazilian
         }
