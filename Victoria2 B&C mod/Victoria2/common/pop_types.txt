@@ -903,17 +903,26 @@ assimilation_chance =
 		has_culture_core = yes                
 	}
         modifier = {
-        factor = -100      
+                factor = -100
                 culture = zulu
         }
         modifier = {
-        factor = -100      
+                factor = -100
                 culture = afro_american
         }
         modifier = {
-        factor = -100      
+                factor = -100
                 culture = afro_brazilian
         }
+        modifier = {
+                factor = -15
+                culture = ashkenazi
+        }
+        modifier = {
+                factor = -15
+                culture = sephardic
+        }
+
 	modifier = {
         factor = 5
                 culture = polish
