@@ -915,22 +915,22 @@ assimilation_chance =
                 culture = afro_brazilian
         }
 	modifier = {
-        factor = 20      
+        factor = 5
                 culture = polish
         }
 
         modifier = {
-        factor = 20
+        factor = 5
                 culture = korean
         }
 
         modifier = {
-        factor = 20
+        factor = 5
                 culture = bedouin
         }
 
         modifier = {
-        factor = 20
+        factor = 5
                 culture = amhara
         }
         
