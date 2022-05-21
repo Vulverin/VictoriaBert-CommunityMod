@@ -836,7 +836,7 @@ push_col_pops = {
                         }
 		}
 		allow = {
-			money = 500000
+			money = 1000000
                         AI = no          
 		}
 		effect = {
