@@ -417,7 +417,7 @@ promote_to =
 	{
 		factor = 0.01
 		modifier = {
-			factor = -100 
+			factor = -200 
 			NOT = { is_accepted_culture = yes }
 			NOT = { is_primary_culture = yes }
 		}
