@@ -924,23 +924,18 @@ assimilation_chance =
         }
 
 	modifier = {
-        factor = 5
+        factor = 3
                 culture = polish
         }
 
         modifier = {
-        factor = 5
+        factor = 3
                 culture = korean
         }
 
         modifier = {
-        factor = 5
+        factor = 3
                 culture = bedouin
-        }
-
-        modifier = {
-        factor = 5
-                culture = amhara
         }
         
 	modifier = {
