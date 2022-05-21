@@ -81,13 +81,13 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 975
 	}
@@ -395,31 +395,31 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 225
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 10000
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 10000
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 6000
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 3775
 	}
@@ -499,19 +499,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 2500
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 3450
 	}
@@ -567,19 +567,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 125
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 700
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 13375
 	}
@@ -649,19 +649,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 2500
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 6425
 	}
@@ -831,19 +831,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 20
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1100
 	}
@@ -961,19 +961,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 20
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1100
 	}
@@ -1061,13 +1061,13 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 20
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 980
 	}
@@ -1299,19 +1299,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 20
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 930
 	}
@@ -1367,19 +1367,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 20
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 930
 	}
@@ -1499,19 +1499,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 250
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 4700
 	}
@@ -1567,19 +1567,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1875
 	}
@@ -1635,19 +1635,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 350
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 6575
 	}
@@ -1703,19 +1703,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 450
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 8475
 	}
@@ -1899,19 +1899,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 250
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 4700
 	}
@@ -2017,19 +2017,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 100
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1875
 	}
@@ -2081,19 +2081,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 300
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1500
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 28200
 	}
@@ -2173,19 +2173,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 300
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1500
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 28200
 	}
@@ -2267,19 +2267,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 450
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 8775
 	}
@@ -2359,19 +2359,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 350
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1800
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 33850
 	}
@@ -2439,19 +2439,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 100
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 600
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 11300
 	}
@@ -2551,19 +2551,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 175
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 950
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 17875
 	}
@@ -2661,19 +2661,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 350
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 6600
 	}
@@ -2759,19 +2759,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 350
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 6600
 	}
@@ -2857,19 +2857,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 200
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1050
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 20750
 	}
@@ -2987,19 +2987,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 450
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 8475
 	}
@@ -3087,19 +3087,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 300
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 5650
 	}
@@ -3169,19 +3169,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 500
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 9425
 	}
@@ -3279,19 +3279,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 350
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 6600
 	}
@@ -3377,19 +3377,19 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 200
 	}
 
 	farmers = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 3725
 	}

@@ -1,5 +1,5 @@
 capital = 1102
-primary_culture = azerbaijani
+primary_culture = north_caucasian
 culture = turkish
 religion = sunni
 government = democracy
