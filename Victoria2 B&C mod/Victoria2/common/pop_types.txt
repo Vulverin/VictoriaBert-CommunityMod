@@ -499,7 +499,7 @@ colonialmigration_chance =
 	factor = 0.25
 
 	modifier = {
-		factor = 0.10
+		factor = 0.05
                 culture = this
 	}
         modifier = {
@@ -511,11 +511,11 @@ colonialmigration_chance =
 	
 	group = {
 		modifier = {
-			factor = -0.03
+			factor = -0.04
 			not = { consciousness = 6 }
 		}
 		modifier = {
-			factor = -0.03
+			factor = -0.04
 			not = { consciousness = 7 }
 		}
 		modifier = {
