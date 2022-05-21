@@ -405,7 +405,7 @@ political_decisions = {
 
                         add_country_modifier = {
                                    name = turpplgrwth46
-                                   duration = 7230
+                                   duration = 7300
                         }                         
 		        add_accepted_culture = bedouin
                         add_accepted_culture = persian
@@ -485,8 +485,8 @@ political_decisions = {
                          inherit = WAL
                          add_country_modifier = {
                                    name = turppwestpath
-                                   duration = 7230
-
+                                   duration = 14600
+                         }
                         		
 			add_accepted_culture = serb
                         add_accepted_culture = bulgarian
