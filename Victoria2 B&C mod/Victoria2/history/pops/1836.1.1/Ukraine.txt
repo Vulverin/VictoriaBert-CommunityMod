@@ -2633,26 +2633,26 @@
 	}
 
 	clergymen = {
-		culture = south_italian
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 50
 	}
 
 	artisans = {
-		culture = south_italian
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 4000
 	}
 
 	soldiers = {
-		culture = south_italian
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 50
 	}
 
 	farmers = {
-		culture = south_italian
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 900
 	}
 

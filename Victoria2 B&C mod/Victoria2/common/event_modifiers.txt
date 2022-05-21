@@ -992,8 +992,12 @@ polt_refs_inc = {
         icon = 1
 }
 turpplgrwth46 = {
-        education_efficiency_modifier = 0.1
+        education_efficiency_modifier = -0.1
         global_population_growth = 0.002
+}
+turppwestpath = {
+        education_efficiency_modifier = 0.2
+        mobilisation_size = 0.02
 }       
 romdg_arm_a = {
         land_organisation = 0.1
@@ -1828,7 +1832,6 @@ american_capitalism = {
          RGO_output = 0.35
          rich_life_needs = -0.15
          rich_everyday_needs = -0.15
-         factory_input = -0.2
 }
 jesus = {
          global_immigrant_attract = 0.20

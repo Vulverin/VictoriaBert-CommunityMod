@@ -421,13 +421,13 @@ promote_to =
 			factor = -100 
 			NOT = { is_accepted_culture = yes }
 			NOT = { is_primary_culture = yes }
-		}	
+		}
                 modifier = {
-			factor = 50
+			factor = 100
 			continent = africa
                         NOT = { state_scope = { bureaucrats = 0.012 }
                         }
-		}
+		}	
 		group = {
 			modifier = {
 				factor =  0.25

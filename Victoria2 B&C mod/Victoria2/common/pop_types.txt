@@ -499,11 +499,11 @@ colonialmigration_chance =
 	factor = 0.25
 
 	modifier = {
-		factor = 0.15
+		factor = 0.05
                 culture = this
 	}
         modifier = {
-                factor = 1
+                factor = 1.0
                 country = {
 			has_country_flag = colonial_push
                 }
@@ -511,11 +511,11 @@ colonialmigration_chance =
 	
 	group = {
 		modifier = {
-			factor = -0.03
+			factor = -0.04
 			not = { consciousness = 6 }
 		}
 		modifier = {
-			factor = -0.03
+			factor = -0.04
 			not = { consciousness = 7 }
 		}
 		modifier = {
@@ -903,33 +903,39 @@ assimilation_chance =
 		has_culture_core = yes                
 	}
         modifier = {
-        factor = -100      
+                factor = -100
                 culture = zulu
         }
-        factor = -100      
+        modifier = {
+                factor = -100
                 culture = afro_american
         }
-        factor = -100      
+        modifier = {
+                factor = -100
                 culture = afro_brazilian
         }
+        modifier = {
+                factor = -15
+                culture = ashkenazi
+        }
+        modifier = {
+                factor = -15
+                culture = sephardic
+        }
+
 	modifier = {
-        factor = 20      
+        factor = 3
                 culture = polish
         }
 
         modifier = {
-        factor = 20
+        factor = 3
                 culture = korean
         }
 
         modifier = {
-        factor = 20
+        factor = 3
                 culture = bedouin
-        }
-
-        modifier = {
-        factor = 20
-                culture = amhara
         }
         
 	modifier = {

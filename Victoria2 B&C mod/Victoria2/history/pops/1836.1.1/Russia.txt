@@ -4827,31 +4827,31 @@
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 50
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 150
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 2725
 	}
@@ -4907,31 +4907,31 @@
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 75
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 250
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 4575
 	}

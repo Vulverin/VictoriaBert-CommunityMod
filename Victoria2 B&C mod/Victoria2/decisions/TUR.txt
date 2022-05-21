@@ -377,47 +377,6 @@ political_decisions = {
 		}
 	
 		effect = {
-                         release = BOS
-                         release = GRE
-                         release = SER
-                         release = ALB
-                         release = MON
-                         release = BUL
-                         BOS = {
-                               all_core = {
-                                       remove_core = TUR
-                               }
-                         }
-                         GRE = {
-                               all_core = {
-                                       remove_core = TUR
-                               }
-                         }
-                         SER = {
-                               all_core = {
-                                       remove_core = TUR
-                               }
-                         }
-                         ALB = {
-                               all_core = {
-                                       remove_core = TUR
-                               }
-                         }
-                         MON = {
-                               all_core = {
-                                       remove_core = TUR
-                               }
-                         }
-                         BUL = {
-                               all_core = {
-                                       remove_core = TUR
-                               }
-                         }		
-			 HDJ = {
-                                   all_core = {
-				          add_core = TUR
-			           }
-                         }
                          ABU = {
                                    all_core = {
 				          add_core = TUR
@@ -446,10 +405,11 @@ political_decisions = {
 
                         add_country_modifier = {
                                    name = turpplgrwth46
-                                   duration = 14600
+                                   duration = 7300
                         }                         
 		        add_accepted_culture = bedouin
                         add_accepted_culture = persian
+                        add_accepted_culture = north_caucasian
 			set_country_flag = islamic_halifat_done
 		}
 		
@@ -523,7 +483,10 @@ political_decisions = {
                                   }
                          }
                          inherit = WAL
-
+                         add_country_modifier = {
+                                   name = turppwestpath
+                                   duration = 14600
+                         }
                         		
 			add_accepted_culture = serb
                         add_accepted_culture = bulgarian

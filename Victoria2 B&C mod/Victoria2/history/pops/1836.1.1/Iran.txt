@@ -3,79 +3,79 @@
 #Tabriz (808000/202000 POPS)
 1108 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 2500
 	}
 
 	bureaucrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 500
 	}
 
 	officers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 400
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 1250
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 10000
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 6000
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 2000
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 95850
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 1500
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 525
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 8500
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 800
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 70175
 	}
@@ -93,13 +93,13 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1475
 	}
@@ -107,61 +107,61 @@
 #Khvoy (168000/42000 POPS)
 1109 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 175
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 75
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 400
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 100
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 7225
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 650
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 125
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 11875
 	}
@@ -229,61 +229,61 @@
 #Urumia (192000/48000 POPS)
 1110 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 250
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 125
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 600
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 125
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 10900
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 275
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 850
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 150
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 15575
 	}
@@ -351,61 +351,61 @@
 #Mahabad (200000/50000 POPS)
 1111 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 650
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 325
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 1600
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 1100
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 28425
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 300
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 900
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 175
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 16475
 	}
@@ -413,61 +413,61 @@
 #Ardabil (280000/70000 POPS)
 1112 = {
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 625
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 325
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 1550
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 1100
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = shiite
 		size = 27500
 	}
 
 	aristocrats = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 375
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 200
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 1100
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 200
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = north_caucasian
 		religion = sunni
 		size = 20125
 	}
@@ -989,13 +989,13 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 1475
 	}
@@ -1045,13 +1045,13 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 10
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 490
 	}
@@ -1249,13 +1249,13 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 2925
 	}
@@ -1369,13 +1369,13 @@
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 10
 	}
 
 	artisans = {
-		culture = armenian
+		culture = north_caucasian
 		religion = orthodox
 		size = 490
 	}
