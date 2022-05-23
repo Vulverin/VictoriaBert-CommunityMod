@@ -10,6 +10,7 @@ country_event = {
 		slavery = yes_slavery
 		NOT = {
 			has_global_flag = american_civil_war_has_happened
+                        has_country_flag = compromise_csa_usa
 		}
 		has_country_flag = john_browns_raid
 		has_country_flag = dred_scott_decision
@@ -147,7 +148,7 @@ country_event = {
                             name = usa_civil_war_dbf
                             duration = 7300
                 }
-		
+		set_country_flag = compromise_csa_usa
 		clr_country_flag = the_slavery_debate
 	}
 }
