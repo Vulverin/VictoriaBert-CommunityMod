@@ -13,7 +13,7 @@ political_decisions = {
                      effect = {
                                any_country = {
                                limit = {
-                                        primary_culture = north_german
+                                        primary_culture = prussian_german
                                }
                                annex_to = THIS
                                }
@@ -43,9 +43,8 @@ political_decisions = {
 		}
                 effect = {
                           add_accepted_culture = dutch
-                          add_accepted_culture = flemish
+                          add_accepted_culture = wallonian
                           add_accepted_culture = danish
-                          add_accepted_culture = south_german
                           BAD = {
                                    all_core = {
 				          add_core = HAR

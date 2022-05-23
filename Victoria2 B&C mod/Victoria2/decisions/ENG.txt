@@ -270,7 +270,6 @@ political_decisions = {
                          AST = {
                                vassal_of = ENG
                          } 
-                         year = 1845
                          money = 1000000
                 }
                 effect = {
@@ -476,7 +475,6 @@ political_decisions = {
                           PER = {
                                  inherit = AFG
                                  add_accepted_culture = pashtun
-                                 add_accepted_culture = tajik
                           }
                 }
         }

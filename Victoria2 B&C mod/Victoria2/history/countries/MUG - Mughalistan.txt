@@ -1,9 +1,5 @@
 capital = 1236
 primary_culture = avadhi
-culture = telegu
-culture = marathi
-culture = rajput
-culture = gujarati
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
