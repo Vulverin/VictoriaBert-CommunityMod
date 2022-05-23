@@ -288,7 +288,7 @@ political_decisions = {
                 potential = {
                         tag = USA
                         NOT = {
-                                has_country_flag = annex_TEX1
+                                has_country_flag = annex_tex_done
                         }
                 }
                 allow = {
@@ -300,8 +300,8 @@ political_decisions = {
                           }
                 }
                 effect = {
-                          set_country_flag = annex_TEX1
                           inherit = TEX
+                          prestige = 10
                 }
         }
 
