@@ -2670,31 +2670,6 @@ rename_st_petersburg = {
 		}
 	}
 
-change_national_value_to_westciv = {
-		potential = {
-			NOT = {
-                                nationalvalue = nv_westciv
-
-				has_global_flag = country_has_changed_value_westciv
-			}
-			
-		}
-		allow = {
-                        year = 1850
-                        literacy = 0.4
-		}
-		effect = {
-                        add_country_modifier = {
-                                 name = gotowestciv
-                                 duration = 3650
-                          }
-			nationalvalue = nv_transciv
-			plurality = 5
-			set_global_flag = country_has_changed_value_westciv
-
-		}
-	}
-
         politics_des_on = { 
 	alert = no 
         potential = { 
@@ -3026,7 +3001,8 @@ change_national_value_to_westciv = {
          }
 change_national_value_to_westciv = {
 		potential = {
-                        year = 1850
+                        alert = no
+                        ai = no
                         OR = {
                         nationalvalue = nv_eastciv
                         nationalvalue = nv_eastasianciv
@@ -3038,7 +3014,7 @@ change_national_value_to_westciv = {
 			
 		}
 		allow = {
-                        literacy = 0.4
+                        literacy = 0.5
 		}
 		effect = {
                         add_country_modifier = {
@@ -3053,7 +3029,8 @@ change_national_value_to_westciv = {
 	}
 change_national_value_to_eastciv = {
 		potential = {
-                        year = 1850
+                        ai = no
+                        alert = no
 			NOT = {
                                 nationalvalue = nv_eastciv
 				has_global_flag = country_has_changed_value_eastciv
