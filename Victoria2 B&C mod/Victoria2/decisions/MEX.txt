@@ -192,6 +192,11 @@ political_decisions = {
 				add_core = USA
 				secede_province = USA
 			}
+			132 = {
+                               remove_core = MEX
+			       add_core = USA
+			       secede_province = USA
+                        }
 			133 = {
                                remove_core = MEX
 			       add_core = USA
@@ -201,18 +206,18 @@ political_decisions = {
                                remove_core = MEX
 			       add_core = USA
 			       secede_province = USA
-                        }
-			135 = {
-                               remove_core = MEX
-			       add_core = USA
-			       secede_province = USA
                         } 
-			137 = {
+			135 = {
                                remove_core = MEX
 			       add_core = USA
 			       secede_province = USA
                         }
 			136 = { 
+                               remove_core = MEX
+			       add_core = USA
+			       secede_province = USA
+		        }
+                        137 = { 
                                remove_core = MEX
 			       add_core = USA
 			       secede_province = USA
