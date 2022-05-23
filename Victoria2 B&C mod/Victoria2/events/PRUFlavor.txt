@@ -90,11 +90,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA34601" 
 		any_pop = {
-			limit = { has_pop_culture = north_german }
-			consciousness = 1
-		}	
-		any_pop = {
-			limit = { has_pop_culture = south_german }
+			limit = { has_pop_culture = prussian_german }
 			consciousness = 1
 		}	
 	}
@@ -449,11 +445,7 @@ country_event = {
 		name = "EVTOPTA34608" 
 		prestige = 2
 		any_pop = {
-			limit = { has_pop_culture = north_german }
-			consciousness = 1
-		}	
-		any_pop = {
-			limit = { has_pop_culture = south_german }
+			limit = { has_pop_culture = prussian_german }
 			consciousness = 1
 		}	
 	}	
