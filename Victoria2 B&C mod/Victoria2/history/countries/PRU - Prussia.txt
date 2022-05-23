@@ -10,7 +10,7 @@ civilized = yes
 
 set_country_flag = ger_army_limit
 #GreaterPowers = prestige
-prestige = 50
+prestige = 80
 
 # Political reforms
 slavery = no_slavery
