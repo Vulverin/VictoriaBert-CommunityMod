@@ -1,7 +1,10 @@
 political_decisions = {
 	fatherland_volunteers = {
 		potential = {
-			tag = BRZ
+                        OR = { 
+                        tag = BRZ
+                        tag = LAF 
+                        }
 			government = hms_government
 			NOT = {
 				has_country_flag = pedro_said_it_best
@@ -24,7 +27,10 @@ political_decisions = {
 	
 	law_1420_of_general_common_education = {
 		potential = {
-			tag = BRZ
+                        OR = { 
+                        tag = BRZ
+                        tag = LAF 
+                        }
 			NOT = {
 				has_country_flag = 1420_passed
 			}

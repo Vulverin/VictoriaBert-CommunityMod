@@ -53,7 +53,10 @@ political_decisions = {
 
         golden_law = {
                 potential = {
+                        OR = { 
                         tag = BRZ
+                        tag = LAF 
+                        }
                         NOT = {
                                 has_country_flag = slavecocatb
                         }
@@ -70,7 +73,10 @@ political_decisions = {
 
         immirg_law = {
                 potential = {
+                        OR = { 
                         tag = BRZ
+                        tag = LAF 
+                        }
                         NOT = {
                                 has_country_flag = igfmdg2
                         }

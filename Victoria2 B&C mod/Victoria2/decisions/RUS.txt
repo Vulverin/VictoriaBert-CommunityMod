@@ -456,7 +456,6 @@ political_decisions = {
                           PER = {
                                  inherit = AFG
                                  add_accepted_culture = pashtun
-                                 add_accepted_culture = tajik
                           }
                 }
         }
@@ -910,37 +909,6 @@ political_decisions = {
 		}
 	}
 	
-	promulgate_the_ems_ukaz = {
-		potential = {
-			tag = RUS
-			NOT = {
-				has_country_flag = ems_ukaz_dispatched
-			}
-			government = absolute_monarchy
-			owns = 958
-			phenomenalism = 1
-			exists = GER
-			GER = {
-				owns = 570
-			}
-		}
-		
-		allow = {
-			biologism = 1
-		}
-		
-		effect = {
-			any_pop = {
-				limit = {
-					has_pop_culture = ukrainian
-				}
-				militancy = 3
-				consciousness = -2
-			}
-			set_country_flag = ems_ukaz_dispatched
-		}
-	}
-
 	protect_eastern_christians = {
 		potential = {
 			tag = RUS
@@ -1250,26 +1218,6 @@ political_decisions = {
                }
         }
    
-        integration_of_kazakhstan = {
-               potential = {
-                        tag = RUS
-                        NOT = {
-                                has_country_flag = integration_of_kazakhstan_is_done
-                        }
-                        owns = 1183
-                        owns = 1194
-                        owns = 2606
-                        owns = 1185
-               }
-               allow = {
-                        year = 1836
-               }
-               effect = {
-                        add_accepted_culture = kazak
-                        set_country_flag = integration_of_kazakhstan_is_done
-               }
-        }
- 
         rename_kenig = {
                potential = {
                        tag = RUS

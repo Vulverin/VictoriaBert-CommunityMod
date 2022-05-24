@@ -2,6 +2,7 @@ political_decisions = {
 port_brz = {
                 potential = {
                           tag = POR
+                          ai = no
                           NOT = {
                                  has_country_flag = por_mor_13
                           }
