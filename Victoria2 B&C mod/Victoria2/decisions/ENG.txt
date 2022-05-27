@@ -756,4 +756,24 @@ political_decisions = {
 			set_country_flag = ian_would_be_proud
 		}
 	}
+
+           IRE_annex_dead_inside {
+                potential = {
+                not = { has_country_flag = IRE_annex_dead_inside_over
+       }
+                tag = ENG
+                }
+                allow = {
+                IRE = {
+                vassal_of = ENG
+       }
+                year = 1851
+                }
+           effect = {
+           inherit = IRE
+           prestige = 10
+           set_country_flag = IRE_annex_dead_inside_over
+           }
+     }
+                
 }
