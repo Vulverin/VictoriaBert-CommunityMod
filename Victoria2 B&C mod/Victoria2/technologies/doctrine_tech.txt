@@ -90,6 +90,9 @@ mobilisation_tech_9 = {
 	cost = 13000
 	unciv_military = yes
 	mobilisation_size = 0.01
+	infantry = {
+    			default_organisation = -5
+    	}
 }	
 
 mobilisation_tech_10 = {
