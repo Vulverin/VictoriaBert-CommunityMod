@@ -5,6 +5,9 @@ mobilisation_tech_1 = {
 	cost = 4000
 	unciv_military = yes
 	mobilisation_size = 0.01
+        infantry = {
+			default_organisation = -5
+	}
 }	
 	
 mobilisation_tech_2 = {
@@ -13,7 +16,9 @@ mobilisation_tech_2 = {
 	cost = 5000
 	unciv_military = yes
 	mobilisation_size = 0.02
-        
+        infantry = {
+			default_organisation = -5
+	}
 }
 	
 mobilisation_tech_3 = {
@@ -22,6 +27,9 @@ mobilisation_tech_3 = {
 	cost = 6000
 	unciv_military = yes
 	mobilisation_size = 0.02
+        infantry = {
+			default_organisation = -5
+	}
 }
 	
 mobilisation_tech_4 = {
@@ -30,6 +38,9 @@ mobilisation_tech_4 = {
 	cost = 7000
 	unciv_military = yes
 	mobilisation_size = 0.02
+        infantry = {
+			default_organisation = -5
+	}
 }	
 
 mobilisation_tech_5 = {
@@ -38,6 +49,9 @@ mobilisation_tech_5 = {
 	cost = 8000
 	unciv_military = yes
 	mobilisation_size = 0.02
+        infantry = {
+			default_organisation = -5
+	}
 }	
 
 mobilisation_tech_6 = {
@@ -46,6 +60,9 @@ mobilisation_tech_6 = {
 	cost = 8000
 	unciv_military = yes
         mobilisation_size = 0.02
+        infantry = {
+			default_organisation = -5
+	}
 }	
 
 mobilisation_tech_7 = {
@@ -54,6 +71,9 @@ mobilisation_tech_7 = {
 	cost = 10000
 	unciv_military = yes
 	mobilisation_size = 0.02
+        infantry = {
+			default_organisation = -5
+	}
 }	
 
 mobilisation_tech_8 = {
@@ -86,6 +106,9 @@ mobilisation_tech_11 = {
 	cost = 17000
 	unciv_military = yes
 	mobilisation_size = 0.02
+        infantry = {
+			default_organisation = -5
+	}
 }	
 
 #defensive_march
