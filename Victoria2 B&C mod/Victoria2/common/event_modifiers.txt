@@ -520,7 +520,6 @@ german_fleet = {
 ruhr_boom = {
 	local_RGO_output = 0.5
         local_factory_output = 0.5
-        local_factory_input = -0.2
         life_rating = 0.1
 	icon = 11
 }
@@ -896,7 +895,6 @@ promotion_of_science_5 = {
 }
 netengjavsd = {
         import_cost = -0.15
-        factory_input = -0.3
         factory_owner_cost = -0.35
         factory_throughput = 0.3
         RGO_throughput = 0.3
@@ -1013,7 +1011,6 @@ romdg_ppl_a = {
         global_population_growth = 0.002
 }
 romdg_econ_a = {
-        factory_input = -0.1
         factory_owner_cost = -0.3
         factory_throughput = 0.1
         RGO_throughput = 0.1
@@ -1043,7 +1040,6 @@ gerdg_ppl_a = {
 }
 gredg_econ_a = {
         import_cost = -0.3
-        factory_input = -0.2
         factory_owner_cost = -0.3
         factory_throughput = 0.1
         RGO_throughput = 0.1
@@ -1065,7 +1061,6 @@ serbdg_ppl_a = {
 }
 serbdg_econ_a = {
         import_cost = -0.3
-        factory_input = -0.2
         factory_owner_cost = -0.3
         factory_throughput = 0.1
         RGO_throughput = 0.1
@@ -1085,7 +1080,6 @@ portgl_spspa2 = {
         tax_efficiency = 0.02
         factory_owner_cost = -0.1
         import_cost = -0.1
-        factory_input = -0.1
         icon = 11
 }
 spa_spspa2 = {
@@ -1095,12 +1089,10 @@ spa_spspa2 = {
         tax_efficiency = 0.02
         factory_owner_cost = -0.1
         import_cost = -0.1
-        factory_input = -0.1
         icon = 11
 }
 portg_econ_a = {
         import_cost = -0.25
-        factory_input = -0.1
         factory_owner_cost = -0.25
         icon = 11
 }
@@ -1161,14 +1153,12 @@ jap_maj_done = {
         import_cost = -0.2
         factory_throughput = 0.2
         RGO_throughput = 0.2
-        factory_input = -0.2
         factory_owner_cost = -0.3
         land_organisation = 0.2
         org_regain = 0.2
         war_exhaustion = -0.02
         mobilisation_economy_impact = -0.5
         education_efficiency_modifier = 0.3
-        supply_consumption = -0.95
         icon = 5
 }
 chinese_clique = {
@@ -1316,7 +1306,6 @@ british_can = {
         import_cost = -0.2
         factory_throughput = 0.2
         RGO_throughput = 0.2
-        factory_input = -0.2
         factory_owner_cost = -0.3
         land_organisation = 0.2
         org_regain = 0.2
@@ -1324,7 +1313,6 @@ british_can = {
         mobilisation_economy_impact = -0.5
         global_population_growth = 0.005
         education_efficiency_modifier = 0.3
-        supply_consumption = -0.95
         icon = 5
 }
 british_ast = {
@@ -1332,7 +1320,6 @@ british_ast = {
         import_cost = -0.2
         factory_throughput = 0.2
         RGO_throughput = 0.2
-        factory_input = -0.2
         factory_owner_cost = -0.3
         land_organisation = 0.2
         org_regain = 0.2
@@ -1340,7 +1327,6 @@ british_ast = {
         mobilisation_economy_impact = -0.5
         global_population_growth = 0.005
         education_efficiency_modifier = 0.3
-        supply_consumption = -0.95
         icon = 5
 }
 british_hnd = {
@@ -1352,7 +1338,6 @@ british_hnd = {
         org_regain = 0.1
         war_exhaustion = -0.02
         mobilisation_economy_impact = -0.5
-        supply_consumption = -0.95
         education_efficiency_modifier = 0.3
         icon = 5
 }
@@ -1385,11 +1370,9 @@ aus_prm = {
         factory_throughput = 0.05
         RGO_throughput = 0.05
         tax_efficiency = 0.02
-        factory_input = -0.05
         factory_owner_cost = -0.15
 }        
 britishimperialism = {
-        factory_input = -0.05
         import_cost = -0.1
         badboy = -0.05
         prestige = 0.01
@@ -1622,7 +1605,6 @@ osmanismm = {
 economicspain1 = {
         factory_owner_cost = -0.35
         factory_throughput = 0.1
-        factory_input = -0.1
         icon = 5
 }
 american_trade_jpe = {
@@ -1632,12 +1614,10 @@ american_trade_jpe = {
 }
 jpe_us_boost = { 
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 ish_us_boost = { 
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 american_trade_ish = {
@@ -1657,7 +1637,6 @@ tur_us_boost = {
 }
 rus_us_boost = { 
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 american_trade_rus = {
@@ -1667,7 +1646,6 @@ american_trade_rus = {
 }
 spa_us_boost = { 
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 american_trade_spa = {
@@ -1682,12 +1660,10 @@ american_trade_dnf = {
 }       
 dnf_us_boost = { 
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 kuk_us_boost = { 
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 american_trade_kuk = {
@@ -1702,12 +1678,10 @@ american_trade_ite = {
 }        
 ite_us_boost = { 
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 ita_us_boost = { 
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 american_trade_ita = {
@@ -1722,12 +1696,10 @@ american_trade_ger = {
 }        
 ger_us_boost = { 
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 fra_us_boost = {
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 american_trade_fra = {
@@ -1737,7 +1709,6 @@ american_trade_fra = {
 }        
 eng_us_boost = {
         factory_throughput = 0.1
-        factory_input = -0.05
         icon = 13
 }
 american_trade_eng = {
@@ -1751,7 +1722,6 @@ panasiatism = {
         factory_throughput = 0.15
         RGO_throughput = 0.15
         prestige = 0.2
-        factory_input = -0.2
         education_efficiency_modifier = 0.2
         navy_tech_research_bonus = 0.15
         army_tech_research_bonus = 0.15
@@ -1924,7 +1894,6 @@ japanese_boom = {
         factory_output = 0.2
         RGO_output = 0.2
         factory_owner_cost = -0.35
-        factory_input = -0.1
         icon = 13
 }
 japanese_fleet = {
