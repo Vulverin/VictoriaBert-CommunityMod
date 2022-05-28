@@ -69,7 +69,7 @@ immigration_focus =
 {
 	immigration1 =
 	{
-		immigrant_push = 10
+		immigrant_push = 0.8
 		icon = 8
 		limit = {
 			NOT = { 

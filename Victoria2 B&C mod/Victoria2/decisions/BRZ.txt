@@ -7,6 +7,7 @@ political_decisions = {
                         }
 		}
 		allow = {
+                        year = 1840
 			war = no
 		}
 		effect = {

@@ -1078,6 +1078,10 @@ acquire_state = {
 				}
 			}
 		}
+                AND = {
+                  tag = IRE
+                  year = 1850
+                }
 		is_independant = yes
 	}
 	
@@ -2635,6 +2639,10 @@ annex_capital = {
 	can_use = {
 		AI = yes
 		NOT = { is_our_vassal = THIS }
+                AND = {
+                  tag = IRE
+                  year = 1850
+                }
                 NOT = {
                                                 tag = ACH
                                                 tag = NCH
