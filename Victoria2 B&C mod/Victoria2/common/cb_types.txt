@@ -1078,9 +1078,13 @@ acquire_state = {
 				}
 			}
 		}
+                NOT = {
                 AND = {
-                  tag = IRE
-                  year = 1850
+                      tag = IRE
+                      NOT = {
+                          year = 1850
+                        }
+                      }
                 }
 		is_independant = yes
 	}
@@ -2639,10 +2643,6 @@ annex_capital = {
 	can_use = {
 		AI = yes
 		NOT = { is_our_vassal = THIS }
-                AND = {
-                  tag = IRE
-                  year = 1850
-                }
                 NOT = {
                                                 tag = ACH
                                                 tag = NCH
@@ -2685,7 +2685,14 @@ annex_capital = {
                                                 tag = SWI
                                                 tag = KOR
                }
-		
+	       NOT = {
+                AND = {
+                      tag = IRE
+                      NOT = {
+                          year = 1850
+                        }
+                      }
+                }	
 		
 	}
 	
