@@ -1467,7 +1467,7 @@ free_peoples_player = {
 	
 	can_use = {
                 AI = no
-                year = 1850
+                year = 1840
 		NOT = { is_our_vassal = THIS }
                 NOT = {
                                                 tag = ACH
@@ -2882,7 +2882,7 @@ human_state = {
 	
 	badboy_factor = 1.1
 	prestige_factor = 2
-	peace_cost_factor = 42
+	peace_cost_factor = 1
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2905,7 +2905,7 @@ human_state = {
                 NOT = {
                       tag = SWI
                 }
-                year = 1850
+                year = 1840
 		OR = {
 			AND = {
 				civilized = yes
@@ -3304,7 +3304,7 @@ state_100k = {
 	
 	badboy_factor = 0.3
 	prestige_factor = 2
-	peace_cost_factor = 1
+	peace_cost_factor = 0.8
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
