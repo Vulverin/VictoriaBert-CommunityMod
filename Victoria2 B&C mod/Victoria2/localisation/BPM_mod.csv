@@ -3026,7 +3026,8 @@ asia_reduced_convrt;Социальная катастрофа;X
 army_limit_nerf_title;Расширение сухопутных вооруженных сил;X
 army_limit_nerf_desc; ;X
 eng_royal_fleet;Британские верфи;X
-eng_naval_bases;Расширение военных верфей;X
+eng_naval_bases_title;Расширение британских верфей;X
+IRE_annex_dead_inside_title;Интеграция Ирландии;X
 eng_army_limit_debuff;Дефицит кадровых офицеров;X
 war_support0;Поддержка войны 100%;X
 war_support10;Поддержка войны 90%;X

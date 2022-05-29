@@ -328,7 +328,7 @@ political_decisions = {
                      MAJ = {
                             vassal_of = JPE
                      }
-                     year = 1880
+                     year = 1875
 
                }
                effect = {

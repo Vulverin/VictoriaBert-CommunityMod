@@ -2976,29 +2976,7 @@ rename_st_petersburg = {
                         set_country_flag = promotion_of_science_5_has_happened
                 }
         }
-
-       
-         japanese_factory = {
-              potential = {
-                           tag = JPE
-                           NOT = {
-                                   has_global_flag = japanese_factory_done
-                           }
-                 }
-                 allow = {
-                           semi_automatization = 1
-                           early_railroad = 1
-                           organized_factories = 1
-                 }
-
-                 effect = {
-                            add_country_modifier = {
-                            name = japanese_boom
-                                 duration = 5475
-                            }
-                            set_global_flag = japanese_factory_done
-                }
-         }
+         
 change_national_value_to_westciv = {
                 alert = no
 		potential = {
