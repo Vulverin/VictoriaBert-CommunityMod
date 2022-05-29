@@ -2882,7 +2882,7 @@ human_state = {
 	
 	badboy_factor = 1.1
 	prestige_factor = 2
-	peace_cost_factor = 42
+	peace_cost_factor = 1
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -3304,7 +3304,7 @@ state_100k = {
 	
 	badboy_factor = 0.3
 	prestige_factor = 2
-	peace_cost_factor = 1
+	peace_cost_factor = 0.8
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
