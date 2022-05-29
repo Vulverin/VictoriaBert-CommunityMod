@@ -1926,9 +1926,9 @@ country_event = {
 	
 	trigger = {
 		tag = ENG
-		year = 1901
+		year = 1870
                 NOT = {
-		       year = 1902
+		       year = 1872
                 }
 		
 	}
