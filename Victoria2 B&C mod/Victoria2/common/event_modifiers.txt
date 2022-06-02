@@ -818,7 +818,6 @@ gernational_support = {
         icon = 1
 }
 gereconom_support = {
-        factory_output = 0.15
         RGO_output = 0.15
         factory_throughput = 0.2
         factory_owner_cost = -0.15
@@ -990,7 +989,7 @@ polt_refs_inc = {
         icon = 1
 }
 turpplgrwth46 = {
-        education_efficiency_modifier = -0.1
+        education_efficiency_modifier = -0.4
         global_population_growth = 0.002
 }
 turppwestpath = {
@@ -1311,8 +1310,9 @@ british_can = {
         org_regain = 0.2
         war_exhaustion = -0.02
         mobilisation_economy_impact = -0.5
-        global_population_growth = 0.005
+        global_population_growth = 0.004
         education_efficiency_modifier = 0.3
+        global_immigrant_attract = -0.1
         icon = 5
 }
 british_ast = {
@@ -1325,8 +1325,9 @@ british_ast = {
         org_regain = 0.2
         war_exhaustion = -0.02
         mobilisation_economy_impact = -0.5
-        global_population_growth = 0.005
+        global_population_growth = 0.004
         education_efficiency_modifier = 0.3
+        global_immigrant_attract = -0.2
         icon = 5
 }
 british_hnd = {
@@ -1564,11 +1565,11 @@ alex_selo = {
 euro_culture_tech1 = {
         culture_tech_research_bonus = 0.05
         doctrine_tech_research_bonus = 0.10
-        global_population_growth = 0.001
         research_points_modifier = 0.2
         icon = 2
 }
 euro_prom_tech1 = {
+        tax_efficiency = -0.05
         industry_tech_research_bonus = 0.05
         commerce_tech_research_bonus = 0.05
         factory_owner_cost = -0.2
@@ -1577,6 +1578,7 @@ euro_prom_tech1 = {
         icon = 2
 }
 euro_army_tech1 = {
+        tax_efficiency = -0.05
         army_tech_research_bonus = 0.05
         navy_tech_research_bonus = 0.05
         supply_consumption = -0.10
@@ -1788,7 +1790,7 @@ brz_education = {
 amrc_imprls = {
          army_tech_research_bonus = 0.1
          industry_tech_research_bonus = 0.2
-         supply_consumption = -0.25
+         supply_consumption = -0.15
          icon = 1
 }
 americanbanks = {
@@ -1796,10 +1798,9 @@ americanbanks = {
          icon = 1
 }
 american_capitalism = {
-         tax_efficiency = 0.05
-         factory_owner_cost = -0.5
-         factory_output = 0.35
-         RGO_output = 0.35
+         factory_owner_cost = -0.4
+         factory_throughput = 0.30
+         RGO_output = 0.30
          rich_life_needs = -0.15
          rich_everyday_needs = -0.15
 }
@@ -1834,7 +1835,7 @@ french_scientists = {
 }
 american_fleet = {
         local_repair = 0.1
-	local_ship_build = -0.3
+	local_ship_build = -0.2
         icon = 15
 }
 gibraltar_is_locked = {
@@ -2124,8 +2125,9 @@ patriots = {
 	icon = 20
 }
 ire_disaster = {
-        pop_militancy_modifier = 0.15
-	immigrant_push = 2
+        pop_militancy_modifier = 0.2
+        pop_consciousness_modifier = 0.3
+	immigrant_push = 3
 	poor_life_needs = 2
 	middle_life_needs = 1
 	icon = 20

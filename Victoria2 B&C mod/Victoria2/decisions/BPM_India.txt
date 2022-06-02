@@ -54,6 +54,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+                  badboy = -7
               }
         }
         orissa_clique = {
@@ -84,6 +85,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+              badboy = -7
               }
         }
         awadh_clique = {
@@ -114,6 +116,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+              badboy = -7
               }
         }
         jaipur_clique = {
@@ -144,6 +147,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+              badboy = -7
               }
         }
         beroda_clique = {
@@ -174,6 +178,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+              badboy = -7
               }
         }
         nagpur_clique = {
@@ -204,6 +209,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+              badboy = -7
               }
         }
         mewar_clique = {
@@ -234,6 +240,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+              badboy = -7
               }
         }
         hydebarad_clique = {
@@ -264,6 +271,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+              badboy = -7
               }
         }
         mysur_clique = {
@@ -294,6 +302,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+              badboy = -7
               }
         }
         bundelkand_clique = {
@@ -324,6 +333,7 @@ ind_comps_des_on = {
 				casus_belli = status_quo
 			}
 		  }
+              badboy = -7
               }
         }
 }

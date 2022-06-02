@@ -405,7 +405,7 @@ political_decisions = {
 
                         add_country_modifier = {
                                    name = turpplgrwth46
-                                   duration = 7300
+                                   duration = 10950
                         }                         
 		        add_accepted_culture = bedouin
                         add_accepted_culture = persian

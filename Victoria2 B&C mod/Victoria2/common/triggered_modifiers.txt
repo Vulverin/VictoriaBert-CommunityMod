@@ -7,6 +7,47 @@
 
 #########################################
 
+ital_rise_boost = {
+    trigger = {
+                exists = yes
+                capital = 720
+		NOT = {
+                        year = 1840
+		}
+	}
+    mobilisation_size = 0.08
+    icon = 19
+}
+
+eng_migr_debuff = {
+    trigger = {
+                exists = yes
+                capital = 300
+                year = 1844
+		NOT = {
+                        year = 1850
+		}
+	}
+    global_immigrant_attract = -1.0
+    icon = 19
+}
+
+can_ast_migr_debuff = {
+    trigger = {
+                exists = yes
+                OR = {
+                capital = 57
+                capital = 2468
+                }
+                year = 1844
+		NOT = {
+                        year = 1850
+		}
+	}
+    global_immigrant_attract = -0.4
+    icon = 19
+}
+
 trinket_health_care_fully_funded = {
     trigger = {
         exists = yes
@@ -326,7 +367,6 @@ government_bourgeois_dictatorship = {
 	}
 	factory_output = 0.15
 	factory_input = -0.1
-	import_cost = -0.15
 	industry_tech_research_bonus = 0.1
 	commerce_tech_research_bonus = 0.1
         mobilisation_size = 0.02
@@ -381,7 +421,6 @@ government_hms_government = {
         commerce_tech_research_bonus = 0.15
 	culture_tech_research_bonus = 0.15
 	land_organisation = -0.1
-	import_cost = -0.15
 	factory_output = 0.1
 	issue_change_speed = 0.2
 	leadership_modifier = 0.1
@@ -397,7 +436,6 @@ government_democracy = {
 	commerce_tech_research_bonus = 0.2
 	culture_tech_research_bonus = 0.1
 	land_organisation = -0.1
-	import_cost = -0.1
 	factory_output = 0.2
 	issue_change_speed = 0.2
 	leadership_modifier = 0.1
@@ -480,7 +518,7 @@ grand_navy3 = {
 	   total_amount_of_ships = 300
 	  }
         }
-        import_cost = -0.1
+        import_cost = -0.05
 	prestige = 0.08
 	icon = 9
 }
@@ -688,7 +726,7 @@ own_panama_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.25
-	import_cost = -0.15
+	import_cost = -0.10
 	prestige = 0.01
 }
 
@@ -699,7 +737,7 @@ own_bosfor_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.2
-	import_cost = -0.1
+	import_cost = -0.05
 	prestige = 0.01
 }
 
@@ -712,7 +750,7 @@ own_kiel_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.15
-	import_cost = -0.1
+	import_cost = -0.05
 	prestige = 0.01
 }
 
@@ -723,7 +761,7 @@ own_gibraltar_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.1
-	import_cost = -0.1
+	import_cost = -0.05
 	prestige = 0.01
 }
 
@@ -734,7 +772,7 @@ own_singa_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.1
-	import_cost = -0.1
+	import_cost = -0.05
 	prestige = 0.02
 }
 

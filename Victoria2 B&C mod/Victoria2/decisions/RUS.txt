@@ -1008,21 +1008,21 @@ political_decisions = {
 		
 		effect = {
 			1085 = {
-				change_province_name = "Благовещенск"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			1084 = {
-				change_province_name = "Николаевск-на-Амуре"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ"
 			}
 			1083 = {
-				change_province_name = "Хабаровск"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			2617 = {
-				change_province_name = "Пашково"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			1082 = {
-				change_province_name = "Владивосток"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 				state_scope = {
-					change_region_name = "Приморье"
+					change_region_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 				}
 			}
 			prestige = 5
@@ -1032,7 +1032,6 @@ political_decisions = {
 	
 	move_capital_to_moscow = {
 		potential = {
-                        government = proletarian_dictatorship
 			tag = RUS
 			owns = 1008 # Moscow
 			capital = 994
@@ -1041,11 +1040,12 @@ political_decisions = {
 		
 		allow = {
 			owns = 1008 # Moscow
+                        year = 1860
 		}
 		
 		effect = {
 			capital = 1008
-			prestige = 5
+			prestige = -40
 		}
 		ai_will_do = {
 			factor = 1
@@ -1208,10 +1208,10 @@ political_decisions = {
  
                effect = {
                         994 = {
-				change_province_name = "Ленинград"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
 			1058 = {
-				change_province_name = "Свердловск"
+				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
 			}
                         prestige = 5
 			set_country_flag = rename_provinces_done
@@ -1232,7 +1232,7 @@ political_decisions = {
                }
                effect = {
                         695 = {
-                               change_province_name = "Калининград"
+                               change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
                         }
                         set_country_flag = rename_kenig_done
                }

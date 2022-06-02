@@ -499,7 +499,7 @@ colonialmigration_chance =
 	factor = 0.25
 
 	modifier = {
-		factor = 0.05
+		factor = -0.05
                 culture = this
 	}
         modifier = {
@@ -593,6 +593,7 @@ emigration_chance =
 	modifier = {
 		factor = -0.5
 		OR = {
+                        country = { government = colonial_company }
 			AND = {
 				THIS = { is_culture_group = arab }
 				country = { is_culture_group = arab }
@@ -651,8 +652,12 @@ emigration_chance =
 	}
 
 	group = {
+                modifier = {
+			factor = -0.02
+			not = { consciousness = 4 }
+		}
 		modifier = {
-			factor = -0.05
+			factor = -0.03
 			not = { consciousness = 6 }
 		}
 		modifier = {
@@ -930,16 +935,22 @@ assimilation_chance =
 
         modifier = {
         factor = 3
+                AND = {
                 culture = korean
+                country = { is_culture_group = east_asian }
+                }
         }
 
         modifier = {
         factor = 3
+                AND = {
                 culture = bedouin
+                country = { is_culture_group = turko_semitic }
+                }
         }
         
 	modifier = {
-    	factor = 10
+    	factor = 5
 		NOT = {
 			OR = { 
 					continent = north_america
@@ -957,9 +968,27 @@ assimilation_chance =
 			culture = brazilian
 		}
 	}
+
+        modifier = {
+    	factor = -4
+		OR = { 
+					continent = north_america
+					continent = south_america
+					continent = oceania
+		}
+		OR = {
+			culture = yankee
+			culture = dixie
+			culture = central_american
+			culture = north_andean
+			culture = south_andean
+			culture = platinean
+			culture = brazilian
+		}
+	}
 	
 	modifier = {
-		factor = 10
+		factor = 5
 		AND = {
 			is_accepted_culture = no
 			OR = { 
