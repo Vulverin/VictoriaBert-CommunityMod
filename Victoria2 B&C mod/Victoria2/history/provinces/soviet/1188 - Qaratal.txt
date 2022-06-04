@@ -1,5 +1,6 @@
 owner = RUS
 controller = RUS
+colonial = 2
 trade_goods = fish
 add_core = KAZ
 life_rating = 35
