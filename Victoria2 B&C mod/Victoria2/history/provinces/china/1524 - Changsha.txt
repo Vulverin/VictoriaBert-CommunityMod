@@ -3,4 +3,3 @@ trade_goods = tea
 life_rating = 32
 owner = GXI
 controller = GXI
-terrain = city_958
