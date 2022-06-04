@@ -660,7 +660,7 @@ the_yard = {
 #### SPA - Spain ####
 la_guardia_civil = {
 	tax_efficiency = 0.05
-        global_pop_militancy_modifier = -0.01
+        global_pop_militancy_modifier = 0.01
 	icon = 1
 }
 
