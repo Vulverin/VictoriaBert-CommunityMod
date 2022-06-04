@@ -6,7 +6,6 @@ government = absolute_monarchy
 plurality = 0.3
 nationalvalue = nv_eastciv
 literacy = 0.2
-civilized = yes
 
 ruling_party = PER_conservative
 upper_house = {
@@ -18,6 +17,10 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+foreign_training = yes_foreign_training
+foreign_weapons = yes_foreign_weapons
+flintlock_rifles = 1
 
 slavery = no_slavery
 upper_house_composition = appointed
