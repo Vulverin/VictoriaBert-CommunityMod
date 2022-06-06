@@ -1008,21 +1008,21 @@ political_decisions = {
 		
 		effect = {
 			1085 = {
-				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+				change_province_name = "Благовещенск"
 			}
 			1084 = {
-				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ"
+				change_province_name = "Николаевск-на-Амуре"
 			}
 			1083 = {
-				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+				change_province_name = "Хабаровск"
 			}
 			2617 = {
-				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+				change_province_name = "Пашково"
 			}
 			1082 = {
-				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+				change_province_name = "Владивосток"
 				state_scope = {
-					change_region_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+					change_region_name = "Приморье"
 				}
 			}
 			prestige = 5
@@ -1045,7 +1045,7 @@ political_decisions = {
 		
 		effect = {
 			capital = 1008
-			prestige = -40
+			prestige = -60
 		}
 		ai_will_do = {
 			factor = 1
@@ -1208,10 +1208,10 @@ political_decisions = {
  
                effect = {
                         994 = {
-				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+				change_province_name = "Ленинград"
 			}
 			1058 = {
-				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+				change_province_name = "Свердловск"
 			}
                         prestige = 5
 			set_country_flag = rename_provinces_done
@@ -1232,7 +1232,7 @@ political_decisions = {
                }
                effect = {
                         695 = {
-                               change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+                               change_province_name = "Калининград"
                         }
                         set_country_flag = rename_kenig_done
                }
@@ -1244,13 +1244,13 @@ political_decisions = {
                 tag = RUS
                 }
                 allow = {
-                MCK = {
+                MAJ = {
                 vassal_of = RUS
        }
                 year = 1875
                 }
            effect = {
-           inherit = MCK
+           inherit = MAJ
            prestige = 10
            set_country_flag = RU_annex_dead_inside_over
            }

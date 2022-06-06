@@ -142,7 +142,9 @@ political_decisions = {
                           money = 5000000
                 }
                 effect = {
-                          money = -5000000
+                          money = -2000000
+                          money = -2000000
+                          money = -1000000
                           clr_country_flag = usa_army_limit
                           add_country_modifier = {
                                        name = us_congress_army
