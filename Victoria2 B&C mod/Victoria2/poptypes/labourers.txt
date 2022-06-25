@@ -667,8 +667,7 @@ promote_to =
                 modifier = {
 			factor = -100
 			continent = africa
-                        NOT = { state_scope = { soldiers = 0.025 }
-                        }
+                        state_scope = { soldiers = 0.015 }
 		}
 		group = {
 			modifier = {
@@ -782,6 +781,11 @@ promote_to =
 			}
 		}
                 modifier = {
+			factor = -100
+                        soldiers = 0.008
+			location = { is_overseas = yes }
+		}
+                modifier = {
 			factor = 20
 			country = {
 				is_mobilised = yes
@@ -870,6 +874,11 @@ promote_to =
 				factor = 1
 				literacy = 0.9
 			}
+		}
+                modifier = {
+			factor = -100
+                        craftsmen = 0.1
+			location = { is_overseas = yes }
 		}
 		modifier = {
 				factor = 50
