@@ -172,6 +172,7 @@ KAZ             ="countries/Kazakh Khanate.txt"
 
 # India
 HND 	        ="countries/India.txt"
+ENI             ="countries/EngIndia.txt"
 FRI             ="countries/FraIndia.txt"
 FOC             ="countries/French Ost-Indian company.txt"
 BOC             ="countries/British Ost-Indian company.txt"

@@ -1847,7 +1847,7 @@ country_event = {
                 NOT = {
                        has_country_modifier = full_ind_eng_ostind_comp
                 }
-                HND = {
+                ENI = {
                        vassal_of = THIS
                 }
         }
@@ -1891,7 +1891,7 @@ country_event = {
 	trigger = {
                 tag = ENG
                 NOT = {
-                      exists = HND
+                      exists = ENI
                       exists = FOC
                 }
                 BOC = {
@@ -1920,10 +1920,10 @@ country_event = {
 		name = "Жемчужина империи"
                 prestige = 100
                 BOC = {
-                       change_tag = HND
+                       change_tag = ENI
                 }
                 diplomatic_influence = {
-                              who = HND
+                              who = ENI
                               value = 500
                 }
         }

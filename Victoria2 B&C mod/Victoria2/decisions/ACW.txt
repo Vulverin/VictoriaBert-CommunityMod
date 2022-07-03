@@ -282,6 +282,7 @@ political_decisions = {
                 effect = {
                           inherit = TEX
                           prestige = 10
+                          set_country_flag = annex_tex_done
                 }
         }
 

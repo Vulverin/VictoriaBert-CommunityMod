@@ -1247,7 +1247,7 @@ political_decisions = {
                 MAJ = {
                 vassal_of = RUS
        }
-                year = 1875
+                year = 1870
                 }
            effect = {
            inherit = MAJ

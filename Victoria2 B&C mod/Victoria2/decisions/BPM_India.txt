@@ -14,6 +14,7 @@ ind_comps_des_on = {
                    has_country_flag = ind_comps_des_window
                    has_country_modifier = ind_clique
                    exists = HND
+                   exists = ENI
              } 
 			
         } 

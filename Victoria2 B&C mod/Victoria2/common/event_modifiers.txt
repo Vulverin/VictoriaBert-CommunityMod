@@ -375,7 +375,7 @@ anaconda_plan = {
 }
 
 the_homestead_act = {
-	global_immigrant_attract = 0.60	#50%
+	global_immigrant_attract = 0.40	#40%
 	global_assimilation_rate = 0.50
 	icon = 9
 }
@@ -492,7 +492,7 @@ international_negotiations = {
 
 the_statue_of_liberty = {
 	prestige = 0.05
-	global_immigrant_attract = 0.2
+	global_immigrant_attract = 0.10
 	icon = 15
 }
 
@@ -990,6 +990,7 @@ polt_refs_inc = {
 }
 turpplgrwth46 = {
         education_efficiency_modifier = -0.4
+        tax_efficiency = -0.05
         global_population_growth = 0.002
 }
 turppwestpath = {
@@ -1581,7 +1582,6 @@ euro_army_tech1 = {
         tax_efficiency = -0.05
         army_tech_research_bonus = 0.05
         navy_tech_research_bonus = 0.05
-        supply_consumption = -0.10
         org_regain = 0.1
         land_organisation = 0.05
         icon = 1
@@ -1599,9 +1599,7 @@ islamismm = {
         icon = 7
 }
 osmanismm = {
-        non_accepted_pop_militancy_modifier = -0.05
-        education_efficiency_modifier = 0.10
-        mobilisation_size = 0.01
+        war_exhaustion = -0.1
         icon = 7
 }        
 economicspain1 = {
