@@ -803,15 +803,18 @@ promote_to =
 		        country = {
 			          has_country_flag = serfdom_not_abolished
 		        }
-                        soldiers = 0.02
+                        soldiers = 0.025
 	        }
                  modifier = {
                         factor = -9000
-                        country = {
-                               NOT = {
-                                  has_country_flag = ger_army_limit
-                               }
-                        }
+                              NOT = {
+                                      year = 1880
+                              }
+                              country = {
+                                      NOT = {
+                                      has_country_flag = ger_army_limit
+                                      }
+                              }
                         soldiers = 0.04
                 }
                 modifier = {

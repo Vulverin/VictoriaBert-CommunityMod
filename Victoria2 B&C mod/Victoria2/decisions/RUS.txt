@@ -1255,4 +1255,45 @@ political_decisions = {
            set_country_flag = RU_annex_dead_inside_over
            }
      }
+     conquest_MNG_SNZ = {
+                 potential = {
+                            tag = RUS
+                            NOT = {
+                                    has_country_flag = rus_mong
+                            }
+                 }
+                       allow = {
+                                year = 1880
+                                CHI = {
+                                civilized = yes
+                                }
+                                OR = {
+                                MCK = {
+                                       vassal_of = RUS
+                                }
+                                MAJ = {
+                                       vassal_of = RUS
+                                }
+                                owns = 1555
+                                }
+                       }
+            
+                       effect = {
+                              set_country_flag = rus_mong
+                              war = {
+					target = CHI
+					attacker_goal = {
+						casus_belli = acquire_state
+						state_province_id = 1600
+					}
+                                        attacker_goal = {
+						casus_belli = acquire_state
+						state_province_id = 2608
+					}         
+                                        defender_goal = {
+                                        casus_belli = status_quo
+                                        }
+                             }
+                       }
+        }
 }

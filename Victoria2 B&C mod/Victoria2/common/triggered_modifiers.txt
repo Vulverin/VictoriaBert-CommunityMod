@@ -617,92 +617,10 @@ war_support0 = {
 	trigger = {
         year = 1880
         war = yes
-          NOT = {
-	    war_exhaustion = 0.1
-	  }
         }
 	icon = 9
-	land_organisation = 0.5
-        org_regain = 0.5
-	naval_organisation = 0.5
-	leadership_modifier = 0.35
-        mobilisation_economy_impact = -0.5
-        supply_consumption = -0.5
-        war_exhaustion = -0.5
-}
-war_support10 = {
-	trigger = {
-        year = 1880
-        war = yes
-          war_exhaustion = 0.1
-          NOT = {
-	    war_exhaustion = 0.2
-	  }
-        }
-	icon = 9
-	land_organisation = 0.4
-        org_regain = 0.4
-	naval_organisation = 0.4
-	leadership_modifier = 0.3
-        mobilisation_economy_impact = -0.4
-        supply_consumption = -0.4
-        war_exhaustion = -0.4
-}
-war_support20 = {
-	trigger = {
-        year = 1880
-        war = yes
-          war_exhaustion = 0.2
-          NOT = {
-	    war_exhaustion = 0.3
-	  }
-        }
-	icon = 9
-	land_organisation = 0.3
-        org_regain = 0.3
-	naval_organisation = 0.3
-	leadership_modifier = 0.25
-        mobilisation_economy_impact = -0.3
-        supply_consumption = -0.3
         war_exhaustion = -0.3
 }
-war_support30 = {
-	trigger = {
-        year = 1880
-        war = yes
-          war_exhaustion = 0.3
-          NOT = {
-	    war_exhaustion = 0.4
-	  }
-        }
-	icon = 9
-	land_organisation = 0.25
-        org_regain = 0.25
-	naval_organisation = 0.25
-	leadership_modifier = 0.2
-        mobilisation_economy_impact = -0.25
-        supply_consumption = -0.2
-        war_exhaustion = -0.2
-}
-war_support40 = {
-	trigger = {
-        year = 1880
-        war = yes
-          war_exhaustion = 0.4
-          NOT = {
-	    war_exhaustion = 0.5
-	  }
-        }
-	icon = 9
-	land_organisation = 0.15
-        org_regain = 0.15
-	naval_organisation = 0.15
-	leadership_modifier = 0.15
-        mobilisation_economy_impact = -0.2
-        supply_consumption = -0.15
-        war_exhaustion = -0.1
-}
-
 #####CanalsssssM#####
 own_suez_canal = {
 	trigger = {	

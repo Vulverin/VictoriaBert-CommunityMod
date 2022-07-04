@@ -199,7 +199,7 @@ political_decisions = {
                          
                          war = no
                          is_our_vassal = KOR
-                         year = 1860
+                         year = 1855
                          
                }
 
@@ -221,7 +221,7 @@ political_decisions = {
 			not = { has_country_modifier = meiji_restoration_boost }
 		}
 		allow = {
-                        year = 1850
+                        year = 1848
                         
 		}
 		effect = {
