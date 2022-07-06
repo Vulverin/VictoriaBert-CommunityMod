@@ -1317,7 +1317,7 @@ organized_factories = {
 	year = 1830
 	cost = 4000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 		ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1355,7 +1355,7 @@ scientific_management = {
 	year = 1840
 	cost = 6000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1393,7 +1393,7 @@ time_saving_measures = {
 	year = 1850
 	cost = 9000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1419,7 +1419,7 @@ tech_organization_1 = {
 	year = 1860
 	cost = 12000
 
-	factory_output = 0.03
+	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1445,7 +1445,7 @@ management_strategy = {
 	year = 1870
 	cost = 15000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1471,7 +1471,7 @@ tech_organization_2 = {
 	year = 1880
 	cost = 18000
 
-	factory_output = 0.03
+	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1497,7 +1497,7 @@ tech_organization_3 = {
 	year = 1890
 	cost = 20000
 
-	factory_output = 0.03
+	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1523,7 +1523,7 @@ organizational_development = {
 	year = 1900
 	cost = 22000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1549,7 +1549,7 @@ organizational_development_1 = {
 	year = 1910
 	cost = 24000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1575,7 +1575,7 @@ organizational_development_2 = {
 	year = 1920
 	cost = 26000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {

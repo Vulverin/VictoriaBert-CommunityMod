@@ -1,6 +1,6 @@
-owner = JAI
-controller = JAI
+owner = BOC
+controller = BOC
 add_core = MEW
 add_core = HND
 trade_goods = cotton
-life_rating = 35
+life_rating = 30

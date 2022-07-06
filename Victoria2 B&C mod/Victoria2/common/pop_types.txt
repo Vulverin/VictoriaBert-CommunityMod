@@ -970,7 +970,7 @@ assimilation_chance =
 	}
 
         modifier = {
-    	factor = -4
+    	factor = -3.5
 		OR = { 
 					continent = north_america
 					continent = south_america
@@ -988,7 +988,7 @@ assimilation_chance =
 	}
 	
 	modifier = {
-		factor = 5
+		factor = 4
 		AND = {
 			is_accepted_culture = no
 			OR = { 

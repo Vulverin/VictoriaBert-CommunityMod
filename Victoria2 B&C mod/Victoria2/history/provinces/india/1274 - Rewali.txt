@@ -1,6 +1,6 @@
-owner = NAG
-controller = NAG
+owner = BOC
+controller = BOC
 add_core = NAG
 add_core = HND
 trade_goods = tea
-life_rating = 35
+life_rating = 30

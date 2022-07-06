@@ -754,10 +754,10 @@ us_congress_army = {
         icon = 7
 }
 indian_debuff = {
-        tax_eff = -0.05
-	factory_output = -0.55
-        RGO_output = -0.4
-        mobilisation_size = -0.05
+	factory_output = -0.2
+        mine_rgo_eff = -0.3
+	farm_rgo_eff = -0.3
+        RGO_output = -0.2
 }
 chinese_debuff = {
         tax_eff = -0.1
@@ -1333,8 +1333,6 @@ british_ast = {
 }
 british_hnd = {
         tax_efficiency = 0.2
-        factory_throughput = 0.2
-        RGO_throughput = 0.2
         factory_owner_cost = -0.3
         land_organisation = 0.1
         org_regain = 0.1
@@ -1564,6 +1562,7 @@ alex_selo = {
         icon = 2
 }
 euro_culture_tech1 = {
+        tax_efficiency = -0.05
         culture_tech_research_bonus = 0.05
         doctrine_tech_research_bonus = 0.10
         research_points_modifier = 0.2
@@ -1997,10 +1996,8 @@ muh_ali_ref = {
 }
 
 tanzimat = {
-         tax_efficiency = 0.1
-         education_efficiency_modifier = 0.1
-         land_organisation = 0.1
-	 land_unit_start_experience = 10.0
+         tax_efficiency = 0.05
+         education_efficiency_modifier = 0.10
          icon = 5
 }
                     
