@@ -840,3 +840,118 @@
 		size = 12650 
 	}
 }
+3250 = {
+	bureaucrats = {
+		culture = czech
+		religion = catholic
+		size = 550 
+	}
+
+	officers = {
+		culture = czech
+		religion = catholic
+		size = 250 
+	}
+
+	clergymen = {
+		culture = czech
+		religion = catholic
+		size = 3625
+	}
+
+	artisans = {
+		culture = czech
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = czech
+		religion = catholic
+		size = 8000
+	}
+
+	soldiers = {
+		culture = czech
+		religion = catholic
+		size = 13750 
+	}
+
+	farmers = {
+		culture = czech
+		religion = catholic
+		size = 353325
+	}
+
+	aristocrats = {
+		culture = prussian_german
+		religion = catholic
+		size = 3000 
+	}
+
+	bureaucrats = {
+		culture = prussian_german
+		religion = catholic
+		size = 1550 
+	}
+
+	officers = {
+		culture = prussian_german
+		religion = catholic
+		size = 800 
+	}
+
+	clergymen = {
+		culture = prussian_german
+		religion = catholic
+		size = 275
+	}
+
+	artisans = {
+		culture = prussian_german
+		religion = catholic
+		size = 10000
+	}
+
+	artisans = {
+		culture = prussian_german
+		religion = catholic
+		size = 2000
+	}
+
+	soldiers = {
+		culture = prussian_german
+		religion = catholic
+		size = 300 
+	}
+
+	farmers = {
+		culture = prussian_german
+		religion = catholic
+		size = 11775 
+	}
+
+	clergymen = {
+		culture = prussian_german
+		religion = jewish
+		size = 75
+	}
+
+	artisans = {
+		culture = prussian_german
+		religion = jewish
+		size = 5000
+	}
+
+	soldiers = {
+		culture = prussian_german
+		religion = jewish
+		size = 75 
+	}
+
+	farmers = {
+		culture = prussian_german
+		religion = jewish
+		size = 1850 
+	}
+}
