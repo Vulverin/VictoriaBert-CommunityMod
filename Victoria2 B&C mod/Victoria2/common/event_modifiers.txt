@@ -926,6 +926,10 @@ fra_pops_growth = {
         population_growth = 0.001
         icon = 1
 }
+indian_cities_growth = {
+        population_growth = 0.001
+        icon = 1
+}
 china_aus_comp = {
        icon = 1
 }
