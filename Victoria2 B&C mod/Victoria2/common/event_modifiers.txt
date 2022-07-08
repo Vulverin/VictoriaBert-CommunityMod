@@ -2003,8 +2003,7 @@ muh_ali_ref = {
 }
 
 tanzimat = {
-         tax_efficiency = 0.05
-         education_efficiency_modifier = 0.10
+         war_exhaustion = -0.3
          icon = 5
 }
                     
