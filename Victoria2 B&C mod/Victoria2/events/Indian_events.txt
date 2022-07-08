@@ -38,3 +38,53 @@ country_event = {
                 }
 	}
 }
+country_event = {
+	id = 76542
+	title = "Lost Cities"
+	desc = " "
+	picture = "greatpowers"
+	trigger = {
+		     exist = yes
+		     has_country_flag = indians_cities
+                     NOT = {
+                     owns = 1251
+                     owns = 1304 
+                     owns = 1297
+                     owns = 1291
+                     owns = 1236
+                     }
+	}
+        mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = "Nice"
+                clr_country_flag = indians_cities
+	}
+}
+country_event = {
+	id = 76541
+	title = "India Ind2"
+	desc = " "
+	picture = "greatpowers"
+	trigger = {
+		     tag = ENI
+                     ENG = {
+                             NOT = {
+                                  owns = 1251
+                                  owns = 1304 
+                                  owns = 1297
+                                  owns = 1291
+                                  owns = 1236
+                            }
+                     }
+	}
+        mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+                ENI = {
+                       change_tag = HND
+                }
+	}
+}

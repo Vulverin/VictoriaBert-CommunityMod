@@ -12,11 +12,30 @@ political_decisions = {
         }
 	allow = {
 		year = 1870
+                owns = 1221
+                owns = 1222
+                owns = 1227
+                owns = 1288
                 BOC = {
                        vassal_of = ENG
                 }
         }
         effect = {
+                1251 = {
+                                 secede_province = ENG
+                }
+                1297 = {
+                                 secede_province = ENG
+                }
+                1304 = {
+                                 secede_province = ENG
+                }
+                1291 = {
+                                 secede_province = ENG
+                }
+                1236 = {
+                                 secede_province = ENG
+                }
                 BOC = {
                        change_tag = ENI
                 }
@@ -79,6 +98,107 @@ political_decisions = {
                 create_vassal = BOC
                 }
                 set_country_flag = indian_fix_kostil
+        }
+    }
+}
+political_decisions = {
+    Indian_cities_growth = {
+	potential = {
+                OR = {
+                tag = SPA
+                tag = TUR
+                tag = ITA
+                tag = DNF
+                tag = KUK
+                tag = GER
+                tag = USA
+                tag = JPE
+                tag = SCA
+                tag = RUS
+                tag = FRA
+                tag = ENG
+                }
+                owns = 1251
+                owns = 1304
+                owns = 1297
+                owns = 1291
+                owns = 1236
+                NOT = { 
+                has_country_flag = indians_cities
+                }
+        }
+	allow = {
+        }
+        effect = {
+                 1251 = {
+                                add_province_modifier = {
+                                        name = indian_cities_growth
+                                        duration = -1
+                                }
+                       }
+                1304 = {
+                                add_province_modifier = {
+                                        name = indian_cities_growth
+                                        duration = -1
+                                }
+                       }
+                1297 = {
+                                add_province_modifier = {
+                                        name = indian_cities_growth
+                                        duration = -1
+                                }
+                       }
+                1291 = {
+                                add_province_modifier = {
+                                        name = indian_cities_growth
+                                        duration = -1
+                                }
+                       }
+                1236 = {
+                                add_province_modifier = {
+                                        name = indian_cities_growth
+                                        duration = -1
+                                }
+                 }
+                set_country_flag = indians_cities
+        }
+    }
+}
+political_decisions = {
+    Indian_change_suzerain = {
+	potential = {
+                OR = {
+                tag = SPA
+                tag = TUR
+                tag = ITA
+                tag = DNF
+                tag = KUK
+                tag = GER
+                tag = USA
+                tag = JPE
+                tag = SCA
+                tag = RUS
+                tag = FRA
+                tag = ENG
+                }
+                owns = 1251
+                owns = 1304
+                owns = 1297
+                owns = 1291
+                owns = 1236
+                HND = {
+                       exists = yes
+                }
+                NOT = {
+                       HND = {
+                       vassal_of = THIS
+                       }
+                }
+        }
+	allow = {
+        }
+        effect = {
+          create_vassal = HND
         }
     }
 }

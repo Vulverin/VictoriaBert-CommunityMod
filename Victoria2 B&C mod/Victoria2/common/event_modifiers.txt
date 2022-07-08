@@ -926,6 +926,10 @@ fra_pops_growth = {
         population_growth = 0.001
         icon = 1
 }
+indian_cities_growth = {
+        population_growth = 0.001
+        icon = 1
+}
 china_aus_comp = {
        icon = 1
 }
@@ -1999,8 +2003,7 @@ muh_ali_ref = {
 }
 
 tanzimat = {
-         tax_efficiency = 0.05
-         education_efficiency_modifier = 0.10
+         war_exhaustion = -0.3
          icon = 5
 }
                     

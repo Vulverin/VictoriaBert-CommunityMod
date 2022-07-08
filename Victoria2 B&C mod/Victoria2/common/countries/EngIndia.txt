@@ -9,7 +9,7 @@ party = {
 	ideology = conservative
 
 	economic_policy = interventionism
-	trade_policy = protectionism
+	trade_policy = free_trade
 	religious_policy = moralism
 	citizenship_policy = residency
 	war_policy = pro_military
@@ -22,11 +22,11 @@ party = {
 
 	ideology = liberal
 
-	economic_policy = interventionism
-	trade_policy = protectionism
+	economic_policy = laissez_faire
+	trade_policy = free_trade
 	religious_policy = pluralism
 	citizenship_policy = full_citizenship
-	war_policy = pacifism
+	war_policy = pro_military
 }
 
 party = {
@@ -36,11 +36,11 @@ party = {
 
 	ideology = reactionary
 
-	economic_policy = interventionism
-	trade_policy = protectionism
+	economic_policy = laissez_faire
+	trade_policy = free_trade
 	religious_policy = moralism
 	citizenship_policy = residency
-	war_policy = jingoism
+	war_policy = pro_military
 }
 
 party = {
@@ -64,11 +64,11 @@ party = {
 
 	ideology = socialist
 
-	economic_policy = interventionism
-	trade_policy = protectionism
+	economic_policy = laissez_faire
+	trade_policy = free_trade
 	religious_policy = secularized
 	citizenship_policy = full_citizenship
-	war_policy = anti_military
+	war_policy = pro_military
 }
 
 party = {
@@ -78,8 +78,8 @@ party = {
 
 	ideology = communist
 
-	economic_policy = interventionism
-	trade_policy = protectionism
+	economic_policy = laissez_faire
+	trade_policy = free_trade
 	religious_policy = pro_atheism
 	citizenship_policy = full_citizenship
 	war_policy = pro_military
@@ -92,11 +92,11 @@ party = {
 
 	ideology = fascist
 
-	economic_policy = interventionism
-	trade_policy = protectionism
+	economic_policy = laissez_faire
+	trade_policy = free_trade
 	religious_policy = moralism
 	citizenship_policy = residency
-	war_policy = jingoism
+	war_policy = pro_military
 }
 
 unit_names = {
