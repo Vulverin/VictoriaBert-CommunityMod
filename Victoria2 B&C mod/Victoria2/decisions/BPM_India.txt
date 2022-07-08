@@ -1,4 +1,4 @@
-political_decisions = {
+# political_decisions = {
 ind_comps_des_on = { 
 	alert = no 
         potential = {

@@ -1,0 +1,40 @@
+country_event = {
+	id = 76543
+	title = "Independent of India"
+	desc = " "
+	picture = "greatpowers"
+	trigger = {
+		     tag = BOC
+		     is_independant = yes
+	}
+        mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                BOC = {
+                       change_tag = HND
+                }
+	}
+}
+country_event = {
+	id = 76544
+	title = "Independent of India2"
+	desc = " "
+	picture = "greatpowers"
+	trigger = {
+		     tag = ENI
+		     is_independant = yes
+	}
+        mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                ENI = {
+                       change_tag = HND
+                }
+	}
+}

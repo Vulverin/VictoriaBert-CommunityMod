@@ -130,6 +130,9 @@ political_decisions = {
                               tag = USA
                               has_country_flag = congress_tr_des_window
                               year = 1860
+                              NOT = {
+                                    year = 1890
+                              }
                               USA = {
                                     has_country_flag = usa_army_limit
                                    NOT = {
@@ -145,6 +148,39 @@ political_decisions = {
                           money = -2000000
                           money = -2000000
                           money = -1000000
+                          clr_country_flag = usa_army_limit
+                          add_country_modifier = {
+                                       name = us_congress_army
+                                       duration = 1825
+                          }
+                }
+        }
+
+        usa_army_congress_1890 = {
+                potential = {
+                             
+                              tag = USA
+                              has_country_flag = congress_tr_des_window
+                              year = 1890
+                              USA = {
+                                    has_country_flag = usa_army_limit
+                                   NOT = {
+                                     has_country_modifier = us_congress_army
+                                   }
+                              }
+                            
+                }
+                allow = {
+                          money = 12000000
+                }
+                effect = {
+                          money = -2000000
+                          money = -2000000
+                          money = -2000000
+                          money = -2000000
+                          money = -2000000
+                          money = -2000000
+                          }
                           clr_country_flag = usa_army_limit
                           add_country_modifier = {
                                        name = us_congress_army

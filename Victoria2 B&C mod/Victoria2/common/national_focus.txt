@@ -144,8 +144,8 @@ promotion_focus =
         pop_militancy_modifier = -0.01
         assimilation_rate = 0.25
         immigrant_attract = 0.25
-        local_factory_input = -0.1
-        local_factory_output = 0.25
+        local_factory_input = -0.05
+        local_factory_throughput = 0.2
         icon = 22
         limit = {
                literacy = 0.4
@@ -160,9 +160,9 @@ promotion_focus =
     fed_reg_rs_big_city = {
         pop_militancy_modifier = -0.01
         assimilation_rate = 0.5
-        immigrant_attract = 0.65
-        local_factory_input = -0.25
-        local_factory_output = 0.35
+        immigrant_attract = 0.9
+        local_factory_input = -0.1
+        local_factory_throughput = 0.3
         icon = 22
         limit = {
                is_colonial = no
@@ -248,8 +248,7 @@ production_focus =
 {
 	basic_industry_focus =
 	{
-		local_factory_input = -0.1
-                local_factory_output = 0.1
+                local_factory_throughput = 0.15
 		limit = {
 			state_scope = {
 				has_factories = yes
@@ -260,8 +259,8 @@ production_focus =
         
         factory_throughput_focus =
 	{
-		local_factory_throughput = 0.1
-                local_factory_input = -0.1
+		local_factory_throughput = 0.05
+                local_factory_input = -0.05
 		icon = 4
 		limit = {
 			state_scope = {

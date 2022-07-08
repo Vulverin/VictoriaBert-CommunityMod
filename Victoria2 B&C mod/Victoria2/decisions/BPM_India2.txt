@@ -1,0 +1,84 @@
+political_decisions = {
+    British_raj_1870 = {
+	potential = {
+                tag = ENG
+                NOT = {
+                      exists = ENI
+                      exists = FOC
+                }
+                NOT = { 
+                has_country_flag = british_raj1
+                }
+        }
+	allow = {
+		year = 1870
+                BOC = {
+                       vassal_of = ENG
+                }
+        }
+        effect = {
+                BOC = {
+                       change_tag = ENI
+                }
+                diplomatic_influence = {
+                              who = ENI
+                              value = 500
+                }
+                set_country_flag = british_raj1
+        }
+    }
+}
+political_decisions = {
+    British_sphere = {
+	potential = {
+                tag = ENG
+                OR = {
+                      NOT = {
+                             is_sphere_leader_of = ENI
+                      }
+                      NOT = {
+                             is_sphere_leader_of = BOC
+                      }
+                }
+                OR = {
+                       BOC = {
+                              vassal_of = ENG
+                       }
+                       ENI = {
+                              vassal_of = ENG
+                       }
+                }
+        }
+	allow = {
+        }
+        effect = {
+                diplomatic_influence = {
+                              who = ENI
+                              value = 500
+                }
+                diplomatic_influence = {
+                              who = BOC
+                              value = 500
+                }
+        }
+    }
+}
+political_decisions = {
+    British_fix_kost = {
+	potential = {
+                ai = yes
+                tag = BOC
+                NOT = { 
+                has_country_flag = indian_fix_kostil
+                }
+        }
+	allow = {
+        }
+        effect = {
+                ENG = {
+                create_vassal = BOC
+                }
+                set_country_flag = indian_fix_kostil
+        }
+    }
+}

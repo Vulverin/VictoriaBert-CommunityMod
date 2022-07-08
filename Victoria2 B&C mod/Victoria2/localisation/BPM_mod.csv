@@ -1574,7 +1574,7 @@ mex_growth_boost_title;Демографические реформы;X
 mex_growth_boost_desc;Проиграв противостояние с более перспективными США, мы наконец-то можем забыть о войнах на нашем континенте, сконцентрировав все свои усилия на внутреннем развитии страны.;X
 mexican_pops_growth;Демографический взрыв;X
 american_west1;Привлечение населения;X
-indian_impr_title;Императрица Индии;X
+indian_impr_title;Поддержка Индии;X
 indian_impr_desc;Индия - богатейшая колония нашей империи, настал момент, когда именно она станет опорой будущего процветания страны. Пора окончательно ликвидировать ее автономию!;X
 vietnam_tech_school;Вьетнамская технологическая школа;X
 great_veitnam_title;Великий Вьетнам;X
@@ -2676,6 +2676,7 @@ usa_army_congress_desc; ;X
 eng_army_limit;Гарнизонная армия;X
 usa_army_congress_1860_title;Убедить конгресс в необходимости расширения вооруженных сил;X
 usa_army_congress_1860_desc; ;X
+usa_army_congress_1890_title;Убедить конгресс в необходимости расширения вооруженных сил;X
 congress_tr_des_on_title;Конгресс США;X
 congress_tr_des_on_desc; ;X
 congress_tr_des_off_title;Закрыть раздел;X
@@ -3049,3 +3050,5 @@ eng_migr_debuff;Ирландский миграционный дебафф;X
 RU_annex_dead_inside_title;Аннексия Манчжурии;X
 PER_1113;Прикаспийский Иран;X
 conquest_MNG_SNZ_title;Завоевание Синьцзяна и Монголии;X
+British_sphere_title;Сфера над Британской Индией;X
+British_raj_1870_title;Императрица Индии;X

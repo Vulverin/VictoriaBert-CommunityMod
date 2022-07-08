@@ -100,31 +100,31 @@ political_decisions = {
                 }
         }
 
-        reunite_ostind_comp = {
-                 potential = {
-                                    tag = FRA
-                                    owns = 1312
-                                    NOT = {
-                                          exists = FOC
-                                    }
-                        }
-                        allow = {
-                                money = 200000
-                        }
-                        effect = {
-                                money = -200000
-                                prestige = 25
-                                release_vassal = FOC
-                                create_vassal = FOC
-                                FOC = {
-                                      government = colonial_company
-                                }
-                                diplomatic_influence = {
-                                                who = FOC
-                                                value = 500
-                                }
-			}
-        }
+#        reunite_ostind_comp = {
+#                 potential = {
+#                                    tag = FRA
+#                                    owns = 1312
+#                                    NOT = {
+#                                          exists = FOC
+#                                    }
+#                        }
+#                        allow = {
+#                                money = 200000
+#                        }
+#                        effect = {
+#                                money = -200000
+#                                prestige = 25
+#                                release_vassal = FOC
+#                                create_vassal = FOC
+#                                FOC = {
+#                                      government = colonial_company
+#                                }
+#                                diplomatic_influence = {
+#                                                who = FOC
+#                                                value = 500
+#                                }
+#			}
+#        }
      
 
         scientists_des_on = {
