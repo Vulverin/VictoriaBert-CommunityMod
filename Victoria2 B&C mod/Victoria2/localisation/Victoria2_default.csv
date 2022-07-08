@@ -10570,7 +10570,7 @@ PROV621;Кремс;X
 PROV622;Линц;X
 PROV623;Шопрон;X
 PROV624;Айзенштадт;X
-PROV625;Прага;X
+PROV625;Рокшаны;X
 PROV626;Градец-Кралове;X
 PROV627;Карлсбад;X
 PROV628;Аусиг;X
@@ -13187,6 +13187,8 @@ PROV3243;Юго-западная тихоокеанская впадина;X
 PROV3244;Проход Ялуит;X
 PROV3245;Плато Маркова;X
 PROV3246;Ян Майен;X
+PROV3249;Сумы;X
+PROV3250;Прага;X
 PROVINCEVIEW_RGOOWNER;Присутствие в регионе владельцев ДП: §Y$VALUE$%§W (§Y$TYPE$§W);X
 PROVINCEVIEW_ADMIN;Региональная эффективность управления: §Y$VALUE$%§W;X
 PROVINCEVIEW_LIFERATING;Уровень жизни в провинции: §Y$VALUE$§W;X
@@ -13229,6 +13231,9 @@ PROVINCEVIEW_ADMIN_TECH;От технологии: §Y$VALUE$%§W;X
 PROVINCEVIEW_ADMIN_POPS;От §Yчиновников§W: §Y$VALUE$%§W;X
 PROVINCEVIEW_UNCOLONIZED;Неколонизированная провинция;X
 PROVINCEVIEW_SELECT_NATIONAL_FOCUS_TO_COLONIZE;Сделайте колонизацию эдиктом.;X
+FRA_1337;Лотарингия;X
+RUS_1488;Бессарабия;X
+SWI_3455;Арпитания;X
 USA_1;Аляска(8);X
 USA_78;Вашингтон(8);X
 USA_91;Айдахо(8);X
