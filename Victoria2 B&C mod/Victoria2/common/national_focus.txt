@@ -237,6 +237,7 @@ province_id = 1297
 province_id = 1612
 province_id = 2221
 province_id = 89
+province_id = 3250
                 
                }
               

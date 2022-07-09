@@ -767,28 +767,28 @@ social_reforms = {
         trinket_health_care = {
             administrative_multiplier = 1
             global_immigrant_attract = 0.02
-            tax_efficiency = -0.01
+            tax_efficiency = -0.02
             
         }
         low_health_care = {
             administrative_multiplier = 2
             global_pop_consciousness_modifier = 0.01
             global_immigrant_attract = 0.04
-            tax_efficiency = -0.02
+            tax_efficiency = -0.05
             
         }
         acceptable_health_care = {
             global_pop_consciousness_modifier = 0.01
             administrative_multiplier = 3
             global_immigrant_attract = 0.08
-            tax_efficiency = -0.03
+            tax_efficiency = -0.08
             
         }
         good_health_care = {
             administrative_multiplier = 4
             global_pop_consciousness_modifier = 0.02
             global_immigrant_attract = 0.12
-            tax_efficiency = -0.04
+            tax_efficiency = -0.12
             
         }
     }
