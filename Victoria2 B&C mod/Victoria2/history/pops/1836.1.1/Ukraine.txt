@@ -1823,7 +1823,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 342350
+		size = 202350
 	}
 
 	clergymen = {
@@ -3665,7 +3665,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 49175
+		size = 129175
 	}
 
 	aristocrats = {

@@ -41,7 +41,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 353325
+		size = 133325
 	}
 
 	aristocrats = {
@@ -71,7 +71,7 @@
 	artisans = {
 		culture = prussian_german
 		religion = catholic
-		size = 10000
+		size = 5000
 	}
 
 	artisans = {
@@ -89,7 +89,7 @@
 	farmers = {
 		culture = prussian_german
 		religion = catholic
-		size = 11775 
+		size = 5775 
 	}
 
 	clergymen = {
@@ -299,7 +299,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 9325
+		size = 25325
 	}
 
 	aristocrats = {
@@ -329,7 +329,7 @@
 	farmers = {
 		culture = prussian_german
 		religion = catholic
-		size = 53825
+		size = 75825
 	}
 }
 #Pilsen (672000/168000 POPS)
@@ -355,7 +355,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 93100 
+		size = 34100 
 	}
 
 	aristocrats = {
@@ -385,7 +385,7 @@
 	farmers = {
 		culture = prussian_german
 		religion = catholic
-		size = 58850   
+		size = 61850   
 	}
 
 	clergymen = {
@@ -435,7 +435,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 53100 
+		size = 83100 
 	}
 
 	aristocrats = {
@@ -465,7 +465,7 @@
 	farmers = {
 		culture = prussian_german
 		religion = catholic
-		size = 56075 
+		size = 26075 
 	}
 
 	clergymen = {
@@ -862,13 +862,13 @@
 	artisans = {
 		culture = czech
 		religion = catholic
-		size = 10000
+		size = 50000
 	}
 
 	artisans = {
 		culture = czech
 		religion = catholic
-		size = 8000
+		size = 3000
 	}
 
 	soldiers = {
@@ -880,7 +880,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 353325
+		size = 153325
 	}
 
 	aristocrats = {
@@ -910,7 +910,7 @@
 	artisans = {
 		culture = prussian_german
 		religion = catholic
-		size = 10000
+		size = 5000
 	}
 
 	artisans = {
