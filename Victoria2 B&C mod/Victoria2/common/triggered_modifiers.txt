@@ -50,6 +50,7 @@ can_ast_migr_debuff = {
                 OR = {
                 capital = 57
                 capital = 2468
+                capital = 2512
                 }
                 year = 1844
 		NOT = {
