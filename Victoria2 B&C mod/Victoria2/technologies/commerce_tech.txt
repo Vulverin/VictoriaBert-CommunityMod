@@ -408,7 +408,7 @@ monetary_system_1 = {
 	year = 1860
 	cost = 12000
 
-	administrative_efficiency = 0.05
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -460,7 +460,7 @@ monetary_system_2 = {
 	year = 1880
 	cost = 16000
 
-	administrative_efficiency = 0.05
+	tax_eff = 3
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -490,7 +490,7 @@ monetary_system_3 = {
 	year = 1890
 	cost = 18000
 
-	administrative_efficiency = 0.05
+	tax_eff = 3
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -521,7 +521,7 @@ market_determined_exchange_rates = {
 	cost = 21000
 
 
-	administrative_efficiency = 0.05
+	tax_eff = 3
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -544,7 +544,7 @@ market_determined_exchange_rates_1 = {
 	cost = 23000
 
 
-	administrative_efficiency = 0.05
+	tax_eff = 3
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -567,7 +567,7 @@ market_determined_exchange_rates_2 = {
 	cost = 27000
 
 
-	administrative_efficiency = 0.05
+	tax_eff = 3
 	ai_chance = {
 		factor = 1.1
 		modifier = {

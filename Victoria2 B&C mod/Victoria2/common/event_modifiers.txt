@@ -375,7 +375,7 @@ anaconda_plan = {
 }
 
 the_homestead_act = {
-	global_immigrant_attract = 0.40	#40%
+	global_immigrant_attract = 0.50	#50%
 	global_assimilation_rate = 0.50
 	icon = 9
 }
@@ -755,8 +755,17 @@ us_congress_army = {
 }
 indian_debuff = {
 	factory_output = -0.2
-        mine_rgo_eff = -0.3
-	farm_rgo_eff = -0.3
+        mine_rgo_eff = -0.15
+	farm_rgo_eff = -0.2
+        RGO_output = -0.10
+        rich_life_needs = 0.3
+	middle_life_needs = 0.3
+	poor_life_needs = 0.3
+	rich_everyday_needs = 0.3
+	middle_everyday_needs = 0.3
+	poor_everyday_needs = 0.3
+}
+indian_debuff2 = {
         RGO_output = -0.2
 }
 chinese_debuff = {
@@ -1181,15 +1190,15 @@ colonial_push_cooldown2 = {
         icon = 15
 }
 african_benefits = {
-        factory_throughput = 0.1
+        factory_throughput = 0.03
         prestige = 0.05
         tax_efficiency = 0.03
         icon = 15
 }
 african_benefits2 = {
-        factory_throughput = 0.2
+        factory_throughput = 0.1
         prestige = 0.2
-        tax_efficiency = 0.07
+        tax_efficiency = 0.05
         icon = 15
 }
 modern_socsss = {
@@ -1276,8 +1285,6 @@ rusgubrmodifier10 = {
         icon = 15
 }
 rus_corrupt2 = {
-        research_points_modifier = -0.15
-        administrative_efficiency_modifier = -0.15
         tax_efficiency = -0.02
         factory_throughput = -0.1
         RGO_output = -0.1
@@ -1287,8 +1294,6 @@ rus_corrupt2 = {
         icon = 5
 }
 rus_corrupt1 = {
-        research_points_modifier = -0.15
-        administrative_efficiency_modifier = -0.2
         tax_efficiency = -0.05
         factory_throughput = -0.15
         RGO_output = -0.1
@@ -1298,8 +1303,6 @@ rus_corrupt1 = {
         icon = 5
 }
 ruscorrupt = {
-        research_points_modifier = -0.15
-        administrative_efficiency_modifier = -0.2
         tax_efficiency = -0.05
         factory_throughput = -0.2
         RGO_output = -0.15

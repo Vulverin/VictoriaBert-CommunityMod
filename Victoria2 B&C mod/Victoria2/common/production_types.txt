@@ -551,7 +551,7 @@ ammunition_factory = {
 canned_food_factory = {       
 	template = factory_template	#24
 	input_goods = { 
-		lead = 5
+		steel = 5
                 cattle = 5
 	}
 	output_goods = canned_food 
@@ -830,7 +830,7 @@ synthetic_fabric_factory = {
 fish_cannery = {
         template = factory_template	#24
 	input_goods = { 
-		lead = 2
+		steel = 2
                 fish = 8
 	}
 	output_goods = canned_food 
@@ -848,7 +848,7 @@ fish_cannery = {
 fruit_cannery = {
         template = factory_template	#24
 	input_goods = { 
-		lead = 2
+		steel = 2
                 fruit = 8
 	}
 	output_goods = canned_food 
@@ -1523,7 +1523,7 @@ artisan_ammunition = {
 
 artisan_canned_food = {       
 	input_goods = { 
-		lead = 5 		#7
+		steel = 5 		#7
 		cattle = 5 		#24
 	}
 	output_goods = canned_food 

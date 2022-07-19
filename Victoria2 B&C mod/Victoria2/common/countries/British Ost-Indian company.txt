@@ -15,7 +15,7 @@ party = {
 	trade_policy = free_trade
 	religious_policy = moralism
 	citizenship_policy = residency
-	war_policy = pacifism
+	war_policy = anti_military
 }
 
 party = {
@@ -29,7 +29,7 @@ party = {
 	trade_policy = free_trade
 	religious_policy = pluralism
 	citizenship_policy = full_citizenship
-	war_policy = pacifism
+	war_policy = anti_military
 }
 
 party = {
@@ -43,7 +43,7 @@ party = {
 	trade_policy = free_trade
 	religious_policy = moralism
 	citizenship_policy = residency
-	war_policy = pacifism
+	war_policy = anti_military
 }
 
 party = {
@@ -57,7 +57,7 @@ party = {
 	trade_policy = free_trade
 	religious_policy = pro_atheism
 	citizenship_policy = full_citizenship
-	war_policy = pacifism
+	war_policy = anti_military
 }
 
 party = {

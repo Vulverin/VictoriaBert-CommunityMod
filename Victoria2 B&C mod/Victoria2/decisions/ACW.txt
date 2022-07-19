@@ -131,7 +131,7 @@ political_decisions = {
                               has_country_flag = congress_tr_des_window
                               year = 1860
                               NOT = {
-                                    year = 1890
+                                    year = 1875
                               }
                               USA = {
                                     has_country_flag = usa_army_limit
@@ -148,39 +148,6 @@ political_decisions = {
                           money = -2000000
                           money = -2000000
                           money = -1000000
-                          clr_country_flag = usa_army_limit
-                          add_country_modifier = {
-                                       name = us_congress_army
-                                       duration = 1825
-                          }
-                }
-        }
-
-        usa_army_congress_1890 = {
-                potential = {
-                             
-                              tag = USA
-                              has_country_flag = congress_tr_des_window
-                              year = 1890
-                              USA = {
-                                    has_country_flag = usa_army_limit
-                                   NOT = {
-                                     has_country_modifier = us_congress_army
-                                   }
-                              }
-                            
-                }
-                allow = {
-                          money = 12000000
-                }
-                effect = {
-                          money = -2000000
-                          money = -2000000
-                          money = -2000000
-                          money = -2000000
-                          money = -2000000
-                          money = -2000000
-                          }
                           clr_country_flag = usa_army_limit
                           add_country_modifier = {
                                        name = us_congress_army
@@ -603,121 +570,7 @@ political_decisions = {
                                         duration = 3650
                                 }
                          }
-                         85 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         86 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         87 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         88 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
                          89 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         90 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         94 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         95 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         96 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         97 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         98 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         99 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         100 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         101 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         102 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         103 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         104 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         105 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         136 = {
-                                add_province_modifier = {
-                                        name = american_west1
-                                        duration = 3650
-                                }
-                         }
-                         138 = {
                                 add_province_modifier = {
                                         name = american_west1
                                         duration = 3650

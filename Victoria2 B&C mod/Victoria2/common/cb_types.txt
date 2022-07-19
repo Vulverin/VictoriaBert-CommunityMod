@@ -1086,7 +1086,6 @@ acquire_state = {
                         }
                       }
                 }
-		is_independant = yes
 	}
 	
 	allowed_states = {
@@ -3337,7 +3336,6 @@ state_100k = {
 				}
 			}
 		}
-		is_independant = yes
 	}
 	
 	allowed_states = {

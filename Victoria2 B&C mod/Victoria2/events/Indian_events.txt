@@ -88,3 +88,29 @@ country_event = {
                 }
 	}
 }
+country_event = {
+	id = 99909
+	title = "IndianDebuff2"
+	desc = " "
+	picture = "starving"
+        trigger = {
+                  year = 1850
+                  tag = BOC
+                  BOC = {
+                        NOT = {
+                               has_country_modifier = indian_debuff2
+                        }
+                        civilized = yes
+                  }
+        }
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "Необходимо интегрировать опыт западных стран"
+                add_country_modifier = {
+                               name = indian_debuff2
+                               duration = -1
+                }        
+	}
+}

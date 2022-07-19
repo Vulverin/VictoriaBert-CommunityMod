@@ -5,9 +5,6 @@ mobilisation_tech_1 = {
 	cost = 4000
 	unciv_military = yes
 	mobilisation_size = 0.01
-        infantry = {
-			default_organisation = -5
-	}
 }	
 	
 mobilisation_tech_2 = {
@@ -121,7 +118,7 @@ medicine_tech_1 = {
 	cost = 4000
 	unciv_military = yes
     
-        pop_growth = 0.0002
+        pop_growth = 0.0001
 
         ai_chance = {
 		factor = 20
@@ -239,7 +236,7 @@ medicine_tech_8 = {
 	cost = 12000
 	unciv_military = yes
 		
-	pop_growth = 0.0001
+	pop_growth = 0.0002
         ai_chance = {
 		factor = 20
                 modifier = {
@@ -318,7 +315,7 @@ military_tech_2 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -0.40
 	}
         
 }
@@ -330,7 +327,7 @@ military_tech_3 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -0.80
 	}
         
 }
@@ -342,7 +339,7 @@ military_tech_4 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -1
 	}
         
 }
@@ -354,7 +351,7 @@ military_tech_5 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -1
 	}
         
 }
@@ -366,7 +363,7 @@ military_tech_6 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -1.2
 	}
         
 }
@@ -378,7 +375,7 @@ military_tech_7 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -1.6
 	}
         
 }
@@ -390,7 +387,7 @@ military_tech_8 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -2
 	}
         
 }
@@ -402,7 +399,7 @@ military_tech_9 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -2
 	}
         
 }
@@ -414,7 +411,7 @@ military_tech_10 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -2
 	}
         
 }
@@ -426,7 +423,7 @@ military_tech_11 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -2
 	}
         
 }
