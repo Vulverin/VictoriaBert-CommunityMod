@@ -455,6 +455,7 @@ government_democracy = {
 	ruling_party_support = -0.1
         prestige = 0.02
         mobilisation_size = 0.02
+        global_immigrant_attract = 0.1
 }
 
 industrial_society = {

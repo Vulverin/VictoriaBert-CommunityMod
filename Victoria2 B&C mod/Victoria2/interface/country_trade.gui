@@ -340,12 +340,12 @@ guiTypes = {
 			format = centre
 		}
 		
-		checkboxType = {
-			name = "buy_from_stockpile"
-			position = { x = 715 y = 388 }
-			quadTextureSprite = "GFX_trade_stockpile_checkbox"
-			Orientation = "UPPER_LEFT"
-		}
+		#checkboxType = {
+		#	name = "buy_from_stockpile"
+		#	position = { x = 715 y = 388 }
+		#	quadTextureSprite = "GFX_trade_stockpile_checkbox"
+		#	Orientation = "UPPER_LEFT"
+		#}
 		
 		guiButtonType = {
 			name = "stockpile_sort_by_goods"
@@ -534,7 +534,7 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "sell_stockpile"
-				position = {x= 90 y = 290}
+				position = {x= 90 y = 2900}
 				quadTextureSprite = "GFX_toggle_default"
 				tooltip = ""
 				tooltipText =""

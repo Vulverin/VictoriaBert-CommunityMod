@@ -737,6 +737,11 @@ promote_to =
 				factor = 30
 				military_spending = 0.99
 			}
+                        modifier = {
+				factor = 50
+                                year = 1880
+				military_spending = 0.99
+			}
 		}
 		group = {
 			modifier = {

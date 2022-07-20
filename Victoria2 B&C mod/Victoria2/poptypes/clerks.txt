@@ -774,9 +774,44 @@ promote_to =
 				factor = -2
 				state_scope = { capitalists = 0.005 }
 			}
+                        modifier = {
+				factor = -2
+				state_scope = { capitalists = 0.007 }
+			}
+                        modifier = {
+				factor = -2
+				state_scope = { capitalists = 0.01 }
+			}
+                        modifier = {
+				factor = -2
+				state_scope = { capitalists = 0.012 }
+			}
+                        modifier = {
+				factor = -2
+				state_scope = { capitalists = 0.015 }
+			}
 			modifier = {
 				factor = -100
 				state_scope = { capitalists = 0.02 }
+			}
+		}
+              
+                group = {
+			modifier = {
+				factor = 4
+				state_scope = { craftsmen = 0.05 }
+			}
+			modifier = {
+				factor = 4
+				state_scope = { craftsmen = 0.1 }
+			}
+                        modifier = {
+				factor = 4
+				state_scope = { craftsmen = 0.15 }
+			}
+			modifier = {
+				factor = 4
+				state_scope = { craftsmen = 0.2 }
 			}
 		}
 

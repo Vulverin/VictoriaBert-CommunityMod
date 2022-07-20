@@ -1432,7 +1432,7 @@ poland_mdfrgd = {
         global_population_growth = 0.004
 }
 national_army_doctrine = {
-        army_tech_research_bonus = 0.35
+        army_tech_research_bonus = 0.2
         commerce_tech_research_bonus = 0
 	culture_tech_research_bonus = 0
 	industry_tech_research_bonus = 0
@@ -1442,10 +1442,10 @@ national_army_doctrine = {
         cb_generation_speed_modifier = 0.5
         land_unit_start_experience = 5.0
         mobilisation_size = 0.02
-        mobilisation_economy_impact = -0.35
+        mobilisation_economy_impact = -0.2
 }
 national_navy_doctrine = {
-        army_tech_research_bonus = 0.35
+        army_tech_research_bonus = 0.2
 	commerce_tech_research_bonus = 0
 	culture_tech_research_bonus = 0
 	industry_tech_research_bonus = 0
@@ -1453,47 +1453,43 @@ national_navy_doctrine = {
         cb_generation_speed_modifier = 0.5
         import_cost = -0.15
         naval_organisation = 0.25
-        mobilisation_economy_impact = -0.35
+        mobilisation_economy_impact = -0.2
         factory_input = -0.1
         naval_unit_start_experience = 2.0
 }
 national_isol_doctrine = {
         army_tech_research_bonus = 0
 	commerce_tech_research_bonus = 0
-	culture_tech_research_bonus = 0.5
+	culture_tech_research_bonus = 0.2
 	industry_tech_research_bonus = 0
         doctrine_tech_research_bonus = 0
-        education_efficiency_modifier = 0.50
+        education_efficiency_modifier = 0.3
         cb_generation_speed_modifier = -0.5
-        research_points_modifier = 0.35       
+        research_points_modifier = 0.2      
 }
 national_migr_doctrine = {
         army_tech_research_bonus = 0
 	commerce_tech_research_bonus = 0
 	culture_tech_research_bonus = 0
-	industry_tech_research_bonus = 0.5
+	industry_tech_research_bonus = 0.2
         doctrine_tech_research_bonus = 0
         cb_generation_speed_modifier = -0.25
         prestige = 0.05
-        global_immigrant_attract = 0.50
-	global_assimilation_rate = 0.50
-        research_points_modifier = 0.2
+        global_immigrant_attract = 0.4
+	global_assimilation_rate = 0.4
+        research_points_modifier = 0.1
         non_accepted_pop_militancy_modifier = -0.02
 }
 national_econ_doctrine = {
         army_tech_research_bonus = 0
-	commerce_tech_research_bonus = 0.5
+	commerce_tech_research_bonus = 0.2
 	culture_tech_research_bonus = 0
 	industry_tech_research_bonus = 0
         doctrine_tech_research_bonus = 0
-        factory_output = 0.15
+        factory_output = 0.1
         RGO_output = 0.15
         tax_efficiency = 0.05
-        rich_everyday_needs = -0.05
         cb_generation_speed_modifier = -0.25
-        middle_everyday_needs = -0.05
-        poor_everyday_needs = -0.05
-        factory_owner_cost = -0.25
 }
 har_werft = {
         local_ship_build = -0.30
@@ -1796,8 +1792,7 @@ brz_education = {
 }         
 amrc_imprls = {
          army_tech_research_bonus = 0.1
-         industry_tech_research_bonus = 0.2
-         supply_consumption = -0.15
+         industry_tech_research_bonus = 0.1
          icon = 1
 }
 americanbanks = {
@@ -1805,11 +1800,9 @@ americanbanks = {
          icon = 1
 }
 american_capitalism = {
-         factory_owner_cost = -0.4
-         factory_throughput = 0.30
-         RGO_output = 0.30
-         rich_life_needs = -0.15
-         rich_everyday_needs = -0.15
+         factory_owner_cost = -0.3
+         factory_throughput = 0.20
+         RGO_output = 0.20
 }
 jesus = {
          global_immigrant_attract = 0.20

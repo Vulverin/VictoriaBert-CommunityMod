@@ -4,43 +4,43 @@ promotion_chance =
 	factor = 0.25
 	group = {
 		modifier = {
-			factor = 0.01
+			factor = 0.02
 			literacy = 0.05
 		}
 		modifier = {
-			factor = 0.02
+			factor = 0.03
 			literacy = 0.1 
 		}
 		modifier = {
-			factor = 0.04
+			factor = 0.05
 			literacy = 0.2
 		}
 		modifier = {
-			factor = 0.06
+			factor = 0.1
 			literacy = 0.3
 		}
 		modifier = {
-			factor = 0.08
+			factor = 0.1
 			literacy = 0.4
 		}
 		modifier = {
-			factor = 0.10
+			factor = 0.15
 			literacy = 0.5
 		}
 		modifier = {
-			factor = 0.12
+			factor = 0.15
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 0.14
+			factor = 0.2
 			literacy = 0.7
 		}
 		modifier = {
-			factor = 0.16
+			factor = 0.2
 			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.20
+			factor = 0.2
 			literacy = 0.9
 		}
 	}
@@ -66,29 +66,29 @@ promotion_chance =
 
 	group = {
 		modifier = {
-			factor = 0.5
+			factor = 0.1
 			life_needs = 0.1
                         strata = poor
-                        military_spending = 1
+                        military_spending = 0.1
 	
 		}
 		modifier = {
-			factor = 0.3
+			factor = 0.05
                         strata = poor 
                         military_spending = 0.9
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.05
 			strata = poor
                         military_spending = 0.7
 		}
                 modifier = {
-			factor = 0.1
+			factor = 0.05
 			strata = poor
                         military_spending = 0.6
 		}
                 modifier = {
-			factor = 0.1
+			factor = 0.05
 			strata = poor
                         military_spending = 0.5
 		}

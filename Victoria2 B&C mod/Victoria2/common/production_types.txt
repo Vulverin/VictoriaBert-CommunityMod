@@ -366,6 +366,19 @@ luxury_furniture_factory = {
 
 ############# MEDIUM FACTORIES
 
+synthetic_sulfur_factory = {       
+    template = factory_template
+    input_goods = {
+        shares = 20   
+    }
+    output_goods = sulphur
+    value = 1
+    bonus = {
+        trigger = { trade_goods_in_state = coal }
+        value = 0.1
+    }
+}
+
 steel_factory = {       
 	template = factory_template	#50
 	input_goods = { 
