@@ -1020,7 +1020,7 @@ political_decisions = {
 				change_province_name = "Пашково"
 			}
 			1082 = {
-				change_province_name = "Владивосток"
+				change_province_name = "г.Владивосток"
 				state_scope = {
 					change_region_name = "Приморье"
 				}

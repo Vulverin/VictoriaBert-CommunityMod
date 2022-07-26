@@ -431,7 +431,7 @@ political_decisions = {
                effect = {
                          
                          860 = {
-                                change_province_name = "Стамбул"
+                                change_province_name = "г.Стамбул"
                          }
                          set_country_flag = stambul_123
                }

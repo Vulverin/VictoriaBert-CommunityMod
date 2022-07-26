@@ -2462,7 +2462,7 @@ political_decisions = {
 			capital = 1649
 			prestige = 5
 			1649 = {
-				change_province_name = "Токио"
+				change_province_name = "г.Токио"
 				
 			}
 			
