@@ -515,11 +515,7 @@ political_decisions = {
             }
             
             allow = {
-                     NOT = {
-                            owns = 409
-                            owns = 410
-                            owns = 412
-                     } 
+                     year = 1865
                      owns = 1708
                      owns = 1702
             }
@@ -567,14 +563,11 @@ political_decisions = {
                           } 
             }
             allow = {
-                     NOT = {
-                            owns = 409
-                            owns = 410
-                            owns = 412
-                     }
+                     year = 1860
+                     money = 2000000
             }
             effect = {
-                       
+                       money = -2000000
                        set_global_flag = french_fleetdas
                        402 = {
                                 add_province_modifier = {
