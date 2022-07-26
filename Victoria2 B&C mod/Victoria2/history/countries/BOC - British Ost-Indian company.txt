@@ -18,7 +18,6 @@ military_staff_system = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 naval_design_bureaus = 1
-late_enlightenment_philosophy = 1
 malthusian_thought = 1
 enlightenment_thought = 1
 private_banks = 1

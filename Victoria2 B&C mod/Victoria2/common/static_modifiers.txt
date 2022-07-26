@@ -143,7 +143,7 @@ base_values = {
 
 war = {
 	max_war_exhaustion = 100
-	#war_exhaustion = 0.05
+	war_exhaustion = -0.1
 	badboy = -0.02
 	supply_consumption = 2.0
 }
@@ -159,10 +159,8 @@ disarming = {
 }
 
 war_exhaustion = {
-	factory_throughput = -0.02
-        factory_output = -0.02
-	RGO_throughput = -0.02
-        RGO_output = -0.02
+	factory_throughput = -0.03
+	RGO_throughput = -0.03
 	cb_generation_speed_modifier = -0.04
         land_organisation = -0.005
         global_immigrant_attract = -0.02
