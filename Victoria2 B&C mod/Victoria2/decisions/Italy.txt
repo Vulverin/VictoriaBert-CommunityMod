@@ -188,27 +188,14 @@ political_decisions = {
                          year = 1865
                          is_greater_power = yes
                          war = no
-                         owns = 1852
-                         owns = 1859
-                         owns = 1863
-                         owns = 1725
-                         
+                         owns = 1851
+                         owns = 1731
                          
                }
 
                effect = {
                          
-                         change_tag = ITE
-                         all_core = {
-                                      remove_core = ITA
-                         }
-                         nationalvalue = nv_italian_empire
-                         tech_school = italianempire_tech_school
-                         749 = {
-                                 change_province_name = "Новый Рим"
-                         }
                          add_accepted_culture = greek
-                         add_accepted_culture = maghrebi
                          set_country_flag = rome_empire_123
                }
         }
