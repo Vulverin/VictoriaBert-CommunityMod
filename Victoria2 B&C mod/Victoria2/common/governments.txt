@@ -116,7 +116,6 @@ hms_government = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = yes
-	flagType = monarchy
 }
 
 democracy = {
@@ -132,6 +131,7 @@ democracy = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = no
+	flagType = republic
 }
  
 
