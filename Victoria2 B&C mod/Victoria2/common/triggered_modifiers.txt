@@ -40,7 +40,7 @@ eng_migr_debuff = {
                         year = 1850
 		}
 	}
-    global_immigrant_attract = -1.0
+    global_immigrant_attract = -1.2
     icon = 19
 }
 

@@ -128,6 +128,7 @@ political_decisions = {
                 }
         }
 	allow = {
+        year = 1870
         }
         effect = {
                  1251 = {

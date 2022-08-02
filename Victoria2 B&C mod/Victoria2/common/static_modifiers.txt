@@ -98,8 +98,8 @@ land_province = {
 
 blockaded = 
 {
-	RGO_throughput = -0.005
-	factory_throughput = -0.005
+	RGO_throughput = -0.001
+	factory_throughput = -0.001
         local_ship_build = 1.0
         local_repair = -1.0
 }
@@ -145,7 +145,7 @@ war = {
 	max_war_exhaustion = 100
 	war_exhaustion = -0.1
 	badboy = -0.02
-	supply_consumption = 2.0
+	supply_consumption = 1
 }
 
 peace = {
@@ -243,8 +243,9 @@ total_occupation = {
 total_blockaded = {
         import_cost = 5.0
         war_exhaustion = 0.02
-        factory_output = -0.35
-        factory_input = 0.5
+        factory_output = -0.1
+        factory_throughput = -0.3
+        factory_input = 0.15
         factory_owner_cost = 0.5
 }
 
