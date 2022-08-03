@@ -649,9 +649,6 @@ keynesian_economics_3 = {
 	cost = 6000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -683,9 +680,6 @@ collectivist_theory = {
 	cost = 9000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -717,9 +711,6 @@ the_historical_theory = {
 	cost = 12000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -751,9 +742,6 @@ neoclassical_theory = {
 	cost = 15000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1
@@ -785,9 +773,6 @@ economic_thought_and_critique_1 = {
 	cost = 18000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1
@@ -819,9 +804,6 @@ economic_thought_and_critique_2 = {
 	cost = 21000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1
@@ -853,9 +835,6 @@ keynesian_economics = {
 	cost = 24000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -887,9 +866,6 @@ keynesian_economics_1 = {
 	cost = 26000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -921,9 +897,6 @@ keynesian_economics_2 = {
 	cost = 29000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01

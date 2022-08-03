@@ -253,6 +253,7 @@ political_decisions = {
                 allow = {
                          money = 1000000
                          year = 1840
+                         war = no
                 }
                 effect = {
                           set_country_flag = engfdvdfg45553ffv

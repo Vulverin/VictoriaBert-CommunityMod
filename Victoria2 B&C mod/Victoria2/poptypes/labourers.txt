@@ -824,39 +824,6 @@ promote_to =
                 }
                 modifier = {
                         factor = -9000
-                        NOT = {
-                        year = 1875
-                        }
-                        country = {
-                                  has_country_flag = usa_army_limit
-                        }
-                        soldiers = 0.02
-                }
-                modifier = {
-                        factor = -9000
-                        NOT = {
-                        year = 1880
-                        }
-                        country = {
-                                  has_country_flag = usa_army_limit
-                        }
-                        soldiers = 0.035
-                }
-                modifier = {
-                        factor = -9000
-                        NOT = {
-                        year = 1890
-                        }
-                        country = {
-                                  has_country_flag = usa_army_limit
-                        }
-                        soldiers = 0.03
-                }
-                modifier = {
-                        factor = -9000
-                        NOT = {
-                        year = 1900
-                        }
                         country = {
                                   has_country_flag = usa_army_limit
                         }
@@ -866,6 +833,13 @@ promote_to =
 			factor = -9000
 			soldiers = 0.002
 			location = { is_colonial = yes }
+		}
+                modifier = {
+			factor = 45
+			NOT = { 
+                               soldiers = 0.02
+                        }
+			country = { government = african_company }
 		}
                 modifier = {
 			factor = -40
