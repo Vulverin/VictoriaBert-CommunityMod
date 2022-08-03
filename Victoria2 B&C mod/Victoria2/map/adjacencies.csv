@@ -166,7 +166,6 @@
 951;950;impassable;0;0;Stryj-Uzhgorod
 705;950;impassable;0;0;scary mountain
 953;950;impassable;0;0;scary mountain
-726;2568;impassable;0;0;scary mountain
 
 727;735;impassable;0;0;Bergamo-Bozen
 727;734;impassable;0;0;Bergamo-Trent
@@ -175,7 +174,6 @@
 732;618;impassable;0;0;Treviso-Klagenfurth
 733;618;impassable;0;0;Udine-Klagenfurt
 727;611;impassable;0;0;Bergamo-Chur
-727;2568;impassable;0;0;Bergamo-Lugano
 722;605;impassable;0;0;Novara-Bern
 2568;722;impassable;0;0;Lugano-Novara
 609;722;impassable;0;0;Sitten-Novara
