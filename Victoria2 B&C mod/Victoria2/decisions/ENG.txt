@@ -107,14 +107,7 @@ political_decisions = {
                                         name = eng_royal_fleet
                                         duration = -1
                                 }
-                       }
-                       269 = {
-                                add_province_modifier = {
-                                        name = eng_royal_fleet
-                                        duration = -1
-                                }
-                       }
-                       
+                       }                      
                        271 = {
                                 add_province_modifier = {
                                         name = eng_royal_fleet
