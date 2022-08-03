@@ -15,8 +15,12 @@ country_event = {
 		}
 		market_structure = 1
 		NOT = {
+                        has_country_modifier = great_depression
 			has_country_modifier = stock_market_crash
 		}
+                NOT = { 
+                        has_country_modifier = agricultural_society
+                }
 	}
 	
 	mean_time_to_happen = {
@@ -38,7 +42,7 @@ country_event = {
 			government_interventionism = 1
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.9
 			any_neighbor_country = {
 				has_country_modifier = stock_market_crash
 			}

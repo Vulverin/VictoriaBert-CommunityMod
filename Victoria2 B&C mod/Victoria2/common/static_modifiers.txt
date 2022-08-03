@@ -244,8 +244,8 @@ total_blockaded = {
         import_cost = 5.0
         war_exhaustion = 0.02
         factory_output = -0.1
-        factory_throughput = -0.3
-        factory_input = 0.15
+        factory_throughput = -0.2
+        factory_input = 0.1
         factory_owner_cost = 0.5
 }
 

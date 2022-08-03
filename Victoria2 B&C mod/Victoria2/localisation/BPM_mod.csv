@@ -2135,7 +2135,6 @@ post_agricultural_society;Переходной этап общества;X
 agricultural_society;Аграрное общество;X
 spices;Пищевые продукты;X
 spices_factory;Пищевая фабрика;X
-boots;Кондитерские изделия;X
 boot_factory;Кондитерская фабрика;X
 electric_gear_factory;Электрическая станция;X
 fish_cannery;Фабрика рыбных консервов;X
@@ -2411,7 +2410,6 @@ factory_throughput_focus;Стимулирование производства;X
 RGO_output_focus;Механизация шахт;X
 supply_war_limt;Диверсия инфраструктуры;X
 fed_reg_rs;Индустриализация региона;X
-cigars;Сигары;X
 sugar;Сахар;X
 wool_mill;Шерстяная фабрика;X
 cigarettes;Табачные изделия;X
@@ -2440,8 +2438,6 @@ acquire_core_state_ai;Вернуть нац.регион(ИИ);X
 annex_core_country_ai;Восстановить порядок(ИИ);X
 leadddd_cfe;Обогащение руды;X
 shares_cfe;Обогащение угля;X
-horses;Лошади;X
-stables;Конный завод;X
 agr_soccs3;Индустриальное общество;X
 agr_soccs2;Переходной этап;X
 agr_soccs;Аграрное общество;X

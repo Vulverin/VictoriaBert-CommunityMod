@@ -1043,7 +1043,9 @@ assimilation_chance =
 #general conversion mtth, same for all pops
 conversion_chance = 
 {
-	factor = 1
-
-
+	factor = 0.10
+	modifier = {
+		factor = -100.0
+		always = yes
+	}
 }
