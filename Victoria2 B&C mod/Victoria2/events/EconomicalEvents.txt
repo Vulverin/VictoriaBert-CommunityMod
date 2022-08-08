@@ -42,7 +42,7 @@ country_event = {
 			government_interventionism = 1
 		}
 		modifier = {
-			factor = 1.9
+			factor = 4.0
 			any_neighbor_country = {
 				has_country_modifier = stock_market_crash
 			}

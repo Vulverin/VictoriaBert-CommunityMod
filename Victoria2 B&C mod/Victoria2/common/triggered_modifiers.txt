@@ -477,7 +477,7 @@ post_agricultural_society = {
         }
         icon = 18
         factory_input = 0.05
-        factory_output = -0.15
+        factory_throughput = -0.15
         RGO_output = -0.15
         mine_rgo_eff = -0.15
 	farm_rgo_eff = 0.10
@@ -494,7 +494,7 @@ agricultural_society = {
         }
         icon = 18
         factory_input = 0.1
-        factory_output = -0.30
+        factory_throughput = -0.30
         RGO_output = -0.30
         mine_rgo_eff = -0.3
 	farm_rgo_eff = 0.20

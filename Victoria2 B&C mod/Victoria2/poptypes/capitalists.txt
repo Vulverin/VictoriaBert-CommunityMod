@@ -1,6 +1,8 @@
 sprite = 4
 color = { 18 129 10 }
 strata = rich
+research_points = 1
+research_optimum = 0.02
 state_capital_only = yes
 
 demote_migrant = yes
@@ -605,6 +607,21 @@ promote_to =
 				factor = 15
 				military_spending = 0.7
 			}
+		}
+	}
+        craftsmen =
+	{
+		factor = 0.01
+		modifier = {
+			factor = -10
+			always = yes
+		}
+		modifier = {
+			factor = 100
+                        OR = {
+                        country = { government = proletarian_dictatorship }
+                        country = { government = fascist_dictatorship }
+                        }
 		}
 	}
 	clergymen =

@@ -10,6 +10,8 @@ party_issues = {
 		free_trade = {
 			max_tariff = 0.25
 			min_tariff = -1
+                        tax_efficiency = 0.05
+                        factory_output = 0.1
 		}
 	}
 	economic_policy = {

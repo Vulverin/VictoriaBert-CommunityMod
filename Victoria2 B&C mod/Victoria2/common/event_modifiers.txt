@@ -519,7 +519,7 @@ german_fleet = {
 
 ruhr_boom = {
 	local_RGO_output = 0.5
-        local_factory_output = 0.5
+        local_factory_throughput = 0.5
         life_rating = 0.1
 	icon = 11
 }
@@ -615,7 +615,8 @@ stock_market_crash = {
 }
 
 great_depression = {
-	factory_output = -0.5
+	factory_output = -0.2
+        factory_throughput = -0.4
 	rgo_output = -0.5
 	tax_efficiency = -0.20
 	loan_interest = 0.15
@@ -778,7 +779,7 @@ japanese_debuff = {
         tax_efficiency = -0.02
         tariff_efficiency_modifier = -0.1
         RGO_output = -0.25
-        factory_output = -0.25
+        factory_throughput = -0.3
         army_tech_research_bonus = -0.2
         commerce_tech_research_bonus = -0.2
 	culture_tech_research_bonus = -0.2
@@ -1893,7 +1894,7 @@ japanese_power = {
 }      
 japanese_boom = {
         industry_tech_research_bonus = 0.2
-        factory_output = 0.2
+        factory_throughput = 0.2
         RGO_output = 0.2
         factory_owner_cost = -0.35
         icon = 13

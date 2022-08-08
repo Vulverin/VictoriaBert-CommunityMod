@@ -75,4 +75,17 @@ chinese_alliance_fix = {
 		}
               }
         }
+chinese_ai_boost = {
+              potential = {
+                        tag = CHI
+                        NOT = {
+                                has_country_flag = chi_boost_rpoints
+                        }
+              }
+              allow = {
+              }
+              effect = {
+              years_of_research = 40
+              set_country_flag = chi_boost_rpoints
+              }
 }

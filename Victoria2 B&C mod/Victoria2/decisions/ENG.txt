@@ -750,9 +750,10 @@ political_decisions = {
                 tag = ENG
                 }
                 allow = {
+                war = no
                 IRE = {
                 vassal_of = ENG
-       }
+                }
                 year = 1851
                 }
            effect = {

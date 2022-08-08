@@ -172,6 +172,21 @@ political_decisions = {
 				add_core = NGF
 			}			
 			change_tag = NGF
+                        NGF = {
+                                   all_core = {
+				          remove_core = PRU
+                                          remove_core = HAN
+                                          remove_core = FRM
+                                          remove_core = WEI
+                                          remove_core = HES
+                                          remove_core = BRA
+                                          remove_core = HEK
+                                          remove_core = SAX
+                                          remove_core = HAM
+                                          remove_core = HOL
+                                          remove_core = MEC
+			           }
+                        }
 		}
 		ai_will_do = {
 			factor = 1
@@ -328,6 +343,17 @@ political_decisions = {
 				}
 				country_event = { id=11101 days=0 }
 			}
+                        ITA = {
+                                   all_core = {
+				          remove_core = SAR
+                                          remove_core = PAR
+                                          remove_core = MOD
+                                          remove_core = PAP
+                                          remove_core = TUS
+                                          remove_core = LUC
+                                          remove_core = SIC
+			           }
+                        }
 		}
 		ai_will_do = {
 			factor = 1
