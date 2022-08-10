@@ -554,7 +554,7 @@ political_reforms = {
 			mine_rgo_size = 0.5
 		}
 		peonage = {
-			education_efficiency_modifier = -0.05
+			education_efficiency_modifier = -0.1
 			RGO_throughput  = 0.05
 			global_immigrant_attract = -0.05
 			suppression_points_modifier = 0.1
@@ -565,6 +565,7 @@ political_reforms = {
 			allow = { OR = { NOT = { has_country_flag = serfdom_not_abolished } year = 1875 } }
 		}
 		debtors_prisons = {
+                        education_efficiency_modifier = -0.05
 			farm_rgo_size = 0.1
 			mine_rgo_size = 0.1
 		}

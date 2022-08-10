@@ -72,7 +72,7 @@ promotion_chance =
                         military_spending = 0.1	
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.1
                         strata = poor 
                         military_spending = 0.9
 		}
@@ -111,7 +111,7 @@ promotion_chance =
 	}
         group = {
 		modifier = {
-			factor = 0.05
+			factor = 0.1
                         strata = poor 
                         education_spending = 0.9
 		}

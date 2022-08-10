@@ -8,21 +8,21 @@ factory_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -2
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	}
 	type = factory
@@ -37,21 +37,21 @@ cheap_factory_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -1
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	}
 	type = factory
@@ -66,21 +66,21 @@ cement_factory_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -2
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	}
 	type = factory
@@ -93,21 +93,21 @@ machine_part_user_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -2.5
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	
 	}
@@ -125,8 +125,8 @@ bank_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -1.5
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
@@ -150,21 +150,21 @@ modern_factory_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -1.5
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	
 	}

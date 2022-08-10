@@ -776,7 +776,7 @@ chinese_debuff = {
         RGO_output = -0.5
 }
 japanese_debuff = {
-        tax_efficiency = -0.02
+        tax_efficiency = -0.05
         tariff_efficiency_modifier = -0.1
         RGO_output = -0.25
         factory_throughput = -0.3
@@ -938,6 +938,9 @@ fra_pops_growth = {
 }
 indian_cities_growth = {
         population_growth = 0.001
+        farm_rgo_size = 0.5
+	mine_rgo_size = 0.5
+        immigrant_push = -0.5
         icon = 1
 }
 china_aus_comp = {
@@ -2048,8 +2051,8 @@ volunteers = {
  ##
 meiji_restoration_boost = {
         education_efficiency_modifier = 0.5
-        core_pop_militancy_modifier = 0.01
-	core_pop_consciousness_modifier = 0.02
+        core_pop_militancy_modifier = 0.02
+	core_pop_consciousness_modifier = 0.03
         research_points_modifier = 0.35
         prestige = 0.02
 	icon = 5

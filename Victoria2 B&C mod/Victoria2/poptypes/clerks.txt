@@ -1,6 +1,6 @@
 strata = middle
 research_points = 2
-research_optimum = 0.04
+research_optimum = 0.06
 
 rebel =
 {

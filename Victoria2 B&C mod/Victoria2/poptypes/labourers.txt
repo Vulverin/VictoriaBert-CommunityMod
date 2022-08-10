@@ -402,7 +402,17 @@ promote_to =
 					}
 				}
 			}
-
+                modifier = {
+			factor = 50
+                        craftsmen = 0.098
+			location = { is_overseas = yes }
+                        unemployment = 0.15
+                        NOT = { 
+				location = {
+					any_core = { is_core = THIS }
+				}
+			}
+		}
 		modifier = {
 			factor = 10
 			AND = {
@@ -894,6 +904,11 @@ promote_to =
 			factor = -100
                         craftsmen = 0.1
 			location = { is_overseas = yes }
+                        NOT = { 
+				location = {
+					any_core = { is_core = THIS }
+				}
+			}
 		}
 		modifier = {
 				factor = 50
