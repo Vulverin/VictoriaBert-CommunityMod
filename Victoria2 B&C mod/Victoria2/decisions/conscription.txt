@@ -7,10 +7,12 @@ conscription_back_1year = {
 	}
 	allow = {
 		war = yes
+                money = 300000
 	}
 	effect = {
 		political_reform = 1_years_draft
 		militancy = 0.55
+                money = -300000
 	}
 }
 conscription_back_4years = {
@@ -21,10 +23,12 @@ conscription_back_4years = {
 	}
 	allow = {
 		war = yes
+                money = 300000
 	}
 	effect = {
 		political_reform = 4_years_draft
 		militancy = 0.55
+                money = -300000
 	}
 }
 conscription_back_7years = {
@@ -35,9 +39,11 @@ conscription_back_7years = {
 	}
 	allow = {
 		war = yes
+                money = 300000
 	}
 	effect = {
 		political_reform = 7_years_draft
+                money = -300000
 		militancy = 0.55
 	}
 }

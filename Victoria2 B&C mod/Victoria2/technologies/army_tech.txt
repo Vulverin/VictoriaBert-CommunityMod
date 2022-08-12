@@ -62,10 +62,10 @@ modern_army_doctrine_new_1 = {
 			attack = 1
 			defence = 1
 		}
-		guard = {
-			attack = 1
-			defence = 1
-		}
+#		guard = {
+#			attack = 1
+#			defence = 1
+#		}
 		irregular = {
 			attack = 1
 			defence = 1
@@ -399,10 +399,10 @@ army_doctrine_3 = {
 			defence = 4
 			supply_consumption = 0.9
 		}
-		guard = {
+		colinfantry = {
 			attack = 3
 			defence = 3
-			supply_consumption = 0.9
+			supply_consumption = 2
 		}
 		irregular = {
 			attack = 4
@@ -561,11 +561,11 @@ modern_army_doctrine_new = {
 			defence = 1
 			supply_consumption = 1.2
 		}
-		guard = {
-			attack = 1
-			defence = 1
-			supply_consumption = 1.2
-		}
+#		guard = {
+#			attack = 1
+#			defence = 1
+#			supply_consumption = 1.2
+#		}
 		irregular = {
 			attack = 1
 			defence = 1
@@ -732,11 +732,11 @@ modern_divisional_structure_new_1 = {
 			defence = 1
 			supply_consumption = 0.4
 		}
-		guard = {
-			attack = 1
-			defence = 1
-			supply_consumption = 0.4
-		}
+#		guard = {
+#			attack = 1
+#			defence = 1
+#			supply_consumption = 0.4
+#		}
 		irregular = {
 			attack = 1
 			defence = 1
@@ -837,9 +837,9 @@ light_armament_1 = {
 	infantry = {
 		maneuver  = 1
 	}
-	guard = {
-		maneuver  = 1
-	}
+#	guard = {
+#		maneuver  = 1
+#	}
 	colinfantry = {
 		maneuver  = 1
 	}
@@ -893,7 +893,6 @@ machine_guns = {
 	year = 1870
 	cost = 14000
 	unciv_military = yes
-        activate_unit = guard
         navy_base = { 
 	maximum_speed = 1 
 	supply_consumption = 1.4
@@ -953,9 +952,9 @@ light_armament_2 = {
 	infantry = {
 		defence  = 2
 	}
-	guard = {
-		defence  = 2
-	}
+#	guard = {
+#		defence  = 2
+#	}
 	colinfantry = {
 		defence  = 2
 	}
@@ -1015,9 +1014,9 @@ light_armament_3 = {
 	infantry = {
 		defence  = 2
 	}
-	guard = {
-		defence  = 2
-	}
+#	guard = {
+#		defence  = 2
+#	}
 	colinfantry = {
 		defence  = 2
 	}
@@ -1194,11 +1193,11 @@ modern_divisional_structure_new = {
 			defence = 1
 			supply_consumption = 1.2
 		}
-		guard = {
-			attack = 1
-			defence = 1
-			supply_consumption = 1.2
-		}
+#		guard = {
+#			attack = 1
+#			defence = 1
+#			supply_consumption = 1.2
+#		}
 		irregular = {
 			attack = 1
 			defence = 1
@@ -1553,10 +1552,10 @@ heavy_armament_2 = {
 		attack = 0.5
 		supply_consumption = 1.6
 	}
-        hussar = {
-                support = 0.25
-                supply_consumption = 1.6
-	}
+#        hussar = {
+#                support = 0.25
+#                supply_consumption = 1.6
+#	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1600,14 +1599,16 @@ heavy_armament_3 = {
 		gun_power = 10
 	}
 	artillery = {
-		attack = 0.5
-		supply_consumption = 1.8
-	}
-	hussar = {
+		attack = 0.75
                 support = 0.25
                 reconnaissance = 1
-                supply_consumption = 1.8
+		supply_consumption = 6
 	}
+#	hussar = {
+#                support = 0.25
+#                reconnaissance = 1
+#                supply_consumption = 1.8
+#	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1652,13 +1653,13 @@ indirect_artillery_fire = {
 	}
 	artillery = {
 		attack = 0.5
-		supply_consumption = 2.0
+		supply_consumption = 3.0
 	}
-	hussar = {
-                attack = 0.5
-                support = 0.25
-                supply_consumption = 2.0
-	}
+#	hussar = {
+#                attack = 0.5
+#                support = 0.25
+#                supply_consumption = 2.0
+#	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1701,11 +1702,11 @@ heavy_armament_dunno = {
 		hull = 20
 		gun_power = 20
 	}
-	hussar = {
-                attack = 1.2
-                support = 0.25
-                supply_consumption = 2.2
-	}
+#	hussar = {
+#                attack = 1.2
+#                support = 0.25
+#                supply_consumption = 2.2
+#	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1748,11 +1749,11 @@ heavy_armament_dunno_1 = {
 		hull = 20
 		gun_power = 20
 	}
-	hussar = {
-                attack = 1
-                defence = 1
-                supply_consumption = 2.4
-	}
+#	hussar = {
+#                attack = 1
+#                defence = 1
+#                supply_consumption = 2.4
+#	}
 	ai_chance = {
 		factor = 1.05
 		modifier = {

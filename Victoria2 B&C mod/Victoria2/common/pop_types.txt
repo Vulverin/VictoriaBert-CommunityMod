@@ -89,7 +89,7 @@ promotion_chance =
 	}
         group = {
 		modifier = {
-			factor = 0.05
+			factor = 0.1
                         strata = poor 
                         administration_spending = 0.9
 		}
@@ -148,7 +148,10 @@ promotion_chance =
 			strata = poor
 		}
 	}
-
+        modifier = {
+		factor = 0.15
+		country = { trade_policy = free_trade }
+	}
 	modifier = {
 		factor = -0.1
 		not = { religion = this }

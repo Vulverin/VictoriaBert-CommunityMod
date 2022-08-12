@@ -8,10 +8,11 @@ party_issues = {
 			min_tariff = 0.25
 		}
 		free_trade = {
-			max_tariff = 0.25
+			max_tariff = 0.35
 			min_tariff = -1
                         tax_efficiency = 0.05
                         factory_output = 0.1
+                        factory_input = -0.03
 		}
 	}
 	economic_policy = {
@@ -19,7 +20,8 @@ party_issues = {
 			min_social_spending = 0.5
 			max_tax = 0.5
 			factory_owner_cost = 0.3
-			factory_output = 0.3
+			factory_output = 0.15
+                        factory_throughput = 0.15
 			
 			rules = {
 				build_factory = no
@@ -45,8 +47,8 @@ party_issues = {
 			min_social_spending = 0.65
 			max_tax = 0.65
 			factory_owner_cost = 0.5
-			factory_output = 0.2
-			factory_throughput = 0.1
+			factory_output = 0.05
+			factory_throughput = 0.2
 			rules = {
 				build_factory = no
 				expand_factory = yes
@@ -72,7 +74,6 @@ party_issues = {
 		state_capitalism = {
 			min_social_spending = 0.8
 			max_tax = 0.8
-			factory_output = 0.1
 			factory_throughput = 0.2
 			factory_owner_cost = 0.8
 			rules = {
@@ -95,7 +96,8 @@ party_issues = {
 		}
 		planned_economy = {
 			min_social_spending = 1
-			factory_throughput = 0.3
+			factory_throughput = 0.4
+                        factory_output = -0.1
 			factory_owner_cost = -1	#negative costs, can't build.
 			rules = {
 				build_factory = yes

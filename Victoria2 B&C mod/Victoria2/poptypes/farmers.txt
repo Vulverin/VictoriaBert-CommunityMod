@@ -925,6 +925,22 @@ promote_to =
                          
 		}
                 modifier = {
+			factor = 5
+			country = { trade_policy = free_trade }
+                        country = {
+                             NOT = { has_country_flag = agricultural_society }
+			}
+                        literacy = 0.45
+		}
+                modifier = {
+			factor = 5
+			country = { economic_policy = laissez_faire }
+                        country = {
+                             NOT = { has_country_flag = agricultural_society }
+			}
+                        literacy = 0.45
+		}
+                modifier = {
 			factor = 20
 			country = {
 				has_country_flag = agr_soccs3
@@ -1084,6 +1100,11 @@ promote_to =
 				education_spending = 0.99
 			}
 		}
+                modifier = {
+			factor = -35
+			NOT = { is_accepted_culture = yes }
+			NOT = { is_primary_culture = yes }
+		}
 		group = {		
 			modifier = {
 				factor = -1
@@ -1106,19 +1127,19 @@ promote_to =
 				clergymen = 0.02
 			}			
 			modifier = {
-				factor = -2
+				factor = -4
 				clergymen = 0.024
 			}			
 			modifier = {
-				factor = -2
+				factor = -5
 				clergymen = 0.028
 			}			
 			modifier = {
-				factor = -2
+				factor = -6
 				clergymen = 0.032
 			}			
 			modifier = {
-				factor = -2
+				factor = -6
 				clergymen = 0.036
 			}			
 			modifier = {

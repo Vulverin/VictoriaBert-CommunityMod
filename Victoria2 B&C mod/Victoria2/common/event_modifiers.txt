@@ -853,32 +853,32 @@ inlf_mod = {
          icon = 1
 }
 factory_boom = {
-         factory_output = 0.02
+         factory_throughput = 0.02
          icon = 5
 }
 
 factory_boom_2 = {
-         factory_output = 0.05
+         factory_throughput = 0.05
          icon = 5
 }
 
 factory_boom_3 = {
-         factory_output = 0.1
+         factory_throughput = 0.1
          icon = 5
 }
 
 factory_boom_4 = {
-         factory_output = 0.15
+         factory_throughput = 0.15
          icon = 5
 }
 
 factory_boom_5 = {
-         factory_output = 0.2
+         factory_throughput = 0.2
          icon = 5
 }
 
 factory_boom_6 = {
-         factory_output = 0.3
+         factory_throughput = 0.3
          icon = 5
 }
 
@@ -2157,4 +2157,17 @@ industrial_consequences = {
          pop_militancy_modifier = 0.02
          tax_efficiency = -0.07
          icon = 20
+}
+burn_arabia = {
+         prestige = -0.5
+         icon = 20
+}
+turk_burn = {
+         supply_limit = -5
+         local_RGO_output = -0.9
+         local_factory_throughput = -0.9
+         pop_militancy_modifier = 0.14
+         life_rating = -0.3
+         attrition = 7
+         icon = 17
 }

@@ -4,8 +4,8 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_eastciv
-literacy = 0.2
-non_state_culture_literacy = 0.2
+literacy = 0.08
+non_state_culture_literacy = 0.07
 
 ruling_party = EGY_conservative
 upper_house = {

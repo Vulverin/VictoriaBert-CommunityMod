@@ -35,6 +35,7 @@ nv_eastasianciv = {
         culture_tech_research_bonus = -0.15
         global_immigrant_attract = -0.3
 	mobilisation_economy_impact = 2.0
+        mobilization_impact = 1
 }
 
 nv_transciv = {

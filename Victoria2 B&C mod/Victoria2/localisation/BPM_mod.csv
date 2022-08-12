@@ -2539,7 +2539,7 @@ SPLITINHALF;Разделить армию надвое;X
 SPLITINHALF_DRO;Мы разделим армию на две равные части;X
 IGNORE_DECISION_OFF;Отключить оповещение;X
 IGNORE_DECISION_ON;Включить оповещение;X
-KRA_703;Краков(2);X
+KRA_703;Западная Галиция(9);X
 synthetic_fabric_factory;Завод синтетической ткани;X
 synthetic_rubber_factory;Завод синтетического каучука;X
 tropical_lumber_mill;Завод тропических пиломатериалов;X
@@ -3053,3 +3053,6 @@ indian_cities_growth;Рост Индийских городов;X
 american_pacifism;Американский пацифизм;X
 artisans_industrialisation_title;Ускоренная индустриализация;X
 industrial_consequences;Последствия форсированной индустриализации;X
+desert_burn_title;Тактика выжженной земли в пустыне;X
+burn_arabia;Арабия в огне;X
+turk_burn;Выжженная земля;X

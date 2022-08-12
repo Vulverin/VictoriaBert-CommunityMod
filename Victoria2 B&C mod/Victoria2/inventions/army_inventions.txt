@@ -8,9 +8,9 @@ post_napoleonic_army_doctrine = {
 		infantry = {
 			defence = 1
 		}
-		guard = {
-			defence = 1
-		}
+#		guard = {
+#			defence = 1
+#		}
 		engineer = {
 			defence = 1
 		}
@@ -49,9 +49,9 @@ field_fortifications = {
 		infantry = {
 			defence = 1
 		}
-		guard = {
-			defence = 2
-		}
+#		guard = {
+#			defence = 2
+#		}
 		engineer = {
 			defence = 1
 		}
@@ -111,11 +111,11 @@ flexible_firepower = {
 			defence = 1
 		}
 		colinfantry = {
-			defence = 1
+			defence = 2
 		}
-		guard = {
-			defence = 1
-		}
+#		guard = {
+#			defence = 1
+#		}
 		engineer = {
 			defence = 1
 		}
@@ -153,9 +153,9 @@ synchronized_heavy_support = {
 		colinfantry = {
 			defence = 1
 		}
-		guard = {
-			defence = 1
-		}
+#		guard = {
+#			defence = 1
+#		}
 		engineer = {
 			defence = 1
 		}
@@ -187,9 +187,9 @@ provoloka = {
 		infantry = {
 			defence = 1
 		}
-		guard = {
-			defence = 1
-		}
+#		guard = {
+#			defence = 1
+#		}
 		engineer = {
 			defence = 1
 		}
@@ -228,11 +228,11 @@ trench_systems = {
 			defence = 3
 		}
 		colinfantry = {
-			defence = 3
+			defence = 4
 		}
-		guard = {
-			defence = 1
-		}
+#		guard = {
+#			defence = 1
+#		}
 		engineer = {
 			defence = 1
 		}
@@ -282,9 +282,9 @@ elastic_defense_system = {
 		colinfantry = {
 			defence = 1
 		}
-		guard = {
-			defence = 1
-		}
+#		guard = {
+#			defence = 1
+#		}
 		engineer = {
 			defence = 1
 		}
@@ -324,11 +324,11 @@ flexible_counterattacks = {
 			attack = 3
 		}
 		colinfantry = {
-			attack = 3
+			attack = 4
 		}
-		guard = {
-			attack = 1
-		}
+#		guard = {
+#			attack = 1
+#		}
 		engineer = {
 			attack = 1
 		}
@@ -425,9 +425,9 @@ low_echelon_fire_support = {
 		colinfantry = {
 			attack = 1
 		}
-		guard = {
-			attack = 2
-		}
+#		guard = {
+#			attack = 2
+#		}
 		engineer = {
 			attack = 1
 		}
@@ -467,9 +467,9 @@ stormtrooper_training = {
 		colinfantry = {
 			attack = 1
 		}
-		guard = {
-			attack = 2
-		}
+#		guard = {
+#			attack = 2
+#		}
 		engineer = {
 			attack = 1
 			defence = 1
@@ -508,10 +508,10 @@ firepower_vs_mobility = {
 			attack = 1
 			defence = 1
 		}
-		guard = {
-			attack = 2
-			defence = 2
-		}
+#		guard = {
+#			attack = 2
+#			defence = 2
+#		}
 		engineer = {
 			attack = 1
 			defence = 1
@@ -579,10 +579,10 @@ human_wave_vs_spearhead = {
 			attack = 1
 			defence = 1
 		}
-		guard = {
-			attack = 1
-			defence = 1
-		}
+#		guard = {
+#			attack = 1
+#			defence = 1
+#		}
 		engineer = {
 			attack = 1
 			defence = 1
@@ -706,13 +706,13 @@ breech_loaded_rifle_armament = {
 			supply_consumption = 0.20
 		}
 		colinfantry = {
-			attack = 1
-			supply_consumption = 0.20
-		}
-		guard = {
 			attack = 2
 			supply_consumption = 0.20
 		}
+#		guard = {
+#			attack = 2
+#			supply_consumption = 0.20
+#		}
 		engineer = {
 			attack = 1
 			supply_consumption = 0.20
@@ -749,13 +749,13 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		colinfantry = {
-			defence = 3
-			supply_consumption = 0.20
+			defence = 4
+			supply_consumption = 4.0
 		}
-		guard = {
-			defence = 3
-			supply_consumption = 0.20
-		}
+#		guard = {
+#			defence = 3
+#			supply_consumption = 0.20
+#		}
 		engineer = {
 			defence = 3
 			supply_consumption = 0.20
@@ -781,13 +781,13 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		colinfantry = {
-			attack = 2
-			supply_consumption = 0.20
+			attack = 3
+			supply_consumption = 4.0
 		}
-		guard = {
-			attack = 4
-			supply_consumption = 0.20
-		}
+#		guard = {
+#			attack = 4
+#			supply_consumption = 0.20
+#		}
 		engineer = {
 			attack = 2
 			supply_consumption = 0.20
@@ -856,10 +856,10 @@ bolt_action_rifle_armament = {
 			attack = 4
 			supply_consumption = 0.20
 		}
-		guard = {
-			attack = 4
-			supply_consumption = 0.20
-		}
+#		guard = {
+#			attack = 4
+#			supply_consumption = 0.20
+#		}
 		engineer = {
 			attack = 1
 			supply_consumption = 0.20
@@ -907,11 +907,11 @@ interwar_infantry = {
 			defence = 2
 			supply_consumption = 0.20
 		}
-		guard = {
-			attack = 2
-			defence = 2
-			supply_consumption = 0.20
-		}
+#		guard = {
+#			attack = 2
+#			defence = 2
+#			supply_consumption = 0.20
+#		}
 		engineer = {
 			attack = 2
 			defence = 2
@@ -1063,7 +1063,7 @@ anti_aircraft_artillery = {
 		artillery = {
 			attack = 0.1
 			defence = 0.1
-			supply_consumption = 0.25
+			supply_consumption = 0.5
 		}
 	}
 }
@@ -1083,7 +1083,7 @@ improved_anti_aircraft_artillery = {
 	effect = {
 		artillery = {
 			attack = 0.1
-			supply_consumption = 0.25
+			supply_consumption = 0.5
 		}
 	}
 }
@@ -1103,50 +1103,50 @@ light_artillery = {
 	effect = {
 		artillery = {
 			attack = 1
-			supply_consumption = 0.25
+			supply_consumption = 1.0
 		}
 	}
 }
-medium_artillery = {
-	limit = { heavy_armament_dunno = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 4
-			modern_army_doctrine = 1
-		}
-		modifier = {
-			factor = -6
-			not = { invention = light_artillery }
-		}
-	}
-	effect = {
-		hussar = {
-			support = 0.1
-			supply_consumption = 0.25
-		}
-	}
-}
-heavy_artillery = {
-	limit = { heavy_armament_dunno = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 4
-			modern_divisional_structure = 1
-		}
-		modifier = {
-			factor = -6
-			not = { invention = medium_artillery }
-		}
-	}
-	effect = {
-		hussar = {
-			support = 0.1
-			supply_consumption = 0.25
-		}
-	}
-}
+#medium_artillery = {
+#	limit = { heavy_armament_dunno = 1 }
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 4
+#			modern_army_doctrine = 1
+#		}
+#		modifier = {
+#			factor = -6
+#			not = { invention = light_artillery }
+#		}
+#	}
+#	effect = {
+#		hussar = {
+#			support = 0.1
+#			supply_consumption = 0.25
+#		}
+#	}
+#}
+#heavy_artillery = {
+#	limit = { heavy_armament_dunno = 1 }
+#	chance = {
+#		base = 2
+#		modifier = {
+#			factor = 4
+#			modern_divisional_structure = 1
+#		}
+#		modifier = {
+#			factor = -6
+#			not = { invention = medium_artillery }
+#		}
+#	}
+#	effect = {
+#		hussar = {
+#			support = 0.1
+#			supply_consumption = 0.25
+#		}
+#	}
+#}
 #military_staff_system
 cuirassier_activation = {
 	limit = { military_staff_system = 1 }
@@ -1174,19 +1174,19 @@ dragoon_activation = {
 		activate_unit = dragoon
 	}
 }
-hussar_activation = {
-	limit = { heavy_armament_3 = 1 }
-	chance = {
-		base = 20
-		modifier = {
-			factor = -2
-			not = { civilized = yes }
-		}
-	}
-	effect = {
-		activate_unit = hussar 
-	}
-}
+#hussar_activation = {
+#	limit = { heavy_armament_3 = 1 }
+#	chance = {
+#		base = 20
+#		modifier = {
+#			factor = -2
+#			not = { civilized = yes }
+#		}
+#	}
+#	effect = {
+#		activate_unit = hussar 
+#	}
+#}
 	
 #military_plans
 telegraph_coordination = {

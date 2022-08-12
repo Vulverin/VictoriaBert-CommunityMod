@@ -5,7 +5,7 @@ religion = shiite
 government = absolute_monarchy
 plurality = 0.3
 nationalvalue = nv_eastciv
-literacy = 0.2
+literacy = 0.12
 
 ruling_party = PER_conservative
 upper_house = {

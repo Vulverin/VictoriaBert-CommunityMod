@@ -167,7 +167,6 @@ political_decisions = {
 				          add_core = ARA
 			           }
                         }
-                        add_accepted_culture = persian
 			add_country_modifier = {
                                name = islamismm
                                duration = 21900
@@ -408,7 +407,7 @@ political_decisions = {
                                    duration = 10950
                         }                         
 		        add_accepted_culture = bedouin
-                        add_accepted_culture = persian
+                        add_accepted_culture = kazak
                         add_accepted_culture = north_caucasian
 			set_country_flag = islamic_halifat_done
 		}
@@ -496,5 +495,78 @@ political_decisions = {
 			set_country_flag = slavs_done
 		}
 		
+	}        
+        desert_burn = {
+                potential = {
+                        ai = no	
+                        tag = TUR
+                        NOT = {
+				has_country_modifier = burn_arabia
+			}
+		}
+		
+		allow = {
+                        war = yes                        
+		}		
+		effect = {
+			add_country_modifier = {
+                               name = burn_arabia
+                               duration = 1825
+                        }
+                        any_owned = {
+				limit = {
+					is_core = IRQ
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+                       any_owned = {
+				limit = {
+					is_core = NEJ
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = ABU
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+                        any_owned = {
+				limit = {
+					is_core = HDJ
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+                        any_owned = {
+				limit = {
+					is_core = YEM
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+                        any_owned = {
+				limit = {
+					is_core = OMA
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+		}
 	}
 }
