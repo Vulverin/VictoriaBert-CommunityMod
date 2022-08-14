@@ -8019,9 +8019,11 @@ ELS_communist;Коммунистическая партия;X
 ELS_fascist;Фашистская партия;X
 ENG_liberal;Либеральная партия;X
 ENG_conservative;Консервативная партия;X
+ENG_conservative_2;Консервативная партия;X
 ENG_liberal_2;Лейбористская партия;X
 ENG_socialist;Чартистская партия ;X
 ENG_reactionary;Союз британских офицеров;X
+ENG_reactionary_2;Союз британских офицеров;X 
 ENG_anarcho_liberal;Партия индепендентов;X
 ENG_communist;Коммунистическая партия;X
 ENG_fascist;Британский союз фашистов;X

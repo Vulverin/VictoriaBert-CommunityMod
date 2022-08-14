@@ -1924,6 +1924,7 @@ country_event = {
 				has_global_flag = canal1_bosfor
                                 has_global_flag = canal1_copenhagen
                                 has_global_flag = canal1_singapore
+                                has_global_flag = canal1_dardanelles
 			}
         }
         
@@ -1937,6 +1938,8 @@ country_event = {
 		enable_canal = 6
                 set_global_flag = canal1_singapore
 		enable_canal = 7
+                set_global_flag = canal1_dardanelles
+		enable_canal = 8
         }
 }
 

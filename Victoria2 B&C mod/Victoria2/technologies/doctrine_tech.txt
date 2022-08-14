@@ -23,10 +23,7 @@ mobilisation_tech_3 = {
 	year = 1846
 	cost = 6000
 	unciv_military = yes
-	mobilisation_size = 0.02
-        infantry = {
-			default_organisation = -5
-	}
+	mobilisation_size = 0.01
 }
 	
 mobilisation_tech_4 = {
@@ -86,7 +83,7 @@ mobilisation_tech_9 = {
 	year = 1876
 	cost = 13000
 	unciv_military = yes
-	mobilisation_size = 0.01
+	mobilisation_size = 0.02
 	infantry = {
     			default_organisation = -5
     	}
