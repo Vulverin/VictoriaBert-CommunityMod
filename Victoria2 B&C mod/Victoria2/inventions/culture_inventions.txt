@@ -643,7 +643,7 @@ i_analytic_philosophy = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 25
+			factor = 100
 			nationalvalue = nv_westciv
 		}
 		modifier = {
@@ -1450,7 +1450,7 @@ mission_to_civilize = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 25
+			factor = 100
 			nationalvalue = nv_westciv
 		}
 		modifier = {
