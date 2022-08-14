@@ -210,6 +210,14 @@ demotion_chance =
 			debt_law = serfdom
 		}
 	}
+        modifier = {
+			factor = 0.8
+			strata = rich
+                        OR = {
+                        country = { government = proletarian_dictatorship }
+                        country = { government = fascist_dictatorship }
+                        }
+		}
 
 	modifier = {
 		factor = -0.2

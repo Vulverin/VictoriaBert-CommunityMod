@@ -7,6 +7,20 @@ graphical_culture = BritishGC
 party = {
 	name = "ENG_conservative"
 	start_date = 1830.1.1
+	end_date = 1870.2.2
+
+	ideology = conservative
+
+	economic_policy = interventionism
+	trade_policy = free_trade
+	religious_policy = moralism
+	citizenship_policy = limited_citizenship
+	war_policy = pro_military
+}
+
+party = {
+	name = "ENG_conservative_2"
+	start_date = 1870.1.1
 	end_date = 2000.1.1
 
 	ideology = conservative
@@ -63,6 +77,20 @@ party = {
 party = {
 	name = "ENG_reactionary"
 	start_date = 1820.1.1
+	end_date = 1870.2.2
+
+	ideology = reactionary
+
+	economic_policy = state_capitalism
+	trade_policy = free_trade
+	religious_policy = moralism
+	citizenship_policy = residency
+	war_policy = jingoism
+}
+
+party = {
+	name = "ENG_reactionary_2"
+	start_date = 1870.1.1
 	end_date = 2000.1.1
 
 	ideology = reactionary
@@ -90,7 +118,7 @@ party = {
 
 party = {
 	name = "ENG_communist"
-	start_date = 1848.1.1
+	start_date = 1870.1.1
 	end_date = 2000.1.1
 
 	ideology = communist
@@ -103,7 +131,7 @@ party = {
 }
 party = {
 	name = "ENG_communist_2"
-	start_date = 1848.1.1
+	start_date = 1870.1.1
 	end_date = 2000.1.1
 
 	ideology = communist

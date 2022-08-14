@@ -1,0 +1,37 @@
+political_decisions = {
+         artisans_industrialisation = {
+            potential = {
+                          ai = no
+                          OR = {
+                          government = proletarian_dictatorship
+                          government = fascist_dictatorship
+                          }
+                          NOT = {
+                                  has_country_flag = artisans_industrialisation_done
+                          } 
+            }
+            allow = {
+                      money = 2000000
+            }
+            effect = {
+                      money = -2000000
+                      any_owned = {
+                                  limit = {
+					  is_colonial = no
+				  }
+				  any_pop = {
+					  limit = {
+                                                  type = artisans
+                                                  is_primary_culture = yes
+					  }
+					  pop_type = craftsmen
+				  }
+  	   	      }
+                      add_country_modifier = {
+				name = industrial_consequences
+				duration = 3650
+		      }
+                      set_country_flag = artisans_industrialisation_done
+            }
+       }
+}

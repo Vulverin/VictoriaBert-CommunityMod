@@ -709,6 +709,13 @@ promote_to =
 				}
 			}
 		}
+                modifier = {
+			factor = 100
+                        OR = {
+                        country = { government = proletarian_dictatorship }
+                        country = { government = fascist_dictatorship }
+                        }
+		}
 	}
 #	labourers = 
 #	{

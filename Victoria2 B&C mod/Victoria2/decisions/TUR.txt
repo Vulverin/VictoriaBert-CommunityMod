@@ -509,6 +509,7 @@ political_decisions = {
                         war = yes                        
 		}		
 		effect = {
+                        badboy = 10
 			add_country_modifier = {
                                name = burn_arabia
                                duration = 1825
