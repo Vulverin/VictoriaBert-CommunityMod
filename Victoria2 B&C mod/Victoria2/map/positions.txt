@@ -18033,9 +18033,9 @@
     }
 
     text_scale = 1.800000
-    town = {
-        x = 2847.000000
-        y = 1651.000000
+    factory = {
+        x = 2849.100098
+        y = 1651.099976
     }
 
     building_construction = {
@@ -18048,11 +18048,6 @@
         y = 1648.099976
     }
 
-    factory = {
-        x = 2849.100098
-        y = 1651.099976
-    }
-
     building_position = {
         fort = {
             x = 2858.000000
@@ -18060,14 +18055,14 @@
         }
 
         naval_base = {
-            x = 2852.300049
-            y = 1655.900024
+            x = 2849.100000
+            y = 1656.250000
         }
 
     }
 
     building_rotation = {
-        naval_base = 0.872665
+        naval_base = 0.781865
     }
 
 }
@@ -18117,20 +18112,10 @@
 
 # Antwerp
 390 = {
+    text_scale = 1.700000
     unit = {
         x = 2880.000000
         y = 1656.000000
-    }
-
-    text_scale = 1.700000
-    town = {
-        x = 2886.000000
-        y = 1653.000000
-    }
-
-    building_construction = {
-        x = 2885.600098
-        y = 1653.699951
     }
 
     factory = {
@@ -18138,10 +18123,20 @@
         y = 1656.900024
     }
 
+    building_construction = {
+        x = 2885.600098
+        y = 1653.699951
+    }
+
     building_position = {
         fort = {
             x = 2876.699951
             y = 1651.099976
+        }
+
+        naval_base = {
+            x = 2870.850000
+            y = 1656.600000
         }
 
     }
