@@ -1374,7 +1374,7 @@ national_fraternity = {
 	}
 	effect = {
 		war_exhaustion = -0.05
-		plurality = 0.05
+		plurality = 0.1
 	}
 }
 biased_multiculturalism = {
@@ -1438,7 +1438,6 @@ expansionism = {
 	}
 	effect = {
 		war_exhaustion = -0.05
-		plurality = -0.05
 	}
 }
 mission_to_civilize = {

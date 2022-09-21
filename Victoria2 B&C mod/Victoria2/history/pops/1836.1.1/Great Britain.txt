@@ -572,7 +572,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 30000
+		size = 45000
 	}
 
 	artisans = {
@@ -602,7 +602,7 @@
 	labourers = {
 		culture = british
 		religion = protestant
-		size = 138850
+		size = 123850
 	}
 
 	clergymen = {
@@ -682,7 +682,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 22500
+		size = 32500
 	}
 
 	artisans = {
@@ -706,7 +706,7 @@
 	labourers = {
 		culture = british
 		religion = protestant
-		size = 125350
+		size = 115350
 	}
 
 	clergymen = {
@@ -1025,7 +1025,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 7000
+		size = 22000
 	}
 
 	artisans = {
@@ -1049,7 +1049,7 @@
 	labourers = {
 		culture = british
 		religion = protestant
-		size = 130900
+		size = 115900
 	}
 
 	farmers = {
@@ -1751,7 +1751,7 @@
 	craftsmen = {
 		culture = british
 		religion = protestant
-		size = 149000
+		size = 179000
 	}
 
 	artisans = {
@@ -1830,24 +1830,6 @@
 		culture = british
 		religion = protestant
 		size = 10000
-	}
-
-	artisans = {
-		culture = british
-		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = british
-		religion = protestant
-		size = 10000
-	}
-
-	artisans = {
-		culture = british
-		religion = protestant
-		size = 9500
 	}
 
 	soldiers = {

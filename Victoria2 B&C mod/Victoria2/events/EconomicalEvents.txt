@@ -33,6 +33,10 @@ country_event = {
 			factor = 1.1
 			average_consciousness = 5
 		}
+                modifier = {
+			factor = 2.1
+			year = 1870
+		}
 		modifier = {
 			factor = 1.1
 			keynesian_economics = 1

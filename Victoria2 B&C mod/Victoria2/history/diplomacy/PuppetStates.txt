@@ -59,12 +59,6 @@ vassal = {
 }
 
 
-vassal = {
-	first = RUS
-	second = POL
-	start_date = 1815.1.1
-	end_date = 1890.11.23
-}
 
 # USA-Liberia
 vassal = {

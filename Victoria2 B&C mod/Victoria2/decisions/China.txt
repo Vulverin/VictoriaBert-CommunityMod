@@ -85,7 +85,7 @@ chinese_ai_boost = {
               allow = {
               }
               effect = {
-              years_of_research = 40
+              years_of_research = 20
               set_country_flag = chi_boost_rpoints
               }
 }

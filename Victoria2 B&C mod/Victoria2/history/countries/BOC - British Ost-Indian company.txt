@@ -1,4 +1,4 @@
-capital = 1251
+capital = 1253
 primary_culture = british
 culture = avadhi
 religion = hindu

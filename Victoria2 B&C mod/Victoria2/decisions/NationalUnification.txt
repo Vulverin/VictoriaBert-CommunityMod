@@ -110,7 +110,6 @@ political_decisions = {
 	
 	form_north_german_confederation = {
 		potential = {
-			is_greater_power = yes
                         tag = PRU
                         NOT = {
                                tag = HAN

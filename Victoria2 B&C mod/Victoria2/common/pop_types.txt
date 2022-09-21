@@ -211,7 +211,7 @@ demotion_chance =
 		}
 	}
         modifier = {
-			factor = 0.8
+			factor = 1.6
 			strata = rich
                         OR = {
                         country = { government = proletarian_dictatorship }
@@ -640,7 +640,7 @@ emigration_chance =
 	}
 	
 	modifier = {
-		factor = -0.8
+		factor = -0.9
 		OR = {
                         country = { government = colonial_company }
 			AND = {
@@ -679,7 +679,7 @@ emigration_chance =
 	group = {
 
 		modifier = {
-			factor = 0.1
+			factor = 0.15
 			militancy = 5
 		}
 		modifier = {
@@ -702,7 +702,7 @@ emigration_chance =
 
 	group = {
                 modifier = {
-			factor = -0.04
+			factor = -0.03
 			not = { consciousness = 4 }
 		}
 		modifier = {
@@ -991,10 +991,34 @@ assimilation_chance =
         }
 
         modifier = {
-        factor = 3
+        factor = 2
                 AND = {
                 culture = bedouin
                 country = { is_culture_group = turko_semitic }
+                }
+        }
+ 
+        modifier = {
+        factor = 2
+                AND = {
+                  culture = portuguese
+                  country = {
+			has_country_flag = integration_has_happened
+		  }
+                }
+        } 
+
+        modifier = {
+        factor = -1
+                OR = {
+                culture = bulgarian
+                culture = albanian
+                culture = romanian
+                culture = greek
+                culture = serb
+                }
+                country = {
+                has_country_flag = islamic_halifat_done
                 }
         }
         

@@ -582,10 +582,10 @@ canned_food_factory = {
 dye_factory = {       
 	template = cheap_factory_template	#24
 	input_goods = {     
-		shares = 5
+		shares = 9
 	}
 	output_goods = dye 
-	value = 4
+	value = 3
         bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.15

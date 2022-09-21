@@ -182,7 +182,11 @@ political_decisions = {
                         }
 
                     inherit = POR
-                    add_accepted_culture = portuguese 
+                    SPA = {
+                                   all_core = {
+				          remove_core = POR
+			           }
+                    }
                     set_country_flag = integration_has_happened
             }
        }

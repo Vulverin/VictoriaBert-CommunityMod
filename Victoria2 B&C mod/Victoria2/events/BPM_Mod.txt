@@ -1957,6 +1957,9 @@ country_event = {
                                 duration = -1
                 }
                 PRU = {
+                create_vassal = THIS
+                }
+                PRU = {
                       country_event = { id=10071 days=0 }
                 }
                 ai_chance = {

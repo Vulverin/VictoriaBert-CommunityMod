@@ -1007,7 +1007,7 @@ polt_refs_inc = {
 }
 turpplgrwth46 = {
         education_efficiency_modifier = -0.4
-        tax_efficiency = -0.05
+        tax_efficiency = -0.1
         global_population_growth = 0.002
 }
 turppwestpath = {
@@ -1289,18 +1289,16 @@ rusgubrmodifier10 = {
         icon = 15
 }
 rus_corrupt2 = {
-        tax_efficiency = -0.02
         factory_throughput = -0.1
-        RGO_output = -0.1
         land_organisation = -0.05
         education_efficiency_modifier = -0.3
         org_regain = -0.05
         icon = 5
 }
 rus_corrupt1 = {
-        tax_efficiency = -0.05
+        tax_efficiency = -0.02
         factory_throughput = -0.15
-        RGO_output = -0.1
+        RGO_output = -0.05
         land_organisation = -0.05
         education_efficiency_modifier = -0.3
         org_regain = -0.05
@@ -1309,7 +1307,7 @@ rus_corrupt1 = {
 ruscorrupt = {
         tax_efficiency = -0.05
         factory_throughput = -0.2
-        RGO_output = -0.15
+        RGO_output = -0.1
         education_efficiency_modifier = -0.3
         land_organisation = -0.10
         org_regain = -0.1
@@ -1606,11 +1604,7 @@ islamismm = {
         army_tech_research_bonus = 0.1
         mobilisation_size = 0.01
         icon = 7
-}
-osmanismm = {
-        war_exhaustion = -0.1
-        icon = 7
-}        
+}      
 economicspain1 = {
         factory_owner_cost = -0.35
         factory_throughput = 0.1
@@ -2004,7 +1998,7 @@ muh_ali_ref = {
 }
 
 tanzimat = {
-         war_exhaustion = -0.3
+         pop_militancy_modifier = -0.02
          icon = 5
 }
                     
@@ -2156,7 +2150,7 @@ industrial_consequences = {
          factory_throughput = -0.15
          pop_militancy_modifier = 0.02
          tax_efficiency = -0.07
-         icon = 20
+         icon = 17
 }
 burn_arabia = {
          prestige = -0.5
@@ -2169,5 +2163,5 @@ turk_burn = {
          pop_militancy_modifier = 0.14
          life_rating = -0.3
          attrition = 7
-         icon = 17
+         icon = 20
 }

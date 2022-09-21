@@ -837,7 +837,7 @@ promote_to =
                         country = {
                                   has_country_flag = usa_army_limit
                         }
-                        soldiers = 0.025
+                        soldiers = 0.023
                 }
 		modifier = {
 			factor = -9000
