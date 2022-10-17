@@ -5637,4 +5637,53 @@ new_nv2 = {
                            
                     }
         }
+political_decisions = {
+         literacy_up = {
+            potential = {
+                          tag = CHI
+                          NOT = {
+                                  has_country_flag = poland_up_done
+                          } 
+            }
+            allow = {
+            }
+            effect = {
+                      RUS = {
+                      any_owned = {
+                                  limit = {
+					  is_colonial = no
+				  }
+				  any_pop = {
+					  limit = {
+                                                  OR = {
+                                                  has_pop_culture = polish
+                                                  has_pop_culture = latvian
+                                                  has_pop_culture = prussian_german
+                                                  has_pop_culture = finnish
+                                                  }
+					  }
+                                          literacy = 0.3
+				  }
+  	   	      }
+                      }
+                      SPA = {
+                      any_owned = {
+                                  limit = {
+					  is_colonial = no
+				  }
+				  any_pop = {
+					  limit = {
+                                                  OR = {
+                                                  has_pop_culture = catalan
+                                                  has_pop_culture = basque
+                                                  }
+					  }
+                                          literacy = 0.4
+				  }
+  	   	      }
+                      }
+                      set_country_flag = poland_up_done
+            }
+       }
+
 }

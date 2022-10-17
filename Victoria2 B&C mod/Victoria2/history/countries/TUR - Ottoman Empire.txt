@@ -4,7 +4,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 15.0
 nationalvalue = nv_eastciv
-literacy = 0.25
+literacy = 0.20
 civilized = yes
 
 #GreaterPowers = prestige

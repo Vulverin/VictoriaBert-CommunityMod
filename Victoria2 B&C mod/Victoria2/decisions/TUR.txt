@@ -18,37 +18,16 @@ political_decisions = {
 			consciousness = 1
                         add_country_modifier = {
 	                name = tanzimat
-			duration = 14600
+			duration = 3650
 			}
 			set_country_flag = tanzimat_reforms_enacted
-		}
-	}
-
-        osmanism_tur = {
-                potential = {
-                        tag = TUR
-                        NOT = {
-				has_country_flag = osmtur
-			}
-                        has_country_flag = slavs_done 
-		}
-		
-		allow = {
-		}
-		
-		effect = {
-			add_country_modifier = {
-                               name = osmanismm
-                               duration = 21900
-                        }
-                        set_country_flag = osmtur
-			
 		}
 	}
 
         european_tech_army_tur = {
                 potential = {
                         tag = TUR
+                        has_country_flag = slavs_done
                         NOT = {
 				has_country_flag = euro_army_tech
 			}
@@ -78,6 +57,7 @@ political_decisions = {
         european_tech_culture_tur = {
                 potential = {
                         tag = TUR
+			has_country_flag = slavs_done
                         NOT = {
 				has_country_flag = euro_prom_tech
 			}
@@ -108,6 +88,7 @@ political_decisions = {
         european_tech_prom_tur = {
                 potential = {
                         tag = TUR
+                        has_country_flag = slavs_done
                         NOT = {
 				has_country_flag = euro_prom_tech
 			}
@@ -179,6 +160,7 @@ political_decisions = {
         move_capital_to_ankara = {
 		potential = {
                         tag = TUR
+                        has_country_flag = islamic_halifat_done
                         NOT = {
 				has_country_flag = asdasd_tur1
 			}

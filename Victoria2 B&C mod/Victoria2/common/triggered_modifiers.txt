@@ -461,7 +461,28 @@ government_democracy = {
         mobilisation_size = 0.02
         global_immigrant_attract = 0.1
 }
-
+government_colcompany = {
+	trigger = {
+                NOT = {
+                capital = 1253
+                }
+		exists = yes
+                government = colonial_company
+	}
+	RGO_output = -0.7
+        mine_rgo_eff = -0.2
+        RGO_throughput = -0.3
+        global_pop_militancy_modifier = -0.02
+}
+government_afrcompany = {
+	trigger = {
+		exists = yes
+                government = african_company
+	}
+	RGO_output = -0.3
+        RGO_throughput = -0.3
+        global_pop_militancy_modifier = -0.02
+}
 industrial_society = {
         trigger = {
                
@@ -469,7 +490,7 @@ industrial_society = {
         }
         icon = 18
         research_points_modifier = 0.5
-        RGO_output = 0.20
+        RGO_output = 0.1
         mine_rgo_eff = 0.3
 	farm_rgo_eff = -0.2
         icon = 13        
@@ -482,7 +503,7 @@ post_agricultural_society = {
         icon = 18
         factory_input = 0.05
         factory_throughput = -0.15
-        RGO_output = -0.15
+        RGO_output = -0.05
         mine_rgo_eff = -0.15
 	farm_rgo_eff = 0.10
         factory_owner_cost = 0.15
@@ -499,8 +520,8 @@ agricultural_society = {
         icon = 18
         factory_input = 0.1
         factory_throughput = -0.30
-        RGO_output = -0.30
-        mine_rgo_eff = -0.3
+        RGO_output = -0.15
+        mine_rgo_eff = -0.30
 	farm_rgo_eff = 0.20
         factory_owner_cost = 0.3
         icon = 13        
@@ -724,4 +745,28 @@ social_reformed_nation = {
 		
 	social_reform_desire = -0.5
 	icon = 13
+}
+
+german_minors_boost = {
+    trigger = {
+                OR = {
+                capital = 536
+                capital = 558
+                capital = 544
+                capital = 534
+                capital = 369
+                capital = 566
+                capital = 561
+                capital = 564
+                capital = 2560
+                capital = 528
+                }
+    }
+    tax_efficiency = 0.3
+    mobilisation_size = 0.02
+    supply_consumption = -0.5	
+    administrative_efficiency_modifier = 0.4
+    tariff_efficiency_modifier = 0.4
+    research_points_modifier = 0.15
+    RGO_output = 0.1
 }

@@ -113,11 +113,11 @@ political_decisions = {
                               has_country_modifier = rus_corrupt1
                  }
                  allow = {
-                         money = 2000000
+                         money = 1500000
                  }
                  effect = {
                             remove_country_modifier = rus_corrupt1
-                            money = -2000000
+                            money = -1500000
                             add_country_modifier = {
                                     name = rus_corrupt2
                                     duration = -1
@@ -132,11 +132,10 @@ political_decisions = {
                               has_country_modifier = rus_corrupt2
                  }
                  allow = {
-                         money = 4000000
+                         money = 2000000
                  }
                  effect = {
                             remove_country_modifier = rus_corrupt2
-                            money = -2000000
                             money = -2000000
                  }
         }
@@ -769,39 +768,6 @@ political_decisions = {
 		 }
         }
 
-        annex_poland = {
-                 potential = {
-                            tag = RUS
-                            NOT = {
-                                    has_country_flag = anxpolska
-                            }
-                 }
-                       allow = {
-                                year = 1835
-                                POL = {
-                                       vassal_of = RUS
-                                }
-                                POL = {
-                                       ai = yes
-                                }
-                       }
-            
-                       effect = {
-                              set_country_flag = anxpolska
-                              release_vassal = POL
-                          war = {
-                               target = POL
-                               attacker_goal = {
-                                 casus_belli = conquest
-                               }
-          
-                            defender_goal = {
-                                casus_belli = status_quo
-                            }
-                          }
-                       }
-        }
-
         integrbalkans = {
                 potential = {
 			
@@ -832,35 +798,6 @@ political_decisions = {
                           set_country_flag = balkansfsdfdas
                 }
         }
-                              
-        recognition_of_the_rus_poles = {
-                potential = {
-			
-			NOT = {
-				has_global_flag = recognition_of_the_rus_poles1
-			}
-                        NOT = {
-                                has_country_flag = balkansfsdfdas
-                        }
-			OR = {
-				
-				tag = RUS
-				
-			}
-			
-		}
-		
-		allow = {
-			owns = 706
-                        owns = 715
-                        year = 1870
-		}
-                effect = {
-                          add_accepted_culture = polish
-                          set_global_flag = recognition_of_the_rus_poles1
-                }
-        }
-
 
 	establish_the_sovnarkom = {
 		potential = {
