@@ -197,7 +197,7 @@ arising_prussia = {
         tariff_efficiency_modifier = 0.1
         RGO_output = 0.2
         factory_output = 0.2
-        global_population_growth = 0.003
+        global_population_growth = 0.002
 }
 tpg_boost = {
         trigger = {

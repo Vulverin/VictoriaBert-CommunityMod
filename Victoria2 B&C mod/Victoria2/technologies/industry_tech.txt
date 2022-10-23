@@ -51,6 +51,7 @@ practical_steam_engine = {
 
 	mine_rgo_eff = 0.05
 	farm_rgo_eff = 0.15
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -95,6 +96,7 @@ high_n_low_pressure_steam_engines = {
 
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -139,6 +141,7 @@ steam_turbine = {
 
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -183,6 +186,7 @@ tech_power_1 = {
 
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -227,6 +231,7 @@ combustion_engine = {
 
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
+        factory_cost = 0.05
 	factory_goods_output = {
 			fuel = 0.1
 	}
@@ -274,6 +279,7 @@ electrical_power_generation_3 = {
 
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -314,6 +320,7 @@ tech_power_2 = {
 
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.25
 		modifier = {
@@ -359,6 +366,7 @@ electrical_power_generation = {
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
 	factory_throughput = 0.1
+        factory_cost = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -400,6 +408,7 @@ electrical_power_generation_1 = {
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
 	factory_throughput = 0.1
+        factory_cost = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -441,6 +450,7 @@ electrical_power_generation_2 = {
 	mine_rgo_eff = 0.1
 	farm_rgo_eff = 0.1
 	factory_throughput = 0.1
+        factory_cost = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -517,6 +527,7 @@ mechanical_production = {
 	cost = 4000
 
 	factory_throughput = 0.05 
+        factory_cost = 0.05
 	activate_building = coal_coal_factory
 	ai_chance = {
 		factor = 1.05
@@ -567,6 +578,7 @@ interchangeable_parts = {
 	cost = 6000
 
 	factory_throughput = 0.05
+        factory_cost = 0.05
 	
 	ai_chance = {
 		factor = 1.05
@@ -601,6 +613,7 @@ semi_automatization = {
 	year = 1850
 	cost = 9000
 	factory_throughput = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -634,6 +647,7 @@ mechanization_1 = {
 	year = 1860
 	cost = 12000
 	factory_throughput = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -667,6 +681,7 @@ assembly_line = {
 	year = 1870
 	cost = 15000
 	factory_throughput = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -692,6 +707,7 @@ mechanization_2 = {
 	year = 1880
 	cost = 18000
 	factory_throughput = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -717,6 +733,7 @@ mechanization_3 = {
 	year = 1890
 	cost = 21000
 	factory_throughput = 0.1
+        factory_cost = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -745,6 +762,7 @@ shift_work = {
 	
 	rgo_output = 0.05
 	factory_throughput = 0.1 
+        factory_cost = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -773,6 +791,7 @@ shift_work_1 = {
 	
 	rgo_output = 0.05
 	factory_throughput = 0.1 
+        factory_cost = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -801,6 +820,7 @@ shift_work_2 = {
 	
 	rgo_output = 0.05
 	factory_throughput = 0.1 
+        factory_cost = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -898,6 +918,7 @@ clean_coal = {
 	year = 1830
 	cost = 4000
 	
+        factory_cost = 0.05
 	rgo_goods_output = {
 		coal = 0.2
 	}
@@ -975,6 +996,7 @@ cheap_iron = {
 	year = 1840
 	cost = 7000
 	activate_building = iron_iron_factory 
+        factory_cost = 0.05
 	rgo_goods_output = {
 		precious_metal = 0.1
 	}
@@ -1039,6 +1061,7 @@ cheap_steel = {
 	area = metallurgy
 	year = 1850
 	cost = 10000
+        factory_cost = 0.05
 	rgo_goods_output = {
 		precious_metal = 0.1
 	}
@@ -1110,6 +1133,7 @@ metallurgy_1 = {
 	year = 1860
 	cost = 12000
 
+        factory_cost = 0.05
         rgo_goods_output = {
 		sulphur = 0.2
 	}
@@ -1176,6 +1200,7 @@ advanced_metallurgy = {
 	year = 1870
 	cost = 15000
 
+        factory_cost = 0.05
 	rgo_goods_output = {
 		sulphur = 0.35
 	}
@@ -1249,6 +1274,7 @@ metallurgy_2 = {
 	year = 1880
 	cost = 18000
 
+        factory_cost = 0.05
 	rgo_goods_output = {
 		sulphur = 0.20
 	}
@@ -1313,6 +1339,7 @@ metallurgy_3 = {
 	year = 1890
 	cost = 21000
 
+        factory_cost = 0.05
 	rgo_goods_output = {
 		sulphur = 0.35
 	}
@@ -1377,6 +1404,7 @@ electric_furnace = {
 	year = 1900
 	cost = 23000
 
+        factory_cost = 0.1
 	rgo_goods_output = {
 		coal = 0.5
 	}
@@ -1438,6 +1466,7 @@ electric_furnace_1 = {
 	year = 1910
 	cost = 25000
 
+        factory_cost = 0.1
 	rgo_goods_output = {
 		coal = 0.35
 	}
@@ -1499,6 +1528,7 @@ electric_furnace_2 = {
 	year = 1920
 	cost = 27000
 
+        factory_cost = 0.1
 	rgo_goods_output = {
 		coal = 0.35
 	}
@@ -1855,6 +1885,7 @@ synthetic_polymers_3 = {
 	year = 1840
 	cost = 6000
 
+        factory_cost = 0.05
 	supply_limit = 0.20
 	factory_goods_output = {
 			fuel = 0.1
@@ -1885,6 +1916,7 @@ inorganic_chemistry = {
 	year = 1850
 	cost = 9000
 
+        factory_cost = 0.05
 	supply_limit = 0.20
 	
 	ai_chance = {
@@ -1920,6 +1952,7 @@ chemistry_and_electricity_1 = {
 	year = 1860
 	cost = 12000
 
+        factory_cost = 0.05
 	supply_limit = 0.20
 	
 	ai_chance = {
@@ -1955,6 +1988,7 @@ organic_chemistry = {
 	year = 1870
 	cost = 15000
 
+        factory_cost = 0.05
 	supply_limit = 0.20
 	
 	ai_chance = {
@@ -1990,6 +2024,7 @@ electricity = {
 	year = 1880
 	cost = 18000
 	
+        factory_cost = 0.05
 	supply_limit = 0.20
 	
 	ai_chance = {
@@ -2026,6 +2061,7 @@ chemistry_and_electricity_2 = {
 	year = 1890
 	cost = 21000
 	
+        factory_cost = 0.05
 	supply_limit = 0.20
 	ai_chance = {
 		factor = 2
@@ -2064,6 +2100,7 @@ synthetic_polymers = {
 	year = 1900
 	cost = 24000
 
+        factory_cost = 0.1
 	supply_limit = 0.3
 	factory_goods_output = {
 			fuel = 0.1
@@ -2094,6 +2131,7 @@ synthetic_polymers_1 = {
 	year = 1910
 	cost = 27000
 
+        factory_cost = 0.1
 	supply_limit = 0.20
 	factory_goods_output = {
 			fuel = 0.1
@@ -2124,6 +2162,7 @@ synthetic_polymers_2 = {
 	year = 1920
 	cost = 30000
 
+        factory_cost = 0.1
 	supply_limit = 0.20
 	factory_goods_output = {
 			fuel = 0.1
