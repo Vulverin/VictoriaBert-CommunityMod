@@ -8,7 +8,6 @@ country = {
 	MONTHS_UNTIL_BROKEN 	= 4,    -- OBSOLETE! (Months until rebel held capital results in broken country.)
 	REBEL_ACCEPTANCE_MONTHS = 60,
 	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
-	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
 	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
 	GOLD_TO_CASH_RATE = 0.5, -- Amount of money generated per gold unit
 	GOLD_TO_WORKER_PAY_RATE = 3, -- Multiplier for how much money gold pays to pops
@@ -480,7 +479,7 @@ diplomacy = {
 	REPARATIONS_TAX_HIT = 0.2,
 	PRESTIGE_REDUCTION_BASE = 25,
 	PRESTIGE_REDUCTION = 0.1, -- Base value + % of recipient's prestige
-	REPARATIONS_YEARS = 7,
+	REPARATIONS_YEARS = 5,
 	
 	-- No longer used:
 	-- PO_CONCEDE_DEFEAT_PRESTIGE = 1,

@@ -4,7 +4,7 @@ private_banks = {
 	year = 1830
 	cost = 3000
 	activate_building = cement_factory
-	tax_eff = 3
+	tax_eff = 2
 	
 	ai_chance = {
 		factor = 1.1
@@ -36,7 +36,7 @@ stock_exchange = {
 	cost = 4000
 
 	
-	tax_eff = 3
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -460,7 +460,7 @@ monetary_system_2 = {
 	year = 1880
 	cost = 16000
 
-	tax_eff = 3
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -490,7 +490,7 @@ monetary_system_3 = {
 	year = 1890
 	cost = 18000
 
-	tax_eff = 3
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -521,7 +521,7 @@ market_determined_exchange_rates = {
 	cost = 21000
 
 
-	tax_eff = 3
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -544,7 +544,7 @@ market_determined_exchange_rates_1 = {
 	cost = 23000
 
 
-	tax_eff = 3
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -567,7 +567,7 @@ market_determined_exchange_rates_2 = {
 	cost = 27000
 
 
-	tax_eff = 3
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {

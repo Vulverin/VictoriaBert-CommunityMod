@@ -503,7 +503,7 @@ the_congo_reform_association = {
 
 ### GER - GERMANY, PRU - PRUSSIA ###
 gerpopgrowth = {
-        global_population_growth = 0.005
+        global_population_growth = 0.004
         icon = 15
 }
 germania_werft = {
@@ -815,21 +815,21 @@ gernavy_support = {
         icon = 1
 }
 gerculture_support = {
-        research_points_modifier = 0.3
-        education_efficiency_modifier = 0.5
+        research_points_modifier = 0.2
+        education_efficiency_modifier = 0.2
         icon = 1
 }
 gernational_support = {
         army_tech_research_bonus = 0.1
-	commerce_tech_research_bonus = 0.2
-	culture_tech_research_bonus = 0.2
-	industry_tech_research_bonus = 0.2
-        doctrine_tech_research_bonus = 0.2
+	commerce_tech_research_bonus = 0.15
+	culture_tech_research_bonus = 0.15
+	industry_tech_research_bonus = 0.15
+        doctrine_tech_research_bonus = 0.15
         icon = 1
 }
 gereconom_support = {
         RGO_output = 0.15
-        factory_throughput = 0.2
+        factory_throughput = 0.15
         factory_owner_cost = -0.15
         icon = 1
 }

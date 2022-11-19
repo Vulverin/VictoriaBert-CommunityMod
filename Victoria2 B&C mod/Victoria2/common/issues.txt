@@ -117,6 +117,31 @@ party_issues = {
 				can_invest_in_pop_projects = yes
 			}
 		}
+                colonial_economy = {
+			min_social_spending = 0.5
+			min_tax = 0.9
+			factory_owner_cost = 0.3
+			
+			rules = {
+				build_factory = no
+				expand_factory = no
+				open_factory = no
+				destroy_factory = no
+				build_railway = no
+				factory_priority = no
+				can_subsidise = no
+				pop_build_factory = yes
+				pop_expand_factory = yes
+				pop_open_factory = yes
+				delete_factory_if_no_input = no
+				pop_build_factory_invest = yes
+				pop_expand_factory_invest = yes
+				open_factory_invest = yes
+				allow_foreign_investment = yes
+				build_railway_invest = yes
+				can_invest_in_pop_projects = yes
+			}
+		}
 	}
 	
 	religious_policy = {
