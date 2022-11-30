@@ -2,9 +2,9 @@ capital = 994
 primary_culture = russian
 religion = orthodox
 government = absolute_monarchy
-plurality = 15
+plurality = 20
 nationalvalue = nv_eastciv
-literacy = 0.21
+literacy = 0.19
 civilized = yes
 
 set_country_flag = serfdom_not_abolished

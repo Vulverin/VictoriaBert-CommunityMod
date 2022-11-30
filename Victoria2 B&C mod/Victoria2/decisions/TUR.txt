@@ -18,37 +18,16 @@ political_decisions = {
 			consciousness = 1
                         add_country_modifier = {
 	                name = tanzimat
-			duration = 14600
+			duration = 3650
 			}
 			set_country_flag = tanzimat_reforms_enacted
-		}
-	}
-
-        osmanism_tur = {
-                potential = {
-                        tag = TUR
-                        NOT = {
-				has_country_flag = osmtur
-			}
-                        has_country_flag = slavs_done 
-		}
-		
-		allow = {
-		}
-		
-		effect = {
-			add_country_modifier = {
-                               name = osmanismm
-                               duration = 21900
-                        }
-                        set_country_flag = osmtur
-			
 		}
 	}
 
         european_tech_army_tur = {
                 potential = {
                         tag = TUR
+                        has_country_flag = slavs_done
                         NOT = {
 				has_country_flag = euro_army_tech
 			}
@@ -78,6 +57,7 @@ political_decisions = {
         european_tech_culture_tur = {
                 potential = {
                         tag = TUR
+			has_country_flag = slavs_done
                         NOT = {
 				has_country_flag = euro_prom_tech
 			}
@@ -108,6 +88,7 @@ political_decisions = {
         european_tech_prom_tur = {
                 potential = {
                         tag = TUR
+                        has_country_flag = slavs_done
                         NOT = {
 				has_country_flag = euro_prom_tech
 			}
@@ -167,7 +148,6 @@ political_decisions = {
 				          add_core = ARA
 			           }
                         }
-                        add_accepted_culture = persian
 			add_country_modifier = {
                                name = islamismm
                                duration = 21900
@@ -180,6 +160,7 @@ political_decisions = {
         move_capital_to_ankara = {
 		potential = {
                         tag = TUR
+                        has_country_flag = islamic_halifat_done
                         NOT = {
 				has_country_flag = asdasd_tur1
 			}
@@ -405,10 +386,10 @@ political_decisions = {
 
                         add_country_modifier = {
                                    name = turpplgrwth46
-                                   duration = 7300
+                                   duration = 10950
                         }                         
 		        add_accepted_culture = bedouin
-                        add_accepted_culture = persian
+                        add_accepted_culture = kazak
                         add_accepted_culture = north_caucasian
 			set_country_flag = islamic_halifat_done
 		}
@@ -431,7 +412,7 @@ political_decisions = {
                effect = {
                          
                          860 = {
-                                change_province_name = "Стамбул"
+                                change_province_name = "г.Стамбул"
                          }
                          set_country_flag = stambul_123
                }
@@ -496,5 +477,79 @@ political_decisions = {
 			set_country_flag = slavs_done
 		}
 		
+	}        
+        desert_burn = {
+                potential = {
+                        ai = no	
+                        tag = TUR
+                        NOT = {
+				has_country_modifier = burn_arabia
+			}
+		}
+		
+		allow = {
+                        war = yes                        
+		}		
+		effect = {
+                        badboy = 10
+			add_country_modifier = {
+                               name = burn_arabia
+                               duration = 1825
+                        }
+                        any_owned = {
+				limit = {
+					is_core = IRQ
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+                       any_owned = {
+				limit = {
+					is_core = NEJ
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+			any_owned = {
+				limit = {
+					is_core = ABU
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+                        any_owned = {
+				limit = {
+					is_core = HDJ
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+                        any_owned = {
+				limit = {
+					is_core = YEM
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+                        any_owned = {
+				limit = {
+					is_core = OMA
+				}
+				add_province_modifier = {
+					name = turk_burn
+					duration = 1825
+				}
+			}
+		}
 	}
 }

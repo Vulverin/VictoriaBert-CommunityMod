@@ -1,8 +1,8 @@
-owner = ORI
-controller = ORI
+owner = BOC
+controller = BOC
 add_core = ORI
 add_core = HND
 trade_goods = grain
-life_rating = 35
-#colonial = 2
+life_rating = 30
+colonial = 2
 naval_base = 1

@@ -129,11 +129,11 @@ schools ={
 
         colonial_school = {
 
-                army_tech_research_bonus = 0.35
-		commerce_tech_research_bonus = 0.35
-		culture_tech_research_bonus = 0.35
-		industry_tech_research_bonus = 0.35
-                doctrine_tech_research_bonus = 0.35
+                army_tech_research_bonus = 0.15
+		commerce_tech_research_bonus = 0.15
+		culture_tech_research_bonus = 0.15
+		industry_tech_research_bonus = 0.15
+                doctrine_tech_research_bonus = 0.15
 		unciv_economic_modifier = 0
 		unciv_military_modifier = 0
 	}      
@@ -341,11 +341,11 @@ schools ={
         }
        
         indian_tech_school = {
-                army_tech_research_bonus = 0.35
-		commerce_tech_research_bonus = 0.35
-		culture_tech_research_bonus = 0.35
-		industry_tech_research_bonus = 0.35
-                doctrine_tech_research_bonus = 0.35
+                army_tech_research_bonus = 0.15
+		commerce_tech_research_bonus = 0.15
+		culture_tech_research_bonus = 0.15
+		industry_tech_research_bonus = 0.15
+                doctrine_tech_research_bonus = 0.15
 		unciv_economic_modifier = 0
 		unciv_military_modifier = 0
         }

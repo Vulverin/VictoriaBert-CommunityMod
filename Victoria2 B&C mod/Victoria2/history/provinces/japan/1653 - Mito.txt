@@ -3,5 +3,4 @@ controller = JAP
 add_core = JAP
 trade_goods = grain
 life_rating = 35
-naval_base = 1
-terrain = port_city
+terrain = port_city 

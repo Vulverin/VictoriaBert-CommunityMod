@@ -1,8 +1,6 @@
 owner = BOCcontroller = BOC
 add_core = HND
 trade_goods = dye 
-life_rating = 35
- #colonial = 2
+life_rating = 32
 fort = 1
-terrain = city_958
 1861.1.1 = { railroad = 3 }

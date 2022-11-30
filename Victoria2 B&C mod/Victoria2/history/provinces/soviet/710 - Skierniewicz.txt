@@ -1,4 +1,5 @@
-owner = POLcontroller = POL
+owner = RUS
+controller = RUS
 add_core = RUS
 add_core = POL
 add_core = PLC

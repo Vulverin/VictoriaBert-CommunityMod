@@ -1,6 +1,6 @@
 strata = middle
 research_points = 2
-research_optimum = 0.04
+research_optimum = 0.06
 
 rebel =
 {
@@ -774,9 +774,44 @@ promote_to =
 				factor = -2
 				state_scope = { capitalists = 0.005 }
 			}
+                        modifier = {
+				factor = -2
+				state_scope = { capitalists = 0.007 }
+			}
+                        modifier = {
+				factor = -2
+				state_scope = { capitalists = 0.01 }
+			}
+                        modifier = {
+				factor = -2
+				state_scope = { capitalists = 0.012 }
+			}
+                        modifier = {
+				factor = -2
+				state_scope = { capitalists = 0.015 }
+			}
 			modifier = {
 				factor = -100
 				state_scope = { capitalists = 0.02 }
+			}
+		}
+              
+                group = {
+			modifier = {
+				factor = 4
+				state_scope = { craftsmen = 0.05 }
+			}
+			modifier = {
+				factor = 4
+				state_scope = { craftsmen = 0.1 }
+			}
+                        modifier = {
+				factor = 4
+				state_scope = { craftsmen = 0.15 }
+			}
+			modifier = {
+				factor = 4
+				state_scope = { craftsmen = 0.2 }
 			}
 		}
 
@@ -858,40 +893,28 @@ promote_to =
 		factor = 0.01
 		group = {
 			modifier = {
-				factor =  1
-				literacy = 0.10
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.20
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.3
-			}
-			modifier = {
-				factor =  1
-				literacy = 0.4
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.5
-			}
-			modifier = {
-				factor = 1
-				literacy = 0.6
-			}
-			modifier = {
-				factor = 1
+				factor = -8
 				literacy = 0.7
 			}
 			modifier = {
-				factor = 1
-				literacy = 0.8
+				factor = -8
+				literacy = 0.75
 			}
 			modifier = {
-				factor = 1
-				literacy = 0.9
+				factor = -8
+				literacy = 0.80
+			}
+			modifier = {
+				factor = -10
+				literacy = 0.85
+			}
+			modifier = {
+				factor = -10
+				literacy = 0.90
+			}
+			modifier = {
+				factor = -10
+				literacy = 0.95
 			}
 		}
 		modifier = {
@@ -906,20 +929,6 @@ promote_to =
                                 literacy = 0.4
                           }
                          
-		}
-                modifier = {
-			factor = 20
-			country = {
-				has_country_flag = agr_soccs3
-			}
-		}
-                modifier = {
-			factor = -20
-			country = {
-                             NOT = {
-				   has_country_flag = agr_soccs3
-                             }
-			}
 		}
 		modifier = {
 			factor = -40

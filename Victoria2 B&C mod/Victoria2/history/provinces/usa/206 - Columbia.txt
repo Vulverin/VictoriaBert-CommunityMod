@@ -1,5 +1,4 @@
-owner = USA terrain = city_958 
-controller = USA
+owner = USA controller = USA
 add_core = USA
 trade_goods = cotton
 life_rating = 35
@@ -8,4 +7,4 @@ life_rating = 35
 	owner = CSA
 	add_core = CSA
 }
-1861.1.1 = { railroad = 3 }
+1861.1.1 = { railroad = 3 } 

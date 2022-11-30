@@ -5,7 +5,8 @@ language=l_english
 graphics=
 {
 refreshRate=60
-fullScreen=yes
+fullScreen=no
+borderless=yes
 shadows=no
 shadowSize=2048
 multi_sampling=0

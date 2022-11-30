@@ -8,8 +8,11 @@ party_issues = {
 			min_tariff = 0.25
 		}
 		free_trade = {
-			max_tariff = 0.25
+			max_tariff = 0.35
 			min_tariff = -1
+                        tax_efficiency = 0.05
+                        factory_output = 0.1
+                        factory_input = -0.03
 		}
 	}
 	economic_policy = {
@@ -17,7 +20,8 @@ party_issues = {
 			min_social_spending = 0.5
 			max_tax = 0.5
 			factory_owner_cost = 0.3
-			factory_output = 0.3
+			factory_output = 0.15
+                        factory_throughput = 0.15
 			
 			rules = {
 				build_factory = no
@@ -43,8 +47,8 @@ party_issues = {
 			min_social_spending = 0.65
 			max_tax = 0.65
 			factory_owner_cost = 0.5
-			factory_output = 0.2
-			factory_throughput = 0.1
+			factory_output = 0.05
+			factory_throughput = 0.2
 			rules = {
 				build_factory = no
 				expand_factory = yes
@@ -70,7 +74,6 @@ party_issues = {
 		state_capitalism = {
 			min_social_spending = 0.8
 			max_tax = 0.8
-			factory_output = 0.1
 			factory_throughput = 0.2
 			factory_owner_cost = 0.8
 			rules = {
@@ -93,7 +96,8 @@ party_issues = {
 		}
 		planned_economy = {
 			min_social_spending = 1
-			factory_throughput = 0.3
+			factory_throughput = 0.4
+                        factory_output = -0.1
 			factory_owner_cost = -1	#negative costs, can't build.
 			rules = {
 				build_factory = yes
@@ -109,6 +113,31 @@ party_issues = {
 				delete_factory_if_no_input = no		
 				build_factory_invest = yes
 				expand_factory_invest = yes
+				build_railway_invest = yes
+				can_invest_in_pop_projects = yes
+			}
+		}
+                colonial_economy = {
+			min_social_spending = 0.5
+			min_tax = 0.9
+			factory_owner_cost = 0.3
+			
+			rules = {
+				build_factory = no
+				expand_factory = no
+				open_factory = no
+				destroy_factory = no
+				build_railway = no
+				factory_priority = no
+				can_subsidise = no
+				pop_build_factory = yes
+				pop_expand_factory = yes
+				pop_open_factory = yes
+				delete_factory_if_no_input = no
+				pop_build_factory_invest = yes
+				pop_expand_factory_invest = yes
+				open_factory_invest = yes
+				allow_foreign_investment = yes
 				build_railway_invest = yes
 				can_invest_in_pop_projects = yes
 			}
@@ -180,6 +209,17 @@ party_issues = {
 			org_regain = -0.15
 			reinforce_speed = -0.15
 			global_pop_militancy_modifier = -0.03
+		}
+                american_pacifism = {
+			max_military_spending = 1
+			war_exhaustion_effect = 0.5
+			cb_generation_speed_modifier = -0.6
+                        org_regain = -0.2
+			reinforce_speed = -0.2
+                        land_organisation = -0.1
+                        supply_consumption = -0.5
+			mobilization_impact = 6
+                        mobilisation_size = 0.06
 		}
 	}
 }
@@ -516,6 +556,7 @@ political_reforms = {
             badboy = 0.02
             literacy_con_impact = -0.1
             core_pop_militancy_modifier = 0.05
+            education_efficiency_modifier = -0.2
             administrative_multiplier = 6
             allow = {
                 vote_franschise = none_voting
@@ -540,7 +581,7 @@ political_reforms = {
 			mine_rgo_size = 0.5
 		}
 		peonage = {
-			education_efficiency_modifier = -0.05
+			education_efficiency_modifier = -0.1
 			RGO_throughput  = 0.05
 			global_immigrant_attract = -0.05
 			suppression_points_modifier = 0.1
@@ -551,6 +592,7 @@ political_reforms = {
 			allow = { OR = { NOT = { has_country_flag = serfdom_not_abolished } year = 1875 } }
 		}
 		debtors_prisons = {
+                        education_efficiency_modifier = -0.05
 			farm_rgo_size = 0.1
 			mine_rgo_size = 0.1
 		}
@@ -767,28 +809,28 @@ social_reforms = {
         trinket_health_care = {
             administrative_multiplier = 1
             global_immigrant_attract = 0.02
-            tax_efficiency = -0.01
+            tax_efficiency = -0.02
             
         }
         low_health_care = {
             administrative_multiplier = 2
             global_pop_consciousness_modifier = 0.01
             global_immigrant_attract = 0.04
-            tax_efficiency = -0.02
+            tax_efficiency = -0.05
             
         }
         acceptable_health_care = {
             global_pop_consciousness_modifier = 0.01
             administrative_multiplier = 3
             global_immigrant_attract = 0.08
-            tax_efficiency = -0.03
+            tax_efficiency = -0.08
             
         }
         good_health_care = {
             administrative_multiplier = 4
             global_pop_consciousness_modifier = 0.02
             global_immigrant_attract = 0.12
-            tax_efficiency = -0.04
+            tax_efficiency = -0.12
             
         }
     }

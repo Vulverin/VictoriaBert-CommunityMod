@@ -24,6 +24,7 @@ port_brz = {
   porgt_navy = {
             potential = {
                           tag = POR 
+                          ai = no
                           NOT = {
                                   has_country_flag = portg_navy_hbb
                           } 
@@ -58,6 +59,7 @@ port_brz = {
 
    port_econ = {
                 potential = {
+                          ai = no
                           tag = POR
                           NOT = {
                                  has_country_flag = por_eco_13
@@ -119,6 +121,7 @@ port_brz = {
         port_sp_spa3 = {
                 potential = {
                           tag = SPA
+                          ai = no
                           POR = {
                                 NOT = {
                                       has_country_modifier = spa_spspa2
@@ -141,6 +144,7 @@ port_brz = {
         port_sp_spa_4 = {
                 potential = {
                           tag = SPA
+                          ai = no
                           POR = {
                                  has_country_modifier = spa_spspa2
                           }
@@ -158,6 +162,7 @@ port_brz = {
          port_colon = {
                 potential = {
                           tag = POR
+                          ai = no
                           NOT = {
                                  has_country_flag = por_col_13
                           }

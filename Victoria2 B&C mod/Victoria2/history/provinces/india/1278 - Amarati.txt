@@ -1,5 +1,5 @@
-owner = HYD
-controller = HYD
+owner = BOC
+controller = BOC
 add_core = HND
 trade_goods = tea
-life_rating = 35
+life_rating = 30

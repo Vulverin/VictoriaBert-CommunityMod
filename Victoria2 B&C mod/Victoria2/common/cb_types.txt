@@ -1023,6 +1023,9 @@ acquire_state = {
 			is_colonial = no
 		}
                 NOT = {
+                                                tag = NZL
+                                                tag = CAN
+                                                tag = AST
                                                 tag = ACH
                                                 tag = NCH
                                                 tag = MCH
@@ -1086,7 +1089,6 @@ acquire_state = {
                         }
                       }
                 }
-		is_independant = yes
 	}
 	
 	allowed_states = {
@@ -2644,6 +2646,9 @@ annex_capital = {
 		AI = yes
 		NOT = { is_our_vassal = THIS }
                 NOT = {
+                                                tag = NZL
+                                                tag = CAN
+                                                tag = AST
                                                 tag = ACH
                                                 tag = NCH
                                                 tag = MCH
@@ -3337,7 +3342,6 @@ state_100k = {
 				}
 			}
 		}
-		is_independant = yes
 	}
 	
 	allowed_states = {

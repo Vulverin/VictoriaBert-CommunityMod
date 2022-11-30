@@ -1334,7 +1334,7 @@ catalytic_fermentative_process = {
 }
 #organic_chemistry
 synthetic_dye = {
-	limit = { basic_chemistry = 1 }
+	limit = { organic_chemistry = 1 }
 	chance = {
 		base = 50
 		modifier = {
@@ -1348,6 +1348,23 @@ synthetic_dye = {
 	}
 	effect = {
 		activate_building = dye_factory 
+	}
+}
+synthetic_sulfur = {
+	limit = { basic_chemistry = 1 }
+	chance = {
+		base = 50
+		modifier = {
+			factor = 2
+			clean_coal = 1
+		}
+		modifier = {
+			factor = 2
+			management_strategy = 1
+		}
+	}
+	effect = {
+                activate_building = synthetic_sulfur_factory 
 	}
 }
 gaslights = {

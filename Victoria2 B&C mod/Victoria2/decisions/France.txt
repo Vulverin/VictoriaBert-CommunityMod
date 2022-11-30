@@ -100,31 +100,31 @@ political_decisions = {
                 }
         }
 
-        reunite_ostind_comp = {
-                 potential = {
-                                    tag = FRA
-                                    owns = 1312
-                                    NOT = {
-                                          exists = FOC
-                                    }
-                        }
-                        allow = {
-                                money = 200000
-                        }
-                        effect = {
-                                money = -200000
-                                prestige = 25
-                                release_vassal = FOC
-                                create_vassal = FOC
-                                FOC = {
-                                      government = colonial_company
-                                }
-                                diplomatic_influence = {
-                                                who = FOC
-                                                value = 500
-                                }
-			}
-        }
+#        reunite_ostind_comp = {
+#                 potential = {
+#                                    tag = FRA
+#                                    owns = 1312
+#                                    NOT = {
+#                                          exists = FOC
+#                                    }
+#                        }
+#                        allow = {
+#                                money = 200000
+#                        }
+#                        effect = {
+#                                money = -200000
+#                                prestige = 25
+#                                release_vassal = FOC
+#                                create_vassal = FOC
+#                                FOC = {
+#                                      government = colonial_company
+#                                }
+#                                diplomatic_influence = {
+#                                                who = FOC
+#                                                value = 500
+#                                }
+#			}
+#        }
      
 
         scientists_des_on = {
@@ -515,11 +515,7 @@ political_decisions = {
             }
             
             allow = {
-                     NOT = {
-                            owns = 409
-                            owns = 410
-                            owns = 412
-                     } 
+                     year = 1865
                      owns = 1708
                      owns = 1702
             }
@@ -567,14 +563,11 @@ political_decisions = {
                           } 
             }
             allow = {
-                     NOT = {
-                            owns = 409
-                            owns = 410
-                            owns = 412
-                     }
+                     year = 1860
+                     money = 2000000
             }
             effect = {
-                       
+                       money = -2000000
                        set_global_flag = french_fleetdas
                        402 = {
                                 add_province_modifier = {
@@ -1370,9 +1363,6 @@ political_decisions = {
 		
 		effect = {
                         money = -1000000
-                        399 = {
-                        life_rating = 1
-                        }
                         400 = {
                         life_rating = 1
                         }
@@ -1400,18 +1390,6 @@ political_decisions = {
                         408 = {
                         life_rating = 1
                         }
-                        409 = {
-                        life_rating = 1
-                        }
-                        410 = {
-                        life_rating = 1
-                        }
-                        411 = {
-                        life_rating = 1
-                        }
-                        412 = {
-                        life_rating = 1
-                        }
                         413 = {
                         life_rating = 1
                         }
@@ -1437,9 +1415,6 @@ political_decisions = {
                         life_rating = 1
                         }
                         422 = {
-                        life_rating = 1
-                        }
-                        423 = {
                         life_rating = 1
                         }
                         426 = {
@@ -1511,9 +1486,6 @@ political_decisions = {
                         450 = {
                         life_rating = 1
                         }
-                        451 = {
-                        life_rating = 1
-                        }
                         452 = {
                         life_rating = 1
                         }
@@ -1523,16 +1495,10 @@ political_decisions = {
                         454 = {
                         life_rating = 1
                         }
-                        455 = {
-                        life_rating = 1
-                        }
                         456 = {
                         life_rating = 1
                         }
                         457 = {
-                        life_rating = 1
-                        }
-                        458 = {
                         life_rating = 1
                         }
                         459 = {
@@ -1551,9 +1517,6 @@ political_decisions = {
                         life_rating = 1
                         }
                         464 = {
-                        life_rating = 1
-                        }
-                        467 = {
                         life_rating = 1
                         }
                         468 = {
@@ -1589,9 +1552,6 @@ political_decisions = {
 		
 		effect = {
                         money = -2000000
-                        399 = {
-                        life_rating = 1
-                        }
                         400 = {
                         life_rating = 1
                         }
@@ -1619,18 +1579,6 @@ political_decisions = {
                         408 = {
                         life_rating = 1
                         }
-                        409 = {
-                        life_rating = 1
-                        }
-                        410 = {
-                        life_rating = 1
-                        }
-                        411 = {
-                        life_rating = 1
-                        }
-                        412 = {
-                        life_rating = 1
-                        }
                         413 = {
                         life_rating = 1
                         }
@@ -1656,9 +1604,6 @@ political_decisions = {
                         life_rating = 1
                         }
                         422 = {
-                        life_rating = 1
-                        }
-                        423 = {
                         life_rating = 1
                         }
                         426 = {
@@ -1730,9 +1675,6 @@ political_decisions = {
                         450 = {
                         life_rating = 1
                         }
-                        451 = {
-                        life_rating = 1
-                        }
                         452 = {
                         life_rating = 1
                         }
@@ -1742,16 +1684,10 @@ political_decisions = {
                         454 = {
                         life_rating = 1
                         }
-                        455 = {
-                        life_rating = 1
-                        }
                         456 = {
                         life_rating = 1
                         }
                         457 = {
-                        life_rating = 1
-                        }
-                        458 = {
                         life_rating = 1
                         }
                         459 = {
@@ -1770,9 +1706,6 @@ political_decisions = {
                         life_rating = 1
                         }
                         464 = {
-                        life_rating = 1
-                        }
-                        467 = {
                         life_rating = 1
                         }
                         468 = {
@@ -1810,9 +1743,6 @@ political_decisions = {
 		effect = {
                         money = -1000000
                         money = -2000000
-                        399 = {
-                        life_rating = 1
-                        }
                         400 = {
                         life_rating = 1
                         }
@@ -1840,18 +1770,6 @@ political_decisions = {
                         408 = {
                         life_rating = 1
                         }
-                        409 = {
-                        life_rating = 1
-                        }
-                        410 = {
-                        life_rating = 1
-                        }
-                        411 = {
-                        life_rating = 1
-                        }
-                        412 = {
-                        life_rating = 1
-                        }
                         413 = {
                         life_rating = 1
                         }
@@ -1877,9 +1795,6 @@ political_decisions = {
                         life_rating = 1
                         }
                         422 = {
-                        life_rating = 1
-                        }
-                        423 = {
                         life_rating = 1
                         }
                         426 = {
@@ -1951,9 +1866,6 @@ political_decisions = {
                         450 = {
                         life_rating = 1
                         }
-                        451 = {
-                        life_rating = 1
-                        }
                         452 = {
                         life_rating = 1
                         }
@@ -1963,16 +1875,10 @@ political_decisions = {
                         454 = {
                         life_rating = 1
                         }
-                        455 = {
-                        life_rating = 1
-                        }
                         456 = {
                         life_rating = 1
                         }
                         457 = {
-                        life_rating = 1
-                        }
-                        458 = {
                         life_rating = 1
                         }
                         459 = {
@@ -1991,9 +1897,6 @@ political_decisions = {
                         life_rating = 1
                         }
                         464 = {
-                        life_rating = 1
-                        }
-                        467 = {
                         life_rating = 1
                         }
                         468 = {

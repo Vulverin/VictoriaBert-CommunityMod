@@ -1,0 +1,116 @@
+country_event = {
+	id = 76543
+	title = "Independent of India"
+	desc = " "
+	picture = "greatpowers"
+	trigger = {
+		     tag = BOC
+		     is_independant = yes
+	}
+        mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                BOC = {
+                       change_tag = HND
+                }
+	}
+}
+country_event = {
+	id = 76544
+	title = "Independent of India2"
+	desc = " "
+	picture = "greatpowers"
+	trigger = {
+		     tag = ENI
+		     is_independant = yes
+	}
+        mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = "Nice"
+                prestige = 10
+                ENI = {
+                       change_tag = HND
+                }
+	}
+}
+country_event = {
+	id = 76542
+	title = "Lost Cities"
+	desc = " "
+	picture = "greatpowers"
+	trigger = {
+		     exist = yes
+		     has_country_flag = indians_cities
+                     NOT = {
+                     owns = 1251
+                     owns = 1304 
+                     owns = 1297
+                     owns = 1291
+                     owns = 1236
+                     }
+	}
+        mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = "Nice"
+                clr_country_flag = indians_cities
+	}
+}
+country_event = {
+	id = 76541
+	title = "India Ind2"
+	desc = " "
+	picture = "greatpowers"
+	trigger = {
+		     tag = ENI
+                     ENG = {
+                             NOT = {
+                                  owns = 1251
+                                  owns = 1304 
+                                  owns = 1297
+                                  owns = 1291
+                                  owns = 1236
+                            }
+                     }
+	}
+        mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+                ENI = {
+                       change_tag = HND
+                }
+	}
+}
+country_event = {
+	id = 99909
+	title = "IndianDebuff2"
+	desc = " "
+	picture = "starving"
+        trigger = {
+                  year = 1850
+                  tag = BOC
+                  BOC = {
+                        NOT = {
+                               has_country_modifier = indian_debuff2
+                        }
+                        civilized = yes
+                  }
+        }
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "Необходимо интегрировать опыт западных стран"
+                add_country_modifier = {
+                               name = indian_debuff2
+                               duration = -1
+                }        
+	}
+}

@@ -3,7 +3,6 @@ controller = AUS
 add_core = AUS
 add_core = BOH
 add_core = CZH
-terrain = city_958
 trade_goods = iron
 life_rating = 35
 #state_building = {

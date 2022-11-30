@@ -8,21 +8,21 @@ factory_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -2
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	}
 	type = factory
@@ -37,21 +37,21 @@ cheap_factory_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -1
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	}
 	type = factory
@@ -66,21 +66,21 @@ cement_factory_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -2
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	}
 	type = factory
@@ -93,21 +93,21 @@ machine_part_user_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -2.5
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	
 	}
@@ -125,8 +125,8 @@ bank_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -1.5
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
@@ -150,21 +150,21 @@ modern_factory_template = {
 	owner =
 	{
 		poptype = capitalists 
-		effect = input
-		effect_multiplier = -1.5
+		effect = output
+		effect_multiplier = 10
 	}
 	
 	employees = {		
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.8
+			amount = 0.5
 		}		
 		{ 
 			poptype = clerks 
-			effect = output
-			effect_multiplier = 1.5
-			amount = 0.2
+			effect = throughput
+			effect_multiplier = 2
+			amount = 0.5
 		}
 	
 	}
@@ -366,6 +366,19 @@ luxury_furniture_factory = {
 
 ############# MEDIUM FACTORIES
 
+synthetic_sulfur_factory = {       
+    template = factory_template
+    input_goods = {
+        shares = 20   
+    }
+    output_goods = sulphur
+    value = 1
+    bonus = {
+        trigger = { trade_goods_in_state = coal }
+        value = 0.1
+    }
+}
+
 steel_factory = {       
 	template = factory_template	#50
 	input_goods = { 
@@ -551,7 +564,7 @@ ammunition_factory = {
 canned_food_factory = {       
 	template = factory_template	#24
 	input_goods = { 
-		lead = 5
+		steel = 5
                 cattle = 5
 	}
 	output_goods = canned_food 
@@ -569,10 +582,10 @@ canned_food_factory = {
 dye_factory = {       
 	template = cheap_factory_template	#24
 	input_goods = {     
-		shares = 5
+		shares = 9
 	}
 	output_goods = dye 
-	value = 4
+	value = 3
         bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.15
@@ -830,7 +843,7 @@ synthetic_fabric_factory = {
 fish_cannery = {
         template = factory_template	#24
 	input_goods = { 
-		lead = 2
+		steel = 2
                 fish = 8
 	}
 	output_goods = canned_food 
@@ -848,7 +861,7 @@ fish_cannery = {
 fruit_cannery = {
         template = factory_template	#24
 	input_goods = { 
-		lead = 2
+		steel = 2
                 fruit = 8
 	}
 	output_goods = canned_food 
@@ -1523,7 +1536,7 @@ artisan_ammunition = {
 
 artisan_canned_food = {       
 	input_goods = { 
-		lead = 5 		#7
+		steel = 5 		#7
 		cattle = 5 		#24
 	}
 	output_goods = canned_food 

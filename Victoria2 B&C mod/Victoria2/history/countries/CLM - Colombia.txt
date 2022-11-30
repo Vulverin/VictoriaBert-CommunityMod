@@ -4,7 +4,7 @@ religion = catholic
 government = democracy
 plurality = 25.0
 nationalvalue = nv_latinoamericanciv
-literacy = 0.32
+literacy = 0.13
 non_state_culture_literacy = 0.25
 civilized = yes
 

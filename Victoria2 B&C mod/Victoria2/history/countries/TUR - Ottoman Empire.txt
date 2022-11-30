@@ -2,9 +2,9 @@ capital = 860
 primary_culture = turkish
 religion = sunni
 government = absolute_monarchy
-plurality = 25.0
+plurality = 15.0
 nationalvalue = nv_eastciv
-literacy = 0.35
+literacy = 0.20
 civilized = yes
 
 #GreaterPowers = prestige

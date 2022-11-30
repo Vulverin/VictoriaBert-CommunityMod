@@ -1823,7 +1823,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 342350
+		size = 202350
 	}
 
 	clergymen = {
@@ -3636,4 +3636,113 @@
 		size = 20000
 	}
 
+}
+3249 = {
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 850
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 525
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 1900
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 550
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 129175
+	}
+
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 550
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = russian
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 2125
+	}
+
+	clergymen = {
+		culture = prussian_german
+		religion = protestant
+		size = 75
+	}
+
+	artisans = {
+		culture = prussian_german
+		religion = protestant
+		size = 300
+	}
+
+	soldiers = {
+		culture = prussian_german
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = prussian_german
+		religion = protestant
+		size = 3575
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 50
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 750
+	}
+
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 50
+	}
+
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 2150
+	}
 }

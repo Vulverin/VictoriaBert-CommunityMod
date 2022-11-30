@@ -98,8 +98,8 @@ land_province = {
 
 blockaded = 
 {
-	RGO_throughput = -0.005
-	factory_throughput = -0.005
+	RGO_throughput = -0.001
+	factory_throughput = -0.001
         local_ship_build = 1.0
         local_repair = -1.0
 }
@@ -113,12 +113,14 @@ core = {
 }
 
 has_siege = {
+        population_growth = -0.0001
 	farm_rgo_eff = -0.5
 	mine_rgo_eff = -0.5
 }
 
 occupied = {
-	population_growth = -0.03
+	population_growth = -0.0003
+        pop_militancy_modifier = 0.005
 }
 
 nationalism = {
@@ -143,9 +145,9 @@ base_values = {
 
 war = {
 	max_war_exhaustion = 100
-	#war_exhaustion = 0.05
+	war_exhaustion = -0.1
 	badboy = -0.02
-	supply_consumption = 2.0
+	supply_consumption = 1
 }
 
 peace = {
@@ -159,10 +161,8 @@ disarming = {
 }
 
 war_exhaustion = {
-	factory_throughput = -0.02
-        factory_output = -0.02
-	RGO_throughput = -0.02
-        RGO_output = -0.02
+	factory_throughput = -0.03
+	RGO_throughput = -0.03
 	cb_generation_speed_modifier = -0.04
         land_organisation = -0.005
         global_immigrant_attract = -0.02
@@ -178,6 +178,8 @@ badboy = {
 	non_accepted_pop_militancy_modifier = 0.002
 	cb_generation_speed_modifier = -0.015
 	prestige = -0.01
+        political_reform_desire = -0.02
+        social_reform_desire = -0.02
 }
 
 
@@ -199,24 +201,18 @@ great_power = {
 }
 
 second_power = {
-	prestige = 0.07
-	research_points = 2.0
+	prestige = 0.03
+	research_points = 1.0
 	diplomatic_points_modifier = 0.5
 	leadership = 1.5
-        factory_output = 0.10
-        badboy = -0.05
-        import_cost = -0.2
 }
 
 civ_nation = {
-	prestige = 0.08
-	research_points = 3.0
-	leadership = 2.0
+	prestige = 0.01
+	research_points = 1.0
+	leadership = 1.0
         diplomatic_points_modifier = 0.5
-        factory_output = 0.20
-        badboy = -0.1
-        mobilisation_size = 0.02
-        import_cost = -0.35
+        mobilisation_size = 0.01
 }
 
 unciv_nation = {
@@ -249,8 +245,9 @@ total_occupation = {
 total_blockaded = {
         import_cost = 5.0
         war_exhaustion = 0.02
-        factory_output = -0.35
-        factory_input = 0.5
+        factory_output = -0.1
+        factory_throughput = -0.2
+        factory_input = 0.1
         factory_owner_cost = 0.5
 }
 

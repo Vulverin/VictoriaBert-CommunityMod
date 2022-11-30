@@ -96,12 +96,6 @@ political_decisions = {
                                         duration = -1
                                 }
                        }
-                       285 = {
-                                add_province_modifier = {
-                                        name = eng_royal_fleet
-                                        duration = -1
-                                }
-                       }
                        277 = {
                                 add_province_modifier = {
                                         name = eng_royal_fleet
@@ -113,14 +107,7 @@ political_decisions = {
                                         name = eng_royal_fleet
                                         duration = -1
                                 }
-                       }
-                       269 = {
-                                add_province_modifier = {
-                                        name = eng_royal_fleet
-                                        duration = -1
-                                }
-                       }
-                       
+                       }                      
                        271 = {
                                 add_province_modifier = {
                                         name = eng_royal_fleet
@@ -266,6 +253,7 @@ political_decisions = {
                 allow = {
                          money = 1000000
                          year = 1840
+                         war = no
                 }
                 effect = {
                           set_country_flag = engfdvdfg45553ffv
@@ -762,9 +750,10 @@ political_decisions = {
                 tag = ENG
                 }
                 allow = {
+                war = no
                 IRE = {
                 vassal_of = ENG
-       }
+                }
                 year = 1851
                 }
            effect = {

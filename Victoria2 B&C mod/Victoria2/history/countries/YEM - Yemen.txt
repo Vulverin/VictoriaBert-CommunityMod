@@ -4,7 +4,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_eastciv
-literacy = 0.3
+literacy = 0.03
 
 ruling_party = YEM_conservative
 upper_house = {

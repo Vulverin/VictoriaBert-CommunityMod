@@ -2462,7 +2462,7 @@ political_decisions = {
 			capital = 1649
 			prestige = 5
 			1649 = {
-				change_province_name = "Токио"
+				change_province_name = "г.Токио"
 				
 			}
 			
@@ -3097,8 +3097,10 @@ new_nv2 = {
                     allow = { 
                            ai = no 
                            steamer_convoy = 1000 
+                           money = 100000
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             ENG = {steamer_convoy = 1000}  
                     } 
@@ -3112,8 +3114,10 @@ new_nv2 = {
                     allow = { 
                            ai = no 
                            steamer_convoy = 1000 
+                           money = 100000
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             RUS = {steamer_convoy = 1000}  
                     } 
@@ -3126,9 +3130,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             FRA = {steamer_convoy = 1000}  
                     } 
@@ -3141,9 +3147,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             PRU = {steamer_convoy = 1000}  
                     } 
@@ -3156,9 +3164,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             NGF = {steamer_convoy = 1000}  
                     } 
@@ -3170,10 +3180,12 @@ new_nv2 = {
                               GER = { exists = yes} 
                     }
                     allow = { 
+                           money = 100000
                            ai = no 
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             GER = {steamer_convoy = 1000}  
                     } 
@@ -3201,9 +3213,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             KUK = {steamer_convoy = 1000}  
                     } 
@@ -3217,9 +3231,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             USA = {steamer_convoy = 1000}  
                     } 
@@ -3233,9 +3249,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             JAP = {steamer_convoy = 1000}  
                     } 
@@ -3247,10 +3265,12 @@ new_nv2 = {
                               ITA = { exists = yes} 
                     }
                     allow = { 
+                           money = 100000
                            ai = no 
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             ITA = {steamer_convoy = 1000}  
                     } 
@@ -3279,9 +3299,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             SCA = {steamer_convoy = 1000}  
                     } 
@@ -3310,9 +3332,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             SPA = {steamer_convoy = 1000}  
                     } 
@@ -3325,9 +3349,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             TUR = {steamer_convoy = 1000}  
                     } 
@@ -3371,9 +3397,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             DNF = {steamer_convoy = 1000}  
                     } 
@@ -3401,9 +3429,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            steamer_convoy = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             steamer_convoy = -1000 
                             JPE = {steamer_convoy = 1000}  
                     } 
@@ -3561,10 +3591,12 @@ new_nv2 = {
                               ENG = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             ENG = {ammunition = 1000}  
                     } 
@@ -3576,10 +3608,12 @@ new_nv2 = {
                               RUS = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             RUS = {ammunition = 1000}  
                     } 
@@ -3592,9 +3626,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             FRA = {ammunition = 1000}  
                     } 
@@ -3607,9 +3643,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000  
                             ammunition = -1000 
                             PRU = {ammunition = 1000}  
                     } 
@@ -3621,10 +3659,12 @@ new_nv2 = {
                               NGF = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             NGF = {ammunition = 1000}  
                     } 
@@ -3636,10 +3676,12 @@ new_nv2 = {
                               GER = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             GER = {ammunition = 1000}  
                     } 
@@ -3667,9 +3709,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000  
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             KUK = {ammunition = 1000}  
                     } 
@@ -3683,9 +3727,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             USA = {ammunition = 1000}  
                     } 
@@ -3714,9 +3760,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             ITA = {ammunition = 1000}  
                     } 
@@ -3745,9 +3793,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             SCA = {ammunition = 1000}  
                     } 
@@ -3776,9 +3826,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000 
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             SPA = {ammunition = 1000}  
                     } 
@@ -3791,9 +3843,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             TUR = {ammunition = 1000}  
                     } 
@@ -3836,10 +3890,12 @@ new_nv2 = {
                               DNF = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             DNF = {ammunition = 1000}  
                     } 
@@ -3866,10 +3922,12 @@ new_nv2 = {
                               JPE = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            ammunition = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             ammunition = -1000 
                             JPE = {ammunition = 1000}  
                     } 
@@ -4027,10 +4085,12 @@ new_nv2 = {
                               ENG = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             ENG = {small_arms = 1000}  
                     } 
@@ -4042,10 +4102,12 @@ new_nv2 = {
                               RUS = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             RUS = {small_arms = 1000}  
                     } 
@@ -4057,10 +4119,12 @@ new_nv2 = {
                               FRA = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             FRA = {small_arms = 1000}  
                     } 
@@ -4088,9 +4152,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             NGF = {small_arms = 1000}  
                     } 
@@ -4102,10 +4168,12 @@ new_nv2 = {
                               GER = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             GER = {small_arms = 1000}  
                     } 
@@ -4132,10 +4200,12 @@ new_nv2 = {
                               KUK = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             KUK = {small_arms = 1000}  
                     } 
@@ -4149,9 +4219,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             USA = {small_arms = 1000}  
                     } 
@@ -4179,10 +4251,12 @@ new_nv2 = {
                               ITA = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             ITA = {small_arms = 1000}  
                     } 
@@ -4210,10 +4284,12 @@ new_nv2 = {
                               SCA = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             SCA = {small_arms = 1000}  
                     } 
@@ -4242,9 +4318,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             SPA = {small_arms = 1000}  
                     } 
@@ -4257,9 +4335,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 50000
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             TUR = {small_arms = 1000}  
                     } 
@@ -4302,10 +4382,12 @@ new_nv2 = {
                               DNF = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             DNF = {small_arms = 1000}  
                     } 
@@ -4332,10 +4414,12 @@ new_nv2 = {
                               JPE = { exists = yes} 
                     }
                     allow = { 
+                           money = 50000
                            ai = no 
                            small_arms = 1000 
                     } 
                     effect = { 
+                            money = -50000
                             small_arms = -1000 
                             JPE = {small_arms = 1000}  
                     } 
@@ -4495,9 +4579,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             ENG = {artillery = 1000}  
                     } 
@@ -4509,10 +4595,12 @@ new_nv2 = {
                               RUS = { exists = yes} 
                     }
                     allow = { 
+                           money = 100000
                            ai = no 
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             RUS = {artillery = 1000}  
                     } 
@@ -4524,10 +4612,12 @@ new_nv2 = {
                               FRA = { exists = yes} 
                     }
                     allow = { 
+                           money = 100000
                            ai = no 
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             FRA = {artillery = 1000}  
                     } 
@@ -4554,10 +4644,12 @@ new_nv2 = {
                               NGF = { exists = yes} 
                     }
                     allow = { 
+                           money = 100000
                            ai = no 
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             NGF = {artillery = 1000}  
                     } 
@@ -4570,9 +4662,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             GER = {artillery = 1000}  
                     } 
@@ -4600,9 +4694,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             KUK = {artillery = 1000}  
                     } 
@@ -4616,9 +4712,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             USA = {artillery = 1000}  
                     } 
@@ -4647,9 +4745,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             ITA = {artillery = 1000}  
                     } 
@@ -4678,9 +4778,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             SCA = {artillery = 1000}  
                     } 
@@ -4709,9 +4811,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             SPA = {artillery = 1000}  
                     } 
@@ -4723,10 +4827,12 @@ new_nv2 = {
                               TUR = { exists = yes} 
                     }
                     allow = { 
-                           ai = no 
+                           ai = no
+                           money = 100000 
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             TUR = {artillery = 1000}  
                     } 
@@ -4770,9 +4876,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             DNF = {artillery = 1000}  
                     } 
@@ -4800,9 +4908,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 100000
                            artillery = 1000 
                     } 
                     effect = { 
+                            money = -100000
                             artillery = -1000 
                             JPE = {artillery = 1000}  
                     } 
@@ -4962,9 +5072,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 60000
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000 
                             canned_food = -1000 
                             ENG = {canned_food = 1000}  
                     } 
@@ -4977,9 +5089,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 60000
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             RUS = {canned_food = 1000}  
                     } 
@@ -4991,10 +5105,12 @@ new_nv2 = {
                               FRA = { exists = yes} 
                     }
                     allow = { 
+                           money = 60000
                            ai = no 
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             FRA = {canned_food = 1000}  
                     } 
@@ -5021,10 +5137,12 @@ new_nv2 = {
                               NGF = { exists = yes} 
                     }
                     allow = { 
+                           money = 60000
                            ai = no 
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             NGF = {canned_food = 1000}  
                     } 
@@ -5037,9 +5155,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 60000
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             GER = {canned_food = 1000}  
                     } 
@@ -5067,9 +5187,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 60000
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             KUK = {canned_food = 1000}  
                     } 
@@ -5082,10 +5204,12 @@ new_nv2 = {
                               USA = { exists = yes} 
                     }
                     allow = { 
+                           money = 60000
                            ai = no 
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             USA = {canned_food = 1000}  
                     } 
@@ -5113,10 +5237,12 @@ new_nv2 = {
                               ITA = { exists = yes} 
                     }
                     allow = { 
-                           ai = no 
+                           ai = no
+                           money = 60000 
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             ITA = {canned_food = 1000}  
                     } 
@@ -5144,10 +5270,12 @@ new_nv2 = {
                               SCA = { exists = yes} 
                     }
                     allow = { 
+                           money = 60000
                            ai = no 
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             SCA = {canned_food = 1000}  
                     } 
@@ -5176,9 +5304,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 60000
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             SPA = {canned_food = 1000}  
                     } 
@@ -5190,10 +5320,12 @@ new_nv2 = {
                               TUR = { exists = yes} 
                     }
                     allow = { 
+                           money = 60000
                            ai = no 
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             TUR = {canned_food = 1000}  
                     } 
@@ -5237,9 +5369,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 60000
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             DNF = {canned_food = 1000}  
                     } 
@@ -5267,9 +5401,11 @@ new_nv2 = {
                     }
                     allow = { 
                            ai = no 
+                           money = 60000
                            canned_food = 1000 
                     } 
                     effect = { 
+                            money = -60000
                             canned_food = -1000 
                             JPE = {canned_food = 1000}  
                     } 
@@ -5501,4 +5637,53 @@ new_nv2 = {
                            
                     }
         }
+political_decisions = {
+         literacy_up = {
+            potential = {
+                          tag = CHI
+                          NOT = {
+                                  has_country_flag = poland_up_done
+                          } 
+            }
+            allow = {
+            }
+            effect = {
+                      RUS = {
+                      any_owned = {
+                                  limit = {
+					  is_colonial = no
+				  }
+				  any_pop = {
+					  limit = {
+                                                  OR = {
+                                                  has_pop_culture = polish
+                                                  has_pop_culture = latvian
+                                                  has_pop_culture = prussian_german
+                                                  has_pop_culture = finnish
+                                                  }
+					  }
+                                          literacy = 0.3
+				  }
+  	   	      }
+                      }
+                      SPA = {
+                      any_owned = {
+                                  limit = {
+					  is_colonial = no
+				  }
+				  any_pop = {
+					  limit = {
+                                                  OR = {
+                                                  has_pop_culture = catalan
+                                                  has_pop_culture = basque
+                                                  }
+					  }
+                                          literacy = 0.4
+				  }
+  	   	      }
+                      }
+                      set_country_flag = poland_up_done
+            }
+       }
+
 }

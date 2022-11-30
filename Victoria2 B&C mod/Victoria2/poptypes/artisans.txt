@@ -1032,6 +1032,16 @@ promote_to =
 				literacy = 0.9
 			}
 		}
+                modifier = {
+			factor = -100
+                        craftsmen = 0.1
+			location = { is_overseas = yes }
+                        NOT = { 
+				location = {
+					any_core = { is_core = THIS }
+				}
+			}
+		}
 		modifier = {
 				factor = 50
 				state_scope = {

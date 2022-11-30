@@ -7,6 +7,60 @@
 
 #########################################
 
+AI_lat_america_boost = {
+    trigger = {
+                OR = {
+                capital = 2172
+                capital = 2447
+                capital = 2348
+                }
+                AI = yes
+    }
+    global_immigrant_attract = 0.3
+}
+
+ital_rise_boost = {
+    trigger = {
+                exists = yes
+                capital = 720
+		NOT = {
+                        year = 1840
+		}
+	}
+    mobilisation_size = 0.08
+    icon = 19
+}
+
+eng_migr_debuff = {
+    trigger = {
+                exists = yes
+                capital = 300
+                year = 1844
+		NOT = {
+                        year = 1850
+		}
+	}
+    global_immigrant_attract = -1.2
+    icon = 19
+}
+
+can_ast_migr_debuff = {
+    trigger = {
+                exists = yes
+                OR = {
+                capital = 57
+                capital = 2468
+                capital = 2512
+                }
+                year = 1844
+		NOT = {
+                        year = 1850
+		}
+	}
+    global_immigrant_attract = -0.4
+    icon = 19
+}
+
 trinket_health_care_fully_funded = {
     trigger = {
         exists = yes
@@ -143,7 +197,7 @@ arising_prussia = {
         tariff_efficiency_modifier = 0.1
         RGO_output = 0.2
         factory_output = 0.2
-        global_population_growth = 0.003
+        global_population_growth = 0.002
 }
 tpg_boost = {
         trigger = {
@@ -299,13 +353,14 @@ government_proletarian_dictatorship = {
 		government = proletarian_dictatorship
 	}
         culture_tech_research_bonus = 0.1
-	factory_output = 0.1
-	mobilisation_size = 0.02
+	factory_throughput = 0.1
+        tax_efficiency = 0.12
+	mobilisation_size = 0.04
 	global_assimilation_rate = 0.2
-	war_exhaustion = -0.02
+	war_exhaustion = -0.1
         industry_tech_research_bonus = 0.1
         import_cost = 0.15
-        mobilisation_size = 0.02
+        minimum_wage = 10
 }
 government_presidential_dictatorship = {
 	trigger = {
@@ -324,9 +379,7 @@ government_bourgeois_dictatorship = {
 		exists = yes
 		government = bourgeois_dictatorship
 	}
-	factory_output = 0.15
-	factory_input = -0.1
-	import_cost = -0.15
+	factory_throughput = 0.15
 	industry_tech_research_bonus = 0.1
 	commerce_tech_research_bonus = 0.1
         mobilisation_size = 0.02
@@ -338,14 +391,17 @@ government_fascist_dictatorship = {
 	}
 	mobilization_economy_impact = -0.5
 	land_organisation = 0.1
-	factory_input = -0.1
+        tax_efficiency = 0.1
+	factory_input = -0.05
+        factory_throughput = -0.10
 	core_pop_militancy_modifier = -0.02
 	army_tech_research_bonus = 0.1
 	doctrine_tech_research_bonus = 0.1
 	badboy = -0.2
-	war_exhaustion = -0.02
+	war_exhaustion = -0.1
         global_assimilation_rate = -0.5
-        mobilisation_size = 0.02
+        mobilisation_size = 0.03
+        minimum_wage = 5
 }
 government_absolute_monarchy = {
 	trigger = {
@@ -356,6 +412,7 @@ government_absolute_monarchy = {
         doctrine_tech_research_bonus = 0.1
 	land_organisation = 0.1
 	org_regain = 0.05
+        war_exhaustion = -0.1
 	badboy = -0.1
 	RGO_output = 0.05
         mobilisation_size = 0.02
@@ -381,8 +438,7 @@ government_hms_government = {
         commerce_tech_research_bonus = 0.15
 	culture_tech_research_bonus = 0.15
 	land_organisation = -0.1
-	import_cost = -0.15
-	factory_output = 0.1
+	factory_output = 0.05
 	issue_change_speed = 0.2
 	leadership_modifier = 0.1
 	ruling_party_support = -0.1
@@ -397,15 +453,36 @@ government_democracy = {
 	commerce_tech_research_bonus = 0.2
 	culture_tech_research_bonus = 0.1
 	land_organisation = -0.1
-	import_cost = -0.1
-	factory_output = 0.2
+	factory_output = 0.1
 	issue_change_speed = 0.2
 	leadership_modifier = 0.1
 	ruling_party_support = -0.1
         prestige = 0.02
         mobilisation_size = 0.02
+        global_immigrant_attract = 0.1
 }
-
+government_colcompany = {
+	trigger = {
+                NOT = {
+                capital = 1253
+                }
+		exists = yes
+                government = colonial_company
+	}
+	RGO_output = -0.7
+        mine_rgo_eff = -0.2
+        RGO_throughput = -0.3
+        global_pop_militancy_modifier = -0.02
+}
+government_afrcompany = {
+	trigger = {
+		exists = yes
+                government = african_company
+	}
+	RGO_output = -0.3
+        RGO_throughput = -0.3
+        global_pop_militancy_modifier = -0.02
+}
 industrial_society = {
         trigger = {
                
@@ -413,11 +490,9 @@ industrial_society = {
         }
         icon = 18
         research_points_modifier = 0.5
-        factory_output = 0.20
-        RGO_output = 0.20
+        RGO_output = 0.1
         mine_rgo_eff = 0.3
 	farm_rgo_eff = -0.2
-        factory_owner_cost = -0.3
         icon = 13        
 }
 
@@ -427,8 +502,8 @@ post_agricultural_society = {
         }
         icon = 18
         factory_input = 0.05
-        factory_output = -0.15
-        RGO_output = -0.15
+        factory_throughput = -0.15
+        RGO_output = -0.05
         mine_rgo_eff = -0.15
 	farm_rgo_eff = 0.10
         factory_owner_cost = 0.15
@@ -444,9 +519,9 @@ agricultural_society = {
         }
         icon = 18
         factory_input = 0.1
-        factory_output = -0.30
-        RGO_output = -0.30
-        mine_rgo_eff = -0.3
+        factory_throughput = -0.30
+        RGO_output = -0.15
+        mine_rgo_eff = -0.30
 	farm_rgo_eff = 0.20
         factory_owner_cost = 0.3
         icon = 13        
@@ -480,7 +555,7 @@ grand_navy3 = {
 	   total_amount_of_ships = 300
 	  }
         }
-        import_cost = -0.1
+        import_cost = -0.05
 	prestige = 0.08
 	icon = 9
 }
@@ -579,92 +654,10 @@ war_support0 = {
 	trigger = {
         year = 1880
         war = yes
-          NOT = {
-	    war_exhaustion = 0.1
-	  }
         }
 	icon = 9
-	land_organisation = 0.5
-        org_regain = 0.5
-	naval_organisation = 0.5
-	leadership_modifier = 0.35
-        mobilisation_economy_impact = -0.5
-        supply_consumption = -0.5
-        war_exhaustion = -0.5
-}
-war_support10 = {
-	trigger = {
-        year = 1880
-        war = yes
-          war_exhaustion = 0.1
-          NOT = {
-	    war_exhaustion = 0.2
-	  }
-        }
-	icon = 9
-	land_organisation = 0.4
-        org_regain = 0.4
-	naval_organisation = 0.4
-	leadership_modifier = 0.3
-        mobilisation_economy_impact = -0.4
-        supply_consumption = -0.4
-        war_exhaustion = -0.4
-}
-war_support20 = {
-	trigger = {
-        year = 1880
-        war = yes
-          war_exhaustion = 0.2
-          NOT = {
-	    war_exhaustion = 0.3
-	  }
-        }
-	icon = 9
-	land_organisation = 0.3
-        org_regain = 0.3
-	naval_organisation = 0.3
-	leadership_modifier = 0.25
-        mobilisation_economy_impact = -0.3
-        supply_consumption = -0.3
         war_exhaustion = -0.3
 }
-war_support30 = {
-	trigger = {
-        year = 1880
-        war = yes
-          war_exhaustion = 0.3
-          NOT = {
-	    war_exhaustion = 0.4
-	  }
-        }
-	icon = 9
-	land_organisation = 0.25
-        org_regain = 0.25
-	naval_organisation = 0.25
-	leadership_modifier = 0.2
-        mobilisation_economy_impact = -0.25
-        supply_consumption = -0.2
-        war_exhaustion = -0.2
-}
-war_support40 = {
-	trigger = {
-        year = 1880
-        war = yes
-          war_exhaustion = 0.4
-          NOT = {
-	    war_exhaustion = 0.5
-	  }
-        }
-	icon = 9
-	land_organisation = 0.15
-        org_regain = 0.15
-	naval_organisation = 0.15
-	leadership_modifier = 0.15
-        mobilisation_economy_impact = -0.2
-        supply_consumption = -0.15
-        war_exhaustion = -0.1
-}
-
 #####CanalsssssM#####
 own_suez_canal = {
 	trigger = {	
@@ -688,7 +681,7 @@ own_panama_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.25
-	import_cost = -0.15
+	import_cost = -0.10
 	prestige = 0.01
 }
 
@@ -699,7 +692,7 @@ own_bosfor_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.2
-	import_cost = -0.1
+	import_cost = -0.05
 	prestige = 0.01
 }
 
@@ -712,7 +705,7 @@ own_kiel_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.15
-	import_cost = -0.1
+	import_cost = -0.05
 	prestige = 0.01
 }
 
@@ -723,7 +716,7 @@ own_gibraltar_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.1
-	import_cost = -0.1
+	import_cost = -0.05
 	prestige = 0.01
 }
 
@@ -734,7 +727,7 @@ own_singa_canal = {
 	}
 	icon = 9
 	tariff_efficiency_modifier = 0.1
-	import_cost = -0.1
+	import_cost = -0.05
 	prestige = 0.02
 }
 
@@ -752,4 +745,28 @@ social_reformed_nation = {
 		
 	social_reform_desire = -0.5
 	icon = 13
+}
+
+german_minors_boost = {
+    trigger = {
+                OR = {
+                capital = 536
+                capital = 558
+                capital = 544
+                capital = 534
+                capital = 369
+                capital = 566
+                capital = 561
+                capital = 564
+                capital = 2560
+                capital = 528
+                }
+    }
+    tax_efficiency = 0.3
+    mobilisation_size = 0.02
+    supply_consumption = -0.5	
+    administrative_efficiency_modifier = 0.4
+    tariff_efficiency_modifier = 0.4
+    research_points_modifier = 0.15
+    RGO_output = 0.1
 }

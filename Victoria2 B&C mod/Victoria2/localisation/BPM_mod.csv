@@ -334,7 +334,7 @@ prussian_constitutionalism_ruler;Император;X
 artisans;Ремесленники;X
 clergymen;Учителя;X
 craftsmen;Пролетарии;X
-PROV313;Осло;X
+PROV313;г.Осло;X
 PROV1086;Маока;X
 PROV1087;Томари-Анива;X
 PROV1088;Пара-мосири;X
@@ -357,8 +357,8 @@ ENG_263;Ленстер(18М);X
 AUS_768;Карловац(18М);X
 PRU_546;Западная Померания(12М);X
 ENG_43;Северные территории(4);X
-RUS_1069;Сибирь(6);x;
-RUS_2590;Дальний Восток(4);x;
+RUS_1069;Сибирь(8);X
+RUS_2590;Дальний Восток(8);X
 MEC_544;Гольштейн(6М);X
 immigration1;Эмиграция;X
 currency_issue_start_title;Объявить эмиссию валюты;X
@@ -1574,7 +1574,7 @@ mex_growth_boost_title;Демографические реформы;X
 mex_growth_boost_desc;Проиграв противостояние с более перспективными США, мы наконец-то можем забыть о войнах на нашем континенте, сконцентрировав все свои усилия на внутреннем развитии страны.;X
 mexican_pops_growth;Демографический взрыв;X
 american_west1;Привлечение населения;X
-indian_impr_title;Императрица Индии;X
+indian_impr_title;Поддержка Индии;X
 indian_impr_desc;Индия - богатейшая колония нашей империи, настал момент, когда именно она станет опорой будущего процветания страны. Пора окончательно ликвидировать ее автономию!;X
 vietnam_tech_school;Вьетнамская технологическая школа;X
 great_veitnam_title;Великий Вьетнам;X
@@ -2135,7 +2135,6 @@ post_agricultural_society;Переходной этап общества;X
 agricultural_society;Аграрное общество;X
 spices;Пищевые продукты;X
 spices_factory;Пищевая фабрика;X
-boots;Кондитерские изделия;X
 boot_factory;Кондитерская фабрика;X
 electric_gear_factory;Электрическая станция;X
 fish_cannery;Фабрика рыбных консервов;X
@@ -2411,7 +2410,6 @@ factory_throughput_focus;Стимулирование производства;X
 RGO_output_focus;Механизация шахт;X
 supply_war_limt;Диверсия инфраструктуры;X
 fed_reg_rs;Индустриализация региона;X
-cigars;Сигары;X
 sugar;Сахар;X
 wool_mill;Шерстяная фабрика;X
 cigarettes;Табачные изделия;X
@@ -2440,8 +2438,6 @@ acquire_core_state_ai;Вернуть нац.регион(ИИ);X
 annex_core_country_ai;Восстановить порядок(ИИ);X
 leadddd_cfe;Обогащение руды;X
 shares_cfe;Обогащение угля;X
-horses;Лошади;X
-stables;Конный завод;X
 agr_soccs3;Индустриальное общество;X
 agr_soccs2;Переходной этап;X
 agr_soccs;Аграрное общество;X
@@ -2543,7 +2539,7 @@ SPLITINHALF;Разделить армию надвое;X
 SPLITINHALF_DRO;Мы разделим армию на две равные части;X
 IGNORE_DECISION_OFF;Отключить оповещение;X
 IGNORE_DECISION_ON;Включить оповещение;X
-KRA_703;Краков(2);X
+KRA_703;Западная Галиция(9);X
 synthetic_fabric_factory;Завод синтетической ткани;X
 synthetic_rubber_factory;Завод синтетического каучука;X
 tropical_lumber_mill;Завод тропических пиломатериалов;X
@@ -2676,6 +2672,7 @@ usa_army_congress_desc; ;X
 eng_army_limit;Гарнизонная армия;X
 usa_army_congress_1860_title;Убедить конгресс в необходимости расширения вооруженных сил;X
 usa_army_congress_1860_desc; ;X
+usa_army_congress_1890_title;Убедить конгресс в необходимости расширения вооруженных сил;X
 congress_tr_des_on_title;Конгресс США;X
 congress_tr_des_on_desc; ;X
 congress_tr_des_off_title;Закрыть раздел;X
@@ -3029,7 +3026,7 @@ eng_royal_fleet;Британские верфи;X
 eng_naval_bases_title;Расширение британских верфей;X
 IRE_annex_dead_inside_title;Интеграция Ирландии;X
 eng_army_limit_debuff;Дефицит кадровых офицеров;X
-war_support0;Поддержка войны 100%;X
+war_support0;Поддержка войны;X
 war_support10;Поддержка войны 90%;X
 war_support20;Поддержка войны 80%;X
 war_support30;Поддержка войны 70%;X
@@ -3044,3 +3041,19 @@ Push_to_Africa;Миграция в колонии;X
 Push_go_go;Колониальная миграция;X
 Push_to_Africa2;Миграция в колонии2;X
 Push_go_go2;Добровольцы закончились;X
+ital_rise_boost;Начальный буст;X
+eng_migr_debuff;Ирландский миграционный дебафф;X
+RU_annex_dead_inside_title;Аннексия Манчжурии;X
+PER_1113;Прикаспийский Иран(4);X
+conquest_MNG_SNZ_title;Завоевание Синьцзяна и Монголии;X
+British_sphere_title;Сфера над Британской Индией;X
+British_raj_1870_title;Императрица Индии;X
+Indian_cities_growth_title;Урбанизация Индийских городов;X
+indian_cities_growth;Рост Индийских городов;X
+american_pacifism;Американский пацифизм;X
+colonial_economy;Колониальная экономика;X
+artisans_industrialisation_title;Ускоренная индустриализация;X
+industrial_consequences;Последствия форсированной индустриализации;X
+desert_burn_title;Тактика выжженной земли в пустыне;X
+burn_arabia;Арабия в огне;X
+turk_burn;Выжженная земля;X

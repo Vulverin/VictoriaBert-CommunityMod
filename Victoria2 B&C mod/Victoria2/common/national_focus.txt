@@ -141,11 +141,12 @@ promotion_focus =
     }
 
     fed_reg_rs = {
-        pop_militancy_modifier = -0.01
+        pop_consciousness_modifier = 0.02
         assimilation_rate = 0.25
         immigrant_attract = 0.25
-        local_factory_input = -0.1
-        local_factory_output = 0.25
+        local_factory_input = -0.04
+        local_factory_throughput = 0.2
+        farm_RGO_eff = -0.2
         icon = 22
         limit = {
                literacy = 0.4
@@ -158,11 +159,12 @@ promotion_focus =
     }
  
     fed_reg_rs_big_city = {
-        pop_militancy_modifier = -0.01
+        pop_consciousness_modifier = 0.03
         assimilation_rate = 0.5
-        immigrant_attract = 0.65
-        local_factory_input = -0.25
-        local_factory_output = 0.35
+        immigrant_attract = 0.9
+        local_factory_input = -0.07
+        local_factory_throughput = 0.3
+        farm_RGO_eff = -0.3
         icon = 22
         limit = {
                is_colonial = no
@@ -236,6 +238,8 @@ province_id = 1251
 province_id = 1297
 province_id = 1612
 province_id = 2221
+province_id = 89
+province_id = 3250
                 
                }
               
@@ -247,8 +251,7 @@ production_focus =
 {
 	basic_industry_focus =
 	{
-		local_factory_input = -0.1
-                local_factory_output = 0.1
+                local_factory_throughput = 0.15
 		limit = {
 			state_scope = {
 				has_factories = yes
@@ -259,8 +262,8 @@ production_focus =
         
         factory_throughput_focus =
 	{
-		local_factory_throughput = 0.1
-                local_factory_input = -0.1
+		local_factory_throughput = 0.05
+                local_factory_input = -0.05
 		icon = 4
 		limit = {
 			state_scope = {

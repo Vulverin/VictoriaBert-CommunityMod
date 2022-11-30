@@ -1880,7 +1880,9 @@ country_event = {
                 NOT = {
 		       year = 1868
                 }
-		
+	        CAN = {
+                exists = no
+                }	
 	}
 	
 	major = yes
@@ -1927,10 +1929,12 @@ country_event = {
 	trigger = {
 		tag = ENG
 		year = 1870
+                AST = {
+                exists = no
+                }
                 NOT = {
 		       year = 1872
-                }
-		
+                }		
 	}
 	
 	major = yes

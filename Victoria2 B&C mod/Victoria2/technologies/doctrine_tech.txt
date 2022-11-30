@@ -5,9 +5,6 @@ mobilisation_tech_1 = {
 	cost = 4000
 	unciv_military = yes
 	mobilisation_size = 0.01
-        infantry = {
-			default_organisation = -5
-	}
 }	
 	
 mobilisation_tech_2 = {
@@ -26,10 +23,7 @@ mobilisation_tech_3 = {
 	year = 1846
 	cost = 6000
 	unciv_military = yes
-	mobilisation_size = 0.02
-        infantry = {
-			default_organisation = -5
-	}
+	mobilisation_size = 0.01
 }
 	
 mobilisation_tech_4 = {
@@ -48,10 +42,7 @@ mobilisation_tech_5 = {
 	year = 1856
 	cost = 8000
 	unciv_military = yes
-	mobilisation_size = 0.02
-        infantry = {
-			default_organisation = -5
-	}
+	mobilisation_size = 0.01
 }	
 
 mobilisation_tech_6 = {
@@ -89,7 +80,7 @@ mobilisation_tech_9 = {
 	year = 1876
 	cost = 13000
 	unciv_military = yes
-	mobilisation_size = 0.01
+	mobilisation_size = 0.02
 	infantry = {
     			default_organisation = -5
     	}
@@ -100,7 +91,10 @@ mobilisation_tech_10 = {
 	year = 1881
 	cost = 15000
 	unciv_military = yes
-	mobilisation_size = 0.01
+	mobilisation_size = 0.02
+        infantry = {
+			default_organisation = -5
+	}
 }
 	
 mobilisation_tech_11 = {
@@ -121,7 +115,7 @@ medicine_tech_1 = {
 	cost = 4000
 	unciv_military = yes
     
-        pop_growth = 0.0002
+        pop_growth = 0.0001
 
         ai_chance = {
 		factor = 20
@@ -239,7 +233,7 @@ medicine_tech_8 = {
 	cost = 12000
 	unciv_military = yes
 		
-	pop_growth = 0.0001
+	pop_growth = 0.0002
         ai_chance = {
 		factor = 20
                 modifier = {
@@ -318,7 +312,7 @@ military_tech_2 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -0.40
 	}
         
 }
@@ -330,7 +324,7 @@ military_tech_3 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -0.80
 	}
         
 }
@@ -342,7 +336,7 @@ military_tech_4 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -1
 	}
         
 }
@@ -354,7 +348,7 @@ military_tech_5 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -1
 	}
         
 }
@@ -366,7 +360,7 @@ military_tech_6 = {
         max_fort = 1
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -1.2
 	}
         
 }
@@ -378,7 +372,7 @@ military_tech_7 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -1.6
 	}
         
 }
@@ -390,7 +384,7 @@ military_tech_8 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -2
 	}
         
 }
@@ -402,7 +396,7 @@ military_tech_9 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -2
 	}
         
 }
@@ -414,7 +408,7 @@ military_tech_10 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -2
 	}
         
 }
@@ -426,7 +420,7 @@ military_tech_11 = {
         
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -2
 	}
         
 }
@@ -551,7 +545,7 @@ focus_idea_tech_1 = {
        area = focus_idea
        year = 1830
        cost = 4000
-       max_national_focus = 4
+       max_national_focus = 2
        ai_chance = {
 		factor = 10
                 modifier = {
@@ -564,7 +558,7 @@ focus_idea_tech_2 = {
        area = focus_idea
        year = 1840
        cost = 6000
-       max_national_focus = 4
+       max_national_focus = 2
        ai_chance = {
 		factor = 10
                 modifier = {
@@ -577,7 +571,7 @@ focus_idea_tech_3 = {
        area = focus_idea
        year = 1850
        cost = 8000
-       max_national_focus = 4 
+       max_national_focus = 3 
        ai_chance = {
 		factor = 10
                 modifier = {
@@ -590,7 +584,7 @@ focus_idea_tech_4 = {
        area = focus_idea
        year = 1860
        cost = 12000
-       max_national_focus = 4
+       max_national_focus = 3
        ai_chance = {
 		factor = 10
                 modifier = {

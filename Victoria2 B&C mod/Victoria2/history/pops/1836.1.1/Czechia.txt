@@ -41,7 +41,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 353325
+		size = 133325
 	}
 
 	aristocrats = {
@@ -71,7 +71,7 @@
 	artisans = {
 		culture = prussian_german
 		religion = catholic
-		size = 10000
+		size = 5000
 	}
 
 	artisans = {
@@ -89,7 +89,7 @@
 	farmers = {
 		culture = prussian_german
 		religion = catholic
-		size = 11775 
+		size = 5775 
 	}
 
 	clergymen = {
@@ -299,7 +299,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 9325
+		size = 25325
 	}
 
 	aristocrats = {
@@ -329,7 +329,7 @@
 	farmers = {
 		culture = prussian_german
 		religion = catholic
-		size = 53825
+		size = 75825
 	}
 }
 #Pilsen (672000/168000 POPS)
@@ -355,7 +355,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 93100 
+		size = 34100 
 	}
 
 	aristocrats = {
@@ -385,7 +385,7 @@
 	farmers = {
 		culture = prussian_german
 		religion = catholic
-		size = 58850   
+		size = 61850   
 	}
 
 	clergymen = {
@@ -435,7 +435,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 53100 
+		size = 83100 
 	}
 
 	aristocrats = {
@@ -465,7 +465,7 @@
 	farmers = {
 		culture = prussian_german
 		religion = catholic
-		size = 56075 
+		size = 26075 
 	}
 
 	clergymen = {
@@ -838,5 +838,120 @@
 		culture = polish
 		religion = catholic
 		size = 12650 
+	}
+}
+3250 = {
+	bureaucrats = {
+		culture = czech
+		religion = catholic
+		size = 550 
+	}
+
+	officers = {
+		culture = czech
+		religion = catholic
+		size = 250 
+	}
+
+	clergymen = {
+		culture = czech
+		religion = catholic
+		size = 3625
+	}
+
+	artisans = {
+		culture = czech
+		religion = catholic
+		size = 50000
+	}
+
+	artisans = {
+		culture = czech
+		religion = catholic
+		size = 3000
+	}
+
+	soldiers = {
+		culture = czech
+		religion = catholic
+		size = 13750 
+	}
+
+	farmers = {
+		culture = czech
+		religion = catholic
+		size = 153325
+	}
+
+	aristocrats = {
+		culture = prussian_german
+		religion = catholic
+		size = 3000 
+	}
+
+	bureaucrats = {
+		culture = prussian_german
+		religion = catholic
+		size = 1550 
+	}
+
+	officers = {
+		culture = prussian_german
+		religion = catholic
+		size = 800 
+	}
+
+	clergymen = {
+		culture = prussian_german
+		religion = catholic
+		size = 275
+	}
+
+	artisans = {
+		culture = prussian_german
+		religion = catholic
+		size = 5000
+	}
+
+	artisans = {
+		culture = prussian_german
+		religion = catholic
+		size = 2000
+	}
+
+	soldiers = {
+		culture = prussian_german
+		religion = catholic
+		size = 300 
+	}
+
+	farmers = {
+		culture = prussian_german
+		religion = catholic
+		size = 11775 
+	}
+
+	clergymen = {
+		culture = prussian_german
+		religion = jewish
+		size = 75
+	}
+
+	artisans = {
+		culture = prussian_german
+		religion = jewish
+		size = 5000
+	}
+
+	soldiers = {
+		culture = prussian_german
+		religion = jewish
+		size = 75 
+	}
+
+	farmers = {
+		culture = prussian_german
+		religion = jewish
+		size = 1850 
 	}
 }

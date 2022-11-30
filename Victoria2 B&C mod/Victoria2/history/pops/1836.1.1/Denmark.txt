@@ -16,13 +16,13 @@
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 4135
+		size = 2135
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 41575
+		size = 8575
 	}
 
 }
@@ -68,7 +68,7 @@
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 90325
+		size = 20325
 	}
 }
 #Alborg (152000/38000 POPS)
@@ -100,7 +100,7 @@
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 90000 #5k moved to 2557
+		size = 20000 #5k moved to 2557
 	}
 }
 #Ribe (148000/37000 POPS)
@@ -132,7 +132,7 @@
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 84000 #10k moved to 2557
+		size = 24000 #10k moved to 2557
 	}
 
 }
@@ -162,7 +162,7 @@
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 84400
+		size = 24400
 	}
 }
 	
@@ -197,7 +197,7 @@
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 54025
+		size = 31025
 	}
 
 	aristocrats = {
@@ -239,7 +239,7 @@
 	farmers = {
 		culture = prussian_german
 		religion = protestant
-		size = 18850
+		size = 24850
 	}
 }
 #Aabenra (100000/25000 POPS)
@@ -265,7 +265,7 @@
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 56625
+		size = 29625
 	}
 
 	aristocrats = {
@@ -329,31 +329,19 @@
 	artisans = {
 		culture = danish
 		religion = protestant
-		size = 30000
-	}
-
-	artisans = {
-		culture = danish
-		religion = protestant
-		size = 30000
-	}
-
-	artisans = {
-		culture = danish
-		religion = protestant
-		size = 6000
+		size = 15000
 	}
 
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 10000
+		size = 3000
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 187000
+		size = 45000
 	}
 
 	artisans = {
@@ -391,13 +379,13 @@
 	soldiers = {
 		culture = danish
 		religion = protestant
-		size = 7000
+		size = 3000
 	}
 
 	farmers = {
 		culture = danish
 		religion = protestant
-		size = 151250
+		size = 30000
 	}
 }
 #Bornholm (16000/4000 POPS)

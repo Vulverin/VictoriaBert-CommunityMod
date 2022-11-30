@@ -1,7 +1,7 @@
-owner = JAI
-controller = JAI
+owner = BOC
+controller = BOC
 add_core = MEW
 add_core = HND
 trade_goods = precious_metal
-life_rating = 35
-#colonial = 2
+life_rating = 30
+colonial = 2

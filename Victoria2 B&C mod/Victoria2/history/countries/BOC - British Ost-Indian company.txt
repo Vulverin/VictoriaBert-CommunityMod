@@ -1,4 +1,4 @@
-capital = 1251
+capital = 1253
 primary_culture = british
 culture = avadhi
 religion = hindu
@@ -18,17 +18,14 @@ military_staff_system = 1
 post_nelsonian_thought = 1
 clipper_design = 1
 naval_design_bureaus = 1
-late_enlightenment_philosophy = 1
 malthusian_thought = 1
 enlightenment_thought = 1
 private_banks = 1
 no_standard = 1
 guild_based_production = 1
-water_wheel_power = 1
 publishing_industry = 1
 focus_idea_tech_1 = 1
 basic_chemistry = 1
-practical_steam_engine = 1
 freedom_of_trade = 1
 military_tech_1 = 1
 naval_tech_1 = 1
@@ -48,6 +45,7 @@ schools = colonial_school
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
+oob = "BOC_oob.txt"
 1861.1.1 = {
 	oob = "/1861/HND_oob.txt"
 }

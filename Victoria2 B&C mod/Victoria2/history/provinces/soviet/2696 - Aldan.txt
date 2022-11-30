@@ -2,4 +2,6 @@ owner = RUS
 controller = RUS
 add_core = RUS
 trade_goods = grain
-life_rating = 34
+life_rating = 35
+colonial = 2
+

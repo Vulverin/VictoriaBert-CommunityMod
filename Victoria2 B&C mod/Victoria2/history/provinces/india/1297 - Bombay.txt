@@ -1,10 +1,9 @@
-owner = MEWcontroller = MEW
+owner = BOC
+controller = BOC
 add_core = HND
 trade_goods = grain
- life_rating = 35 
-#colonial = 2
+ life_rating = 30
 fort = 1
-terrain = city_958
 naval_base = 1
 1861.1.1 = { 
 	railroad = 3 

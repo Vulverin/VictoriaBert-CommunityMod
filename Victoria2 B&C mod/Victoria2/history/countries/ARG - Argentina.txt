@@ -4,8 +4,8 @@ religion = catholic
 government = presidential_dictatorship
 plurality = 25.0
 nationalvalue = nv_latinoamericanciv
-literacy = 0.32
-non_state_culture_literacy = 0.32
+literacy = 0.22
+non_state_culture_literacy = 0.18
 civilized = yes
 prestige = 5
 

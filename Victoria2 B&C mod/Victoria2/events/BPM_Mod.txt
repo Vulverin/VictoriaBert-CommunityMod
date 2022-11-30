@@ -5,10 +5,7 @@ country_event = {
 	picture = "greatpowers"
 	fire_only_once = yes
 	trigger = {
-                OR = {
-                tag = ENG
 		tag = IRE
-        }
 		year = 1844
 	}
 	mean_time_to_happen = {
@@ -22,7 +19,7 @@ country_event = {
 			}
 			add_province_modifier = {
 					name = ire_disaster
-					duration = 1805
+					duration = 2110
 			}
 		}
 	}
@@ -173,35 +170,35 @@ country_event = {
 		name = "EVTOPTA14234"
                 add_country_modifier = {
                                name = national_army_doctrine
-                               duration = 10950
+                               duration = 7300
                 }
         }
         option = {
                 name = "EVTOPTB14234"
                 add_country_modifier = {
                                name = national_navy_doctrine
-                               duration = 10950
+                               duration = 7300
                 }
         }
         option = {
                 name = "EVTOPTC14234"
                 add_country_modifier = {
                                name = national_isol_doctrine
-                               duration = 10950
+                               duration = 7300
                 }
         }
         option = {
                 name = "EVTOPTD14234"
                 add_country_modifier = {
                                name = national_migr_doctrine
-                               duration = 10950
+                               duration = 7300
                 }
         }
         option = {
                 name = "EVTOPTE14234"
                 add_country_modifier = {
                                name = national_econ_doctrine
-                               duration = 10950
+                               duration = 7300
                 }
         }
 }
@@ -277,7 +274,6 @@ country_event = {
                                has_country_modifier = indian_debuff
                         }
                         civilized = yes
-                        ai = no
                   }
         }
 	fire_only_once = yes
@@ -1850,7 +1846,7 @@ country_event = {
                 NOT = {
                        has_country_modifier = full_ind_eng_ostind_comp
                 }
-                HND = {
+                ENI = {
                        vassal_of = THIS
                 }
         }
@@ -1883,96 +1879,6 @@ country_event = {
                 add_country_modifier = {
                                name = full_ind_fra_ostind_comp
                                duration = 1825
-                }
-        }
-}
-country_event = {
-	id = 10061
-	title = "Императрица Индии"
-	desc = " "
-	picture = "qunfindemp"
-	trigger = {
-                tag = ENG
-                NOT = {
-                      exists = HND
-                      exists = FOC
-                }
-                BOC = {
-                       vassal_of = ENG
-                       owns = 1304
-                       owns = 1317
-                       owns = 1313
-                       owns = 1306
-                       owns = 1308
-                       owns = 1283
-                       owns = 1297
-                       owns = 1280
-                       owns = 1261
-                       owns = 1251
-                       owns = 1255
-                       owns = 1259
-                       owns = 1248
-                       owns = 1244
-                       owns = 1270
-                       owns = 1295
-                       owns = 1268
-                       owns = 1236 
-                }
-        }
-	option = {
-		name = "Жемчужина империи"
-                prestige = 100
-                BOC = {
-                       change_tag = HND
-                }
-                diplomatic_influence = {
-                              who = HND
-                              value = 500
-                }
-        }
-}
-country_event = {
-	id = 10062
-	title = "Император Индии"
-	desc = " "
-	picture = "friindia"
-	trigger = {
-                tag = FRA
-                NOT = {
-                      exists = FRI
-                      exists = BOC
-                }
-                FOC = {
-                       vassal_of = FRA
-                       owns = 1304
-                       owns = 1317
-                       owns = 1313
-                       owns = 1306
-                       owns = 1308
-                       owns = 1283
-                       owns = 1297
-                       owns = 1280
-                       owns = 1261
-                       owns = 1251
-                       owns = 1255
-                       owns = 1259
-                       owns = 1248
-                       owns = 1244
-                       owns = 1270
-                       owns = 1295
-                       owns = 1268
-                       owns = 1236 
-                }
-        }
-	option = {
-		name = "Жемчужина империи"
-                prestige = 100
-                FOC = {
-                       change_tag = FRI
-                }
-                diplomatic_influence = {
-                              who = FRI
-                              value = 500
                 }
         }
 }
@@ -2018,6 +1924,7 @@ country_event = {
 				has_global_flag = canal1_bosfor
                                 has_global_flag = canal1_copenhagen
                                 has_global_flag = canal1_singapore
+                                has_global_flag = canal1_dardanelles
 			}
         }
         
@@ -2031,6 +1938,8 @@ country_event = {
 		enable_canal = 6
                 set_global_flag = canal1_singapore
 		enable_canal = 7
+                set_global_flag = canal1_dardanelles
+		enable_canal = 8
         }
 }
 
@@ -2046,6 +1955,9 @@ country_event = {
                 add_country_modifier = {
                                 name = inlf_mod
                                 duration = -1
+                }
+                PRU = {
+                create_vassal = THIS
                 }
                 PRU = {
                       country_event = { id=10071 days=0 }

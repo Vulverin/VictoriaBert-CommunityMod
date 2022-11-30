@@ -402,7 +402,17 @@ promote_to =
 					}
 				}
 			}
-
+                modifier = {
+			factor = 50
+                        craftsmen = 0.098
+			location = { is_overseas = yes }
+                        unemployment = 0.15
+                        NOT = { 
+				location = {
+					any_core = { is_core = THIS }
+				}
+			}
+		}
 		modifier = {
 			factor = 10
 			AND = {
@@ -667,8 +677,7 @@ promote_to =
                 modifier = {
 			factor = -100
 			continent = africa
-                        NOT = { state_scope = { soldiers = 0.025 }
-                        }
+                        state_scope = { soldiers = 0.015 }
 		}
 		group = {
 			modifier = {
@@ -738,6 +747,11 @@ promote_to =
 				factor = 30
 				military_spending = 0.99
 			}
+                        modifier = {
+				factor = 50
+                                year = 1880
+				military_spending = 0.99
+			}
 		}
 		group = {
 			modifier = {
@@ -782,6 +796,11 @@ promote_to =
 			}
 		}
                 modifier = {
+			factor = -100
+                        soldiers = 0.008
+			location = { is_overseas = yes }
+		}
+                modifier = {
 			factor = 20
 			country = {
 				is_mobilised = yes
@@ -799,15 +818,18 @@ promote_to =
 		        country = {
 			          has_country_flag = serfdom_not_abolished
 		        }
-                        soldiers = 0.02
+                        soldiers = 0.03
 	        }
                  modifier = {
                         factor = -9000
-                        country = {
-                               NOT = {
-                                  has_country_flag = ger_army_limit
-                               }
-                        }
+                              NOT = {
+                                      year = 1880
+                              }
+                              country = {
+                                      NOT = {
+                                      has_country_flag = ger_army_limit
+                                      }
+                              }
                         soldiers = 0.04
                 }
                 modifier = {
@@ -815,12 +837,19 @@ promote_to =
                         country = {
                                   has_country_flag = usa_army_limit
                         }
-                        soldiers = 0.02
+                        soldiers = 0.023
                 }
 		modifier = {
 			factor = -9000
 			soldiers = 0.002
 			location = { is_colonial = yes }
+		}
+                modifier = {
+			factor = 45
+			NOT = { 
+                               soldiers = 0.02
+                        }
+			country = { government = african_company }
 		}
                 modifier = {
 			factor = -40
@@ -871,6 +900,16 @@ promote_to =
 				literacy = 0.9
 			}
 		}
+                modifier = {
+			factor = -100
+                        craftsmen = 0.1
+			location = { is_overseas = yes }
+                        NOT = { 
+				location = {
+					any_core = { is_core = THIS }
+				}
+			}
+		}
 		modifier = {
 				factor = 50
 				state_scope = {
@@ -883,6 +922,22 @@ promote_to =
                                 literacy = 0.4
                           }
                          
+		}
+                modifier = {
+			factor = 5
+			country = { trade_policy = free_trade }
+                        country = {
+                             NOT = { has_country_flag = agricultural_society }
+			}
+                        literacy = 0.45
+		}
+                modifier = {
+			factor = 5
+			country = { economic_policy = laissez_faire }
+                        country = {
+                             NOT = { has_country_flag = agricultural_society }
+			}
+                        literacy = 0.45
 		}
                 modifier = {
 			factor = 20
@@ -1045,6 +1100,11 @@ promote_to =
 				education_spending = 0.99
 			}
 		}
+                modifier = {
+			factor = -35
+			NOT = { is_accepted_culture = yes }
+			NOT = { is_primary_culture = yes }
+		}
 		group = {		
 			modifier = {
 				factor = -1
@@ -1067,19 +1127,19 @@ promote_to =
 				clergymen = 0.02
 			}			
 			modifier = {
-				factor = -2
+				factor = -4
 				clergymen = 0.024
 			}			
 			modifier = {
-				factor = -2
+				factor = -5
 				clergymen = 0.028
 			}			
 			modifier = {
-				factor = -2
+				factor = -5
 				clergymen = 0.032
 			}			
 			modifier = {
-				factor = -2
+				factor = -6
 				clergymen = 0.036
 			}			
 			modifier = {

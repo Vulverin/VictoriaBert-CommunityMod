@@ -643,7 +643,7 @@ i_analytic_philosophy = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 25
+			factor = 100
 			nationalvalue = nv_westciv
 		}
 		modifier = {
@@ -1374,7 +1374,7 @@ national_fraternity = {
 	}
 	effect = {
 		war_exhaustion = -0.05
-		plurality = 0.05
+		plurality = 0.1
 	}
 }
 biased_multiculturalism = {
@@ -1438,7 +1438,6 @@ expansionism = {
 	}
 	effect = {
 		war_exhaustion = -0.05
-		plurality = -0.05
 	}
 }
 mission_to_civilize = {
@@ -1450,7 +1449,7 @@ mission_to_civilize = {
 	chance = {
 		base = 0
 		modifier = {
-			factor = 25
+			factor = 100
 			nationalvalue = nv_westciv
 		}
 		modifier = {

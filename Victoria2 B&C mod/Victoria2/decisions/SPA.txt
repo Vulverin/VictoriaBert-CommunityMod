@@ -182,7 +182,11 @@ political_decisions = {
                         }
 
                     inherit = POR
-                    add_accepted_culture = portuguese 
+                    SPA = {
+                                   all_core = {
+				          remove_core = POR
+			           }
+                    }
                     set_country_flag = integration_has_happened
             }
        }
@@ -221,26 +225,9 @@ political_decisions = {
                 }
 
                 allow = {
+                year = 1840
                 }
                 
-                effect = {
-                           add_accepted_culture = north_andean
-                           set_country_flag = restr_empr
-                }
-        }    
-
-        restore_empire_2 = {
-                potential = {
-                        tag = SPA
-                        year = 1840
-                        NOT = {
-                                has_country_flag = rstr_empr_2
-                        }
-                }
-
-                allow = {
-                }
-
                 effect = {
                            VNZ = {
                                    all_core = {
@@ -262,10 +249,14 @@ political_decisions = {
                                           add_core = SPA
                                    }
                            }
-                           set_country_flag = rstr_empr_2
+                           UCA = {
+                                   all_core = {
+                                          add_core = SPA
+                                   }
+                           }
+                           set_country_flag = restr_empr
                 }
-        }
-        
+        }         
         spanish_america = {
                 potential = {
                        tag = SPA

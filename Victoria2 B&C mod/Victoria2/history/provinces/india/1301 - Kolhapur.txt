@@ -1,6 +1,6 @@
-owner = MEW
-controller = MEW
+owner = BOC
+controller = BOC
 add_core = HND
 trade_goods = tea
-life_rating = 35
-#colonial = 2
+life_rating = 30
+colonial = 2

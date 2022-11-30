@@ -4,7 +4,7 @@ private_banks = {
 	year = 1830
 	cost = 3000
 	activate_building = cement_factory
-	tax_eff = 3
+	tax_eff = 2
 	
 	ai_chance = {
 		factor = 1.1
@@ -36,7 +36,7 @@ stock_exchange = {
 	cost = 4000
 
 	
-	tax_eff = 3
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -408,7 +408,7 @@ monetary_system_1 = {
 	year = 1860
 	cost = 12000
 
-	administrative_efficiency = 0.05
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -460,7 +460,7 @@ monetary_system_2 = {
 	year = 1880
 	cost = 16000
 
-	administrative_efficiency = 0.05
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -490,7 +490,7 @@ monetary_system_3 = {
 	year = 1890
 	cost = 18000
 
-	administrative_efficiency = 0.05
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -521,7 +521,7 @@ market_determined_exchange_rates = {
 	cost = 21000
 
 
-	administrative_efficiency = 0.05
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -544,7 +544,7 @@ market_determined_exchange_rates_1 = {
 	cost = 23000
 
 
-	administrative_efficiency = 0.05
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -567,7 +567,7 @@ market_determined_exchange_rates_2 = {
 	cost = 27000
 
 
-	administrative_efficiency = 0.05
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -649,9 +649,6 @@ keynesian_economics_3 = {
 	cost = 6000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -683,9 +680,6 @@ collectivist_theory = {
 	cost = 9000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -717,9 +711,6 @@ the_historical_theory = {
 	cost = 12000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -751,9 +742,6 @@ neoclassical_theory = {
 	cost = 15000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1
@@ -785,9 +773,6 @@ economic_thought_and_critique_1 = {
 	cost = 18000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1
@@ -819,9 +804,6 @@ economic_thought_and_critique_2 = {
 	cost = 21000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1
@@ -853,9 +835,6 @@ keynesian_economics = {
 	cost = 24000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -887,9 +866,6 @@ keynesian_economics_1 = {
 	cost = 26000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -921,9 +897,6 @@ keynesian_economics_2 = {
 	cost = 29000
 
 	factory_input = -0.02
-	poor_everyday_needs = 0.02
-	middle_everyday_needs = 0.02
-	rich_everyday_needs = 0.02
 	
 	ai_chance = {
 		factor = 1.01
@@ -1317,7 +1290,7 @@ organized_factories = {
 	year = 1830
 	cost = 4000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 		ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1355,7 +1328,7 @@ scientific_management = {
 	year = 1840
 	cost = 6000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1393,7 +1366,7 @@ time_saving_measures = {
 	year = 1850
 	cost = 9000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1419,7 +1392,7 @@ tech_organization_1 = {
 	year = 1860
 	cost = 12000
 
-	factory_output = 0.03
+	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1445,7 +1418,7 @@ management_strategy = {
 	year = 1870
 	cost = 15000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1471,7 +1444,7 @@ tech_organization_2 = {
 	year = 1880
 	cost = 18000
 
-	factory_output = 0.03
+	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1497,7 +1470,7 @@ tech_organization_3 = {
 	year = 1890
 	cost = 20000
 
-	factory_output = 0.03
+	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1523,7 +1496,7 @@ organizational_development = {
 	year = 1900
 	cost = 22000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1549,7 +1522,7 @@ organizational_development_1 = {
 	year = 1910
 	cost = 24000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1575,7 +1548,7 @@ organizational_development_2 = {
 	year = 1920
 	cost = 26000
 
-	factory_output = 0.01
+	factory_throughput = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
