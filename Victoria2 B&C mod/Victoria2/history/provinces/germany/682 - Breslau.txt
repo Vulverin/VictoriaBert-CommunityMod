@@ -3,6 +3,7 @@ controller = PRU
 add_core = PRU
 add_core = GER
 add_core = POL
+terrain = city_958
 trade_goods = grain
 life_rating = 35 
 state_building = {

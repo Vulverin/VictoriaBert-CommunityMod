@@ -294,12 +294,12 @@ migration_target =
 		terrain = arctic
 	}
 	modifier = {
-		factor = 2
-		life_rating = 40
+		factor = 5
+		life_rating = 39
 	}
 	modifier = {
-		factor = 2
-		life_rating = 50
+		factor = 5
+		life_rating = 40
 	}
 }
 
@@ -525,28 +525,8 @@ promote_to =
 				state_scope = { bureaucrats = 0.056 }
 			}
 			modifier = {
-				factor = -2
+				factor = -1000
 				state_scope = { bureaucrats = 0.060 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.064 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.068 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.072 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.076 }
-			}
-			modifier = {
-				factor = -100
-				state_scope = { bureaucrats = 0.080 }
 			}
 		}
 		
@@ -1173,6 +1153,27 @@ promote_to =
 				consciousness = 8
 			}
 		}
+                modifier = {
+                         factor = -500
+                         OR = {
+                                AND = { 
+                                       clergymen = 0.035
+                                       literacy = 0.75
+                                }
+                                AND = { 
+                                       clergymen = 0.03
+                                       literacy = 0.8
+                                }
+                                AND = { 
+                                       clergymen = 0.025
+                                       literacy = 0.85
+                                }
+                                AND = { 
+                                       clergymen = 0.02
+                                       literacy = 0.9
+                                }
+                       }
+                }
 	}
 	aristocrats = 
 	{

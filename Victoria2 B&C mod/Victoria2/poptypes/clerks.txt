@@ -1,6 +1,6 @@
 strata = middle
-research_points = 2
-research_optimum = 0.06
+research_points = 1.4
+research_optimum = 0.08
 
 rebel =
 {
@@ -727,6 +727,27 @@ promote_to =
 				consciousness = 8
 			}
 		}
+                modifier = {
+                         factor = -500
+                         OR = {
+                                AND = { 
+                                       clergymen = 0.035
+                                       literacy = 0.75
+                                }
+                                AND = { 
+                                       clergymen = 0.03
+                                       literacy = 0.8
+                                }
+                                AND = { 
+                                       clergymen = 0.025
+                                       literacy = 0.85
+                                }
+                                AND = { 
+                                       clergymen = 0.02
+                                       literacy = 0.9
+                                }
+                       }
+                }
 	}
 	capitalists = 
 	{

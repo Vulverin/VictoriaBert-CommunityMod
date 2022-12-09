@@ -503,7 +503,7 @@ the_congo_reform_association = {
 
 ### GER - GERMANY, PRU - PRUSSIA ###
 gerpopgrowth = {
-        global_population_growth = 0.004
+        global_population_growth = 0.002
         icon = 15
 }
 germania_werft = {
@@ -730,6 +730,7 @@ eng_army_limit_debuff = {
         org_regain = -0.3
         naval_organisation = -0.2
         army_tech_research_bonus = -0.3
+        tax_efficiency = -0.1
         icon = 15
 }
 machine_guns_research_1 = {
@@ -812,25 +813,25 @@ opium_infl = {
 gernavy_support = {
         naval_organisation = 0.25
         naval_unit_start_experience = 1.0
+        tax_efficiency = -0.05
         icon = 1
 }
 gerculture_support = {
         research_points_modifier = 0.2
         education_efficiency_modifier = 0.2
+        tax_efficiency = -0.05
         icon = 1
 }
 gernational_support = {
-        army_tech_research_bonus = 0.1
-	commerce_tech_research_bonus = 0.15
-	culture_tech_research_bonus = 0.15
-	industry_tech_research_bonus = 0.15
-        doctrine_tech_research_bonus = 0.15
+        global_population_growth = 0.001
+        tax_efficiency = -0.05
         icon = 1
 }
 gereconom_support = {
         RGO_output = 0.15
         factory_throughput = 0.15
         factory_owner_cost = -0.15
+        tax_efficiency = -0.05
         icon = 1
 }
 gerarmy_support = {
@@ -840,6 +841,7 @@ gerarmy_support = {
         land_unit_start_experience = 10.0
         mobilisation_size = 0.01
         mobilisation_economy_impact = -0.15
+        tax_efficiency = -0.05
         icon = 1
 }
 
@@ -940,7 +942,7 @@ indian_cities_growth = {
         population_growth = 0.001
         farm_rgo_size = 0.5
 	mine_rgo_size = 0.5
-        immigrant_push = -0.5
+        immigrant_push = -0.9
         icon = 1
 }
 china_aus_comp = {
@@ -1344,7 +1346,7 @@ british_ast = {
         icon = 5
 }
 british_hnd = {
-        tax_efficiency = 0.2
+        tax_efficiency = -0.05
         factory_owner_cost = -0.3
         land_organisation = 0.1
         org_regain = 0.1
@@ -1394,6 +1396,7 @@ army_support = {
         org_regain = 0.05
         naval_organisation = 0.05
         navy_tech_research_bonus = 0.1
+        tax_efficiency = -0.05
 }
 econom_support = {
         industry_tech_research_bonus = 0.1
@@ -1401,6 +1404,7 @@ econom_support = {
         RGO_output = 0.1
         tax_efficiency = 0.02
         factory_owner_cost = -0.2
+        tax_efficiency = -0.05
 }
 national_support = {
         core_pop_militancy_modifier = -0.02
@@ -1409,11 +1413,13 @@ national_support = {
         prestige = 0.05
         cb_generation_speed_modifier = 0.35
         doctrine_tech_research_bonus = 0.1
+        tax_efficiency = -0.05
 }
 culture_support = {
         education_efficiency_modifier = 0.10
         research_points_modifier = 0.2
         culture_tech_research_bonus = 0.1
+        tax_efficiency = -0.05
 }                            
 poland_mddcf3g = {
         land_organisation = 0.1

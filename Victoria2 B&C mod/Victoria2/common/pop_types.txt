@@ -44,6 +44,7 @@ promotion_chance =
 			literacy = 0.9
 		}
 	}
+
 		modifier = {
 			factor = -5
 			strata = rich
@@ -63,7 +64,6 @@ promotion_chance =
 			militancy = 7
 		}
 	}
-
 	group = {
 		modifier = {
 			factor = 0.05
@@ -87,6 +87,7 @@ promotion_chance =
                         military_spending = 0.5
 		}
 	}
+
         group = {
 		modifier = {
 			factor = 0.1
@@ -386,6 +387,22 @@ migration_chance =
 {
 	factor = 1
 
+        modifier = {
+		factor = 0.05
+		country = {
+                             NOT = { has_country_flag = agricultural_society }
+			}
+                NOT = { location = { life_rating = 36 } }
+                NOT = { location = { is_overseas = yes } }
+	}
+
+        modifier = {
+		factor = 0.05
+		country = { has_country_flag = agr_soccs3 }
+                NOT = { location = { life_rating = 36 } }
+                NOT = { location = { is_overseas = yes } }
+	}
+
 	modifier = {
 		factor = -0.4
 		state_scope = { is_colonial = yes }
@@ -487,6 +504,11 @@ migration_chance =
 		modifier = {
 			factor = 0.05
 			unemployment = 0.02
+			location = { controlled_by = owner }
+		}
+                modifier = {
+			factor = 0.05
+			unemployment = 0.05
 			location = { controlled_by = owner }
 		}
 		modifier = {
