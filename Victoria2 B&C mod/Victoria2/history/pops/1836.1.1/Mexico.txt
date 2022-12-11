@@ -2085,7 +2085,7 @@
 	}
 
 	farmers = {
-		culture = nahua
+		culture = native_american_minor
 		religion = catholic
 		size = 33800
 	}

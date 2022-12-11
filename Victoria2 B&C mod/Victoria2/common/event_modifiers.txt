@@ -2165,3 +2165,6 @@ turk_burn = {
          attrition = 7
          icon = 20
 }
+blacks_to_liberia = {
+    icon = 20
+}

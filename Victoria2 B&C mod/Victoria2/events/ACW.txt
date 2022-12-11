@@ -2445,3 +2445,286 @@ country_event = {
 		set_country_flag = apache_wars_over
 	}
 }
+#Resettle blacks in Liberia
+country_event = {
+    id = 99400
+    title = "EVTNAME99400"
+    desc = "EVTDESC99400"
+    picture = "slaves"
+
+    trigger = {
+        is_culture_group = american_cultures
+        slavery = no_slavery
+        war = no
+        NOT = { citizenship_policy = full_citizenship }
+        NOT = { has_country_flag = resettle_in_liberia }
+        OR = {
+            has_global_flag = american_civil_war_has_happened
+            has_global_flag = alt_american_civil_war_has_happened
+        }
+        any_owned_province = {
+            any_pop = { is_culture_group = african_diaspora_cultures }
+        }
+        NOT = {
+            OR = {
+                accepted_culture = afro_american
+                accepted_culture = afro_caribbean
+                accepted_culture = afro_brazilian
+            }
+        }
+        LIB = {
+            exists = yes
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    immediate = {
+        set_country_flag = resettle_in_liberia
+    }
+
+    option = {
+        name = "Support the program. �RGain 2 infamy�W"
+        prestige = -10
+        badboy = 2
+        treasury = -10000
+        any_owned = {
+            limit = {
+                any_pop = {
+                    is_culture_group = african_diaspora_cultures
+                }
+            }
+            add_province_modifier = {
+                name = blacks_to_liberia
+                duration = 3650
+            }
+        }
+        any_pop = {
+            limit = { is_culture_group = african_diaspora_cultures }
+            consciousness = 4
+            militancy = 3
+        }
+        any_country = {
+            relation = { who = THIS value = -20 }
+        }
+        ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 10
+                LIB = {
+                    ai = no
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "I believe their service is more valuable here."
+        any_pop = {
+            limit = { is_culture_group = african_diaspora_cultures }
+            consciousness = 1
+            militancy = -1
+        }
+        ai_chance = {
+            factor = 90
+        }
+    }
+
+}
+
+#Blacks to Liberia emigration events
+province_event = {
+    id = 99402
+    title = "EVTNAME99402"
+    desc = "EVTDESC99402"
+
+    trigger = {
+        has_province_modifier = blacks_to_liberia
+        LIB = {
+            exists = yes
+            war = no
+            owns = 1887
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 200
+        modifier = {
+            factor = 0.8
+            owner = { citizenship_policy = residency }
+        }
+        modifier = {
+            factor = 1.2
+            owner = { citizenship_policy = full_citizenship }
+        }
+    }
+
+    option = {
+        name = "Whoever wishes to go may leave."
+        remove_province_modifier = blacks_to_liberia
+        any_pop = {
+            limit = {
+                is_culture_group = african_diaspora_cultures
+            }
+            random = {
+                chance = 35
+                money = 5
+                move_pop = 1887
+            }
+        }
+        ai_chance = {
+            factor = 75
+        }
+    }
+
+    option = {
+        name = "Give them incentives to stay."
+        remove_province_modifier = blacks_to_liberia
+        owner = { treasury = -500 }
+        any_pop = {
+            limit = { is_culture_group = african_diaspora_cultures }
+            money = 50
+            consciousness = -3
+        }
+        ai_chance = {
+            factor = 20
+            modifier = {
+                factor = 0
+                owner = {
+                    NOT = { money = 1000 }
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "Force them out."
+        remove_province_modifier = blacks_to_liberia
+        owner = {
+            treasury = -5000
+            prestige = -2
+            plurality = -2
+            badboy = 0.5
+        }
+        any_pop = {
+            limit = {
+                is_culture_group = african_diaspora_cultures
+            }
+            money = 5
+            move_pop = 1887
+        }
+        owner = {
+            any_pop = {
+                limit = { is_culture_group = african_diaspora_cultures }
+                consciousness = 0.5
+                militancy = 0.5
+            }
+        }
+        ai_chance = {
+            factor = 5
+            modifier = {
+                factor = 0
+                owner = {
+                    NOT = { money = 10000 }
+                }
+            }
+            modifier = {
+                factor = 0
+                owner = {
+                    NOT = { badboy = 0.9 }
+                }
+            }
+        }
+    }
+}
+
+#Resettle blacks in Liberia
+country_event = {
+    id = 99400
+    title = "EVTNAME99400"
+    desc = "EVTDESC99400"
+    picture = "slaves"
+
+    trigger = {
+        is_culture_group = american_cultures
+        slavery = no_slavery
+        war = no
+        NOT = { citizenship_policy = full_citizenship }
+        NOT = { has_country_flag = resettle_in_liberia }
+        OR = {
+            has_global_flag = american_civil_war_has_happened
+            has_global_flag = alt_american_civil_war_has_happened
+        }
+        any_owned_province = {
+            any_pop = { is_culture_group = african_diaspora_cultures }
+        }
+        NOT = {
+            OR = {
+                accepted_culture = afro_american
+                accepted_culture = afro_caribbean
+                accepted_culture = afro_brazilian
+            }
+        }
+        LIB = {
+            exists = yes
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 12
+    }
+
+    immediate = {
+        set_country_flag = resettle_in_liberia
+    }
+
+    option = {
+        name = "Support the program."
+        prestige = -10
+        badboy = 2
+        treasury = -10000
+        any_owned = {
+            limit = {
+                any_pop = {
+                    is_culture_group = african_diaspora_cultures
+                }
+            }
+            add_province_modifier = {
+                name = blacks_to_liberia
+                duration = 3650
+            }
+        }
+        any_pop = {
+            limit = { is_culture_group = african_diaspora_cultures }
+            consciousness = 4
+            militancy = 3
+        }
+        any_country = {
+            relation = { who = THIS value = -20 }
+        }
+        ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 10
+                LIB = {
+                    ai = no
+                }
+            }
+        }
+    }
+
+    option = {
+        name = "I believe their service is more valuable here."
+        any_pop = {
+            limit = { is_culture_group = african_diaspora_cultures }
+            consciousness = 1
+            militancy = -1
+        }
+        ai_chance = {
+            factor = 90
+        }
+    }
+
+}
