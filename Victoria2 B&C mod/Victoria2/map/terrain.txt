@@ -568,6 +568,20 @@ categories =  {
                 combat_width = -0.2
         }
 
+        chinese_city = {
+                movement_cost = 3.0
+                defence = 1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.5
+		farm_rgo_eff = -0.3
+		mine_rgo_size = 0.5
+		mine_rgo_eff = -0.3
+               
+		supply_limit = 5
+                min_build_fort = 7
+                combat_width = -0.2
+        }
+
 	farmlands = {
 		movement_cost = 1.5
 		color = { 137 104 165  }

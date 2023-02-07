@@ -69,6 +69,10 @@ chinese_alliance_fix = {
 			who = JPE
 			value = -400
 		}
+                relation = {
+			who = ITA
+			value = -400
+		}
               add_country_modifier = {
 			name = patriots
 			duration = 1000

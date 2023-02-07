@@ -51,7 +51,7 @@ country_event = {
                 ai = no
 		NOT = {
                       craftsmen = 0.2
-                     
+                      has_country_flag = agr_soccs3
                       has_country_flag = agr_soccs2
                 }
                  

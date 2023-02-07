@@ -320,6 +320,11 @@ spriteTypes = {
 	        texturefile = "gfx\\interface\\terrain_stock_city.tga"
 	        norefcount = yes
         }
+		spriteType = {
+	        name = "GFX_terrainimg_chinese_city"
+	        texturefile = "gfx\\interface\\terrain_chinese_city.tga"
+	        norefcount = yes
+        }
 
 	spriteType = {
 		name = "GFX_province_pop"

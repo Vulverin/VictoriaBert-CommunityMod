@@ -313,6 +313,22 @@ china_boost = {
 	land_organisation = 0.25
 	supply_consumption = -0.25
 	global_pop_militancy_modifier = -0.02
+        global_population_growth = -0.002
+}
+china_civ_boost = {
+	trigger = {
+		exists = yes
+		capital = 1612
+                civilized = yes
+                NOT = {
+                government = colonial_company
+                }
+	}
+	tax_eff = -0.1
+	supply_consumption = -0.3
+	global_pop_militancy_modifier = 0.01
+        global_population_growth = -0.005
+        research_points_modifier = -0.5
 }
 is_vassal_state = {
 	trigger = {
@@ -463,7 +479,7 @@ government_democracy = {
 government_colcompany = {
 	trigger = {
                 NOT = {
-                capital = 1253
+                capital = 1256
                 }
 		exists = yes
                 government = colonial_company
@@ -472,6 +488,7 @@ government_colcompany = {
         mine_rgo_eff = -0.7
         RGO_throughput = -0.6
         global_pop_militancy_modifier = -0.02
+        global_population_growth = -0.005
 }
 government_afrcompany = {
 	trigger = {
