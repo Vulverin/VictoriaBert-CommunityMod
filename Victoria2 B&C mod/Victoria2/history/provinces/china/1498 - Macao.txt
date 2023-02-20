@@ -1,5 +1,5 @@
 owner = CHI
 controller = CHI
-terrain = port_city
+terrain = chinese_city
 trade_goods = tea
 life_rating = 32

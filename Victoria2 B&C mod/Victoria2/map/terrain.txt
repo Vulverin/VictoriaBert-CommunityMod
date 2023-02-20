@@ -576,6 +576,7 @@ categories =  {
 		farm_rgo_eff = -0.3
 		mine_rgo_size = 0.5
 		mine_rgo_eff = -0.3
+                immigrant_push = -0.99
                
 		supply_limit = 5
                 min_build_fort = 7

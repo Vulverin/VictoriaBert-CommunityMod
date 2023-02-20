@@ -85,7 +85,6 @@ political_decisions = {
 political_decisions = {
     British_fix_kost = {
 	potential = {
-                ai = yes
                 tag = BOC
                 NOT = { 
                 has_country_flag = indian_fix_kostil
@@ -96,6 +95,9 @@ political_decisions = {
         effect = {
                 ENG = {
                 create_vassal = BOC
+                }
+                BOC = {
+                government = colonial_company
                 }
                 set_country_flag = indian_fix_kostil
         }
@@ -200,6 +202,9 @@ political_decisions = {
         }
         effect = {
           create_vassal = HND
+          HND = {
+                government = colonial_company
+          }
         }
     }
 }

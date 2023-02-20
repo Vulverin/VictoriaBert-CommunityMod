@@ -661,10 +661,18 @@ emigration_chance =
 		}
 	}
 	
+        modifier = {
+		factor = -0.6
+		country = { has_country_flag = chinese_concs }
+	}
+        
 	modifier = {
-		factor = -0.9
+		factor = -0.8
 		OR = {
-                        country = { government = colonial_company }
+                        AND = {
+                                country = { government = colonial_company }
+                                country = { NOT = { has_country_flag = chinese_concs } }
+                        }
 			AND = {
 				THIS = { is_culture_group = arab }
 				country = { is_culture_group = arab }

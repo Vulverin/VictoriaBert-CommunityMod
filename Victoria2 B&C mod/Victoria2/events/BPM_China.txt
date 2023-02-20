@@ -913,3 +913,35 @@ country_event = {
                 }
 	}
 }
+country_event = {
+	id = 10081
+	title = "CHI_CONCESSION"
+	desc = " "
+	picture = "prussian_diplomacy"
+	trigger = {
+                  OR = {
+                  tag = ENC
+                  tag = ASC
+                  tag = GSC
+                  tag = FRC
+                  tag = SPC
+                  tag = ITC
+                  tag = RUC
+                  tag = TCH
+                  tag = USC
+                  tag = JPC
+                  tag = SCC
+                  tag = BRC
+                  tag = NEC
+                  tag = PRC
+                  tag = MXC
+                  }
+                  NOT = { 
+                     has_country_flag = chinese_concs
+                  }
+        }
+	option = {
+		name = "chinese_concs"
+                set_country_flag = chinese_concs
+         }
+}
