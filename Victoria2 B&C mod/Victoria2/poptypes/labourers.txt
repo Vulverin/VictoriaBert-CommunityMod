@@ -891,7 +891,7 @@ promote_to =
 			}
 		}
 		modifier = {
-				factor = 45
+				factor = 50
 				state_scope = {
 					has_factories = yes
 				}
