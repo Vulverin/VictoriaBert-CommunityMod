@@ -26,15 +26,23 @@ country_event = {
 	mean_time_to_happen = {
 		months = 360
 		modifier = {
-			factor = 3.1
+			factor = 0.9
 			unemployment = 0.1
+		}
+                modifier = {
+			factor = 0.9
+			unemployment = 0.2
+		}
+                modifier = {
+			factor = 0.8
+			unemployment = 0.3
 		}
 		modifier = {
 			factor = 1.1
 			average_consciousness = 5
 		}
                 modifier = {
-			factor = 4.1
+			factor = 0.7
 			year = 1870
 		}
 		modifier = {
@@ -46,7 +54,7 @@ country_event = {
 			government_interventionism = 1
 		}
 		modifier = {
-			factor = 4.0
+			factor = 0.1
 			any_neighbor_country = {
 				has_country_modifier = stock_market_crash
 			}
@@ -56,7 +64,7 @@ country_event = {
 			economic_policy = laissez_faire
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.1
 			invention = ludwig_von_mises
 		}
 	}
@@ -111,19 +119,19 @@ country_event = {
 			keynesian_economics = 1
 		}
 		modifier = {
-			factor = 2.0
+			factor = 0.9
 			war_exhaustion = 4
 		}
 		modifier = {
-			factor = 2.0
+			factor = 0.9
 			average_militancy = 4
 		}
 		modifier = {
-			factor = 2.0
+			factor = 1.1
 			average_consciousness = 5
 		}
 		modifier = {
-			factor = 1.5
+			factor = 1.1
 			economic_policy = laissez_faire
 		}
 	}

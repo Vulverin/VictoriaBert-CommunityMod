@@ -844,17 +844,11 @@ promote_to =
 		}
                 modifier = {
 			factor = 20
-			country = {
-				has_country_flag = agr_soccs3
-			}
+			craftsmen = 0.2
 		}
                 modifier = {
 			factor = -20
-			country = {
-                             NOT = {
-				   has_country_flag = agr_soccs3
-                             }
-			}
+			NOT = { craftsmen = 0.2 }
 		}
 		modifier = {
 			factor = -40

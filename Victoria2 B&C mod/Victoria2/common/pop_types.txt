@@ -389,9 +389,14 @@ migration_chance =
 
         modifier = {
 		factor = 0.05
-		country = {
-                             NOT = { has_country_flag = agricultural_society }
+		OR = {
+                        country = {
+                             has_country_flag = agr_soccs2
 			}
+                        country = {
+                             has_country_flag = agr_soccs3
+			}
+                }
                 NOT = { location = { life_rating = 36 } }
                 NOT = { location = { is_overseas = yes } }
 	}

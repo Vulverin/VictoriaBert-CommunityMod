@@ -858,9 +858,7 @@ promote_to =
 		}
                 modifier = {
 			factor = 25
-			country = {
-				has_country_flag = agr_soccs3
-			}
+			craftsmen = 0.2
                         literacy = 0.85
 		}
 		group = { 			
