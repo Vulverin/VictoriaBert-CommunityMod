@@ -489,6 +489,7 @@ government_colcompany = {
         RGO_throughput = -0.6
         global_pop_militancy_modifier = -0.02
         global_population_growth = -0.005
+        global_immigrant_attract = -1
 }
 government_afrcompany = {
 	trigger = {
@@ -499,6 +500,7 @@ government_afrcompany = {
         RGO_throughput = -0.3
         mine_rgo_eff = -0.2
         global_pop_militancy_modifier = -0.02
+        global_immigrant_attract = -1
 }
 industrial_society = {
         trigger = {
