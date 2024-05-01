@@ -927,27 +927,6 @@ rum_distillery = {
 	pop_build_factory = yes
 }
 
-gunpowder_factory = {
-
-	type = factory
-
-	on_completion = factory
-	completion_size = 0.2
-	cost = 0 # 1000
-	max_level = 99
-	goods_cost = 
-	{
-		cement = 600
-	}
-	time = 120
-	visibility = yes
-	onmap = no
-	
-	default_enabled = yes
-	production_type = gunpowder_factory
-	pop_build_factory = yes
-}
-
 fruit_cannery = {
 	type = factory
 

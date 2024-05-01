@@ -1089,7 +1089,7 @@ political_decisions = {
 		
 		allow = {
                                war = no
-                               year = 1845  
+                               year = 1850 
                                owns = 1700
                                owns = 1701
                                owns = 1702
@@ -1355,7 +1355,7 @@ political_decisions = {
 		allow = {
                                war = no
                                money = 1000000
-                               year = 1845
+                               year = 1850
                                OR = { 
                                exists = GER
                                exists = NGF
@@ -1430,108 +1430,6 @@ political_decisions = {
                         430 = {
                         life_rating = 1
                         }
-                        431 = {
-                        life_rating = 1
-                        }
-                        432 = {
-                        life_rating = 1
-                        }
-                        434 = {
-                        life_rating = 1
-                        }
-                        435 = {
-                        life_rating = 1
-                        }
-                        436 = {
-                        life_rating = 1
-                        }
-                        437 = {
-                        life_rating = 1
-                        }
-                        438 = {
-                        life_rating = 1
-                        }
-                        439 = {
-                        life_rating = 1
-                        }
-                        440 = {
-                        life_rating = 1
-                        }
-                        441 = {
-                        life_rating = 1
-                        }
-                        442 = {
-                        life_rating = 1
-                        }
-                        443 = {
-                        life_rating = 1
-                        }
-                        444 = {
-                        life_rating = 1
-                        }
-                        445 = {
-                        life_rating = 1
-                        }
-                        446 = {
-                        life_rating = 1
-                        }
-                        447 = {
-                        life_rating = 1
-                        }
-                        448 = {
-                        life_rating = 1
-                        }
-                        449 = {
-                        life_rating = 1
-                        }
-                        450 = {
-                        life_rating = 1
-                        }
-                        452 = {
-                        life_rating = 1
-                        }
-                        453 = {
-                        life_rating = 1
-                        }
-                        454 = {
-                        life_rating = 1
-                        }
-                        456 = {
-                        life_rating = 1
-                        }
-                        457 = {
-                        life_rating = 1
-                        }
-                        459 = {
-                        life_rating = 1
-                        }
-                        460 = {
-                        life_rating = 1
-                        }
-                        461 = {
-                        life_rating = 1
-                        }
-                        462 = {
-                        life_rating = 1
-                        }
-                        463 = {
-                        life_rating = 1
-                        }
-                        464 = {
-                        life_rating = 1
-                        }
-                        468 = {
-                        life_rating = 1
-                        }
-                        469 = {
-                        life_rating = 1
-                        }
-                        470 = {
-                        life_rating = 1
-                        }
-                        471 = {
-                        life_rating = 1
-                        }
 			set_country_flag = france_european_way_has_been_chosen
 		}
        }
@@ -1546,79 +1444,13 @@ political_decisions = {
 		
 		allow = {
                                war = no
-                               year = 1860
+                               year = 1865
                                exists = ITA
                                money = 2000000 
 		}
 		
 		effect = {
                         money = -2000000
-                        400 = {
-                        life_rating = 1
-                        }
-                        401 = {
-                        life_rating = 1
-                        }
-                        402 = {
-                        life_rating = 1
-                        }
-                        403 = {
-                        life_rating = 1
-                        }
-                        404 = {
-                        life_rating = 1
-                        }
-                        405 = {
-                        life_rating = 1
-                        }
-                        406 = {
-                        life_rating = 1
-                        }
-                        407 = {
-                        life_rating = 1
-                        }
-                        408 = {
-                        life_rating = 1
-                        }
-                        413 = {
-                        life_rating = 1
-                        }
-                        414 = {
-                        life_rating = 1
-                        }
-                        415 = {
-                        life_rating = 1
-                        }
-                        416 = {
-                        life_rating = 1
-                        }
-                        417 = {
-                        life_rating = 1
-                        }
-                        418 = {
-                        life_rating = 1
-                        }
-                        420 = {
-                        life_rating = 1
-                        }
-                        421 = {
-                        life_rating = 1
-                        }
-                        422 = {
-                        life_rating = 1
-                        }
-                        426 = {
-                        life_rating = 1
-                        }
-                        427 = {
-                        life_rating = 1
-                        }
-                        429 = {
-                        life_rating = 1
-                        }
-                        430 = {
-                        life_rating = 1
-                        }
                         431 = {
                         life_rating = 1
                         }
@@ -1735,7 +1567,7 @@ political_decisions = {
 		
 		allow = {
                                war = no
-                               year = 1870
+                               year = 1875
                                money = 2000000
                                money = 1000000
                                exists = GER

@@ -4,8 +4,8 @@ religion = protestant
 government = absolute_monarchy
 plurality = 25.0
 nationalvalue = nv_eastciv
-literacy = 0.55
-non_state_culture_literacy = 0.25
+literacy = 0.60
+non_state_culture_literacy = 0.30
 civilized = yes
 
 set_country_flag = ger_army_limit
