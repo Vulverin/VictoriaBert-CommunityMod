@@ -1,7 +1,7 @@
 sprite = 4
 color = { 18 129 10 }
 strata = rich
-research_points = 1
+research_points = 0.8
 research_optimum = 0.02
 state_capital_only = yes
 
@@ -767,6 +767,27 @@ promote_to =
 				consciousness = 8
 			}
 		}
+                modifier = {
+                         factor = -500
+                         OR = {
+                                AND = { 
+                                       clergymen = 0.035
+                                       literacy = 0.75
+                                }
+                                AND = { 
+                                       clergymen = 0.03
+                                       literacy = 0.8
+                                }
+                                AND = { 
+                                       clergymen = 0.025
+                                       literacy = 0.85
+                                }
+                                AND = { 
+                                       clergymen = 0.02
+                                       literacy = 0.9
+                                }
+                       }
+                }
 	}
 			artisans =
 	{

@@ -193,11 +193,10 @@ arising_prussia = {
 	mobilization_economy_impact = -0.5
 	war_exhaustion = -0.05
 	supply_consumption = -0.35
-	tax_efficiency = 0.1
+	tax_efficiency = 0.15
         tariff_efficiency_modifier = 0.1
         RGO_output = 0.2
         factory_output = 0.2
-        global_population_growth = 0.002
 }
 tpg_boost = {
         trigger = {
@@ -314,6 +313,22 @@ china_boost = {
 	land_organisation = 0.25
 	supply_consumption = -0.25
 	global_pop_militancy_modifier = -0.02
+        global_population_growth = -0.002
+}
+china_civ_boost = {
+	trigger = {
+		exists = yes
+		capital = 1612
+                civilized = yes
+                NOT = {
+                government = colonial_company
+                }
+	}
+	tax_eff = -0.1
+	supply_consumption = -0.3
+	global_pop_militancy_modifier = 0.01
+        global_population_growth = -0.005
+        research_points_modifier = -0.5
 }
 is_vassal_state = {
 	trigger = {
@@ -464,15 +479,17 @@ government_democracy = {
 government_colcompany = {
 	trigger = {
                 NOT = {
-                capital = 1253
+                capital = 1256
                 }
 		exists = yes
                 government = colonial_company
 	}
-	RGO_output = -0.7
-        mine_rgo_eff = -0.2
-        RGO_throughput = -0.3
+	RGO_output = -0.5
+        mine_rgo_eff = -0.7
+        RGO_throughput = -0.6
         global_pop_militancy_modifier = -0.02
+        global_population_growth = -0.005
+        global_immigrant_attract = -1
 }
 government_afrcompany = {
 	trigger = {
@@ -481,7 +498,9 @@ government_afrcompany = {
 	}
 	RGO_output = -0.3
         RGO_throughput = -0.3
+        mine_rgo_eff = -0.2
         global_pop_militancy_modifier = -0.02
+        global_immigrant_attract = -1
 }
 industrial_society = {
         trigger = {
@@ -769,4 +788,5 @@ german_minors_boost = {
     tariff_efficiency_modifier = 0.4
     research_points_modifier = 0.15
     RGO_output = 0.1
+    global_population_growth = 0.001
 }

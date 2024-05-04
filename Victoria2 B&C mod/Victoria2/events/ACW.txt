@@ -172,20 +172,20 @@ country_event = {
 	mean_time_to_happen = {
 		months = 1
 		modifier = {
-			factor = 20
+			factor = 0.2
 			NOT = {
 				year = 1845
 			}
 		}
 		modifier = {
-			factor = 10
+			factor = 0.1
 			year = 1845
 			NOT = {
 				year = 1855
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 0.5
 			year = 1855
 			NOT = {
 				year = 1860

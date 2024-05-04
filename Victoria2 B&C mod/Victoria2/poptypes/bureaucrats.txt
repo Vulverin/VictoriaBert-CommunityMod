@@ -762,6 +762,27 @@ promote_to =
 				consciousness = 8
 			}
 		}
+                modifier = {
+                         factor = -500
+                         OR = {
+                                AND = { 
+                                       clergymen = 0.035
+                                       literacy = 0.75
+                                }
+                                AND = { 
+                                       clergymen = 0.03
+                                       literacy = 0.8
+                                }
+                                AND = { 
+                                       clergymen = 0.025
+                                       literacy = 0.85
+                                }
+                                AND = { 
+                                       clergymen = 0.02
+                                       literacy = 0.9
+                                }
+                       }
+                }
 	}
 	aristocrats = 
 	{
@@ -841,17 +862,11 @@ promote_to =
 		}
                 modifier = {
 			factor = 40
-			country = {
-				has_country_flag = agr_soccs3
-			}
+			craftsmen = 0.2
 		}
                 modifier = {
 			factor = -20
-			country = {
-                             NOT = {
-				   has_country_flag = agr_soccs3
-                             }
-			}
+			NOT = { craftsmen = 0.2 }
 		}
 		modifier = {
 			factor = -40

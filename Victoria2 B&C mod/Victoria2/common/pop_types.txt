@@ -44,6 +44,7 @@ promotion_chance =
 			literacy = 0.9
 		}
 	}
+
 		modifier = {
 			factor = -5
 			strata = rich
@@ -63,7 +64,6 @@ promotion_chance =
 			militancy = 7
 		}
 	}
-
 	group = {
 		modifier = {
 			factor = 0.05
@@ -87,6 +87,7 @@ promotion_chance =
                         military_spending = 0.5
 		}
 	}
+
         group = {
 		modifier = {
 			factor = 0.1
@@ -386,6 +387,27 @@ migration_chance =
 {
 	factor = 1
 
+        modifier = {
+		factor = 0.05
+		OR = {
+                        country = {
+                             has_country_flag = agr_soccs2
+			}
+                        country = {
+                             has_country_flag = agr_soccs3
+			}
+                }
+                NOT = { location = { life_rating = 36 } }
+                NOT = { location = { is_overseas = yes } }
+	}
+
+        modifier = {
+		factor = 0.05
+		country = { has_country_flag = agr_soccs3 }
+                NOT = { location = { life_rating = 36 } }
+                NOT = { location = { is_overseas = yes } }
+	}
+
 	modifier = {
 		factor = -0.4
 		state_scope = { is_colonial = yes }
@@ -487,6 +509,11 @@ migration_chance =
 		modifier = {
 			factor = 0.05
 			unemployment = 0.02
+			location = { controlled_by = owner }
+		}
+                modifier = {
+			factor = 0.05
+			unemployment = 0.05
 			location = { controlled_by = owner }
 		}
 		modifier = {
@@ -638,46 +665,21 @@ emigration_chance =
 			agree_with_ruling_party = 0.75
 		}
 	}
-	
-	modifier = {
-		factor = -0.9
-		OR = {
-                        country = { government = colonial_company }
-			AND = {
-				THIS = { is_culture_group = arab }
-				country = { is_culture_group = arab }
-			}
-			AND = {
-				THIS = { is_culture_group = east_asian }
-				country = { is_culture_group = east_asian }
-			}
-			AND = {
-				THIS = { is_culture_group = iranian_turanian }
-				country = { is_culture_group = iranian_turanian }
-			}
-			AND = {
-				THIS = { is_culture_group = central_asian }
-				country = { is_culture_group = central_asian }
-			}
-			AND = {
-				THIS = { is_culture_group = south_asian }
-				country = { is_culture_group = south_asian }
-			}
-			AND = {
-				THIS = { is_culture_group = southeast_asian }
-				country = { is_culture_group = southeast_asian }
-			}
-			AND = {
-				THIS = { is_culture_group = turko_semitic }
-				country = { is_culture_group = turko_semitic }
-			}
-		}
-                
-	}
         
-
 	group = {
 
+                modifier = {
+			factor = 0.02
+			militancy = 3
+		}
+		modifier = {
+			factor = 0.03
+			militancy = 3
+		}
+		modifier = {
+			factor = 0.05
+			militancy = 4
+		}
 		modifier = {
 			factor = 0.15
 			militancy = 5
@@ -898,8 +900,51 @@ emigration_chance =
 		location = { NOT = { controlled_by = owner } }
 	}
 	modifier = {
-		factor = -2.0
+		factor = -0.2
 		location = { nationalism = yes }
+	}        
+	
+        modifier = {
+		factor = -0.2
+		country = { has_country_flag = chinese_concs }
+	}
+        
+	modifier = {
+		factor = -0.2
+		OR = {
+                        AND = {
+                                country = { government = colonial_company }
+                                country = { NOT = { has_country_flag = chinese_concs } }
+                        }
+			AND = {
+				THIS = { is_culture_group = arab }
+				country = { is_culture_group = arab }
+			}
+			AND = {
+				THIS = { is_culture_group = east_asian }
+				country = { is_culture_group = east_asian }
+			}
+			AND = {
+				THIS = { is_culture_group = iranian_turanian }
+				country = { is_culture_group = iranian_turanian }
+			}
+			AND = {
+				THIS = { is_culture_group = central_asian }
+				country = { is_culture_group = central_asian }
+			}
+			AND = {
+				THIS = { is_culture_group = south_asian }
+				country = { is_culture_group = south_asian }
+			}
+			AND = {
+				THIS = { is_culture_group = southeast_asian }
+				country = { is_culture_group = southeast_asian }
+			}
+			AND = {
+				THIS = { is_culture_group = turko_semitic }
+				country = { is_culture_group = turko_semitic }
+			}
+		}                
 	}
 }
 

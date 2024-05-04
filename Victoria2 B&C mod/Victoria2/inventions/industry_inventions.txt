@@ -751,6 +751,9 @@ industrialized_armament_industry = {
 		factory_goods_output = {
 			explosives = 0.03
 		}
+                factory_goods_throughput = {
+			sulphur = 0.3
+		}
 	}
 }
 refrigerator_technology = {
@@ -918,31 +921,7 @@ advanced_ore_roasting_processes = {
 		}
 	}
 }
-poudre_b = {
-	limit = { cheap_iron = 1 }
-	news = no
-	chance = {
-		base = 6
-	}
-	effect = {
-		factory_goods_output = {
-			gunpowder = 0.05
-		}
-	}
-}
 
-cordite = {
-	limit = { cheap_steel = 1 }
-	news = no
-	chance = {
-		base = 6
-	}
-	effect = {
-		factory_goods_output = {
-			gunpowder = 0.05
-		}
-	}
-}
 advanced_ore_grinding_processes = {
 	limit = { cheap_iron = 1 }
 	chance = {

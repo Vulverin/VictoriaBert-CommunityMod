@@ -230,7 +230,7 @@ combustion_engine = {
 	cost = 15000
 
 	mine_rgo_eff = 0.1
-	farm_rgo_eff = 0.1
+	farm_rgo_eff = 0.15
         factory_cost = 0.05
 	factory_goods_output = {
 			fuel = 0.1
@@ -278,7 +278,7 @@ electrical_power_generation_3 = {
 	cost = 16000
 
 	mine_rgo_eff = 0.1
-	farm_rgo_eff = 0.1
+	farm_rgo_eff = 0.2
         factory_cost = 0.05
 	ai_chance = {
 		factor = 1.1
@@ -319,7 +319,7 @@ tech_power_2 = {
 	cost = 18000
 
 	mine_rgo_eff = 0.1
-	farm_rgo_eff = 0.1
+	farm_rgo_eff = 0.2
         factory_cost = 0.05
 	ai_chance = {
 		factor = 1.25
@@ -364,7 +364,7 @@ electrical_power_generation = {
 	cost = 21000
 
 	mine_rgo_eff = 0.1
-	farm_rgo_eff = 0.1
+	farm_rgo_eff = 0.2
 	factory_throughput = 0.1
         factory_cost = 0.1
 	ai_chance = {
@@ -405,8 +405,8 @@ electrical_power_generation_1 = {
 	year = 1910
 	cost = 24000
 
-	mine_rgo_eff = 0.1
-	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.15
+	farm_rgo_eff = 0.3
 	factory_throughput = 0.1
         factory_cost = 0.1
 	ai_chance = {
@@ -447,8 +447,8 @@ electrical_power_generation_2 = {
 	year = 1920
 	cost = 27000
 
-	mine_rgo_eff = 0.1
-	farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.2
+	farm_rgo_eff = 0.35
 	factory_throughput = 0.1
         factory_cost = 0.1
 	ai_chance = {

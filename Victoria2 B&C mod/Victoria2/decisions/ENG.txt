@@ -570,25 +570,25 @@ political_decisions = {
                  }
         }
 	
-        integration_irish = {
-              potential = {
-			tag = ENG
-			NOT = {
-				has_global_flag = integration_irish_1
-			}
-			
-		}
-		
-		allow = {
-			year = 1870
-                        
-		}
-
-                effect = {
-                          add_accepted_culture = irish
-                          set_global_flag = integration_irish_1
-                }
-        }
+#        integration_irish = {
+#              potential = {
+#			tag = ENG
+#			NOT = {
+#				has_global_flag = integration_irish_1
+#			}
+#			
+#		}
+#		
+#		allow = {
+#			year = 1870
+#                       
+#		}
+#
+#               effect = {
+#                          add_accepted_culture = irish
+#                          set_global_flag = integration_irish_1
+#                }
+#        }
 
         gibraltar_eng = {
                  potential = {

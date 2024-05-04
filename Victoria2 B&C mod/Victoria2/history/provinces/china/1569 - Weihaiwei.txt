@@ -2,4 +2,4 @@ owner = CHI
 controller = CHI
 trade_goods = grain
 life_rating = 32
-terrain = port_city
+terrain = chinese_city

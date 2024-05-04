@@ -30,10 +30,9 @@ colinfantry = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		small_arms = 0.006
-		gunpowder = 0.08
+		small_arms = 0.01
+		ammunition = 0.15
 		canned_food = 0.07
-                ammunition = 0.07 
 	}
 	
 

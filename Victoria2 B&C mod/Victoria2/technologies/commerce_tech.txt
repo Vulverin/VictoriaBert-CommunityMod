@@ -1056,8 +1056,8 @@ market_functionality_1 = {
 	cost = 12000
 
 	influence = 0.2
-        farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+        farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1085,8 +1085,8 @@ economic_responsibility = {
 	cost = 15000
 
 	influence = 0.2
-        farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+        farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1113,8 +1113,8 @@ market_functionality_2 = {
 	cost = 18000
 
 	influence = 0.2
-        farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+        farm_rgo_eff = 0.1
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1141,8 +1141,8 @@ market_functionality_3 = {
 	cost = 21000
 
 	influence = 0.2
-        farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+        farm_rgo_eff = 0.15
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -1169,8 +1169,8 @@ government_interventionism = {
 	cost = 23000
 
 	influence = 0.2
-        farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+        farm_rgo_eff = 0.15
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -1198,8 +1198,8 @@ government_interventionism_1 = {
 	cost = 26000
 
 	influence = 0.2
-        farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+        farm_rgo_eff = 0.15
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {
@@ -1227,8 +1227,8 @@ government_interventionism_2 = {
 	cost = 29000
 
 	influence = 0.2
-        farm_rgo_eff = 0.05
-	mine_rgo_eff = 0.05
+        farm_rgo_eff = 0.15
+	mine_rgo_eff = 0.1
 	ai_chance = {
 		factor = 1.01
 		modifier = {

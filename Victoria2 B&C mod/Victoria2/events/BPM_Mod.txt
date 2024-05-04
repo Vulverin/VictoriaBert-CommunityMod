@@ -51,7 +51,7 @@ country_event = {
                 ai = no
 		NOT = {
                       craftsmen = 0.2
-                     
+                      has_country_flag = agr_soccs3
                       has_country_flag = agr_soccs2
                 }
                  
@@ -200,6 +200,70 @@ country_event = {
                                name = national_econ_doctrine
                                duration = 7300
                 }
+        }
+}
+
+country_event = {
+	id = 14235
+	title = "EVENT14235"
+	desc = "EVTDESC14234"
+	picture = "dasdas"
+	trigger = {
+                AI = no
+                OR = {
+                      AND = {
+                           has_country_modifier = national_army_doctrine
+                           has_country_modifier = national_navy_doctrine
+                      }
+                      AND = {
+                           has_country_modifier = national_army_doctrine
+                           has_country_modifier = national_isol_doctrine
+                      }
+                      AND = {
+                           has_country_modifier = national_army_doctrine
+                           has_country_modifier = national_migr_doctrine
+                      }
+                      AND = {
+                           has_country_modifier = national_army_doctrine
+                           has_country_modifier = national_econ_doctrine
+                      }
+                      AND = {
+                           has_country_modifier = national_navy_doctrine
+                           has_country_modifier = national_isol_doctrine
+                      }
+                      AND = {
+                           has_country_modifier = national_navy_doctrine
+                           has_country_modifier = national_migr_doctrine
+                      }
+                      AND = {
+                           has_country_modifier = national_navy_doctrine
+                           has_country_modifier = national_econ_doctrine
+                      }
+                      AND = {
+                           has_country_modifier = national_isol_doctrine
+                           has_country_modifier = national_migr_doctrine
+                      }
+                      AND = {
+                           has_country_modifier = national_isol_doctrine
+                           has_country_modifier = national_econ_doctrine
+                      }
+                      AND = {
+                           has_country_modifier = national_migr_doctrine
+                           has_country_modifier = national_econ_doctrine
+                      } 
+                }
+        }
+        immediate = {
+                remove_country_modifier = national_army_doctrine
+                remove_country_modifier = national_navy_doctrine
+                remove_country_modifier = national_isol_doctrine
+                remove_country_modifier = national_migr_doctrine
+                remove_country_modifier = national_econ_doctrine
+                prestige = -20
+                badboy = 5
+        }
+	option = {
+		name = "EVENT14235"
         }
 }
 

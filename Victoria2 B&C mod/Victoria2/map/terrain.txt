@@ -227,7 +227,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                
-		supply_limit = 5
+		supply_limit = 10
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -241,7 +241,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -367,7 +367,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                 
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -381,7 +381,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                
-		supply_limit = 5
+		supply_limit = 10
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -395,7 +395,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -409,7 +409,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                 
-		supply_limit = 5
+		supply_limit = 10
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -437,7 +437,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
               
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -465,7 +465,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                 
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -479,7 +479,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -492,7 +492,7 @@ categories =  {
 		farm_rgo_eff = 0.1
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -506,7 +506,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                 
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -520,7 +520,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                 
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -549,7 +549,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
                 
-		supply_limit = 5
+		supply_limit = 20
                 min_build_fort = 7
                 combat_width = -0.3
         }
@@ -562,6 +562,21 @@ categories =  {
 		farm_rgo_eff = 0.1
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.2
+               
+		supply_limit = 5
+                min_build_fort = 7
+                combat_width = -0.2
+        }
+
+        chinese_city = {
+                movement_cost = 3.0
+                defence = 1
+		color = { 137 104 165 }
+		farm_rgo_size = 0.5
+		farm_rgo_eff = -0.3
+		mine_rgo_size = 0.5
+		mine_rgo_eff = -0.3
+                immigrant_push = -0.99
                
 		supply_limit = 5
                 min_build_fort = 7

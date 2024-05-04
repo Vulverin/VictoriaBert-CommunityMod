@@ -773,7 +773,7 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		irregular = {
-			defence = 7
+			defence = 5
 			supply_consumption = 0.20
 		}
 		infantry = {
@@ -805,7 +805,7 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 6
+			attack = 4
 			supply_consumption = 0.20
 		}
 	}

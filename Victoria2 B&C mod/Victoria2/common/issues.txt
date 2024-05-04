@@ -489,7 +489,7 @@ political_reforms = {
 		}
 		7_years_draft = {
 			education_efficiency_modifier = -0.15
-			global_immigrant_attract = -0.4
+			global_immigrant_attract = -0.45
 			unit_start_experience = 0.15
 			mobilisation_size = -0.04
 			mobilization_impact = 0.2
@@ -498,7 +498,7 @@ political_reforms = {
 		}
 		4_years_draft = {
 			education_efficiency_modifier = -0.1
-			global_immigrant_attract = -0.35
+			global_immigrant_attract = -0.40
 			unit_start_experience = 0.1
 			mobilisation_size = -0.06
 			land_organisation = 0.05
@@ -506,7 +506,7 @@ political_reforms = {
 		}
 		1_years_draft = {
 			education_efficiency_modifier = -0.05
-			global_immigrant_attract = -0.3
+			global_immigrant_attract = -0.35
 			unit_start_experience = 0.05
 			mobilisation_size = -0.08
 			mobilization_impact = -0.1
@@ -525,7 +525,7 @@ political_reforms = {
 			}
 			mobilisation_size = -0.1
 			mobilization_impact = -0.2
-			global_immigrant_attract = -0.2
+			global_immigrant_attract = -0.3
 			unit_recruitment_time = 0.25
 			land_organisation = 0.15
 			org_regain = -0.1
@@ -809,28 +809,28 @@ social_reforms = {
         trinket_health_care = {
             administrative_multiplier = 1
             global_immigrant_attract = 0.02
-            tax_efficiency = -0.02
+            tax_efficiency = -0.04
             
         }
         low_health_care = {
             administrative_multiplier = 2
             global_pop_consciousness_modifier = 0.01
             global_immigrant_attract = 0.04
-            tax_efficiency = -0.05
+            tax_efficiency = -0.08
             
         }
         acceptable_health_care = {
             global_pop_consciousness_modifier = 0.01
             administrative_multiplier = 3
             global_immigrant_attract = 0.08
-            tax_efficiency = -0.08
+            tax_efficiency = -0.14
             
         }
         good_health_care = {
             administrative_multiplier = 4
             global_pop_consciousness_modifier = 0.02
             global_immigrant_attract = 0.12
-            tax_efficiency = -0.12
+            tax_efficiency = -0.2
             
         }
     }
@@ -854,14 +854,14 @@ social_reforms = {
             global_immigrant_attract = 0.05
             global_pop_consciousness_modifier = 0.02
             administrative_multiplier = 2
-            tax_efficiency = -0.02
+            tax_efficiency = -0.03
         }
         good_schools = {
             global_assimilation_rate = 0.15
             global_immigrant_attract = 0.1
             global_pop_consciousness_modifier = 0.02
             administrative_multiplier = 3
-            tax_efficiency = -0.04
+            tax_efficiency = -0.05
         }
     }
 

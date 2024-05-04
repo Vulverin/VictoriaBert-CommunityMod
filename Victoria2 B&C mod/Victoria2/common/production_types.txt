@@ -528,8 +528,7 @@ regular_clothes_factory = {
 explosives_factory = {       
 	template = cheap_factory_template	#24
 	input_goods = {   
-		fertilizer = 1.25
-                gunpowder = 2		
+		fertilizer = 1.25		
 		ammunition = 0.3
 	}
 	output_goods = explosives 
@@ -549,16 +548,11 @@ explosives_factory = {
 ammunition_factory = {       
 	template = cheap_factory_template	#24
 	input_goods = {      
-		gunpowder = 1.5			#20
-		sulphur = 1.6		
+		sulphur = 5.6		
 		steel = 2.2			#110.4
 	}
 	output_goods = ammunition 
 	value = 3.75
-	bonus = {
-		trigger = { has_building = gunpowder_factory }
-		value = 0.15
-	}
 }
 
 canned_food_factory = {       
@@ -582,10 +576,10 @@ canned_food_factory = {
 dye_factory = {       
 	template = cheap_factory_template	#24
 	input_goods = {     
-		shares = 9
+		shares = 12
 	}
 	output_goods = dye 
-	value = 3
+	value = 1.2
         bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.15
@@ -733,20 +727,6 @@ shares_factory = {
 	value = 20			#150
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
-		value = 0.2
-	}
-}
-
-gunpowder_factory = {       
-	template = cheap_factory_template	#24
-	input_goods = {   
-		sulphur = 4			#70
-		shares = 6
-	}
-	output_goods = gunpowder 
-	value = 6.7
-	bonus = {
-		trigger = { trade_goods_in_state = sulphur }
 		value = 0.2
 	}
 }
@@ -1486,34 +1466,11 @@ artisan_regular_silk_clothes = {
 	workforce = 10000
 }
 
-artisan_explosives = {       
-	input_goods = {   
-		gunpowder = 1
-	}
-	output_goods = explosives 
-	value = 1.75
-	
-	owner = {
-		poptype = artisan
-		effect = output
-	}
-	employees = {		
-		{ 
-			poptype = artisan
-			effect = throughput
-		}
-	}
-	type = artisan
-	
-	workforce = 10000
-}
-
 ############# CHEAP FACTORIES
 
 artisan_ammunition = {       
 	input_goods = {      
-		gunpowder = 1.5			#20
-		sulphur = 1.6		
+		sulphur = 4.6		
 		steel = 2.2
 	}
 	output_goods = ammunition 
@@ -1943,29 +1900,6 @@ artisan_moonshiner = {
 	type = artisan
 	
 	
-	workforce = 10000
-}
-
-artisan_powderer = {       
-	input_goods = {   
-		sulphur = 4
-		shares = 6
-	}
-	output_goods = gunpowder 
-	value = 6.5
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	employees = {		
-		{ 
-			poptype = artisan
-			effect = throughput
-		}
-	}
-	type = artisan
-
 	workforce = 10000
 }
 

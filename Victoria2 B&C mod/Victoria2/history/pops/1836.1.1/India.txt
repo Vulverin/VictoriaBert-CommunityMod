@@ -120,7 +120,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = sunni
-		size = 7000
+		size = 700
 	}
 
 	farmers = {
@@ -196,7 +196,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = sunni
-		size = 7000
+		size = 700
 	}
 
 	farmers = {
@@ -1856,7 +1856,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 10000
+		size = 3000
 	}
 
 	farmers = {
@@ -1906,7 +1906,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 8000
+		size = 800
 	}
 
 	farmers = {
@@ -1986,7 +1986,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 6000
+		size = 600
 	}
 
 	farmers = {
@@ -2090,7 +2090,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 6000
+		size = 600
 	}
 
 	farmers = {
@@ -2164,7 +2164,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 6000
+		size = 600
 	}
 
 	farmers = {
@@ -2355,7 +2355,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 4500
+		size = 450
 	}
 
 	farmers = {
@@ -2444,7 +2444,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 6500
+		size = 650
 	}
 
 	farmers = {
@@ -2616,7 +2616,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 6000
+		size = 600
 	}
 
 	farmers = {
@@ -2690,7 +2690,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 4500
+		size = 450
 	}
 
 	farmers = {
@@ -2833,13 +2833,13 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 15000
+		size = 500
 	}
 
 	farmers = {
 		culture = avadhi
 		religion = hindu
-		size = 966500
+		size = 976500
 	}
 
 	aristocrats = {
@@ -2949,13 +2949,13 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 6000
+		size = 600
 	}
 
 	farmers = {
 		culture = avadhi
 		religion = hindu
-		size = 565250
+		size = 585250
 	}
 
 	aristocrats = {
@@ -3041,7 +3041,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 10000
+		size = 3000
 	}
 
 	farmers = {
@@ -3115,13 +3115,13 @@
 	soldiers = {
 		culture = avadhi
 		religion = sunni
-		size = 7000
+		size = 700
 	}
 
 	farmers = {
 		culture = avadhi
 		religion = sunni
-		size = 688000
+		size = 698000
 	}
 
 	aristocrats = {
@@ -3157,7 +3157,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 5000
+		size = 500
 	}
 
 	farmers = {
@@ -3349,7 +3349,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = sunni
-		size = 8500
+		size = 850
 	}
 
 	farmers = {
@@ -3391,7 +3391,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 6000
+		size = 600
 	}
 
 	farmers = {
@@ -4151,7 +4151,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7000
+		size = 700
 	}
 
 	farmers = {
@@ -4226,13 +4226,13 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 16000
+		size = 400
 	}
 
 	farmers = {
 		culture = avadhi
 		religion = hindu
-		size = 227625
+		size = 247625
 	}
 
 	clergymen = {
@@ -4301,7 +4301,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7000
+		size = 3000
 	}
 
 	farmers = {
@@ -4388,7 +4388,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7000
+		size = 3000
 	}
 
 	farmers = {
@@ -4459,7 +4459,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7000
+		size = 700
 	}
 
 	farmers = {
@@ -4528,7 +4528,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7000
+		size = 2000
 	}
 
 	farmers = {
@@ -4597,13 +4597,13 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7000
+		size = 2000
 	}
 
 	farmers = {
 		culture = avadhi
 		religion = hindu
-		size = 181100
+		size = 191100
 	}
 
 	clergymen = {
@@ -4746,7 +4746,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 4000
+		size = 400
 	}
 
 	farmers = {
@@ -4852,7 +4852,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7500
+		size = 700
 	}
 
 	farmers = {
@@ -4996,7 +4996,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 3750
+		size = 550
 	}
 
 	farmers = {
@@ -5207,7 +5207,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 3000
+		size = 500
 	}
 
 	farmers = {
@@ -5276,7 +5276,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7000
+		size = 500
 	}
 
 	farmers = {
@@ -5440,7 +5440,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 3500
+		size = 500
 	}
 
 	farmers = {
@@ -5500,7 +5500,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = sunni
-		size = 7000
+		size = 1000
 	}
 
 	farmers = {
@@ -5748,7 +5748,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 3500
+		size = 1000
 	}
 
 	farmers = {
@@ -5825,7 +5825,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = sunni
-		size = 4000
+		size = 1000
 	}
 
 	farmers = {
@@ -5911,7 +5911,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = sunni
-		size = 4000
+		size = 1000
 	}
 
 	farmers = {
@@ -5967,7 +5967,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = sunni
-		size = 4000
+		size = 1000
 	}
 
 	farmers = {
@@ -6217,13 +6217,13 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 4500
+		size = 1000
 	}
 
 	farmers = {
 		culture = avadhi
 		religion = hindu
-		size = 416500
+		size = 446500
 	}
 
 	aristocrats = {
@@ -6297,13 +6297,13 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 10000
+		size = 3000
 	}
 
 	farmers = {
 		culture = avadhi
 		religion = hindu
-		size = 354300
+		size = 364300
 	}
 
 	aristocrats = {
@@ -6372,7 +6372,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 5000
+		size = 1000
 	}
 
 	farmers = {
@@ -6446,7 +6446,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7000
+		size = 2000
 	}
 
 	farmers = {
@@ -6541,7 +6541,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 5000
+		size = 1000
 	}
 
 	farmers = {
@@ -7216,7 +7216,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 4500
+		size = 1000
 	}
 
 	farmers = {
@@ -7435,13 +7435,13 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 10000
+		size = 2000
 	}
 
 	farmers = {
 		culture = avadhi
 		religion = hindu
-		size = 855000
+		size = 866000
 	}
 
 	clergymen = {
@@ -7711,7 +7711,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 5000
+		size = 2000
 	}
 
 	farmers = {
@@ -8409,7 +8409,7 @@
 	soldiers = {
 		culture = avadhi
 		religion = hindu
-		size = 7000
+		size = 700
 	}
 
 	farmers = {
