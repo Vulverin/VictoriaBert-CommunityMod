@@ -475,69 +475,91 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.004 }
+				factor = -20
+				state_scope = { bureaucrats = 0.005 }
 			}
 			modifier = {
 				factor = -2
+				state_scope = { bureaucrats = 0.006 }
+			}
+                        modifier = {
+				factor = -2
 				state_scope = { bureaucrats = 0.008 }
+			}
+                        modifier = {
+				factor = -2
+				state_scope = { bureaucrats = 0.01 }
 			}
 			modifier = {
 				factor = -2
 				state_scope = { bureaucrats = 0.012 }
 			}
+                        modifier = {
+				factor = -2
+				state_scope = { bureaucrats = 0.014 }
+			}
 			modifier = {
 				factor = -2
 				state_scope = { bureaucrats = 0.016 }
+			}
+                        modifier = {
+				factor = -2
+				state_scope = { bureaucrats = 0.018 }
 			}
 			modifier = {
 				factor = -2
 				state_scope = { bureaucrats = 0.020 }
 			}
-			modifier = {
+                        modifier = {
+				factor = -2
+				state_scope = { bureaucrats = 0.022 }
+			}
+                        modifier = {
 				factor = -2
 				state_scope = { bureaucrats = 0.024 }
 			}
 			modifier = {
 				factor = -2
+				state_scope = { bureaucrats = 0.026 }
+			}
+			modifier = {
+				factor = -2
 				state_scope = { bureaucrats = 0.028 }
+			}
+                        modifier = {
+				factor = -2
+				state_scope = { bureaucrats = 0.03 }
 			}
 			modifier = {
 				factor = -2
 				state_scope = { bureaucrats = 0.032 }
 			}
+                        modifier = {
+				factor = -2
+				state_scope = { bureaucrats = 0.034 }
+			}
 			modifier = {
 				factor = -2
 				state_scope = { bureaucrats = 0.036 }
 			}
-			modifier = {
+                        modifier = {
 				factor = -2
-				state_scope = { bureaucrats = 0.040 }
+				state_scope = { bureaucrats = 0.038 }
 			}
 			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.044 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.048 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.052 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.056 }
-			}
-			modifier = {
-				factor = -1000
-				state_scope = { bureaucrats = 0.060 }
+				factor = -100
+				state_scope = { bureaucrats = 0.042 }
 			}
 		}
+                modifier = {
+			factor = 20
+                        NOT = { state_scope = { bureaucrats = 0.012 }
+                        }
+                        location = { is_colonial = yes }
+		}	
 		
 		modifier = {
-			factor = 4
+			factor = 2
 			health_care = trinket_health_care
 		}
 		modifier = {
@@ -545,72 +567,72 @@ promote_to =
 			health_care = low_health_care
 		}
 		modifier = {
-			factor = 12
+			factor = 14
 			health_care = acceptable_health_care
 		}
 		modifier = {
-			factor = 16
+			factor = 20
 			health_care = good_health_care  
 		}
 		modifier = {
-			factor = 4
+			factor = 2
 			school_reforms = low_schools  
 		}		
 		modifier = {
-			factor = 8
+			factor = 4
 			school_reforms = acceptable_schools
 		}	
 		modifier = {
-			factor = 12
+			factor = 6
 			school_reforms = good_schools 
 		}	
 		modifier = {
-			factor = 4
+			factor = 2
 			safety_regulations = trinket_safety
 		}
 		modifier = {
-			factor = 8
+			factor = 4
 			safety_regulations = low_safety
 		}		
 		modifier = {
-			factor = 12
+			factor = 6
 			safety_regulations = acceptable_safety
 		}
 		modifier = {
-			factor = 16
+			factor = 8
 			safety_regulations = good_safety
 		}
 		
 		modifier = {
-			factor = 4
+			factor = 2
 			work_hours = fourteen_hours
 		}
 		modifier = {
-			factor = 8
+			factor = 4
 			work_hours = twelve_hours
 		}		
 		modifier = {
-			factor = 12
+			factor = 6
 			work_hours  = ten_hours
 		}
 		modifier = {
-			factor = 16
+			factor = 8
 			work_hours = eight_hours
 		}
 		modifier = {
-			factor = 4
+			factor = 2
 			wage_reform = trinket_wage
 		}
 		modifier = {
-			factor = 8
+			factor = 4
 			wage_reform = low_minimum_wage
 		}		
 		modifier = {
-			factor = 12
+			factor = 6
 			wage_reform  = acceptable_minimum_wage
 		}
 		modifier = {
-			factor = 16
+			factor = 8
 			wage_reform = good_minimum_wage
 		}
 		
