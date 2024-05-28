@@ -60,7 +60,7 @@ cheap_factory_template = {
 
 cement_factory_template = {
 	efficiency = {
-		machine_parts = 0.12  #if no coal, work at 75% efficiency  total cost £20
+		machine_parts = 0.12  #if no coal, work at 75% efficiency  total cost ï¿½20
    }
 	
 	owner =
@@ -350,11 +350,11 @@ luxury_clothes_factory = {
 luxury_furniture_factory = {       
 	template = factory_template		#100
 	input_goods = { 
-		furniture = 1.5			#68
-		tropical_wood = 3		#300
+		furniture = 1.6			#68
+		tropical_wood = 4		#300
 	}
 	output_goods = luxury_furniture 
-	value = 1.2				#630
+	value = 1				#630
 	bonus = {
 		trigger = { has_building = furniture_factory }
 		value = 0.1
@@ -372,7 +372,7 @@ synthetic_sulfur_factory = {
         shares = 20   
     }
     output_goods = sulphur
-    value = 1
+    value = 1.3
     bonus = {
         trigger = { trade_goods_in_state = coal }
         value = 0.1
@@ -407,7 +407,7 @@ artillery_factory = {
 		steel = 5		#80	#130
 	}
 	output_goods = artillery
-	value = 1.2
+	value = 1.4
         bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
@@ -450,7 +450,7 @@ small_arms_factory = {
                 timber = 1		#350
 	}
 	output_goods = small_arms 
-	value = 1
+	value = 1.2
         bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
@@ -484,7 +484,7 @@ lead_factory = {
 furniture_factory = {       
 	template = factory_template     #50
 	input_goods = { 
-		lumber = 12		#294		#60
+		lumber = 16		#294		#60
 	}
 	output_goods = furniture 
 	value = 11
@@ -501,7 +501,7 @@ furniture_factory = {
 paper_mill = {       
 	template = cheap_factory_template	#25
 	input_goods = { 
-		lumber = 12		#147
+		lumber = 16		#147
 	}
 	output_goods = paper 
 	value = 16
@@ -514,7 +514,7 @@ paper_mill = {
 regular_clothes_factory = {       
 	template = factory_template	#50
 	input_goods = {  
-		fabric = 16
+		fabric = 20.5
 
 	}
 	output_goods = regular_clothes 
@@ -552,7 +552,7 @@ ammunition_factory = {
 		steel = 2.2			#110.4
 	}
 	output_goods = ammunition 
-	value = 3.75
+	value = 4.2
 }
 
 canned_food_factory = {       
@@ -562,7 +562,7 @@ canned_food_factory = {
                 cattle = 5
 	}
 	output_goods = canned_food 
-	value = 3.75
+	value = 4.2
         bonus = {
 		trigger = { trade_goods_in_state = cattle }
 		value = 0.1
@@ -576,7 +576,7 @@ canned_food_factory = {
 dye_factory = {       
 	template = cheap_factory_template	#24
 	input_goods = {     
-		shares = 12
+		shares = 13
 	}
 	output_goods = dye 
 	value = 1.2
@@ -590,7 +590,7 @@ dye_factory = {
 liquor_distillery = {       
 	template = cheap_factory_template	#24
 	input_goods = {        
-		grain = 10			#135
+		grain = 16			#135
 		glass = 3			#42
 	}
 	output_goods = liquor 
@@ -605,7 +605,7 @@ liquor_distillery = {
 winery = {       
 	template = factory_template	#50
 	input_goods = {  
-		fruit = 14
+		fruit = 20
 		glass = 3		#70
 	}
 	output_goods = wine 
@@ -622,7 +622,7 @@ winery = {
 lumber_mill = {       
 	template = cheap_factory_template     #24
 	input_goods = {       
-		timber = 35   #158
+		timber = 45   #158
 	}
 	output_goods = lumber 
 	value = 27
@@ -635,7 +635,7 @@ lumber_mill = {
 fabric_factory = {       
 	template = cheap_factory_template	#24
 	input_goods = {     
-		cotton = 9
+		cotton = 13
                 dye = 1		#180
 	}
 	output_goods = fabric 
@@ -658,7 +658,7 @@ cement_factory = {
 glass_factory = {       
 	template = cheap_factory_template	#24
 	input_goods = {            
-		shares = 8.4		#46
+		shares = 11		#46
 	}
 	output_goods = glass 
 	value = 9
@@ -703,7 +703,7 @@ coal_plant = {
 bakery = {       
 	template = factory_template	#24
 	input_goods = { 
-		grain = 8
+		grain = 11
 	}
 	output_goods = canned_food 
 	value = 2.8
@@ -734,7 +734,7 @@ shares_factory = {
 wool_mill = {       
 	template = cheap_factory_template	#24
 	input_goods = {     
-		wool = 10
+		wool = 24
 	}
 	output_goods = fabric 
 	value = 12
@@ -747,11 +747,11 @@ wool_mill = {
 spices_factory = {
         template = factory_template	#50
 	input_goods = {   
-		grain = 8
+		grain = 12
                 sugar = 2
 	}
 	output_goods = spices 
-	value = 9
+	value = 12
         bonus = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.2
@@ -761,7 +761,7 @@ spices_factory = {
 Cigarette_factory = {
 	template = factory_template	#50
 	input_goods = {   
-		tobacco = 6
+		tobacco = 8
 		paper = 4
 	}
 	output_goods = cigarettes 
@@ -771,11 +771,11 @@ Cigarette_factory = {
 rum_distillery = {       
 	template = cheap_factory_template	#48
 	input_goods = {        
-		sugar = 10
-		glass = 5			#70
+		sugar = 12.5
+		glass = 6			#70
 	}
 	output_goods = liquor 
-	value = 17.5
+	value = 18
 	bonus = {
 		trigger = { trade_goods_in_state = sugar }
 		value = 0.2
@@ -785,7 +785,7 @@ rum_distillery = {
 shoe_factory = {
 	template = factory_template	#50
 	input_goods = {   
-		fabric = 10		#120
+		fabric = 13		#120
 	}
 	output_goods = shoes 
 	value = 9.2
@@ -827,7 +827,7 @@ fish_cannery = {
                 fish = 8
 	}
 	output_goods = canned_food 
-	value = 3
+	value = 3.2
         bonus = {
 		trigger = { trade_goods_in_state = fish }
 		value = 0.1
@@ -859,7 +859,7 @@ fruit_cannery = {
 sugar_beet_refinery = {       
 	template = cheap_factory_template	#24
 	input_goods = { 
-		fruit = 5
+		fruit = 11
 		}
 	output_goods = sugar
 	value = 7.2
@@ -872,7 +872,7 @@ sugar_beet_refinery = {
 newspaper = { 
 	template = factory_template	#50
 	input_goods = {
-	paper = 12
+	paper = 14
  	}
 	output_goods = print
 	value = 22.5

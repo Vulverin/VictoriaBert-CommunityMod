@@ -369,7 +369,7 @@ government_proletarian_dictatorship = {
 	}
         culture_tech_research_bonus = 0.1
 	factory_throughput = 0.1
-        tax_efficiency = 0.12
+        tax_efficiency = 0.08
 	mobilisation_size = 0.04
 	global_assimilation_rate = 0.2
 	war_exhaustion = -0.1
@@ -406,7 +406,7 @@ government_fascist_dictatorship = {
 	}
 	mobilization_economy_impact = -0.5
 	land_organisation = 0.1
-        tax_efficiency = 0.1
+        tax_efficiency = 0.06
 	factory_input = -0.05
         factory_throughput = -0.10
 	core_pop_militancy_modifier = -0.02
@@ -508,10 +508,7 @@ industrial_society = {
                 has_country_flag = agr_soccs3
         }
         icon = 18
-        research_points_modifier = 0.5
-        RGO_output = 0.1
-        mine_rgo_eff = 0.3
-	farm_rgo_eff = -0.2
+        mine_rgo_eff = 0.1
         icon = 13        
 }
 
@@ -521,10 +518,7 @@ post_agricultural_society = {
         }
         icon = 18
         factory_input = 0.05
-        factory_throughput = -0.15
-        RGO_output = -0.05
-        mine_rgo_eff = -0.15
-	farm_rgo_eff = 0.10
+        factory_throughput = -0.1
         factory_owner_cost = 0.15
         icon = 13        
 }
@@ -538,11 +532,9 @@ agricultural_society = {
         }
         icon = 18
         factory_input = 0.1
-        factory_throughput = -0.30
-        RGO_output = -0.15
-        mine_rgo_eff = -0.30
-	farm_rgo_eff = 0.20
-        factory_owner_cost = 0.3
+        factory_throughput = -0.2
+        mine_rgo_eff = -0.1
+        factory_owner_cost = 0.5
         icon = 13        
 }
 

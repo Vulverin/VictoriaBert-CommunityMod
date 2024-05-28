@@ -1233,6 +1233,9 @@ artificial_fertilizers = {
 		factory_goods_output = {
 			fertilizer = 0.05
 		}
+                factory_goods_throughput = {
+			sulphur = 0.6
+		}
 	}
 }
 nitroglycerin = {
@@ -1496,6 +1499,9 @@ rayon = {
 		factory_goods_output = {
 			fabric = 0.05
 		} 
+                factory_goods_throughput = {
+			sulphur = 0.4
+		}
 	}
 }
 bakelite = {
