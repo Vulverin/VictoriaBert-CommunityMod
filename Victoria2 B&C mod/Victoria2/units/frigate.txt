@@ -20,11 +20,11 @@ frigate = {
 	#Building Costs
 	build_time = 2500
 	build_cost = {
-		steamer_convoy = 5000
-		artillery = 2250
-		canned_food = 2100
-		telephones = 320
-		fuel = 575
+		steamer_convoy = 35000
+		artillery = 22500
+		canned_food = 21000
+		telephones = 3200
+		fuel = 5750
 	}
 	min_port_level = 6
 	limit_per_port = -1
@@ -32,7 +32,7 @@ frigate = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 3.16
+		steamer_convoy = 3.18
 		artillery = 3.04
 		canned_food = 3.15
                 telephones = 0.56

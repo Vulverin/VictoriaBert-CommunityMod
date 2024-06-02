@@ -28,9 +28,9 @@ irregular = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		small_arms = 0.01
-		ammunition = 0.1
-		canned_food = 0.07
+		small_arms = 0.013
+		ammunition = 0.12
+		canned_food = 0.11
 	}
 	
 

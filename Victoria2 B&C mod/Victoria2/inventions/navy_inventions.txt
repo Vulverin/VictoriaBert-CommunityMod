@@ -102,12 +102,6 @@ big_ship_competitor = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
-		}
-		steam_transport = {
-			gun_power = -1
-		}
-		clipper_transport = {
 			gun_power = -1
 		}
 	}
@@ -190,12 +184,6 @@ offensive_attitude = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
-		}
-		clipper_transport = {
-			gun_power = -1
-		}
-		steam_transport = {
 			gun_power = -1
 		}
 		
@@ -243,12 +231,6 @@ decisive_firepower_doctrine = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
-		}
-		clipper_transport = {
-			gun_power = -1
-		}
-		steam_transport = {
 			gun_power = -1
 		}		
 	}
@@ -268,12 +250,6 @@ naval_firepower_doctrine = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
-		}
-		clipper_transport = {
-			gun_power = -1
-		}
-		steam_transport = {
 			gun_power = -1
 		}		
 	}
@@ -818,7 +794,10 @@ modern_battleships = {
 #}
 #fire_control_systems
 optical_rangefinders = {
-	limit = { iron_muzzle_loaded_artillery = 1 }
+	limit = { 
+        year = 1850
+        iron_muzzle_loaded_artillery = 1 
+        }
 	chance = {
 		base = 2
 		modifier = {
@@ -832,18 +811,15 @@ optical_rangefinders = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
-		}
-		clipper_transport = {
-			gun_power = -1
-		}
-		steam_transport = {
 			gun_power = -1
 		}		
 	}
 }
 gyrostabilized_fire_control = {
-	limit = { iron_muzzle_loaded_artillery = 1 }
+	limit = { 
+        year = 1860
+        iron_muzzle_loaded_artillery = 1 
+        }
 	chance = {
 		base = 2
 		modifier = {
@@ -857,14 +833,8 @@ gyrostabilized_fire_control = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
-		} 
-		clipper_transport = {
 			gun_power = -1
-		}
-		steam_transport = {
-			gun_power = -1
-		}		
+		} 		
 	}
 }
 #torpedo_gyroscope = {
@@ -912,13 +882,7 @@ armour_piercing_projectiles = {
 	effect = {
 		navy_base = {
 			gun_power = 1
-		} 
-		clipper_transport = {
-			gun_power = -1
-		}
-		steam_transport = {
-			gun_power = -1
-		}		
+		} 		
 	}
 }
 armour_piercing_exploding_projectiles = {
@@ -937,14 +901,7 @@ armour_piercing_exploding_projectiles = {
 	effect = {
 		navy_base = {
 			gun_power = 1
-		} 
-		clipper_transport = {
-			gun_power = -1
-		}
-		steam_transport = {
-			gun_power = -1
-		}		
-		
+		} 				
 	}
 }
 armoured_turrets = {
@@ -982,12 +939,6 @@ bomb_guns = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
-		}
-		clipper_transport = {
-			gun_power = -1
-		}
-		steam_transport = {
 			gun_power = -1
 		}		
 	}
@@ -1007,12 +958,6 @@ rifled_guns = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
-		}
-		clipper_transport = {
-			gun_power = -1
-		}
-		steam_transport = {
 			gun_power = -1
 		}		
 	}
@@ -1032,12 +977,6 @@ quick_firing_guns = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
-		}
-		clipper_transport = {
-			gun_power = -1
-		}
-		steam_transport = {
 			gun_power = -1
 		}		
 	}

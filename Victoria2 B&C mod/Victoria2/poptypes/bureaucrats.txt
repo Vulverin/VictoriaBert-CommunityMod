@@ -55,26 +55,22 @@ luxury_needs = {
 }
 
 everyday_needs = {
-        sugar = 1
-	liquor = 4
-	regular_clothes = 4
-        luxury_clothes = 2
-        print = 5
-        luxury_furniture = 3
+        sugar = 2
+	liquor = 5
+	regular_clothes = 5
+        luxury_clothes = 3
+        print = 6
+        luxury_furniture = 4
 	furniture = 10
-        electric_power = 20
-        telephones = 16
-        radio = 8
-	automobiles = 8
 	paper = 15
 	glass = 1
-        shoes = 2
-        cigarettes = 2
-	tea = 6
-        cattle = 1.65
+        shoes = 3
+        cigarettes = 3
+	tea = 7
+        cattle = 2
 	wool =  3
         spices = 3
-	fish =  1.8
+	fish =  2
         financial_services = 5
 	fruit =  4
 	grain =  6
@@ -83,13 +79,17 @@ everyday_needs = {
 	steel = 1
 	cotton = 3
 	timber = 5
+        radio = 8
+	automobiles = 8
+        electric_power = 20
+        telephones = 16
 }
 life_needs = {
-	cattle = 1.65
+	cattle = 2
 	wool =  3
-	fish =  1.8
-	fruit =  3.45
-	grain =  5.85
+	fish =  2
+	fruit =  3.5
+	grain =  6
 }
 
 
@@ -450,8 +450,29 @@ promote_to =
 		}
 		modifier = {
 			factor = -100
+                        NOT = { year = 1850 }
+			officers = 0.001
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1860 }
 			officers = 0.002
-		}		
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1870 }
+			officers = 0.003
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1880 }
+			officers = 0.004
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1890 }
+			officers = 0.005
+		}				
 
 		modifier = {
 			factor = 5

@@ -2,7 +2,7 @@ sprite = 2
 color = { 119 98 34 }
 strata = middle
 leadership = 3
-research_optimum = 0.002	#used for leadership as well.
+research_optimum = 0.001	#used for leadership as well.
 
 
 
@@ -35,20 +35,20 @@ luxury_needs_income = {
 
 luxury_needs = {
 	opium = 1.0
-	luxury_clothes = 1
-	luxury_furniture = 1
+	luxury_clothes = 3
+	luxury_furniture = 3
 	electric_power = 6
         telephones = 4
         spices = 3
 	automobiles = 1.0
 	wine = 2
-        cigarettes = 2
+        cigarettes = 3
         financial_services = 4
 	aeroplanes = 0.4
 	radio = 1.0
-	fuel = 0.2
-	coffee = 2
-        cattle = 0.55
+	fuel = 0.4
+	coffee = 3
+        cattle = 0.7
 	wool =  1.0
 	fish =  0.6
 	fruit =  1.15
@@ -58,16 +58,16 @@ luxury_needs = {
 everyday_needs = {
 	coal = 1
         sugar = 3
-	print = 3
-	liquor = 2.5
-	regular_clothes = 2.5
-	furniture = 2
-	paper = 2.5
-	glass = 1
-	cigarettes = 1
-	tea = 3
-        shoes = 3
-        spices = 3
+	print = 5
+	liquor = 5
+	regular_clothes = 5
+	furniture = 4
+	paper = 4
+	glass = 3
+	cigarettes = 2
+	tea = 4
+        shoes = 5
+        spices = 4
 	electric_power = 20
         telephones = 4
         cattle = 0.55
@@ -80,11 +80,11 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 0.55
-	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	cattle = 0.7
+	wool =  1.2
+	fish =  0.8
+	fruit =  1.4
+	grain =  2
 }
 
 

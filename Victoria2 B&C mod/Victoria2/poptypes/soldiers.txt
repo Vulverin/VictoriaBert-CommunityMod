@@ -280,7 +280,7 @@ promote_to =
 		factor = 0.01
 		group = {
 			modifier = {
-				factor = -10
+				factor = -100
 				location = { 
 					officers = 0.001
 				}

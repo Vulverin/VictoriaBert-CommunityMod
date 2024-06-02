@@ -564,7 +564,28 @@ promote_to =
 		}
 		modifier = {
 			factor = -100
+                        NOT = { year = 1850 }
+			officers = 0.001
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1860 }
 			officers = 0.002
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1870 }
+			officers = 0.003
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1880 }
+			officers = 0.004
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1890 }
+			officers = 0.005
 		}		
 
 		modifier = {
