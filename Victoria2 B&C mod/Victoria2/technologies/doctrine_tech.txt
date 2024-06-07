@@ -310,9 +310,9 @@ military_tech_2 = {
 	cost = 6000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -0.40
+		supply_consumption = -0.50
 	}
         
 }
@@ -322,9 +322,9 @@ military_tech_3 = {
 	cost = 9000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -0.80
+		supply_consumption = -1
 	}
         
 }
@@ -334,9 +334,9 @@ military_tech_4 = {
 	cost = 11000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1
+		supply_consumption = -1.2
 	}
         
 }
@@ -346,9 +346,9 @@ military_tech_5 = {
 	cost = 15000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1
+		supply_consumption = -1.3
 	}
         
 }
@@ -358,9 +358,9 @@ military_tech_6 = {
 	cost = 18000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1.2
+		supply_consumption = -1.5
 	}
         
 }
@@ -370,9 +370,9 @@ military_tech_7 = {
 	cost = 21000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1.6
+		supply_consumption = -2
 	}
         
 }
@@ -382,9 +382,9 @@ military_tech_8 = {
 	cost = 24000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -2
+		supply_consumption = -2.2
 	}
         
 }
@@ -394,9 +394,9 @@ military_tech_9 = {
 	cost = 26000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -2
+		supply_consumption = -2.3
 	}
         
 }
@@ -406,9 +406,9 @@ military_tech_10 = {
 	cost = 29000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -2
+		supply_consumption = -2.5
 	}
         
 }
@@ -418,9 +418,9 @@ military_tech_11 = {
 	cost = 31000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -2
+		supply_consumption = -2.5
 	}
         
 }

@@ -4,5 +4,5 @@ add_core = AUS
 add_core = SER
 add_core = HUN
 add_core = YUG
-trade_goods = fish
+trade_goods = grain
 life_rating = 35

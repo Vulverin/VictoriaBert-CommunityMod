@@ -26,9 +26,4 @@ terrain = copenhagen_city
 		building = clipper_shipyard
 		upgrade = yes
 	}
-	state_building = {
-		level = 1
-		building = liquor_distillery
-		upgrade = yes
-	}
 }

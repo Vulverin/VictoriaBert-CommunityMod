@@ -1,7 +1,7 @@
 owner = SPA
 controller = SPA terrain = city_958 
 add_core = SPA
-trade_goods = fruit
+trade_goods = grain
 life_rating = 37
 #state_building = {
 #	level = 1

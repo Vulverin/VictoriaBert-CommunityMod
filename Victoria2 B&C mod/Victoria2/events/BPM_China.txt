@@ -99,6 +99,7 @@ country_event = {
                                 NOT = {
                                       tag = BOC
                                       tag = FOC
+                                      tag = ENI
                                 }
 			}
 			country_event = 100402

@@ -2,7 +2,7 @@ owner = HAN
 controller = HAN
 add_core = HAN terrain = port_city 
 add_core = GER
-trade_goods = fish
+trade_goods = grain
 life_rating = 35 
 naval_base = 1
 1861.1.1 = { railroad = 3 }

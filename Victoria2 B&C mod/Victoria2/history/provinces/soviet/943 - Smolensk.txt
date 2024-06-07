@@ -2,17 +2,5 @@ owner = RUS
 controller = RUS
 add_core = RUS
 #add_core = PLC
-trade_goods = cattle
+trade_goods = grain
 life_rating = 35
-#state_building = {
-#	level = 1
-#	building = liquor_distillery
-#	upgrade = yes
-#}
-1861.1.1 = { 
-	state_building = {
-		level = 1
-		building = liquor_distillery
-		upgrade = yes
-	} 
-}

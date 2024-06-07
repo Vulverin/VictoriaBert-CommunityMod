@@ -9,11 +9,6 @@ party_loyalty = {
 	loyalty_value = 15
 }
 
-#state_building = {
-#	level = 1
-#	building = liquor_distillery
-#	upgrade = yes
-#}
 1861.1.1 = {
 	party_loyalty = {
 	ideology = conservative
@@ -22,11 +17,6 @@ party_loyalty = {
 	controller = CSA
 	owner = CSA
 	add_core = CSA
-	state_building = {
-		level = 1
-		building = liquor_distillery
-		upgrade = yes
-	}
 	state_building = {
 		level = 1
 		building = cement_factory

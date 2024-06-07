@@ -1291,6 +1291,7 @@ rusgubrmodifier10 = {
         icon = 15
 }
 rus_corrupt2 = {
+        tariff_efficiency_modifier = -0.1
         factory_throughput = -0.1
         land_organisation = -0.05
         education_efficiency_modifier = -0.3
@@ -1298,7 +1299,7 @@ rus_corrupt2 = {
         icon = 5
 }
 rus_corrupt1 = {
-        tax_efficiency = -0.02
+        tariff_efficiency_modifier = -0.15
         factory_throughput = -0.15
         RGO_output = -0.05
         land_organisation = -0.05
@@ -1307,7 +1308,7 @@ rus_corrupt1 = {
         icon = 5
 }
 ruscorrupt = {
-        tax_efficiency = -0.05
+        tariff_efficiency_modifier = -0.2
         factory_throughput = -0.2
         RGO_output = -0.1
         education_efficiency_modifier = -0.3

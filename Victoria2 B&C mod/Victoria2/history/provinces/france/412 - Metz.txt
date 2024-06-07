@@ -20,10 +20,5 @@ life_rating = 35
 		building = small_arms_factory
 		upgrade = yes
 	}
-		state_building = {
-		level = 1
-		building = liquor_distillery
-		upgrade = yes
-	}
 }
 1861.1.1 = { railroad = 3 }

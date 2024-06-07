@@ -44,11 +44,8 @@ everyday_needs = {
 	shoes = 2
         spices = 2
 	print = 3
-        cattle = 0.55
 	wool =  0.5
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.3
         shares = 2
 	iron = 0.5
 	steel = 1
@@ -58,11 +55,8 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 0.55
-	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+        wool =  1.0
+	grain =  4.3
 }
 
 luxury_needs = {	
@@ -80,11 +74,8 @@ luxury_needs = {
 	coffee = 0.45
 	#dye = 0.5
         financial_services = 0.2
-        cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.1
 }
 
 
@@ -278,19 +269,30 @@ promote_to =
 	officers =
 	{
 		factor = 0.01
-		group = {
-			modifier = {
-				factor = -100
-				location = { 
-					officers = 0.001
-				}
-			}
-			modifier = {
-				factor = -9000
-				location = { 
-					officers = 0.003
-				}
-			}
+		modifier = {
+			factor = -100
+                        NOT = { year = 1850 }
+			state_scope = { officers = 0.001 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1860 }
+			state_scope = { officers = 0.002 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1870 }
+			state_scope = { officers = 0.003 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1880 }
+			state_scope = { officers = 0.004 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1890 }
+			state_scope = { officers = 0.005 }
 		}
 		group = {
 			modifier = {

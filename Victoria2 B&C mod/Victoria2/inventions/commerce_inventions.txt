@@ -31,20 +31,6 @@ wool_cloth_factories = {
 		activate_building =  wool_mill
 	}
 }
-tinned_fruit = {
-	limit = { freedom_of_trade = 1 }
-	news = no
-	chance = {
-		base = 50
-		modifier = {
-			factor = -10 
-			civilized = no
-		}
-	}
-	effect = {
-		activate_building = fruit_cannery 
-	}
-}
 insurance_companies = {
 	limit = { stock_exchange = 1 }
 	news = no
@@ -672,7 +658,7 @@ karl_kautsky = {
 		permanent_prestige = 1 
 	}
 }
-jean_jaurès = {
+jean_jaurï¿½s = {
 	limit = { collectivist_theory = 1 }
 	news = no
 	chance = {
@@ -818,7 +804,7 @@ william_cunningham = {
 	}
 }
 #neoclassical_theory
-johann_heinrich_von_thünen = {
+johann_heinrich_von_thï¿½nen = {
 	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
@@ -836,7 +822,7 @@ johann_heinrich_von_thünen = {
 		permanent_prestige = 1 
 	}
 }
-léon_walras = {
+lï¿½on_walras = {
 	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {
@@ -1034,7 +1020,7 @@ joseph_schumpeter = {
 		permanent_prestige = 1 
 	}
 }
-eugen_von_böhm_bawerk = {
+eugen_von_bï¿½hm_bawerk = {
 	limit = { neoclassical_theory = 1 }
 	news = no
 	chance = {

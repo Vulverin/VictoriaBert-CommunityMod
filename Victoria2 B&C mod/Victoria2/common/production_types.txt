@@ -559,12 +559,12 @@ canned_food_factory = {
 	template = factory_template	#24
 	input_goods = { 
 		steel = 5
-                cattle = 6
+                grain = 6
 	}
 	output_goods = canned_food 
 	value = 5
         bonus = {
-		trigger = { trade_goods_in_state = cattle }
+		trigger = { trade_goods_in_state = grain }
 		value = 0.1
 	}
 	bonus = {
@@ -585,27 +585,12 @@ dye_factory = {
 		value = 0.15
 	}
 }
-     
 
-liquor_distillery = {       
-	template = cheap_factory_template	#24
-	input_goods = {        
-		grain = 16			#135
-		glass = 3			#42
-	}
-	output_goods = liquor 
-
-	value = 11
-	bonus = {
-		trigger = { has_building = glass_factory }
-		value = 0.1
-	}
-}
 
 winery = {       
 	template = factory_template	#50
 	input_goods = {  
-		fruit = 20
+		grain = 20
 		glass = 3		#70
 	}
 	output_goods = wine 
@@ -820,51 +805,15 @@ synthetic_fabric_factory = {
 	value = 21
 }
 
-fish_cannery = {
-        template = factory_template	#24
-	input_goods = { 
-		steel = 2
-                fish = 8
-	}
-	output_goods = canned_food 
-	value = 3.5
-        bonus = {
-		trigger = { trade_goods_in_state = fish }
-		value = 0.1
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = iron }
-		value = 0.1
-	}
-}
-
-fruit_cannery = {
-        template = factory_template	#24
-	input_goods = { 
-		steel = 2
-                fruit = 8
-	}
-	output_goods = canned_food 
-	value = 3.5
-        bonus = {
-		trigger = { trade_goods_in_state = fruit }
-		value = 0.1
-	}
-	bonus = {
-		trigger = { trade_goods_in_state = iron }
-		value = 0.1
-	}
-}
-
-sugar_beet_refinery = {       
+sugar_beet_refinery = {
 	template = cheap_factory_template	#24
-	input_goods = { 
-		fruit = 11
+	input_goods = {
+		grain = 11
 		}
 	output_goods = sugar
 	value = 7.2
         bonus = {
-		trigger = { trade_goods_in_state = fruit }
+		trigger = { trade_goods_in_state = grain }
 		value = 0.15
 	}
 }
@@ -937,14 +886,6 @@ RGO_template_labourers = {
 	workforce = 40000
 }
 
-
-cattle_ranch = {
-	template = RGO_template_farmers
-	output_goods = cattle 
-	value = 3
-	farm = yes
-}
-
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
@@ -970,13 +911,6 @@ dye_plantation = {
 	template = RGO_template_farmers
 	output_goods = dye 
 	value = 0.52
-	farm = yes
-}
-
-fishing_wharf = {
-	template = RGO_template_farmers
-	output_goods = fish 
-	value = 3
 	farm = yes
 }
 
@@ -1019,13 +953,6 @@ opium_plantation = {
 	template = RGO_template_farmers
 	output_goods = opium 
 	value = 1.2
-	farm = yes
-}
-
-orchard = {
-	template = RGO_template_farmers
-	output_goods = fruit 
-	value = 6
 	farm = yes
 }
 
@@ -1494,7 +1421,7 @@ artisan_ammunition = {
 artisan_canned_food = {       
 	input_goods = { 
 		steel = 5 		#7
-		cattle = 5 		#24
+		grain = 5 		#24
 	}
 	output_goods = canned_food 
 	value = 3.75
@@ -1540,7 +1467,7 @@ artisan_liquor = {
 
 artisan_winery = {
 	input_goods = {  
-		fruit = 20
+		grain = 20
 		glass = 3
 	}
 	output_goods = wine 
@@ -1748,7 +1675,7 @@ artisan_spicesssss = {
 
 artisan_cobbler = {
 	input_goods = {   
-		cattle = 20
+		grain = 20
 	}
 	output_goods = shoes 
 	value = 8
@@ -1808,74 +1735,6 @@ artisan_baker = {
 		}
 	}
 	type = artisan
-	
-	workforce = 10000
-}
-
-artisan_fishmonger = {       
-	input_goods = { 
-		fish = 10
-	}
-	output_goods = canned_food 
-	value = 2.2
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	employees = {		
-		{ 
-			poptype = artisan
-			effect = throughput
-		}
-	}
-	type = artisan
-	
-	workforce= 10000
-}
-
-artisan_costermonger = {       
-	input_goods = { 
-		fruit = 10
-	}
-	output_goods = canned_food 
-	value = 2.4
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	employees = {		
-		{ 
-			poptype = artisan
-			effect = throughput
-		}
-	}
-	type = artisan
-
-	
-	workforce= 10000
-}
-
-artisan_sugarsrsf = {       
-	input_goods = {        
-		fruit = 10
-	}
-	output_goods = liquor 
-	value = 6
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	employees = {		
-		{ 
-			poptype = artisan
-			effect = throughput
-		}
-	}
-	type = artisan
-	
 	
 	workforce = 10000
 }

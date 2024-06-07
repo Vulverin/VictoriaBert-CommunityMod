@@ -338,7 +338,6 @@ late_enlightenment_philosophy = {
 	area = philosophy
 	year = 1830
 	cost = 3000
-        activate_building =  fish_canned_food_factory
 
 	increase_research = 0.50
 	

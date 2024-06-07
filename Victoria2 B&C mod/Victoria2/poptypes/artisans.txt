@@ -26,11 +26,8 @@ luxury_needs = {
 	radio = 1.0
 	fuel = 0.2
 	coffee = 2
-        cattle = 1.65
 	wool =  3
-	fish =  1.8
-	fruit =  3.45
-	grain =  5.85
+	grain =  11
 }
 
 everyday_needs = {
@@ -47,11 +44,8 @@ everyday_needs = {
         electric_power = 5
         shoes = 2
 	tea = 6
-        cattle = 0.55
 	wool =  0.5
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
         shares = 2
 	iron = 0.5
 	steel = 1
@@ -60,11 +54,8 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 

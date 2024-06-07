@@ -2,7 +2,7 @@ owner = TUS
 controller = TUS terrain = city_958 
 add_core = TUS
 add_core = ITA
-trade_goods = fruit
+trade_goods = grain
 life_rating = 37
 #state_building = {
 #	level = 1

@@ -1,4 +1,4 @@
 add_core = RUS
 add_core = JAP
-trade_goods = fish
+trade_goods = grain
 life_rating = 35

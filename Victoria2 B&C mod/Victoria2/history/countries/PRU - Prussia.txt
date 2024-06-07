@@ -73,6 +73,7 @@ mechanized_mining = 1
 basic_chemistry = 1
 army_professionalism = 1
 military_tech_1 = 1
+military_tech_2 = 1
 naval_tech_1 = 1
 
 #clean_coal = 1

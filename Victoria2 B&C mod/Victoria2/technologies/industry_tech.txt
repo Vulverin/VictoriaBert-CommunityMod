@@ -14,12 +14,10 @@ water_wheel_power = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 		modifier = {
@@ -59,12 +57,10 @@ practical_steam_engine = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 		modifier = {
@@ -104,12 +100,10 @@ high_n_low_pressure_steam_engines = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 		modifier = {
@@ -149,12 +143,10 @@ steam_turbine = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 				modifier = {
@@ -194,12 +186,10 @@ tech_power_1 = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 				modifier = {
@@ -242,12 +232,10 @@ combustion_engine = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 		modifier = {
@@ -287,12 +275,10 @@ electrical_power_generation_3 = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 		modifier = {
@@ -328,12 +314,10 @@ tech_power_2 = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 		modifier = {
@@ -374,12 +358,10 @@ electrical_power_generation = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 		modifier = {
@@ -416,12 +398,10 @@ electrical_power_generation_1 = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 		modifier = {
@@ -458,12 +438,10 @@ electrical_power_generation_2 = {
 			OR = {
 				big_producer = grain
 				big_producer = cotton
-				big_producer = cattle
 				big_producer = tea
 				big_producer = coffee
 				big_producer = silk
 				big_producer = tobacco
-				big_producer = fruit
 			}
 		}
 		modifier = {
@@ -548,10 +526,8 @@ mechanical_production = {
 				big_producer = silk
 				big_producer = timber
 				big_producer = tropical_wood
-				big_producer = fruit
 				big_producer = grain
 				big_producer = tea
-				big_producer = cattle
 			}
 		}
 		modifier = {
@@ -1012,6 +988,9 @@ cheap_iron = {
 	factory_goods_output = {
 		lead = 0.3
 	}
+        factory_goods_output = {
+		lumber = 0.05
+	}
 	
 	ai_chance = {
 		factor = 1.1
@@ -1083,7 +1062,10 @@ cheap_steel = {
 	factory_goods_output = {
 		lead = 0.3
 	}
-	
+	factory_goods_output = {
+		lumber = 0.05
+	}
+
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -1150,6 +1132,10 @@ metallurgy_1 = {
 	factory_goods_output = {
 		lead = 0.3
 	}
+        factory_goods_output = {
+		lumber = 0.05
+	}
+
 	
 	ai_chance = {
 		factor = 1.1
@@ -1225,6 +1211,10 @@ advanced_metallurgy = {
 	factory_goods_output = {
 		lead = 0.3
 	}
+        factory_goods_output = {
+		lumber = 0.05
+	}
+
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -1290,6 +1280,10 @@ metallurgy_2 = {
 	factory_goods_output = {
 		lead = 0.3
 	}
+        factory_goods_output = {
+		lumber = 0.05
+	}
+
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -1355,6 +1349,10 @@ metallurgy_3 = {
 	factory_goods_output = {
 		lead = 0.3
 	}
+        factory_goods_output = {
+		lumber = 0.05
+	}
+
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -1417,6 +1415,10 @@ electric_furnace = {
 	factory_goods_output = {
 		lead = 0.3
 	}
+        factory_goods_output = {
+		lumber = 0.05
+	}
+
 	ai_chance = {
 		factor = 1.1
 		modifier = {

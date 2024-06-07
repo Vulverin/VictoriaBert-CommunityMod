@@ -4,6 +4,6 @@ add_core = SWE
 add_core = SCA
 add_core = NOR
 add_core = JAN
-trade_goods = fish
+trade_goods = grain
 life_rating = 35
 terrain = arctic

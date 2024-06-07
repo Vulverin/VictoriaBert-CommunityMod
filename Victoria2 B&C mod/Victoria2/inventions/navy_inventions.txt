@@ -350,7 +350,7 @@ mechanized_fishing_vessels = {
 	}
 	effect = {
 		rgo_goods_output = {
-			fish = 0.5
+			grain = 0.1
 		}
 	}
 }

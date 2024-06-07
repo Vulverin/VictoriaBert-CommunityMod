@@ -47,11 +47,8 @@ luxury_needs = {
 	radio = 1.0
 	fuel = 0.2
 	coffee = 2
-        cattle = 1.65
 	wool =  3
-	fish =  1.8
-	fruit =  3.45
-	grain =  5.85
+	grain =  13
 }
 
 everyday_needs = {
@@ -67,13 +64,10 @@ everyday_needs = {
         shoes = 3
         cigarettes = 3
 	tea = 7
-        cattle = 2
 	wool =  3
         spices = 3
-	fish =  2
         financial_services = 5
-	fruit =  4
-	grain =  6
+	grain =  14
         shares = 2
 	iron = 0.5
 	steel = 1
@@ -85,11 +79,8 @@ everyday_needs = {
         telephones = 16
 }
 life_needs = {
-	cattle = 2
 	wool =  3
-	fish =  2
-	fruit =  3.5
-	grain =  6
+	grain =  12
 }
 
 
@@ -451,27 +442,27 @@ promote_to =
 		modifier = {
 			factor = -100
                         NOT = { year = 1850 }
-			officers = 0.001
+			state_scope = { officers = 0.001 }
 		}
                 modifier = {
 			factor = -100
                         NOT = { year = 1860 }
-			officers = 0.002
+			state_scope = { officers = 0.002 }
 		}
                 modifier = {
 			factor = -100
                         NOT = { year = 1870 }
-			officers = 0.003
+			state_scope = { officers = 0.003 }
 		}
                 modifier = {
 			factor = -100
                         NOT = { year = 1880 }
-			officers = 0.004
+			state_scope = { officers = 0.004 }
 		}
                 modifier = {
 			factor = -100
                         NOT = { year = 1890 }
-			officers = 0.005
+			state_scope = { officers = 0.005 }
 		}				
 
 		modifier = {

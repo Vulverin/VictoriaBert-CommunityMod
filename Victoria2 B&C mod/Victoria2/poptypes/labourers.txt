@@ -17,11 +17,8 @@ everyday_needs = {
 	cigarettes = 2
 	shoes = 2
 	print = 3
-        cattle = 0.55
 	wool =  0.5
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
         shares = 2
 	iron = 0.5
 	steel = 1
@@ -31,11 +28,8 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 
@@ -54,11 +48,8 @@ luxury_needs = {
         financial_services = 0.2
         electric_power = 5
 	#dye = 0.5
-        cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 

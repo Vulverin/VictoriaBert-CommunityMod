@@ -2,5 +2,5 @@ owner = PRU
 controller = PRU
 add_core = PRU terrain = port_city 
 add_core = POL
-trade_goods = cattle
+trade_goods = grain
 life_rating = 35 naval_base= 1

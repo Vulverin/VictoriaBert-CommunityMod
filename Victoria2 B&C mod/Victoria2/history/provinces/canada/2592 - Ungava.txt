@@ -2,6 +2,6 @@ owner = ENG
 controller = ENG
 add_core = CAN
 add_core = QUE
-trade_goods = cattle
+trade_goods = grain
 life_rating = 29
 colonial = 2

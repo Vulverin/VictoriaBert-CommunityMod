@@ -1,6 +1,6 @@
 owner = YEM
 controller = YEM
 add_core = YEM
-trade_goods = fish
+trade_goods = grain
 life_rating = 30
 naval_base = 1

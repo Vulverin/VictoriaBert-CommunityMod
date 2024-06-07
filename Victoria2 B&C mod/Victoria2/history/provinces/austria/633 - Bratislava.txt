@@ -5,6 +5,6 @@ add_core = SLV
 add_core = HUN
 add_core = CZH
 terrain = city_958
-trade_goods = cattle
+trade_goods = grain
 life_rating = 35
 1861.1.1 = { railroad = 2 }

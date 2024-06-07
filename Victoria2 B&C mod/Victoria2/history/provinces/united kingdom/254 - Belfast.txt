@@ -1,7 +1,7 @@
 owner = ENG
 controller = ENG
 add_core = ENG
-trade_goods = cattle
+trade_goods = grain
 naval_base = 1
 life_rating = 35
 terrain = city_958
@@ -10,11 +10,6 @@ city = 1
 	state_building = {
 		level = 1
 		building = canned_food_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = liquor_distillery
 		upgrade = yes
 	}
 }

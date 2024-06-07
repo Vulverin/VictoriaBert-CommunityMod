@@ -2,7 +2,7 @@ owner = HOL
 controller = HOL
 add_core = HOL terrain = port_city 
 add_core = GER
-trade_goods = cattle
+trade_goods = grain
 life_rating = 35 
 naval_base = 1
 

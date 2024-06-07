@@ -1,7 +1,7 @@
 owner = EGY
 controller = EGY
 add_core = TUR
-trade_goods = cattle
+trade_goods = grain
 life_rating = 32 
 naval_base = 1
 terrain = port_city

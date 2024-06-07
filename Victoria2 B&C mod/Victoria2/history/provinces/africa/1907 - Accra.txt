@@ -2,7 +2,7 @@ owner = DEN
 controller = DEN
 colonial = 2
 
-trade_goods = cattle
+trade_goods = grain
 life_rating = 15
 1861.1.1 = {
 	owner = ENG

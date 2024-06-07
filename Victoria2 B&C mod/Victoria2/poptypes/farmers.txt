@@ -16,11 +16,8 @@ everyday_needs = {
 	shoes = 2
         spices = 2
 	print = 3
-        cattle = 0.55
 	wool =  0.5
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
         shares = 2
 	iron = 0.5
 	steel = 1
@@ -30,11 +27,8 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 
@@ -53,11 +47,8 @@ luxury_needs = {
 	coffee = 0.45
 	#dye = 0.5
         financial_services = 0.2
-        cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 country_migration_target =

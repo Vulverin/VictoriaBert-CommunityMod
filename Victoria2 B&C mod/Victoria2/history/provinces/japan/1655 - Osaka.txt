@@ -1,15 +1,10 @@
 owner = JAP
 controller = JAP
 add_core = JAP
-trade_goods = cattle
+trade_goods = grain
 life_rating = 35
 terrain = city_958
 naval_base = 1
-#state_building = {
-#	level = 1
-#	building = liquor_distillery
-#	upgrade = yes
-#}
 #state_building = {
 #	level = 1
 #	building = glass_factory

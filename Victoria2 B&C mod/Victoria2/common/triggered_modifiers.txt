@@ -194,7 +194,7 @@ arising_prussia = {
 	war_exhaustion = -0.05
 	supply_consumption = -0.35
 	tax_efficiency = 0.15
-        tariff_efficiency_modifier = 0.1
+        tariff_efficiency_modifier = 0.2
         RGO_output = 0.2
         factory_output = 0.2
 }
@@ -520,6 +520,7 @@ post_agricultural_society = {
         factory_input = 0.05
         factory_throughput = -0.1
         factory_owner_cost = 0.15
+        tariff_efficiency_modifier = -0.1
         icon = 13        
 }
 
@@ -533,8 +534,9 @@ agricultural_society = {
         icon = 18
         factory_input = 0.1
         factory_throughput = -0.2
-        mine_rgo_eff = -0.1
+        mine_rgo_eff = -0.3
         factory_owner_cost = 0.5
+        tariff_efficiency_modifier = -0.2
         icon = 13        
 }
 
