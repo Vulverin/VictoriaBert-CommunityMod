@@ -1472,7 +1472,7 @@ national_isol_doctrine = {
 	culture_tech_research_bonus = 0.2
 	industry_tech_research_bonus = 0
         doctrine_tech_research_bonus = 0
-        education_efficiency_modifier = 0.3
+        education_efficiency_modifier = 0.25
         cb_generation_speed_modifier = -0.5
         research_points_modifier = 0.2      
 }

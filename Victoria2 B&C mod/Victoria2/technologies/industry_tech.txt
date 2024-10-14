@@ -1117,7 +1117,7 @@ metallurgy_1 = {
 
         factory_cost = 0.05
         rgo_goods_output = {
-		sulphur = 0.2
+		sulphur = 0.3
 	}
 
 	rgo_goods_output = {
@@ -1188,7 +1188,7 @@ advanced_metallurgy = {
 
         factory_cost = 0.05
 	rgo_goods_output = {
-		sulphur = 0.35
+		sulphur = 0.5
 	}
 	rgo_goods_output = {
 		coal = 0.35
@@ -1266,7 +1266,7 @@ metallurgy_2 = {
 
         factory_cost = 0.05
 	rgo_goods_output = {
-		sulphur = 0.20
+		sulphur = 0.6
 	}
 	rgo_goods_output = {
 		coal = 0.35
@@ -1335,7 +1335,7 @@ metallurgy_3 = {
 
         factory_cost = 0.05
 	rgo_goods_output = {
-		sulphur = 0.35
+		sulphur = 0.6
 	}
 	rgo_goods_output = {
 		coal = 0.30

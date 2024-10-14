@@ -35,14 +35,14 @@ ironclad = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.13
+		steamer_convoy = 0.23
 		artillery = 0.06
 		canned_food = 0.15
 	}
 	
 	#Naval Abilties
 	hull = 15
-	gun_power = 15
+	gun_power = 12
 	fire_range = 0.6
 	evasion = 0
 }

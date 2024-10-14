@@ -43,7 +43,7 @@ cruiser = {
 	
 	#Naval Abilties
 	hull = 50
-	gun_power = 30
+	gun_power = 45
 	fire_range = 0.6
 	torpedo_attack = 2
 }

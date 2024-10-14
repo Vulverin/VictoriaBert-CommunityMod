@@ -43,7 +43,7 @@ battleship = {
 	
 	#Naval Abilties
 	hull = 70
-	gun_power = 50
+	gun_power = 70
 	fire_range = 0.75
 	evasion = 0
 }

@@ -45,7 +45,7 @@ dreadnought = {
 	
 	#Naval Abilties
 	hull = 90
-	gun_power = 70
+	gun_power = 130
 	fire_range = 0.8
 	evasion = 0
 }

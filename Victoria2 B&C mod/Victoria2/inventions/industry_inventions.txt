@@ -437,7 +437,7 @@ hussey_n_mccormicks_reaping_machine = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.2
+			grain = 0.05
 		}
 		rgo_goods_output = {
 			tea = 0.2
@@ -459,7 +459,7 @@ pitts_threshing_machine = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.2
+			grain = 0.05
 		}
 		rgo_goods_output = {
 			tea = 0.2
@@ -762,7 +762,7 @@ refrigerator_technology = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.2
+			grain = 0.1
 		}
 		factory_goods_output = {
 			liquor = 0.02
@@ -1352,6 +1352,9 @@ gaslights = {
 	}
 	effect = {
 		factory_throughput = 0.05
+                factory_goods_throughput = {
+			sulphur = 0.6
+		}
 	}
 }
 carbon_soil_enrichment = {
@@ -1547,7 +1550,7 @@ seafood_packing = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.1
+			grain = 0.05
 		}
 	}
 }
@@ -1559,7 +1562,7 @@ tulls_seed_drill = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.1
+			grain = 0.05
 		}
 	}
 	

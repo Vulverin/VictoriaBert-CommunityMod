@@ -39,8 +39,8 @@ monitor = {
 	}
 	
 	#Naval Abilties
-	hull = 20
-	gun_power = 10
+	hull = 15
+	gun_power = 8
 	fire_range = 0.5
 	evasion = 0
 	torpedo_attack = 0
