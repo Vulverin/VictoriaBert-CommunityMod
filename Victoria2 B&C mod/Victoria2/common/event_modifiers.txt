@@ -1449,7 +1449,9 @@ national_army_doctrine = {
         land_organisation = 0.1
         org_regain = 0.1
         cb_generation_speed_modifier = 0.5
-        land_unit_start_experience = 5.0
+        land_unit_start_experience = 5.0        
+        factory_input = -0.04
+        naval_unit_start_experience = 2.0
         mobilisation_size = 0.02
         mobilisation_economy_impact = -0.2
 }
@@ -1497,7 +1499,8 @@ national_econ_doctrine = {
         doctrine_tech_research_bonus = 0
         factory_output = 0.1
         RGO_output = 0.15
-        tax_efficiency = 0.05
+        tax_efficiency = 0.06
+        factory_input = -0.05
         cb_generation_speed_modifier = -0.25
 }
 har_werft = {

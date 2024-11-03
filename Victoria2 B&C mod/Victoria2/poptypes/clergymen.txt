@@ -369,12 +369,16 @@ promote_to =
                 modifier = {
 			factor = -100
                         NOT = { year = 1880 }
-			state_scope = { officers = 0.004 }
+			state_scope = { officers = 0.005 }
 		}
                 modifier = {
 			factor = -100
                         NOT = { year = 1890 }
-			state_scope = { officers = 0.005 }
+			state_scope = { officers = 0.007 }
+		}
+                modifier = {
+			factor = -100
+			state_scope = { officers = 0.01 }
 		}		
 
 		modifier = {
@@ -851,6 +855,16 @@ promote_to =
 				state_scope = {
 					has_factories = yes
 				}
+		}
+                modifier = {
+			factor = -100
+                        craftsmen = 0.1
+			location = { is_overseas = yes }
+                        NOT = { 
+				location = {
+					any_core = { is_core = THIS }
+				}
+			}
 		}
                 modifier = {
 			factor = -30

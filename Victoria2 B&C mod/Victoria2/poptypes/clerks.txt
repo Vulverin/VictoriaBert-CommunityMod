@@ -550,10 +550,6 @@ promote_to =
 	{
 		factor = 0.01
 		modifier = {
-			factor = -1
-			NOT = { literacy = 0.30 }
-		}
-		modifier = {
 			factor = -100
                         NOT = { year = 1850 }
 			state_scope = { officers = 0.001 }
@@ -571,12 +567,16 @@ promote_to =
                 modifier = {
 			factor = -100
                         NOT = { year = 1880 }
-			state_scope = { officers = 0.004 }
+			state_scope = { officers = 0.005 }
 		}
                 modifier = {
 			factor = -100
                         NOT = { year = 1890 }
-			state_scope = { officers = 0.005 }
+			state_scope = { officers = 0.007 }
+		}
+                modifier = {
+			factor = -100
+			state_scope = { officers = 0.01 }
 		}		
 
 		modifier = {

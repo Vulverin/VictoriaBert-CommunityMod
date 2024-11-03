@@ -173,13 +173,13 @@ country_event = {
                                duration = 7300
                 }
         }
-        option = {
-                name = "EVTOPTB14234"
-                add_country_modifier = {
-                               name = national_navy_doctrine
-                               duration = 7300
-                }
-        }
+/        option = {
+/                name = "EVTOPTB14234"
+/                add_country_modifier = {
+/                               name = national_navy_doctrine
+/                               duration = 7300
+/                }
+/        }
         option = {
                 name = "EVTOPTC14234"
                 add_country_modifier = {
