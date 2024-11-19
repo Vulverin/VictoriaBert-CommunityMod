@@ -1005,191 +1005,190 @@ political_decisions = {
 		}
 		effect = {
 			955 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         956 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         957 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         964 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         966 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         967 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1048 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1049 = {
-                        life_rating = 2
+                        life_rating = 3 
                         }
                         1050 = {
-                        life_rating = 2
+                        life_rating = 3 
                         }
                         1051 = {
-                        life_rating = 2
+                        life_rating = 3 
                         }
                         1052 = {
-                        life_rating = 2
+                        life_rating = 3 
                         }
                         1053 = {
-                        life_rating = 2
+                        life_rating = 3 
                         }
                         1054 = {
-                        life_rating = 2
+                        life_rating = 3 
                         }
                         1055 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1056 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1057 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1045 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1046 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1047 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1036 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1041 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1040 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1012 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1038 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1021 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1025 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1009 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1010 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1011 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1013 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1014 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1015 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         943 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         999 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1000 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1003 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1004 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1005 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         998 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         992 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         989 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1001 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1006 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         997 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         996 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
-
                         1020 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1027 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1028 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1032 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1033 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1034 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1035 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1043 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1044 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1042 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1060 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1026 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1029 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1031 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1058 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1059 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         1061 = {
-                        life_rating = 2
+                        life_rating = 3
                         }
                         959 = {
                         life_rating = 1

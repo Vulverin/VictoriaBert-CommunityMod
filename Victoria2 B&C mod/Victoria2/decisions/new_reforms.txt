@@ -1,0 +1,69 @@
+political_decisions = {
+	education_reform1 = {
+		potential = {
+			NOT = {
+				has_country_flag = education_reform1_enacted
+			}
+			
+				school_reforms = no_schools
+			
+		}
+		
+		allow = {
+			money = 500000
+                        literacy = 0.48
+		}
+		
+		effect = {
+                        money = -500000
+                        social_reform = low_schools
+			set_country_flag = education_reform1_enacted
+		}
+	}
+
+        education_reform2 = {
+		potential = {
+			NOT = {
+				has_country_flag = education_reform2_enacted
+			}
+			
+				school_reforms = low_schools
+			
+		}
+		
+		allow = {
+			money = 1000000
+                        literacy = 0.68
+		}
+		
+		effect = {
+                        money = -1000000
+                        social_reform = acceptable_schools
+			set_country_flag = education_reform2_enacted
+		}
+	}
+
+        education_reform3 = {
+		potential = {
+			NOT = {
+				has_country_flag = education_reform3_enacted
+			}
+			
+				school_reforms = acceptable_schools
+			
+		}
+		
+		allow = {
+			money = 1500000
+                        literacy = 0.78
+		}
+		
+		effect = {
+                        money = -1500000
+                        social_reform = good_schools
+			set_country_flag = education_reform3_enacted
+		}
+	}
+}
+
+        

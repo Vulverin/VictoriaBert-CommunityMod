@@ -300,7 +300,7 @@ military_tech_1 = {
         activate_building = fort
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -0.2
 	}
         
 }
@@ -312,7 +312,7 @@ military_tech_2 = {
         max_fort = 1
 	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -0.50
+		supply_consumption = -0.4
 	}
         
 }
@@ -324,7 +324,7 @@ military_tech_3 = {
         max_fort = 1
 	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1
+		supply_consumption = -0.6
 	}
         
 }
@@ -336,7 +336,7 @@ military_tech_4 = {
         max_fort = 1
 	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1.2
+		supply_consumption = -1
 	}
         
 }

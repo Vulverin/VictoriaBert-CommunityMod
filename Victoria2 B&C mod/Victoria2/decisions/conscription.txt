@@ -47,4 +47,20 @@ conscription_back_7years = {
 		militancy = 0.55
 	}
 }
+conscription_back_recruiting = {
+	alert = no 
+	potential = {
+		AI = no
+		conscription = 7_years_draft
+	}
+	allow = {
+		war = yes
+                money = 1000000
+	}
+	effect = {
+		political_reform = recruiting
+                money = -1000000
+		militancy = 1
+	}
+}
 }

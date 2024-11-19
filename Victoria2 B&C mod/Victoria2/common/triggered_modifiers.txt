@@ -784,3 +784,40 @@ german_minors_boost = {
     RGO_output = 0.1
     global_population_growth = 0.001
 }
+
+no_schools_system = {
+    trigger = {
+        exists = yes
+        school_reforms = no_schools
+        literacy = 0.5
+    }
+    education_efficiency_modifier = -1
+    icon = 19
+}
+
+weak_schools_system = {
+    trigger = {
+        exists = yes
+        OR = {
+        school_reforms = no_schools
+        school_reforms = low_schools
+        }
+        literacy = 0.7
+    }
+    education_efficiency_modifier = -1
+    icon = 19
+}
+
+weak2_schools_system = {
+    trigger = {
+        exists = yes
+        OR = {
+        school_reforms = no_schools
+        school_reforms = low_schools
+        school_reforms = acceptable_schools
+        }
+        literacy = 0.8
+    }
+    education_efficiency_modifier = -1
+    icon = 19
+}

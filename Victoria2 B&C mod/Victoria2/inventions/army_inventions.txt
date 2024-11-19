@@ -836,6 +836,97 @@ colonial_negotiations = {
 		colonial_life_rating = -5 
 	}
 }
+1840_consumption = {
+	limit = { 
+			year = 1840 
+			flintlock_rifles = 1
+			}
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+		army_base = { supply_consumption = 0.4 }
+	}
+}
+1850_consumption = {
+	limit = { 
+			year = 1850 
+			flintlock_rifles = 1
+			}
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+		army_base = { supply_consumption = 0.5 }
+	}
+}
+1860_consumption = {
+	limit = { 
+			year = 1860 
+			flintlock_rifles = 1
+			}
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+		army_base = { supply_consumption = 0.6 }
+	}
+}
+1870_consumption = {
+	limit = { 
+			year = 1870 
+			flintlock_rifles = 1
+			}
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+		army_base = { supply_consumption = 0.8 }
+	}
+}
+1880_consumption = {
+	limit = { 
+			year = 1880 
+			flintlock_rifles = 1
+			}
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+		army_base = { supply_consumption = 1.2 }
+	}
+}
+1890_consumption = {
+	limit = { 
+			year = 1890 
+			flintlock_rifles = 1
+			}
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+		army_base = { supply_consumption = 1.8 }
+	}
+}
+1900_consumption = {
+	limit = { 
+			year = 1900 
+			flintlock_rifles = 1
+			}
+	news = no
+	chance = {
+		base = 100
+	}
+	effect = {
+		army_base = { supply_consumption = 2.5 }
+	}
+}
 #bolt_action_rifles
 bolt_action_rifle_armament = {
 	limit = { bolt_action_rifles = 1 }

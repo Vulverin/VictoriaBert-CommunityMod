@@ -1135,8 +1135,7 @@ shares_factory = {
 	max_level = 99
 	goods_cost = 
 	{
-		iron = 600
-		timber = 600
+		cement = 700
 	}
 	time = 150
 	visibility = yes
@@ -1156,8 +1155,7 @@ lead_factory = {
 	max_level = 99
 	goods_cost = 
 	{
-		iron = 600
-		timber = 600
+		cement = 700
 	}
 	time = 150
 	visibility = yes

@@ -503,7 +503,7 @@ the_congo_reform_association = {
 
 ### GER - GERMANY, PRU - PRUSSIA ###
 gerpopgrowth = {
-        global_population_growth = 0.002
+        tax_efficiency = 0.05
         icon = 15
 }
 germania_werft = {
@@ -1860,7 +1860,7 @@ bosfor_is_locked = {
         icon = 13
 }
 serfdom_abolishedd = {
-        global_population_growth = 0.003
+        research_points_modifier = 0.2
         icon = 11
 }
 ind_boost = {
