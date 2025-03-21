@@ -1646,7 +1646,7 @@ time_clock = {
 		}
 	}
 	effect = {
-		factory_output = 0.025
+		factory_output = 0.01
 	}
 }
 lighting = {
@@ -1664,7 +1664,7 @@ lighting = {
 		}
 	}
 	effect = {
-		factory_output = 0.025
+		factory_output = 0.01
 	}
 }
 #management_strategy

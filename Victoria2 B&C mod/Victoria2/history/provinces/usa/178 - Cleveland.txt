@@ -2,9 +2,31 @@ owner = USA
 controller = USA
 add_core = USA
 trade_goods = coal
-life_rating = 35
+life_rating = 38
 railroad = 1
-terrain = city_958
+terrain = city_958 
+
+        state_building = {
+		level = 1
+		building = regular_clothes_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = canned_food_factory
+		upgrade = yes
+	}
+        state_building = {
+	        level = 1
+	        building = shares_factory
+	        upgrade = yes
+        }
+        state_building = {
+	        level = 1
+	        building = lead_factory
+	        upgrade = yes
+        }
+
 1861.1.1 = {
 	state_building = {
 		level = 1

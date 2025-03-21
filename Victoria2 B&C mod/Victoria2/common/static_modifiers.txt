@@ -243,11 +243,11 @@ total_occupation = {
 }
 
 total_blockaded = {
-        import_cost = 2.0
+        import_cost = 1.0
         war_exhaustion = 0.02
-        factory_output = -0.1
-        factory_throughput = -0.2
-        factory_input = 0.05
+        factory_output = -0.08
+        factory_throughput = -0.15
+        factory_input = 0.04
         factory_owner_cost = 0.3
 }
 

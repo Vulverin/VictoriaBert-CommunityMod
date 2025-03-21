@@ -726,10 +726,10 @@ the_walhalla = {
 
 ### BPM Mod modifiers ###
 eng_army_limit_debuff = {
-        land_organisation = -0.3
-        org_regain = -0.3
-        naval_organisation = -0.2
-        army_tech_research_bonus = -0.3
+        land_organisation = -0.15
+        org_regain = -0.1
+        naval_organisation = -0.1
+        army_tech_research_bonus = -0.1
         tax_efficiency = -0.1
         icon = 15
 }
@@ -1401,9 +1401,8 @@ army_support = {
 }
 econom_support = {
         industry_tech_research_bonus = 0.1
-        factory_output = 0.1
+        factory_throughput = 0.1
         RGO_output = 0.1
-        tax_efficiency = 0.02
         factory_owner_cost = -0.2
         tax_efficiency = -0.05
 }

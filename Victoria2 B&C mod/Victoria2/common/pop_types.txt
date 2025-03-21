@@ -747,19 +747,19 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.12
+			factor = 0.15
 			not = { life_needs = 0.9 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
 		}
 		modifier = {
-			factor = 0.15
+			factor = 0.2
 			not = { life_needs = 0.8 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.25
 			not = { life_needs = 0.7 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
@@ -869,7 +869,7 @@ emigration_chance =
 	}
 	group = {
 		modifier = {
-			factor = -0.2
+			factor = -0.15
 			unemployment = 0.1
 			pop_type = craftsmen
 			state_scope = {
@@ -877,7 +877,7 @@ emigration_chance =
 			}
 		}
 		modifier = {
-			factor = -0.2
+			factor = -0.15
 			unemployment = 0.2
 			pop_type = craftsmen
 			state_scope = {
@@ -885,7 +885,7 @@ emigration_chance =
 			}
 		}
 		modifier = {
-			factor = -0.2
+			factor = -0.15
 			unemployment = 0.3
 			pop_type = craftsmen
 			state_scope = {
@@ -906,6 +906,23 @@ emigration_chance =
 		country = { citizenship_policy = residency }
 		not = { culture = this }
 	}
+         
+        group = {
+		modifier = {
+			factor = 0.05
+                        literacy = 0.3
+		}
+		modifier = {
+			factor = 0.04
+                        literacy = 0.5
+		}
+		modifier = {
+			factor = 0.03
+                        literacy = 0.8
+		}
+		
+	}
+        
 
 	modifier = {
 		factor = -0.6
@@ -934,9 +951,9 @@ emigration_chance =
 	}
         
 	modifier = {
-		factor = -0.3
+		factor = -1.2
 		OR = {
-                        AND = {
+                       AND = {
                                 country = { government = colonial_company }
                                 country = { NOT = { has_country_flag = chinese_concs } }
                         }

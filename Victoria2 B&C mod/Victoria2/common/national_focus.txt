@@ -160,7 +160,7 @@ promotion_focus =
     fed_reg_rs_big_city = {
         pop_consciousness_modifier = 0.03
         assimilation_rate = 0.5
-        local_factory_input = -0.05
+        local_factory_input = -0.04
         local_factory_throughput = 0.3
         farm_RGO_eff = -0.3
         icon = 22
@@ -261,7 +261,7 @@ production_focus =
         factory_throughput_focus =
 	{
 		local_factory_throughput = 0.05
-                local_factory_input = -0.05
+                local_factory_input = -0.04
 		icon = 4
 		limit = {
 			state_scope = {
