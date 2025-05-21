@@ -102,7 +102,7 @@ big_ship_competitor = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		}
 	}
 }
@@ -184,7 +184,7 @@ offensive_attitude = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		}
 		
 	}
@@ -231,7 +231,7 @@ decisive_firepower_doctrine = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		}		
 	}
 }
@@ -250,7 +250,7 @@ naval_firepower_doctrine = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		}		
 	}
 }
@@ -523,9 +523,9 @@ pre_dreadnought = {
 	}
 	effect = {
 		ironclad = {
-			hull = -2
-			gun_power = -2
-			maximum_speed = -2
+			hull = -1
+			gun_power = -1
+			maximum_speed = -1
 		}
                 battleship = {
 			hull = 6
@@ -816,7 +816,7 @@ optical_rangefinders = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		}		
 	}
 }
@@ -838,7 +838,7 @@ gyrostabilized_fire_control = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		} 		
 	}
 }
@@ -886,7 +886,7 @@ armour_piercing_projectiles = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		} 		
 	}
 }
@@ -948,10 +948,10 @@ bomb_guns = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		}
                 commerce_raider	= {
-			hull = -1
+			hull = -2
                         maximum_speed = -2
 		}		
 	}
@@ -971,7 +971,7 @@ rifled_guns = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		}
                 commerce_raider	= {
 			gun_power = -2
@@ -993,7 +993,7 @@ quick_firing_guns = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = -1
+			gun_power = 1
 		}		
 	}
 }

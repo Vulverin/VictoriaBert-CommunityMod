@@ -2987,7 +2987,7 @@ change_national_value_to_westciv = {
                         nationalvalue = nv_latinoamericanciv
                         }
 			NOT = {
-				has_global_flag = country_has_changed_value_westciv
+				has_country_flag = country_has_changed_value_westciv
 			}
 			
 		}
@@ -3001,7 +3001,7 @@ change_national_value_to_westciv = {
                           }
 			nationalvalue = nv_transciv
 			plurality = 5
-			set_global_flag = country_has_changed_value_westciv
+			set_country_flag = country_has_changed_value_westciv
 
 		}
 	}

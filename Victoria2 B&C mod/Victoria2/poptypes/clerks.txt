@@ -802,27 +802,27 @@ promote_to =
 				state_scope = { capitalists = 0.001 }
 			}
 			modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.003 }
 			}
 			modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.005 }
 			}
                         modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.007 }
 			}
                         modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.01 }
 			}
                         modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.012 }
 			}
                         modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.015 }
 			}
 			modifier = {
@@ -833,19 +833,19 @@ promote_to =
               
                 group = {
 			modifier = {
-				factor = 4
+				factor = 10
 				state_scope = { craftsmen = 0.05 }
 			}
 			modifier = {
-				factor = 4
+				factor = 10
 				state_scope = { craftsmen = 0.1 }
 			}
                         modifier = {
-				factor = 4
+				factor = 10
 				state_scope = { craftsmen = 0.15 }
 			}
 			modifier = {
-				factor = 4
+				factor = 10
 				state_scope = { craftsmen = 0.2 }
 			}
 		}
@@ -953,7 +953,7 @@ promote_to =
 			}
 		}
 		modifier = {
-				factor = 50
+				factor = 40
 				state_scope = {
 					has_factories = yes
 				}

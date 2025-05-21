@@ -839,10 +839,10 @@ mechanized_mining = {
 	rgo_goods_throughput = {
 		iron = 0.044
 	}
-        factory_goods_output = {
-		shares = 0.1
+        factory_goods_throughput = {
+		shares = 0.2
 	}
-	factory_goods_output = {
+	factory_goods_throughput = {
 		lead = 0.3
 	}
 	ai_chance = {
@@ -917,7 +917,7 @@ clean_coal = {
 		iron = 0.032
 	}
         factory_goods_output = {
-		shares = 0.2
+		shares = 0.1
 	}
 	factory_goods_output = {
 		lead = 0.1
@@ -982,10 +982,10 @@ cheap_iron = {
 	rgo_goods_output = {
 		iron = 0.35
 	}
-        factory_goods_output = {
-		shares = 0.1
+        factory_goods_throughput = {
+		shares = 0.2
 	}
-	factory_goods_output = {
+	factory_goods_throughput = {
 		lead = 0.3
 	}
         factory_goods_output = {
@@ -1121,15 +1121,15 @@ metallurgy_1 = {
 	}
 
 	rgo_goods_output = {
-		coal = 0.25
+		coal = 0.3
 	}
 	rgo_goods_output = {
-		iron = 0.45
+		iron = 0.5
 	}
-        factory_goods_output = {
-		shares = 0.1
+        factory_goods_throughput = {
+		shares = 0.2
 	}
-	factory_goods_output = {
+	factory_goods_throughput = {
 		lead = 0.3
 	}
         factory_goods_output = {
@@ -1191,7 +1191,7 @@ advanced_metallurgy = {
 		sulphur = 0.5
 	}
 	rgo_goods_output = {
-		coal = 0.35
+		coal = 0.4
 	}
 	rgo_goods_output = {
 		iron = 0.45
@@ -1205,10 +1205,10 @@ advanced_metallurgy = {
 	rgo_size = {
 		sulphur = 0.2
 	}
-	factory_goods_output = {
+	factory_goods_throughput = {
 		shares = 0.3
 	}
-	factory_goods_output = {
+	factory_goods_throughput = {
 		lead = 0.3
 	}
         factory_goods_output = {
@@ -1346,7 +1346,7 @@ metallurgy_3 = {
 	factory_goods_output = {
 		shares = 0.3
 	}
-	factory_goods_output = {
+	factory_goods_throughput = {
 		lead = 0.3
 	}
         factory_goods_output = {

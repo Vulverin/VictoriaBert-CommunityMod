@@ -128,9 +128,6 @@ flexible_firepower = {
 		irregular = {
 			defence = 1
 		}
-		army_base = {
-			supply_consumption = 0.05
-		}
 	}
 }
 synchronized_heavy_support = {
@@ -168,9 +165,6 @@ synchronized_heavy_support = {
 		irregular = {
 			defence = 1
 		}
-		army_base = {
-			supply_consumption = 0.05
-		}  
 	}
 }
 
@@ -248,9 +242,6 @@ trench_systems = {
 		irregular = {
 			defence = 1
 		}
-		army_base = {
-			supply_consumption = 0.05
-		}
 	}
 }
 gas_defense_capability = {
@@ -300,9 +291,6 @@ elastic_defense_system = {
 		irregular = {
 			defence = 1
 		}
-		army_base = {
-			supply_consumption = 0.05
-		}
 	}
 }
 flexible_counterattacks = {
@@ -341,9 +329,6 @@ flexible_counterattacks = {
 		irregular = {
 			attack = 1
 		}
-		army_base = {
-			supply_consumption = 0.05
-		} 
 	}
 }
 tank_experiments = {
@@ -446,9 +431,6 @@ low_echelon_fire_support = {
 			attack = 1
 			
 		}
-		army_base = {
-			supply_consumption = 0.05
-		}
 	}
 }
 stormtrooper_training = {
@@ -480,9 +462,6 @@ stormtrooper_training = {
 			
 		}
 
-		army_base = {
-			supply_consumption = 0.05
-		}
 	}
 }
 #modern_army_doctrine
@@ -605,9 +584,6 @@ human_wave_vs_spearhead = {
 		irregular = {
                         attack = 1
 			defence = 1
-		}
-		army_base = {
-			supply_consumption = 0.1
 		}
 	}
 }
@@ -750,7 +726,7 @@ machine_gun_armament = {
 		}
 		colinfantry = {
 			defence = 4
-			supply_consumption = 4.0
+			supply_consumption = 0.2
 		}
 #		guard = {
 #			defence = 3
@@ -782,7 +758,7 @@ machine_gun_armament = {
 		}
 		colinfantry = {
 			attack = 3
-			supply_consumption = 4.0
+			supply_consumption = 0.2
 		}
 #		guard = {
 #			attack = 4
@@ -847,6 +823,7 @@ colonial_negotiations = {
 	}
 	effect = {
 		army_base = { supply_consumption = 0.4 }
+                navy_base = { gun_power = -1 }
 	}
 }
 1850_consumption = {
@@ -859,7 +836,8 @@ colonial_negotiations = {
 		base = 100
 	}
 	effect = {
-		army_base = { supply_consumption = 0.5 }
+		army_base = { supply_consumption = 0.6 }
+                navy_base = { gun_power = -1 }
 	}
 }
 1860_consumption = {
@@ -873,6 +851,7 @@ colonial_negotiations = {
 	}
 	effect = {
 		army_base = { supply_consumption = 0.6 }
+                navy_base = { gun_power = -1 }
 	}
 }
 1870_consumption = {
@@ -886,6 +865,7 @@ colonial_negotiations = {
 	}
 	effect = {
 		army_base = { supply_consumption = 0.8 }
+                navy_base = { gun_power = -1 }
 	}
 }
 1880_consumption = {
@@ -898,7 +878,8 @@ colonial_negotiations = {
 		base = 100
 	}
 	effect = {
-		army_base = { supply_consumption = 1.2 }
+		army_base = { supply_consumption = 0.8 }
+                navy_base = { gun_power = -1 }
 	}
 }
 1890_consumption = {
@@ -911,7 +892,8 @@ colonial_negotiations = {
 		base = 100
 	}
 	effect = {
-		army_base = { supply_consumption = 1.8 }
+		army_base = { supply_consumption = 1 }
+                navy_base = { gun_power = -1 }
 	}
 }
 1900_consumption = {
@@ -924,7 +906,8 @@ colonial_negotiations = {
 		base = 100
 	}
 	effect = {
-		army_base = { supply_consumption = 2.5 }
+		army_base = { supply_consumption = 1.2 }
+                navy_base = { gun_power = -1 }
 	}
 }
 #bolt_action_rifles
@@ -1154,7 +1137,7 @@ anti_aircraft_artillery = {
 		artillery = {
 			attack = 0.1
 			defence = 0.1
-			supply_consumption = 0.5
+			supply_consumption = 0.3
 		}
 	}
 }
@@ -1174,7 +1157,7 @@ improved_anti_aircraft_artillery = {
 	effect = {
 		artillery = {
 			attack = 0.1
-			supply_consumption = 0.5
+			supply_consumption = 0.3
 		}
 	}
 }
@@ -1194,7 +1177,7 @@ light_artillery = {
 	effect = {
 		artillery = {
 			attack = 1
-			supply_consumption = 1.0
+			supply_consumption = 0.3
 		}
 	}
 }
@@ -1296,7 +1279,6 @@ telegraph_coordination = {
 	effect = {
 		army_base = {
 			default_organisation = 5
-			supply_consumption = 0.10
 		} 
 	}
 }
@@ -1318,7 +1300,6 @@ ammunition_area_effect_calculations = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
 		} 
 	}
 }
@@ -1339,7 +1320,6 @@ empirical_combat_efficiency_matrix = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
 		} 
 	}
 }
@@ -1360,7 +1340,6 @@ combat_loss_evaluation_schemata = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
 		} 
 	}
 }
@@ -1382,7 +1361,6 @@ pre_planned_depot_systems = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
 		} 
 	}
 }
@@ -1403,7 +1381,6 @@ logistical_calculations = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
 		} 
 	}
 }
@@ -1424,7 +1401,6 @@ replenishment_transport_organisation = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
 		} 
 	}
 }
@@ -1464,7 +1440,6 @@ army_military_political_decision_making = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
 		} 
 	}
 }
@@ -1485,7 +1460,6 @@ army_local_military_government = {
 	effect = {
 		army_base = {
 			default_organisation = 2.5
-			supply_consumption = 0.05
 		} 
 	}
 }

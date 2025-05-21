@@ -22,13 +22,20 @@ AI_lat_america_boost = {
 ital_rise_boost = {
     trigger = {
                 exists = yes
+                OR = {
                 capital = 720
+                capital = 749
+                }
 		NOT = {
                         year = 1840
 		}
 	}
-    mobilisation_size = 0.08
-    icon = 19
+    mobilisation_size = 0.06
+    tax_efficiency = 0.2
+    war_exhaustion = -0.05
+    mobilization_economy_impact = -0.5
+    supply_consumption = -0.35
+    RGO_output = 0.2
 }
 
 eng_migr_debuff = {
@@ -467,7 +474,6 @@ government_democracy = {
 	}
 	commerce_tech_research_bonus = 0.2
 	culture_tech_research_bonus = 0.1
-	land_organisation = -0.1
 	factory_throughput = 0.1
 	issue_change_speed = 0.2
 	leadership_modifier = 0.1
@@ -496,9 +502,6 @@ government_afrcompany = {
 		exists = yes
                 government = african_company
 	}
-	RGO_output = -0.3
-        RGO_throughput = -0.3
-        mine_rgo_eff = -0.2
         global_pop_militancy_modifier = -0.02
         global_immigrant_attract = -1
 }

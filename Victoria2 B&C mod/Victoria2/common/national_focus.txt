@@ -144,7 +144,7 @@ promotion_focus =
         pop_consciousness_modifier = 0.02
         assimilation_rate = 0.25
         local_factory_input = -0.03
-        local_factory_throughput = 0.2
+        local_factory_throughput = 0.15
         farm_RGO_eff = -0.1
         icon = 22
         limit = {
@@ -161,8 +161,8 @@ promotion_focus =
         pop_consciousness_modifier = 0.03
         assimilation_rate = 0.5
         local_factory_input = -0.04
-        local_factory_throughput = 0.3
-        farm_RGO_eff = -0.3
+        local_factory_throughput = 0.2
+        farm_RGO_eff = -0.2
         icon = 22
         limit = {
                is_colonial = no
@@ -276,6 +276,7 @@ production_focus =
                 local_RGO_throughput = 0.1
 		icon = 4
 	}
+
 }
 
 party_loyalty_focus =
