@@ -2,7 +2,7 @@ owner = USA
 controller = USA
 add_core = USA
 trade_goods = coal
-life_rating = 38
+life_rating = 30
 railroad = 1
 terrain = city_958 
 

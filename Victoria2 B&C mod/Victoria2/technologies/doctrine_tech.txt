@@ -115,7 +115,7 @@ medicine_tech_1 = {
 	cost = 4000
 	unciv_military = yes
     
-        pop_growth = 0.0001
+        pop_growth = 0.0002
 
         ai_chance = {
 		factor = 20
@@ -546,6 +546,7 @@ focus_idea_tech_1 = {
        year = 1830
        cost = 4000
        max_national_focus = 2
+       activate_building = province_selector
        ai_chance = {
 		factor = 10
                 modifier = {

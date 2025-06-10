@@ -190,7 +190,6 @@ modern = {
 	year = 1880
 	cost = 12000
 
-        max_city = 1
 	prestige = 0.05
 	global_assimilation_rate = 0.08
 	global_immigrant_attract = 0.05
@@ -925,7 +924,7 @@ state_n_government = {
 	year = 1840
 	cost = 6000
 
-	cb_creation_speed = 0.10 
+	cb_creation_speed = 0.10
 	ai_chance = {
 		factor = 1.1
 		modifier = {

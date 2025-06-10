@@ -928,9 +928,6 @@ political_decisions = {
 		}
 		
 		effect = {
-			425 = {
-				life_rating = 5
-			}
 			prestige = 10
 			set_country_flag = extreme_home_makeover
 		}

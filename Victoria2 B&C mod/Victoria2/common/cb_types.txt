@@ -255,7 +255,6 @@ conquest = {
                                                 tag = HYD
                                                 tag = MYS
                                                 tag = BUN
-                                                tag = KOR
                                                 
                }
 		OR = {
@@ -336,6 +335,17 @@ conquest = {
 	good_relation_militancy_factor = 1
 	
 	construction_speed = 0.5
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -377,6 +387,17 @@ civil_war = {
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 
 	po_annex = yes
 	
@@ -598,7 +619,6 @@ acquire_core_state = {
                                                 tag = HYD
                                                 tag = MYS
                                                 tag = BUN
-                                                tag = KOR
                }
 	}
 	
@@ -607,6 +627,17 @@ acquire_core_state = {
 			is_core = THIS
 		}
 		not = { any_owned_province = { is_capital = yes } }
+	}
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
 	}
 
 	po_demand_state = yes
@@ -690,7 +721,6 @@ acquire_core_state_ai = {
                                                 tag = HYD
                                                 tag = MYS
                                                 tag = BUN
-                                                tag = KOR
                }
 	}
 	
@@ -699,6 +729,17 @@ acquire_core_state_ai = {
 			is_core = THIS
 		}
 		not = { any_owned_province = { is_capital = yes } }
+	}
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
 	}
 
 	po_demand_state = yes
@@ -780,7 +821,6 @@ annex_core_country_ai = {
                                                 tag = HYD
                                                 tag = MYS
                                                 tag = BUN
-                                                tag = KOR
                }
 		NOT = {
 			any_owned_province = {
@@ -794,6 +834,17 @@ annex_core_country_ai = {
 	po_annex = yes
 	
 	war_name = WAR_RESTORE_ORDER_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -871,7 +922,6 @@ annex_core_country = {
                                                 tag = HYD
                                                 tag = MYS
                                                 tag = BUN
-                                                tag = KOR
                }
 		NOT = {
 			any_owned_province = {
@@ -885,6 +935,17 @@ annex_core_country = {
 	po_annex = yes
 	
 	war_name = WAR_RESTORE_ORDER_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -979,6 +1040,17 @@ acquire_substate_region = {
 		}
 	}
 
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
+
 	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
@@ -1065,7 +1137,6 @@ acquire_state = {
                                                 tag = MYS
                                                 tag = BUN
                                                 tag = SWI
-                                                tag = KOR
                 }
 		OR = {
 			AND = {
@@ -1132,6 +1203,17 @@ acquire_state = {
 		any_owned_province = {
 			any_neighbor_province = {
 				owner = { tag = THIS }
+			}
+		}
+	}
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
 			}
 		}
 	}		
@@ -1237,6 +1319,17 @@ place_in_the_sun = {
 		}
 	}
 
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
+
 	po_demand_state = yes
 
 	war_name = WAR_COLONIAL_NAME
@@ -1275,6 +1368,17 @@ colonial_competition = {
 	po_colony = yes
 
 	war_name = WAR_COLONIAL_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -1439,6 +1543,17 @@ free_peoples = {
 	po_transfer_provinces = yes
 
 	war_name = WAR_FREE_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -1561,6 +1676,17 @@ free_peoples_player = {
 	po_transfer_provinces = yes
 
 	war_name = WAR_FREE_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -1949,6 +2075,17 @@ demand_concession_casus_belli = {
 	
 	war_name = WAR_CONCESSION_NAME
 
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
+
 	on_add = {
 		move_issue_percentage = { 
 			from = jingoism 
@@ -2074,6 +2211,17 @@ establish_protectorate_casus_belli = {
 	po_annex = yes
 	
 	war_name = WAR_PROTECTORATE_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 
 	on_add = {
 		move_issue_percentage = { 
@@ -2255,6 +2403,17 @@ unification_casus_belli = {
 	
 	war_name = WAR_UNIFICATION_NAME
 
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
+
 	on_add = {
 		move_issue_percentage = { 
 			from = jingoism 
@@ -2312,6 +2471,17 @@ unification_annex_casus_belli = {
 	po_annex = yes
 	
 	war_name = WAR_UNIFICATION_ANNEX_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 
 	on_add = {
 		move_issue_percentage = { 
@@ -2578,7 +2748,6 @@ annex_one_state = {
 						tag = WEI
 						tag = SCH
                                                 tag = SWI
-                                                tag = KOR
 					}
 				}
 				PRU = {
@@ -2611,6 +2780,17 @@ annex_one_state = {
 	good_relation_militancy_factor = 1
 	
 	construction_speed = 0.5
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -2692,7 +2872,6 @@ annex_capital = {
                                                 tag = MYS
                                                 tag = BUN
                                                 tag = SWI
-                                                tag = KOR
                }
 	       NOT = {
                 AND = {
@@ -2712,6 +2891,17 @@ annex_capital = {
 	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -2769,6 +2959,17 @@ annex_south_china_region = {
 	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -2826,6 +3027,17 @@ annex_north_china_region = {
 	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -2872,6 +3084,17 @@ annex_capital_player = {
 	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -2953,6 +3176,17 @@ human_state = {
 	po_demand_state = yes
 	
 	war_name = WAR_TAKE_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -3003,6 +3237,17 @@ human_colony = {
 	po_demand_state = yes
 
 	war_name = WAR_COLONIAL_NAME
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -3048,6 +3293,17 @@ annex_krakov = {
 	good_relation_militancy_factor = 1
 	
 	construction_speed = 0.5
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -3097,6 +3353,17 @@ invasion_to_saxony = {
 	good_relation_militancy_factor = 1
 	
 	construction_speed = 0.5
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -3146,6 +3413,17 @@ annex_montenegro = {
 	good_relation_militancy_factor = 1
 	
 	construction_speed = 0.5
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
@@ -3366,7 +3644,18 @@ state_100k = {
 				owner = { tag = THIS }
 			}
 		}
-	}		
+	}	
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}	
 
 	po_demand_state = yes
 	
@@ -3418,6 +3707,17 @@ colony_100k = {
 			total_pops = 100000
 		}
 		
+	}
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
 	}
 
 	po_demand_state = yes
@@ -3473,6 +3773,17 @@ acquire_port_china = {
 		any_owned_province = {
 			NOT = {
 				is_core = CHI
+			}
+		}
+	}
+
+        on_po_accepted = {
+		THIS = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
 			}
 		}
 	}

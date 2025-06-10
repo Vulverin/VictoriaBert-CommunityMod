@@ -412,6 +412,48 @@ migration_chance =
 	factor = 1
 
         modifier = {
+			factor = 0.15
+			OR = {
+                                        terrain = ocean
+                			terrain = arctic
+                			terrain = farmlands
+                			terrain = forest
+                		        terrain = woods
+                			terrain = steppe
+                			terrain = plains
+                			terrain = hills
+                                        terrain = mountain
+                			terrain = hilly_grassland
+                			terrain = semi_desert
+                			terrain = desert
+                			terrain = boreal_forest
+                			terrain = jungle	
+                                        terrain = port_city										
+                                }
+	}
+        modifier = {
+			factor = -0.1
+			NOT = {
+                        OR = {
+                                        terrain = ocean
+                			terrain = arctic
+                			terrain = farmlands
+                			terrain = forest
+                		        terrain = woods
+                			terrain = steppe
+                			terrain = plains
+                			terrain = hills
+                                        terrain = mountain
+                			terrain = hilly_grassland
+                			terrain = semi_desert
+                			terrain = desert
+                			terrain = boreal_forest
+                			terrain = jungle	
+                                        terrain = port_city										
+                                }
+                         }
+	}
+        modifier = {
 		factor = 0.05
 		OR = {
                         country = {
@@ -461,28 +503,28 @@ migration_chance =
 		}
 	}
 	
-	group = {
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 35 } }
-		}
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 34 } }
-		}
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 33 } }
-		}
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 32 } }
-		}
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 31 } }
-		}
-	}
+#	group = {
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 35 } }
+#		}
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 34 } }
+#		}
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 33 } }
+#		}
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 32 } }
+#		}
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 31 } }
+#		}
+#	}
 	
 	modifier = {
 			factor = -0.3

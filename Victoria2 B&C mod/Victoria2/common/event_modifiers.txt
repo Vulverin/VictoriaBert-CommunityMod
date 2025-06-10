@@ -2175,3 +2175,58 @@ turk_burn = {
          attrition = 7
          icon = 20
 }
+immigrator_modifier = {
+		immigrant_attract = 40
+		immigrant_push = -1
+		icon = 35
+}
+generic_supply_depot_pmodifier = {
+		supply_limit = 15
+		icon = 17
+}
+city_0 = {
+        immigrant_attract = 40
+        immigrant_push = -1
+        icon = 9
+}
+city_1 = {
+        icon = 9
+        immigrant_attract = -40
+}
+city_2 = {
+        icon = 9
+        immigrant_attract = -40
+}
+city_3 = {
+        icon = 9
+        immigrant_attract = -40
+}
+city_4 = {
+        icon = 9
+        immigrant_attract = -40
+}
+city_5 = {
+        icon = 9
+        immigrant_attract = -40
+}
+school_1 = {
+        icon = 9
+}
+school_2 = {
+        icon = 9
+}
+school_3 = {
+        icon = 9
+}
+school_4 = {
+        icon = 9
+}
+school_5 = {
+        icon = 9
+}
+upgrading_school = {
+        icon = 9
+}
+upgrading_city = {
+        icon = 9
+}

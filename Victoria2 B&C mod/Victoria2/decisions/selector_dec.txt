@@ -1,0 +1,55 @@
+political_decisions = {
+	province_selector_event_dec = {
+		potential = {
+			tag = SWI
+			META_1 = {
+                	owner = {
+                		ai = no
+                		any_owned_province = { has_building = province_selector }
+                		}
+                	}
+            }
+		allow = {
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+					any_owned_province = { has_building = province_selector }
+				}
+				random_owned = {
+					limit = {
+						has_building = province_selector
+					}
+					province_event = {
+						id = 140407 days = 0
+					}
+					province_selector = -1
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
+political_decisions = {
+	selector_cancel_immigration_dec = {
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_country_flag = hide_all_decs_flag }
+			any_owned_province = {
+				has_province_modifier = immigrator_modifier
+			}
+		}
+
+		allow = {
+		}
+
+		effect = {
+			any_owned = {
+				remove_province_modifier = immigrator_modifier
+			}
+		}
+	}
+}

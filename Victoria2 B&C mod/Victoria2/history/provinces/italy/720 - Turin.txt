@@ -3,7 +3,7 @@ controller = SAR terrain = city_958
 add_core = SAR
 add_core = ITA
 trade_goods = coal
-life_rating = 37
+life_rating = 30
 #state_building = {
 #	level = 1
 #	building = steel_factory

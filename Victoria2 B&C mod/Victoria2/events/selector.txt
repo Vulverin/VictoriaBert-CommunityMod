@@ -1,0 +1,1641 @@
+province_event = {
+	title = "Selector_EvtName"
+	desc = "Selector_EvtDesc"
+	id = 140407
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Selector_EvtOptCancel"
+		province_selector = -1
+	}
+	
+	option = {
+		name = "Selector_EvtOptDestroyNavalBase"
+		province_selector = -1
+		naval_base = -7
+	}
+
+	option = {
+    		name = "Selector_EvtOptDestroyfort"
+    		province_selector = -1
+    		fort = -7
+    }
+	
+	option = {
+		name = "Selector_EvtOptImmigration"
+		owner = {
+			any_owned = {
+				remove_province_modifier = immigrator_modifier
+			}
+		}
+		add_core = SWI
+                		owner = {	
+                			any_owned = {
+                				limit = {
+                				    is_core = SWI
+                					NOT = {
+                						terrain = berlin_city
+                						terrain = city_958
+                						terrain = munich_city
+                						terrain = brussels_city
+                						terrain = naples_city
+                						terrain = glasgow_city
+                						terrain = copenhagen_city
+                						terrain = christiana_city
+                						terrain = mexico_city
+                						terrain = san_franc_city
+                						terrain = los_angeles_city
+                						terrain = budapest_city
+                						terrain = amsterdam_city
+                						terrain = new_york_city
+                						terrain = reval_city
+                						terrain = vilnus_city
+                						terrain = baku_city
+                						terrain = odessa_city
+                						terrain = riga_city
+                						terrain = warsaw_city
+                						terrain = kharkov_city
+                						terrain = kiev_city
+                						terrain = moscow_city
+                						terrain = stock_city
+                						terrain = paris_city
+                						terrain = rio_city
+                						terrain = washington_city
+                						terrain = tokyo_city
+                						terrain = petersburg_city
+                						terrain = consta_city
+                						terrain = vien_city
+                						terrain = rome_city
+                						terrain = london_city
+                						terrain = madrid_city
+                					}
+                				}
+		add_province_modifier = { name = immigrator_modifier duration = -1 }
+		                    }
+						}
+        remove_core = SWI
+		province_selector = -1
+	}
+    option = {
+    		name = "Selector_EvtOptSupplyDepot"
+    		owner = {
+    			any_owned = {
+    				remove_province_modifier = generic_supply_depot_pmodifier
+    			}
+    			money = -200000
+    		}
+    		add_province_modifier = {
+    			name = generic_supply_depot_pmodifier
+    			duration = 365
+    		}
+    		province_selector = -1
+    	}
+#    option = {
+#        		name = "Selector_EvtOptSchool"
+#				owner = {
+#			            any_owned = {
+#				           remove_province_modifier = upgrading_school
+#			            }
+#		        }
+#        		add_core = SWI
+#                		owner = {	
+#                			any_owned = {
+#                				limit = {
+#                				    is_core = SWI
+#                					OR = {
+#                						terrain = berlin_city
+#                						terrain = city_958
+#                						terrain = munich_city
+#                						terrain = brussels_city
+#                						terrain = naples_city
+#                						terrain = glasgow_city
+#               						terrain = copenhagen_city
+#                						terrain = christiana_city
+#                						terrain = mexico_city
+#                						terrain = san_franc_city
+#                						terrain = los_angeles_city
+#               						terrain = budapest_city
+#                						terrain = amsterdam_city
+#                						terrain = new_york_city
+#                						terrain = reval_city
+#                						terrain = vilnus_city
+#                						terrain = baku_city
+#                						terrain = odessa_city
+#                						terrain = riga_city
+#                						terrain = warsaw_city
+#                						terrain = kharkov_city
+#                						terrain = kiev_city
+#               						terrain = moscow_city
+#                						terrain = stock_city
+#                						terrain = paris_city
+#               						terrain = rio_city
+#                						terrain = washington_city
+#                						terrain = tokyo_city
+#                						terrain = petersburg_city
+#                						terrain = consta_city
+#                						terrain = vien_city
+#                						terrain = rome_city
+#                						terrain = london_city
+#                						terrain = madrid_city
+#               					}
+#                				}
+#								add_province_modifier = {
+#									name = upgrading_school
+#									duration = -1
+#								}
+#                			}
+#                		}
+#                		province_selector = -1
+#                		remove_core = SWI
+#        }
+#    option = {
+#        		name = "Selector_EvtOptCity"
+#				owner = {
+#			            any_owned = {
+#				           remove_province_modifier = upgrading_city
+#			            }
+#		        }
+#        		add_core = SWI
+#                		owner = {	
+#                			any_owned = {
+#                				limit = {
+#                				    is_core = SWI
+#                					OR = {
+#                						terrain = berlin_city
+#                						terrain = city_958
+#               						terrain = munich_city
+#                						terrain = brussels_city
+#                						terrain = naples_city
+#                						terrain = glasgow_city
+#                						terrain = copenhagen_city
+#               						terrain = christiana_city
+#                						terrain = mexico_city
+#               						terrain = san_franc_city
+#                						terrain = los_angeles_city
+#                						terrain = budapest_city
+#                						terrain = amsterdam_city
+#                						terrain = new_york_city
+#                						terrain = reval_city
+#                						terrain = vilnus_city
+#                						terrain = baku_city
+#               						terrain = odessa_city
+#                						terrain = riga_city
+#                						terrain = warsaw_city
+#                						terrain = kharkov_city
+#                						terrain = kiev_city
+#                						terrain = moscow_city
+#                						terrain = stock_city
+#                						terrain = paris_city
+#                						terrain = rio_city
+#                						terrain = washington_city
+#                						terrain = tokyo_city
+#                						terrain = petersburg_city
+#                						terrain = consta_city
+#               						terrain = vien_city
+#                						terrain = rome_city
+#                						terrain = london_city
+#               						terrain = madrid_city
+#                					}
+#               				}
+#								add_province_modifier = {
+#									name = upgrading_city
+#									duration = -1
+#								}
+#               			}
+#                		}
+#                		province_selector = -1
+#                		remove_core = SWI
+#        }
+    option = {
+    		name = "Selector_EvtOptFireWorkers"
+    		add_core = SWI
+    		owner = {
+                			any_owned = {
+                			limit = {
+                			is_core = SWI
+                			OR = {
+                                						trade_goods = grain
+                                						trade_goods = coffee
+                                						trade_goods = cotton
+                                						trade_goods = dye
+                                						trade_goods = opium
+                                						trade_goods = rubber
+                                						trade_goods = wool
+                                						trade_goods = silk
+                                						trade_goods = spices
+                                						trade_goods = sugar
+                                						trade_goods = tea
+                                						trade_goods = tobacco
+                                					}}
+                                					any_pop = {
+                                						limit = {
+                                							pop_type = craftsmen
+                                						}
+                                						pop_type = farmers
+                                					}
+                                				}
+                                				any_owned = {
+                                					limit = {
+                                					 is_core = SWI
+                                					 OR = {
+                                						trade_goods = sulphur
+                                						trade_goods = oil
+                                						trade_goods = coal
+                                						trade_goods = tropical_wood
+                                                        trade_goods = timber
+                                                        trade_goods = shares
+                                                        trade_goods = iron
+                                                        trade_goods = lead
+                                					}}
+                                					any_pop = {
+                                						limit = {
+                                							pop_type = craftsmen
+                                						}
+                                						pop_type = labourers
+                                					}
+                                				}
+                			}
+                		province_selector = -1
+                		remove_core = SWI
+                	}
+}
+
+province_event = {
+	id = 9565 
+	picture = "farming"
+	title = "School1_EvtName"
+	desc = "School1_EvtDesc"
+	
+	trigger = {
+	    owner = {
+			associationism = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = port_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_school
+                life_rating = 36
+		NOT = {
+		     life_rating = 37
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "UpSchoolCancel_EvtOpt" #IRON
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_school
+	}
+	option = {
+		name = "UpSchool_EvtOpt"
+		owner = { money = -40000 }
+                school = 1
+		province_selector = -1
+                life_rating = 1
+		remove_province_modifier = upgrading_school
+	}
+}
+province_event = {
+	id = 9566 
+	picture = "farming"
+	title = "School2_EvtName"
+	desc = "School2_EvtDesc"
+
+	trigger = {
+	    owner = {
+			phenomenalism = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = port_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_school
+                life_rating = 38
+		NOT = {
+		     life_rating = 39
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "UpSchoolCancel_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_school
+	}
+	option = {
+		name = "UpSchool_EvtOpt"
+		owner = { money = -100000 }
+		remove_province_modifier = upgrading_school
+                school = 2
+                province_selector = -1
+                life_rating = 1
+	}
+}
+province_event = {
+	id = 9567 
+	picture = "farming"
+	title = "School3_EvtName"
+	desc = "School3_EvtDesc"
+
+	trigger = {
+	    owner = {
+			experimental_psychology = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = port_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_school
+		life_rating = 40
+		NOT = {
+		     life_rating = 41
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "UpSchoolCancel_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_school
+	}
+	option = {
+		name = "UpSchool_EvtOpt"
+		owner = { money = -150000 }
+	remove_province_modifier = upgrading_school
+        school = 3
+        province_selector = -1
+        life_rating = 1
+	}
+}
+province_event = {
+	id = 9568 
+	picture = "farming"
+	title = "School4_EvtName"
+	desc = "School4_EvtDesc"
+
+	trigger = {
+	    owner = {
+			psychology_1 = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = port_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_school
+		life_rating = 42
+		NOT = {
+		     life_rating = 43
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "UpSchoolCancel_EvtOpt"
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_school
+	}
+	option = {
+		name = "UpSchool_EvtOpt"
+		owner = { money = -250000 }
+        life_rating = 1
+		remove_province_modifier = upgrading_school
+        school = 4
+        province_selector = -1
+	}
+}
+province_event = {
+	id = 9569 
+	picture = "farming"
+	title = "School5_EvtName"
+	desc = "School5_EvtDesc"
+
+	trigger = {
+	    owner = {
+			psychoanalysis = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_school
+		life_rating = 44
+		NOT = {
+		     life_rating = 45
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "UpSchoolCancel_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_school
+	}
+	option = {
+		name = "UpSchool_EvtOpt"
+		owner = { money = -400000 }
+	        life_rating = 1
+	        remove_province_modifier = upgrading_school
+                school = 5
+                province_selector = -1
+	}
+}
+
+province_event = {
+	id = 9570 
+	picture = "farming"
+	title = "City1_EvtName"
+	desc = "City1_EvtDesc"
+	
+	trigger = {
+	    owner = {
+			romanticism = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = port_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_city
+                life_rating = 35
+		NOT = {
+		     life_rating = 36
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "UpCityCancel_EvtOpt" #IRON
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_city
+	}
+	option = {
+		name = "UpCity_EvtOpt"
+		owner = { money = -40000 }
+                city = 1
+		province_selector = -1
+                life_rating = 1
+		remove_province_modifier = upgrading_city
+	}
+}
+province_event = {
+	id = 9571 
+	picture = "farming"
+	title = "City2_EvtName"
+	desc = "City2_EvtDesc"
+
+	trigger = {
+	    owner = {
+			mass_culture_n_the_avant_garde_3 = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = port_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_city
+                life_rating = 37
+		NOT = {
+		     life_rating = 38
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "UpCityCancel_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_city
+	}
+	option = {
+		name = "UpCity_EvtOpt"
+		owner = { money = -100000 }
+		remove_province_modifier = upgrading_city
+                city = 2
+                province_selector = -1
+                life_rating = 1
+	}
+}
+province_event = {
+	id = 9572 
+	picture = "farming"
+	title = "City3_EvtName"
+	desc = "City3_EvtDesc"
+
+	trigger = {
+	    owner = {
+			realism = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = port_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_city
+		life_rating = 39
+		NOT = {
+		     life_rating = 40
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "UpCityCancel_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_city
+	}
+	option = {
+		name = "UpCity_EvtOpt"
+		owner = { money = -150000 }
+	remove_province_modifier = upgrading_city
+        city = 3
+        province_selector = -1
+        life_rating = 1
+	}
+}
+province_event = {
+	id = 9573  
+	picture = "farming"
+	title = "City4_EvtName"
+	desc = "City4_EvtDesc"
+
+	trigger = {
+	    owner = {
+			impressionism = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = port_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_city
+		life_rating = 41
+		NOT = {
+		     life_rating = 42
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "UpCityCancel_EvtOpt"
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_city
+	}
+	option = {
+		name = "UpCity_EvtOpt"
+		owner = { money = -250000 }
+        life_rating = 1
+		remove_province_modifier = upgrading_city
+        city = 4
+        province_selector = -1
+	}
+}
+#province_event = {
+	id = 9574 
+	picture = "farming"
+	title = "City5_EvtName"
+	desc = "City5_EvtDesc"
+
+	trigger = {
+	    owner = {
+			puantilism = 1
+		}
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+		has_province_modifier = upgrading_city
+		life_rating = 43
+		NOT = {
+		     life_rating = 44
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "UpCityCancel_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		province_selector = -1
+		remove_province_modifier = upgrading_city
+	}
+	option = {
+		name = "UpCity_EvtOpt"
+		owner = { money = -400000 }
+	        life_rating = 1
+	        remove_province_modifier = upgrading_city
+                city = 5
+                province_selector = -1
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+province_event = {
+	id = 9575
+	picture = "farming"
+	title = "Overpopulation_EvtName"
+	desc = "Overpopulation_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                NOT = { life_rating = 31 }
+                NOT = { has_province_modifier = city_1 }
+                total_pops = 200000
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "OverPopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		add_province_modifier = { name = city_1 duration = -1 }
+	}
+}
+
+province_event = {
+	id = 9576
+	picture = "farming"
+	title = "OverpopulationCancel_EvtName"
+	desc = "OverpopulationCancel_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                has_province_modifier = city_1 
+                OR = {
+                NOT = { total_pops = 200000 }
+                life_rating = 31
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "Overpopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		remove_province_modifier = city_1 
+	}
+}
+province_event = {
+	id = 9577
+	picture = "farming"
+	title = "Overpopulation_EvtName"
+	desc = "Overpopulation_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                life_rating = 31
+                NOT = { life_rating = 33 }
+                NOT = { has_province_modifier = city_2 }
+                total_pops = 350000
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "OverPopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		add_province_modifier = { name = city_2 duration = -1 }
+	}
+}
+
+province_event = {
+	id = 9578
+	picture = "farming"
+	title = "OverpopulationCancel_EvtName"
+	desc = "OverpopulationCancel_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                has_province_modifier = city_2 
+                OR = {
+                NOT = { total_pops = 300000 }
+                life_rating = 33
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "Overpopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		remove_province_modifier = city_2 
+	}
+}
+province_event = {
+	id = 9579
+	picture = "farming"
+	title = "Overpopulation_EvtName"
+	desc = "Overpopulation_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                life_rating = 33
+                NOT = { life_rating = 35 }
+                NOT = { has_province_modifier = city_3 }
+                total_pops = 450000
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "OverPopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		add_province_modifier = { name = city_3 duration = -1 }
+	}
+}
+
+province_event = {
+	id = 9580
+	picture = "farming"
+	title = "OverpopulationCancel_EvtName"
+	desc = "OverpopulationCancel_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                has_province_modifier = city_3 
+                OR = {
+                NOT = { total_pops = 450000 }
+                life_rating = 35
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "Overpopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		remove_province_modifier = city_3 
+	}
+}
+province_event = {
+	id = 9581
+	picture = "farming"
+	title = "Overpopulation_EvtName"
+	desc = "Overpopulation_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                life_rating = 35
+                NOT = { life_rating = 37 }
+                NOT = { has_province_modifier = city_4 }
+                total_pops = 600000
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "OverPopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		add_province_modifier = { name = city_4 duration = -1 }
+	}
+}
+province_event = {
+	id = 9582
+	picture = "farming"
+	title = "OverpopulationCancel_EvtName"
+	desc = "OverpopulationCancel_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                has_province_modifier = city_4 
+                OR = {
+                NOT = { total_pops = 600000 }
+                life_rating = 37
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "Overpopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		remove_province_modifier = city_4
+	}
+}
+province_event = {
+	id = 9583
+	picture = "farming"
+	title = "Overpopulation_EvtName"
+	desc = "Overpopulation_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                life_rating = 37
+                NOT = { life_rating = 39 }
+                NOT = { has_province_modifier = city_5 }
+                total_pops = 800000
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "OverPopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		add_province_modifier = { name = city_5 duration = -1 }
+	}
+}
+
+province_event = {
+	id = 9584
+	picture = "farming"
+	title = "OverpopulationCancel_EvtName"
+	desc = "OverpopulationCancel_EvtDesc"
+
+	trigger = {
+		OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = madrid_city
+		}
+                has_province_modifier = city_5 
+                OR = {
+                NOT = { total_pops = 800000 }
+                life_rating = 39
+                }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "Overpopulation_EvtOpt" 
+		owner = { clr_country_flag = deciding_flag }
+		remove_province_modifier = city_5
+	}
+}

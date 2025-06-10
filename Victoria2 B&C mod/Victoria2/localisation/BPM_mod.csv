@@ -1897,7 +1897,7 @@ NCH;Чжилийская клика;X
 NCH_ADJ;Чжилийск.;X
 ACH;Аньхойская клика;X
 ACH_ADJ;Аньхойск.;X
-school;Университет;X
+school;Учебные заведения;X
 british_doms_title;Британское содружество;X
 british_doms_desc;Наша империя владеет огромными территориями, которые нуждаются в качественном административном управлении. Мы не в силах распределять наши ресурсы в равной степени по всем колониям и именно поэтому нужно предоставить Австралии и Канаде больше свободы, чтобы мы могли сконцентрироваться на своей метрополии, а при нашей поддержке они достигнут определенных успехов.;X
 british_ast;Доминион Австралия;X
@@ -3069,3 +3069,41 @@ no_schools_system;Отсутствие школьной системы;X
 weak_schools_system;Слабая школьная система;X
 weak2_schools_system;Слабая школьная система;X
 conscription_back_recruiting_title;Рекрутская повинность;X
+META_1;Земля;X
+province_selector;Селектор;X
+Selector_EvtName;Селектор;X
+Selector_EvtDesc;Выберите действие с провинцией;X
+Selector_EvtOptCancel;§B0.§! Отмена;X 
+Selector_EvtOptDestroyNavalBase;§B3.§! Демонтаж морской базы;X
+Selector_EvtOptImmigration;§B4.§! Направить иммиграцию в сельскую провинцию;X 
+Selector_EvtOptDestroyfort;§B7.§! Уничтожить крепость;X 
+Selector_EvtOptSupplyDepot;§B7.§! Создать склад снабжения;X 
+Selector_EvtOptRemAllSelectors;§B9.§! Удалить все селекторы;X
+Selector_EvtOptFireWorkers;§B7.§! Уволить пролетариев;X
+Selector_EvtOptSchool;§B9.§! Строительство Учеб.заведений;X
+UpSchoolCancel_EvtOpt;Отмена строительства;X
+UpSchool_EvtOpt;Начать строительство Учеб.заведений;X
+School1_EvtName;Строительство Учеб.заведений 1 уровня;X
+School1_EvtDesc;Расходы на строительство 40 000;X
+School2_EvtName;Строительство Учеб.заведений 2 уровня;X
+School2_EvtDesc;Расходы на строительство 100 000;X
+School3_EvtName;Строительство Учеб.заведений 3 уровня;X
+School3_EvtDesc;Расходы на строительство 150 000;X
+School4_EvtName;Строительство Учеб.заведений 4 уровня;X
+School4_EvtDesc;Расходы на строительство 250 000;X
+School5_EvtName;Строительство Учеб.заведений 5 уровня;X
+School5_EvtDesc;Расходы на строительство 400 000;X
+school_1;Учебные заведения 1;X
+school_2;Учебные заведения 2;X
+school_3;Учебные заведения 3;X
+school_4;Учебные заведения 4;X
+school_5;Учебные заведения  5 (Последний);X
+city_1;Нехватка городской инфраструктуры;X 
+city_2;Нехватка городской инфраструктуры;X 
+city_3;Нехватка городской инфраструктуры;X 
+city_4;Нехватка городской инфраструктуры;X 
+city_5;Нехватка городской инфраструктуры;X 
+OverPopulation_EvtOpt;Терпеть;X
+upgrading_school;Подготовка к строительству учебных заведений ;X
+Overpopulation_EvtName;Перенаселение в городе;X
+Overpopulation_EvtDesc;В провинции нехватка городской инфраструктуры;X

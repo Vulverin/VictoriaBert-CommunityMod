@@ -151,7 +151,7 @@ acceptable_schools_fully_funded = {
         school_reforms = acceptable_schools
         education_spending = 0.90
     }
-    education_efficiency_modifier = 0.15
+    education_efficiency_modifier = 0.2
     icon = 19
 }
 
@@ -161,7 +161,7 @@ good_schools_fully_funded = {
         school_reforms = good_schools
         education_spending = 0.99
     }
-    education_efficiency_modifier = 0.25
+    education_efficiency_modifier = 0.3
     icon = 19
 }
 
@@ -608,64 +608,64 @@ grand_navy0 = {
 	prestige = -0.02
 }
 
-education_troubles1 = {
-        trigger = {
-                NOT = {
-                      literacy = 0.6
-                }
-                literacy = 0.5
-                
-        }
-        education_efficiency_modifier = -0.55
-        icon = 9
-}
-education_troubles2 = {
-        trigger = {
-              NOT = {
-                      literacy = 0.7
-                }
-              literacy = 0.6
-        }
-        education_efficiency_modifier = -0.7
-        icon = 9
-}
-education_troubles3 = {
-        trigger = {
-              NOT = {
-                      literacy = 0.8
-                }
-              literacy = 0.7
-        }
-        education_efficiency_modifier = -0.80
-        icon = 9
-}
-education_troubles4 = {
-        trigger = {
-              NOT = {
-                      literacy = 0.9
-                }
-              literacy = 0.8
-        }
-        education_efficiency_modifier = -1.0
-        icon = 9
-}
-education_troubles5 = {
-        trigger = {
-              NOT = {
-                      literacy = 1.0
-                }
-              literacy = 0.9
-        }
-        education_efficiency_modifier = -2.0
-        icon = 9
-}
-education_troubles6 = {
-        trigger = {
-              literacy = 1.0
-        }
-        education_efficiency_modifier = -3.0
-        icon = 9
-}
+#education_troubles1 = {
+#        trigger = {
+#                NOT = {
+#                      literacy = 0.6
+#                }
+#                literacy = 0.5
+#                
+#        }
+#        education_efficiency_modifier = -0.55
+#        icon = 9
+#}
+#education_troubles2 = {
+#        trigger = {
+#              NOT = {
+#                      literacy = 0.7
+#                }
+#              literacy = 0.6
+#        }
+#        education_efficiency_modifier = -0.7
+#        icon = 9
+#}
+#education_troubles3 = {
+#        trigger = {
+#              NOT = {
+#                      literacy = 0.8
+#                }
+#              literacy = 0.7
+#        }
+#        education_efficiency_modifier = -0.80
+#        icon = 9
+#}
+#education_troubles4 = {
+#        trigger = {
+#              NOT = {
+#                      literacy = 0.9
+#                }
+#              literacy = 0.8
+#        }
+#        education_efficiency_modifier = -1.0
+#        icon = 9
+#}
+#education_troubles5 = {
+#        trigger = {
+#              NOT = {
+#                      literacy = 1.0
+#                }
+#              literacy = 0.9
+#        }
+#        education_efficiency_modifier = -2.0
+#        icon = 9
+#}
+#education_troubles6 = {
+#        trigger = {
+#              literacy = 1.0
+#        }
+#        education_efficiency_modifier = -3.0
+#        icon = 9
+#}
 war_support0 = {
 	trigger = {
         year = 1880
@@ -788,39 +788,39 @@ german_minors_boost = {
     global_population_growth = 0.001
 }
 
-no_schools_system = {
-    trigger = {
-        exists = yes
-        school_reforms = no_schools
-        literacy = 0.5
-    }
-    education_efficiency_modifier = -1
-    icon = 19
-}
-
-weak_schools_system = {
-    trigger = {
-        exists = yes
-        OR = {
-        school_reforms = no_schools
-        school_reforms = low_schools
-        }
-        literacy = 0.7
-    }
-    education_efficiency_modifier = -1
-    icon = 19
-}
-
-weak2_schools_system = {
-    trigger = {
-        exists = yes
-        OR = {
-        school_reforms = no_schools
-        school_reforms = low_schools
-        school_reforms = acceptable_schools
-        }
-        literacy = 0.8
-    }
-    education_efficiency_modifier = -1
-    icon = 19
-}
+#no_schools_system = {
+#    trigger = {
+#        exists = yes
+#        school_reforms = no_schools
+#        literacy = 0.5
+#    }
+#    education_efficiency_modifier = -1
+#    icon = 19
+#}
+#
+#weak_schools_system = {
+#    trigger = {
+#        exists = yes
+#        OR = {
+#        school_reforms = no_schools
+#        school_reforms = low_schools
+#        }
+#        literacy = 0.7
+#    }
+#    education_efficiency_modifier = -1
+#    icon = 19
+#}
+#
+#weak2_schools_system = {
+#    trigger = {
+#        exists = yes
+#        OR = {
+#       school_reforms = no_schools
+#        school_reforms = low_schools
+#        school_reforms = acceptable_schools
+#        }
+#        literacy = 0.8
+#    }
+#    education_efficiency_modifier = -1
+#    icon = 19
+#}

@@ -3,7 +3,7 @@ controller = PAR terrain = city_958
 add_core = PAR
 add_core = ITA
 trade_goods = iron
-life_rating = 37 
+life_rating = 30
 1861.1.1 = {
 	controller = ITA
 	owner = ITA

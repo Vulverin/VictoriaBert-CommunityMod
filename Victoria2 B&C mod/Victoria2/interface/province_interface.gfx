@@ -4,6 +4,18 @@ spriteTypes = {
 		name = "GFX_crisis_temperature_bar_frame"
 		texturefile = "gfx\\interface\\crisis_temperature_bar_frame.tga"
 	}
+
+	spriteType = {
+    	name = "GFX_province_selector_strip"
+    	texturefile = "gfx\\interface\\province_selector_strip.dds"
+    	noOfFrames = 2
+    }
+	
+	spriteType = {
+		name = "GFX_immigrator_strip"
+		texturefile = "gfx\\interface\\immigrator_strip.dds"
+		noOfFrames = 2
+	}
 	
 	spriteType = {
 		name = "GFX_flashpoint_tension_icon"
@@ -89,20 +101,20 @@ spriteTypes = {
 		noOfFrames = 7
 	}
 	spriteType = {
+    	name = "GFX_province_school_strip"
+    	textureFile = "gfx\\interface\\province_school_strip.dds"
+    	noOfFrames = 7
+    }
+        spriteType = {
+    	name = "GFX_province_cities_strip"
+    	textureFile = "gfx\\interface\\province_cities_strip.dds"
+    	noOfFrames = 7
+    }
+	spriteType = {
 		name = "GFX_province_infra_strip"
 		textureFile = "gfx\\interface\\province_infra_strip.dds"
 		noOfFrames = 7
 	}
-	spriteType = {
-		name = "GFX_province_infra_strip1"
-		textureFile = "gfx\\interface\\province_infra_strip1.dds"
-		noOfFrames = 7
-	}
-        spriteType = {
-		name = "GFX_province_infra_strip2"
-		textureFile = "gfx\\interface\\province_infra_strip2.dds"
-		noOfFrames = 7
-	}		
 	spriteType = {
 		name = "GFX_province_expanding"
 		texturefile = "gfx\\interface\\province_expanding.dds"

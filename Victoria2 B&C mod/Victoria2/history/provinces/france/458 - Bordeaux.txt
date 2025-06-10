@@ -3,7 +3,7 @@ controller = FRA terrain = city_958
 naval_base = 1 
 add_core = FRA
 trade_goods = grain
-life_rating = 35 
+life_rating = 30
 #state_building = {
 #	level = 1
 #	building = winery

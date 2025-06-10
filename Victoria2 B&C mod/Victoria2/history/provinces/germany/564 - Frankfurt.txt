@@ -3,5 +3,5 @@ controller = FRM terrain = city_958
 add_core = FRM
 add_core = GER
 trade_goods = grain
-life_rating = 35 
+life_rating = 30
 1861.1.1 = { railroad = 3 }
