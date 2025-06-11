@@ -4,7 +4,7 @@ religion = orthodox
 government = absolute_monarchy
 plurality = 20
 nationalvalue = nv_eastciv
-literacy = 0.19
+literacy = 0.12
 civilized = yes
 
 set_country_flag = serfdom_not_abolished

@@ -4,7 +4,7 @@ religion = protestant
 government = absolute_monarchy
 plurality = 25.0
 nationalvalue = nv_eastciv
-literacy = 0.60
+literacy = 0.50
 non_state_culture_literacy = 0.30
 civilized = yes
 

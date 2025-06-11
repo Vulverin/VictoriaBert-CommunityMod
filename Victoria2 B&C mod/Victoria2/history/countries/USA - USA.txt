@@ -6,7 +6,7 @@ religion = protestant
 government = democracy
 plurality = 35.0
 nationalvalue = nv_westciv
-literacy = 0.55
+literacy = 0.45
 civilized = yes
 
 set_country_flag = usa_army_limit

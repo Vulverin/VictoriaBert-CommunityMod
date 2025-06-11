@@ -1,0 +1,269 @@
+political_decisions = {
+	form_iberia1 = {
+		potential = {
+			IBE = { exists = no }
+			tag = SPA				
+		}
+		allow = {
+			war = no
+                        year = 1840
+                        is_our_vassal = POR
+		}
+		
+		effect = {
+			prestige = 20
+			inherit = POR
+			SPA = {
+				all_core = {
+					add_core = IBE
+				}
+			}
+			POR = {
+				all_core = {
+					add_core = IBE
+				}
+}
+			change_tag = IBE
+			add_accepted_culture = spanish
+			add_accepted_culture = portuguese
+			add_accepted_culture = catalan
+			add_accepted_culture = basque
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+       spain_econ1 = {
+                potential = {
+                        tag = IBE
+			IBE = {
+                               NOT = {
+                                      has_country_modifier = economicspain1
+                               }
+                        }
+		}
+                allow = {
+                         scientific_management = 1
+                         business_regulations = 1
+                         money = 250000 
+                }
+                effect = {
+                          money = -250000 
+	                  IBE = {
+                               add_country_modifier = {
+                                  name = economicspain1
+                                  duration = 14600
+                               }
+                         }
+                }
+        }
+
+        spain_marc = {
+                potential = {
+                          tag = IBE
+                          NOT = {
+                                 has_country_flag = spa_mor_13
+                          }
+                }
+                allow = {
+                         year = 1840
+                }
+                effect = {
+                         MOR = {
+                                  all_core = {
+                                         add_core = IBE
+                                  }
+                         }
+                         set_country_flag = spa_mor_13
+                }
+        }        
+  
+        gibraltar_spa = {
+                alert = no
+                potential = {
+                              ai = no
+                              tag = IBE
+                              owns = 517
+                                
+                       
+			ENG = {
+                               NOT = {
+                                      has_country_modifier = gibraltar_is_locked
+                               }
+                        }
+		}
+                allow = {
+                          
+                }
+                effect = {
+                           
+	                  ENG = {
+                               add_country_modifier = {
+                                  name = gibraltar_is_locked
+                                  duration = -1
+                               }
+                         }
+                }
+        }
+
+        gibraltar_spa1 = {
+                alert = no
+                potential = {
+                         ai = no
+                         tag = IBE
+                         owns = 517
+                       
+			ENG = {
+                               
+                                      has_country_modifier = gibraltar_is_locked
+                        }
+		}
+                allow = {
+                          
+                }
+                effect = {
+                           
+	                  ENG = {
+                                  remove_country_modifier = gibraltar_is_locked
+                                         
+                        }
+                }
+        }
+         
+        restore_empire = {
+                potential = {
+                       tag = IBE
+                       alert = no
+                       NOT = {
+                               has_country_flag = restr_empr
+                       }
+                }
+
+                allow = {
+                year = 1840
+                }
+                
+                effect = {
+                           VNZ = {
+                                   all_core = {
+				          add_core = IBE
+			           }
+                           }
+                           CLM = {
+                                   all_core = {
+				          add_core = IBE
+			           }
+                           }
+                           ECU = {
+                                   all_core = {
+				          add_core = IBE
+			           }
+                           }
+                           MEX = {
+                                   all_core = {
+                                          add_core = IBE
+                                   }
+                           }
+                           BRZ = {
+                                   all_core = {
+                                          add_core = IBE
+                                   }
+                           }
+                           ARG = {
+                                   all_core = {
+                                          add_core = IBE
+                                   }
+                           }
+                           CHL = {
+                                   all_core = {
+                                          add_core = IBE
+                                   }
+                           }
+                           PEU = {
+                                   all_core = {
+                                          add_core = IBE
+                                   }
+                           }
+                           UCA = {
+                                   all_core = {
+                                          add_core = IBE
+                                   }
+                           }
+                           set_country_flag = restr_empr
+                }
+        }         
+        spanish_america = {
+                potential = {
+                       tag = IBE
+                       NOT = {
+                             has_country_flag = spain_amrc
+                      }
+                }
+                
+                allow = {
+                        year = 1850
+                }
+                
+                effect = {
+                        198 = {
+                                add_core = IBE
+                        }
+                        199 = {
+                                add_core = IBE
+                        }
+                        200 = {
+                                add_core = IBE
+                        }
+                        set_country_flag = spain_amrc
+                }
+        }
+	rio_de_fuck2 = {
+                potential = {
+			tag = IBE
+                        owns = 2447
+			NOT = {
+				has_country_flag = stat_build
+			}
+		}
+
+		allow = {
+                        money = 500000
+		}
+
+		effect = {
+			IBE = {
+                                money = -500000
+                        }
+			add_country_modifier = {
+                                   name = jesus
+                                   duration = -1
+                        }
+                        2447 = {
+                                 life_rating = 5
+                        }
+			set_country_flag = stat_build
+		}
+	}
+	reunification_of_iberian_culture = {
+                potential = {
+			tag = IBE
+			NOT = {
+				has_country_flag = reunification_of_iberian_culture
+			}
+		}
+
+		allow = {
+                        money = 500000
+		}
+
+		effect = {
+			IBE = {
+                                money = -500000
+                        }
+			add_country_modifier = {
+				name = brz_education
+				duration = -1
+		}
+	}
+}	

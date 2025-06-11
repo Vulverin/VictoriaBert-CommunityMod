@@ -31,6 +31,7 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
+}
 
 political_decisions = {
 	selector_cancel_immigration_dec = {

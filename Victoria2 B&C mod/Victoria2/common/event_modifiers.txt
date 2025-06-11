@@ -778,10 +778,9 @@ chinese_debuff = {
         RGO_output = -0.5
 }
 japanese_debuff = {
-        tax_efficiency = -0.05
         tariff_efficiency_modifier = -0.1
-        RGO_output = -0.25
-        factory_throughput = -0.3
+        RGO_output = -0.2
+        factory_throughput = -0.2
         army_tech_research_bonus = -0.2
         commerce_tech_research_bonus = -0.2
 	culture_tech_research_bonus = -0.2

@@ -5,8 +5,8 @@ religion = catholic
 government = hms_government
 plurality = 25.0
 nationalvalue = nv_westciv
-literacy = 0.5
-non_state_culture_literacy = 0.5 #Germans/Dutch
+literacy = 0.45
+non_state_culture_literacy = 0.45 #Germans/Dutch
 civilized = yes
 prestige = 10
 

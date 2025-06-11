@@ -1294,19 +1294,19 @@ promote_to =
                          factor = -500
                          OR = {
                                 AND = { 
-                                       clergymen = 0.035
+                                       clergymen = 0.045
                                        literacy = 0.8
                                 }
                                 AND = { 
-                                       clergymen = 0.03
+                                       clergymen = 0.04
                                        literacy = 0.85
                                 }
                                 AND = { 
-                                       clergymen = 0.025
+                                       clergymen = 0.035
                                        literacy = 0.9
                                 }
                                 AND = { 
-                                       clergymen = 0.02
+                                       clergymen = 0.03
                                        literacy = 0.95
                                 }
                        }

@@ -3103,7 +3103,39 @@ city_2;Нехватка городской инфраструктуры;X
 city_3;Нехватка городской инфраструктуры;X 
 city_4;Нехватка городской инфраструктуры;X 
 city_5;Нехватка городской инфраструктуры;X 
-OverPopulation_EvtOpt;Терпеть;X
+OverPopulation_EvtOpt;ОК;X
+Overpopulation_EvtOpt;ОК;X
+IBE_conservative;Партия кабралистов;X;
+IBE_liberal;Партия сентябристов;X;
+IBE_conservative_2;Партия возрождения;X;
+IBE_reactionary;Партия карлистов;X;
+IBE_liberal_2;Федерально-республиканская партия;X;
+IBE_liberal_3;Республиканская унитарная партия;X;
+IBE_socialist;Народный фронт;X;
+IBE_liberal_4;Радикально-республиканская партия;X;
+IBE_liberal_5;Республиканский союз;X;
+IBE_communist;Регионально-федеративная партия;X;
+IBE_liberal_6;Республиканско-реформистская партия;X;
+IBE_conservative_3;Каталонская регионалистская партия;X;
+IBE_liberal_7;Партия каталонской солидарности;X;
+IBE_conservative_4;Баскская националистическая партия;X;
+IBE_conservative_5;Национальный фронт;X;
+IBE_anarcho_liberal;Радикальная партия;X;
+IBE_fascist;Иберийская фаланга;X;
+reunification_of_iberian_culture_title;Унификация учебных программ;X;
+form_iberia1_title;Создание Иберийского государства;X;
+IBE;Иберия;X;
+IBE_presidential_dictatorship;Иберия;X;
+IBE_bourgeois_dictatorship;Иберия;X;
+IBE_fascist_dictatorship;Великая Иберия;X;
+IBE_democracy;Республика Иберия;X;
+IBE_absolute_monarchy;Иберийская империя;X;
+IBE_hms_government;Иберийская империя;X;
+IBE_proletarian_dictatorship;Иберийский союз ;X;
+IBE_ADJ;Иберийск.;X;
+rio_de_fuck2_title;Иберийская Статуя Христа спасителя;X;
 upgrading_school;Подготовка к строительству учебных заведений ;X
+OverpopulationCancel_EvtName;Нехватка инфраструктуры решена;X
+OverpopulationCancel_EvtDesc;Нехватка инфраструктуры решена;X 
 Overpopulation_EvtName;Перенаселение в городе;X
 Overpopulation_EvtDesc;В провинции нехватка городской инфраструктуры;X

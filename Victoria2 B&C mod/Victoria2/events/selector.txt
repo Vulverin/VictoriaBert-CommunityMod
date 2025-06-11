@@ -1076,7 +1076,7 @@ province_event = {
 		}
                 NOT = { life_rating = 31 }
                 NOT = { has_province_modifier = city_1 }
-                total_pops = 200000
+                total_pops = 300000
 	}
 
 	mean_time_to_happen = {
@@ -1136,7 +1136,7 @@ province_event = {
 		}
                 has_province_modifier = city_1 
                 OR = {
-                NOT = { total_pops = 200000 }
+                NOT = { total_pops = 300000 }
                 life_rating = 31
                 }
 	}
@@ -1198,7 +1198,7 @@ province_event = {
                 life_rating = 31
                 NOT = { life_rating = 33 }
                 NOT = { has_province_modifier = city_2 }
-                total_pops = 350000
+                total_pops = 450000
 	}
 
 	mean_time_to_happen = {
@@ -1258,7 +1258,7 @@ province_event = {
 		}
                 has_province_modifier = city_2 
                 OR = {
-                NOT = { total_pops = 300000 }
+                NOT = { total_pops = 450000 }
                 life_rating = 33
                 }
 	}
@@ -1320,7 +1320,7 @@ province_event = {
                 life_rating = 33
                 NOT = { life_rating = 35 }
                 NOT = { has_province_modifier = city_3 }
-                total_pops = 450000
+                total_pops = 600000
 	}
 
 	mean_time_to_happen = {
@@ -1380,7 +1380,7 @@ province_event = {
 		}
                 has_province_modifier = city_3 
                 OR = {
-                NOT = { total_pops = 450000 }
+                NOT = { total_pops = 600000 }
                 life_rating = 35
                 }
 	}
@@ -1442,7 +1442,7 @@ province_event = {
                 life_rating = 35
                 NOT = { life_rating = 37 }
                 NOT = { has_province_modifier = city_4 }
-                total_pops = 600000
+                total_pops = 800000
 	}
 
 	mean_time_to_happen = {
@@ -1501,7 +1501,7 @@ province_event = {
 		}
                 has_province_modifier = city_4 
                 OR = {
-                NOT = { total_pops = 600000 }
+                NOT = { total_pops = 800000 }
                 life_rating = 37
                 }
 	}
@@ -1563,7 +1563,7 @@ province_event = {
                 life_rating = 37
                 NOT = { life_rating = 39 }
                 NOT = { has_province_modifier = city_5 }
-                total_pops = 800000
+                total_pops = 1000000
 	}
 
 	mean_time_to_happen = {
@@ -1623,7 +1623,7 @@ province_event = {
 		}
                 has_province_modifier = city_5 
                 OR = {
-                NOT = { total_pops = 800000 }
+                NOT = { total_pops = 1000000 }
                 life_rating = 39
                 }
 	}

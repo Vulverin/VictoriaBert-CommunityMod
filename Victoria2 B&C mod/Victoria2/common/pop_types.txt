@@ -411,8 +411,38 @@ migration_chance =
 {
 	factor = 1
 
+        group = {
+                modifier = {
+			factor = 0.02
+			literacy = 0.3
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.4
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.5
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.9
+		}
+	}
         modifier = {
-			factor = 0.15
+			factor = 0.1
 			OR = {
                                         terrain = ocean
                 			terrain = arctic
@@ -432,7 +462,7 @@ migration_chance =
                                 }
 	}
         modifier = {
-			factor = -0.1
+			factor = -0.15
 			NOT = {
                         OR = {
                                         terrain = ocean
