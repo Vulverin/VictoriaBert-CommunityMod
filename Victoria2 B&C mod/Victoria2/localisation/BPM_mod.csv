@@ -3075,14 +3075,18 @@ Selector_EvtName;Селектор;X
 Selector_EvtDesc;Выберите действие с провинцией;X
 Selector_EvtOptCancel;§B0.§! Отмена;X 
 Selector_EvtOptDestroyNavalBase;§B3.§! Демонтаж морской базы;X
-Selector_EvtOptImmigration;§B4.§! Направить иммиграцию в сельскую провинцию;X 
+Selector_EvtOptImmigration;§B4.§! Направить миграцию в сельск.провинц.;X 
 Selector_EvtOptDestroyfort;§B7.§! Уничтожить крепость;X 
 Selector_EvtOptSupplyDepot;§B7.§! Создать склад снабжения;X 
 Selector_EvtOptRemAllSelectors;§B9.§! Удалить все селекторы;X
 Selector_EvtOptFireWorkers;§B7.§! Уволить пролетариев;X
 Selector_EvtOptSchool;§B9.§! Строительство Учеб.заведений;X
 UpSchoolCancel_EvtOpt;Отмена строительства;X
+Selector_EvtOptCity;§B9.§! Строительство нового города;X
 UpSchool_EvtOpt;Начать строительство Учеб.заведений;X
+City1_EvtName;Строительство нового города;X
+UpCityCancel_EvtOpt;Отмена;X
+UpCity_EvtOpt;Потратить 8 миллионов;X
 School1_EvtName;Строительство Учеб.заведений 1 уровня;X
 School1_EvtDesc;Расходы на строительство 40 000;X
 School2_EvtName;Строительство Учеб.заведений 2 уровня;X
@@ -3135,6 +3139,7 @@ IBE_proletarian_dictatorship;Иберийский союз ;X;
 IBE_ADJ;Иберийск.;X;
 rio_de_fuck2_title;Иберийская Статуя Христа спасителя;X;
 upgrading_school;Подготовка к строительству учебных заведений ;X
+upgrading_city00;Подготовка к строительству города ;X
 OverpopulationCancel_EvtName;Нехватка инфраструктуры решена;X
 OverpopulationCancel_EvtDesc;Нехватка инфраструктуры решена;X 
 Overpopulation_EvtName;Перенаселение в городе;X

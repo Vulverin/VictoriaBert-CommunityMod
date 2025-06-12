@@ -198,15 +198,13 @@ political_decisions = {
                 allow = {
                          
                          war = no
-                         is_our_vassal = KOR
-                         year = 1855
+                         year = 1850
                          
                }
 
                effect = {
                          
                          change_tag = JPE
-                         inherit = KOR
                          all_core = {
                                       remove_core = JAP
                          }

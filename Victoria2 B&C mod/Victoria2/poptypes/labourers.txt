@@ -809,6 +809,7 @@ promote_to =
 		modifier = {
 			factor = -500
             soldiers = 0.05
+			NOT = { location = { life_rating = 40 } }
 			OR = {
                                         terrain = ocean
                 						terrain = arctic
@@ -882,6 +883,7 @@ promote_to =
                                   has_country_flag = eng_army_limit
                         }
                         soldiers = 0.02
+						NOT = { location = { life_rating = 40 } }
 						OR = {
                                         terrain = ocean
                 						terrain = arctic
@@ -905,6 +907,7 @@ promote_to =
 		        country = {
 			          has_country_flag = serfdom_not_abolished
 		        }
+				NOT = { location = { life_rating = 40 } }
 				OR = {
                                         terrain = ocean
                 						terrain = arctic
@@ -934,6 +937,7 @@ promote_to =
                                       has_country_flag = ger_army_limit
                                       }
                               }
+							  NOT = { location = { life_rating = 40 } }
 							  OR = {
                                         terrain = ocean
                 						terrain = arctic
@@ -958,6 +962,7 @@ promote_to =
                         country = {
                                   has_country_flag = usa_army_limit
                         }
+						NOT = { location = { life_rating = 40 } }
 						OR = {
                                         terrain = ocean
                 						terrain = arctic
@@ -1338,6 +1343,7 @@ promote_to =
 			modifier = {
                         factor = -500
                         clergymen = 0.025 
+						NOT = { location = { life_rating = 40 } }
 						        OR = {
                                         terrain = ocean
                 						terrain = arctic

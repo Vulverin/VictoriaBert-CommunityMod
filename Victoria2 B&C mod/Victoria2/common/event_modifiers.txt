@@ -2229,3 +2229,6 @@ upgrading_school = {
 upgrading_city = {
         icon = 9
 }
+upgrading_city00 = {
+        icon = 9
+}

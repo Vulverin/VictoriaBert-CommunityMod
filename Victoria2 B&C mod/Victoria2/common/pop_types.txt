@@ -443,6 +443,7 @@ migration_chance =
 	}
         modifier = {
 			factor = 0.1
+                        NOT = { location = { life_rating = 40 } }
 			OR = {
                                         terrain = ocean
                 			terrain = arctic
@@ -463,6 +464,8 @@ migration_chance =
 	}
         modifier = {
 			factor = -0.15
+                        OR = { 
+                        location = { life_rating = 40 }
 			NOT = {
                         OR = {
                                         terrain = ocean
@@ -481,6 +484,7 @@ migration_chance =
                 			terrain = jungle	
                                         terrain = port_city										
                                 }
+                         }
                          }
 	}
         modifier = {

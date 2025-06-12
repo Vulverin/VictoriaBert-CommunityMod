@@ -2503,15 +2503,14 @@ political_decisions = {
                 }
                 
                 allow = {
-                        year = 1840
+                        year = 1830
                 }
                 
                 effect = {
-                        casus_belli = {
-                                  target = KOR 
-                                  type = make_puppet
-                                  months = 420
-                                  
+                        KOR = {
+                                   all_core = {
+				          add_core = JAP
+			           }
                         }
                         
                         set_country_flag = korea_on_fire
