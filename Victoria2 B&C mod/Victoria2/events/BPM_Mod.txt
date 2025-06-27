@@ -2231,3 +2231,30 @@ country_event = {
                 }
          }
 }
+country_event = {
+
+	id = 11488
+        title = "Реформы Мольтке"
+	desc = " "
+        picture = "gerbundesrat" 
+	trigger = {
+                  has_country_flag = von_moltke
+        }
+        is_triggered_only = yes
+	option = {
+		name = "Доктрина маневренной войны"
+                set_country_flag = von_moltke1
+        }
+        option = {
+                name = "Инженерный корпус"
+                set_country_flag = von_moltke2
+        }
+        option = {
+                name = "Доктрина огневого превосходства"
+                set_country_flag = von_moltke3
+        }
+        option = {
+                name = "Медицинский корпус"
+                set_country_flag = von_moltke4
+        }
+}

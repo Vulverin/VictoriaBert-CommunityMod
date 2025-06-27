@@ -836,7 +836,7 @@ colonial_negotiations = {
 		base = 100
 	}
 	effect = {
-		army_base = { supply_consumption = 0.4 }
+		army_base = { supply_consumption = 0.3 }
                 navy_base = { gun_power = -1 }
 	}
 }
@@ -1941,4 +1941,70 @@ army_nco_tactical_training = {
 	effect = {
 		morale = 0.5
 	}
+}
+#moltke
+Moltke_speed = {
+	limit = { post_napoleonic_thought = 1 			year = 1849 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 80
+			has_country_flag = von_moltke1
+		}
+	}
+	effect = {
+		army_base = {
+			maximum_speed = 1
+		}
+	}
+}
+Moltke_trench = {
+	limit = { post_napoleonic_thought = 1 			year = 1849 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 80
+			has_country_flag = von_moltke2
+		}
+	}
+	effect = {
+	engineer = {
+		support = 0.20
+		attack = 2
+		defence = 2
+	} 
+	dig_in_cap = 2
+		}
+	}
+Moltke_fire = {
+	limit = { post_napoleonic_thought = 1 			year = 1849 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 80
+			has_country_flag = von_moltke3
+		}
+	}
+	effect = {
+		artillery = {
+			attack = 1
+			support = 0.40
+		}
+	}
+}
+Moltke_med = {
+	limit = { post_napoleonic_thought = 1 			year = 1849 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 80
+			has_country_flag = von_moltke4
+		}
+	}
+	effect = {
+		land_attrition = -0.10 
+		soldier_to_pop_loss = 0.02
+		supply_limit = 0.20
+}
+}
 }

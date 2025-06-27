@@ -950,6 +950,7 @@ political_decisions = {
 			army_decision_making = 1
 		}
 		effect = {
+                country_event = { id=11488 days=0 }
 			add_country_modifier = {
 				name = prussian_general_staff
 				duration = 10950
