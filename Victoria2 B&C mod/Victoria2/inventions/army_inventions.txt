@@ -822,7 +822,7 @@ colonial_negotiations = {
 		base = 100
 	}
 	effect = {
-		army_base = { supply_consumption = 0.4 }
+		army_base = { supply_consumption = 0.2 }
                 navy_base = { gun_power = -1 }
 	}
 }
@@ -836,7 +836,7 @@ colonial_negotiations = {
 		base = 100
 	}
 	effect = {
-		army_base = { supply_consumption = 0.6 }
+		army_base = { supply_consumption = 0.4 }
                 navy_base = { gun_power = -1 }
 	}
 }
