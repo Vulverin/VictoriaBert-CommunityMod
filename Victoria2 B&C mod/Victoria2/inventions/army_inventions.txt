@@ -1954,7 +1954,7 @@ Moltke_speed = {
 	}
 	effect = {
 		army_base = {
-			maximum_speed = 1
+			maximum_speed = 0.5
 		}
 	}
 }
@@ -1970,8 +1970,8 @@ Moltke_trench = {
 	effect = {
 	engineer = {
 		support = 0.20
-		attack = 2
-		defence = 2
+		attack = 1
+		defence = 1
 	} 
 	dig_in_cap = 2
 		}
@@ -1987,8 +1987,7 @@ Moltke_fire = {
 	}
 	effect = {
 		artillery = {
-			attack = 1
-			support = 0.40
+			support = 0.25
 		}
 	}
 }
@@ -2002,8 +2001,7 @@ Moltke_med = {
 		}
 	}
 	effect = {
-		land_attrition = -0.10 
-		soldier_to_pop_loss = 0.02
+		land_attrition = -0.05
 		supply_limit = 0.20
 }
 }

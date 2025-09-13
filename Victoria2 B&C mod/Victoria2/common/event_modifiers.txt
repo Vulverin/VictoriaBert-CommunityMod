@@ -1294,7 +1294,6 @@ rus_corrupt2 = {
         tariff_efficiency_modifier = -0.1
         factory_throughput = -0.1
         land_organisation = -0.05
-        education_efficiency_modifier = -0.3
         org_regain = -0.05
         icon = 5
 }
@@ -1303,7 +1302,6 @@ rus_corrupt1 = {
         factory_throughput = -0.15
         RGO_output = -0.05
         land_organisation = -0.05
-        education_efficiency_modifier = -0.3
         org_regain = -0.05
         icon = 5
 }
@@ -1311,7 +1309,6 @@ ruscorrupt = {
         tariff_efficiency_modifier = -0.2
         factory_throughput = -0.2
         RGO_output = -0.1
-        education_efficiency_modifier = -0.3
         land_organisation = -0.10
         org_regain = -0.1
         icon = 5
@@ -1740,7 +1737,6 @@ panasiatism = {
         icon = 1
 }        
 american_west1 = {
-        population_growth = 0.010
         immigrant_attract = 1
         icon = 1
 }
