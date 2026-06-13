@@ -31,20 +31,16 @@ political_decisions = {
                         NOT = {
 				has_country_flag = euro_army_tech
 			}
-                        NOT = {
-				has_country_flag = euro_prom_tech
-			}
-                        NOT = {
-				has_country_flag = euro_culture_tech
-			} 
 		}
 		
 		allow = {
                         army_professionalism = 1
                         muzzle_loaded_rifles = 1
+			money = 250000 
 		}
 		
 		effect = {
+			money = -250000 
 			add_country_modifier = {
                                name = euro_army_tech1
                                duration = -1
@@ -59,12 +55,6 @@ political_decisions = {
                         tag = TUR
 			has_country_flag = slavs_done
                         NOT = {
-				has_country_flag = euro_prom_tech
-			}
-                        NOT = {
-				has_country_flag = euro_army_tech
-			}
-                        NOT = {
 				has_country_flag = euro_culture_tech
 			} 
 		}
@@ -73,9 +63,11 @@ political_decisions = {
                         idealism = 1
                         ideological_thought = 1
                         medicine_tech_1 = 1
+			money = 250000 
 		}
 		
 		effect = {
+			money = -250000 
 			add_country_modifier = {
                                name = euro_culture_tech1
                                duration = -1
@@ -92,21 +84,17 @@ political_decisions = {
                         NOT = {
 				has_country_flag = euro_prom_tech
 			}
-                        NOT = {
-				has_country_flag = euro_army_tech
-			}
-                        NOT = {
-				has_country_flag = euro_culture_tech
-			} 
 		}
 		
 		allow = {
+			money = 250000 
                         practical_steam_engine = 1
                         mechanical_production = 1
                         organized_factories = 1
 		}
 		
 		effect = {
+			money = -250000 
 			add_country_modifier = {
                                name = euro_prom_tech1
                                duration = -1
@@ -194,12 +182,17 @@ political_decisions = {
 		}
 		
 		effect = {
+			add_country_modifier = {
+                               name = kanun_i_esasi
+                               duration = -1
+                        }
 			any_pop = {
 				militancy = -3
 				consciousness = 2
 			}
 			prestige = 5
 			set_country_flag = kanun_i_esasi_here
+
 		}
 		
 		ai_will_do = {
@@ -413,6 +406,7 @@ political_decisions = {
                          
                          860 = {
                                 change_province_name = "г.Стамбул"
+life_rating = 10
                          }
                          set_country_flag = stambul_123
                }
