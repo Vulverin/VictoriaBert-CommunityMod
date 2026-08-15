@@ -2242,3 +2242,6 @@ kanun_i_esasi = {
 	social_reform_desire = 0.1
 	icon = 11
 }
+blacks_to_liberia = {
+    icon = 20
+}

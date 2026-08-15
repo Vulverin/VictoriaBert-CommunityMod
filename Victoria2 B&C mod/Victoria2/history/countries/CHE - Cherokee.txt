@@ -1,5 +1,5 @@
 capital = 143
-primary_culture = cherokee
+primary_culture = native_american_minor
 religion = animist
 government = democracy
 plurality = 5.0
