@@ -1004,10 +1004,245 @@ political_decisions = {
 			year = 1860
 		}
 		effect = {
-			add_country_modifier = {
-					name = zemstva
-					duration = -1
-			}
+			955 = {
+                        life_rating = 3
+                        }
+                        956 = {
+                        life_rating = 3
+                        }
+                        957 = {
+                        life_rating = 3
+                        }
+                        964 = {
+                        life_rating = 3
+                        }
+                        966 = {
+                        life_rating = 3
+                        }
+                        967 = {
+                        life_rating = 3
+                        }
+                        1048 = {
+                        life_rating = 3
+                        }
+                        1049 = {
+                        life_rating = 3 
+                        }
+                        1050 = {
+                        life_rating = 3 
+                        }
+                        1051 = {
+                        life_rating = 3 
+                        }
+                        1052 = {
+                        life_rating = 3 
+                        }
+                        1053 = {
+                        life_rating = 3 
+                        }
+                        1054 = {
+                        life_rating = 3 
+                        }
+                        1055 = {
+                        life_rating = 3
+                        }
+                        1056 = {
+                        life_rating = 3
+                        }
+                        1057 = {
+                        life_rating = 3
+                        }
+                        1045 = {
+                        life_rating = 3
+                        }
+                        1046 = {
+                        life_rating = 3
+                        }
+                        1047 = {
+                        life_rating = 3
+                        }
+                        1036 = {
+                        life_rating = 3
+                        }
+                        1041 = {
+                        life_rating = 3
+                        }
+                        1040 = {
+                        life_rating = 3
+                        }
+                        1012 = {
+                        life_rating = 3
+                        }
+                        1038 = {
+                        life_rating = 3
+                        }
+                        1021 = {
+                        life_rating = 3
+                        }
+                        1025 = {
+                        life_rating = 3
+                        }
+                        1009 = {
+                        life_rating = 3
+                        }
+                        1010 = {
+                        life_rating = 3
+                        }
+                        1011 = {
+                        life_rating = 3
+                        }
+                        1013 = {
+                        life_rating = 3
+                        }
+                        1014 = {
+                        life_rating = 3
+                        }
+                        1015 = {
+                        life_rating = 3
+                        }
+                        943 = {
+                        life_rating = 3
+                        }
+                        999 = {
+                        life_rating = 3
+                        }
+                        1000 = {
+                        life_rating = 3
+                        }
+                        1003 = {
+                        life_rating = 3
+                        }
+                        1004 = {
+                        life_rating = 3
+                        }
+                        1005 = {
+                        life_rating = 3
+                        }
+                        998 = {
+                        life_rating = 3
+                        }
+                        992 = {
+                        life_rating = 3
+                        }
+                        989 = {
+                        life_rating = 3
+                        }
+                        1001 = {
+                        life_rating = 3
+                        }
+                        1006 = {
+                        life_rating = 3
+                        }
+                        997 = {
+                        life_rating = 3
+                        }
+                        996 = {
+                        life_rating = 3
+                        }
+                        1020 = {
+                        life_rating = 3
+                        }
+                        1027 = {
+                        life_rating = 3
+                        }
+                        1028 = {
+                        life_rating = 3
+                        }
+                        1032 = {
+                        life_rating = 3
+                        }
+                        1033 = {
+                        life_rating = 3
+                        }
+                        1034 = {
+                        life_rating = 3
+                        }
+                        1035 = {
+                        life_rating = 3
+                        }
+                        1043 = {
+                        life_rating = 3
+                        }
+                        1044 = {
+                        life_rating = 3
+                        }
+                        1042 = {
+                        life_rating = 3
+                        }
+                        1060 = {
+                        life_rating = 3
+                        }
+                        1026 = {
+                        life_rating = 3
+                        }
+                        1029 = {
+                        life_rating = 3
+                        }
+                        1031 = {
+                        life_rating = 3
+                        }
+                        1058 = {
+                        life_rating = 3
+                        }
+                        1059 = {
+                        life_rating = 3
+                        }
+                        1061 = {
+                        life_rating = 3
+                        }
+                        959 = {
+                        life_rating = 1
+                        }
+                        960 = {
+                        life_rating = 1
+                        }
+                        961 = {
+                        life_rating = 1
+                        }
+                        962 = {
+                        life_rating = 1
+                        }
+                        965 = {
+                        life_rating = 1
+                        }
+                        969 = {
+                        life_rating = 1
+                        }
+                        970 = {
+                        life_rating = 1
+                        }
+                        971 = {
+                        life_rating = 1
+                        }
+                        973 = {
+                        life_rating = 1
+                        }
+                        974 = {
+                        life_rating = 1
+                        }
+                        975 = {
+                        life_rating = 1
+                        }
+                        976 = {
+                        life_rating = 1
+                        }
+                        980 = {
+                        life_rating = 1
+                        }
+                        3249 = {
+                        life_rating = 1
+                        }
+                        977 = {
+                        life_rating = 1
+                        }
+                        1017 = {
+                        life_rating = 1
+                        }
+                        1018 = {
+                        life_rating = 1
+                        }
+                        
+
 			set_country_flag = zemstvo_reform_ok
 		}
 	}

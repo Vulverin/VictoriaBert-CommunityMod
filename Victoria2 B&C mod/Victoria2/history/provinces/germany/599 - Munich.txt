@@ -4,7 +4,7 @@ add_core = BAV
 add_core = GER
 trade_goods = coal
 terrain = munich_city
-life_rating = 35
+life_rating = 30
 #state_building = {
 #	level = 1
 #	building = glass_factory
@@ -25,11 +25,6 @@ life_rating = 35
 	state_building = {
 		level = 1
 		building = glass_factory
-		upgrade = yes
-	}
-	state_building = {
-		level = 1
-		building = liquor_distillery
 		upgrade = yes
 	}
 }

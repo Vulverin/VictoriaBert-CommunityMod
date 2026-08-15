@@ -3,5 +3,5 @@ controller = VNZ
 add_core = VNZ
 add_core = GCO
 terrain = city_958
-trade_goods = fruit
+trade_goods = grain
 life_rating = 30

@@ -1,5 +1,5 @@
-trade_goods = cattle
-life_rating = 35
+trade_goods = grain
+life_rating = 38
 owner = USA
 controller = USA
 add_core = USA

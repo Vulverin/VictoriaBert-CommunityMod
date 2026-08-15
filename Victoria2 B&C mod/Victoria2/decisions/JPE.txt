@@ -289,53 +289,53 @@ political_decisions = {
                 }
         }
 
-       annex_manj = {
-               potential = {
-                       tag = JPE
-                       NOT = {
-				has_country_flag = annex_manj_done
-			}
-               }
-               allow = {
-                     MCK = {
-                            vassal_of = JPE
-                     }
-
-               }
-               effect = {
-                        MCK = {
-                              change_tag = MAJ
-                        }
-                        MAJ = {
-                               add_country_modifier = {
-                                         name = jap_maj_done
-                                         duration = -1
-                               }
-                               tech_school = maj_tech_school
-                        }
-                        set_country_flag = annex_manj_done
-               }
-        }
-
-        annex_manj2 = {
-               potential = {
-                       tag = JPE
-                       NOT = {
-				has_country_flag = annex_manj_done2
-			}
-               }
-               allow = {
-                     MAJ = {
-                            vassal_of = JPE
-                     }
-                     year = 1870
-
-               }
-               effect = {
-                        JPE = {
-                              inherit = MAJ
-                        }
-                        set_country_flag = annex_manj_done2
-               }
-        }
+#      annex_manj = {
+#               potential = {
+#                       tag = JPE
+#                       NOT = {
+#				has_country_flag = annex_manj_done
+#			}
+#               }
+#               allow = {
+#                     MCK = {
+#                            vassal_of = JPE
+#                     }
+#
+#               }
+#               effect = {
+#                        MCK = {
+#                              change_tag = MAJ
+#                        }
+#                       MAJ = {
+#                              add_country_modifier = {
+#                                         name = jap_maj_done
+#                                         duration = -1
+#                               }
+#                               tech_school = maj_tech_school
+#                        }
+#                        set_country_flag = annex_manj_done
+#               }
+#        }
+#
+#        annex_manj2 = {
+#               potential = {
+#                       tag = JPE
+#                      NOT = {
+#				has_country_flag = annex_manj_done2
+#			}
+#               }
+#               allow = {
+#                     MAJ = {
+#                            vassal_of = JPE
+#                     }
+#                     year = 1870
+#
+#               }
+#               effect = {
+#                        JPE = {
+#                              inherit = MAJ
+#                        }
+#                        set_country_flag = annex_manj_done2
+#               }
+#        }
 }

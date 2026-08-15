@@ -2503,15 +2503,14 @@ political_decisions = {
                 }
                 
                 allow = {
-                        year = 1840
+                        year = 1830
                 }
                 
                 effect = {
-                        casus_belli = {
-                                  target = KOR 
-                                  type = make_puppet
-                                  months = 420
-                                  
+                        KOR = {
+                                   all_core = {
+				          add_core = JAP
+			           }
                         }
                         
                         set_country_flag = korea_on_fire
@@ -2987,7 +2986,7 @@ change_national_value_to_westciv = {
                         nationalvalue = nv_latinoamericanciv
                         }
 			NOT = {
-				has_global_flag = country_has_changed_value_westciv
+				has_country_flag = country_has_changed_value_westciv
 			}
 			
 		}
@@ -3001,7 +3000,7 @@ change_national_value_to_westciv = {
                           }
 			nationalvalue = nv_transciv
 			plurality = 5
-			set_global_flag = country_has_changed_value_westciv
+			set_country_flag = country_has_changed_value_westciv
 
 		}
 	}
@@ -5679,6 +5678,52 @@ political_decisions = {
                                                   }
 					  }
                                           literacy = 0.4
+				  }
+  	   	      }
+                      }
+                      any_country = {
+                      any_owned = {
+                                  limit = {
+					  OR = {
+			terrain = berlin_city
+			terrain = city_958
+			terrain = munich_city
+			terrain = brussels_city
+			terrain = naples_city
+			terrain = glasgow_city
+			terrain = copenhagen_city
+			terrain = christiana_city
+			terrain = mexico_city
+			terrain = san_franc_city
+			terrain = los_angeles_city
+			terrain = budapest_city
+			terrain = amsterdam_city
+			terrain = new_york_city
+			terrain = reval_city
+			terrain = vilnus_city
+			terrain = baku_city
+			terrain = odessa_city
+			terrain = riga_city
+			terrain = warsaw_city
+			terrain = kharkov_city
+			terrain = kiev_city
+			terrain = moscow_city
+			terrain = stock_city
+			terrain = paris_city
+			terrain = rio_city
+			terrain = washington_city
+			terrain = tokyo_city
+			terrain = petersburg_city
+			terrain = consta_city
+			terrain = vien_city
+			terrain = rome_city
+			terrain = london_city
+			terrain = port_city
+			terrain = madrid_city
+		}
+				  }
+				  any_pop = {
+                                          literacy = 0.15
 				  }
   	   	      }
                       }

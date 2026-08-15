@@ -32,11 +32,8 @@ luxury_needs = {
 	radio = 1.0
 	fuel = 0.2
 	coffee = 2
-        cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 everyday_needs = {
@@ -54,21 +51,15 @@ everyday_needs = {
 	cigarettes = 2
 	shoes = 2
 	electric_power = 10
-        cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
         shares = 2
         cement = 0.5
 }
 
 life_needs = {
-	cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 
@@ -559,12 +550,33 @@ promote_to =
 	{
 		factor = 0.01
 		modifier = {
-			factor = -1
-			NOT = { literacy = 0.30 }
-		}
-		modifier = {
 			factor = -100
-			officers = 0.002
+                        NOT = { year = 1850 }
+			state_scope = { officers = 0.001 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1860 }
+			state_scope = { officers = 0.002 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1870 }
+			state_scope = { officers = 0.003 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1880 }
+			state_scope = { officers = 0.005 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1890 }
+			state_scope = { officers = 0.007 }
+		}
+                modifier = {
+			factor = -100
+			state_scope = { officers = 0.01 }
 		}		
 
 		modifier = {
@@ -660,49 +672,57 @@ promote_to =
 				factor = 10
 				education_spending = 0.99
 			}
-		}
-		group = {		
-			modifier = {
-				factor = -1
-				clergymen = 0.004
-			}
-			modifier = {
-				factor = -1
-				clergymen = 0.008
-			}
-			modifier = {
-				factor = -1
-				clergymen = 0.012
-			}			
-			modifier = {
-				factor = -1
-				clergymen = 0.016
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.02
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.024
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.028
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.032
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.036
-			}			
-			modifier = {
+		}	
+		modifier = {
 				factor = -500
-				clergymen = 0.04
-			}						
+				clergymen = 0.03
+				NOT = { location = { life_rating = 32 } }
 		}
+        modifier = {
+				factor = -500
+				clergymen = 0.034
+				NOT = { location = { life_rating = 34 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.038
+				NOT = { location = { life_rating = 36 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.042
+				NOT = { location = { life_rating = 38 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.046
+				NOT = { location = { life_rating = 40 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.05
+		}
+		modifier = {
+                        factor = -500
+                        clergymen = 0.025 
+						        OR = {
+                                        terrain = ocean
+                						terrain = arctic
+                						terrain = farmlands
+                						terrain = forest
+                						terrain = woods
+                						terrain = steppe
+                						terrain = plains
+                						terrain = hills
+               						    terrain = mountain
+                						terrain = hilly_grassland
+                						terrain = semi_desert
+                						terrain = desert
+                						terrain = boreal_forest
+                						terrain = jungle	
+                                        terrain = port_city										
+                                }
+        }
 		group = {
 			modifier = {
 				factor = -0.1
@@ -790,27 +810,27 @@ promote_to =
 				state_scope = { capitalists = 0.001 }
 			}
 			modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.003 }
 			}
 			modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.005 }
 			}
                         modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.007 }
 			}
                         modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.01 }
 			}
                         modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.012 }
 			}
                         modifier = {
-				factor = -2
+				factor = -5
 				state_scope = { capitalists = 0.015 }
 			}
 			modifier = {
@@ -821,19 +841,19 @@ promote_to =
               
                 group = {
 			modifier = {
-				factor = 4
+				factor = 10
 				state_scope = { craftsmen = 0.05 }
 			}
 			modifier = {
-				factor = 4
+				factor = 10
 				state_scope = { craftsmen = 0.1 }
 			}
                         modifier = {
-				factor = 4
+				factor = 10
 				state_scope = { craftsmen = 0.15 }
 			}
 			modifier = {
-				factor = 4
+				factor = 10
 				state_scope = { craftsmen = 0.2 }
 			}
 		}
@@ -941,7 +961,7 @@ promote_to =
 			}
 		}
 		modifier = {
-				factor = 50
+				factor = 40
 				state_scope = {
 					has_factories = yes
 				}

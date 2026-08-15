@@ -437,10 +437,7 @@ hussey_n_mccormicks_reaping_machine = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.2
-		}
-		rgo_goods_output = {
-			fruit = 0.2
+			grain = 0.05
 		}
 		rgo_goods_output = {
 			tea = 0.2
@@ -462,10 +459,7 @@ pitts_threshing_machine = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.2
-		}
-		rgo_goods_output = {
-			fruit = 0.2
+			grain = 0.05
 		}
 		rgo_goods_output = {
 			tea = 0.2
@@ -487,10 +481,7 @@ mechanized_slaughtering_block = {
 	}
 	effect = {
 		rgo_goods_output = {
-			cattle = 0.2
-		}
-		rgo_goods_output = {
-			wool = 0.2
+			wool = 0.3
 		}
 	}
 }
@@ -771,13 +762,7 @@ refrigerator_technology = {
 	}
 	effect = {
 		rgo_goods_output = {
-			cattle = 0.2
-		}
-		rgo_goods_output = {
-			fruit = 0.2
-		}
-		rgo_goods_output = {
-			fish = 0.2
+			grain = 0.1
 		}
 		factory_goods_output = {
 			liquor = 0.02
@@ -1274,6 +1259,9 @@ chemical_wood_pulp_process = {
 		factory_goods_output = {
 			paper = 0.02
 		} 
+                rgo_goods_output = {
+			timber = 0.3
+		}
 	}
 }
 rubber_vulcanization = {
@@ -1364,6 +1352,9 @@ gaslights = {
 	}
 	effect = {
 		factory_throughput = 0.05
+                factory_goods_throughput = {
+			sulphur = 0.6
+		}
 	}
 }
 carbon_soil_enrichment = {
@@ -1558,7 +1549,9 @@ seafood_packing = {
 		}
 	}
 	effect = {
-		activate_building = fish_cannery
+		rgo_goods_output = {
+			grain = 0.05
+		}
 	}
 }
 
@@ -1569,10 +1562,7 @@ tulls_seed_drill = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.1
-		}
-		rgo_goods_output = {
-			fruit = 0.1
+			grain = 0.05
 		}
 	}
 	

@@ -1897,7 +1897,7 @@ NCH;Чжилийская клика;X
 NCH_ADJ;Чжилийск.;X
 ACH;Аньхойская клика;X
 ACH_ADJ;Аньхойск.;X
-school;Университет;X
+school;Учебные заведения;X
 british_doms_title;Британское содружество;X
 british_doms_desc;Наша империя владеет огромными территориями, которые нуждаются в качественном административном управлении. Мы не в силах распределять наши ресурсы в равной степени по всем колониям и именно поэтому нужно предоставить Австралии и Канаде больше свободы, чтобы мы могли сконцентрироваться на своей метрополии, а при нашей поддержке они достигнут определенных успехов.;X
 british_ast;Доминион Австралия;X
@@ -2343,13 +2343,13 @@ capital_punishment;Смертная казнь;X
 colonial_transportation;Отправка в колонии;X
 incarceration;Лишение свободы;X
 rehabilitation;Реабилитация;X
-france_african_way_title;Французская Африка;X
+france_african_way_title;Французская Африка §RВзаимоискл. с Нац.Франция;X
 france_african_way_desc;Алжир может стать ядром нашей колониальной Африки. Падения рождаемости нужно как то возместить, и новые подданные как раз наш путь!;X
 france_african_way2_title;Расширение колониальной Африки;X
 france_african_way2_desc;Алжир доказал свою преданность и численность населения растёт. Наша Африка должна расширяться как это требует наша нынешняя доктрина;X
 france_african_way3_title;Африка, как второй дом;X
 france_african_way3_desc;Мы доказали что французы могут достигать поставленных целей. Африка стала нашим вторым домом, и без сомнения, мы не собираемся останавливаться на этом!;X
-france_european_way_title;Националистическая Франция;X
+france_european_way_title;Националистическая Франция §RВзаимоискл. с Французской Африкой;X
 france_european_way_desc;Великая Французская Революция имела последствия для рождаемости в стране. Нам нужно восстановить рождаемость. Правительство должно начать политику экономических стимулов.;X
 france_european_way2_title;Националистическое рвение и пропаганда;X
 france_european_way2_desc;Нужно признать, что пропаганда может стать отличным средством увеличения рождаемости. Новые национальные государства должны побудить наших граждан к действиям!;X
@@ -2630,7 +2630,7 @@ gereconom_support;Поддержка экономики;X
 gernational_support;Стимулирования рождаемости;X
 gerculture_support;Поддержка системы образования;X
 gernavy_support;Поддержка морских сил;X
-gerpopgrowth;Демографический взрыв;X
+gerpopgrowth;Германский бум;X
 arising_prussia;Воcхождение Пруссии;X
 annex_manj2_title;Ликвидация автономии Манчжу-Го;X
 annex_manj2_desc;Ликвидировав автономию, мы создадим новую префектуру, которая поможет нам подтвердить наши амбиции в азиатском регионе;X
@@ -3059,3 +3059,88 @@ industrial_consequences;Последствия форсированной индустриализации;X
 desert_burn_title;Тактика выжженной земли в пустыне;X
 burn_arabia;Арабия в огне;X
 turk_burn;Выжженная земля;X
+education_reform1_title;Образовательная реформа;X
+education_reform2_title;Образовательная реформа;X
+education_reform3_title;Образовательная реформа;X
+education_reform1_desc;§RУбирает дебафф от +50% грамотности;X
+education_reform1_desc;§RУбирает дебафф от +70% грамотности;X
+education_reform1_desc;§RУбирает дебафф от +80% грамотности;X
+no_schools_system;Отсутствие школьной системы;X
+weak_schools_system;Слабая школьная система;X
+weak2_schools_system;Слабая школьная система;X
+conscription_back_recruiting_title;Рекрутская повинность;X
+META_1;Земля;X
+province_selector;Селектор;X
+Selector_EvtName;Селектор;X
+Selector_EvtDesc;Выберите действие с провинцией;X
+Selector_EvtOptCancel;§B0.§! Отмена;X 
+Selector_EvtOptDestroyNavalBase;§B3.§! Демонтаж морской базы;X
+Selector_EvtOptImmigration;§B4.§! Направить миграцию в сельск.провинц.;X 
+Selector_EvtOptDestroyfort;§B7.§! Уничтожить крепость;X 
+Selector_EvtOptSupplyDepot;§B7.§! Создать склад снабжения;X 
+Selector_EvtOptRemAllSelectors;§B9.§! Удалить все селекторы;X
+Selector_EvtOptFireWorkers;§B7.§! Уволить пролетариев;X
+Selector_EvtOptSchool;§B9.§! Строительство Учеб.заведений;X
+UpSchoolCancel_EvtOpt;Отмена строительства;X
+Selector_EvtOptCity;§B9.§! Строительство нового города;X
+UpSchool_EvtOpt;Начать строительство Учеб.заведений;X
+City1_EvtName;Строительство нового города;X
+UpCityCancel_EvtOpt;Отмена;X
+UpCity_EvtOpt;Потратить 8 миллионов;X
+School1_EvtName;Строительство Учеб.заведений 1 уровня;X
+School1_EvtDesc;Расходы на строительство 40 000;X
+School2_EvtName;Строительство Учеб.заведений 2 уровня;X
+School2_EvtDesc;Расходы на строительство 100 000;X
+School3_EvtName;Строительство Учеб.заведений 3 уровня;X
+School3_EvtDesc;Расходы на строительство 150 000;X
+School4_EvtName;Строительство Учеб.заведений 4 уровня;X
+School4_EvtDesc;Расходы на строительство 250 000;X
+School5_EvtName;Строительство Учеб.заведений 5 уровня;X
+School5_EvtDesc;Расходы на строительство 400 000;X
+school_1;Учебные заведения 1;X
+school_2;Учебные заведения 2;X
+school_3;Учебные заведения 3;X
+school_4;Учебные заведения 4;X
+school_5;Учебные заведения  5 (Последний);X
+city_1;Нехватка городской инфраструктуры;X 
+city_2;Нехватка городской инфраструктуры;X 
+city_3;Нехватка городской инфраструктуры;X 
+city_4;Нехватка городской инфраструктуры;X 
+city_5;Нехватка городской инфраструктуры;X 
+OverPopulation_EvtOpt;ОК;X
+Overpopulation_EvtOpt;ОК;X
+IBE_conservative;Партия кабралистов;X;
+IBE_liberal;Партия сентябристов;X;
+IBE_conservative_2;Партия возрождения;X;
+IBE_reactionary;Партия карлистов;X;
+IBE_liberal_2;Федерально-республиканская партия;X;
+IBE_liberal_3;Республиканская унитарная партия;X;
+IBE_socialist;Народный фронт;X;
+IBE_liberal_4;Радикально-республиканская партия;X;
+IBE_liberal_5;Республиканский союз;X;
+IBE_communist;Регионально-федеративная партия;X;
+IBE_liberal_6;Республиканско-реформистская партия;X;
+IBE_conservative_3;Каталонская регионалистская партия;X;
+IBE_liberal_7;Партия каталонской солидарности;X;
+IBE_conservative_4;Баскская националистическая партия;X;
+IBE_conservative_5;Национальный фронт;X;
+IBE_anarcho_liberal;Радикальная партия;X;
+IBE_fascist;Иберийская фаланга;X;
+reunification_of_iberian_culture_title;Унификация учебных программ;X;
+form_iberia1_title;Создание Иберийского государства;X;
+IBE;Иберия;X;
+IBE_presidential_dictatorship;Иберия;X;
+IBE_bourgeois_dictatorship;Иберия;X;
+IBE_fascist_dictatorship;Великая Иберия;X;
+IBE_democracy;Республика Иберия;X;
+IBE_absolute_monarchy;Иберийская империя;X;
+IBE_hms_government;Иберийская империя;X;
+IBE_proletarian_dictatorship;Иберийский союз ;X;
+IBE_ADJ;Иберийск.;X;
+rio_de_fuck2_title;Иберийская Статуя Христа спасителя;X;
+upgrading_school;Подготовка к строительству учебных заведений ;X
+upgrading_city00;Подготовка к строительству города ;X
+OverpopulationCancel_EvtName;Нехватка инфраструктуры решена;X
+OverpopulationCancel_EvtDesc;Нехватка инфраструктуры решена;X 
+Overpopulation_EvtName;Перенаселение в городе;X
+Overpopulation_EvtDesc;В провинции нехватка городской инфраструктуры;X

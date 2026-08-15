@@ -1,0 +1,119 @@
+country_event = {
+	id = 100000
+	title = "100000"
+	desc = "100000"
+	allow_multiple_instances = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = SWI
+	}
+	immediate = {
+		any_country = {
+			any_owned = {				
+				remove_province_modifier = city_0
+				remove_province_modifier = city_1
+				remove_province_modifier = city_2
+				remove_province_modifier = city_3
+				remove_province_modifier = city_4
+			}
+		}
+	}
+	option = {
+    		name = "100000"
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					terrain = berlin_city
+					life_rating = 36
+				}
+				add_province_modifier = {
+					name = city_0
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					has_building = city
+					life_rating = 37
+				}
+				add_province_modifier = {
+					name = city_1
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					has_building = city
+					life_rating = 38
+				}
+				add_province_modifier = {
+					name = city_2
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					has_building = city = 3
+					life_rating = 39
+				}
+				add_province_modifier = {
+					name = city_3
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+			}
+			any_owned = {
+				limit = {
+					has_building = city
+					life_rating = 40
+				}
+				add_province_modifier = {
+					name = city_4
+					duration = -1
+				}
+			}
+		}
+    }
+}
+
+#country_event = {
+	id = 100002
+	title = "100002"
+	desc = "100002"
+	picture = "greatpowers"
+	trigger = {
+		tag = SWI
+	}
+	fire_only_once = yes
+	option = {
+		name = "100002"
+		random_country = {
+			limit = {
+				AI = yes
+			}
+			country_event = {
+				id = 100000
+				days = 3
+			}
+			set_country_flag = dynamics_marked
+		}
+
+	}
+}

@@ -1,8 +1,8 @@
 owner = AUS
 controller = AUS
 add_core = VEN
-trade_goods = fish
-life_rating = 35
+trade_goods = grain
+life_rating = 30
 terrain = city_958
 naval_base = 1
 #state_building = {

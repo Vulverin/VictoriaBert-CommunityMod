@@ -1,9 +1,10 @@
 owner = USA
-controller = USA
+
+controller = USA
 add_core = USA
-trade_goods = fish
+trade_goods = grain
 naval_base = 1
-life_rating = 35
+life_rating = 38
 terrain = port_city
 #state_building = {
 #	level = 1

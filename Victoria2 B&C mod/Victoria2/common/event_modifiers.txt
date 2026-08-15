@@ -503,7 +503,7 @@ the_congo_reform_association = {
 
 ### GER - GERMANY, PRU - PRUSSIA ###
 gerpopgrowth = {
-        global_population_growth = 0.002
+        tax_efficiency = 0.05
         icon = 15
 }
 germania_werft = {
@@ -699,14 +699,14 @@ folkis_educates = {
 
 motala_verkstad = {
 	local_factory_throughput = 0.1
-        tax_efficiency = 0.15 
+    tax_efficiency = 0.15 
 	icon = 13
 }
 
 north_lion = {
         org_regain = 0.05
 	land_organisation = 0.05
-	land_unit_start_experience = 15.0
+	land_unit_start_experience = 25.0
 	supply_consumption = -0.25
 	icon = 15
 }
@@ -726,10 +726,10 @@ the_walhalla = {
 
 ### BPM Mod modifiers ###
 eng_army_limit_debuff = {
-        land_organisation = -0.3
-        org_regain = -0.3
-        naval_organisation = -0.2
-        army_tech_research_bonus = -0.3
+        land_organisation = -0.15
+        org_regain = -0.1
+        naval_organisation = -0.1
+        army_tech_research_bonus = -0.1
         tax_efficiency = -0.1
         icon = 15
 }
@@ -777,10 +777,9 @@ chinese_debuff = {
         RGO_output = -0.5
 }
 japanese_debuff = {
-        tax_efficiency = -0.05
         tariff_efficiency_modifier = -0.1
-        RGO_output = -0.25
-        factory_throughput = -0.3
+        RGO_output = -0.2
+        factory_throughput = -0.2
         army_tech_research_bonus = -0.2
         commerce_tech_research_bonus = -0.2
 	culture_tech_research_bonus = -0.2
@@ -1008,12 +1007,17 @@ polt_refs_inc = {
         icon = 1
 }
 turpplgrwth46 = {
-        education_efficiency_modifier = -0.4
+        education_efficiency_modifier = -0.2
         tax_efficiency = -0.1
-        global_population_growth = 0.002
+        global_population_growth = 0.006
+        mobilisation_size = 0.06
+        cb_generation_speed_modifier = 0.5
+        mobilization_impact = -0.25
+        supply_consumption = -0.25
+        goods_demand = -0.1
 }
 turppwestpath = {
-        education_efficiency_modifier = 0.2
+        education_efficiency_modifier = 0.3
         mobilisation_size = 0.02
 }       
 romdg_arm_a = {
@@ -1291,26 +1295,24 @@ rusgubrmodifier10 = {
         icon = 15
 }
 rus_corrupt2 = {
+        tariff_efficiency_modifier = -0.1
         factory_throughput = -0.1
         land_organisation = -0.05
-        education_efficiency_modifier = -0.3
         org_regain = -0.05
         icon = 5
 }
 rus_corrupt1 = {
-        tax_efficiency = -0.02
+        tariff_efficiency_modifier = -0.15
         factory_throughput = -0.15
         RGO_output = -0.05
         land_organisation = -0.05
-        education_efficiency_modifier = -0.3
         org_regain = -0.05
         icon = 5
 }
 ruscorrupt = {
-        tax_efficiency = -0.05
+        tariff_efficiency_modifier = -0.2
         factory_throughput = -0.2
         RGO_output = -0.1
-        education_efficiency_modifier = -0.3
         land_organisation = -0.10
         org_regain = -0.1
         icon = 5
@@ -1400,9 +1402,8 @@ army_support = {
 }
 econom_support = {
         industry_tech_research_bonus = 0.1
-        factory_output = 0.1
+        factory_throughput = 0.1
         RGO_output = 0.1
-        tax_efficiency = 0.02
         factory_owner_cost = -0.2
         tax_efficiency = -0.05
 }
@@ -1448,7 +1449,9 @@ national_army_doctrine = {
         land_organisation = 0.1
         org_regain = 0.1
         cb_generation_speed_modifier = 0.5
-        land_unit_start_experience = 5.0
+        land_unit_start_experience = 5.0        
+        factory_input = -0.04
+        naval_unit_start_experience = 2.0
         mobilisation_size = 0.02
         mobilisation_economy_impact = -0.2
 }
@@ -1471,7 +1474,7 @@ national_isol_doctrine = {
 	culture_tech_research_bonus = 0.2
 	industry_tech_research_bonus = 0
         doctrine_tech_research_bonus = 0
-        education_efficiency_modifier = 0.3
+        education_efficiency_modifier = 0.25
         cb_generation_speed_modifier = -0.5
         research_points_modifier = 0.2      
 }
@@ -1496,7 +1499,8 @@ national_econ_doctrine = {
         doctrine_tech_research_bonus = 0
         factory_output = 0.1
         RGO_output = 0.15
-        tax_efficiency = 0.05
+        tax_efficiency = 0.06
+        factory_input = -0.05
         cb_generation_speed_modifier = -0.25
 }
 har_werft = {
@@ -1576,14 +1580,12 @@ alex_selo = {
         icon = 2
 }
 euro_culture_tech1 = {
-        tax_efficiency = -0.05
         culture_tech_research_bonus = 0.05
         doctrine_tech_research_bonus = 0.10
         research_points_modifier = 0.2
         icon = 2
 }
 euro_prom_tech1 = {
-        tax_efficiency = -0.05
         industry_tech_research_bonus = 0.05
         commerce_tech_research_bonus = 0.05
         factory_owner_cost = -0.2
@@ -1592,7 +1594,6 @@ euro_prom_tech1 = {
         icon = 2
 }
 euro_army_tech1 = {
-        tax_efficiency = -0.05
         army_tech_research_bonus = 0.05
         navy_tech_research_bonus = 0.05
         org_regain = 0.1
@@ -1737,7 +1738,6 @@ panasiatism = {
         icon = 1
 }        
 american_west1 = {
-        population_growth = 0.010
         immigrant_attract = 1
         icon = 1
 }
@@ -1856,7 +1856,7 @@ bosfor_is_locked = {
         icon = 13
 }
 serfdom_abolishedd = {
-        global_population_growth = 0.003
+        research_points_modifier = 0.2
         icon = 11
 }
 ind_boost = {
@@ -2004,7 +2004,9 @@ muh_ali_ref = {
 }
 
 tanzimat = {
-         pop_militancy_modifier = -0.02
+         pop_militancy_modifier = -0.04
+         pop_consciousness_modifier = 0.03
+         global_assimilation_rate = 0.3
          icon = 5
 }
                     
@@ -2170,6 +2172,75 @@ turk_burn = {
          life_rating = -0.3
          attrition = 7
          icon = 20
+}
+immigrator_modifier = {
+		immigrant_attract = 40
+		immigrant_push = -1
+		icon = 35
+}
+generic_supply_depot_pmodifier = {
+		supply_limit = 15
+		icon = 17
+}
+city_0 = {
+        immigrant_attract = 40
+        immigrant_push = -1
+        icon = 9
+}
+city_1 = {
+        icon = 9
+        immigrant_attract = -40
+}
+city_2 = {
+        icon = 9
+        immigrant_attract = -40
+}
+city_3 = {
+        icon = 9
+        immigrant_attract = -40
+}
+city_4 = {
+        icon = 9
+        immigrant_attract = -40
+}
+city_5 = {
+        icon = 9
+        immigrant_attract = -40
+}
+school_1 = {
+        icon = 9
+}
+school_2 = {
+        icon = 9
+}
+school_3 = {
+        icon = 9
+}
+school_4 = {
+        icon = 9
+}
+school_5 = {
+        icon = 9
+}
+upgrading_school = {
+        icon = 9
+}
+upgrading_city = {
+        icon = 9
+}
+upgrading_city00 = {
+        icon = 9
+}
+cofee = {
+	local_rgo_output = 0.5
+        local_RGO_throughput = 0.5
+	pop_militancy_modifier = 0.02
+	icon = 11
+}
+kanun_i_esasi = {
+	political_reform_desire = 0.2
+	social_reform_desire = 0.1
+	icon = 11
 }
 blacks_to_liberia = {
     icon = 20

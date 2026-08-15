@@ -37,6 +37,7 @@ POR		= "countries/Portugal.txt"
 SCO		= "countries/Scotland.txt"
 WEL		= "countries/Wales.txt"
 SPA		= "countries/Spain.txt"
+IBE		= "countries/Iberia.txt"
 WLL		= "countries/Wallonia.txt"
 
 # Germany

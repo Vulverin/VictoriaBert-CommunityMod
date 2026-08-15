@@ -10,8 +10,8 @@ party_issues = {
 		free_trade = {
 			max_tariff = 0.35
 			min_tariff = -1
-                        tax_efficiency = 0.05
-                        factory_output = 0.1
+                        tax_efficiency = 0.08
+                        factory_output = 0.05
                         factory_input = -0.03
 		}
 	}
@@ -20,7 +20,7 @@ party_issues = {
 			min_social_spending = 0.5
 			max_tax = 0.5
 			factory_owner_cost = 0.3
-			factory_output = 0.15
+			factory_output = 0.05
                         factory_throughput = 0.15
 			
 			rules = {
@@ -47,8 +47,7 @@ party_issues = {
 			min_social_spending = 0.65
 			max_tax = 0.65
 			factory_owner_cost = 0.5
-			factory_output = 0.05
-			factory_throughput = 0.2
+			factory_throughput = 0.1
 			rules = {
 				build_factory = no
 				expand_factory = yes
@@ -74,7 +73,6 @@ party_issues = {
 		state_capitalism = {
 			min_social_spending = 0.8
 			max_tax = 0.8
-			factory_throughput = 0.2
 			factory_owner_cost = 0.8
 			rules = {
 				build_factory = yes
@@ -96,7 +94,7 @@ party_issues = {
 		}
 		planned_economy = {
 			min_social_spending = 1
-			factory_throughput = 0.4
+			factory_throughput = 0.2
                         factory_output = -0.1
 			factory_owner_cost = -1	#negative costs, can't build.
 			rules = {
@@ -480,7 +478,6 @@ political_reforms = {
     conscription = {
         next_step_only = yes
         recruiting = {
-			education_efficiency_modifier = -0.25
 			global_immigrant_attract = -0.5
 			unit_start_experience = 0.25
 			mobilization_impact = 0.3
@@ -488,27 +485,24 @@ political_reforms = {
 			org_regain = 0.15
 		}
 		7_years_draft = {
-			education_efficiency_modifier = -0.15
-			global_immigrant_attract = -0.45
+			global_immigrant_attract = -0.47
 			unit_start_experience = 0.15
-			mobilisation_size = -0.04
+			mobilisation_size = -0.02
 			mobilization_impact = 0.2
 			unit_recruitment_time = 0.1
 			org_regain = 0.05
 		}
 		4_years_draft = {
-			education_efficiency_modifier = -0.1
-			global_immigrant_attract = -0.40
+			global_immigrant_attract = -0.45
 			unit_start_experience = 0.1
-			mobilisation_size = -0.06
+			mobilisation_size = -0.04
 			land_organisation = 0.05
 			unit_recruitment_time = 0.15
 		}
 		1_years_draft = {
-			education_efficiency_modifier = -0.05
-			global_immigrant_attract = -0.35
+			global_immigrant_attract = -0.43
 			unit_start_experience = 0.05
-			mobilisation_size = -0.08
+			mobilisation_size = -0.06
 			mobilization_impact = -0.1
 			unit_recruitment_time = 0.2
 			land_organisation = 0.1
@@ -525,7 +519,7 @@ political_reforms = {
 			}
 			mobilisation_size = -0.1
 			mobilization_impact = -0.2
-			global_immigrant_attract = -0.3
+			global_immigrant_attract = -0.4
 			unit_recruitment_time = 0.25
 			land_organisation = 0.15
 			org_regain = -0.1
@@ -574,14 +568,14 @@ political_reforms = {
         debt_law = {
         next_step_only = yes
         serfdom = {
-			education_efficiency_modifier = -0.15
+			education_efficiency_modifier = -0.06
 			poor_savings_modifier = -0.5
 			global_immigrant_attract = -0.1
 			farm_rgo_size = 0.5
 			mine_rgo_size = 0.5
 		}
 		peonage = {
-			education_efficiency_modifier = -0.1
+			education_efficiency_modifier = -0.04
 			RGO_throughput  = 0.05
 			global_immigrant_attract = -0.05
 			suppression_points_modifier = 0.1
@@ -592,7 +586,7 @@ political_reforms = {
 			allow = { OR = { NOT = { has_country_flag = serfdom_not_abolished } year = 1875 } }
 		}
 		debtors_prisons = {
-                        education_efficiency_modifier = -0.05
+                        education_efficiency_modifier = -0.02
 			farm_rgo_size = 0.1
 			mine_rgo_size = 0.1
 		}

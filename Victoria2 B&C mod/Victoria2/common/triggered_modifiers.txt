@@ -22,13 +22,20 @@ AI_lat_america_boost = {
 ital_rise_boost = {
     trigger = {
                 exists = yes
+                OR = {
                 capital = 720
+                capital = 749
+                }
 		NOT = {
                         year = 1840
 		}
 	}
-    mobilisation_size = 0.08
-    icon = 19
+    mobilisation_size = 0.06
+    tax_efficiency = 0.2
+    war_exhaustion = -0.05
+    mobilization_economy_impact = -0.5
+    supply_consumption = -0.35
+    RGO_output = 0.2
 }
 
 eng_migr_debuff = {
@@ -144,7 +151,7 @@ acceptable_schools_fully_funded = {
         school_reforms = acceptable_schools
         education_spending = 0.90
     }
-    education_efficiency_modifier = 0.15
+    education_efficiency_modifier = 0.2
     icon = 19
 }
 
@@ -154,7 +161,7 @@ good_schools_fully_funded = {
         school_reforms = good_schools
         education_spending = 0.99
     }
-    education_efficiency_modifier = 0.25
+    education_efficiency_modifier = 0.3
     icon = 19
 }
 
@@ -194,7 +201,7 @@ arising_prussia = {
 	war_exhaustion = -0.05
 	supply_consumption = -0.35
 	tax_efficiency = 0.15
-        tariff_efficiency_modifier = 0.1
+        tariff_efficiency_modifier = 0.2
         RGO_output = 0.2
         factory_output = 0.2
 }
@@ -407,7 +414,7 @@ government_fascist_dictatorship = {
 	mobilization_economy_impact = -0.5
 	land_organisation = 0.1
         tax_efficiency = 0.06
-	factory_input = -0.05
+	factory_input = -0.03
         factory_throughput = -0.10
 	core_pop_militancy_modifier = -0.02
 	army_tech_research_bonus = 0.1
@@ -453,7 +460,7 @@ government_hms_government = {
         commerce_tech_research_bonus = 0.15
 	culture_tech_research_bonus = 0.15
 	land_organisation = -0.1
-	factory_output = 0.05
+	factory_throughput = 0.05
 	issue_change_speed = 0.2
 	leadership_modifier = 0.1
 	ruling_party_support = -0.1
@@ -467,8 +474,7 @@ government_democracy = {
 	}
 	commerce_tech_research_bonus = 0.2
 	culture_tech_research_bonus = 0.1
-	land_organisation = -0.1
-	factory_output = 0.1
+	factory_throughput = 0.1
 	issue_change_speed = 0.2
 	leadership_modifier = 0.1
 	ruling_party_support = -0.1
@@ -496,9 +502,6 @@ government_afrcompany = {
 		exists = yes
                 government = african_company
 	}
-	RGO_output = -0.3
-        RGO_throughput = -0.3
-        mine_rgo_eff = -0.2
         global_pop_militancy_modifier = -0.02
         global_immigrant_attract = -1
 }
@@ -519,7 +522,8 @@ post_agricultural_society = {
         icon = 18
         factory_input = 0.05
         factory_throughput = -0.1
-        factory_owner_cost = 0.15
+        factory_owner_cost = 0.3
+        tariff_efficiency_modifier = -0.1
         icon = 13        
 }
 
@@ -531,10 +535,11 @@ agricultural_society = {
                 }
         }
         icon = 18
-        factory_input = 0.1
-        factory_throughput = -0.2
-        mine_rgo_eff = -0.1
+        factory_input = 0.07
+        factory_throughput = -0.15
+        mine_rgo_eff = -0.3
         factory_owner_cost = 0.5
+        tariff_efficiency_modifier = -0.2
         icon = 13        
 }
 
@@ -603,64 +608,64 @@ grand_navy0 = {
 	prestige = -0.02
 }
 
-education_troubles1 = {
-        trigger = {
-                NOT = {
-                      literacy = 0.6
-                }
-                literacy = 0.5
-                
-        }
-        education_efficiency_modifier = -0.55
-        icon = 9
-}
-education_troubles2 = {
-        trigger = {
-              NOT = {
-                      literacy = 0.7
-                }
-              literacy = 0.6
-        }
-        education_efficiency_modifier = -0.7
-        icon = 9
-}
-education_troubles3 = {
-        trigger = {
-              NOT = {
-                      literacy = 0.8
-                }
-              literacy = 0.7
-        }
-        education_efficiency_modifier = -0.80
-        icon = 9
-}
-education_troubles4 = {
-        trigger = {
-              NOT = {
-                      literacy = 0.9
-                }
-              literacy = 0.8
-        }
-        education_efficiency_modifier = -1.0
-        icon = 9
-}
-education_troubles5 = {
-        trigger = {
-              NOT = {
-                      literacy = 1.0
-                }
-              literacy = 0.9
-        }
-        education_efficiency_modifier = -2.0
-        icon = 9
-}
-education_troubles6 = {
-        trigger = {
-              literacy = 1.0
-        }
-        education_efficiency_modifier = -3.0
-        icon = 9
-}
+#education_troubles1 = {
+#        trigger = {
+#                NOT = {
+#                      literacy = 0.6
+#                }
+#                literacy = 0.5
+#                
+#        }
+#        education_efficiency_modifier = -0.55
+#        icon = 9
+#}
+#education_troubles2 = {
+#        trigger = {
+#              NOT = {
+#                      literacy = 0.7
+#                }
+#              literacy = 0.6
+#        }
+#        education_efficiency_modifier = -0.7
+#        icon = 9
+#}
+#education_troubles3 = {
+#        trigger = {
+#              NOT = {
+#                      literacy = 0.8
+#                }
+#              literacy = 0.7
+#        }
+#        education_efficiency_modifier = -0.80
+#        icon = 9
+#}
+#education_troubles4 = {
+#        trigger = {
+#              NOT = {
+#                      literacy = 0.9
+#                }
+#              literacy = 0.8
+#        }
+#        education_efficiency_modifier = -1.0
+#        icon = 9
+#}
+#education_troubles5 = {
+#        trigger = {
+#              NOT = {
+#                      literacy = 1.0
+#                }
+#              literacy = 0.9
+#        }
+#        education_efficiency_modifier = -2.0
+#        icon = 9
+#}
+#education_troubles6 = {
+#        trigger = {
+#              literacy = 1.0
+#        }
+#        education_efficiency_modifier = -3.0
+#        icon = 9
+#}
 war_support0 = {
 	trigger = {
         year = 1880
@@ -782,3 +787,40 @@ german_minors_boost = {
     RGO_output = 0.1
     global_population_growth = 0.001
 }
+
+#no_schools_system = {
+#    trigger = {
+#        exists = yes
+#        school_reforms = no_schools
+#        literacy = 0.5
+#    }
+#    education_efficiency_modifier = -1
+#    icon = 19
+#}
+#
+#weak_schools_system = {
+#    trigger = {
+#        exists = yes
+#        OR = {
+#        school_reforms = no_schools
+#        school_reforms = low_schools
+#        }
+#        literacy = 0.7
+#    }
+#    education_efficiency_modifier = -1
+#    icon = 19
+#}
+#
+#weak2_schools_system = {
+#    trigger = {
+#        exists = yes
+#        OR = {
+#       school_reforms = no_schools
+#        school_reforms = low_schools
+#        school_reforms = acceptable_schools
+#        }
+#        literacy = 0.8
+#    }
+#    education_efficiency_modifier = -1
+#    icon = 19
+#}

@@ -1,8 +1,8 @@
 owner = SPA
 controller = SPA terrain = madrid_city 
 add_core = SPA
-trade_goods = cattle
-life_rating = 37
+trade_goods = grain
+life_rating = 30
 #state_building = {
 #	level = 1
 #	building = ammunition_factory

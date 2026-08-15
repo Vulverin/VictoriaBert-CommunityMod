@@ -17,11 +17,8 @@ everyday_needs = {
 	cigarettes = 2
 	shoes = 2
 	print = 3
-        cattle = 0.55
 	wool =  0.5
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
         shares = 2
 	iron = 0.5
 	steel = 1
@@ -31,11 +28,8 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 
@@ -54,11 +48,8 @@ luxury_needs = {
         financial_services = 0.2
         electric_power = 5
 	#dye = 0.5
-        cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 
@@ -173,10 +164,54 @@ country_migration_target =
 migration_target =
 {
 	factor = 0.01
+	
 	modifier = {
-		factor = 1.2
-		total_pops = 150000
-	}	
+    	factor = 20
+    	OR = {
+                                        terrain = berlin_city
+                						terrain = city_958
+                						terrain = munich_city
+                						terrain = brussels_city
+                						terrain = naples_city
+                						terrain = glasgow_city
+                						terrain = copenhagen_city
+                						terrain = christiana_city
+               						    terrain = mexico_city
+                						terrain = san_franc_city
+                						terrain = los_angeles_city
+                						terrain = budapest_city
+                						terrain = amsterdam_city
+                						terrain = new_york_city
+                						terrain = reval_city
+                						terrain = vilnus_city
+                						terrain = baku_city
+                						terrain = odessa_city
+                						terrain = riga_city
+                						terrain = warsaw_city
+                						terrain = kharkov_city
+                						terrain = kiev_city
+                						terrain = moscow_city
+                						terrain = stock_city
+                						terrain = paris_city
+                						terrain = rio_city
+                						terrain = washington_city
+                						terrain = tokyo_city
+                						terrain = petersburg_city
+                						terrain = consta_city
+                						terrain = vien_city
+                						terrain = rome_city
+                						terrain = london_city
+                						terrain = madrid_city								  
+        }
+	}
+    modifier = {
+   	    factor = 10
+   	    has_province_modifier = immigrator_modifier
+		OR = {
+			work_available = { worker = labourers }
+			work_available = { worker = farmers }
+		}
+	}
 	modifier = {
 		factor = 0.1
 		unemployment = 0.1
@@ -184,24 +219,11 @@ migration_target =
 			has_factories = no
 			}
 	}
-
-	modifier = {
-		factor = 1.2
-		total_pops = 250000
-	}
 	modifier = {
         factor = 0
         is_overseas = yes
         country = { border_policy = closed_borders }
     }
-	modifier = {
-		factor = 1.2
-		total_pops = 500000
-	}
-	modifier = {
-		factor = 1.2
-		total_pops = 750000
-	}	
 	
 	modifier = {
 		factor = 0
@@ -749,11 +771,62 @@ promote_to =
 				factor = 30
 				military_spending = 0.99
 			}
-                        modifier = {
+            modifier = {
 				factor = 50
                                 year = 1880
 				military_spending = 0.99
 			}
+		}
+		modifier = {
+				factor = -500
+				soldiers = 0.05
+				NOT = { location = { life_rating = 32 } }
+		}
+        modifier = {
+				factor = -500
+				soldiers = 0.054
+				NOT = { location = { life_rating = 34 } }
+		}
+        modifier = {
+				factor = -500
+				soldiers = 0.058
+				NOT = { location = { life_rating = 36 } }
+		}
+        modifier = {
+				factor = -500
+				soldiers = 0.062
+				NOT = { location = { life_rating = 38 } }
+		}
+        modifier = {
+				factor = -500
+				soldiers = 0.066
+				NOT = { location = { life_rating = 40 } }
+		}
+        modifier = {
+				factor = -500
+				soldiers = 0.07
+		}
+		modifier = {
+			factor = -500
+            soldiers = 0.05
+			NOT = { location = { life_rating = 40 } }
+			OR = {
+                                        terrain = ocean
+                						terrain = arctic
+                						terrain = farmlands
+                						terrain = forest
+                						terrain = woods
+                						terrain = steppe
+                						terrain = plains
+                						terrain = hills
+               						    terrain = mountain
+                						terrain = hilly_grassland
+                						terrain = semi_desert
+                						terrain = desert
+                						terrain = boreal_forest
+                						terrain = jungle	
+                                        terrain = port_city										
+                                }
 		}
 		group = {
 			modifier = {
@@ -792,10 +865,6 @@ promote_to =
 				factor = -2
 				soldiers = 0.045
 			}
-			modifier = {
-				factor = -2000
-				soldiers = 0.05
-			}
 		}
                 modifier = {
 			factor = -100
@@ -814,12 +883,48 @@ promote_to =
                                   has_country_flag = eng_army_limit
                         }
                         soldiers = 0.02
+						NOT = { location = { life_rating = 40 } }
+						OR = {
+                                        terrain = ocean
+                						terrain = arctic
+                						terrain = farmlands
+                						terrain = forest
+                						terrain = woods
+                						terrain = steppe
+                						terrain = plains
+                						terrain = hills
+               						    terrain = mountain
+                						terrain = hilly_grassland
+                						terrain = semi_desert
+                						terrain = desert
+                						terrain = boreal_forest
+                						terrain = jungle	
+                                        terrain = port_city										
+                        }
                 }
                 modifier = {
 		        factor = -9000
 		        country = {
 			          has_country_flag = serfdom_not_abolished
 		        }
+				NOT = { location = { life_rating = 40 } }
+				OR = {
+                                        terrain = ocean
+                						terrain = arctic
+                						terrain = farmlands
+                						terrain = forest
+                						terrain = woods
+                						terrain = steppe
+                						terrain = plains
+                						terrain = hills
+               						    terrain = mountain
+                						terrain = hilly_grassland
+                						terrain = semi_desert
+                						terrain = desert
+                						terrain = boreal_forest
+                						terrain = jungle	
+                                        terrain = port_city										
+                                }
                         soldiers = 0.03
 	        }
                  modifier = {
@@ -832,6 +937,24 @@ promote_to =
                                       has_country_flag = ger_army_limit
                                       }
                               }
+							  NOT = { location = { life_rating = 40 } }
+							  OR = {
+                                        terrain = ocean
+                						terrain = arctic
+                						terrain = farmlands
+                						terrain = forest
+                						terrain = woods
+                						terrain = steppe
+                						terrain = plains
+                						terrain = hills
+               						    terrain = mountain
+                						terrain = hilly_grassland
+                						terrain = semi_desert
+                						terrain = desert
+                						terrain = boreal_forest
+                						terrain = jungle	
+                                        terrain = port_city										
+                                }
                         soldiers = 0.04
                 }
                 modifier = {
@@ -839,7 +962,25 @@ promote_to =
                         country = {
                                   has_country_flag = usa_army_limit
                         }
-                        soldiers = 0.023
+						NOT = { location = { life_rating = 40 } }
+						OR = {
+                                        terrain = ocean
+                						terrain = arctic
+                						terrain = farmlands
+                						terrain = forest
+                						terrain = woods
+                						terrain = steppe
+                						terrain = plains
+                						terrain = hills
+               						    terrain = mountain
+                						terrain = hilly_grassland
+                						terrain = semi_desert
+                						terrain = desert
+                						terrain = boreal_forest
+                						terrain = jungle	
+                                        terrain = port_city										
+                        }
+                        soldiers = 0.025
                 }
 		modifier = {
 			factor = -9000
@@ -1118,52 +1259,39 @@ promote_to =
 				education_spending = 0.99
 			}
 		}
-                modifier = {
+		modifier = {
+				factor = -500
+				clergymen = 0.03
+				NOT = { location = { life_rating = 32 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.034
+				NOT = { location = { life_rating = 34 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.038
+				NOT = { location = { life_rating = 36 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.042
+				NOT = { location = { life_rating = 38 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.046
+				NOT = { location = { life_rating = 40 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.05
+		}
+        modifier = {
 			factor = -35
 			NOT = { is_accepted_culture = yes }
 			NOT = { is_primary_culture = yes }
-		}
-		group = {		
-			modifier = {
-				factor = -1
-				clergymen = 0.004
-			}
-			modifier = {
-				factor = -1
-				clergymen = 0.008
-			}
-			modifier = {
-				factor = -1
-				clergymen = 0.012
-			}			
-			modifier = {
-				factor = -1
-				clergymen = 0.016
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.02
-			}			
-			modifier = {
-				factor = -4
-				clergymen = 0.024
-			}			
-			modifier = {
-				factor = -5
-				clergymen = 0.028
-			}			
-			modifier = {
-				factor = -5
-				clergymen = 0.032
-			}			
-			modifier = {
-				factor = -6
-				clergymen = 0.036
-			}			
-			modifier = {
-				factor = -500
-				clergymen = 0.04
-			}						
 		}
 		group = {
 			modifier = {
@@ -1195,23 +1323,45 @@ promote_to =
                          factor = -500
                          OR = {
                                 AND = { 
-                                       clergymen = 0.035
-                                       literacy = 0.75
-                                }
-                                AND = { 
-                                       clergymen = 0.03
+                                       clergymen = 0.045
                                        literacy = 0.8
                                 }
                                 AND = { 
-                                       clergymen = 0.025
+                                       clergymen = 0.04
                                        literacy = 0.85
                                 }
                                 AND = { 
-                                       clergymen = 0.02
+                                       clergymen = 0.035
                                        literacy = 0.9
+                                }
+                                AND = { 
+                                       clergymen = 0.03
+                                       literacy = 0.95
                                 }
                        }
                 }
+			modifier = {
+                        factor = -500
+                        clergymen = 0.025 
+						NOT = { location = { life_rating = 40 } }
+						        OR = {
+                                        terrain = ocean
+                						terrain = arctic
+                						terrain = farmlands
+                						terrain = forest
+                						terrain = woods
+                						terrain = steppe
+                						terrain = plains
+                						terrain = hills
+               						    terrain = mountain
+                						terrain = hilly_grassland
+                						terrain = semi_desert
+                						terrain = desert
+                						terrain = boreal_forest
+                						terrain = jungle	
+                                        terrain = port_city										
+                                }
+            }
 	}
 	aristocrats = 
 	{

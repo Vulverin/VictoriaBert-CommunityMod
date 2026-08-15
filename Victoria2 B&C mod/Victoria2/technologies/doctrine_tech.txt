@@ -115,7 +115,7 @@ medicine_tech_1 = {
 	cost = 4000
 	unciv_military = yes
     
-        pop_growth = 0.0001
+        pop_growth = 0.0002
 
         ai_chance = {
 		factor = 20
@@ -300,7 +300,7 @@ military_tech_1 = {
         activate_building = fort
 		
 	army_base = {
-		supply_consumption = -0.20
+		supply_consumption = -0.15
 	}
         
 }
@@ -310,9 +310,9 @@ military_tech_2 = {
 	cost = 6000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -0.40
+		supply_consumption = -0.25
 	}
         
 }
@@ -322,9 +322,9 @@ military_tech_3 = {
 	cost = 9000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -0.80
+		supply_consumption = -0.3
 	}
         
 }
@@ -334,9 +334,9 @@ military_tech_4 = {
 	cost = 11000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1
+		supply_consumption = -0.4
 	}
         
 }
@@ -346,9 +346,9 @@ military_tech_5 = {
 	cost = 15000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1
+		supply_consumption = -0.4
 	}
         
 }
@@ -358,9 +358,9 @@ military_tech_6 = {
 	cost = 18000
 	unciv_military = yes
         max_fort = 1
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1.2
+		supply_consumption = -0.5
 	}
         
 }
@@ -370,9 +370,9 @@ military_tech_7 = {
 	cost = 21000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -1.6
+		supply_consumption = -0.8
 	}
         
 }
@@ -382,9 +382,9 @@ military_tech_8 = {
 	cost = 24000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -2
+		supply_consumption = -1
 	}
         
 }
@@ -394,9 +394,9 @@ military_tech_9 = {
 	cost = 26000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -2
+		supply_consumption = -1
 	}
         
 }
@@ -406,9 +406,9 @@ military_tech_10 = {
 	cost = 29000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -2
+		supply_consumption = -1
 	}
         
 }
@@ -418,9 +418,9 @@ military_tech_11 = {
 	cost = 31000
 	unciv_military = yes
         
-		
+	military_tactics = 0.1	
 	army_base = {
-		supply_consumption = -2
+		supply_consumption = -1
 	}
         
 }
@@ -434,7 +434,7 @@ naval_tech_1 = {
        activate_building = naval_base
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.1
 	}
 }
 naval_tech_2 = {
@@ -445,7 +445,7 @@ naval_tech_2 = {
        max_naval_base = 1
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.1
 	}
 }
 naval_tech_3 = {
@@ -456,7 +456,7 @@ naval_tech_3 = {
        max_naval_base = 1
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.1
 	}
 }
 naval_tech_4 = {
@@ -467,7 +467,7 @@ naval_tech_4 = {
        max_naval_base = 1
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.1
 	}
 }
 naval_tech_5 = {
@@ -478,7 +478,7 @@ naval_tech_5 = {
        max_naval_base = 1
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.1
 	}
 }
 naval_tech_6 = {
@@ -489,7 +489,7 @@ naval_tech_6 = {
        max_naval_base = 1
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.2
 	}
 }
 naval_tech_7 = {
@@ -500,7 +500,7 @@ naval_tech_7 = {
        max_naval_base = 1
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.2
 	}
 }
 naval_tech_8 = {
@@ -509,7 +509,7 @@ naval_tech_8 = {
        cost = 23000
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.2
 	}
 }
 naval_tech_9 = {
@@ -527,7 +527,7 @@ naval_tech_10 = {
        cost = 27000
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.2
 	}
 }
 naval_tech_11 = {
@@ -536,7 +536,7 @@ naval_tech_11 = {
        cost = 30000
 
        navy_base = {
-		supply_consumption = -0.25
+		supply_consumption = -0.2
 	}
 }
 
@@ -559,6 +559,7 @@ focus_idea_tech_2 = {
        year = 1840
        cost = 6000
        max_national_focus = 2
+       activate_building = province_selector
        ai_chance = {
 		factor = 10
                 modifier = {

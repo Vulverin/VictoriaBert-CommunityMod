@@ -1,8 +1,10 @@
 owner = USA
-controller = USA
- terrain = port_city add_core = USA
+
+controller = USA
+
+ terrain = port_city add_core = USA
 trade_goods = tobacco
-life_rating = 35
+life_rating = 38
 
 naval_base = 2
 

@@ -165,7 +165,6 @@ political_decisions = {
 						factor = 0.2
 					}
 				}
-				life_rating = 5
 			}
 			prestige = 10
 			set_country_flag = grunderzeit_we_have_done

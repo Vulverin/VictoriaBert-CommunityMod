@@ -386,25 +386,6 @@ ammunition_factory = {
 	strategic_factory = yes
 }
 
-fish_cannery = {
-	type = factory
-
-	on_completion = factory
-	completion_size = 0.2
-	cost = 0 # 1000
-	max_level = 99
-	goods_cost = 
-	{
-		cement = 600
-	}
-	time = 120
-	visibility = yes
-	onmap = no
-
-	production_type = fish_cannery
-	pop_build_factory = yes
-}
-
 stables = {
 	type = factory
 
@@ -650,26 +631,6 @@ regular_clothes_factory = {
 	onmap = no
 
 	production_type = regular_clothes_factory
-	pop_build_factory = yes
-}
-
-liquor_distillery = {
-	type = factory
-
-	on_completion = factory
-	completion_size = 0.2
-	cost = 0 # 1000
-	max_level = 99
-	goods_cost = 
-	{
-		cement = 600
-	}
-	time = 120
-	visibility = yes
-	onmap = no
-	
-	default_enabled = yes	
-	production_type = liquor_distillery
 	pop_build_factory = yes
 }
 
@@ -926,25 +887,6 @@ rum_distillery = {
 	production_type = rum_distillery
 	pop_build_factory = yes
 }
-
-fruit_cannery = {
-	type = factory
-
-	on_completion = factory
-	completion_size = 0.2
-	cost = 0 # 1000
-	max_level = 99
-	goods_cost = 
-	{
-		cement = 650
-	}
-	time = 120
-	visibility = yes
-	onmap = no
-
-	production_type = fruit_cannery
-	pop_build_factory = yes
-}
 	
 early_small_arms_factory = {
 	type = factory
@@ -1193,8 +1135,7 @@ shares_factory = {
 	max_level = 99
 	goods_cost = 
 	{
-		iron = 600
-		timber = 600
+		cement = 700
 	}
 	time = 150
 	visibility = yes
@@ -1214,8 +1155,7 @@ lead_factory = {
 	max_level = 99
 	goods_cost = 
 	{
-		iron = 600
-		timber = 600
+		cement = 700
 	}
 	time = 150
 	visibility = yes
@@ -1284,6 +1224,20 @@ steel_machine_parts_factory = {
 
 	production_type = steel_machine_parts_factory
 	pop_build_factory = yes
+}
+
+province_selector = {
+	type = province_selector
+	goods_cost =
+	{
+	}
+	time = 1
+	visibility = no
+	onmap = no
+	max_level = 2
+	province = yes
+	#one_per_state = yes
+
 }
 
 fort = {      
@@ -1377,5 +1331,5 @@ school = {
 	max_level = 6
 	province = yes
 
-        education_efficiency_modifier = 0.02
+        life_rating = 0.03 
 }

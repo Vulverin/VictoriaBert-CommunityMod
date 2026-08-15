@@ -43,47 +43,38 @@ luxury_needs = {
 	radio = 1.0
 	fuel = 0.2
 	coffee = 2
-        cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 everyday_needs = {
-        automobiles = 1.5
-        aeroplanes = 0.6
-        sugar = 1
-	liquor = 2.5
+        sugar = 1.5
+	liquor = 3
         print = 4
-	regular_clothes = 3
-	furniture = 4
+	regular_clothes = 4
+	furniture = 5
 	paper = 3
         spices = 2
 	glass = 1
         cigarettes = 2
 	tea = 6
         shoes = 2
-	electric_power = 20
-        telephones = 4
         shares = 2
-        cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 	iron = 0.5
 	steel = 1
 	cotton = 3
 	timber = 5
+        electric_power = 20
+        telephones = 4
+        automobiles = 1.5
+        aeroplanes = 0.6
 }
 
 life_needs = {
-	cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  5
 }
 
 
@@ -362,7 +353,32 @@ promote_to =
 		}
 		modifier = {
 			factor = -100
-			officers = 0.002
+                        NOT = { year = 1850 }
+			state_scope = { officers = 0.001 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1860 }
+			state_scope = { officers = 0.002 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1870 }
+			state_scope = { officers = 0.003 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1880 }
+			state_scope = { officers = 0.005 }
+		}
+                modifier = {
+			factor = -100
+                        NOT = { year = 1890 }
+			state_scope = { officers = 0.007 }
+		}
+                modifier = {
+			factor = -100
+			state_scope = { officers = 0.01 }
 		}		
 
 		modifier = {
@@ -839,6 +855,16 @@ promote_to =
 				state_scope = {
 					has_factories = yes
 				}
+		}
+                modifier = {
+			factor = -100
+                        craftsmen = 0.1
+			location = { is_overseas = yes }
+                        NOT = { 
+				location = {
+					any_core = { is_core = THIS }
+				}
+			}
 		}
                 modifier = {
 			factor = -30

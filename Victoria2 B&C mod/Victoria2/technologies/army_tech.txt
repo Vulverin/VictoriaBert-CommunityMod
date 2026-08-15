@@ -7,7 +7,7 @@ post_napoleonic_thought = {
         colonial_points = 50	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 0.4
+		supply_consumption = 0.15
 	}
 	
 	ai_chance = {
@@ -52,7 +52,7 @@ modern_army_doctrine_new_1 = {
 	colonial_points = 50
 	
 	army_base = {
-		supply_consumption = 0.6
+		supply_consumption = 0.15
 	}
         infantry = {
 			attack = 1
@@ -116,7 +116,7 @@ strategic_mobility = {
 		}
 	
 	army_base = {
-		supply_consumption = 0.8
+		supply_consumption = 0.2
 	}
 	
 	ai_chance = {
@@ -171,7 +171,7 @@ point_defense_system = {
 		support = 0.15
 	} 
 	army_base = {
-		supply_consumption = 1.0
+		supply_consumption = 0.2
 	}
 	ai_chance = {
 		factor = 1.01
@@ -222,7 +222,7 @@ army_doctrine_1 = {
 	unciv_military = yes
         colonial_points = 200
 	army_base = {
-		supply_consumption = 1.2
+		supply_consumption = 0.25
 	} 
 	dig_in_cap = 1
 	ai_chance = {
@@ -277,7 +277,7 @@ deep_defense_system = {
 		support = 0.15
 	} 
 	army_base = {
-		supply_consumption = 1.4
+		supply_consumption = 0.3
 	}
 	dig_in_cap = 2
 	
@@ -334,7 +334,7 @@ army_doctrine_2 = {
 		support = 0.15
 	}
 	army_base = {
-		supply_consumption = 1.6
+		supply_consumption = 0.3
 	}
 	dig_in_cap = 2
 	
@@ -392,22 +392,22 @@ army_doctrine_3 = {
 		support = 0.15
 	}
 	army_base = {
-		supply_consumption = 1.8
+		supply_consumption = 0.4
 	} 
 	        infantry = {
 			attack = 4
 			defence = 4
-			supply_consumption = 0.9
+			supply_consumption = 0.5
 		}
 		colinfantry = {
 			attack = 3
 			defence = 3
-			supply_consumption = 2
+			supply_consumption = 0.8
 		}
 		irregular = {
 			attack = 4
 			defence = 4
-			supply_consumption = 0.9
+			supply_consumption = 0.4
 		}
 	
 	ai_chance = {
@@ -457,7 +457,7 @@ infiltration = {
 	cost = 22000
 	unciv_military = yes	
 	army_base = {
-		supply_consumption = 2.0
+		supply_consumption = 0.6
 	}
 	
 	ai_chance = {
@@ -503,7 +503,7 @@ modern_army_doctrine = {
 			gun_power = 2
 		}
 	army_base = {
-		supply_consumption = 2.2
+		supply_consumption = 0.6
 	}
 	
 	ai_chance = {
@@ -549,17 +549,17 @@ modern_army_doctrine_new = {
 			gun_power = 2
 		}
 	army_base = {
-		supply_consumption = 2.4
+		supply_consumption = 0.6
 	} 
         infantry = {
 			attack = 1
 			defence = 1
-			supply_consumption = 1.2
+			supply_consumption = 1
 		}
 		colinfantry = {
 			attack = 1
 			defence = 1
-			supply_consumption = 1.2
+			supply_consumption = 1
 		}
 #		guard = {
 #			attack = 1
@@ -569,13 +569,13 @@ modern_army_doctrine_new = {
 		irregular = {
 			attack = 1
 			defence = 1
-			supply_consumption = 1.2
+			supply_consumption = 1
 		}
 	
 	tank = {
 			attack = 2
 			defence = 4
-			supply_consumption = 6
+			supply_consumption = 3
 			siege = 1				
 		}	
 	
@@ -625,7 +625,7 @@ flintlock_rifles = {
 	activate_building = uniform_factory
         navy_base = { 
 	maximum_speed = 1 
-	supply_consumption = 0.40
+	supply_consumption = 0.15
 	}
 	colonial_points = 50
 
@@ -671,7 +671,7 @@ muzzle_loaded_rifles = {
 	activate_building = steamer_shipyard 
 	navy_base = { 
 	maximum_speed = 1 
-	supply_consumption = 0.6
+	supply_consumption = 0.2
 	}
 	colonial_points = 50
 
@@ -719,18 +719,18 @@ modern_divisional_structure_new_1 = {
 	cost = 8000
 	unciv_military = yes
         navy_base = { maximum_speed = 1
-	supply_consumption = 0.80
+	supply_consumption = 0.3
 	} 
         colonial_points = 150
 	infantry = {
 			attack = 1
 			defence = 1
-			supply_consumption = 0.4
+			supply_consumption = 0.25
 		}
 		colinfantry = {
 			attack = 1
 			defence = 1
-			supply_consumption = 0.4
+			supply_consumption = 0.25
 		}
 #		guard = {
 #			attack = 1
@@ -740,7 +740,7 @@ modern_divisional_structure_new_1 = {
 		irregular = {
 			attack = 1
 			defence = 1
-			supply_consumption = 0.4
+			supply_consumption = 0.25
 		}
 		ai_chance = {
 		factor = 1.1
@@ -781,7 +781,7 @@ breech_loaded_rifles = {
 	cost = 10000
         navy_base = { 
 	maximum_speed = 1 
-	supply_consumption = 1.0
+	supply_consumption = 0.3
 	}
 	colonial_points = 50
 	unciv_military = yes
@@ -831,7 +831,7 @@ light_armament_1 = {
 	cost = 12000
         navy_base = { 
 	maximum_speed = 1 
-	supply_consumption = 1.2
+	supply_consumption = 0.3
 	}
 	colonial_points = 50
 	infantry = {
@@ -895,7 +895,7 @@ machine_guns = {
 	unciv_military = yes
         navy_base = { 
 	maximum_speed = 1 
-	supply_consumption = 1.4
+	supply_consumption = 0.4
 	}
 	colonial_points = 50
 
@@ -944,7 +944,7 @@ light_armament_2 = {
 	cost = 18000
 	unciv_military = yes
         navy_base = { maximum_speed = 1 
-	supply_consumption = 1.6
+	supply_consumption = 0.5
 	} 
         combat_width = 5
 
@@ -1006,7 +1006,7 @@ light_armament_3 = {
 	cost = 22000
 	unciv_military = yes
         navy_base = { maximum_speed = 1 
-	supply_consumption = 1.8
+	supply_consumption = 0.6
 	}
 
         unit = 1
@@ -1026,22 +1026,22 @@ light_armament_3 = {
                 cuirassier = {
 			attack = 0.9
 			defence = 1.1
-			supply_consumption = 0.9
+			supply_consumption = 0.6
 		}
 		dragoon = {
 			attack = 1
 			defence = 1
-			supply_consumption = 0.9
+			supply_consumption = 0.6
 		}
 		cavalry = {
 			attack = 0.5
 			defence = 0.5
-			supply_consumption = 0.9
+			supply_consumption = 0.6
 		}
 		engineer = {
 			attack = 1
 			defence = 1
-			supply_consumption = 0.9
+			supply_consumption = 0.6
 		}        
 
 	ai_chance = {
@@ -1088,7 +1088,7 @@ bolt_action_rifles = {
 	cost = 24000
 	unciv_military = yes
 	navy_base = { maximum_speed = 1 
-	supply_consumption = 2.0
+	supply_consumption = 0.6
 	}
 	combat_width = 5
 
@@ -1131,7 +1131,7 @@ modern_divisional_structure = {
 	cost = 26000
 	unciv_military = yes
         navy_base = { maximum_speed = 1
-	supply_consumption = 2.2
+	supply_consumption = 0.6
 	}
 	
 	
@@ -1174,7 +1174,7 @@ modern_divisional_structure_new = {
 	cost = 28000
 	unciv_military = yes
         navy_base = { maximum_speed = 1
-	supply_consumption = 2.4
+	supply_consumption = 0.6
 	} 
         dreadnought = {
 			hull = 5
@@ -1186,12 +1186,12 @@ modern_divisional_structure_new = {
 	infantry = {
 			attack = 1
 			defence = 1
-			supply_consumption = 1.2
+			supply_consumption = 0.6
 		}
 		colinfantry = {
 			attack = 1
 			defence = 1
-			supply_consumption = 1.2
+			supply_consumption = 0.6
 		}
 #		guard = {
 #			attack = 1
@@ -1201,13 +1201,13 @@ modern_divisional_structure_new = {
 		irregular = {
 			attack = 1
 			defence = 1
-			supply_consumption = 1.2
+			supply_consumption = 0.6
 		}
 	
 	tank = {
 			attack = 2
 			defence = 4
-			supply_consumption = 6
+			supply_consumption = 2
 			siege = 1				
 		}	
 	
@@ -1295,7 +1295,7 @@ iron_muzzle_loaded_artillery = {
 	artillery = {
 		attack = 0.25
 		support = 0.15
-		supply_consumption = 0.6
+		supply_consumption = 0.2
 	}
 	
 	ai_chance = {
@@ -1346,7 +1346,7 @@ heavy_armament_dunno_2 = {
 	}	
         artillery = {
 		support = 0.15
-		supply_consumption = 0.8
+		supply_consumption = 0.2
 	}
 	ai_chance = {
 		factor = 1.05
@@ -1398,7 +1398,7 @@ iron_breech_loaded_artillery = {
 	}	
 	artillery = {
 		support = 0.15
-		supply_consumption = 1.0
+		supply_consumption = 0.2
 	}
 	ai_chance = {
 		factor = 1.05
@@ -1446,7 +1446,7 @@ heavy_armament_1 = {
 	}	
 	artillery = {
 		support = 0.15
-		supply_consumption = 1.2
+		supply_consumption = 0.3
 	}
 	ai_chance = {
 		factor = 1.05
@@ -1499,7 +1499,7 @@ steel_breech_loaded_artillery = {
 	artillery = {
 		attack = 0.5
 		support = 0.1
-		supply_consumption = 1.4
+		supply_consumption = 0.4
 	}
 	
 	ai_chance = {
@@ -1550,7 +1550,7 @@ heavy_armament_2 = {
 	}
 	artillery = {
 		attack = 0.5
-		supply_consumption = 1.6
+		supply_consumption = 0.5
 	}
 #        hussar = {
 #                support = 0.25
@@ -1602,7 +1602,7 @@ heavy_armament_3 = {
 		attack = 0.75
                 support = 0.25
                 reconnaissance = 1
-		supply_consumption = 6
+		supply_consumption = 0.6
 	}
 #	hussar = {
 #                support = 0.25
@@ -1653,7 +1653,7 @@ indirect_artillery_fire = {
 	}
 	artillery = {
 		attack = 0.5
-		supply_consumption = 3.0
+		supply_consumption = 0.6
 	}
 #	hussar = {
 #                attack = 0.5
@@ -1801,7 +1801,7 @@ military_staff_system = {
 	
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 0.4
+		supply_consumption = 0.15
 	}
 	reinforce_rate = 0.03
 
@@ -1848,7 +1848,7 @@ military_plans = {
 	naval_unit_start_experience = 0.05
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 0.6
+		supply_consumption = 0.15
 	}
 	reinforce_rate = 0.03
 
@@ -1891,7 +1891,7 @@ aeronautics_new_1 = {
 	cost = 8000
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 0.8
+		supply_consumption = 0.2
 	}
         reinforce_rate = 0.03
 	supply_range = 0.10
@@ -1945,7 +1945,7 @@ military_statistics = {
 	naval_unit_start_experience = 0.05
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 1.0
+		supply_consumption = 0.2
 	}
 	reinforce_rate = 0.03
 
@@ -1993,7 +1993,7 @@ military_science_1 = {
 	naval_unit_start_experience = 0.05
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 1.2
+		supply_consumption = 0.25
 	}
 	reinforce_rate = 0.03
 
@@ -2041,7 +2041,7 @@ military_logistics = {
 	naval_unit_start_experience = 0.05
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 1.4
+		supply_consumption = 0.3
 	}
 	reinforce_rate = 0.03
 	
@@ -2089,7 +2089,7 @@ military_science_2 = {
 	naval_unit_start_experience = 0.05
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 1.6
+		supply_consumption = 0.4
 	}
 	reinforce_rate = 0.03
 	
@@ -2137,7 +2137,7 @@ military_science_3 = {
 	naval_unit_start_experience = 0.05
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 1.8
+		supply_consumption = 0.5
 	}
 	reinforce_rate = 0.03
 
@@ -2185,7 +2185,7 @@ military_directionism = {
 	naval_unit_start_experience = 0.05
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 2.0
+		supply_consumption = 0.6
 	}
         reinforce_rate = 0.03
 
@@ -2236,7 +2236,7 @@ aeronautics = {
 	naval_unit_start_experience = 0.05
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 2.2
+		supply_consumption = 0.6
 	}
 	reinforce_rate = 0.03
 
@@ -2285,7 +2285,7 @@ aeronautics_new = {
 	naval_unit_start_experience = 0.05
 	army_base = {
 		default_organisation = 5
-		supply_consumption = 2.4
+		supply_consumption = 0.6
 	}
 	reinforce_rate = 0.03
 
@@ -2342,7 +2342,7 @@ army_command_principle = {
 	colonial_points = 100
 
 	army_base = {
-		supply_consumption = 0.4
+		supply_consumption = 0.15
 	}
 
 	ai_chance = {
@@ -2382,7 +2382,7 @@ army_professionalism = {
 	military_tactics = 0.25
 	
 	army_base = {
-		supply_consumption = 0.6
+		supply_consumption = 0.15
 	}
 	ai_chance = {
 		factor = 1.1
@@ -2440,7 +2440,7 @@ great_war_experience_new_2 = {
 	}
 
 	army_base = {
-		supply_consumption = 0.8
+		supply_consumption = 0.2
 	}
 	
 	ai_chance = {
@@ -2492,7 +2492,7 @@ army_decision_making = {
 	military_tactics = 0.25
 
 	army_base = {
-	supply_consumption = 1.0
+	supply_consumption = 0.2
 	}
 	
 	ai_chance = {
@@ -2554,7 +2554,7 @@ army_leadership_1 = {
 	military_tactics = 0.25
 
 	army_base = {
-	supply_consumption = 1.2
+	supply_consumption = 0.25
 	}
 	
 	ai_chance = {
@@ -2616,7 +2616,7 @@ army_leadership_2 = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 1.4
+		supply_consumption = 0.4
 	}
 	
 	ai_chance = {
@@ -2678,7 +2678,7 @@ army_risk_management = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 1.6
+		supply_consumption = 0.6
 	}
 	
 	ai_chance = {
@@ -2740,7 +2740,7 @@ army_risk_management_new = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 1.8
+		supply_consumption = 0.6
 	}
 	
 	ai_chance = {
@@ -2802,7 +2802,7 @@ army_nco_training = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 2.0
+		supply_consumption = 0.6
 	}
 	
 	ai_chance = {
@@ -2864,7 +2864,7 @@ great_war_experience = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 2.2
+		supply_consumption = 0.6
 	}
 	
 	ai_chance = {
@@ -2917,7 +2917,7 @@ great_war_experience_new = {
 	military_tactics = 0.25
 
 	army_base = {
-		supply_consumption = 2.4
+		supply_consumption = 0.6
 	}
 	
 	ai_chance = {

@@ -1,6 +1,8 @@
 owner = BRZ
 controller = BRZ
-add_core = BRZ
-trade_goods = fruit
-life_rating = 30
+add_core = BRZ
+
+trade_goods = grain
+life_rating = 30
+
 terrain = city_958

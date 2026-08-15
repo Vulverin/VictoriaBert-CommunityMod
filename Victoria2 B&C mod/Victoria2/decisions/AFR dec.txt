@@ -878,5 +878,32 @@ prestige_to_afr = {
                         prestige = 2
 		}
 	}
+afr_gov = {
+		potential = {
+                        OR = { 
+                        tag = GAF
+                        tag = AAF
+                        tag = FAF
+                        tag = EAF
+                        tag = IAF
+                        tag = RAF
+                        tag = TAF
+                        tag = UAF
+                        tag = JAF
+                        tag = BAF
+                        tag = NAF
+                        tag = PAF 
+                        tag = MAF 
+                        tag = SCF
+                        tag = SPF
+                        }
+		}
+		allow = {
+                        NOT = { government = african_company }         
+		}
+		effect = {
+                        government = african_company
+		}
+	}
 
 }

@@ -26,11 +26,8 @@ luxury_needs = {
 	radio = 1.0
 	fuel = 0.2
 	coffee = 2
-        cattle = 1.65
 	wool =  3
-	fish =  1.8
-	fruit =  3.45
-	grain =  5.85
+	grain =  11
 }
 
 everyday_needs = {
@@ -47,11 +44,8 @@ everyday_needs = {
         electric_power = 5
         shoes = 2
 	tea = 6
-        cattle = 0.55
 	wool =  0.5
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
         shares = 2
 	iron = 0.5
 	steel = 1
@@ -60,11 +54,8 @@ everyday_needs = {
 }
 
 life_needs = {
-	cattle = 0.55
 	wool =  1.0
-	fish =  0.6
-	fruit =  1.15
-	grain =  1.95
+	grain =  4.2
 }
 
 
@@ -819,49 +810,57 @@ promote_to =
 				factor = 10
 				education_spending = 0.99
 			}
-		}
-		group = {		
-			modifier = {
-				factor = -1
-				clergymen = 0.004
-			}
-			modifier = {
-				factor = -1
-				clergymen = 0.008
-			}
-			modifier = {
-				factor = -1
-				clergymen = 0.012
-			}			
-			modifier = {
-				factor = -1
-				clergymen = 0.016
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.02
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.024
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.028
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.032
-			}			
-			modifier = {
-				factor = -2
-				clergymen = 0.036
-			}			
-			modifier = {
+		}	
+		modifier = {
 				factor = -500
-				clergymen = 0.04
-			}						
+				clergymen = 0.03
+				NOT = { location = { life_rating = 32 } }
 		}
+        modifier = {
+				factor = -500
+				clergymen = 0.034
+				NOT = { location = { life_rating = 34 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.038
+				NOT = { location = { life_rating = 36 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.042
+				NOT = { location = { life_rating = 38 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.046
+				NOT = { location = { life_rating = 40 } }
+		}
+        modifier = {
+				factor = -500
+				clergymen = 0.05
+		}
+		modifier = {
+                        factor = -500
+                        clergymen = 0.025 
+						        OR = {
+                                        terrain = ocean
+                						terrain = arctic
+                						terrain = farmlands
+                						terrain = forest
+                						terrain = woods
+                						terrain = steppe
+                						terrain = plains
+                						terrain = hills
+               						    terrain = mountain
+                						terrain = hilly_grassland
+                						terrain = semi_desert
+                						terrain = desert
+                						terrain = boreal_forest
+                						terrain = jungle	
+                                        terrain = port_city										
+                                }
+        }
 		group = {
 			modifier = {
 				factor = -0.1

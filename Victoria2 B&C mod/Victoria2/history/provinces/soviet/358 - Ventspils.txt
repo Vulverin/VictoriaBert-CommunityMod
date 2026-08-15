@@ -4,5 +4,5 @@ add_core = RUS
 add_core = UBD
 add_core = LAT
 add_core = PLC
-trade_goods = fish
+trade_goods = grain
 life_rating = 35

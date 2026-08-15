@@ -421,53 +421,6 @@ province_event = {
 	}
 }
 
-# Bovine Fever
-province_event = {
-	id = 12080
-	title = "EVTNAME12080"
-	desc = "EVTDESC12080"
-	
-	trigger = {
-		produces = cattle
-		owner = {
-			cattle = 15
-		}
-	}
-	mean_time_to_happen = {
-		months = 800
-		modifier = {
-			factor = 0.7
-			owner = {
-				cattle = 500
-			}
-		}
-		modifier = {
-			factor = 0.8
-			NOT = {
-				poor_strata_life_needs = 0.9
-			}
-		}
-		modifier = {
-			factor = 1.5
-			average_consciousness = 5
-		}
-	}
-
-	option = {
-		name = "EVTOPTA12080"
-		owner = {
-			cattle = -15
-		}
-	}
-	
-	option = {
-		name = "EVTOPTB12080"
-		farmers = {
-			militancy = 1
-		}
-	}
-}
-
 # Death In The Silk Fields
 province_event = {
 	id = 12090
@@ -1108,48 +1061,6 @@ province_event = {
 	}
 }
 
-# The Old Man and The Sea
-province_event = {
-	id = 12210
-	title = "EVTNAME12210"
-	desc = "EVTDESC12210"
-	
-	trigger = {
-		produces = fish
-		is_coastal = yes
-	}
-	
-	mean_time_to_happen = {
-		months = 1000
-		modifier = {
-			factor = 0.9
-			NOT = {
-				poor_strata_life_needs = 0.9
-			}
-		}
-		modifier = {
-			factor = 1.5
-			average_militancy = 5
-		}
-		modifier = {
-			factor = 1.5
-			average_consciousness = 5
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA12210"
-		owner = {
-			fish = 50
-		}
-	}
-	option = {
-		name = "EVTOPTB12210"
-		poor_strata = {
-			militancy = -0.5
-		}
-	}
-}
 
 # A trader from $COUNTRY$
 province_event = {

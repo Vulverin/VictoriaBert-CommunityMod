@@ -1,7 +1,7 @@
 owner = FRA
 controller = FRA
 add_core = FRA terrain = port_city 
-trade_goods = fish
+trade_goods = grain
 life_rating = 31 
 naval_base = 2
 1861.1.1 = {

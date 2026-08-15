@@ -67,12 +67,6 @@ promotion_chance =
 	group = {
 		modifier = {
 			factor = 0.05
-			life_needs = 0.1
-                        strata = poor
-                        military_spending = 0.1	
-		}
-		modifier = {
-			factor = 0.1
                         strata = poor 
                         military_spending = 0.9
 		}
@@ -90,7 +84,7 @@ promotion_chance =
 
         group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.05
                         strata = poor 
                         administration_spending = 0.9
 		}
@@ -112,7 +106,7 @@ promotion_chance =
 	}
         group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.05
                         strata = poor 
                         education_spending = 0.9
 		}
@@ -150,7 +144,7 @@ promotion_chance =
 		}
 	}
         modifier = {
-		factor = 0.15
+		factor = 0.1
 		country = { trade_policy = free_trade }
 	}
 	modifier = {
@@ -168,16 +162,50 @@ promotion_chance =
 
 
         modifier = {
-		factor = -0.2
+		factor = -0.15
 		country = {
 			has_country_flag = serfdom_not_abolished
 		}
+                OR = {
+                                        terrain = ocean
+                			terrain = arctic
+                			terrain = farmlands
+                			terrain = forest
+                		        terrain = woods
+                			terrain = steppe
+                			terrain = plains
+                			terrain = hills
+                                        terrain = mountain
+                			terrain = hilly_grassland
+                			terrain = semi_desert
+                			terrain = desert
+                			terrain = boreal_forest
+                			terrain = jungle	
+                                        terrain = port_city										
+                                }
 	}
         modifier = {
-		factor = -0.3
+		factor = -0.2
 		country = {
 			has_country_flag = asia_reduced_convrt
 		}
+                OR = {
+                                        terrain = ocean
+                			terrain = arctic
+                			terrain = farmlands
+                			terrain = forest
+                		        terrain = woods
+                			terrain = steppe
+                			terrain = plains
+                			terrain = hills
+                                        terrain = mountain
+                			terrain = hilly_grassland
+                			terrain = semi_desert
+                			terrain = desert
+                			terrain = boreal_forest
+                			terrain = jungle	
+                                        terrain = port_city										
+                                }
 	}
 	modifier = {
 		factor = -0.1
@@ -236,63 +264,93 @@ demotion_chance =
 			}
 	}
 	modifier = {
-		factor = -0.1
-		not = { culture = this }
+		factor = -0.04
 		strata = poor
+                OR = {
+                                        terrain = ocean
+                			terrain = arctic
+                			terrain = farmlands
+                			terrain = forest
+                		        terrain = woods
+                			terrain = steppe
+                			terrain = plains
+                			terrain = hills
+                                        terrain = mountain
+                			terrain = hilly_grassland
+                			terrain = semi_desert
+                			terrain = desert
+                			terrain = boreal_forest
+                			terrain = jungle	
+                                        terrain = port_city										
+                }
 	}
+        group = {
 		modifier = {
-			factor = -0.02
-			not = { literacy = 0.1 }
+			factor = -0.01
+			not = { literacy = 0.9 }
 		}
 		modifier = {
-			factor = -0.02
-			not = { literacy = 0.15 }
-		}
-		modifier = {
-			factor = -0.02
-			not = { literacy = 0.2 }
-		}
-		modifier = {
-			factor = -0.02
-			not = { literacy = 0.3 }
-		}
-		modifier = {
-			factor = -0.02
-			not = { literacy = 0.4 }
-		}
-		modifier = {
-			factor = -0.02
-			not = { literacy = 0.5 }
-		}
-		modifier = {
-			factor = -0.02
-			not = { literacy = 0.6 }
-		}
-		modifier = {
-			factor = -0.02
-			not = { literacy = 0.7 }
-		}
-		modifier = {
-			factor = -0.02
+			factor = -0.01
 			not = { literacy = 0.8 }
 		}
 		modifier = {
-			factor = -0.02
-			not = { literacy = 0.9 }
+			factor = -0.01
+			not = { literacy = 0.7 }
 		}
-
-	group = {
 		modifier = {
-			factor = 0.1
+			factor = -0.01
+			not = { literacy = 0.6 }
+		}
+		modifier = {
+			factor = -0.01
+			not = { literacy = 0.5 }
+		}
+		modifier = {
+			factor = -0.01
+			not = { literacy = 0.4 }
+		}
+		modifier = {
+			factor = -0.01
+			not = { literacy = 0.3 }
+		}
+		modifier = {
+			factor = -0.01
+			not = { literacy = 0.2 }
+		}
+		modifier = {
+			factor = -0.01
+			not = { literacy = 0.15 }
+		}
+		modifier = {
+			factor = -0.01
+			not = { literacy = 0.1 }
+		}
+	}
+
+	group = {                
+                modifier = {
+			factor = 0.06
+			not = { everyday_needs = 0.7 }
+		}
+                modifier = {
+			factor = 0.06
+			not = { everyday_needs = 0.6 }
+		}
+		modifier = {
+			factor = 0.06
 			not = { everyday_needs = 0.5 }
 		}
-		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.25 }
+                modifier = {
+			factor = 0.06
+			not = { everyday_needs = 0.4 }
 		}
 		modifier = {
-			factor = 0.1
-			not = { everyday_needs = 0.1 }
+			factor = 0.05
+			not = { everyday_needs = 0.3 }
+		}
+		modifier = {
+			factor = 0.05
+			not = { everyday_needs = 0.2 }
 		}
 	}
 		modifier = {
@@ -304,12 +362,14 @@ demotion_chance =
 
 	group = {
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			not = { luxury_needs = 0.25 }
+                        NOT = { strata = poor }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			not = { luxury_needs = 0.1 }
+                        NOT = { strata = poor }
 		}
 	}
 		modifier = {
@@ -367,7 +427,15 @@ demotion_chance =
 		}
 		modifier = {
 			factor = 0.1
+			unemployment = 0.15
+		}
+                modifier = {
+			factor = 0.15
 			unemployment = 0.2
+		}
+		modifier = {
+			factor = 0.15
+			unemployment = 0.25
 		}
 		modifier = {
 			factor = 0.5
@@ -387,6 +455,82 @@ migration_chance =
 {
 	factor = 1
 
+        group = {
+                modifier = {
+			factor = 0.02
+			literacy = 0.3
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.4
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.5
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.8
+		}
+		modifier = {
+			factor = 0.02
+			literacy = 0.9
+		}
+	}
+        modifier = {
+			factor = 0.1
+                        NOT = { location = { life_rating = 40 } }
+			OR = {
+                                        terrain = ocean
+                			terrain = arctic
+                			terrain = farmlands
+                			terrain = forest
+                		        terrain = woods
+                			terrain = steppe
+                			terrain = plains
+                			terrain = hills
+                                        terrain = mountain
+                			terrain = hilly_grassland
+                			terrain = semi_desert
+                			terrain = desert
+                			terrain = boreal_forest
+                			terrain = jungle	
+                                        terrain = port_city										
+                                }
+	}
+        modifier = {
+			factor = -0.15
+                        OR = { 
+                        location = { life_rating = 40 }
+			NOT = {
+                        OR = {
+                                        terrain = ocean
+                			terrain = arctic
+                			terrain = farmlands
+                			terrain = forest
+                		        terrain = woods
+                			terrain = steppe
+                			terrain = plains
+                			terrain = hills
+                                        terrain = mountain
+                			terrain = hilly_grassland
+                			terrain = semi_desert
+                			terrain = desert
+                			terrain = boreal_forest
+                			terrain = jungle	
+                                        terrain = port_city										
+                                }
+                         }
+                         }
+	}
         modifier = {
 		factor = 0.05
 		OR = {
@@ -437,28 +581,28 @@ migration_chance =
 		}
 	}
 	
-	group = {
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 35 } }
-		}
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 34 } }
-		}
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 33 } }
-		}
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 32 } }
-		}
-		modifier = {
-			factor = -0.01
-			NOT = { location = { life_rating = 31 } }
-		}
-	}
+#	group = {
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 35 } }
+#		}
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 34 } }
+#		}
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 33 } }
+#		}
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 32 } }
+#		}
+#		modifier = {
+#			factor = -0.01
+#			NOT = { location = { life_rating = 31 } }
+#		}
+#	}
 	
 	modifier = {
 			factor = -0.3
@@ -723,19 +867,19 @@ emigration_chance =
 
 	group = {
 		modifier = {
-			factor = 0.12
+			factor = 0.15
 			not = { life_needs = 0.9 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
 		}
 		modifier = {
-			factor = 0.15
+			factor = 0.2
 			not = { life_needs = 0.8 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
 		}
 		modifier = {
-			factor = 0.2
+			factor = 0.25
 			not = { life_needs = 0.7 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
@@ -845,7 +989,7 @@ emigration_chance =
 	}
 	group = {
 		modifier = {
-			factor = -0.2
+			factor = -0.15
 			unemployment = 0.1
 			pop_type = craftsmen
 			state_scope = {
@@ -853,7 +997,7 @@ emigration_chance =
 			}
 		}
 		modifier = {
-			factor = -0.2
+			factor = -0.15
 			unemployment = 0.2
 			pop_type = craftsmen
 			state_scope = {
@@ -861,7 +1005,7 @@ emigration_chance =
 			}
 		}
 		modifier = {
-			factor = -0.2
+			factor = -0.15
 			unemployment = 0.3
 			pop_type = craftsmen
 			state_scope = {
@@ -882,6 +1026,23 @@ emigration_chance =
 		country = { citizenship_policy = residency }
 		not = { culture = this }
 	}
+         
+        group = {
+		modifier = {
+			factor = 0.05
+                        literacy = 0.3
+		}
+		modifier = {
+			factor = 0.04
+                        literacy = 0.5
+		}
+		modifier = {
+			factor = 0.03
+                        literacy = 0.8
+		}
+		
+	}
+        
 
 	modifier = {
 		factor = -0.6
@@ -910,9 +1071,9 @@ emigration_chance =
 	}
         
 	modifier = {
-		factor = -0.2
+		factor = -1.2
 		OR = {
-                        AND = {
+                       AND = {
                                 country = { government = colonial_company }
                                 country = { NOT = { has_country_flag = chinese_concs } }
                         }

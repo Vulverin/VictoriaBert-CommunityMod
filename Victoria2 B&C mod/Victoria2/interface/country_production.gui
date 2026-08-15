@@ -511,7 +511,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "sort_by_name"
-				position = { x= 870 y = 116}
+				position = { x= 35 y = 116}
 				quadTextureSprite = "GFX_sortbutton_120"		
 				buttonText="PRODUCTION_SORT_BY_NAME"	
 				buttonFont = "vic_18_black"
@@ -531,7 +531,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "sort_by_infra"
-				position = { x= 33 y = 116}
+				position = { x= 870 y = 116}
 				quadTextureSprite = "GFX_sortbutton_120"		
 				buttonText="PRODUCTION_SORT_BY_INFRA"	
 				buttonFont = "vic_18_black"
@@ -816,11 +816,11 @@ guiTypes = {
 	windowType = {
 		name = "goods_filter_template"
 		backGround =""
-		size = { x=31  y=31 }
+		size = { x=29  y=20 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
-		verticalBorder = ""
+		verticalBorder = "0"
 		fullScreen = no
 		orientation="UPPER_LEFT"
 		
@@ -838,7 +838,7 @@ guiTypes = {
 		iconType = {
 			name = "goods_type"
 			spriteType = "GFX_resources_transparent"
-			position = { x=2 y =2 }
+			position = { x=0 y =0 }
 		}	
 	}
 
