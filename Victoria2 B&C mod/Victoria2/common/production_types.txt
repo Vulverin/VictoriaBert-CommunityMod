@@ -16,13 +16,13 @@ factory_template = {
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.5
+			amount = 0.8
 		}		
 		{ 
 			poptype = clerks 
-			effect = throughput
-			effect_multiplier = 1.7
-			amount = 0.5
+			effect = output
+			effect_multiplier = 1.0
+			amount = 0.2
 		}
 	}
 	type = factory
@@ -45,13 +45,13 @@ cheap_factory_template = {
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.5
+			amount = 0.8
 		}		
 		{ 
 			poptype = clerks 
-			effect = throughput
-			effect_multiplier = 1.7
-			amount = 0.5
+			effect = output
+			effect_multiplier = 1.0
+			amount = 0.2
 		}
 	}
 	type = factory
@@ -74,13 +74,13 @@ cement_factory_template = {
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.5
+			amount = 0.8
 		}		
 		{ 
 			poptype = clerks 
-			effect = throughput
-			effect_multiplier = 1.7
-			amount = 0.5
+			effect = output
+			effect_multiplier = 1.0
+			amount = 0.2
 		}
 	}
 	type = factory
@@ -101,13 +101,13 @@ machine_part_user_template = {
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.5
+			amount = 0.8
 		}		
 		{ 
 			poptype = clerks 
-			effect = throughput
-			effect_multiplier = 1.7
-			amount = 0.5
+			effect = output
+			effect_multiplier = 1.0
+			amount = 0.2
 		}
 	
 	}
@@ -158,13 +158,13 @@ modern_factory_template = {
 		{ 
 			poptype = craftsmen
 			effect = throughput
-			amount = 0.5
+			amount = 0.8
 		}		
 		{ 
 			poptype = clerks 
-			effect = throughput
-			effect_multiplier = 1.7
-			amount = 0.5
+			effect = output
+			effect_multiplier = 1.0
+			amount = 0.2
 		}
 	
 	}
@@ -241,7 +241,7 @@ radio_factory = {
 telephone_factory = {       
 	template = machine_part_user_template	#154
 	input_goods = {       
-		electric_gear = 5		#250
+		electric_gear = 3.5
                 glass = 5			#208
 	}
 	output_goods = telephones 
@@ -369,7 +369,7 @@ luxury_furniture_factory = {
 synthetic_sulfur_factory = {       
     template = factory_template
     input_goods = {
-        shares = 35
+        shares = 2.5
     }
     output_goods = sulphur
     value = 3.5
@@ -576,7 +576,7 @@ canned_food_factory = {
 dye_factory = {       
 	template = cheap_factory_template	#24
 	input_goods = {     
-		shares = 13
+		shares = 2
 	}
 	output_goods = dye 
 	value = 1.4
@@ -590,7 +590,7 @@ dye_factory = {
 winery = {       
 	template = factory_template	#50
 	input_goods = {  
-		grain = 20
+		grain = 14
 		glass = 3		#70
 	}
 	output_goods = wine 
